@@ -1,13 +1,391 @@
+<meta charset="utf-8" emacsmode="-*- markdown -*-"><link rel="stylesheet" href="https://casual-effects.com/markdeep/latest/slate.css?">
+<link rel="stylesheet" href="https://casual-effects.com/markdeep/latest/dark.css?">
+
+
+
 <h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hey, nice to see you.</h1>
 
 <p>Welcome to my page! </br> 
 I'm Tom Connors, data scientist and software developer in <b>Boston</b> <img src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/tree.svg?raw=true" width="20"/> </p>
 
+Some pictures you can find below:
 - [Flu vs. Covid 1916 to December 2020](#flu-vs-covid-1916-to-december-2020)
 - [WHO 2020 Global flu counts](#who-2020-global-flu-counts)
 - [Deaths per week USA 2015-2020](#deaths-per-week-usa-2015-2020)
 - [UK daily deaths 2015-2020](#uk-daily-deaths-2015-2020)
 - [CDC survival rates by age September 2020](#cdc-survival-rates-by-age-september-2020)
+
+
+Videos
+----------------------------------------------------------------
+
+Video file extensions are automatically detected and will embed a small video
+player:
+
+     ![A video](rocket.mp4)
+
+
+URLs for Youtube and Vimeo videos will also automatically embed a video player:
+
+![State Zero](https://www.youtube.com/watch?v=QgPMyvZMBY0)
+
+![Figure [fig:boy]: The Boy with a Camera For a Face](https://vimeo.com/channels/staffpicks/151493973)
+
+URLs for images may be surrounded in optional `"` quotation `"` marks. If your URL contains
+parentheses, then it _must_ be surrounded in quotation marks to make it unambigious. 
+
+Recall that URLs are not permitted to contain spaces (by their specification), so to embed
+a local image whose filename has a space, either rename the file or replace the spaces
+with `%20` in the URL version of the name.
+
+Admonitions
+-----------------------------------------------------------------------------
+
+Admonitions are small break-out boxes with notes, tips, warnings, etc. for the reader. They
+begin with a title line of a pattern of three exclaimation marks, an optional CSS class, and an
+optional title. All following lines that are indented at least three spaces are included in the
+body, which may include multiple paragraphs.
+
+The default stylesheet provides classes for "note" (default), "tip", "warning", and "error".
+These are case insensitive and ignore any colon after the CSS class. Here are some examples:
+
+````````````````````````````````````````````````````````````` none
+!!!
+    I'm a note. Don't mind me, I'm just sitting here.
+
+!!! note
+    Another note.
+
+!!! Tip
+    Close the door on the way out.
+
+!!! WARNING
+    I'm a warning, perhaps. *Something might happen!*
+
+!!! ERROR: Seriously
+    Watch out, something **bad** could happen.
+
+    This is still more error text.
+`````````````````````````````````````````````````````````````
+
+!!!
+    I'm a note. Don't mind me, I'm just sitting here.
+
+!!! note
+    Another note.
+
+!!! Tip
+    Close the door on the way out.
+
+!!! WARNING
+    I'm a warning, perhaps. *Something might happen!*
+
+!!! ERROR: Seriously
+    Watch out, something **bad** could happen.
+
+    This is still more error text.
+
+    Fenced Code Blocks
+    ------------------------------------------------------------------------------
+    
+    Set off large blocks of code using equal-length strings of tilde `~`
+    or back-tick <code>`</code> characters. Each produces a different CSS
+    class so that they can be styled differently. 
+    
+    By default, tilde blocks have lines before and after them and are
+    inset for use as code listings instead of large inline code
+    blocks. Both styles receive syntax coloring and automatic programming
+    language detection.
+    
+    You can override automatic programming language detection by putting
+    the name of the language immediately following the first fence. The
+    supported languages are (capitalization ignored):
+    
+    `bash cs C# cpp C++ css coffeescript html XML http JSON java JavaScript Makefile`
+    `markdown objectivec Objective-C PHP perl python ruby shell armasm glsl go haskell`
+    `kotlin lisp lua matlab R rust scheme swift tex typescript yaml PyxlScript none`
+    
+    You can specify a custom CSS class for a code block by placing its
+    name after the language name.
+    
+    <pre><code>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ C</code>
+    void insertion_sort(int data[], int length) {
+        for (int i = 0; i < length; ++i) {
+           ...
+        }
+    }
+    <code>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</code>
+    </pre>
+    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ C
+    void insertion_sort(int data[], int length) {
+        for (int i = 0; i < length; ++i) {
+           ...
+        }
+    }
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+    
+    Alternative back-tick markup:
+    
+    ````````````````````````````````````
+    def insertionSort(data):
+        for i in range(0, len(data)):
+            j = i;
+    
+            while (j > 0) and (data[j] < data[j - 1]):
+                temp = data[j]
+                data[j] = data[j - 1]
+                data[j] = temp
+                --j
+    ````````````````````````````````````
+
+    ### Code Blocks with Captions
+
+Code listings may have captions:
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Python
+def insertionSort(data):
+    for i in range(0, len(data)):
+        j = i;
+
+        while (j > 0) and (data[j] < data[j - 1]):
+            temp = data[j]
+            data[j] = data[j - 1]
+            data[j] = temp
+            --j
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[Listing [sort]: An insertion sort]
+
+If you don't have a lot of exposition to share, then code blocks can be back to back:
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+printf("Hello\n");
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+printf("World\n");
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Diagrams
+--------------------------------------------------------------------------------
+
+Diagrams can be inserted alongside, as in this      ****************************
+example, or between paragraphs of text as shown     * .---------.              *
+below.                                              * |  Server |<------.      *
+                                                    * '----+----'       |      *
+The diagram parser leaves symbols used as labels    *      |            |      *
+unmodified, so characters like > and ( can appear   *      | DATA CYCLE |      *
+inside of the diagram. In fact, any plain text      *      v            |      *
+may appear in the diagram. In addition to labels,   *  .-------.   .----+----. *
+any un-beautified text will remain in place for     * | Security|  |  File   | *
+use as ASCII art. Thus, the diagram is rarely       * | Policy  +->| Manager | *
+distored by the beautification process.             *  '-------'   '---------' *
+                                                    ****************************
+
+*************************************************************************************************
+*.-------------------.                           ^                      .---.                   *
+*|    A Box          |__.--.__    __.-->         |                      |   |                   *
+*|                   |        '--'               v                      |   |                   *
+*'-------------------'                                                  |   |                   *
+*                       Round                                       *---(-. |                   *
+*  .-----------------.  .-------.    .----------.         .-------.     | | |                   *
+* |   Mixed Rounded  | |         |  / Diagonals  \        |   |   |     | | |                   *
+* | & Square Corners |  '--. .--'  /              \       |---+---|     '-)-'       .--------.  *
+* '--+------------+-'  .--. |     '-------+--------'      |   |   |       |        / Search /   *
+*    |            |   |    | '---.        |               '-------'       |       '-+------'    *
+*    |<---------->|   |    |      |       v                Interior                 |     ^     *
+*    '           <---'      '----'   .-----------.              ---.     .---       v     |     *
+* .------------------.  Diag line    | .-------. +---.              \   /           .     |     *
+* |   if (a > b)     +---.      .--->| |       | |    | Curved line  \ /           / \    |     *
+* |   obj->fcn()     |    \    /     | '-------' |<--'                +           /   \   |     *
+* '------------------'     '--'      '--+--------'      .--. .--.     |  .-.     +Done?+-'      *
+*    .---+-----.                        |   ^           |\ | | /|  .--+ |   |     \   /         *
+*    |   |     | Join                   |   | Curved    | \| |/ | |    \    |      \ /          *
+*    |   |     +---->  |                 '-'  Vertical  '--' '--'  '--  '--'        +  .---.    *
+*    '---+-----'       |                                                            |  | 3 |    *
+*                      v                             not:line    'quotes'        .-'   '---'    *
+*                  .---+--------.            /            A || B   *bold*       |        ^      *
+*                 |   Not a dot  |      <---+---<--    A dash--is not a line    v        |      *
+*                  '---------+--'          /           Nor/is this.            ---              *
+*************************************************************************************************
+[Figure [diagram]: Diagrams can also have captions]
+
+
+Code with line-like symbols is allowed in diagrams and is parsed correctly so
+long as you make it unambiguous:
+
+**********************************************
+*  .-------------------------+--+--------.  
+*  |   --x;       x->y       |__|        |  
+*  |   0  __proto__  __FILE__   <=       |
+*  |   __   a | b              -->   foo |
+*  |  |__|  y--;   x || y  a + b   <--o--+
+*  |__|__|_______________________________|
+**********************************************
+
+
+
+Flow Chart
+--------------------------------------------------------------------------------
+
+*************************************************************************************************
+*                                      .                                                        *
+*   .---------.                       / \                                                       *
+*  |   START   |                     /   \        .-+-------+-.      ___________                *
+*   '----+----'    .-------.    A   /     \   B   | |COMPLEX| |     /           \      .-.      *
+*        |        |   END   |<-----+CHOICE +----->| |       | +--->+ PREPARATION +--->| X |     *
+*        v         '-------'        \     /       | |PROCESS| |     \___________/      '-'      *
+*    .---------.                     \   /        '-+---+---+-'                                 *
+*   /  INPUT  /                       \ /                                                       *
+*  '-----+---'                         '                                                        *
+*        |                             ^                                                        *
+*        v                             |                                                        *
+*  .-----------.                 .-----+-----.        .-.                                       *
+*  |  PROCESS  +---------------->|  PROCESS  |<------+ X |                                      *
+*  '-----------'                 '-----------'        '-'                                       *
+*************************************************************************************************
+
+
+Gantt Chart
+--------------------------------------------------------------------------------
+
+*************************************************************************************************
+*            ║ Preproduction┆       Alpha┆             RC1┆
+* ═══════════╬══════════════╪════════════╪════════════════╪══
+* Story      ║    ▆▆▆▆▆▆▆▆  ┆           ▆┆▆▆▆             ┆
+* Concept Art║       └▆▆▆▆▆▆┆▆▆▆┐        ┆                ┆
+* Modeling   ║              ┆   └▆▆▆▆▆▆▆▆┆▆▆▆▆▆▆▆         ┆
+* Rigging    ║              ┆        └▆▆▆┆▆▆▆▆▆▆▆▆▆▆▆▆    ┆
+* Mechanics  ║        ▆▆▆▆▆▆┆▆▆┐         ┆     ░░░░▆▆▆▆   ┆
+* Engine Code║   ▆▆▆▆▆▆▆┐ │ ┆  └────────▆┆▆▆▆▆▆▆▆▆▆▆▆▆▆   ┆
+* Game Code  ║          └─┴▆┆▆▆▆▆▆▆▆▆▆▆▆▆┆▆▆▆▆ ░░░░   ▆   ┆
+*            ║              ┆            ┆    Freeze      ┆
+*************************************************************************************************
+
+Simple Plot Diagram
+-------------------------------------------------------------------------------
+*************************************************
+*        ▲
+*    Uin ┊   .------------------------
+*        ┊   |                        
+*        ┊   |                        
+*        *---'┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄▶
+*              
+*     Udc▲                          
+* Udc_OK ┊      .---------------------
+*        ┊     /  :                   
+*        ┊    /   :                   
+*        *---'┄┄┄┄:┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄▶
+*                 :<----->:           
+*        ▲          500ms :           
+*        ┊                :           
+*Cpu.Qon ┊┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄.-----------
+*        ┊                |  Inactive 
+*        ┊    Active      |  
+*        *----------------'┄┄┄┄┄┄┄┄┄┄┄▶
+*        
+*************************************************
+
+
+Graphics Diagram
+-------------------------------------------------------------------------------
+*************************************************************************************************
+*                                                                             .                 *
+*    0       3                          P *              Eye /         ^     /                  *
+*     *-------*      +y                    \                +)          \   /  Reflection       *
+*  1 /|    2 /|       ^                     \                \           \ v                    *
+*   *-------* |       |                v0    \       v3           --------*--------             *
+*   | |4    | |7      | ◄╮               *----\-----*                                           *
+*   | *-----|-*     ⤹ +-----> +x        /      v X   \          .-.<--------        o           *
+*   |/      |/       / ⤴               /        o     \        | / | Refraction    / \          *
+*   *-------*       v                 /                \        +-'               /   \         *
+*  5       6      +z              v1 *------------------* v2    |                o-----o        *
+*                                                               v                               *
+*************************************************************************************************
+
+Icon Diagram
+--------------------------------------------------------------------------------
+
+*************************************************************************************************
+*                                      .-.                           .--------.                 *
+*                                   .-+   |                         |          |                *
+*                               .--+       '--.                     |'--------'|                *
+*                              |  Server Cloud |<------------------>| Database |                *
+*                               '-------------'                     |          |                *
+*                                   ^      ^                         '--------'                 *
+*                    Internet       |      |                              ^                     *
+*          .------------------------'      '-------------.                |                     *
+*          |                                             |                v                     *
+*          v                                             v              .------.       .------. *
+*     .--------.      WiFi     .--------.  Bluetooth  .-----.          / #  # /|      / #  # /| *
+*     |        |<------------->|        |<---------->|       |        +------+/| LAN +------+/| *
+*     |Windows |               |  OS X  |            |  iOS  |        |      +/|<--->|      +/| *
+*     +--------+               +--------+            |       |        |Ubuntu+/|     |Ubuntu+/| *
+*    /// ____ \\\             /// ____ \\\           |   o   |        |      +/      |      +/  *
+*   '------------'           '------------'           '-----'         '------'       '------'   *
+*      Laptop 1                 Laptop 2              Tablet 1         Dedicated Server Rack    *
+*************************************************************************************************
+
+Styling Diagrams
+------------------------------------------------------------------------------------
+
+<style>
+.md .inverse svg.diagram {
+  background: #333;
+  stroke: #FFF;
+  fill: #FFF;
+}
+
+.md .inverse svg.diagram .opendot {
+  fill: #333;
+}
+</style><style class="darkreader darkreader--sync" media="screen"></style>
+
+You can use CSS to style all diagrams or individual diagrams. For example,
+the following has light lines on a dark background:
+
+<div class="inverse">
+ ****************************************************
+ *  .---.              .         .----o----.        *
+ *  |    |             |         |    |    |        *
+ *  |    |  --.   |.-- |   |     *----*<---+        *
+ *  |    |  .-.|  |    +--+      |    |____|        *
+ *  |    | |   |  |    |   |     |    |    |        *
+ *  '---'   '-''  '    '   '     o----o--->'        *
+ ****************************************************
+</div>
+
+You can also create unnumbered sections that will not appear in the
+table of contents using parentheses around the pound signs:
+
+(##) Unnumbered H2
+
+
+Multiple Columns
+========================================================================
+<div style="columns:2;-webkit-columns:2;-moz-columns:2;column-gap:3em;-webkit-column-gap:3em;-moz-column-gap:3em">
+You can use the CSS
+[columns](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Columns/Using_multi-column_layouts)
+style to make an HTML multicolumn block. Then, just use regular Markdeep within it and the
+browser will automatically apply your multicolumn layout. 
+
+Browsers are even smart enough to break the columns correctly when
+printing to PDF or to a printer. However, for a long document,
+multiple columns don't work well when displayed on screen. That's
+because there are no discrete "pages" on screen to break columns. So,
+the browser will make each column as long as the entire document,
+which is probably not what you want.
+
+So, multi-column only works well if you know that you have very short
+sections (as in this example), or if you were planning on printing to
+separate pages when done.
+</div>
+
+
+
 
 <h3>Things I code with</h3>
 
@@ -40,28 +418,23 @@ I'm Tom Connors, data scientist and software developer in <b>Boston</b> <img src
 <p></p>
 <h3>My New favorite charts that I think explain alot about this pandemic</h3>
 
-<h3> Flu vs. Covid 1916 to December 2020</h3>  
-
+## Flu vs. Covid 1916 to December 2020  
 <img width="800px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/Flu_Covid_1916_to_December_2020.jpg?raw=true" align="center" alt="Flu vs. Covid 1916 to December 2020" />
 </b>
 
-<h3> WHO 2020 Global flu counts   </h3>
-
+## WHO 2020 Global flu counts   
 <img width="800px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/WHO-2020-Global-flu-counts.jpeg?raw=true" align="center" alt="WHO 2020 Global flu counts" />
 </b>
 
-<h3> Deaths per week USA 2015-2020</h3>   
-
+## Deaths per week USA 2015-2020   
 <img width="800px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/deaths-per-week-USA-2015-2020.png?raw=true" align="center" alt="Deaths per week USA 2015-2020" />
 </b>
 
-<h3> UK daily deaths 2015-2020</h3>   
-
+## UK daily deaths 2015-2020   
 <img width="800px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/UK-daily-deaths-2015-2020-large.jpeg?raw=true" align="center" alt="UK daily deaths 2015-2020" />
 </b>
 
-<h3> CDC survival rates by age September 2020</h3>  
-
+## CDC survival rates by age September 2020  
 <img width="600px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/CDC-survival-rates-by-age-September-2020.jpeg?raw=true" align="center" alt="deaths-per-week-USA-2015-2020" />
 </b>
 
@@ -265,3 +638,6 @@ I'm Tom Connors, data scientist and software developer in <b>Boston</b> <img src
 </br>Last refresh: Monday, January 4, 2:20 AM EST<br />
 <a href="https://github.com/coding-to-music/coding-to-music/blob/master/instructions.md">Create your own here!</a></p>
 <p align="center"><img src="https://github.com/thmsgbrt/thmsgbrt/workflows/README%20build/badge.svg" /> <img alt="Stars" src="https://img.shields.io/github/stars/coding-to-music/coding-to-music?style=flat-square&labelColor=343b41"/> <img alt="Forks" src="https://img.shields.io/github/forks/coding-to-music/coding-to-music?style=flat-square&labelColor=343b41"/></p>
+
+
+<!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="markdeep.min.js" charset="utf-8"></script><script src="https://morgan3d.github.io/markdeep/latest/markdeep.min.js" charset="utf-8"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>
