@@ -1,14 +1,25 @@
-.. all-knowledge documentation master file, created by
-   sphinx-quickstart on Tue Feb  9 14:40:10 2021.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Here is all-knowledge's documentation!
 
-Welcome to all-knowledge's documentation!
+Here it is!!
+
 =========================================
+
+Here is some text explaining some very complicated stuff.::
+
+    print 'hello'
+    >> hello
+
+Not sure how this works
+
+Guide
+^^^^^
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+
+   license
+   help
 
 
 
@@ -18,3 +29,5 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+
