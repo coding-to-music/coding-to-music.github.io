@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'all-knowledge'
+project = 'all-knowledge.info'
 copyright = '2021, Thomas Connors'
 author = 'Thomas Connors'
 
