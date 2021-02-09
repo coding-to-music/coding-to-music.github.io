@@ -9,6 +9,7 @@ Here is some text explaining some very complicated stuff.::
     print 'hello'
     >> hello
 
+Not sure how this works
 
 Guide
 ^^^^^
@@ -28,3 +29,5 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+
