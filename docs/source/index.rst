@@ -18,6 +18,8 @@ Guide
    :maxdepth: 2
    :caption: Contents:
 
+   test1
+   test2
    license
    help
 
