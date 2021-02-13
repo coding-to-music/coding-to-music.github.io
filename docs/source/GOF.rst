@@ -2,6 +2,7 @@ GOF
 ====
 
 By Mohamed Gardoud 
+
 https://www.facebook.com/groups/1113717195767034/?multi_permalinks=1145243942614359&notif_id=1613175766789283&notif_t=group_highlights&ref=notif
 
 In 1999, there were a million patents digitized by IBM and those millions patents were the first time human innovation had been put into an electronic digital searchable format. 
