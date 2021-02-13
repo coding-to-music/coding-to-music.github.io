@@ -47,6 +47,10 @@ The build process is triggered via a webhook, a commit in this repo causes a Git
 
 View Live Server so you can view it locally by clicking on the bottom-right status bottom bar of vscode to display a live working version of the html file being edited
 
+Good description of how to set up python for ReStructuredText
+https://docs.restructuredtext.net/articles/prerequisites.html#install-python-for-most-features
+
+
 Instructions for setting up a more recent version of Python are here:
 https://linuxize.com/post/how-to-install-python-3-8-on-debian-10/
 
