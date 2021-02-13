@@ -18,6 +18,9 @@ Guide
    :maxdepth: 2
    :caption: Contents:
 
+   test1
+   test2
+   GOF
    license
    help
 
