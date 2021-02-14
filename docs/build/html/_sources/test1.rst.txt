@@ -6,7 +6,7 @@ This is test1
 For further information, please visit
 https://github.com/coding-to-music
 
-.. figure:: assets/picture.png
+.. figure:: assets/1985-vaccine-usage.jpg
    :scale: 50 %
    :alt: map to buried treasure
 
@@ -58,11 +58,11 @@ transitions be immediately adjacent.
    +-----------------------+-----------------------+
    | Symbol                | Meaning               |
    +=======================+=======================+
-   | .. image:: tent.png   | Campground            |
+   | .. image:: assets/icons/favicon-32x32.png   | Campground            |
    +-----------------------+-----------------------+
-   | .. image:: waves.png  | Lake                  |
+   | .. image:: assets/icons/favicon-32x32.png  | Lake                  |
    +-----------------------+-----------------------+
-   | .. image:: peak.png   | Mountain              |
+   | .. image:: assets/icons/favicon-32x32.png   | Mountain              |
    +-----------------------+-----------------------+
 
 This format is the most natural and obvious. It was independently invented (no great feat of creation!), and later found to be the format supported by the Emacs table mode:
