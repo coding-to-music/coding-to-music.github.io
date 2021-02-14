@@ -3,13 +3,23 @@ test2
 
 This is test2
 
-For further information, please visit
-https://github.com/coding-to-music
 
-<img width="800px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/Flu_Covid_1916_to_December_2020.jpg?raw=true" align="center" alt="Flu vs. Covid 1916 to December 2020" />
-</b>
 
-<h2> WHO 2020 Global flu counts   </h2>
+.. figure:: assets/Flu_Covid_1916_to_December_2020.jpg
+  :scale: 30 %
+  :alt: Flu vs. Covid 1916 to December 2020 
+
+.. figure:: assets/Flu_Covid_1916_to_December_2020.jpg
+  :scale: 50 %
+  :alt: Flu vs. Covid 1916 to December 2020 
+
+.. figure:: assets/Flu_Covid_1916_to_December_2020.jpg
+  :scale: 80 %
+  :alt: Flu vs. Covid 1916 to December 2020 
+
+WHO 2020 Global flu counts
+
+
 
 <img width="800px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/WHO-2020-Global-flu-counts.jpeg?raw=true" align="center" alt="WHO 2020 Global flu counts" />
 </b>
