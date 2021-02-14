@@ -63,4 +63,43 @@ Read stories, learn through practice, share with others.
 Sphinx, Jekyll, and Hugo, all are static site generators that teams use for web sites and documentation sites. Let’s go through setting up a static site generator and a common CICD system with it.
 https://www.docslikecode.com/learn/
 
+To embed tweets, install this:
+https://pypi.org/project/sphinxcontrib.twitter/#description
 
+```java
+pip3 install sphinxcontrib.twitter
+```
+
+To install pip3
+```java
+sudo apt install python3-pip
+```
+
+embedding twitter’s tweet in sphinx
+
+usage:
+
+First of all, add sphinx_tweet_embed to sphinx extension list in conf.py
+
+```java
+extensions = ['sphinxcontrib.twitter']
+```
+
+then use *tweet* directive and *tw* role.
+
+```java
+.. tweet:: https://twitter.com/pypi/status/315214320826978305
+
+You can use display-thread flag to display replyes.
+
+.. tweet:: https://twitter.com/pypi/status/315214320826978305
+
+:tw:`@shomah4a`
+
+.. timeline:: 319830355039371264
+```
+finally, build your sphinx project.
+
+```java
+$ make html
+```
