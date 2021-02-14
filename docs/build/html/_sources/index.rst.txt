@@ -20,6 +20,7 @@ Guide
 
    test1
    test2
+   test3
    GOF
    license
    help
