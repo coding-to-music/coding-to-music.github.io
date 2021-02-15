@@ -17,27 +17,31 @@ This is test2
   :scale: 80 %
   :alt: Flu vs. Covid 1916 to December 2020 
 
+.. figure:: assets/Flu_Covid_1916_to_December_2020.jpg
+  :scale: 100 %
+  :alt: Flu vs. Covid 1916 to December 2020 
+
+
+
+
 WHO 2020 Global flu counts
 
+.. figure:: assets/WHO-2020-Global-flu-counts.jpeg
+  :scale: 100 %
+  :alt: WHO 2020 Global flu counts 
 
+.. figure:: assets/deaths-per-week-USA-2015-2020.png
+  :scale: 100 %
+  :alt: Deaths per week USA 2015-2020 
 
-<img width="800px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/WHO-2020-Global-flu-counts.jpeg?raw=true" align="center" alt="WHO 2020 Global flu counts" />
-</b>
+.. figure:: assets/UK-daily-deaths-2015-2020-large.jpeg.jpg
+  :scale: 100 %
+  :alt: UK daily deaths 2015-2020 
 
-<h2> Deaths per week USA 2015-2020   </h2>
+.. figure:: assets/CDC-survival-rates-by-age-September-2020.jpeg
+  :scale: 100 %
+  :alt: CDC survival rates by age September 2020 
 
-<img width="800px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/deaths-per-week-USA-2015-2020.png?raw=true" align="center" alt="Deaths per week USA 2015-2020" />
-</b>
-
-<h2> UK daily deaths 2015-2020   </h2>
-
-<img width="800px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/UK-daily-deaths-2015-2020-large.jpeg?raw=true" align="center" alt="UK daily deaths 2015-2020" />
-</b>
-
-<h2> CDC survival rates by age September 2020  </h2>
-
-<img width="600px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/CDC-survival-rates-by-age-September-2020.jpeg?raw=true" align="center" alt="deaths-per-week-USA-2015-2020" />
-</b>
 
 
 <h1> Letter to the town of Brookine Massachusetts    </h1> 
