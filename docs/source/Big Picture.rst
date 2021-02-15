@@ -90,13 +90,14 @@ Source: [WHO requests users to follow the instructions for use (IFU) when interp
 
 
 Public Health Department
- How many staff  
+-------------------------
+How many staff  
 ------------------------------------------------------------------------------
- Total Spending  
+Total Spending  
 ------------------------------------------------------------------------------
- Activities Performed  
+Activities Performed  
 ------------------------------------------------------------------------------
- Same for Economic Development Department  
+Same for Economic Development Department  
 ------------------------------------------------------------------------------
 
 Comments about various suggested / recommended / not-recommended Covid virus treatments
@@ -447,21 +448,21 @@ The drug regulator said on its website its experts did not recommend the vaccine
 Children's Vaccine Recommended / Required / Widely Available Schedule 1960's to 2018 
 --------------------------------------------------------------------------------------
 
- 1970-Vaccine-Schedule   
+1970-Vaccine-Schedule   
 ------------------------------------------------------------------------------
 <img width="800px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/1970-Vaccine-Schedule.png?raw=true" align="center" alt="1970 Vaccine Schedule" />
 .. figure:: assets/
   :scale: 60 %
   :alt:  
 
- 1985 Vaccine Usage USA   
+1985 Vaccine Usage USA   
 ------------------------------------------------------------------------------
 <img width="800px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/1985-vaccine-usage.jpg?raw=true" align="center" alt="1985 vaccine usage" />
 .. figure:: assets/
   :scale: 60 %
   :alt:  
 
- Changes in the childhood vaccination schedule 1975-2000    
+Changes in the childhood vaccination schedule 1975-2000    
 ------------------------------------------------------------------------------
 <img width="800px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/Changes-in-the-childhood-vaccination-schedule-1975-2000.png?raw=true" align="center" alt="Changes in the childhood vaccination schedule 1975 2000" />
 .. figure:: assets/
@@ -499,13 +500,13 @@ Children's Vaccine Recommended / Required / Widely Available Schedule 1960's to 
 
 What is the history of vaccines, how much money and what are they used for    
 ------------------------------------------------------------------------------
- What funding and research has been done with vaccines and fertility management  
+What funding and research has been done with vaccines and fertility management  
 --------------------------------------------------------------------------------
- What funding and research has been done with vaccines and nano particles    
+What funding and research has been done with vaccines and nano particles    
 ------------------------------------------------------------------------------
- What are nano particles    
+What are nano particles    
 ------------------------------------------------------------------------------
- Who was Harvard Chemistry Department Chair and nano particle expert Charles Lieber and why was he arrested  
+Who was Harvard Chemistry Department Chair and nano particle expert Charles Lieber and why was he arrested  
 -------------------------------------------------------------------------------------------------------------
 
 
@@ -539,9 +540,9 @@ Government Monitoring and Control
 
 Social Media    
 ------------------------------------------------------------------------------
- How to understand the ways Facebook filters, throttles and amplifies communications     
+How to understand the ways Facebook filters, throttles and amplifies communications     
 --------------------------------------------------------------------------------------
- How to understand the ways Twitter filters, throttles and amplifies communications     
+How to understand the ways Twitter filters, throttles and amplifies communications     
 -------------------------------------------------------------------------------------
 
 When I posted this:
@@ -562,36 +563,47 @@ I am constantly shadowbanned on Twitter
 
 
 
- How to understand the ways Reddit filters, throttles and amplifies communications     
+How to understand the ways Reddit filters, throttles and amplifies communications     
 -----------------------------------------------------------------------------------
+
 Person, identity, and location tracking  
 ------------------------------------------------------------------------------
- How does ad tracking and cookies work across the web     
+
+How does ad tracking and cookies work across the web     
 ------------------------------------------------------------------------------
+
 What are the all-encompassing data vacuums by Palantir and Oracle and Cambridge Analytica  
 -------------------------------------------------------------------------------------------
- What is the Palantir dashboard and who in your local area is viewing it  
+
+What is the Palantir dashboard and who in your local area is viewing it  
 ------------------------------------------------------------------------------
- What was Cambridge Analytica - what is that whole scandal about?     
+What was Cambridge Analytica - what is that whole scandal about?     
 ------------------------------------------------------------------------------
 
 Current Events and their relationship to today's events  
 =======================================================================================
- How to recognize typical Russian sabotage, cause confusion (Brexit etc)     
+
+How to recognize typical Russian sabotage, cause confusion (Brexit etc)     
 ------------------------------------------------------------------------------
- How to understand Brexit     
+
+How to understand Brexit     
 ------------------------------------------------------------------------------
- How to understand the Yellow Vests in France     
+
+How to understand the Yellow Vests in France     
 ------------------------------------------------------------------------------
- How understand the anti-fracking and pipeline protests by young people and indigenous peoples     
+
+How understand the anti-fracking and pipeline protests by young people and indigenous peoples     
 -------------------------------------------------------------------------------------------------
- How to understand NAFTA North American Free Trade Agreement and fossil fuel's effect on sustainable Mexican agriculture     
+
+How to understand NAFTA North American Free Trade Agreement and fossil fuel's effect on sustainable Mexican agriculture     
 --------------------------------------------------------------------------------------------------------------------------
 
 Economics, Fossil Fuels, Pharma, Money, Power  
 =======================================================================================
+
 What are the economic effects of lockdowns    
 ------------------------------------------------------------------------------
+
 How does the lockdowns help and encourage large business but destroy small business    
 ------------------------------------------------------------------------------
 
@@ -606,15 +618,20 @@ Here is a question I posted on Facebook, and also on Twitter
 
 What is the WEF World Economic Forum and Klaus Schwab     
 ------------------------------------------------------------------------------
- What is the WEF World Economic Forum and this proposed / planned Great Reset     
+
+What is the WEF World Economic Forum and this proposed / planned Great Reset     
 ------------------------------------------------------------------------------
- What is the WEF World Economic Forum event at Davos, who goes, anyone from my area?    
+
+What is the WEF World Economic Forum event at Davos, who goes, anyone from my area?    
 --------------------------------------------------------------------------------------
- What is the WEF World Economic Forum relationship to vaccines    
+
+What is the WEF World Economic Forum relationship to vaccines    
 ------------------------------------------------------------------------------
- What is the WEF World Economic Forum relationship with Bill Gates     
+
+What is the WEF World Economic Forum relationship with Bill Gates     
 ------------------------------------------------------------------------------
- What is the WEF World Economic Forum relationship with fossil fuels     
+
+What is the WEF World Economic Forum relationship with fossil fuels     
 ------------------------------------------------------------------------------
 
 
@@ -636,6 +653,7 @@ What is Eugenics and who in history has involvement
 
 Who is with us - who is against lockdowns and injections    
 =======================================================================================
+
 Who are famous people who are questioning the whole narriative of lockdowns and injecting young healthy people  
 ----------------------------------------------------------------------------------------------------------------
 
@@ -647,6 +665,7 @@ Who are famous people who are questioning the whole narriative of lockdowns and 
 
 Who apparently is a fascist in favor of lockdowns and injections of young healthy of reproductive age    
 =========================================================================================================
+
 Who locally is now someone who has lost our trust    
 ------------------------------------------------------------------------------
 
@@ -755,40 +774,55 @@ How you can help
   <li>Here are some suggestions, please add to this list:   </li>
 </ul>
 
- Join the [discord community]()    
+Join the [discord community]()    
 ------------------------------------------------------------------------------
- How to upload content to be included in our research     
+
+How to upload content to be included in our research     
 ------------------------------------------------------------------------------
- Help us with research     
+
+Help us with research     
 ------------------------------------------------------------------------------
 
 Help us with software development     
 ------------------------------------------------------------------------------
- How to look at our project roadmap     
+
+How to look at our project roadmap     
 ------------------------------------------------------------------------------
- How to help automate data collection     
+
+How to help automate data collection     
 ------------------------------------------------------------------------------
- How to get your computer set up     
+
+How to get your computer set up     
 ------------------------------------------------------------------------------
- How to install vscode on your computer     
+
+How to install vscode on your computer     
 ------------------------------------------------------------------------------
- How to set up SSH keys on your computer with vscode     
+
+How to set up SSH keys on your computer with vscode     
 ------------------------------------------------------------------------------
- How to edit Markdown to format documents [Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)  
+
+How to edit Markdown to format documents [Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)  
 ------------------------------------------------------------------------------
- How do use branching in GitHub    
+
+How do use branching in GitHub    
 ------------------------------------------------------------------------------
- How to submit a pull request for someone to accept your submission    
+
+How to submit a pull request for someone to accept your submission    
 ------------------------------------------------------------------------------
- How to use puppeteer to automatically scrape a web page to retrieve data     
+
+How to use puppeteer to automatically scrape a web page to retrieve data     
 ------------------------------------------------------------------------------
- How to buy a $250 chromebook for an awesome development experience     
+
+How to buy a $250 chromebook for an awesome development experience     
 ------------------------------------------------------------------------------
- How to know about how the government is monitoring your Apple computer via the M2 chip     
+
+How to know about how the government is monitoring your Apple computer via the M2 chip     
 -----------------------------------------------------------------------------------------
- How to know about how the government is monitoring your Chromebook     
+
+How to know about how the government is monitoring your Chromebook     
 ------------------------------------------------------------------------------
- How another project 'Minimal Mistakes' guides contributors in their Pull Request process    
+
+How another project 'Minimal Mistakes' guides contributors in their Pull Request process    
 -------------------------------------------------------------------------------------------
 
 ["Contributing set up, create branch, Pull Requests, GitHub Flow"](https://github.com/mmistakes/minimal-mistakes)  

@@ -18,7 +18,7 @@ Guide
    :maxdepth: 2
    :caption: Contents:
 
-   Making Sense of the Pandemic
+   1 Making Sense of the Pandemic
    Big Picture
    Letter to the town of Brookine Massachusetts
    Comments about various suggested or recommended or not-recommended Covid virus treatments 
