@@ -164,8 +164,35 @@ The vertical bar (‘|’) is used for for vertical lines (column separators).
 The plus sign (‘+’) is used for intersections of horizontal and vertical lines.
 Row and column spans are possible simply by omitting the column or row separators, respectively. The header row separator must be complete; in other words, a header cell may not span into the table body. Each cell contains body elements, and may have multiple paragraphs, lists, etc. Initial spaces for a left margin are allowed; the first line of text in a cell determines its left margin.</p>
 <p>Below is a simpler table structure. It may be better suited to manual input than alternative #1, but there is no Emacs editing mode available. One disadvantage is that it resembles section titles; a one-column table would look exactly like section &amp; subsection titles.</p>
+<dl class="docutils">
+<dt>+============ ============ ============ ==============+</dt>
+<dd>Header 1     Header 2     Header 3     Header 4</dd>
+<dt>============ ============ ============ ==============+</dt>
+<dd>Column 1     Column 2    Column 3 &amp; 4 span (Row 1)</dd>
+<dt>+———— ———— —————————+</dt>
+<dd>Column 1 &amp; 2 span       Column 3    - Column 4</dd>
+<dt>+————————- ————  - Row 2 &amp; 3</dt>
+<dd>1            2            3       - span</dd>
+</dl>
+<p>+============ ============ ============ ==============+</p>
 <p>The table begins with a top border of equals signs with a space at each column boundary (regardless of spans). Each row is underlined. Internal row separators are underlines of ‘-‘, with spaces at column boundaries. The last of the optional head rows is underlined with ‘=’, again with spaces at column boundaries. Column spans have no spaces in their underline. Row spans simply lack an underline at the row boundary. The bottom boundary of the table consists of ‘=’ underlines. A blank line is required following a table.</p>
 <p>A minimalist alternative is as follows:</p>
+<p>+====  =====  ========  ========  =======  ====  =====  =====+
+Old State    Input     Action             New State    Notes
++———–  ——–  —————–  ———–+
+ids   types  new type  sys.msg.  dupname  ids   types
++====  =====  ========  ========  =======  ====  =====  =====+
+–    –     explicit  –        –       new   True
+–    –     implicit  –        –       new   False
+None  False  explicit  –        –       new   True
+old   False  explicit  implicit  old      new   True
+None  True   explicit  explicit  new      None  True
+old   True   explicit  explicit  new,old  None  True   [1]
+None  False  implicit  implicit  new      None  False
+old   False  implicit  implicit  new,old  None  False
+None  True   implicit  implicit  new      None  True
+old   True   implicit  implicit  new      old   True
++====  =====  ========  ========  =======  ====  =====  =====+</p>
 <p>There are three forms of hyperlink currently in StructuredText:</p>
 <p>(Absolute &amp; relative URIs.) Text enclosed by double quotes followed by a colon, a URI, and concluded by punctuation plus white space, or just white space, is treated as a hyperlink:</p>
 <p>“Python”:<a class="reference external" href="http://www.python.org/">http://www.python.org/</a>
