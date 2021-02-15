@@ -18,6 +18,7 @@ Guide
    :maxdepth: 2
    :caption: Contents:
 
+   https://readthedocs.org/projects/pandemic-overview/builds/
    Making Sense of the Pandemic
    Letter to the town of Brookine Massachusetts
    Comments about various suggested or recommended or not-recommended Covid virus treatments 
