@@ -2,7 +2,7 @@ test2
 =====
 
 This is test2
-
+--------------
 
 
 .. figure:: assets/Flu_Covid_1916_to_December_2020.jpg
@@ -25,28 +25,30 @@ This is test2
 
 
 WHO 2020 Global flu counts
+---------------------------
 
 .. figure:: assets/WHO-2020-Global-flu-counts.jpeg
-  :scale: 100 %
+  :scale: 80 %
   :alt: WHO 2020 Global flu counts 
 
 .. figure:: assets/deaths-per-week-USA-2015-2020.png
-  :scale: 100 %
+  :scale: 80 %
   :alt: Deaths per week USA 2015-2020 
 
-.. figure:: assets/UK-daily-deaths-2015-2020-large.jpeg.jpg
-  :scale: 100 %
+.. figure:: assets/UK-daily-deaths-2015-2020-large.jpeg
+  :scale: 80 %
   :alt: UK daily deaths 2015-2020 
 
 .. figure:: assets/CDC-survival-rates-by-age-September-2020.jpeg
-  :scale: 100 %
+  :scale: 60 %
   :alt: CDC survival rates by age September 2020 
 
 
 
-<h1> Letter to the town of Brookine Massachusetts    </h1> 
+Letter to the town of Brookine Massachusetts
+=============================================
 
-<h2> FY2021 revised budget revised budget highlights </h2> 
+FY2021 revised budget revised budget highlights  
 
 <br />  
 <img width="800px" src="https://github.com/All-knowledge/pandemic_overview/blob/main/assets/Brookline/FY2021-revised-budget-revised-budget-highlights.png?raw=true" align="center" alt="FY2021-revised-budget-revised-budget-highlights" />
@@ -54,19 +56,19 @@ WHO 2020 Global flu counts
 
 Source: [FY 2021 Revised Budget Presentation to the Select Board](https://www.brooklinema.gov/DocumentCenter/View/21900/Revised-FY2021-Budet-Presentation-to-the-Select-Board-June-2-2020?bidId=)
 
-<h2> FY2021 revised budget assumptions local receipts </h2> 
+FY2021 revised budget assumptions local receipts  
 
 <br />  
 <img width="800px" src="https://github.com/All-knowledge/pandemic_overview/blob/main/assets/Brookline/FY2021-revised-budget-assumptions-local-receipts.png?raw=true" align="center" alt="FY2021-revised-budget-assumptions-local-receipts" />
 </b>
 
-<h2> FY2021 Revised Budget: Departmental Reductions </h2> 
+FY2021 Revised Budget: Departmental Reductions  
 
 <br />  
 <img width="800px" src="https://github.com/All-knowledge/pandemic_overview/blob/main/assets/Brookline/FY2021-revised-budget-dept-reductions.png?raw=true" align="center" alt="FY2021-revised-budget-dept-reductions" />
 </b>
 
-<h2> Brookline Health: Budget 2018-2021 </h2> 
+Brookline Health: Budget 2018-2021  
 
 <br />  
 <img width="800px" src="https://github.com/All-knowledge/pandemic_overview/blob/main/assets/Brookline/Brookline-Health-Budget-2018-2021.png?raw=true" align="center" alt="Brookline-Health-Budget-2018-2021" />
@@ -74,12 +76,12 @@ Source: [FY 2021 Revised Budget Presentation to the Select Board](https://www.br
 
 Source: [Financial Plan - Live Tracking](https://brooklinema.opengov.com/transparency/42952/accountType=expenses&embed=n&breakdown=types&currentYearAmount=cumulative&currentYearPeriod=years&graph=bar&legendSort=coa&month=2&proration=false&saved_view=141455&selection=48FF762B5E4BCEF083F472B45A84F80F&projections=null&projectionType=null&highlighting=null&highlightingVariance=null&year=2020&selectedDataSetIndex=null&fiscal_start=earliest&fiscal_end=latest)
 
-<h2> Brookline Health: Salaries 2018-2021 </h2> 
+Brookline Health: Salaries 2018-2021  
 <br />  
 <img width="800px" src="https://github.com/All-knowledge/pandemic_overview/blob/main/assets/Brookline/Brookline-Health-Salaries-2018-2021.png?raw=true" align="center" alt="Brookline-Health-Salaries-2018-2021" />
 </b>
 
-<h2> WHO official urges world leaders to stop using lockdowns as primary virus control method   </h2> 
+WHO official urges world leaders to stop using lockdowns as primary virus control method    
 <ul>
   <li>The World Health Organization’s special envoy on COVID-19 urged world leaders this week to stop “using lockdowns as your primary control method.”</li>  
   <li>“We in the World Health Organization do not advocate lockdowns as the primary means of control of this virus,” Dr. David Nabarro said to The Spectator’s Andrew Neil. </li>  
@@ -96,7 +98,7 @@ Source: [Financial Plan - Live Tracking](https://brooklinema.opengov.com/transpa
 Source: [MSN "WHO: stop using lockdowns as primary virus control method" October 10 2020](https://www.msn.com/en-us/health/medical/who-official-urges-world-leaders-to-stop-using-lockdowns-as-primary-virus-control-method/ar-BB19TBUo?fbclid=IwAR2ErYb8DhCy3tGuMj8DdolYhmbftMKCfCLEYPW1qT4PCt7uSK9nqnkgx0w)
 
 
-<h2> UK virus cases hospital ICU deaths</h2>
+UK virus cases hospital ICU deaths
 
 <br />  
 <img width="800px" src="https://github.com/All-knowledge/pandemic_overview/blob/main/assets/Brookline/virus-cases-hospital-ICU-deaths.jpeg?raw=true" align="center" alt="virus cases hospital ICU deaths" />
@@ -105,7 +107,7 @@ Source: [MSN "WHO: stop using lockdowns as primary virus control method" October
 Source: [Twitter Christina Pagel @chrischirp Jan 16, 2021](https://twitter.com/chrischirp/status/1350416441498079234)
 
 
-<h2> The WHO is recommending key changes to PCR testing.    </h2>
+The WHO is recommending key changes to PCR testing.    
 
 The WHO is recommending some changes to PCR testing.    
 
@@ -123,14 +125,16 @@ WHO reminds IVD users that **disease prevalence alters the predictive value of t
 Source: [WHO requests users to follow the instructions for use (IFU) when interpreting results for specimens tested using PCR methodology. January 20 2021](https://www.who.int/news/item/20-01-2021-who-information-notice-for-ivd-users-2020-05)
 
 
-<h2> Public Health Department</h2>
+Public Health Department
 <h3> How many staff  </h3>
 <h3> Total Spending  </h3>
 <h3> Activities Performed </h3> 
 <h3> Same for Economic Development Department  </h3>
 
-<h1> Comments about various suggested / recommended / not-recommended Covid virus treatments</h1>  
-<h2> Ivermectin  </h2> 
+Comments about various suggested / recommended / not-recommended Covid virus treatments
+=======================================================================================
+
+Ivermectin   
 
 <img width="600px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/Ivermectin-perscription.jpg?raw=true" align="center" alt="Ivermectin-perscription" />
 </b>
@@ -171,7 +175,7 @@ The margin of safety for compounds of this class is attributable to the fact tha
 Source: [IVERMECTIN POUR-ON FOR CATTLE- ivermectin solution ](https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=b339a104-62b3-4bb8-95e8-41cbff08d754&type=display) 
 
 
-<h2>Hydroxychloroquine</h2>
+<h2>Hydroxychloroquine
 
 <img width="500px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/Hydroxychloroquine.jpeg?raw=true" align="center" alt="Hydroxychloroquine" />
 </b>
@@ -195,7 +199,7 @@ Mr McCullough said “the virus invades inside cells, so we have to use drugs th
 
 “History will look back on that and think it was the worst way to handle a potentially fatal illness."
 
-<h2>Doxycycline</h2>
+<h2>Doxycycline
 
 <img width="500px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/doxycycline-capsules.jpeg?raw=true" align="center" alt="doxycycline-capsules.jpeg" />
 </b>
@@ -218,7 +222,7 @@ Source: [https://en.wikipedia.org/wiki/Doxycycline](https://en.wikipedia.org/wik
 </b>
 
 
-<h2>Azithromycin</h2>
+<h2>Azithromycin
 
 <img width="600px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/azithromycin-250-mg-tablets-2.jpg?raw=true" align="center" alt="doxycycline-study" />
 </b>
@@ -243,9 +247,11 @@ Drug class: Macrolide
 </b>
 
 
-<h1> Events in Medical History we might want to consider   </h1> 
+Events in Medical History we might want to consider
+=======================================================================================
 
-<h2> 1976 Swine Flu Fiasco  </h2> 
+
+1976 Swine Flu Fiasco   
 
 <img width="600px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/1-Ford-Swine-Flu-1975-Rushed-Vaccine-Fiasco.png?raw=true" align="center" alt="1-Ford-Swine-Flu-1975-Rushed-Vaccine-Fiasco" />
 <img width="600px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/2-Ford-Swine-Flu-1975-pandemic-or-no-extraordinary-action.png?raw=true" align="center" alt="2-Ford-Swine-Flu-1975-pandemic-or-no-extraordinary-action" />
@@ -260,7 +266,7 @@ Drug class: Macrolide
 <img width="600px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/WPost-Swine-Flu-4-What-killed-the-program-Guillain-Barre.png?raw=true" align="center" alt="WPost-Swine-Flu-4-What-killed-the-program-Guillain-Barre" />
 
 
-<h2> Tuskgee Medical Experiments - 40 years of untreated Syphlis   </h2> 
+Tuskgee Medical Experiments - 40 years of untreated Syphlis    
 
 <img width="600px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/Azithromycin-1200x675-cropped.png?raw=true" align="center" alt="White doctor injecting black farm worker" />
 </b>
@@ -344,10 +350,12 @@ The purpose of the study was to determine whether penicillin could prevent, not 
 
 Following Cutler’s death in 2003, historian Susan Reverby uncovered the records of the Guatemala experiments while doing research related to the Tuskegee study. She shared her findings with U.S. government officials in 2010. Soon afterward, Secretary of State Hillary Clinton and Secretary of Health and Human Services Kathleen Sebelius issued an apology for the STD study and President Obama called the Guatemalan president to apologize for the experiments.
 
-<h1> Vaccines   </h1> 
+Vaccines    
+=======================================================================================
 
-<h2> COVID-19 Vaccines In the News </h2> 
 
+COVID-19 Vaccines In the News  
+------------------------------------------------------------------------------
 
 <h3>Pfizer drops India vaccine application after regulator seeks local trial</h3> 
 
@@ -384,7 +392,8 @@ The drug regulator said on its website its experts did not recommend the vaccine
 <h3> </h3> 
 
 
-<h2> Children's Vaccine Recommended / Required / Widely Available Schedule 1960's to 2018</h2> 
+Children's Vaccine Recommended / Required / Widely Available Schedule 1960's to 2018 
+------------------------------------------------------------------------------
 
 <h3> 1970-Vaccine-Schedule  </h3> 
 <img width="800px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/1970-Vaccine-Schedule.png?raw=true" align="center" alt="1970 Vaccine Schedule" />
@@ -408,7 +417,8 @@ The drug regulator said on its website its experts did not recommend the vaccine
 <img width="800px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/2018-Vaccine-Schedule.png?raw=true" align="center" alt="2018-Vaccine-Schedule.png" />
 
 
-<h2> What is the history of vaccines, how much money and what are they used for   </h2> 
+What is the history of vaccines, how much money and what are they used for    
+------------------------------------------------------------------------------
 <h3> What funding and research has been done with vaccines and fertility management </h3> 
 <h3> What funding and research has been done with vaccines and nano particles   </h3> 
 <h3> What are nano particles   </h3> 
@@ -416,18 +426,23 @@ The drug regulator said on its website its experts did not recommend the vaccine
 
 
 
-<h1> FAQ Frequently Asked Questions   </h1> 
-<h2> What do we know?   </h2> 
+FAQ Frequently Asked Questions    
+=======================================================================================
+
+What do we know?    
+------------------------------------------------------------------------------
 
 <ul>
   <li>A virus has been reported.  The virus affects mainly old, infirm, and those with comorbidities - the people who typically die of the flu.</li>  
   <li>The virus also appears to affect PoC more severely  </li>  
 </ul>
 
-<h2> What do we not know?   </h2> 
+What do we not know?    
+------------------------------------------------------------------------------
 
 
-<h2> What is issues with PCR testing and "cases"     </h2> 
+What is issues with PCR testing and "cases"      
+------------------------------------------------------------------------------
 
 <ul>
   <li>PCR "cases" indicates the presence of old inert remnants of inactive pieces of virus  </li>
@@ -439,7 +454,8 @@ This is an excellent overview of the cases issue:
 "Case rate fallacy/false positive paradox" is derived from Bayes theorem. When the incidence of a disease in a population is low, unless the test used has very high specificity, more false positives will be determined than true positives. The difference in the numbers can be quite striking and certainly not inherently understandable."
 [MedPageToday.com - Here's What's Wrong With COVID-19 Case Counts](https://www.medpagetoday.com/infectiousdisease/covid19/89522)
 
-<h2> What would a multi-year chart of "Deaths by Cause and Age" show us and where is that data?   </h2> 
+What would a multi-year chart of "Deaths by Cause and Age" show us and where is that data?    
+------------------------------------------------------------------------------
 
 <ul>
   <li>The CDC last updated the data in 2018 - we have no data from 2019 or 2020 - no cause of death by age.</li>
@@ -447,94 +463,116 @@ This is an excellent overview of the cases issue:
   <li>Why is this simple data being withheld?</li>  
 </ul>
 
-<h2> What are some simple questions that we think do not make any sense </h2> 
+What are some simple questions that we think do not make any sense  
+------------------------------------------------------------------------------
 
 <ul>
   <li>Old infirm w/ comorbidity are dying. So Why inject young healthy of reproductive age?  </li>
     <li>If the supermarket and many stores and business can be open, why not the library?  </li>  
 </ul>
 
-<h2> What items do we consider true, and why?   </h2> 
+What items do we consider true, and why?    
+------------------------------------------------------------------------------
 
 <ul>
   <li>It is completely unrealistic to believe a natural virus jumped out of a bush and caused this pandemic. This is a man-made virus.  </li>
 </ul>
 
-<h2> What items do we consider false, and why?   </h2> 
+What items do we consider false, and why?    
+------------------------------------------------------------------------------
 
 <ul>
   <li>The virus did not come from nature. It has too many advanced gain-of-function features that scientists recently proudly documented in published papers.  </li>  
 </ul>
 
-<h2> Who are the participants, the cast members in this story? </h2> 
+Who are the participants, the cast members in this story?  
+------------------------------------------------------------------------------
 
 - 
 - 
 
-<h2> What are some historical events we might want to recall when considering this pandemic </h2> 
+What are some historical events we might want to recall when considering this pandemic  
+------------------------------------------------------------------------------
 
 - 
 - 
 
-<h2> What is pathogen research, who funds it and how much? </h2> 
+What is pathogen research, who funds it and how much?  
+------------------------------------------------------------------------------
 
 - 
 - 
 
-<h2> Why is Bill Gates seemingly involved in many parts of this story </h2> 
+Why is Bill Gates seemingly involved in many parts of this story  
+------------------------------------------------------------------------------
 
 - 
 - 
 
-<h2> What was Event 201, a multi-day multi-country pandemic preparedless simulation October 2019 </h2> 
+What was Event 201, a multi-day multi-country pandemic preparedless simulation October 2019  
+------------------------------------------------------------------------------
 
 - 
 - 
 
-<h2> What was Wuhan World Military Games, a multi-day 140+ multi-country sports games held at the Wulhan bio lab October 2019 </h2> 
+What was Wuhan World Military Games, a multi-day 140+ multi-country sports games held at the Wulhan bio lab October 2019  
+------------------------------------------------------------------------------
 
 - 
 - 
 
-<h2> What is the Bill and Melinda Gates Foundation and what does it fund </h2> 
+What is the Bill and Melinda Gates Foundation and what does it fund  
+------------------------------------------------------------------------------
 
 
 
-<h1> What is the historical background and timeline of key participants of this pandemic   </h1> 
+What is the historical background and timeline of key participants of this pandemic    
+=======================================================================================
+
 
 - 
 - 
 
-<h2> How is famous Jeffrey Epstein who flew famous people to have massages on islands - how is he involved? </h2> 
+How is famous Jeffrey Epstein who flew famous people to have massages on islands - how is he involved?  
+------------------------------------------------------------------------------
 
 - 
 - 
 
-<h2> Role of the Rockefeller Foundation - John D. Rockefeller owned Standard Oil and was/is as rich as Jeff Bezos. </h2> 
+Role of the Rockefeller Foundation - John D. Rockefeller owned Standard Oil and was/is as rich as Jeff Bezos.  
+------------------------------------------------------------------------------
 
 - 
 - 
 
-<h1> Resources and additional background material     </h1> 
+Resources and additional background material      
+=======================================================================================
 
-<h1> Knowledge vs Noise - our opinions about news and media sources </h1> 
+
+Knowledge vs Noise - our opinions about news and media sources  
+=======================================================================================
 
 - 
 - 
 
-<h2> What are media sources that we try to check every day? </h2> 
+What are media sources that we try to check every day?  
+------------------------------------------------------------------------------
 
 | --- | --- |
 | News or Media Source | Comment |
 - 
 
-<h1> What is narrative control and how is it used to shape public opinion </h1> 
+What is narrative control and how is it used to shape public opinion  
+=======================================================================================
 
 - 
 - 
 
-<h1> Government Monitoring and Control </h1> 
-<h2> Social Media   </h2> 
+Government Monitoring and Control  
+=======================================================================================
+
+Social Media    
+------------------------------------------------------------------------------
 <h3> How to understand the ways Facebook filters, throttles and amplifies communications    </h3> 
 <h3> How to understand the ways Twitter filters, throttles and amplifies communications    </h3> 
 
@@ -551,22 +589,28 @@ I am constantly shadowbanned on Twitter
 
 
 <h3> How to understand the ways Reddit filters, throttles and amplifies communications    </h3> 
-<h2> Person, identity, and location tracking </h2> 
+Person, identity, and location tracking  
+------------------------------------------------------------------------------
 <h3> How does ad tracking and cookies work across the web    </h3> 
-<h2> What are the all-encompassing data vacuums by Palantir and Oracle and Cambridge Analytica </h2> 
+What are the all-encompassing data vacuums by Palantir and Oracle and Cambridge Analytica  
+------------------------------------------------------------------------------
 <h3> What is the Palantir dashboard and who in your local area is viewing it </h3> 
 <h3> What was Cambridge Analytica - what is that whole scandal about?    </h3> 
 
-<h1> Current Events and their relationship to today's events </h1> 
+Current Events and their relationship to today's events  
+=======================================================================================
 <h3> How to recognize typical Russian sabotage, cause confusion (Brexit etc)    </h3> 
 <h3> How to understand Brexit    </h3> 
 <h3> How to understand the Yellow Vests in France    </h3> 
 <h3> How understand the anti-fracking and pipeline protests by young people and indigenous peoples    </h3> 
 <h3> How to understand NAFTA North American Free Trade Agreement and fossil fuel's effect on sustainable Mexican agriculture    </h3> 
 
-<h1> Economics, Fossil Fuels, Pharma, Money, Power </h1> 
-<h2> What are the economic effects of lockdowns   </h2> 
-<h2> How does the lockdowns help and encourage large business but destroy small business   </h2> 
+Economics, Fossil Fuels, Pharma, Money, Power  
+=======================================================================================
+What are the economic effects of lockdowns    
+------------------------------------------------------------------------------
+How does the lockdowns help and encourage large business but destroy small business    
+------------------------------------------------------------------------------
 
 Here is a question I posted on Facebook, and also on Twitter
 <br />  
@@ -574,7 +618,8 @@ Here is a question I posted on Facebook, and also on Twitter
 </b>
 
 
-<h2> What is the WEF World Economic Forum and Klaus Schwab    </h2> 
+What is the WEF World Economic Forum and Klaus Schwab     
+------------------------------------------------------------------------------
 <h3> What is the WEF World Economic Forum and this proposed / planned Great Reset    </h3> 
 <h3> What is the WEF World Economic Forum event at Davos, who goes, anyone from my area?   </h3> 
 <h3> What is the WEF World Economic Forum relationship to vaccines   </h3> 
@@ -582,21 +627,26 @@ Here is a question I posted on Facebook, and also on Twitter
 <h3> What is the WEF World Economic Forum relationship with fossil fuels    </h3> 
 
 
-<h2> What is the role of local officials and public health in the lockdowns   </h2> 
+What is the role of local officials and public health in the lockdowns    
+------------------------------------------------------------------------------
 
 
-<h2> What is fascism and what are examples of it in the past </h2> 
-
-- 
-- 
-
-<h2> What is Eugenics and who in history has involvement   </h2> 
+What is fascism and what are examples of it in the past  
+------------------------------------------------------------------------------
 
 - 
 - 
 
-<h1> Who is with us - who is against lockdowns and injections   </h1> 
-<h2> Who are famous people who are questioning the whole narriative of lockdowns and injecting young healthy people </h2> 
+What is Eugenics and who in history has involvement    
+------------------------------------------------------------------------------
+
+- 
+- 
+
+Who is with us - who is against lockdowns and injections    
+=======================================================================================
+Who are famous people who are questioning the whole narriative of lockdowns and injecting young healthy people  
+------------------------------------------------------------------------------
 
 <ul>
   <li>Ian Brown (British Rocker Stone Roses and solo)</li>
@@ -604,8 +654,10 @@ Here is a question I posted on Facebook, and also on Twitter
   <li>Eric Clapton (British Rocker 1960's to now)  </li>
 </ul>
 
-<h1> Who apparently is a fascist in favor of lockdowns and injections of young healthy of reproductive age   </h1> 
-<h2> Who locally is now someone who has lost our trust   </h2> 
+Who apparently is a fascist in favor of lockdowns and injections of young healthy of reproductive age    
+=======================================================================================
+Who locally is now someone who has lost our trust    
+------------------------------------------------------------------------------
 
 <ul>
   <li></li>  
@@ -613,7 +665,8 @@ Here is a question I posted on Facebook, and also on Twitter
 - Healthcare providers - injecting young healthy to save old infirm? Really? Where is the logic in that?
 - Local officials and public health officials - lock down the library and withhold data of deaths by Cause by Age - why hide simple data?  
 
-<h2> Who are famous medical, research and data scientists people who appear to be supporting lockdowns and healhy young people being injected </h2> 
+Who are famous medical, research and data scientists people who appear to be supporting lockdowns and healhy young people being injected  
+------------------------------------------------------------------------------
 
 <ul>
   <li></li>  
@@ -621,7 +674,8 @@ Here is a question I posted on Facebook, and also on Twitter
 - Nate Silver - FiveThirtyEight.com
 - 
 
-<h2> Who are news people who appear to be supporting lockdowns and healhy young people being injected </h2> 
+Who are news people who appear to be supporting lockdowns and healhy young people being injected  
+------------------------------------------------------------------------------
 
 <ul>
   <li>The Atlantic Monthly - Steve Jobs's wife Powell owns the Atlantic Monthly</li>
@@ -635,14 +689,16 @@ Here is a question I posted on Facebook, and also on Twitter
   <li>Rolling Stone</li>  
 </ul>
  
-<h2> Who are famous media and entertainment people who appear to be supporting lockdowns and healhy young people being injected </h2> 
+Who are famous media and entertainment people who appear to be supporting lockdowns and healhy young people being injected  
+------------------------------------------------------------------------------
 
 <ul>
   <li>Madonna</li>
     <li>AOC</li>  
 </ul>
 
-<h2> What media sources are untrustworty because they are encouraging lockdowns and healthy young people to be injected </h2> 
+What media sources are untrustworty because they are encouraging lockdowns and healthy young people to be injected  
+------------------------------------------------------------------------------
 
 <ul>
   <li>WBUR</li>
@@ -658,16 +714,19 @@ Here is a question I posted on Facebook, and also on Twitter
   <li>Politico, The Hill, Axios</li>
 </ul>
 
-<h2> What messages is the media sending that we feel are incorrect </h2> 
+What messages is the media sending that we feel are incorrect  
+------------------------------------------------------------------------------
 - 
 - 
 
 
-<h1> How you can maintain stability and normalcy and your mental health during these trying times   </h1> 
+How you can maintain stability and normalcy and your mental health during these trying times    
+=======================================================================================
 - 
 - 
 
-<h2> Dystopian Books (and sometimes movies and TV series) </h2> 
+Dystopian Books (and sometimes movies and TV series)  
+------------------------------------------------------------------------------
 
 | ---- |---- |---- |  
 | Book | Author | Relevant Lessons |  
@@ -678,7 +737,8 @@ Here is a question I posted on Facebook, and also on Twitter
 | The Handmaid's Tale | name | classic |  
 
 
-<h2> Dystopian movies and TV series </h2> 
+Dystopian movies and TV series  
+------------------------------------------------------------------------------
 
 | Show | Author | relevance | 
 | ---- |---- |---- |  
@@ -692,10 +752,12 @@ Executive produced by Tim Miller (Deadpool) and legendary filmmaker David Finche
 
 [Watch *Love, Death & Robots* Here](https://www.netflix.com/title/80174608)
 
-<h2> What famous people had words of wisdom we might want to review today   </h2> 
+What famous people had words of wisdom we might want to review today    
+------------------------------------------------------------------------------
 
 
-<h1> How you can help   </h1> 
+How you can help    
+=======================================================================================
 
 <ul>
   <li>There are many ways you can continue your research and help out the community at the same time.</li>  
@@ -706,7 +768,8 @@ Executive produced by Tim Miller (Deadpool) and legendary filmmaker David Finche
 <h3> How to upload content to be included in our research </h3>    
 <h3> Help us with research    </h3> 
 
-<h2> Help us with software development    </h2> 
+Help us with software development     
+------------------------------------------------------------------------------
 <h3> How to look at our project roadmap    </h3> 
 <h3> How to help automate data collection    </h3> 
 <h3> How to get your computer set up    </h3> 
@@ -742,12 +805,15 @@ This guide explains how and why the GitHub workflow works.
 </ul>
   
   
-<h1> License   </h1> 
+License    
+=======================================================================================
 The MIT License (MIT)  
 
 Copyright (c) 2020-2021 Thomas Connors and contributors  
 
-<h2> Source Code is available on GitHub   </h2> 
+Source Code is available on GitHub    
+------------------------------------------------------------------------------
+
 [coding-to-music/coding-to-music.GitHub.io](https://github.com/coding-to-music/coding-to-music.github.io)  
 
 
