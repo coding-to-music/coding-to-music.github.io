@@ -20,7 +20,7 @@ Guide
 
    brookline-letter
    test1
-   test2
+   Big Picture
    test3
    GOF
    license
