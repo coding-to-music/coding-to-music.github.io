@@ -1,8 +1,5 @@
-1976 Swine Flu Fiasco
-======================
-
 1976 Swine Flu Fiasco   
-----------------------
+======================
 
 .. figure:: assets/1-Ford-Swine-Flu-1975-Rushed-Vaccine-Fiasco.png
   :scale: 60 %

@@ -1,8 +1,5 @@
-Tuskgee Medical Experiments - 40 years of untreated Syphlis
-============================================================
-
 Tuskgee Medical Experiments - 40 years of untreated Syphlis    
--------------------------------------------------------------
+==============================================================
 
 
 .. figure:: assets/1-Tuskegee-Experiment-1932-1972.png
@@ -70,7 +67,9 @@ READ MORE: 7 of the More Outrageous Medical Treatments in History
 .. figure:: assets/4-Tuskegee-Experiment-1932-1972.png
   :scale: 60 %
   :alt:  Herman Shaw speaks as President Bill Clinton looks on, during ceremonies at the White House on May 16, 1997. Clinton apologized to the survivors and families of the victims of the Tuskegee Syphilis Study.
+
 *Paul J. Richards/AFP/Getty Images*
+
 *Herman Shaw speaks as President Bill Clinton looks on during ceremonies at the White House on May 16, 1997, during which Clinton apologized to the survivors and families of the victims of the Tuskegee Syphilis Study.*
 
 Tuskegee wasn't the first unethical syphilis study. In 2010, then-President Barack Obama and other federal officials apologized for another U.S.-sponsored experiment, conducted decades earlier in Guatemala. In that study, from 1946 to 1948, nearly 700 men and women—prisoners, soldiers, mental patients—were intentionally infected with syphilis (hundreds more people were exposed to other sexually transmitted diseases as part of the study) without their knowledge or consent.
@@ -78,3 +77,4 @@ Tuskegee wasn't the first unethical syphilis study. In 2010, then-President Bara
 The purpose of the study was to determine whether penicillin could prevent, not just cure, syphilis infection. Some of those who became infected never received medical treatment. The results of the study, which took place with the cooperation of Guatemalan government officials, were never published. The American public health researcher in charge of the project, Dr. John Cutler, went on to become a lead researcher in the Tuskegee experiments.
 
 Following Cutler’s death in 2003, historian Susan Reverby uncovered the records of the Guatemala experiments while doing research related to the Tuskegee study. She shared her findings with U.S. government officials in 2010. Soon afterward, Secretary of State Hillary Clinton and Secretary of Health and Human Services Kathleen Sebelius issued an apology for the STD study and President Obama called the Guatemalan president to apologize for the experiments.
+
