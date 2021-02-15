@@ -1,6 +1,3 @@
-brookline-letter
-================
-
 Letter to the town of Brookine Massachusetts
 =============================================
 
