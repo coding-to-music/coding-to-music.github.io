@@ -18,6 +18,7 @@ Guide
    :maxdepth: 2
    :caption: Contents:
 
+   brookline-letter
    test1
    test2
    test3
