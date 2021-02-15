@@ -97,7 +97,7 @@ Below is a simpler table structure. It may be better suited to manual input than
     Column 1 & 2 span      Column 3    - Column 4
 ------------------------- ------------ - Row 2 & 3
       1            2       3           - span
-=======================================================
+============ ============ ============ ==============
 
 The table begins with a top border of equals signs with a space at each column boundary (regardless of spans). Each row is underlined. Internal row separators are underlines of '-', with spaces at column boundaries. The last of the optional head rows is underlined with '=', again with spaces at column boundaries. Column spans have no spaces in their underline. Row spans simply lack an underline at the row boundary. The bottom boundary of the table consists of '=' underlines. A blank line is required following a table.
 
