@@ -21,6 +21,7 @@ Guide
    brookline-letter
    test1
    Big Picture
+   FAQ Frequently Asked Questions
    test3
    GOF
    license
