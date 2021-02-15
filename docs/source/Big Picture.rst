@@ -346,21 +346,24 @@ How you can maintain stability and normalcy and your mental health during these 
 Dystopian Books (and sometimes movies and TV series)  
 ------------------------------------------------------------------------------
 
-| ---- |---- |---- |  
++------+--------+------------------+
 | Book | Author | Relevant Lessons |  
-| ---- |---- |---- |  
++======+========+==================+
 | Animal Farm | name | classic |  
 | Brave New World | name | classic |  
 | 1984 | name | classic |  
 | The Handmaid's Tale | name | classic |  
++------+--------+------------------+
 
 
 Dystopian movies and TV series  
 ------------------------------------------------------------------------------
 
-| Show | Author | relevance | 
-| ---- |---- |---- |  
++------+--------+------------------+
+| Show | Author | Relevant Lessons |  
++======+========+==================+
 | 12 Monkey's | who | why |  
++------+--------+------------------+
 
 Love, Death and Robots
 love-death-and-robots-zima-blueImage via Netflix
