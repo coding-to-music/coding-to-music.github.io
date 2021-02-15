@@ -1,7 +1,4 @@
 Hydroxychloroquine
-===================
-
-Hydroxychloroquine
 -------------------
 
 .. figure:: assets/Hydroxychloroquine.jpeg

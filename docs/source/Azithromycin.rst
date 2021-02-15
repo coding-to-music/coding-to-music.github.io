@@ -1,7 +1,4 @@
 Azithromycin
-===============
-
-Azithromycin
 -------------
 
 .. figure:: assets/azithromycin-250-mg-tablets-2.jpg

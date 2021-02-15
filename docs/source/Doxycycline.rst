@@ -1,7 +1,4 @@
 Doxycycline
-============
-
-Doxycycline
 ------------
 
 .. figure:: assets/doxycycline-capsules.jpeg

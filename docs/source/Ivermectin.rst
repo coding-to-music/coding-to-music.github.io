@@ -1,7 +1,4 @@
 Ivermectin
-===========
-
-Ivermectin   
 -----------
 
 .. figure:: assets/Ivermectin-perscription.jpg
