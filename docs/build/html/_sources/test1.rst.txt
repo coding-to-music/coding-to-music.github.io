@@ -65,6 +65,7 @@ transitions be immediately adjacent.
    | .. image:: assets/icons/favicon-32x32.png   | Mountain              |
    +-----------------------+-----------------------+
 
+
 This format is the most natural and obvious. It was independently invented (no great feat of creation!), and later found to be the format supported by the Emacs table mode:
 
 +------------+------------+------------+--------------+
@@ -88,15 +89,15 @@ Row and column spans are possible simply by omitting the column or row separator
 
 Below is a simpler table structure. It may be better suited to manual input than alternative #1, but there is no Emacs editing mode available. One disadvantage is that it resembles section titles; a one-column table would look exactly like section & subsection titles.
 
-+============ ============ ============ ==============+
+============ ============ ============ ==============
   Header 1     Header 2     Header 3     Header 4
-============ ============ ============ ==============+
+============ ============ ============ ==============
   Column 1     Column 2    Column 3 & 4 span (Row 1)
-+------------ ------------ ---------------------------+
-    Column 1 & 2 span       Column 3    - Column 4
-+------------------------- ------------  - Row 2 & 3
-      1            2            3       - span
-+============ ============ ============ ==============+
+------------ ------------ ---------------------------
+    Column 1 & 2 span      Column 3    - Column 4
+------------------------- ------------ - Row 2 & 3
+      1            2       3           - span
+=======================================================
 
 The table begins with a top border of equals signs with a space at each column boundary (regardless of spans). Each row is underlined. Internal row separators are underlines of '-', with spaces at column boundaries. The last of the optional head rows is underlined with '=', again with spaces at column boundaries. Column spans have no spaces in their underline. Row spans simply lack an underline at the row boundary. The bottom boundary of the table consists of '=' underlines. A blank line is required following a table.
 
@@ -117,7 +118,7 @@ None  False  implicit  implicit  new      None  False
 old   False  implicit  implicit  new,old  None  False
 None  True   implicit  implicit  new      None  True
 old   True   implicit  implicit  new      old   True
-+====  =====  ========  ========  =======  ====  =====  =====+
+=========================================================
 
 There are three forms of hyperlink currently in StructuredText:
 
