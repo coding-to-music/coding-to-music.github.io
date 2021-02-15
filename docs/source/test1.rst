@@ -85,6 +85,7 @@ The vertical bar ('|') is used for for vertical lines (column separators).
 The plus sign ('+') is used for intersections of horizontal and vertical lines.
 Row and column spans are possible simply by omitting the column or row separators, respectively. The header row separator must be complete; in other words, a header cell may not span into the table body. Each cell contains body elements, and may have multiple paragraphs, lists, etc. Initial spaces for a left margin are allowed; the first line of text in a cell determines its left margin.
 
+
 Below is a simpler table structure. It may be better suited to manual input than alternative #1, but there is no Emacs editing mode available. One disadvantage is that it resembles section titles; a one-column table would look exactly like section & subsection titles.
 
 ============ ============ ============ ==============
@@ -132,5 +133,6 @@ Please refer to the fine manual [GVR2001].
 
 .. [GVR2001] Python Documentation, Release 2.1, van Rossum,
    Drake, et al., http://www.python.org/doc/
+   
 The problem with forms 1 and 2 is that they are neither intuitive nor unobtrusive (they break design goals 5 & 2). They overload double-quotes, which are too often used in ordinary text (potentially breaking design goal 4). The brackets in form 3 are also too common in ordinary text (such as [nested] asides and Python lists like [12]).
 
