@@ -48,40 +48,49 @@ WHO 2020 Global flu counts
 Letter to the town of Brookine Massachusetts
 =============================================
 
-FY2021 revised budget revised budget highlights  
+FY2021 revised budget: revised budget highlights  
+-------------------------------------------------
 
-<br />  
-<img width="800px" src="https://github.com/All-knowledge/pandemic_overview/blob/main/assets/Brookline/FY2021-revised-budget-revised-budget-highlights.png?raw=true" align="center" alt="FY2021-revised-budget-revised-budget-highlights" />
-</b>
+.. figure:: assets/FY2021-revised-budget-revised-budget-highlights.png
+  :scale: 60 %
+  :alt:  FY2021-revised-budget-revised-budget-highlights
 
 Source: [FY 2021 Revised Budget Presentation to the Select Board](https://www.brooklinema.gov/DocumentCenter/View/21900/Revised-FY2021-Budet-Presentation-to-the-Select-Board-June-2-2020?bidId=)
 
-FY2021 revised budget assumptions local receipts  
+FY2021 revised budget: assumptions local receipts  
+-------------------------------------------------
 
-<br />  
-<img width="800px" src="https://github.com/All-knowledge/pandemic_overview/blob/main/assets/Brookline/FY2021-revised-budget-assumptions-local-receipts.png?raw=true" align="center" alt="FY2021-revised-budget-assumptions-local-receipts" />
-</b>
+.. figure:: assets/FY2021-revised-budget-assumptions-local-receipts.png
+  :scale: 60 %
+  :alt:  FY2021-revised-budget-assumptions-local-receipts
 
 FY2021 Revised Budget: Departmental Reductions  
+-------------------------------------------------
 
-<br />  
-<img width="800px" src="https://github.com/All-knowledge/pandemic_overview/blob/main/assets/Brookline/FY2021-revised-budget-dept-reductions.png?raw=true" align="center" alt="FY2021-revised-budget-dept-reductions" />
-</b>
+.. figure:: assets/Brookline/FY2021-revised-budget-dept-reductions.png
+  :scale: 60 %
+  :alt:  FY2021-revised-budget-dept-reductions
 
 Brookline Health: Budget 2018-2021  
+-------------------------------------------------
 
-<br />  
-<img width="800px" src="https://github.com/All-knowledge/pandemic_overview/blob/main/assets/Brookline/Brookline-Health-Budget-2018-2021.png?raw=true" align="center" alt="Brookline-Health-Budget-2018-2021" />
-</b>
+Brookline subdirectory
+
+.. figure:: assets/Brookline-Health-Budget-2018-2021.png
+  :scale: 60 %
+  :alt:  Brookline-Health-Budget-2018-2021
 
 Source: [Financial Plan - Live Tracking](https://brooklinema.opengov.com/transparency/42952/accountType=expenses&embed=n&breakdown=types&currentYearAmount=cumulative&currentYearPeriod=years&graph=bar&legendSort=coa&month=2&proration=false&saved_view=141455&selection=48FF762B5E4BCEF083F472B45A84F80F&projections=null&projectionType=null&highlighting=null&highlightingVariance=null&year=2020&selectedDataSetIndex=null&fiscal_start=earliest&fiscal_end=latest)
 
 Brookline Health: Salaries 2018-2021  
-<br />  
-<img width="800px" src="https://github.com/All-knowledge/pandemic_overview/blob/main/assets/Brookline/Brookline-Health-Salaries-2018-2021.png?raw=true" align="center" alt="Brookline-Health-Salaries-2018-2021" />
-</b>
+-------------------------------------------------
+
+.. figure:: assets/Brookline-Health-Salaries-2018-2021.png
+  :scale: 60 %
+  :alt:  Brookline-Health-Salaries-2018-2021
 
 WHO official urges world leaders to stop using lockdowns as primary virus control method    
+-------------------------------------------------
 <ul>
   <li>The World Health Organization’s special envoy on COVID-19 urged world leaders this week to stop “using lockdowns as your primary control method.”</li>  
   <li>“We in the World Health Organization do not advocate lockdowns as the primary means of control of this virus,” Dr. David Nabarro said to The Spectator’s Andrew Neil. </li>  
@@ -94,6 +103,9 @@ WHO official urges world leaders to stop using lockdowns as primary virus contro
 <br />  
 <img width="800px" src="https://github.com/All-knowledge/pandemic_overview/blob/main/assets/Brookline/WHO-Dr-David-Nabarro-dont-do-lockdowns.jpeg?raw=true" align="center" alt="WHO-Dr-David-Nabarro-dont-do-lockdowns" />
 </b>
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
 
 Source: [MSN "WHO: stop using lockdowns as primary virus control method" October 10 2020](https://www.msn.com/en-us/health/medical/who-official-urges-world-leaders-to-stop-using-lockdowns-as-primary-virus-control-method/ar-BB19TBUo?fbclid=IwAR2ErYb8DhCy3tGuMj8DdolYhmbftMKCfCLEYPW1qT4PCt7uSK9nqnkgx0w)
 
@@ -103,6 +115,9 @@ UK virus cases hospital ICU deaths
 <br />  
 <img width="800px" src="https://github.com/All-knowledge/pandemic_overview/blob/main/assets/Brookline/virus-cases-hospital-ICU-deaths.jpeg?raw=true" align="center" alt="virus cases hospital ICU deaths" />
 </b>
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
 
 Source: [Twitter Christina Pagel @chrischirp Jan 16, 2021](https://twitter.com/chrischirp/status/1350416441498079234)
 
@@ -121,15 +136,22 @@ WHO reminds IVD users that **disease prevalence alters the predictive value of t
 <br />  
 <img width="800px" src="https://github.com/All-knowledge/pandemic_overview/blob/main/assets/Brookline/WHO-Jan-20-2021-PCR-changes.jpeg?raw=true" align="center" alt="WHO Jan 20 2021 PCR changes" />
 </b>
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
 
 Source: [WHO requests users to follow the instructions for use (IFU) when interpreting results for specimens tested using PCR methodology. January 20 2021](https://www.who.int/news/item/20-01-2021-who-information-notice-for-ivd-users-2020-05)
 
 
 Public Health Department
-<h3> How many staff  </h3>
-<h3> Total Spending  </h3>
-<h3> Activities Performed </h3> 
-<h3> Same for Economic Development Department  </h3>
+ How many staff  
+------------------------------------------------------------------------------
+ Total Spending  
+------------------------------------------------------------------------------
+ Activities Performed  
+------------------------------------------------------------------------------
+ Same for Economic Development Department  
+------------------------------------------------------------------------------
 
 Comments about various suggested / recommended / not-recommended Covid virus treatments
 =======================================================================================
@@ -138,6 +160,9 @@ Ivermectin
 
 <img width="600px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/Ivermectin-perscription.jpg?raw=true" align="center" alt="Ivermectin-perscription" />
 </b>
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
 
 Ivermectin, the most promising COVID treatment to date, won its developers the Nobel Prize in Medicine in 2015 and a place on the World Health Organization’s Model List of Essential Medicines. Since the 1980s, with billions of doses given  
 Source: [Trial Site News, By Mary Beth Pfeiffer, December 27 2020 : In Far-Flung Places, COVID-19 Is Being Treated Early And Well. Here’s Why Americans Don’t Know This.](https://trialsitenews.com/in-far-flung-places-covid-19-is-being-treated-early-and-well-heres-why-americans-dont-know-this/) 
@@ -163,6 +188,9 @@ Source: []()
 
 <img width="600px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/Ivermectin-sheep-drench.jpg?raw=true" align="center" alt="Ivermectin-sheep-drench" />
 </b>
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
 
 MODE OF ACTION
 
@@ -179,6 +207,9 @@ Source: [IVERMECTIN POUR-ON FOR CATTLE- ivermectin solution ](https://dailymed.n
 
 <img width="500px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/Hydroxychloroquine.jpeg?raw=true" align="center" alt="Hydroxychloroquine" />
 </b>
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
 
 ‘Only a one in 17 billion chance hydroxychloroquine doesn’t work’: medical professor
 Source: [skynews.com.au, November 29 2020 : ‘Only a one in 17 billion chance hydroxychloroquine doesn’t work’: medical professor](https://www.skynews.com.au/details/_6212859932001?fbclid=IwAR0Qzx3BAeJtPoqN958ZFnc3ckUdfQlEr0zuIly69-Gl-mJ3cmPPmcfRjrE) 
@@ -203,6 +234,9 @@ Mr McCullough said “the virus invades inside cells, so we have to use drugs th
 
 <img width="500px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/doxycycline-capsules.jpeg?raw=true" align="center" alt="doxycycline-capsules.jpeg" />
 </b>
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
 
 Doxycycline is a broad-spectrum tetracycline-class antibiotic used in the treatment of infections caused by bacteria and certain parasites.[1] It is used to treat bacterial pneumonia, acne, chlamydia infections, Lyme disease, cholera, typhus, and syphilis.[1] It is also used to prevent malaria and in combination with quinine, to treat malaria.[1] Doxycycline may be taken by mouth or by injection into a vein.[1]
 
@@ -214,18 +248,30 @@ Source: [https://en.wikipedia.org/wiki/Doxycycline](https://en.wikipedia.org/wik
 
 <img width="800px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/doxycycline-study.jpeg?raw=true" align="center" alt="doxycycline-study" />
 </b>
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
 
 <img width="600px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/Doxycycline_for_STIs.jpg?raw=true" align="center" alt="doxycycline for STIs" />
 </b>
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
 
 <img width="600px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/Effect-of-doxycycline-on-the-cell-viability-and-cell-cycle-A-IC-50-mM-dose-of.png?raw=true" align="center" alt="doxycycline-on-the-cell-viability" />
 </b>
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
 
 
 <h2>Azithromycin
 
 <img width="600px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/azithromycin-250-mg-tablets-2.jpg?raw=true" align="center" alt="doxycycline-study" />
 </b>
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
 
 Common brands: Zithromax, Zithromax Z-Pak, Zmax
 
@@ -245,6 +291,9 @@ Drug class: Macrolide
 
 <img width="600px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/azithromycin-250-mg-tablets.jpg?raw=true" align="center" alt="White doctor injecting black farm worker" />
 </b>
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
 
 
 Events in Medical History we might want to consider
@@ -254,38 +303,92 @@ Events in Medical History we might want to consider
 1976 Swine Flu Fiasco   
 
 <img width="600px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/1-Ford-Swine-Flu-1975-Rushed-Vaccine-Fiasco.png?raw=true" align="center" alt="1-Ford-Swine-Flu-1975-Rushed-Vaccine-Fiasco" />
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
+
 <img width="600px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/2-Ford-Swine-Flu-1975-pandemic-or-no-extraordinary-action.png?raw=true" align="center" alt="2-Ford-Swine-Flu-1975-pandemic-or-no-extraordinary-action" />
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
+
 <img width="600px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/3-Ford-Swine-Flu-1975-mass-innoculations.png?raw=true" align="center" alt="3-Ford-Swine-Flu-1975-mass-innoculations" />
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
+
 <img width="600px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/4-Ford-Swine-Flu-1975-disaster-imminent.png?raw=true" align="center" alt="4-Ford-Swine-Flu-1975-disaster-imminent" />
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
+
 <img width="600px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/Swine-Flu-1976-Carter-Califano-Weighing-Harm.png?raw=true" align="center" alt="Swine-Flu-1976-Carter-Califano-Weighing-Harm" />
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
+
 <img width="600px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/Swine-Flu-Vaccine-1976-Fiasco-articles.png?raw=true" align="center" alt="Swine-Flu-Vaccine-1976-Fiasco-articles" />
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
+
 <img width="600px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/Swine-Flu-Vaccine-Deaths-1976-40-million-10-weeks.png?raw=true" align="center" alt="Swine-Flu-Vaccine-Deaths-1976-40-million-10-weeks" />
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
+
 <img width="600px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/WPost-Swine-Flu-1-CDC-samples-in-soldiers.png?raw=true" align="center" alt="WPost-Swine-Flu-1-CDC-samples-in-soldiers" />
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
+
 <img width="600px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/WPost-Swine-Flu-2-unquestioned-gospel.png?raw=true" align="center" alt="WPost-Swine-Flu-2-unquestioned-gospel" />
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
+
 <img width="600px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/WPost-Swine-Flu-3-three-elderly-died-within-hours.png?raw=true" align="center" alt="WPost-Swine-Flu-3-three-elderly-died-within-hours" />
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
+
 <img width="600px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/WPost-Swine-Flu-4-What-killed-the-program-Guillain-Barre.png?raw=true" align="center" alt="WPost-Swine-Flu-4-What-killed-the-program-Guillain-Barre" />
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
 
 
 Tuskgee Medical Experiments - 40 years of untreated Syphlis    
 
 <img width="600px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/Azithromycin-1200x675-cropped.png?raw=true" align="center" alt="White doctor injecting black farm worker" />
 </b>
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
 
 <img width="800px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/1-Tuskegee-Experiment-1932-1972.png?raw=true" align="center" alt="White doctor injecting black farm worker" />
 </b>
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
 
 <i>The National Archives</i>
 
 
 <img width="600px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/1a-Tuskegee-Experiment-1932-1972.png?raw=true" align="center" alt="Tuskgee Medical Experiments - 40 years of untreated Syphlis" />
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
 
-</b>
 
 <img width="600px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/1-zoom-Tuskegee-Experiment-1932-1972.png?raw=true" align="center" alt="Participants in the Tuskegee Syphilis Study" />
 
 <i>Participants in the Tuskegee Syphilis Study.</i>
 
 <i>The National Archives</i>
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
 
 
 UPDATED: DEC 15, 2020 ORIGINAL: MAY 16, 2017
@@ -307,6 +410,9 @@ READ MORE: The ‘Father of Modern Gynecology’ Performed Shocking Experiments 
 <i>A man receiving treatment in the Tuskegee Syphilis Study.</i>
 
 <i>The National Archives</i>
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
 
 The men were monitored by health workers but only given placebos such as aspirin and mineral supplements, despite the fact that penicillin became the recommended treatment for syphilis in 1947, some 15 years into the study. PHS researchers convinced local physicians in Macon County not to treat the participants, and instead research was done at the Tuskegee Institute. (Now called Tuskegee University, the school was founded in 1881 with Booker T. Washington at its first teacher.)
 
@@ -327,6 +433,9 @@ READ MORE: Henrietta Lacks: How Her Cells Became One of the Most Important Medic
 <i>A man receiving treatment in the Tuskegee Syphilis Study.</i>
 
 <i>The National Archives</i>
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
 
 In 1973, Congress held hearings on the Tuskegee experiments, and the following year the study’s surviving participants, along with the heirs of those who died, received a $10 million out-of-court settlement. Additionally, new guidelines were issued to protect human subjects in U.S. government-funded research projects.
 
@@ -343,6 +452,9 @@ READ MORE: 7 of the More Outrageous Medical Treatments in History
 <i>Herman Shaw speaks as President Bill Clinton looks on during ceremonies at the White House on May 16, 1997, during which Clinton apologized to the survivors and families of the victims of the Tuskegee Syphilis Study.</i>
 
 <i>Paul J. Richards/AFP/Getty Images</i>
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
 
 Tuskegee wasn't the first unethical syphilis study. In 2010, then-President Barack Obama and other federal officials apologized for another U.S.-sponsored experiment, conducted decades earlier in Guatemala. In that study, from 1946 to 1948, nearly 700 men and women—prisoners, soldiers, mental patients—were intentionally infected with syphilis (hundreds more people were exposed to other sexually transmitted diseases as part of the study) without their knowledge or consent.
 
@@ -357,7 +469,8 @@ Vaccines
 COVID-19 Vaccines In the News  
 ------------------------------------------------------------------------------
 
-<h3>Pfizer drops India vaccine application after regulator seeks local trial</h3> 
+Pfizer drops India vaccine application after regulator seeks local trial 
+------------------------------------------------------------------------------
 
 <p><a href="https://news.yahoo.com/exclusive-pfizer-withdraws-application-emergency-052857135.html" target="_blank" rel="noopener noreferrer">Pfizer drops India vaccine application after regulator seeks local trial</a>.</p>
 
@@ -383,46 +496,71 @@ Indian health officials say they generally ask for so-called bridging trials to 
 
 The drug regulator said on its website its experts did not recommend the vaccine because of side effects reported abroad were still being investigated. It also said Pfizer had not proposed any plan to generate safety and immunogenicity data in India.
 
-<h3> </h3> 
-
-<h3> </h3> 
-
-<h3> </h3> 
-
-<h3> </h3> 
 
 
 Children's Vaccine Recommended / Required / Widely Available Schedule 1960's to 2018 
 ------------------------------------------------------------------------------
 
-<h3> 1970-Vaccine-Schedule  </h3> 
+ 1970-Vaccine-Schedule   
+------------------------------------------------------------------------------
 <img width="800px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/1970-Vaccine-Schedule.png?raw=true" align="center" alt="1970 Vaccine Schedule" />
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
 
-<h3> 1985 Vaccine Usage USA  </h3> 
+ 1985 Vaccine Usage USA   
+------------------------------------------------------------------------------
 <img width="800px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/1985-vaccine-usage.jpg?raw=true" align="center" alt="1985 vaccine usage" />
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
 
-<h3> Changes in the childhood vaccination schedule 1975-2000   </h3> 
+ Changes in the childhood vaccination schedule 1975-2000    
+------------------------------------------------------------------------------
 <img width="800px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/Changes-in-the-childhood-vaccination-schedule-1975-2000.png?raw=true" align="center" alt="Changes in the childhood vaccination schedule 1975 2000" />
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
 
-<h3> Vaccines in Widespread Use 1985-2020</h3> 
+ Vaccines in Widespread Use 1985-2020 
+------------------------------------------------------------------------------
 <img width="800px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/Vaccines-in-Widespread-Use-1985-2020.png?raw=true" align="center" alt="Vaccines in Widespread Use 1985 2020" />
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
 
-<h3> 1994-1995 Vaccine Schedule  </h3> 
+ 1994-1995 Vaccine Schedule   
+------------------------------------------------------------------------------
 <img width="800px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/1994-1995-Vaccine-Schedule.png?raw=true" align="center" alt="1994 1995 Vaccine Schedule" />
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
 
-<h3> 1995 Vaccine Schedule  </h3> 
+ 1995 Vaccine Schedule   
+------------------------------------------------------------------------------
 <img width="800px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/1995-Vaccine-Schedule.png?raw=true" align="center" alt="1995 Vaccine Schedule" />
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
 
-<h3> 2018 Vaccine Schedule  </h3> 
+ 2018 Vaccine Schedule   
+------------------------------------------------------------------------------
 <img width="800px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/2018-Vaccine-Schedule.png?raw=true" align="center" alt="2018-Vaccine-Schedule.png" />
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
 
 
 What is the history of vaccines, how much money and what are they used for    
 ------------------------------------------------------------------------------
-<h3> What funding and research has been done with vaccines and fertility management </h3> 
-<h3> What funding and research has been done with vaccines and nano particles   </h3> 
-<h3> What are nano particles   </h3> 
-<h3> Who was Harvard Chemistry Department Chair and nano particle expert Charles Lieber and why was he arrested </h3> 
+ What funding and research has been done with vaccines and fertility management  
+------------------------------------------------------------------------------
+ What funding and research has been done with vaccines and nano particles    
+------------------------------------------------------------------------------
+ What are nano particles    
+------------------------------------------------------------------------------
+ Who was Harvard Chemistry Department Chair and nano particle expert Charles Lieber and why was he arrested  
+------------------------------------------------------------------------------
 
 
 
@@ -573,37 +711,54 @@ Government Monitoring and Control
 
 Social Media    
 ------------------------------------------------------------------------------
-<h3> How to understand the ways Facebook filters, throttles and amplifies communications    </h3> 
-<h3> How to understand the ways Twitter filters, throttles and amplifies communications    </h3> 
+ How to understand the ways Facebook filters, throttles and amplifies communications     
+------------------------------------------------------------------------------
+ How to understand the ways Twitter filters, throttles and amplifies communications     
+------------------------------------------------------------------------------
 
 When I posted this:
 <br />  
 <img width="600px" src="https://github.com/All-knowledge/pandemic_overview/blob/main/assets/brookline-economic-development-GIS-public-health-storefronts.png?raw=true?raw=true" align="center" alt="brookline-economic-development-GIS-public-health-storefronts" />
 </b>
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
 
 I am constantly shadowbanned on Twitter
 <br />  
 <img width="600px" src="https://github.com/All-knowledge/pandemic_overview/blob/main/assets/twitter-shadowban-example.png?raw=true" align="center" alt="twitter-shadowban-example" />
 </b>
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
 
 
 
-<h3> How to understand the ways Reddit filters, throttles and amplifies communications    </h3> 
+ How to understand the ways Reddit filters, throttles and amplifies communications     
+------------------------------------------------------------------------------
 Person, identity, and location tracking  
 ------------------------------------------------------------------------------
-<h3> How does ad tracking and cookies work across the web    </h3> 
+ How does ad tracking and cookies work across the web     
+------------------------------------------------------------------------------
 What are the all-encompassing data vacuums by Palantir and Oracle and Cambridge Analytica  
 ------------------------------------------------------------------------------
-<h3> What is the Palantir dashboard and who in your local area is viewing it </h3> 
-<h3> What was Cambridge Analytica - what is that whole scandal about?    </h3> 
+ What is the Palantir dashboard and who in your local area is viewing it  
+------------------------------------------------------------------------------
+ What was Cambridge Analytica - what is that whole scandal about?     
+------------------------------------------------------------------------------
 
 Current Events and their relationship to today's events  
 =======================================================================================
-<h3> How to recognize typical Russian sabotage, cause confusion (Brexit etc)    </h3> 
-<h3> How to understand Brexit    </h3> 
-<h3> How to understand the Yellow Vests in France    </h3> 
-<h3> How understand the anti-fracking and pipeline protests by young people and indigenous peoples    </h3> 
-<h3> How to understand NAFTA North American Free Trade Agreement and fossil fuel's effect on sustainable Mexican agriculture    </h3> 
+ How to recognize typical Russian sabotage, cause confusion (Brexit etc)     
+------------------------------------------------------------------------------
+ How to understand Brexit     
+------------------------------------------------------------------------------
+ How to understand the Yellow Vests in France     
+------------------------------------------------------------------------------
+ How understand the anti-fracking and pipeline protests by young people and indigenous peoples     
+------------------------------------------------------------------------------
+ How to understand NAFTA North American Free Trade Agreement and fossil fuel's effect on sustainable Mexican agriculture     
+------------------------------------------------------------------------------
 
 Economics, Fossil Fuels, Pharma, Money, Power  
 =======================================================================================
@@ -616,15 +771,23 @@ Here is a question I posted on Facebook, and also on Twitter
 <br />  
 <img width="600px" src="https://github.com/All-knowledge/pandemic_overview/blob/main/assets/brookline-economic-development-GIS-public-health-storefronts.png?raw=true?raw=true" align="center" alt="brookline-economic-development-GIS-public-health-storefronts" />
 </b>
+.. figure:: assets/
+  :scale: 60 %
+  :alt:  
 
 
 What is the WEF World Economic Forum and Klaus Schwab     
 ------------------------------------------------------------------------------
-<h3> What is the WEF World Economic Forum and this proposed / planned Great Reset    </h3> 
-<h3> What is the WEF World Economic Forum event at Davos, who goes, anyone from my area?   </h3> 
-<h3> What is the WEF World Economic Forum relationship to vaccines   </h3> 
-<h3> What is the WEF World Economic Forum relationship with Bill Gates    </h3> 
-<h3> What is the WEF World Economic Forum relationship with fossil fuels    </h3> 
+ What is the WEF World Economic Forum and this proposed / planned Great Reset     
+------------------------------------------------------------------------------
+ What is the WEF World Economic Forum event at Davos, who goes, anyone from my area?    
+------------------------------------------------------------------------------
+ What is the WEF World Economic Forum relationship to vaccines    
+------------------------------------------------------------------------------
+ What is the WEF World Economic Forum relationship with Bill Gates     
+------------------------------------------------------------------------------
+ What is the WEF World Economic Forum relationship with fossil fuels     
+------------------------------------------------------------------------------
 
 
 What is the role of local officials and public health in the lockdowns    
@@ -764,25 +927,41 @@ How you can help
   <li>Here are some suggestions, please add to this list:   </li>
 </ul>
 
-<h3> Join the [discord community]()   </h3> 
-<h3> How to upload content to be included in our research </h3>    
-<h3> Help us with research    </h3> 
+ Join the [discord community]()    
+------------------------------------------------------------------------------
+ How to upload content to be included in our research     
+------------------------------------------------------------------------------
+ Help us with research     
+------------------------------------------------------------------------------
 
 Help us with software development     
 ------------------------------------------------------------------------------
-<h3> How to look at our project roadmap    </h3> 
-<h3> How to help automate data collection    </h3> 
-<h3> How to get your computer set up    </h3> 
-<h3> How to install vscode on your computer    </h3> 
-<h3> How to set up SSH keys on your computer with vscode    </h3> 
-<h3> How to edit Markdown to format documents [Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) </h3> 
-<h3> How do use branching in GitHub   </h3> 
-<h3> How to submit a pull request for someone to accept your submission   </h3> 
-<h3> How to use puppeteer to automatically scrape a web page to retrieve data    </h3> 
-<h3> How to buy a $250 chromebook for an awesome development experience    </h3> 
-<h3> How to know about how the government is monitoring your Apple computer via the M2 chip </h3>    
-<h3> How to know about how the government is monitoring your Chromebook    </h3> 
-<h3> How another project 'Minimal Mistakes' guides contributors in their Pull Request process   </h3> 
+ How to look at our project roadmap     
+------------------------------------------------------------------------------
+ How to help automate data collection     
+------------------------------------------------------------------------------
+ How to get your computer set up     
+------------------------------------------------------------------------------
+ How to install vscode on your computer     
+------------------------------------------------------------------------------
+ How to set up SSH keys on your computer with vscode     
+------------------------------------------------------------------------------
+ How to edit Markdown to format documents [Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)  
+------------------------------------------------------------------------------
+ How do use branching in GitHub    
+------------------------------------------------------------------------------
+ How to submit a pull request for someone to accept your submission    
+------------------------------------------------------------------------------
+ How to use puppeteer to automatically scrape a web page to retrieve data     
+------------------------------------------------------------------------------
+ How to buy a $250 chromebook for an awesome development experience     
+------------------------------------------------------------------------------
+ How to know about how the government is monitoring your Apple computer via the M2 chip     
+------------------------------------------------------------------------------
+ How to know about how the government is monitoring your Chromebook     
+------------------------------------------------------------------------------
+ How another project 'Minimal Mistakes' guides contributors in their Pull Request process    
+------------------------------------------------------------------------------
 
 ["Contributing set up, create branch, Pull Requests, GitHub Flow"](https://github.com/mmistakes/minimal-mistakes)  
 
@@ -818,7 +997,8 @@ Source Code is available on GitHub
 
 
 
-<h3>Here is an embedded tweet</h3>
+Here is an embedded tweet
+------------------------------------------------------------------------------
 
 <a class="twitter-timeline" href="https://twitter.com/democracynow" data-tweet-limit="1" data-width="399" ></a>
 <script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
