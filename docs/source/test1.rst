@@ -26,16 +26,16 @@ Grid table:
 
 Simple table:
 
-=====  =====  ======
+=====  =====  ========
    Inputs     Output
-------------  ------
+------------  --------
   A      B    A or B
-=====  =====  ======
+=====  =====  ========
 False  False  False
 True   False  True
 False  True   True
 True   True   True
-=====  =====  ======
+=====  =====  ========
 
 A transition marker is a horizontal line
 of 4 or more repeated punctuation
@@ -133,6 +133,6 @@ Please refer to the fine manual [GVR2001].
 
 .. [GVR2001] Python Documentation, Release 2.1, van Rossum,
    Drake, et al., http://www.python.org/doc/
-   
+
 The problem with forms 1 and 2 is that they are neither intuitive nor unobtrusive (they break design goals 5 & 2). They overload double-quotes, which are too often used in ordinary text (potentially breaking design goal 4). The brackets in form 3 are also too common in ordinary text (such as [nested] asides and Python lists like [12]).
 
