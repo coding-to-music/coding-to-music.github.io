@@ -44,6 +44,7 @@ Guide
    test3
    test1
    GOF
+   How you can help
    license
    help
 
@@ -55,3 +56,4 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+

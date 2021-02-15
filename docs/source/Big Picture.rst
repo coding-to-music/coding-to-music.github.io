@@ -105,54 +105,6 @@ Same for Economic Development Department
 Comments about various suggested / recommended / not-recommended Covid virus treatments
 =======================================================================================
 
-Ivermectin   
------------
-
-.. figure:: assets/Ivermectin-perscription.jpg
-  :scale: 60 %
-  :alt:  Ivermectin-perscription
-
-Ivermectin, the most promising COVID treatment to date, won its developers the Nobel Prize in Medicine in 2015 and a place on the World Health Organization’s Model List of Essential Medicines. Since the 1980s, with billions of doses given  
-Source: [Trial Site News, By Mary Beth Pfeiffer, December 27 2020 : In Far-Flung Places, COVID-19 Is Being Treated Early And Well. Here’s Why Americans Don’t Know This.](https://trialsitenews.com/in-far-flung-places-covid-19-is-being-treated-early-and-well-heres-why-americans-dont-know-this/) 
-
-Cheap hair lice drug may cut the risk of hospitalised Covid patients dying by up to 80%, study finds  
-Ivermectin - which can cost as little as £1.50 per treatment- was also found to potentially halve the time those suffering from the virus were on the ward  
-Ivermectin was discovered in the 1970s and has fast become an essential medicine for a vast number of parasitic infections, such as head lice and scabies.
-
-It is branded as Stromectol, an oral tablet for scabies and Soolantra, a skin cream for rosacea. It is branded as Sklice for treating head lice, which was approved in the US this year. 
-
-Today it is prescribed on the NHS and in the US for these conditions, but some scientists argue it could also be useful against Covid-19.    
-Source: [UK Daily Mail, By Luke Andrews](https://www.dailymail.co.uk/news/article-9110301/Cheap-hair-lice-drug-cut-risk-hospitalised-Covid-patients-dying-80-study-finds.html) 
-
-The effect of early treatment with ivermectin on viral load, symptoms and humoral response in patients with non-severe COVID-19: A pilot, double-blind, placebo-controlled, randomized clinical trial  
-
-Source: [The Lancet: The effect of early treatment with ivermectin on viral load, symptoms and humoral response in patients with non-severe COVID-19: A pilot, double-blind, placebo-controlled, randomized clinical trial](https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(20)30464-8/fulltext) 
-
-Published: January 19, 2021
-
-“Several studies show you can grow the virus in a test tube and then kill it off with high doses of various drugs we already have
-Innocuous FDA-approved drug like ivermectin at five or ten times the normal doses, of course you’re going to have toxicity”  
-Source: []() 
-
-.. figure:: assets/Ivermectin-sheep-drench.jpg
-  :scale: 60 %
-  :alt:  Ivermectin-sheep-drench
-
-MODE OF ACTION
-
-Ivermectin is a member of the macrocylic lactone class of endectocides which have a unique mode of action. Compounds of the class bind selectively and with high affinity to glutamate-gated chloride ion channels which occur in invertebrate nerve and muscle cells.
-
-This leads to an increase in the permeability of the cell membrane to chloride ions with hyperpolarization of the nerve or muscle cell, resulting in paralysis and death of the parasite. Compounds of this class may also interact with other ligand-gated chloride channels, such as those gated by the neurotransmitter gamma-aminobutyric acid (GABA).
-
-The margin of safety for compounds of this class is attributable to the fact that mammals do not have glutamate-gated chloride channels, the macrocyclic lactones have a low affinity for other mammalian ligand-gated chloride channels and they do not readily cross the blood-brain barrier.
-
-Source: [IVERMECTIN POUR-ON FOR CATTLE- ivermectin solution ](https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=b339a104-62b3-4bb8-95e8-41cbff08d754&type=display) 
-
-
-
-
-
-
 
 
 Events in Medical History we might want to consider
@@ -164,89 +116,6 @@ Vaccines
 =======================================================================================
 
 
-COVID-19 Vaccines In the News  
-------------------------------------------------------------------------------
-
-Pfizer drops India vaccine application after regulator seeks local trial 
-------------------------------------------------------------------------------
-
-<p><a href="https://news.yahoo.com/exclusive-pfizer-withdraws-application-emergency-052857135.html" target="_blank" rel="noopener noreferrer">Pfizer drops India vaccine application after regulator seeks local trial</a>.</p>
-
-Date: Fri, February 5, 2021, 12:28 AM
-
-By Krishna N. Das
-
-NEW DELHI (Reuters) - Pfizer Inc said on Friday it had withdrawn an application for emergency-use authorisation of its COVID-19 vaccine in India, after failing to meet the drug regulator's demand for a local safety and immunogenicity study.
-
-The decision means the vaccine will not be available for sale in the world's two most populous countries, India and China, in the near future. Both countries are running their immunisation campaigns using other products.
-
-Krishna N. Das
-Fri, February 5, 2021, 12:28 AM
-By Krishna N. Das
-
-NEW DELHI (Reuters) - Pfizer Inc said on Friday it had withdrawn an application for emergency-use authorisation of its COVID-19 vaccine in India, after failing to meet the drug regulator's demand for a local safety and immunogenicity study.
-
-The decision means the vaccine will not be available for sale in the world's two most populous countries, India and China, in the near future. Both countries are running their immunisation campaigns using other products.
-
-Unlike other companies conducting small studies in India for foreign-developed vaccines, Pfizer had sought an exception citing approvals it had received elsewhere based on trials done in countries such as the United States and Germany.
-
-Indian health officials say they generally ask for so-called bridging trials to determine if a vaccine is safe and generates an immune response in its citizens. There are, however, provisions under India's rules to waive such trials in certain conditions.
-
-The drug regulator said on its website its experts did not recommend the vaccine because of side effects reported abroad were still being investigated. It also said Pfizer had not proposed any plan to generate safety and immunogenicity data in India.
-
-
-
-Children's Vaccine Recommended / Required / Widely Available Schedule 1960's to 2018 
---------------------------------------------------------------------------------------
-
-1970-Vaccine-Schedule   
-------------------------------------------------------------------------------
-<img width="800px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/1970-Vaccine-Schedule.png?raw=true" align="center" alt="1970 Vaccine Schedule" />
-.. figure:: assets/
-  :scale: 60 %
-  :alt:  
-
-1985 Vaccine Usage USA   
-------------------------------------------------------------------------------
-<img width="800px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/1985-vaccine-usage.jpg?raw=true" align="center" alt="1985 vaccine usage" />
-.. figure:: assets/
-  :scale: 60 %
-  :alt:  
-
-Changes in the childhood vaccination schedule 1975-2000    
-------------------------------------------------------------------------------
-<img width="800px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/Changes-in-the-childhood-vaccination-schedule-1975-2000.png?raw=true" align="center" alt="Changes in the childhood vaccination schedule 1975 2000" />
-.. figure:: assets/
-  :scale: 60 %
-  :alt:  
-
- Vaccines in Widespread Use 1985-2020 
-------------------------------------------------------------------------------
-<img width="800px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/Vaccines-in-Widespread-Use-1985-2020.png?raw=true" align="center" alt="Vaccines in Widespread Use 1985 2020" />
-.. figure:: assets/
-  :scale: 60 %
-  :alt:  
-
- 1994-1995 Vaccine Schedule   
-------------------------------------------------------------------------------
-<img width="800px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/1994-1995-Vaccine-Schedule.png?raw=true" align="center" alt="1994 1995 Vaccine Schedule" />
-.. figure:: assets/
-  :scale: 60 %
-  :alt:  
-
- 1995 Vaccine Schedule   
-------------------------------------------------------------------------------
-<img width="800px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/1995-Vaccine-Schedule.png?raw=true" align="center" alt="1995 Vaccine Schedule" />
-.. figure:: assets/
-  :scale: 60 %
-  :alt:  
-
- 2018 Vaccine Schedule   
-------------------------------------------------------------------------------
-<img width="800px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/2018-Vaccine-Schedule.png?raw=true" align="center" alt="2018-Vaccine-Schedule.png" />
-.. figure:: assets/
-  :scale: 60 %
-  :alt:  
 
 
 What is the history of vaccines, how much money and what are they used for    
@@ -278,7 +147,8 @@ What are media sources that we try to check every day?
 
 | --- | --- |
 | News or Media Source | Comment |
-- 
+
+ 
 
 What is narrative control and how is it used to shape public opinion  
 =======================================================================================
@@ -291,26 +161,24 @@ Government Monitoring and Control
 
 Social Media    
 ------------------------------------------------------------------------------
+
 How to understand the ways Facebook filters, throttles and amplifies communications     
 --------------------------------------------------------------------------------------
+
 How to understand the ways Twitter filters, throttles and amplifies communications     
 -------------------------------------------------------------------------------------
 
 When I posted this:
-<br />  
-<img width="600px" src="https://github.com/All-knowledge/pandemic_overview/blob/main/assets/brookline-economic-development-GIS-public-health-storefronts.png?raw=true?raw=true" align="center" alt="brookline-economic-development-GIS-public-health-storefronts" />
-</b>
-.. figure:: assets/
+
+.. figure:: assets/brookline-economic-development-GIS-public-health-storefronts.png
   :scale: 60 %
-  :alt:  
+  :alt:  brookline-economic-development-GIS-public-health-storefronts
 
 I am constantly shadowbanned on Twitter
-<br />  
-<img width="600px" src="https://github.com/All-knowledge/pandemic_overview/blob/main/assets/twitter-shadowban-example.png?raw=true" align="center" alt="twitter-shadowban-example" />
-</b>
-.. figure:: assets/
+
+.. figure:: assets/twitter-shadowban-example.png
   :scale: 60 %
-  :alt:  
+  :alt:  Twitter Shadowban Example 
 
 
 
@@ -356,15 +224,13 @@ What are the economic effects of lockdowns
 ------------------------------------------------------------------------------
 
 How does the lockdowns help and encourage large business but destroy small business    
-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
 
 Here is a question I posted on Facebook, and also on Twitter
-<br />  
-<img width="600px" src="https://github.com/All-knowledge/pandemic_overview/blob/main/assets/brookline-economic-development-GIS-public-health-storefronts.png?raw=true?raw=true" align="center" alt="brookline-economic-development-GIS-public-health-storefronts" />
-</b>
-.. figure:: assets/
+
+.. figure:: assets/brookline-economic-development-GIS-public-health-storefronts.png
   :scale: 60 %
-  :alt:  
+  :alt:  brookline-economic-development-GIS-public-health-storefronts
 
 
 What is the WEF World Economic Forum and Klaus Schwab     
@@ -408,11 +274,9 @@ Who is with us - who is against lockdowns and injections
 Who are famous people who are questioning the whole narriative of lockdowns and injecting young healthy people  
 ----------------------------------------------------------------------------------------------------------------
 
-<ul>
-  <li>Ian Brown (British Rocker Stone Roses and solo)</li>
-  <li>Van Morrison (British Rocker 1960's to now)  </li>
-  <li>Eric Clapton (British Rocker 1960's to now)  </li>
-</ul>
+- Ian Brown (British Rocker Stone Roses and solo)
+- Van Morrison (British Rocker 1960's to now)  
+- Eric Clapton (British Rocker 1960's to now)  
 
 Who apparently is a fascist in favor of lockdowns and injections of young healthy of reproductive age    
 =========================================================================================================
@@ -420,60 +284,52 @@ Who apparently is a fascist in favor of lockdowns and injections of young health
 Who locally is now someone who has lost our trust    
 ------------------------------------------------------------------------------
 
-<ul>
-  <li></li>  
-</ul>
 - Healthcare providers - injecting young healthy to save old infirm? Really? Where is the logic in that?
 - Local officials and public health officials - lock down the library and withhold data of deaths by Cause by Age - why hide simple data?  
 
 Who are famous medical, research and data scientists people who appear to be supporting lockdowns and healhy young people being injected  
 ------------------------------------------------------------------------------------------------------------------------------------------
 
-<ul>
-  <li></li>  
-</ul>
 - Nate Silver - FiveThirtyEight.com
 - 
 
 Who are news people who appear to be supporting lockdowns and healhy young people being injected  
 --------------------------------------------------------------------------------------------------
 
-<ul>
-  <li>The Atlantic Monthly - Steve Jobs's wife Powell owns the Atlantic Monthly</li>
-  <li>Rachel Maddow  </li>
-  <li>Young Turks  </li>
-  <li>DailyKos  </li>
-  <li>Huffington Post</li>  
-  <li>Buzzfeed  </li>
-  <li>Vice News </li> 
-  <li>TMZ  </li>
-  <li>Rolling Stone</li>  
-</ul>
+- The Atlantic Monthly - Steve Jobs's wife Powell owns the Atlantic Monthly
+- Rachel Maddow  
+- Young Turks  
+- DailyKos  
+- Huffington Post  
+- Buzzfeed  
+- Vice News  
+- TMZ  
+- Rolling Stone  
  
 Who are famous media and entertainment people who appear to be supporting lockdowns and healhy young people being injected  
 -----------------------------------------------------------------------------------------------------------------------------
 
-<ul>
-  <li>Madonna</li>
-    <li>AOC</li>  
-</ul>
+
+- Madonna
+  - AOC  
+
 
 What media sources are untrustworty because they are encouraging lockdowns and healthy young people to be injected  
 --------------------------------------------------------------------------------------------------------------------
 
-<ul>
-  <li>WBUR</li>
-  <li>WGBH</li>
-  <li>Boston Globe  </li>
-  <li>New York Times  </li>
-  <li>Washington Post  </li>
-  <li>Local news</li>
-  <li>Local TV</li>
-  <li>Cable TV</li>
-  <li>Democrat channels - MSNBC, CNN, ABC, CBS, NBC</li>
-  <li>Republican channels - Fox News, Breitbart, Steve Bannon, Pat Buchanan</li>
-  <li>Politico, The Hill, Axios</li>
-</ul>
+
+- WBUR
+- WGBH
+- Boston Globe  
+- New York Times  
+- Washington Post  
+- Local news
+- Local TV
+- Cable TV
+- Democrat channels - MSNBC, CNN, ABC, CBS, NBC
+- Republican channels - Fox News, Breitbart, Steve Bannon, Pat Buchanan
+- Politico, The Hill, Axios
+
 
 What messages is the media sending that we feel are incorrect  
 ------------------------------------------------------------------------------
@@ -517,84 +373,6 @@ What famous people had words of wisdom we might want to review today
 ------------------------------------------------------------------------------
 
 
-How you can help    
-=======================================================================================
-
-<ul>
-  <li>There are many ways you can continue your research and help out the community at the same time.</li>  
-  <li>Here are some suggestions, please add to this list:   </li>
-</ul>
-
-Join the [discord community]()    
-------------------------------------------------------------------------------
-
-How to upload content to be included in our research     
-------------------------------------------------------------------------------
-
-Help us with research     
-------------------------------------------------------------------------------
-
-Help us with software development     
-------------------------------------------------------------------------------
-
-How to look at our project roadmap     
-------------------------------------------------------------------------------
-
-How to help automate data collection     
-------------------------------------------------------------------------------
-
-How to get your computer set up     
-------------------------------------------------------------------------------
-
-How to install vscode on your computer     
-------------------------------------------------------------------------------
-
-How to set up SSH keys on your computer with vscode     
-------------------------------------------------------------------------------
-
-How to edit Markdown to format documents [Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)  
-------------------------------------------------------------------------------
-
-How do use branching in GitHub    
-------------------------------------------------------------------------------
-
-How to submit a pull request for someone to accept your submission    
-------------------------------------------------------------------------------
-
-How to use puppeteer to automatically scrape a web page to retrieve data     
-------------------------------------------------------------------------------
-
-How to buy a $250 chromebook for an awesome development experience     
-------------------------------------------------------------------------------
-
-How to know about how the government is monitoring your Apple computer via the M2 chip     
------------------------------------------------------------------------------------------
-
-How to know about how the government is monitoring your Chromebook     
-------------------------------------------------------------------------------
-
-How another project 'Minimal Mistakes' guides contributors in their Pull Request process    
--------------------------------------------------------------------------------------------
-
-["Contributing set up, create branch, Pull Requests, GitHub Flow"](https://github.com/mmistakes/minimal-mistakes)  
-
-[Understanding the GitHub flow](https://guides.github.com/introduction/flow/)  
-
-GitHub flow is a lightweight, branch-based workflow that supports teams and projects where deployments are made regularly  
-  
-This guide explains how and why the GitHub workflow works.  
-  
-<ul>
-  <li>Main is deployable always  </li>
-  <li>Create a branch & Commit work on it  </li>
-  <li>Pull Request announces your work and opens discussion, even if you are nowhere near being ready to complete it</li>
-  <li>Discussions are in the activity, full markup capability  </li>
-  <li>@mentions to alert others  </li>
-  <li>a bot can do housekeeping tasks such as trim old dead stale branches  </li>
-  <li>Discuss and review changes, ensure testing and style are adhered to</li>  
-  <li>Deploy to pre-prod or prod  </li>
-  <li>Merge with main branch </li>
-</ul>
   
   
 License    
