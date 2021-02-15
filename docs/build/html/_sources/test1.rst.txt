@@ -55,6 +55,8 @@ transitions be immediately adjacent.
    case, the legend consists of this paragraph and the following
    table:
 
+   Begin Table 1
+
    +-----------------------+-----------------------+
    | Symbol                | Meaning               |
    +=======================+=======================+
@@ -65,8 +67,11 @@ transitions be immediately adjacent.
    | .. image:: assets/icons/favicon-32x32.png   | Mountain              |
    +-----------------------+-----------------------+
 
+   End Table 1
 
 This format is the most natural and obvious. It was independently invented (no great feat of creation!), and later found to be the format supported by the Emacs table mode:
+
+Begin Table 2
 
 +------------+------------+------------+--------------+
 |  Header 1  |  Header 2  |  Header 3  |  Header 4    |
@@ -77,6 +82,8 @@ This format is the most natural and obvious. It was independently invented (no g
 +------------+------------+------------+ - Row 2 & 3  |
 |      1     |      2     |      3     | - span       |
 +------------+------------+------------+--------------+
+
+End Table 2
 
 Tables are described with a visual outline made up of the characters '-', '=', '|', and '+':
 
@@ -89,6 +96,8 @@ Row and column spans are possible simply by omitting the column or row separator
 
 Below is a simpler table structure. It may be better suited to manual input than alternative #1, but there is no Emacs editing mode available. One disadvantage is that it resembles section titles; a one-column table would look exactly like section & subsection titles.
 
+Begin Table 3
+
 ============ ============ ============ ==============
   Header 1     Header 2     Header 3     Header 4
 ============ ============ ============ ==============
@@ -99,9 +108,13 @@ Below is a simpler table structure. It may be better suited to manual input than
       1            2       3           - span
 ============ ============ ============ ==============
 
+End Table 3
+
 The table begins with a top border of equals signs with a space at each column boundary (regardless of spans). Each row is underlined. Internal row separators are underlines of '-', with spaces at column boundaries. The last of the optional head rows is underlined with '=', again with spaces at column boundaries. Column spans have no spaces in their underline. Row spans simply lack an underline at the row boundary. The bottom boundary of the table consists of '=' underlines. A blank line is required following a table.
 
 A minimalist alternative is as follows:
+
+Begin Table 4
 
 +====  =====  ========  ========  =======  ====  =====  =====+
 Old State    Input     Action             New State    Notes
@@ -119,6 +132,8 @@ old   False  implicit  implicit  new,old  None  False
 None  True   implicit  implicit  new      None  True
 old   True   implicit  implicit  new      old   True
 =========================================================
+
+End Table 4
 
 There are three forms of hyperlink currently in StructuredText:
 
