@@ -22,7 +22,9 @@ The National Archives
 
 
 UPDATED: DEC 15, 2020 ORIGINAL: MAY 16, 2017
-[HISTORY.COM Tuskegee Experiment: The Infamous Syphilis Study](https://www.history.com/news/the-infamous-40-year-tuskegee-study)
+HISTORY.COM Tuskegee Experiment: The Infamous Syphilis Study HERE_
+
+.. _HERE: https://www.history.com/news/the-infamous-40-year-tuskegee-study
 
 In order to track the disease’s full progression, researchers provided no effective care as the study's African American participants experienced severe health problems including blindness, mental impairment—or death.
 

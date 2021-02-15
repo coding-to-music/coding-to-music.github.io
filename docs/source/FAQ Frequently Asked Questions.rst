@@ -22,9 +22,13 @@ What is issues with PCR testing and "cases"
 - PCR testing has an interesting side effect in that the testing organization obtains your full DNA profile  
 
 
-This is an excellent overview of the cases issue:
+This is an excellent overview of the cases issue
+
 "Case rate fallacy/false positive paradox" is derived from Bayes theorem. When the incidence of a disease in a population is low, unless the test used has very high specificity, more false positives will be determined than true positives. The difference in the numbers can be quite striking and certainly not inherently understandable."
-[MedPageToday.com - Here's What's Wrong With COVID-19 Case Counts](https://www.medpagetoday.com/infectiousdisease/covid19/89522)
+
+MedPageToday.com - Here's What's Wrong With COVID-19 Case Counts Python_
+
+.. _Python: https://www.medpagetoday.com/infectiousdisease/covid19/89522
 
 What would a multi-year chart of "Deaths by Cause and Age" show us and where is that data?    
 --------------------------------------------------------------------------------------------
