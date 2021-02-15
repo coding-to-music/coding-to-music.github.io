@@ -41,7 +41,6 @@ Guide
    Government Monitoring and Control
    Current Events and their relationship to today’s events
    Economics, Fossil Fuels, Pharma, Money, Power
-   Big Picture
    test3
    test1
    GOF
