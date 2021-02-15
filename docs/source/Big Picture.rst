@@ -445,7 +445,7 @@ The drug regulator said on its website its experts did not recommend the vaccine
 
 
 Children's Vaccine Recommended / Required / Widely Available Schedule 1960's to 2018 
-------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
 
  1970-Vaccine-Schedule   
 ------------------------------------------------------------------------------
@@ -500,13 +500,13 @@ Children's Vaccine Recommended / Required / Widely Available Schedule 1960's to 
 What is the history of vaccines, how much money and what are they used for    
 ------------------------------------------------------------------------------
  What funding and research has been done with vaccines and fertility management  
-------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
  What funding and research has been done with vaccines and nano particles    
 ------------------------------------------------------------------------------
  What are nano particles    
 ------------------------------------------------------------------------------
  Who was Harvard Chemistry Department Chair and nano particle expert Charles Lieber and why was he arrested  
-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
 
 
 
@@ -540,9 +540,9 @@ Government Monitoring and Control
 Social Media    
 ------------------------------------------------------------------------------
  How to understand the ways Facebook filters, throttles and amplifies communications     
-------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
  How to understand the ways Twitter filters, throttles and amplifies communications     
-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
 
 When I posted this:
 <br />  
@@ -563,13 +563,13 @@ I am constantly shadowbanned on Twitter
 
 
  How to understand the ways Reddit filters, throttles and amplifies communications     
-------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
 Person, identity, and location tracking  
 ------------------------------------------------------------------------------
  How does ad tracking and cookies work across the web     
 ------------------------------------------------------------------------------
 What are the all-encompassing data vacuums by Palantir and Oracle and Cambridge Analytica  
-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
  What is the Palantir dashboard and who in your local area is viewing it  
 ------------------------------------------------------------------------------
  What was Cambridge Analytica - what is that whole scandal about?     
@@ -584,9 +584,9 @@ Current Events and their relationship to today's events
  How to understand the Yellow Vests in France     
 ------------------------------------------------------------------------------
  How understand the anti-fracking and pipeline protests by young people and indigenous peoples     
-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
  How to understand NAFTA North American Free Trade Agreement and fossil fuel's effect on sustainable Mexican agriculture     
-------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
 
 Economics, Fossil Fuels, Pharma, Money, Power  
 =======================================================================================
@@ -609,7 +609,7 @@ What is the WEF World Economic Forum and Klaus Schwab
  What is the WEF World Economic Forum and this proposed / planned Great Reset     
 ------------------------------------------------------------------------------
  What is the WEF World Economic Forum event at Davos, who goes, anyone from my area?    
-------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
  What is the WEF World Economic Forum relationship to vaccines    
 ------------------------------------------------------------------------------
  What is the WEF World Economic Forum relationship with Bill Gates     
@@ -637,7 +637,7 @@ What is Eugenics and who in history has involvement
 Who is with us - who is against lockdowns and injections    
 =======================================================================================
 Who are famous people who are questioning the whole narriative of lockdowns and injecting young healthy people  
-------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
 
 <ul>
   <li>Ian Brown (British Rocker Stone Roses and solo)</li>
@@ -646,7 +646,7 @@ Who are famous people who are questioning the whole narriative of lockdowns and 
 </ul>
 
 Who apparently is a fascist in favor of lockdowns and injections of young healthy of reproductive age    
-=======================================================================================
+=========================================================================================================
 Who locally is now someone who has lost our trust    
 ------------------------------------------------------------------------------
 
@@ -657,7 +657,7 @@ Who locally is now someone who has lost our trust
 - Local officials and public health officials - lock down the library and withhold data of deaths by Cause by Age - why hide simple data?  
 
 Who are famous medical, research and data scientists people who appear to be supporting lockdowns and healhy young people being injected  
-------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------
 
 <ul>
   <li></li>  
@@ -666,7 +666,7 @@ Who are famous medical, research and data scientists people who appear to be sup
 - 
 
 Who are news people who appear to be supporting lockdowns and healhy young people being injected  
-------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
 
 <ul>
   <li>The Atlantic Monthly - Steve Jobs's wife Powell owns the Atlantic Monthly</li>
@@ -681,7 +681,7 @@ Who are news people who appear to be supporting lockdowns and healhy young peopl
 </ul>
  
 Who are famous media and entertainment people who appear to be supporting lockdowns and healhy young people being injected  
-------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 
 <ul>
   <li>Madonna</li>
@@ -689,7 +689,7 @@ Who are famous media and entertainment people who appear to be supporting lockdo
 </ul>
 
 What media sources are untrustworty because they are encouraging lockdowns and healthy young people to be injected  
-------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------
 
 <ul>
   <li>WBUR</li>
@@ -712,7 +712,7 @@ What messages is the media sending that we feel are incorrect
 
 
 How you can maintain stability and normalcy and your mental health during these trying times    
-=======================================================================================
+===============================================================================================
 - 
 - 
 
@@ -785,11 +785,11 @@ Help us with software development
  How to buy a $250 chromebook for an awesome development experience     
 ------------------------------------------------------------------------------
  How to know about how the government is monitoring your Apple computer via the M2 chip     
-------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
  How to know about how the government is monitoring your Chromebook     
 ------------------------------------------------------------------------------
  How another project 'Minimal Mistakes' guides contributors in their Pull Request process    
-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 
 ["Contributing set up, create branch, Pull Requests, GitHub Flow"](https://github.com/mmistakes/minimal-mistakes)  
 
