@@ -68,7 +68,8 @@ UK virus cases hospital ICU deaths
 Source: [Twitter Christina Pagel @chrischirp Jan 16, 2021](https://twitter.com/chrischirp/status/1350416441498079234)
 
 
-The WHO is recommending key changes to PCR testing.    
+The WHO is recommending key changes to PCR testing
+----------------------------------------------------
 
 The WHO is recommending some changes to PCR testing.    
 
@@ -79,24 +80,25 @@ WHO guidance Diagnostic testing for SARS-CoV-2 states that careful interpretatio
 
 WHO reminds IVD users that **disease prevalence alters the predictive value of test results**; *as disease prevalence decreases, the risk of false positive increases (2). This means that the probability that a person who has a positive result (SARS-CoV-2 detected) is truly infected with SARS-CoV-2 decreases as prevalence decreases, irrespective of the claimed specificity.*    
 
-<br />  
-<img width="800px" src="https://github.com/All-knowledge/pandemic_overview/blob/main/assets/Brookline/WHO-Jan-20-2021-PCR-changes.jpeg?raw=true" align="center" alt="WHO Jan 20 2021 PCR changes" />
-</b>
-.. figure:: assets/
+.. figure:: assets/WHO-Jan-20-2021-PCR-changes.jpeg
   :scale: 60 %
-  :alt:  
+  :alt:  WHO Jan 20 2021 PCR changes
 
 Source: [WHO requests users to follow the instructions for use (IFU) when interpreting results for specimens tested using PCR methodology. January 20 2021](https://www.who.int/news/item/20-01-2021-who-information-notice-for-ivd-users-2020-05)
 
 
 Public Health Department
 -------------------------
+
 How many staff  
 ------------------------------------------------------------------------------
+
 Total Spending  
 ------------------------------------------------------------------------------
+
 Activities Performed  
 ------------------------------------------------------------------------------
+
 Same for Economic Development Department  
 ------------------------------------------------------------------------------
 
@@ -104,12 +106,11 @@ Comments about various suggested / recommended / not-recommended Covid virus tre
 =======================================================================================
 
 Ivermectin   
+-----------
 
-<img width="600px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/Ivermectin-perscription.jpg?raw=true" align="center" alt="Ivermectin-perscription" />
-</b>
-.. figure:: assets/
+.. figure:: assets/Ivermectin-perscription.jpg
   :scale: 60 %
-  :alt:  
+  :alt:  Ivermectin-perscription
 
 Ivermectin, the most promising COVID treatment to date, won its developers the Nobel Prize in Medicine in 2015 and a place on the World Health Organization’s Model List of Essential Medicines. Since the 1980s, with billions of doses given  
 Source: [Trial Site News, By Mary Beth Pfeiffer, December 27 2020 : In Far-Flung Places, COVID-19 Is Being Treated Early And Well. Here’s Why Americans Don’t Know This.](https://trialsitenews.com/in-far-flung-places-covid-19-is-being-treated-early-and-well-heres-why-americans-dont-know-this/) 
@@ -133,11 +134,9 @@ Published: January 19, 2021
 Innocuous FDA-approved drug like ivermectin at five or ten times the normal doses, of course you’re going to have toxicity”  
 Source: []() 
 
-<img width="600px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/Ivermectin-sheep-drench.jpg?raw=true" align="center" alt="Ivermectin-sheep-drench" />
-</b>
-.. figure:: assets/
+.. figure:: assets/Ivermectin-sheep-drench.jpg
   :scale: 60 %
-  :alt:  
+  :alt:  Ivermectin-sheep-drench
 
 MODE OF ACTION
 
@@ -150,13 +149,12 @@ The margin of safety for compounds of this class is attributable to the fact tha
 Source: [IVERMECTIN POUR-ON FOR CATTLE- ivermectin solution ](https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=b339a104-62b3-4bb8-95e8-41cbff08d754&type=display) 
 
 
-<h2>Hydroxychloroquine
+Hydroxychloroquine
+-------------------
 
-<img width="500px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/Hydroxychloroquine.jpeg?raw=true" align="center" alt="Hydroxychloroquine" />
-</b>
-.. figure:: assets/
+.. figure:: assets/Hydroxychloroquine.jpeg
   :scale: 60 %
-  :alt:  
+  :alt:  Hydroxychloroquine
 
 ‘Only a one in 17 billion chance hydroxychloroquine doesn’t work’: medical professor
 Source: [skynews.com.au, November 29 2020 : ‘Only a one in 17 billion chance hydroxychloroquine doesn’t work’: medical professor](https://www.skynews.com.au/details/_6212859932001?fbclid=IwAR0Qzx3BAeJtPoqN958ZFnc3ckUdfQlEr0zuIly69-Gl-mJ3cmPPmcfRjrE) 
@@ -177,13 +175,12 @@ Mr McCullough said “the virus invades inside cells, so we have to use drugs th
 
 “History will look back on that and think it was the worst way to handle a potentially fatal illness."
 
-<h2>Doxycycline
+Doxycycline
+------------
 
-<img width="500px" src="https://github.com/coding-to-music/coding-to-music/blob/master/assets/doxycycline-capsules.jpeg?raw=true" align="center" alt="doxycycline-capsules.jpeg" />
-</b>
-.. figure:: assets/
+.. figure:: assets/doxycycline-capsules.jpeg
   :scale: 60 %
-  :alt:  
+  :alt:  doxycycline capsules
 
 Doxycycline is a broad-spectrum tetracycline-class antibiotic used in the treatment of infections caused by bacteria and certain parasites.[1] It is used to treat bacterial pneumonia, acne, chlamydia infections, Lyme disease, cholera, typhus, and syphilis.[1] It is also used to prevent malaria and in combination with quinine, to treat malaria.[1] Doxycycline may be taken by mouth or by injection into a vein.[1]
 
