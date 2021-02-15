@@ -18,8 +18,7 @@ Guide
    :maxdepth: 2
    :caption: Contents:
 
-   1 Making Sense of the Pandemic
-   Big Picture
+   Making Sense of the Pandemic
    Letter to the town of Brookine Massachusetts
    Comments about various suggested or recommended or not-recommended Covid virus treatments 
    Ivermectin
@@ -41,6 +40,7 @@ Guide
    Government Monitoring and Control
    Current Events and their relationship to today’s events
    Economics, Fossil Fuels, Pharma, Money, Power
+   Big Picture
    test3
    test1
    GOF
