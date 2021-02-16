@@ -23,10 +23,6 @@ Guide
    Making Sense of the Pandemic
    Letter to the town of Brookine Massachusetts
    Comments about various suggested or recommended or not-recommended Covid virus treatments 
-   Ivermectin
-   Hydroxychloroquine
-   Doxycycline
-   Azithromycin
    Events in Medical History we might want to consider
    1976 Swine Flu Fiasco
    Tuskgee Medical Experiments - 40 years of untreated Syphlis
