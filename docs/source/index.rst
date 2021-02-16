@@ -24,20 +24,9 @@ Guide
    Letter to the town of Brookine Massachusetts
    Comments about various suggested or recommended or not-recommended Covid virus treatments 
    Events in Medical History we might want to consider
-   1976 Swine Flu Fiasco
-   Tuskgee Medical Experiments - 40 years of untreated Syphlis
    Vaccines
-   COVID-19 Vaccines In the News
-   Children's Vaccine Recommended or Required or Widely Available Schedule 1960's to 2018
-   What is the history of vaccines, how much money and what are they used for
    FAQ Frequently Asked Questions
-   What is the historical background and timeline of key participants of this pandemic
    Resources and additional background material
-   Knowledge vs Noise - our opinions about news and media sources
-   What is narrative control and how is it used to shape public opinion
-   Government Monitoring and Control
-   Current Events and their relationship to today’s events
-   Economics, Fossil Fuels, Pharma, Money, Power
    test3
    GOF
    How you can help
