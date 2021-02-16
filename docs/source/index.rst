@@ -1,7 +1,7 @@
-Here is all-knowledge's documentation!
+Making Sense of the Pandmic
 =========================================
 
-Here it is!!
+As best we can
 --------------
 
 Here is some text explaining some very complicated stuff.::
@@ -11,6 +11,8 @@ Here is some text explaining some very complicated stuff.::
 
 Not sure how this works
 
+https://readthedocs.org/projects/pandemic-overview/builds/
+
 Guide
 ^^^^^
 
@@ -18,8 +20,6 @@ Guide
    :maxdepth: 2
    :caption: Contents:
 
-   test1
-   https://readthedocs.org/projects/pandemic-overview/builds/
    Making Sense of the Pandemic
    Letter to the town of Brookine Massachusetts
    Covid Medical Treatments
@@ -27,8 +27,9 @@ Guide
    Vaccines
    FAQ Frequently Asked Questions
    Resources and additional background material
+   test1
    test3
-   GOF
+   Big Picture
    How you can help
    license
    help
