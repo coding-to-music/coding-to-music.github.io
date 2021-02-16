@@ -228,6 +228,10 @@ Row and column spans are possible simply by omitting the column or row separator
 <p class="first admonition-title">Attention</p>
 <p class="last">Begin Table 3</p>
 </div>
+<dl class="docutils">
+<dt>———— ———— ———— ————–</dt>
+<dd>Header 1     Header 2     Header 3     Header 4</dd>
+</dl>
 <p>End Table 3</p>
 <p>The table begins with a top border of equals signs with a space at each column boundary (regardless of spans). Each row is underlined. Internal row separators are underlines of ‘-‘, with spaces at column boundaries. The last of the optional head rows is underlined with ‘=’, again with spaces at column boundaries. Column spans have no spaces in their underline. Row spans simply lack an underline at the row boundary. The bottom boundary of the table consists of ‘=’ underlines. A blank line is required following a table.</p>
 <p>A minimalist alternative is as follows:</p>
@@ -235,22 +239,6 @@ Row and column spans are possible simply by omitting the column or row separator
 <p class="first admonition-title">Attention</p>
 <p class="last">Begin Table 4</p>
 </div>
-<p>+====  =====  ========  ========  =======  ====  =====  =====+
-Old State    Input     Action             New State    Notes
-+———–  ——–  —————–  ———–+
-ids   types  new type  sys.msg.  dupname  ids   types
-+====  =====  ========  ========  =======  ====  =====  =====+
-–    –     explicit  –        –       new   True
-–    –     implicit  –        –       new   False
-None  False  explicit  –        –       new   True
-old   False  explicit  implicit  old      new   True
-None  True   explicit  explicit  new      None  True
-old   True   explicit  explicit  new,old  None  True   [1]
-None  False  implicit  implicit  new      None  False
-old   False  implicit  implicit  new,old  None  False
-None  True   implicit  implicit  new      None  True
-old   True   implicit  implicit  new      old   True
-=========================================================</p>
 <p>End Table 4</p>
 <p>There are three forms of hyperlink currently in StructuredText:</p>
 <p>(Absolute &amp; relative URIs.) Text enclosed by double quotes followed by a colon, a URI, and concluded by punctuation plus white space, or just white space, is treated as a hyperlink:</p>

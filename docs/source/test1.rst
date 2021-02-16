@@ -98,11 +98,11 @@ transitions be immediately adjacent.
    +-----------------------+-----------------------+
    | Symbol                | Meaning               |
    +=======================+=======================+
-   | .. image:: assets/icons/favicon-32x32.png   | Campground            |
+   | .. image:: assets/icons/favicon-32x32.png   | Campground         |
    +-----------------------+-----------------------+
-   | .. image:: assets/icons/favicon-32x32.png  | Lake                  |
+   | .. image:: assets/icons/favicon-32x32.png  | Lake                |
    +-----------------------+-----------------------+
-   | .. image:: assets/icons/favicon-32x32.png   | Mountain              |
+   | .. image:: assets/icons/favicon-32x32.png   | Mountain           |
    +-----------------------+-----------------------+
 
    End Table 1
@@ -138,7 +138,7 @@ Below is a simpler table structure. It may be better suited to manual input than
 .. attention::
    Begin Table 3
 
-============ ============ ============ ==============
+------------ ------------ ------------ --------------
   Header 1     Header 2     Header 3     Header 4
 ============ ============ ============ ==============
   Column 1     Column 2    Column 3 & 4 span (Row 1)
@@ -158,11 +158,11 @@ A minimalist alternative is as follows:
    Begin Table 4
 
 
-+====  =====  ========  ========  =======  ====  =====  =====+
+====  =====  ========  ========  =======  ====  =====  =====
 Old State    Input     Action             New State    Notes
-+-----------  --------  -----------------  -----------+
+-----------  --------  -----------------  -----------
 ids   types  new type  sys.msg.  dupname  ids   types
-+====  =====  ========  ========  =======  ====  =====  =====+
+====  =====  ========  ========  =======  ====  =====  =====
 --    --     explicit  --        --       new   True
 --    --     implicit  --        --       new   False
 None  False  explicit  --        --       new   True
