@@ -121,22 +121,6 @@ transitions be immediately adjacent.
 
 End Table 2
 
-.. attention::
-   Begin Table 3
-
-+-----------------------+-----------------------+
-| Symbol                | Meaning               |
-+=======================+=======================+
-| .. image:: assets/icons/favicon-32x32.png   | Campground         |
-+-----------------------+-----------------------+
-| .. image:: assets/icons/favicon-32x32.png   | Lake               |
-+-----------------------+-----------------------+
-| .. image:: assets/icons/favicon-32x32.png   | Mountain           |
-+-----------------------+-----------------------+
-
-End Table 3
-
-End Table 2
 
 .. note::
    Begin Table 3Revised
