@@ -195,36 +195,36 @@ Please refer to the fine manual [GVR2001].
 The problem with forms 1 and 2 is that they are neither intuitive nor unobtrusive (they break design goals 5 & 2). They overload double-quotes, which are too often used in ordinary text (potentially breaking design goal 4). The brackets in form 3 are also too common in ordinary text (such as [nested] asides and Python lists like [12]).
 
 ===============
- Section Title
+ Section Title 1
 ===============
 
 ---------------
- Section Title
+ Section Title 2
 ---------------
 
-Section Title
+Section Title 3
 =============
 
-Section Title
+Section Title 4
 -------------
 
-Section Title
+Section Title 5
 `````````````
 
-Section Title
+Section Title 6
 '''''''''''''
 
-Section Title
+Section Title 7
 .............
 
-Section Title
+Section Title 8
 ~~~~~~~~~~~~~
 
-Section Title
+Section Title 9
 *************
 
-Section Title
+Section Title 10
 +++++++++++++
 
-Section Title
+Section Title 11
 ^^^^^^^^^^^^^
