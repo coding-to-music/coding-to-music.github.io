@@ -166,49 +166,8 @@ Row and column spans are possible simply by omitting the column or row separator
 
 Below is a simpler table structure. It may be better suited to manual input than alternative #1, but there is no Emacs editing mode available. One disadvantage is that it resembles section titles; a one-column table would look exactly like section & subsection titles.
 
-.. attention::
-   Begin Table 5
-
------------- ------------ ------------ --------------
-  Header 1     Header 2     Header 3     Header 4
-============ ============ ============ ==============
-  Column 1     Column 2    Column 3 & 4 span (Row 1)
------------- ------------ ---------------------------
-    Column 1 & 2 span      Column 3    - Column 4
-------------------------- ------------ - Row 2 & 3
-      1            2       3           - span
------------- ------------ ------------ --------------
-
-
-End Table 5
 
 The table begins with a top border of equals signs with a space at each column boundary (regardless of spans). Each row is underlined. Internal row separators are underlines of '-', with spaces at column boundaries. The last of the optional head rows is underlined with '=', again with spaces at column boundaries. Column spans have no spaces in their underline. Row spans simply lack an underline at the row boundary. The bottom boundary of the table consists of '=' underlines. A blank line is required following a table.
-
-A minimalist alternative is as follows:
-
-.. attention::
-   Begin Table 6
-
-
-===========  ========  =================  ===========  =====
-Old State    Input     Action             New State    Notes
------------  --------  -----------------  -----------  
-ids   types  new type  sys.msg.  dupname  ids   types
-====  =====  ========  ========  =======  ====  =====  =====
---    --     explicit  --        --       new   True
---    --     implicit  --        --       new   False
-None  False  explicit  --        --       new   True
-old   False  explicit  implicit  old      new   True
-None  True   explicit  explicit  new      None  True
-old   True   explicit  explicit  new,old  None  True   [1]
-None  False  implicit  implicit  new      None  False
-old   False  implicit  implicit  new,old  None  False
-None  True   implicit  implicit  new      None  True
-old   True   implicit  implicit  new      old   True
-====  =====  ========  ========  =======  ====  =====  =====
-
-
-End Table 6
 
 There are three forms of hyperlink currently in StructuredText:
 
@@ -222,7 +181,7 @@ There are three forms of hyperlink currently in StructuredText:
 
 Please refer to the fine manual [GVR2001].
 
-.. [GVR2001] Python Documentation, Release 2.1, van Rossum,
+.. [GVR2001]:: Python Documentation, Release 2.1, van Rossum,
    Drake, et al., http://www.python.org/doc/
 
 The problem with forms 1 and 2 is that they are neither intuitive nor unobtrusive (they break design goals 5 & 2). They overload double-quotes, which are too often used in ordinary text (potentially breaking design goal 4). The brackets in form 3 are also too common in ordinary text (such as [nested] asides and Python lists like [12]).
