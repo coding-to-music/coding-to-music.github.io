@@ -175,12 +175,63 @@ table:</p>
 <p class="first admonition-title">Attention</p>
 <p class="last">Begin Table 1</p>
 </div>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Symbol</th>
+<th class="head">Meaning</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>cat1</td>
+<td>Campground</td>
+</tr>
+<tr class="row-odd"><td>cat2</td>
+<td>Lake</td>
+</tr>
+<tr class="row-even"><td>cat3</td>
+<td>Mountain</td>
+</tr>
+</tbody>
+</table>
 <p>End Table 1</p>
 </div></blockquote>
+<div class="admonition attention">
+<p class="first admonition-title">Attention</p>
+<p class="last">Begin Table 2</p>
+</div>
+<table border="1" class="docutils">
+<colgroup>
+<col width="34%" />
+<col width="34%" />
+<col width="31%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Header 1</th>
+<th class="head">Header 2</th>
+<th class="head">Header 3</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>body row 1</td>
+<td>column 2</td>
+<td>column 3</td>
+</tr>
+</tbody>
+</table>
+<p>End Table 2</p>
+<div class="admonition attention">
+<p class="first admonition-title">Attention</p>
+<p class="last">Begin Table 3</p>
+</div>
+<p>End Table 3</p>
 <p>This format is the most natural and obvious. It was independently invented (no great feat of creation!), and later found to be the format supported by the Emacs table mode:</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">Begin Table 2</p>
+<p class="last">Begin Table 4</p>
 </div>
 <table border="1" class="docutils">
 <colgroup>
@@ -216,7 +267,7 @@ table:</p>
 </tr>
 </tbody>
 </table>
-<p>End Table 2</p>
+<p>End Table 4</p>
 <p>Tables are described with a visual outline made up of the characters ‘-‘, ‘=’, ‘|’, and ‘+’:</p>
 <p>The hyphen (‘-‘) is used for horizontal lines (row separators).
 The equals sign (‘=’) is optionally used as a header separator (as of version 1.5.24, this is not supported by the Emacs table mode).
@@ -226,20 +277,28 @@ Row and column spans are possible simply by omitting the column or row separator
 <p>Below is a simpler table structure. It may be better suited to manual input than alternative #1, but there is no Emacs editing mode available. One disadvantage is that it resembles section titles; a one-column table would look exactly like section &amp; subsection titles.</p>
 <div class="admonition attention">
 <p class="first admonition-title">Attention</p>
-<p class="last">Begin Table 3</p>
+<p class="last">Begin Table 5</p>
 </div>
 <dl class="docutils">
 <dt>———— ———— ———— ————–</dt>
 <dd>Header 1     Header 2     Header 3     Header 4</dd>
 </dl>
-<p>End Table 3</p>
-<p>The table begins with a top border of equals signs with a space at each column boundary (regardless of spans). Each row is underlined. Internal row separators are underlines of ‘-‘, with spaces at column boundaries. The last of the optional head rows is underlined with ‘=’, again with spaces at column boundaries. Column spans have no spaces in their underline. Row spans simply lack an underline at the row boundary. The bottom boundary of the table consists of ‘=’ underlines. A blank line is required following a table.</p>
-<p>A minimalist alternative is as follows:</p>
-<div class="admonition attention">
-<p class="first admonition-title">Attention</p>
-<p class="last">Begin Table 4</p>
-</div>
-<p>End Table 4</p>
+<p>Old State    Input     Action             New State    Notes
+———–  ——–  —————–  ———–
+ids   types  new type  sys.msg.  dupname  ids   types
+====  =====  ========  ========  =======  ====  =====  =====
+–    –     explicit  –        –       new   True
+–    –     implicit  –        –       new   False
+None  False  explicit  –        –       new   True
+old   False  explicit  implicit  old      new   True
+None  True   explicit  explicit  new      None  True
+old   True   explicit  explicit  new,old  None  True   [1]
+None  False  implicit  implicit  new      None  False
+old   False  implicit  implicit  new,old  None  False
+None  True   implicit  implicit  new      None  True
+old   True   implicit  implicit  new      old   True
+====  =====  ========  ========  =======  ====  =====  =====</p>
+<p>End Table 6</p>
 <p>There are three forms of hyperlink currently in StructuredText:</p>
 <p>(Absolute &amp; relative URIs.) Text enclosed by double quotes followed by a colon, a URI, and concluded by punctuation plus white space, or just white space, is treated as a hyperlink:</p>
 <p>“Python”:<a class="reference external" href="http://www.python.org/">http://www.python.org/</a>

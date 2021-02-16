@@ -98,19 +98,48 @@ transitions be immediately adjacent.
    +-----------------------+-----------------------+
    | Symbol                | Meaning               |
    +=======================+=======================+
-   | .. image:: assets/icons/favicon-32x32.png   | Campground         |
+   | cat1                  | Campground            |
    +-----------------------+-----------------------+
-   | .. image:: assets/icons/favicon-32x32.png  | Lake                |
+   | cat2                  | Lake                  |
    +-----------------------+-----------------------+
-   | .. image:: assets/icons/favicon-32x32.png   | Mountain           |
+   | cat3                  | Mountain              |
    +-----------------------+-----------------------+
 
+
    End Table 1
+
+
+
+.. attention::
+   Begin Table 2
+
++------------+------------+-----------+
+| Header 1   | Header 2   | Header 3  |
++============+============+===========+
+| body row 1 | column 2   | column 3  |
++------------+------------+-----------+
+
+End Table 2
+
+.. attention::
+   Begin Table 3
+
++-----------------------+-----------------------+
+| Symbol                | Meaning               |
++=======================+=======================+
+| .. image:: assets/icons/favicon-32x32.png   | Campground         |
++-----------------------+-----------------------+
+| .. image:: assets/icons/favicon-32x32.png   | Lake               |
++-----------------------+-----------------------+
+| .. image:: assets/icons/favicon-32x32.png   | Mountain           |
++-----------------------+-----------------------+
+
+End Table 3
 
 This format is the most natural and obvious. It was independently invented (no great feat of creation!), and later found to be the format supported by the Emacs table mode:
 
 .. note::
-   Begin Table 2
+   Begin Table 4
 
 +------------+------------+------------+--------------+
 |  Header 1  |  Header 2  |  Header 3  |  Header 4    |
@@ -122,7 +151,7 @@ This format is the most natural and obvious. It was independently invented (no g
 |      1     |      2     |      3     | - span       |
 +------------+------------+------------+--------------+
 
-End Table 2
+End Table 4
 
 Tables are described with a visual outline made up of the characters '-', '=', '|', and '+':
 
@@ -136,7 +165,7 @@ Row and column spans are possible simply by omitting the column or row separator
 Below is a simpler table structure. It may be better suited to manual input than alternative #1, but there is no Emacs editing mode available. One disadvantage is that it resembles section titles; a one-column table would look exactly like section & subsection titles.
 
 .. attention::
-   Begin Table 3
+   Begin Table 5
 
 ------------ ------------ ------------ --------------
   Header 1     Header 2     Header 3     Header 4
@@ -146,16 +175,17 @@ Below is a simpler table structure. It may be better suited to manual input than
     Column 1 & 2 span      Column 3    - Column 4
 ------------------------- ------------ - Row 2 & 3
       1            2       3           - span
-============ ============ ============ ==============
+------------ ------------ ------------ --------------
 
-End Table 3
+
+End Table 5
 
 The table begins with a top border of equals signs with a space at each column boundary (regardless of spans). Each row is underlined. Internal row separators are underlines of '-', with spaces at column boundaries. The last of the optional head rows is underlined with '=', again with spaces at column boundaries. Column spans have no spaces in their underline. Row spans simply lack an underline at the row boundary. The bottom boundary of the table consists of '=' underlines. A blank line is required following a table.
 
 A minimalist alternative is as follows:
 
 .. attention::
-   Begin Table 4
+   Begin Table 6
 
 
 ====  =====  ========  ========  =======  ====  =====  =====
@@ -173,9 +203,10 @@ None  False  implicit  implicit  new      None  False
 old   False  implicit  implicit  new,old  None  False
 None  True   implicit  implicit  new      None  True
 old   True   implicit  implicit  new      old   True
-=========================================================
+====  =====  ========  ========  =======  ====  =====  =====
 
-End Table 4
+
+End Table 6
 
 There are three forms of hyperlink currently in StructuredText:
 
