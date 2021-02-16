@@ -10,7 +10,7 @@ https://github.com/coding-to-music
    :scale: 50 %
    :alt: map to buried treasure
 
-.. attention::
+.. note::
    Begin Grid table:
 
 +------------+------------+-----------+
@@ -25,7 +25,7 @@ https://github.com/coding-to-music
 | body row 4 |            | - blocks. |
 +------------+------------+-----------+
 
-.. attention::
+.. note::
    Begin Simple table:
 
 =====  =====  ========
@@ -109,7 +109,7 @@ transitions be immediately adjacent.
 
 This format is the most natural and obvious. It was independently invented (no great feat of creation!), and later found to be the format supported by the Emacs table mode:
 
-.. attention::
+.. note::
    Begin Table 2
 
 +------------+------------+------------+--------------+
