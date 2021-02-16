@@ -206,9 +206,9 @@ A minimalist alternative is as follows:
    Begin Table 6
 
 
-====  =====  ========  ========  =======  ====  =====  =====
+===========  ========  =================  ===========  =====
 Old State    Input     Action             New State    Notes
------------  --------  -----------------  -----------
+-----------  --------  -----------------  -----------  
 ids   types  new type  sys.msg.  dupname  ids   types
 ====  =====  ========  ========  =======  ====  =====  =====
 --    --     explicit  --        --       new   True
