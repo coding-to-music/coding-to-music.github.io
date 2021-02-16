@@ -136,6 +136,24 @@ End Table 2
 
 End Table 3
 
+End Table 2
+
+.. attention::
+   Begin Table 3Revised
+
++-----------------------+-----------------------+
+| Symbol                | Meaning               |
++=======================+=======================+
+| example1              | Campground            |
++-----------------------+-----------------------+
+| example2              | Lake                  |
++-----------------------+-----------------------+
+| example3              | Mountain              |
++-----------------------+-----------------------+
+
+End Table 3Revised
+
+
 This format is the most natural and obvious. It was independently invented (no great feat of creation!), and later found to be the format supported by the Emacs table mode:
 
 .. note::
