@@ -37,6 +37,41 @@ False  True   True
 True   True   True
 =====  =====  ========
 
+.. DANGER::
+   Beware killer rabbits!
+
+.. attention::
+   attention here
+
+.. caution::
+   caution here
+
+.. danger::
+   danger here
+
+.. error::
+   error here
+
+.. hint::
+   hint here
+
+.. important::
+   important here
+
+.. note::
+   note here
+
+.. tip::
+   tip here
+
+.. warning::
+   warning here
+
+.. admonition:: admonition here 
+
+   you can make your own admonition here
+
+
 A transition marker is a horizontal line
 of 4 or more repeated punctuation
 characters.

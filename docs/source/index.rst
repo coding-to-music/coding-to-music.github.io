@@ -18,6 +18,7 @@ Guide
    :maxdepth: 2
    :caption: Contents:
 
+   test1
    https://readthedocs.org/projects/pandemic-overview/builds/
    Making Sense of the Pandemic
    Letter to the town of Brookine Massachusetts
@@ -42,7 +43,6 @@ Guide
    Current Events and their relationship to today’s events
    Economics, Fossil Fuels, Pharma, Money, Power
    test3
-   test1
    GOF
    How you can help
    license
