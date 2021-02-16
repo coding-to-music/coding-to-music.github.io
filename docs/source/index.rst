@@ -22,7 +22,7 @@ Guide
    https://readthedocs.org/projects/pandemic-overview/builds/
    Making Sense of the Pandemic
    Letter to the town of Brookine Massachusetts
-   Comments about various suggested or recommended or not-recommended Covid virus treatments 
+   Covid Medical Treatments
    Events in Medical History we might want to consider
    Vaccines
    FAQ Frequently Asked Questions
