@@ -10,7 +10,8 @@ https://github.com/coding-to-music
    :scale: 50 %
    :alt: map to buried treasure
 
-Grid table:
+.. attention::
+   Begin Grid table:
 
 +------------+------------+-----------+
 | Header 1   | Header 2   | Header 3  |
@@ -24,7 +25,8 @@ Grid table:
 | body row 4 |            | - blocks. |
 +------------+------------+-----------+
 
-Simple table:
+.. attention::
+   Begin Simple table:
 
 =====  =====  ========
    Inputs     Output
@@ -90,7 +92,8 @@ transitions be immediately adjacent.
    case, the legend consists of this paragraph and the following
    table:
 
-   Begin Table 1
+   .. attention::
+      Begin Table 1
 
    +-----------------------+-----------------------+
    | Symbol                | Meaning               |
@@ -106,7 +109,8 @@ transitions be immediately adjacent.
 
 This format is the most natural and obvious. It was independently invented (no great feat of creation!), and later found to be the format supported by the Emacs table mode:
 
-Begin Table 2
+.. attention::
+   Begin Table 2
 
 +------------+------------+------------+--------------+
 |  Header 1  |  Header 2  |  Header 3  |  Header 4    |
@@ -131,7 +135,8 @@ Row and column spans are possible simply by omitting the column or row separator
 
 Below is a simpler table structure. It may be better suited to manual input than alternative #1, but there is no Emacs editing mode available. One disadvantage is that it resembles section titles; a one-column table would look exactly like section & subsection titles.
 
-Begin Table 3
+.. attention::
+   Begin Table 3
 
 ============ ============ ============ ==============
   Header 1     Header 2     Header 3     Header 4
@@ -149,7 +154,9 @@ The table begins with a top border of equals signs with a space at each column b
 
 A minimalist alternative is as follows:
 
-Begin Table 4
+.. attention::
+   Begin Table 4
+
 
 +====  =====  ========  ========  =======  ====  =====  =====+
 Old State    Input     Action             New State    Notes
