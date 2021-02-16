@@ -22,16 +22,16 @@ Guide
    Making Sense of the Pandemic
    Letter to the town of Brookine Massachusetts
    Comments about various suggested or recommended or not-recommended Covid virus treatments 
-   Ivermectin
-   Hydroxychloroquine
-   Doxycycline
-   Azithromycin
+    Ivermectin
+    Hydroxychloroquine
+    Doxycycline
+    Azithromycin
    Events in Medical History we might want to consider
-   1976 Swine Flu Fiasco
-   Tuskgee Medical Experiments - 40 years of untreated Syphlis
+    1976 Swine Flu Fiasco
+    Tuskgee Medical Experiments - 40 years of untreated Syphlis
    Vaccines
-   COVID-19 Vaccines In the News
-   Children's Vaccine Recommended or Required or Widely Available Schedule 1960's to 2018
+    COVID-19 Vaccines In the News
+    Children's Vaccine Recommended or Required or Widely Available Schedule 1960's to 2018
    What is the history of vaccines, how much money and what are they used for
    FAQ Frequently Asked Questions
    What is the historical background and timeline of key participants of this pandemic
