@@ -92,7 +92,7 @@ transitions be immediately adjacent.
    case, the legend consists of this paragraph and the following
    table:
 
-   .. attention::
+   .. note::
       Begin Table 1
 
    +-----------------------+-----------------------+
@@ -110,7 +110,7 @@ transitions be immediately adjacent.
 
 
 
-.. attention::
+.. note::
    Begin Table 2
 
 +------------+------------+-----------+
@@ -138,7 +138,7 @@ End Table 3
 
 End Table 2
 
-.. attention::
+.. note::
    Begin Table 3Revised
 
 +-----------------------+-----------------------+
