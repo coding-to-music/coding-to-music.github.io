@@ -73,6 +73,10 @@ True   True   True
 
    you can make your own admonition here
 
+.. admonition:: So what I feel is very important 
+
+   Is this key point right here, you know?
+
 
 A transition marker is a horizontal line
 of 4 or more repeated punctuation
