@@ -1,4 +1,4 @@
 sphinx>=1.8.3
-sphinx_gallery.gen_gallery
+sphinx_gallery.gen_gallery>=0.8.2
 sphinx.ext.autodoc
 sphinxcontrib.twitter
