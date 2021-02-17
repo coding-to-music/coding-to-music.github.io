@@ -1,0 +1,3 @@
+'sphinx.ext.autodoc',
+'sphinx_gallery.gen_gallery',
+'sphinxcontrib.twitter'
