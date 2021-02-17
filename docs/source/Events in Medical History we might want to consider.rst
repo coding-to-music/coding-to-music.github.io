@@ -7,3 +7,5 @@ Events in Medical History we might want to consider
 
    1976 Swine Flu Fiasco
    Tuskgee Medical Experiments - 40 years of untreated Syphlis
+   History of Epidemics 
+
