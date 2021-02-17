@@ -164,6 +164,35 @@ span rows.</td>
 <p class="first admonition-title">So what I feel is very important</p>
 <p class="last">Is this key point right here, you know?</p>
 </div>
+<div class="section" id="special-directives">
+<h2>Special directives<a class="headerlink" href="#special-directives" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+<div class="section" id="colored-boxes-note-seealso-todo-and-warnings">
+<h1>colored boxes: note, seealso, todo and warnings<a class="headerlink" href="#colored-boxes-note-seealso-todo-and-warnings" title="Permalink to this headline">¶</a></h1>
+<p>There are simple directives like <strong>seealso</strong> that creates nice colored boxes:</p>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last">This is a simple <strong>seealso</strong> note.</p>
+</div>
+<p>created using:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>.. seealso:: This is a simple **seealso** note. Other inline directive may be included (e.g., math :math:`\alpha`) but not al of them.
+</pre></div>
+</div>
+<p>You have also the <strong>note</strong> and <strong>warning</strong> directives:</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">This is a <strong>note</strong> box.</p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">note the space between the directive and the text</p>
+</div>
+<p>There is another nice dircective with the <strong>todo</strong> one but it requires to add <cite>sphinx.ext.todo</cite> extension in the <strong>conf.py</strong> file and these two lines of code:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">[</span><span class="n">extensions</span><span class="p">]</span>
+<span class="n">todo_include_todos</span><span class="o">=</span><span class="kc">True</span>
+</pre></div>
+</div>
 <p>A transition marker is a horizontal line
 of 4 or more repeated punctuation
 characters.</p>
@@ -311,12 +340,6 @@ Row and column spans are possible simply by omitting the column or row separator
 (Endnotes.) Text enclosed by brackets link to an endnote at the end of the document: at the beginning of the line, two dots, a space, and the same text in brackets, followed by the end note itself:</p>
 <p>Please refer to the fine manual [GVR2001].</p>
 <p>The problem with forms 1 and 2 is that they are neither intuitive nor unobtrusive (they break design goals 5 &amp; 2). They overload double-quotes, which are too often used in ordinary text (potentially breaking design goal 4). The brackets in form 3 are also too common in ordinary text (such as [nested] asides and Python lists like [12]).</p>
-<div class="section" id="section-title-1">
-<h2>Section Title 1<a class="headerlink" href="#section-title-1" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="section-title-2">
-<h3>Section Title 2<a class="headerlink" href="#section-title-2" title="Permalink to this headline">¶</a></h3>
-</div>
-</div>
 </div>
 <div class="section" id="section-title-3">
 <h1>Section Title 3<a class="headerlink" href="#section-title-3" title="Permalink to this headline">¶</a></h1>
@@ -350,9 +373,10 @@ Row and column spans are possible simply by omitting the column or row separator
 <li class="toctree-l1"><a class="reference internal" href="FAQ Frequently Asked Questions.html#what-is-the-historical-background-and-timeline-of-key-participants-of-this-pandemic">What is the historical background and timeline of key participants of this pandemic</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Resources and additional background material.html">Resources and additional background material</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">test1</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#section-title-1">Section Title 1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#special-directives">Special directives</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="#colored-boxes-note-seealso-todo-and-warnings">colored boxes: note, seealso, todo and warnings</a></li>
 <li class="toctree-l1"><a class="reference internal" href="#section-title-3">Section Title 3</a></li>
 <li class="toctree-l1"><a class="reference internal" href="test3.html">test3</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Big Picture.html">Big Picture</a></li>
