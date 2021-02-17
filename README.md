@@ -117,9 +117,26 @@ Changes made:
 - new directory examples
 - new file examples/README.rst
 - ran pip3 install sphinx-gallery
+- requirements.txt
+- .readthedocs.yml
 
 https://github.com/sphinx-gallery/sphinx-gallery
 
 ```java
 pip3 install sphinx-gallery
 ```
+These were in requirements.txt
+'sphinx.ext.autodoc',
+'sphinx_gallery.gen_gallery',
+'sphinxcontrib.twitter'
+
+sphinx.ext.autodoc
+sphinx_gallery.gen_gallery
+sphinxcontrib.twitter
+
+These were in conf.py
+extensions = [
+    'sphinx.ext.autodoc',
+    'sphinxcontrib.twitter'
+    'sphinx_gallery.gen_gallery'
+    ]
