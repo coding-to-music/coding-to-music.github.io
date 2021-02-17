@@ -39,8 +39,15 @@ release = '0.0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.autodoc'
+    'sphinx.ext.autodoc',
+    'sphinx_gallery.gen_gallery',
+    'sphinxcontrib.twitter'
     ]
+
+sphinx_gallery_conf = {
+     'examples_dirs': 'examples',   # path to your example scripts
+     'gallery_dirs': 'auto_examples',  # path to where to save gallery generated output
+}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['ntemplates']

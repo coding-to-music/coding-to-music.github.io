@@ -34,7 +34,7 @@ How to set up SSH keys on your computer with vscode
 ------------------------------------------------------------------------------
 
 How to edit Markdown to format documents [Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)  
-------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------
 
 How do use branching in GitHub    
 ------------------------------------------------------------------------------

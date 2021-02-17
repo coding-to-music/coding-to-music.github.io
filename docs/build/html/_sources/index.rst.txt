@@ -20,6 +20,7 @@ Guide
    :maxdepth: 2
    :caption: Contents:
 
+   examples/README
    Making Sense of the Pandemic
    Letter to the town of Brookine Massachusetts
    Covid Medical Treatments
