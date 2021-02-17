@@ -109,3 +109,8 @@ https://docutils.sourceforge.io/docs/ref/rst/directives.html
 
 https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html
 
+https://github.com/sphinx-gallery/sphinx-gallery
+
+```java
+pip3 install sphinx-gallery
+```
