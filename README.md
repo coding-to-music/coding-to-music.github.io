@@ -109,6 +109,15 @@ https://docutils.sourceforge.io/docs/ref/rst/directives.html
 
 https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html
 
+
+To create a gallery of images, we are using Sphinx Gallery - a Sphinx extension
+Sphinx Gallery documentation is here: https://sphinx-gallery.github.io/stable/index.html
+
+Changes made:
+- new directory examples
+- new file examples/README.rst
+- ran pip3 install sphinx-gallery
+
 https://github.com/sphinx-gallery/sphinx-gallery
 
 ```java
