@@ -28,6 +28,7 @@ Guide
    Vaccines
    FAQ Frequently Asked Questions
    Resources and additional background material
+   CheatSheet1
    test1
    test3
    Big Picture
