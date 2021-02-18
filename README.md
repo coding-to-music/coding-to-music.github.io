@@ -104,6 +104,8 @@ finally, build your sphinx project.
 $ make html
 ```
 
+Cheat Sheets for [Restructured Text (reST) and Syphinx CheatSheet](http://openalea.gforge.inria.fr/doc/openalea/doc/_build/html/source/sphinx/rest_syntax.html)
+
 
 https://docutils.sourceforge.io/docs/ref/rst/directives.html
 
@@ -140,3 +142,10 @@ extensions = [
     'sphinxcontrib.twitter'
     'sphinx_gallery.gen_gallery'
     ]
+
+.. code-block:: console
+
+    $ git clone https://github.com/sphinx-gallery/sphinx-gallery
+    $ cd sphinx-gallery
+    $ pip install -r dev-requirements.txt
+    $ pip install -e .
