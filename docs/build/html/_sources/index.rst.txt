@@ -16,9 +16,6 @@ https://readthedocs.org/projects/pandemic-overview/builds/
 Guide
 ^^^^^
 
-.. automodule:: my_project.main
-    :members
-
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
