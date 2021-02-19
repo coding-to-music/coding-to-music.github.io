@@ -14,10 +14,10 @@
 #
 import os
 import sys
+# import sphinx_gallery
 sys.path.insert(0, os.path.abspath('.'))
-sys.path.insert(0, os.path.abspath('sphinxext'))
-sys.path.insert(0, os.path.abspath('sphinxcontrib'))
-sys.path.insert(0, os.path.abspath('sphinxcontrib.twitter'))
+sys.path.insert(0, os.path.abspath('..'))
+sys.path.insert(0, os.path.abspath('../..'))
 
 
 # -- Project information -----------------------------------------------------
@@ -41,9 +41,12 @@ release = '0.0.1'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [
-    'sphinx.ext.autodoc'
-    ]
+
+# extensions = [
+#     'sphinx.ext.autodoc'
+#     ]
+
+extensions = ['sphinx.ext.autodoc', 'sphinx.ext.coverage', 'sphinx.ext.napoleon']
 
 try:
     import sphinxcontrib.spelling

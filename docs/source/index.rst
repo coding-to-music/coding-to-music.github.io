@@ -16,6 +16,9 @@ https://readthedocs.org/projects/pandemic-overview/builds/
 Guide
 ^^^^^
 
+.. automodule:: my_project.main
+    :members
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
@@ -28,7 +31,6 @@ Guide
    Vaccines
    FAQ Frequently Asked Questions
    Resources and additional background material
-   CheatSheet1
    test1
    test3
    Big Picture
