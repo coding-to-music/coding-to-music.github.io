@@ -12,9 +12,12 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
+import os
+import sys
+sys.path.insert(0, os.path.abspath('.'))
+sys.path.insert(0, os.path.abspath('sphinxext'))
+sys.path.insert(0, os.path.abspath('sphinxcontrib'))
+sys.path.insert(0, os.path.abspath('sphinxcontrib.twitter'))
 
 
 # -- Project information -----------------------------------------------------
@@ -39,9 +42,17 @@ release = '0.0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.autodoc',
-    'sphinxcontrib.twitter'
+    'sphinx.ext.autodoc'
     ]
+
+try:
+    import sphinxcontrib.spelling
+except ImportError:
+    pass
+else:
+    extensions.append("sphinxcontrib.spelling")
+
+spelling_work_list_filename='worlist.txt'
 
 sphinx_gallery_conf = {
      'examples_dirs': 'examples',   # path to your example scripts

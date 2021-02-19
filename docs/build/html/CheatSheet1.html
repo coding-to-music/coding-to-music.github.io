@@ -1,27 +1,25 @@
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restructured Text (reST) and Sphinx CheatSheet &#8212; all-knowledge 0.0.1 documentation</title>
-    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-    <script type="text/javascript" src="_static/jquery.js"></script>
-    <script type="text/javascript" src="_static/underscore.js"></script>
-    <script type="text/javascript" src="_static/doctools.js"></script>
-    <script type="text/javascript" src="_static/language_data.js"></script>
-    <script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
-    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="test1" href="test1.html" />
     <link rel="prev" title="GOF" href="GOF.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
   
   <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
 
@@ -31,82 +29,87 @@
     <div class="document">
       <div class="documentwrapper">
         <div class="bodywrapper">
+          
+
           <div class="body" role="main">
             
   <div class="section" id="restructured-text-rest-and-sphinx-cheatsheet">
 <span id="rst-tutorial"></span><h1><a class="toc-backref" href="#id4">Restructured Text (reST) and Sphinx CheatSheet</a><a class="headerlink" href="#restructured-text-rest-and-sphinx-cheatsheet" title="Permalink to this headline">¶</a></h1>
 <div class="sidebar">
-<p class="first sidebar-title">Summary</p>
-<table class="last docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Release:</th><td class="field-body">0.0.1</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Date:</th><td class="field-body">Feb 18, 2021</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">Authors:</th><td class="field-body"><strong>Thomas Cokelaer</strong></td>
-</tr>
-<tr class="field-even field"><th class="field-name">Target:</th><td class="field-body">developers and administrators</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">status:</th><td class="field-body">mature</td>
-</tr>
-</tbody>
-</table>
+<p class="sidebar-title">Summary</p>
+<dl class="field-list simple">
+<dt class="field-odd">Release</dt>
+<dd class="field-odd"><p>0.0.1</p>
+</dd>
+<dt class="field-even">Date</dt>
+<dd class="field-even"><p>Feb 19, 2021</p>
+</dd>
+<dt class="field-odd">Authors</dt>
+<dd class="field-odd"><p><strong>Thomas Cokelaer</strong></p>
+</dd>
+<dt class="field-even">Target</dt>
+<dd class="field-even"><p>developers and administrators</p>
+</dd>
+<dt class="field-odd">status</dt>
+<dd class="field-odd"><p>mature</p>
+</dd>
+</dl>
 </div>
 <div class="contents topic" id="contents">
-<p class="topic-title first">Contents</p>
+<p class="topic-title">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#restructured-text-rest-and-sphinx-cheatsheet" id="id4">Restructured Text (reST) and Sphinx CheatSheet</a></li>
-<li><a class="reference internal" href="#generalities" id="id5">Generalities</a><ul>
-<li><a class="reference internal" href="#introduction" id="id6">Introduction</a></li>
-<li><a class="reference internal" href="#text-syntax-bold-italic-verbatim-and-special-characters" id="id7">Text syntax: bold, italic, verbatim and special characters `</a></li>
-<li><a class="reference internal" href="#headings" id="id8">Headings</a></li>
-<li><a class="reference internal" href="#directives" id="id9">Directives</a></li>
-<li><a class="reference internal" href="#internal-and-external-links" id="id10">Internal and External Links</a></li>
-<li><a class="reference internal" href="#list-and-bullets" id="id11">list and bullets</a></li>
-<li><a class="reference internal" href="#tables" id="id12">tables</a></li>
-<li><a class="reference internal" href="#include-other-rest-files-and-toc" id="id13">Include other reST files and TOC</a></li>
-<li><a class="reference internal" href="#comments-and-aliases" id="id14">Comments and aliases</a></li>
+<li><p><a class="reference internal" href="#restructured-text-rest-and-sphinx-cheatsheet" id="id4">Restructured Text (reST) and Sphinx CheatSheet</a></p></li>
+<li><p><a class="reference internal" href="#generalities" id="id5">Generalities</a></p>
+<ul>
+<li><p><a class="reference internal" href="#introduction" id="id6">Introduction</a></p></li>
+<li><p><a class="reference internal" href="#text-syntax-bold-italic-verbatim-and-special-characters" id="id7">Text syntax: bold, italic, verbatim and special characters `</a></p></li>
+<li><p><a class="reference internal" href="#headings" id="id8">Headings</a></p></li>
+<li><p><a class="reference internal" href="#directives" id="id9">Directives</a></p></li>
+<li><p><a class="reference internal" href="#internal-and-external-links" id="id10">Internal and External Links</a></p></li>
+<li><p><a class="reference internal" href="#list-and-bullets" id="id11">list and bullets</a></p></li>
+<li><p><a class="reference internal" href="#tables" id="id12">tables</a></p></li>
+<li><p><a class="reference internal" href="#include-other-rest-files-and-toc" id="id13">Include other reST files and TOC</a></p></li>
+<li><p><a class="reference internal" href="#comments-and-aliases" id="id14">Comments and aliases</a></p></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#special-directives" id="id15">Special directives</a><ul>
-<li><a class="reference internal" href="#colored-boxes-note-seealso-todo-and-warnings" id="id16">colored boxes: note, seealso, todo and warnings</a></li>
-<li><a class="reference internal" href="#inserting-code-and-literal-blocks" id="id17">Inserting code and Literal blocks</a></li>
-<li><a class="reference internal" href="#maths-and-equations-with-latex" id="id18">Maths and Equations with LaTeX</a></li>
-<li><a class="reference internal" href="#add-tests-with-doctests" id="id19">Add tests with doctests</a></li>
-<li><a class="reference internal" href="#auto-document-your-python-code" id="id20">Auto-document your python code</a></li>
-<li><a class="reference internal" href="#image-directive" id="id21">Image directive</a></li>
-<li><a class="reference internal" href="#figure-directive" id="id22">figure directive</a></li>
-<li><a class="reference internal" href="#topic-directive" id="id23">Topic directive</a></li>
-<li><a class="reference internal" href="#sidebar-directive" id="id24">Sidebar directive</a></li>
-<li><a class="reference internal" href="#glossary-centered-index-download-and-field-list" id="id25">glossary, centered, index, download and field list</a></li>
+<li><p><a class="reference internal" href="#special-directives" id="id15">Special directives</a></p>
+<ul>
+<li><p><a class="reference internal" href="#colored-boxes-note-seealso-todo-and-warnings" id="id16">colored boxes: note, seealso, todo and warnings</a></p></li>
+<li><p><a class="reference internal" href="#inserting-code-and-literal-blocks" id="id17">Inserting code and Literal blocks</a></p></li>
+<li><p><a class="reference internal" href="#maths-and-equations-with-latex" id="id18">Maths and Equations with LaTeX</a></p></li>
+<li><p><a class="reference internal" href="#add-tests-with-doctests" id="id19">Add tests with doctests</a></p></li>
+<li><p><a class="reference internal" href="#auto-document-your-python-code" id="id20">Auto-document your python code</a></p></li>
+<li><p><a class="reference internal" href="#image-directive" id="id21">Image directive</a></p></li>
+<li><p><a class="reference internal" href="#figure-directive" id="id22">figure directive</a></p></li>
+<li><p><a class="reference internal" href="#topic-directive" id="id23">Topic directive</a></p></li>
+<li><p><a class="reference internal" href="#sidebar-directive" id="id24">Sidebar directive</a></p></li>
+<li><p><a class="reference internal" href="#glossary-centered-index-download-and-field-list" id="id25">glossary, centered, index, download and field list</a></p></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#others" id="id26">Others</a><ul>
-<li><a class="reference internal" href="#footnote" id="id27">Footnote</a></li>
-<li><a class="reference internal" href="#citations" id="id28">Citations</a></li>
-<li><a class="reference internal" href="#more-about-aliases" id="id29">More about aliases</a></li>
-<li><a class="reference internal" href="#cross-referencing-syntax" id="id30">Cross-referencing syntax</a></li>
-<li><a class="reference internal" href="#adding-raw-html" id="id31">Adding raw html</a></li>
+<li><p><a class="reference internal" href="#others" id="id26">Others</a></p>
+<ul>
+<li><p><a class="reference internal" href="#footnote" id="id27">Footnote</a></p></li>
+<li><p><a class="reference internal" href="#citations" id="id28">Citations</a></p></li>
+<li><p><a class="reference internal" href="#more-about-aliases" id="id29">More about aliases</a></p></li>
+<li><p><a class="reference internal" href="#cross-referencing-syntax" id="id30">Cross-referencing syntax</a></p></li>
+<li><p><a class="reference internal" href="#adding-raw-html" id="id31">Adding raw html</a></p></li>
 </ul>
 </li>
 </ul>
 </div>
 <div class="admonition seealso">
-<p class="first admonition-title">See also</p>
-<dl class="last docutils">
-<dt>This documentation is based based upon documentation found in:</dt>
-<dd><ul class="first last simple">
-<li><a class="reference external" href="http://sphinx.pocoo.org/rest.html">Sphinx</a></li>
-<li><a class="reference external" href="http://docutils.sourceforge.net/rst.html">Docutils</a></li>
+<p class="admonition-title">See also</p>
+<dl class="simple">
+<dt>This documentation is based based upon documentation found in:</dt><dd><ul class="simple">
+<li><p><a class="reference external" href="http://sphinx.pocoo.org/rest.html">Sphinx</a></p></li>
+<li><p><a class="reference external" href="http://docutils.sourceforge.net/rst.html">Docutils</a></p></li>
 </ul>
 </dd>
 </dl>
 </div>
 <div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">Sphinx code is written in reST. Nonetheless, sphinx adds many additional directives on top of the reST syntax. Therefore sphinx code may not be fully compatible with reST.</p>
+<p class="admonition-title">Note</p>
+<p>Sphinx code is written in reST. Nonetheless, sphinx adds many additional directives on top of the reST syntax. Therefore sphinx code may not be fully compatible with reST.</p>
 </div>
 </div>
 <div class="section" id="generalities">
@@ -118,82 +121,78 @@ markup syntax and parser system. It is useful for in-line program documentation
 (such as Python docstrings), for quickly creating simple web pages, and for
 standalone documents.</p>
 <div class="admonition warning">
-<p class="first admonition-title">Warning</p>
-<p class="last">like Python, reST syntax is sensitive to indentation !</p>
+<p class="admonition-title">Warning</p>
+<p>like Python, reST syntax is sensitive to indentation !</p>
 </div>
 <div class="admonition warning">
-<p class="first admonition-title">Warning</p>
-<p class="last">reST requires blank lines between paragraphs</p>
+<p class="admonition-title">Warning</p>
+<p>reST requires blank lines between paragraphs</p>
 </div>
 </div>
 <div class="section" id="text-syntax-bold-italic-verbatim-and-special-characters">
 <h2><a class="toc-backref" href="#id7">Text syntax: bold, italic, verbatim and special characters `</a><a class="headerlink" href="#text-syntax-bold-italic-verbatim-and-special-characters" title="Permalink to this headline">¶</a></h2>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">basic usage:</th><td class="field-body"><ul class="first">
-<li><p class="first">use one asterisk on each side of a text you want to emphasize in  <em>italic</em> and 2 asterisks in you want to make it <strong>bold</strong>:</p>
+<dl class="field-list">
+<dt class="field-odd">basic usage</dt>
+<dd class="field-odd"><ul>
+<li><p>use one asterisk on each side of a text you want to emphasize in  <em>italic</em> and 2 asterisks in you want to make it <strong>bold</strong>:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">*</span><span class="n">italic</span><span class="o">*</span>
 <span class="o">**</span><span class="n">bold</span><span class="o">**</span>
 </pre></div>
 </div>
 </li>
-<li><p class="first">double backquotes are used to make a text verbatim. For instance, it you want to use special characters such as <code class="docutils literal notranslate"><span class="pre">*</span></code>:</p>
+<li><p>double backquotes are used to make a text verbatim. For instance, it you want to use special characters such as <code class="docutils literal notranslate"><span class="pre">*</span></code>:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>This ``*`` character is not interpreted
 </pre></div>
 </div>
 </li>
-<li><p class="first">Finally, the single backquote is used for reST special commands (e.g., hyper links with spaces):</p>
+<li><p>Finally, the single backquote is used for reST special commands (e.g., hyper links with spaces):</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>This is how to create hyperlinks (see later)  `OpenAlea wiki &lt;openalea.gforge.inria.fr&gt;`_
 </pre></div>
 </div>
 <div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">If asterisks or backquotes appear in running text and could be confused with inline markup delimiters, they have to be escaped with a backslash.</p>
+<p class="admonition-title">Note</p>
+<p>If asterisks or backquotes appear in running text and could be confused with inline markup delimiters, they have to be escaped with a backslash.</p>
 </div>
 </li>
 </ul>
-</td>
-</tr>
-<tr class="field-even field"><th class="field-name">advanced usage:</th><td class="field-body"><p class="first">Be aware of some restrictions of this markup:</p>
+</dd>
+<dt class="field-even">advanced usage</dt>
+<dd class="field-even"><p>Be aware of some restrictions of this markup:</p>
 <ul class="simple">
-<li>it may not be nested,</li>
-<li>content may not start or end with whitespace: <code class="docutils literal notranslate"><span class="pre">*</span> <span class="pre">text*</span></code> is wrong,</li>
-<li>it must be separated from surrounding text by non-word characters.</li>
+<li><p>it may not be nested,</p></li>
+<li><p>content may not start or end with whitespace: <code class="docutils literal notranslate"><span class="pre">*</span> <span class="pre">text*</span></code> is wrong,</p></li>
+<li><p>it must be separated from surrounding text by non-word characters.</p></li>
 </ul>
 <p>Use a backslash escaped space to work around that:</p>
-<ul class="last simple">
-<li><code class="docutils literal notranslate"><span class="pre">this</span> <span class="pre">is</span> <span class="pre">a</span> <span class="pre">*longish*</span> <span class="pre">paragraph</span></code> is correct and gives <em>longish</em>.</li>
-<li><code class="docutils literal notranslate"><span class="pre">this</span> <span class="pre">is</span> <span class="pre">a</span> <span class="pre">long*ish*</span> <span class="pre">paragraph</span></code> is not interpreted as expected. You
-should use <code class="docutils literal notranslate"><span class="pre">this</span> <span class="pre">is</span> <span class="pre">a</span> <span class="pre">long\</span> <span class="pre">*ish*</span> <span class="pre">paragraph</span></code> to obtain long<em>ish</em> paragraph</li>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">this</span> <span class="pre">is</span> <span class="pre">a</span> <span class="pre">*longish*</span> <span class="pre">paragraph</span></code> is correct and gives <em>longish</em>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">this</span> <span class="pre">is</span> <span class="pre">a</span> <span class="pre">long*ish*</span> <span class="pre">paragraph</span></code> is not interpreted as expected. You
+should use <code class="docutils literal notranslate"><span class="pre">this</span> <span class="pre">is</span> <span class="pre">a</span> <span class="pre">long\</span> <span class="pre">*ish*</span> <span class="pre">paragraph</span></code> to obtain long<em>ish</em> paragraph</p></li>
 </ul>
-</td>
-</tr>
-</tbody>
-</table>
+</dd>
+</dl>
 <div class="admonition warning">
-<p class="first admonition-title">Warning</p>
+<p class="admonition-title">Warning</p>
 <p>In Python docstrings it will be necessary to escape any backslash characters so that they actually reach reStructuredText. The simplest way to do this is to use raw strings:</p>
-<table border="1" class="last docutils">
+<table class="docutils align-default">
 <colgroup>
-<col width="54%" />
-<col width="46%" />
+<col style="width: 54%" />
+<col style="width: 46%" />
 </colgroup>
-<thead valign="bottom">
-<tr class="row-odd"><th class="head">Python string</th>
-<th class="head">Typical result</th>
+<thead>
+<tr class="row-odd"><th class="head"><p>Python string</p></th>
+<th class="head"><p>Typical result</p></th>
 </tr>
 </thead>
-<tbody valign="top">
-<tr class="row-even"><td><code class="docutils literal notranslate"><span class="pre">r&quot;&quot;&quot;\*escape*</span> <span class="pre">\`with`</span> <span class="pre">&quot;\\&quot;&quot;&quot;&quot;</span></code></td>
-<td><code class="docutils literal notranslate"><span class="pre">*escape*</span> <span class="pre">`with`</span> <span class="pre">&quot;\&quot;</span></code></td>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">r&quot;&quot;&quot;\*escape*</span> <span class="pre">\`with`</span> <span class="pre">&quot;\\&quot;&quot;&quot;&quot;</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">*escape*</span> <span class="pre">`with`</span> <span class="pre">&quot;\&quot;</span></code></p></td>
 </tr>
-<tr class="row-odd"><td><code class="docutils literal notranslate"><span class="pre">&quot;&quot;&quot;\\*escape*</span> <span class="pre">\\`with`</span> <span class="pre">&quot;\\\\&quot;&quot;&quot;&quot;</span></code></td>
-<td><code class="docutils literal notranslate"><span class="pre">*escape*</span> <span class="pre">`with`</span> <span class="pre">&quot;\&quot;</span></code></td>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">&quot;&quot;&quot;\\*escape*</span> <span class="pre">\\`with`</span> <span class="pre">&quot;\\\\&quot;&quot;&quot;&quot;</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">*escape*</span> <span class="pre">`with`</span> <span class="pre">&quot;\&quot;</span></code></p></td>
 </tr>
-<tr class="row-even"><td><code class="docutils literal notranslate"><span class="pre">&quot;&quot;&quot;\*escape*</span> <span class="pre">\`with`</span> <span class="pre">&quot;\\&quot;&quot;&quot;&quot;</span></code></td>
-<td><code class="docutils literal notranslate"><span class="pre">escape</span> <span class="pre">with</span> <span class="pre">&quot;&quot;</span></code></td>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">&quot;&quot;&quot;\*escape*</span> <span class="pre">\`with`</span> <span class="pre">&quot;\\&quot;&quot;&quot;&quot;</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">escape</span> <span class="pre">with</span> <span class="pre">&quot;&quot;</span></code></p></td>
 </tr>
 </tbody>
 </table>
@@ -217,20 +216,20 @@ should use <code class="docutils literal notranslate"><span class="pre">this</sp
 <p>Two rules:</p>
 <blockquote>
 <div><ul class="simple">
-<li>use at least as many characters as the length of the title</li>
-<li>characters usage is quite flexible but be consistent</li>
+<li><p>use at least as many characters as the length of the title</p></li>
+<li><p>characters usage is quite flexible but be consistent</p></li>
 </ul>
 </div></blockquote>
 <p>Normally, there are no heading levels assigned to certain characters as the
 structure is determined from the succession of headings. However, for the
 Python documentation, this convention is used which you may want to follow :</p>
 <ul class="simple">
-<li><cite>#</cite> with overline, for parts</li>
-<li><cite>*</cite> with overline, for chapters</li>
-<li><cite>=</cite>, for sections</li>
-<li><cite>-</cite>, for subsections</li>
-<li><cite>^</cite>, for subsubsections</li>
-<li><cite>“</cite>, for paragraphs</li>
+<li><p><cite>#</cite> with overline, for parts</p></li>
+<li><p><cite>*</cite> with overline, for chapters</p></li>
+<li><p><cite>=</cite>, for sections</p></li>
+<li><p><cite>-</cite>, for subsections</p></li>
+<li><p><cite>^</cite>, for subsubsections</p></li>
+<li><p><cite>“</cite>, for paragraphs</p></li>
 </ul>
 </div>
 <div class="section" id="directives">
@@ -248,19 +247,16 @@ Python documentation, this convention is used which you may want to follow :</p>
 </pre></div>
 </div>
 <div class="admonition warning">
-<p class="first admonition-title">Warning</p>
-<p class="last">note the space between the directive and its argument as well as the blank line between the option and the content</p>
+<p class="admonition-title">Warning</p>
+<p>note the space between the directive and its argument as well as the blank line between the option and the content</p>
 </div>
 <p>There are many directives which are extended thanks to plugin (e.g., math plugin for latex equations). Some of them are described here below.</p>
 </div>
 <div class="section" id="internal-and-external-links">
 <h2><a class="toc-backref" href="#id10">Internal and External Links</a><a class="headerlink" href="#internal-and-external-links" title="Permalink to this headline">¶</a></h2>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name" colspan="2">Internal hyperlinks:</th></tr>
-<tr class="field-odd field"><td>&#160;</td><td class="field-body"><p class="first">All titles are considered as internal hyperlinks that may be refered to using this syntax:</p>
+<dl class="field-list">
+<dt class="field-odd">Internal hyperlinks</dt>
+<dd class="field-odd"><p>All titles are considered as internal hyperlinks that may be refered to using this syntax:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>`Internal and External links`_
 </pre></div>
 </div>
@@ -270,23 +266,21 @@ Python documentation, this convention is used which you may want to follow :</p>
 </div>
 <p>And then inserting <code class="docutils literal notranslate"><span class="pre">begin_</span></code> in your text. For instance, jump to the beginning of this document <a class="reference internal" href="#rst-tutorial">rst_tutorial</a></p>
 <div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">Note the underscore at the end ot the links</p>
+<p class="admonition-title">Note</p>
+<p>Note the underscore at the end ot the links</p>
 </div>
-</td>
-</tr>
-<tr class="field-even field"><th class="field-name">External links:</th><td class="field-body"><p class="first">In order to link to external links simply use:</p>
+</dd>
+<dt class="field-even">External links</dt>
+<dd class="field-even"><p>In order to link to external links simply use:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>`Python &lt;http://www.python.org/&gt;`_
 </pre></div>
 </div>
-<p class="last">that is rendered as a normal hyperlink <a class="reference external" href="http://www.python.org/">Python</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
+<p>that is rendered as a normal hyperlink <a class="reference external" href="http://www.python.org/">Python</a>.</p>
+</dd>
+</dl>
 <div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">If you have an underscore within the label/name, you got to escape it with a ‘' character.</p>
+<p class="admonition-title">Note</p>
+<p>If you have an underscore within the label/name, you got to escape it with a ‘\’ character.</p>
 </div>
 </div>
 <div class="section" id="list-and-bullets">
@@ -305,51 +299,49 @@ Python documentation, this convention is used which you may want to follow :</p>
 </div>
 <p>gives:</p>
 <ul class="simple">
-<li>This is a bulleted list.</li>
-<li>It has two items, the second
-item uses two lines. (note the indentation)</li>
+<li><p>This is a bulleted list.</p></li>
+<li><p>It has two items, the second
+item uses two lines. (note the indentation)</p></li>
 </ul>
 <ol class="arabic simple">
-<li>This is a numbered list.</li>
-<li>It has two items too.</li>
-<li>This is a numbered list.</li>
-<li>It has two items too.</li>
+<li><p>This is a numbered list.</p></li>
+<li><p>It has two items too.</p></li>
+<li><p>This is a numbered list.</p></li>
+<li><p>It has two items too.</p></li>
 </ol>
 <div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">if two lists are separated by a blanck line only, then the two lists are not differentiated as you can see above.</p>
+<p class="admonition-title">Note</p>
+<p>if two lists are separated by a blanck line only, then the two lists are not differentiated as you can see above.</p>
 </div>
 </div>
 <div class="section" id="tables">
 <h2><a class="toc-backref" href="#id12">tables</a><a class="headerlink" href="#tables" title="Permalink to this headline">¶</a></h2>
 <p>There are several ways to write tables. Use standard reStructuredText tables as explained here. They work fine in HTML output, however, there are some gotchas when using tables for LaTeX output.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">simple table:</th><td class="field-body"><p class="first">Simple tables can be written as follows:</p>
+<dl class="field-list">
+<dt class="field-odd">simple table</dt>
+<dd class="field-odd"><p>Simple tables can be written as follows:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">+---------+---------+-----------+</span>
 <span class="o">|</span> <span class="mi">1</span>       <span class="o">|</span>  <span class="mi">2</span>      <span class="o">|</span>  <span class="mi">3</span>        <span class="o">|</span>
 <span class="o">+---------+---------+-----------+</span>
 </pre></div>
 </div>
 <p>which gives:</p>
-<table border="1" class="docutils">
+<table class="docutils align-default">
 <colgroup>
-<col width="31%" />
-<col width="31%" />
-<col width="38%" />
+<col style="width: 31%" />
+<col style="width: 31%" />
+<col style="width: 38%" />
 </colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td>1</td>
-<td>2</td>
-<td>3</td>
+<tbody>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>2</p></td>
+<td><p>3</p></td>
 </tr>
 </tbody>
 </table>
-</td>
-</tr>
-<tr class="field-even field"><th class="field-name">complex table:</th><td class="field-body"><div class="first highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">+------------+------------+-----------+</span>
+</dd>
+<dt class="field-even">complex table</dt>
+<dd class="field-even"><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">+------------+------------+-----------+</span>
 <span class="o">|</span> <span class="n">Header</span> <span class="mi">1</span>   <span class="o">|</span> <span class="n">Header</span> <span class="mi">2</span>   <span class="o">|</span> <span class="n">Header</span> <span class="mi">3</span>  <span class="o">|</span>
 <span class="o">+============+============+===========+</span>
 <span class="o">|</span> <span class="n">body</span> <span class="n">row</span> <span class="mi">1</span> <span class="o">|</span> <span class="n">column</span> <span class="mi">2</span>   <span class="o">|</span> <span class="n">column</span> <span class="mi">3</span>  <span class="o">|</span>
@@ -363,9 +355,9 @@ item uses two lines. (note the indentation)</li>
 </pre></div>
 </div>
 <p>gives:</p>
-</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">another way:</th><td class="field-body"><div class="first highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">=====</span>  <span class="o">=====</span>  <span class="o">======</span>
+</dd>
+<dt class="field-odd">another way</dt>
+<dd class="field-odd"><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">=====</span>  <span class="o">=====</span>  <span class="o">======</span>
    <span class="n">Inputs</span>     <span class="n">Output</span>
 <span class="o">------------</span>  <span class="o">------</span>
   <span class="n">A</span>      <span class="n">B</span>    <span class="n">A</span> <span class="ow">or</span> <span class="n">B</span>
@@ -375,14 +367,12 @@ item uses two lines. (note the indentation)</li>
 <span class="o">=====</span>  <span class="o">=====</span>  <span class="o">======</span>
 </pre></div>
 </div>
-<p class="last">gives:</p>
-</td>
-</tr>
-</tbody>
-</table>
+<p>gives:</p>
+</dd>
+</dl>
 <div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">table and latex documents are not yet compatible in sphinx, and you should therefore precede them with the a special directive (.. htmlonly::)</p>
+<p class="admonition-title">Note</p>
+<p>table and latex documents are not yet compatible in sphinx, and you should therefore precede them with the a special directive (.. htmlonly::)</p>
 </div>
 <p>The previous examples work fine in HTML output, however there are some gotchas when using tables in LaTeX: the column width is hard to determine correctly automatically. For this reason, the following directive exists:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">tabularcolumns</span><span class="p">::</span> <span class="n">column</span> <span class="n">spec</span>
@@ -409,7 +399,7 @@ documents into multiple output files, Sphinx uses a custom directive to add
 relations between the single files the documentation is made of, as well as
 tables of contents. The toctree directive is the central element.</p>
 <div class="highlight-rest notranslate"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">toctree</span><span class="p">::</span>
-    <span class="nc">:maxdepth:</span> <span class="nf">2</span>
+    <span class="nc">:maxdepth:</span> 2
 
     intro
     chapter1
@@ -436,17 +426,15 @@ tables of contents. The toctree directive is the central element.</p>
 </div>
 <div class="section" id="comments-and-aliases">
 <h2><a class="toc-backref" href="#id14">Comments and aliases</a><a class="headerlink" href="#comments-and-aliases" title="Permalink to this headline">¶</a></h2>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Comments:</th><td class="field-body"><p class="first">comments can be made by adding two dots at the beginning of a line as follows:</p>
+<dl class="field-list">
+<dt class="field-odd">Comments</dt>
+<dd class="field-odd"><p>comments can be made by adding two dots at the beginning of a line as follows:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">comments</span>
 </pre></div>
 </div>
-</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Aliases:</th><td class="field-body"><p class="first">The first method is to add at end of your reST document something like:</p>
+</dd>
+<dt class="field-even">Aliases</dt>
+<dd class="field-even"><p>The first method is to add at end of your reST document something like:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">_Python</span><span class="p">:</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">www</span><span class="o">.</span><span class="n">python</span><span class="o">.</span><span class="n">org</span><span class="o">/</span>
 </pre></div>
 </div>
@@ -456,14 +444,12 @@ tables of contents. The toctree directive is the central element.</p>
 </pre></div>
 </div>
 <p>and then insert  <cite>|longtext|</cite> wherever needed.</p>
-<div class="last admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">Note that when you define the reference or alias, the underscore is before the keyword. However, when you refer to it, the underscore is at the end. The underscore after the keyword is also used for internal references, citations, aliases …</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Note that when you define the reference or alias, the underscore is before the keyword. However, when you refer to it, the underscore is at the end. The underscore after the keyword is also used for internal references, citations, aliases …</p>
 </div>
-</td>
-</tr>
-</tbody>
-</table>
+</dd>
+</dl>
 </div>
 </div>
 <div class="section" id="special-directives">
@@ -472,8 +458,8 @@ tables of contents. The toctree directive is the central element.</p>
 <h2><a class="toc-backref" href="#id16">colored boxes: note, seealso, todo and warnings</a><a class="headerlink" href="#colored-boxes-note-seealso-todo-and-warnings" title="Permalink to this headline">¶</a></h2>
 <p>There are simple directives like <strong>seealso</strong> that creates nice colored boxes:</p>
 <div class="admonition seealso">
-<p class="first admonition-title">See also</p>
-<p class="last">This is a simple <strong>seealso</strong> note.</p>
+<p class="admonition-title">See also</p>
+<p>This is a simple <strong>seealso</strong> note.</p>
 </div>
 <p>created using:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>.. seealso:: This is a simple **seealso** note. Other inline directive may be included (e.g., math :math:`\alpha`) but not al of them.
@@ -481,12 +467,12 @@ tables of contents. The toctree directive is the central element.</p>
 </div>
 <p>You have also the <strong>note</strong> and <strong>warning</strong> directives:</p>
 <div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">This is a <strong>note</strong> box.</p>
+<p class="admonition-title">Note</p>
+<p>This is a <strong>note</strong> box.</p>
 </div>
 <div class="admonition warning">
-<p class="first admonition-title">Warning</p>
-<p class="last">note the space between the directive and the text</p>
+<p class="admonition-title">Warning</p>
+<p>note the space between the directive and the text</p>
 </div>
 <p>There is another nice dircective with the <strong>todo</strong> one but it requires to add <cite>sphinx.ext.todo</cite> extension in the <strong>conf.py</strong> file and these two lines of code:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">[</span><span class="n">extensions</span><span class="p">]</span>
@@ -496,11 +482,9 @@ tables of contents. The toctree directive is the central element.</p>
 </div>
 <div class="section" id="inserting-code-and-literal-blocks">
 <h2><a class="toc-backref" href="#id17">Inserting code and Literal blocks</a><a class="headerlink" href="#inserting-code-and-literal-blocks" title="Permalink to this headline">¶</a></h2>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">simple code:</th><td class="field-body"><p class="first">Literal code blocks are introduced by ending a paragraph with the special marker (double coulumn) <cite>::</cite>. The literal block must be indented (and, like all paragraphs, separated from the surrounding ones by blank lines).</p>
+<dl class="field-list">
+<dt class="field-odd">simple code</dt>
+<dd class="field-odd"><p>Literal code blocks are introduced by ending a paragraph with the special marker (double coulumn) <cite>::</cite>. The literal block must be indented (and, like all paragraphs, separated from the surrounding ones by blank lines).</p>
 <p>The two following codes:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">This</span> <span class="ow">is</span> <span class="n">a</span> <span class="n">simple</span> <span class="n">example</span><span class="p">::</span>
 
@@ -522,9 +506,9 @@ tables of contents. The toctree directive is the central element.</p>
 <span class="nb">print</span> <span class="s1">&#39;import done&#39;</span>
 </pre></div>
 </div>
-</td>
-</tr>
-<tr class="field-even field"><th class="field-name">code-block:</th><td class="field-body"><p class="first">By default the syntax of the language is Python, but you can specify the language using the <strong>code-block</strong> directive as follows:</p>
+</dd>
+<dt class="field-even">code-block</dt>
+<dd class="field-even"><p>By default the syntax of the language is Python, but you can specify the language using the <strong>code-block</strong> directive as follows:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">code</span><span class="o">-</span><span class="n">block</span><span class="p">::</span> <span class="n">html</span>
     <span class="p">:</span><span class="n">linenos</span><span class="p">:</span>
 
@@ -532,27 +516,25 @@ tables of contents. The toctree directive is the central element.</p>
 </pre></div>
 </div>
 <p>produces</p>
-<div class="highlight-html notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>code block example<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+<div class="highlight-html notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>code block example<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
 </pre></div>
 </td></tr></table></div>
-</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">literalinclude:</th><td class="field-body"><p class="first">Then, it is also possible to include the contents of a file as follows:</p>
+</dd>
+<dt class="field-odd">literalinclude</dt>
+<dd class="field-odd"><p>Then, it is also possible to include the contents of a file as follows:</p>
 <div class="highlight-rest notranslate"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">literalinclude</span><span class="p">::</span> filename
     <span class="nc">:linenos:</span>
-    <span class="nc">:language:</span> <span class="nf">python</span>
-    <span class="nc">:lines:</span> <span class="nf">1, 3-5</span>
-    <span class="nc">:start-after:</span> <span class="nf">3</span>
-    <span class="nc">:end-before:</span> <span class="nf">5</span>
+    <span class="nc">:language:</span> python
+    <span class="nc">:lines:</span> 1, 3-5
+    <span class="nc">:start-after:</span> 3
+    <span class="nc">:end-before:</span> 5
 </pre></div>
 </div>
-<div class="last highlight-default notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span>
+<div class="highlight-default notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span>
 </pre></div>
 </td></tr></table></div>
-</td>
-</tr>
-</tbody>
-</table>
+</dd>
+</dl>
 </div>
 <div class="section" id="maths-and-equations-with-latex">
 <h2><a class="toc-backref" href="#id18">Maths and Equations with LaTeX</a><a class="headerlink" href="#maths-and-equations-with-latex" title="Permalink to this headline">¶</a></h2>
@@ -561,8 +543,8 @@ tables of contents. The toctree directive is the central element.</p>
 </pre></div>
 </div>
 <div class="admonition warning">
-<p class="first admonition-title">Warning</p>
-<p class="last">The <em>math</em> markup can be used within reST files (to be parsed by Sphinx) but within your python’s docstring, the slashes need to be escaped ! <code class="docutils literal notranslate"><span class="pre">:math:`\alpha`</span></code> should therefore be written <code class="docutils literal notranslate"><span class="pre">:math:`\\alpha`</span></code> or put an “r” before the docstring</p>
+<p class="admonition-title">Warning</p>
+<p>The <em>math</em> markup can be used within reST files (to be parsed by Sphinx) but within your python’s docstring, the slashes need to be escaped ! <code class="docutils literal notranslate"><span class="pre">:math:`\alpha`</span></code> should therefore be written <code class="docutils literal notranslate"><span class="pre">:math:`\\alpha`</span></code> or put an “r” before the docstring</p>
 </div>
 <p>Note also, that you can easily more complex mathematical expressions using the math directive as follows:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">math</span><span class="p">::</span>
@@ -623,8 +605,8 @@ you do not know the expecting result or do not care about it. In such case, add 
 <h2><a class="toc-backref" href="#id20">Auto-document your python code</a><a class="headerlink" href="#auto-document-your-python-code" title="Permalink to this headline">¶</a></h2>
 <p>Let us suppose you have a python file called <em>test.py</em> with a function called <em>square</em></p>
 <div class="highlight-rest notranslate"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">module</span><span class="p">::</span> test
-    <span class="nc">:platform:</span> <span class="nf">Unix, Windows</span>
-    <span class="nc">:synopsis:</span> <span class="nf">sample of documented python code</span>
+    <span class="nc">:platform:</span> Unix, Windows
+    <span class="nc">:synopsis:</span> sample of documented python code
 
 <span class="p">..</span> <span class="ow">autofunction</span><span class="p">::</span> square
 </pre></div>
@@ -632,12 +614,12 @@ you do not know the expecting result or do not care about it. In such case, add 
 <p>Gives</p>
 <span class="target" id="module-test"></span><p>Using the <strong>module</strong> creates an index (see top right of this page)</p>
 <div class="admonition warning">
-<p class="first admonition-title">Warning</p>
-<p class="last">the python code must be in the PYTHONPATH.</p>
+<p class="admonition-title">Warning</p>
+<p>the python code must be in the PYTHONPATH.</p>
 </div>
 <div class="admonition seealso">
-<p class="first admonition-title">See also</p>
-<p class="last"><a class="reference external" href="http://sphinx.pocoo.org/markup/desc.html">http://sphinx.pocoo.org/markup/desc.html</a></p>
+<p class="admonition-title">See also</p>
+<p><a class="reference external" href="http://sphinx.pocoo.org/markup/desc.html">http://sphinx.pocoo.org/markup/desc.html</a></p>
 </div>
 </div>
 <div class="section" id="image-directive">
@@ -649,8 +631,8 @@ you do not know the expecting result or do not care about it. In such case, add 
 <p>to put an image</p>
 <a class="reference internal image-reference" href="../images/wiki_logo_openalea.png"><img alt="alternate text" class="align-center" src="../images/wiki_logo_openalea.png" style="width: 200px; height: 100px;" /></a>
 <div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">As mentionned earlier, a directive may have options put between two columns:</p>
+<p class="admonition-title">Note</p>
+<p>As mentionned earlier, a directive may have options put between two columns:</p>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">image</span><span class="p">::</span> <span class="o">../</span><span class="n">images</span><span class="o">/</span><span class="n">wiki_logo_openalea</span><span class="o">.</span><span class="n">png</span>
     <span class="p">:</span><span class="n">width</span><span class="p">:</span> <span class="mi">200</span><span class="n">px</span>
@@ -681,7 +663,7 @@ you do not know the expecting result or do not care about it. In such case, add 
 <p>gives</p>
 <div class="align-center figure" id="id3">
 <a class="reference internal image-reference" href="../images/wiki_logo_openalea.png"><img alt="alternate text" src="../images/wiki_logo_openalea.png" style="width: 200px; height: 100px;" /></a>
-<p class="caption"><span class="caption-text">figure are like images but with a caption</span></p>
+<p class="caption"><span class="caption-text">figure are like images but with a caption</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 <div class="legend">
 <p>and whatever else youwish to add</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">image</span>
@@ -703,7 +685,7 @@ you do not know the expecting result or do not care about it. In such case, add 
 </div>
 <p>gives</p>
 <div class="topic">
-<p class="topic-title first">Your Topic Title</p>
+<p class="topic-title">Your Topic Title</p>
 <p>Subsequent indented lines comprise
 the body of the topic, and are
 interpreted as body elements.</p>
@@ -713,9 +695,9 @@ interpreted as body elements.</p>
 <h2><a class="toc-backref" href="#id24">Sidebar directive</a><a class="headerlink" href="#sidebar-directive" title="Permalink to this headline">¶</a></h2>
 <p>It is possible to create sibar</p>
 <div class="sidebar">
-<p class="first sidebar-title">Sidebar Title</p>
+<p class="sidebar-title">Sidebar Title</p>
 <p class="sidebar-subtitle">Optional Sidebar Subtitle</p>
-<p class="last">Subsequent indented lines comprise
+<p>Subsequent indented lines comprise
 the body of the sidebar, and are
 interpreted as body elements.</p>
 </div>
@@ -729,61 +711,53 @@ interpreted as body elements.</p>
 </pre></div>
 </div>
 <div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">sidebar appears as floating box and may not appear nicely.</p>
+<p class="admonition-title">Note</p>
+<p>sidebar appears as floating box and may not appear nicely.</p>
 </div>
 </div>
 <div class="section" id="glossary-centered-index-download-and-field-list">
 <h2><a class="toc-backref" href="#id25">glossary, centered, index, download and field list</a><a class="headerlink" href="#glossary-centered-index-download-and-field-list" title="Permalink to this headline">¶</a></h2>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Field list:</th><td class="field-body"><table class="first docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Whatever:</th><td class="field-body">this is handy to create new field and the following text is indented</td>
-</tr>
-</tbody>
-</table>
+<dl class="field-list">
+<dt class="field-odd">Field list</dt>
+<dd class="field-odd"><dl class="field-list simple">
+<dt class="field-odd">Whatever</dt>
+<dd class="field-odd"><p>this is handy to create new field and the following text is indented</p>
+</dd>
+</dl>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">:</span><span class="n">Whatever</span><span class="p">:</span> <span class="n">this</span> <span class="ow">is</span> <span class="n">handy</span> <span class="n">to</span> <span class="n">create</span> <span class="n">new</span> <span class="n">field</span>
 </pre></div>
 </div>
-</td>
-</tr>
-<tr class="field-even field"><th class="field-name">glossary:</th><td class="field-body"><div class="first highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">glossary</span><span class="p">::</span>
+</dd>
+<dt class="field-even">glossary</dt>
+<dd class="field-even"><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">glossary</span><span class="p">::</span>
 
     <span class="n">apical</span>
         <span class="n">at</span> <span class="n">the</span> <span class="n">top</span> <span class="n">of</span> <span class="n">the</span> <span class="n">plant</span><span class="o">.</span>
 </pre></div>
 </div>
 <p>gives</p>
-<dl class="glossary docutils">
-<dt id="term-apical">apical</dt>
-<dd><p class="first last">at the top of the plant.</p>
+<dl class="glossary simple">
+<dt id="term-apical">apical<a class="headerlink" href="#term-apical" title="Permalink to this term">¶</a></dt><dd><p>at the top of the plant.</p>
 </dd>
 </dl>
-</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">centered:</th><td class="field-body"><div class="first highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">centered</span><span class="p">::</span>
+</dd>
+<dt class="field-odd">centered</dt>
+<dd class="field-odd"><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">centered</span><span class="p">::</span>
 </pre></div>
 </div>
-</td>
-</tr>
-<tr class="field-even field"><th class="field-name">index:</th><td class="field-body"><div class="first highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">index</span><span class="p">::</span>
+</dd>
+<dt class="field-even">index</dt>
+<dd class="field-even"><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">index</span><span class="p">::</span>
 </pre></div>
 </div>
-</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">download:</th><td class="field-body"><div class="first highlight-default notranslate"><div class="highlight"><pre><span></span>:download:`download test.py &lt;test.py&gt;`
+</dd>
+<dt class="field-odd">download</dt>
+<dd class="field-odd"><div class="highlight-default notranslate"><div class="highlight"><pre><span></span>:download:`download test.py &lt;test.py&gt;`
 </pre></div>
 </div>
-<p class="last">gives <a class="reference download internal" download="" href="_downloads/c6b30c3718371a59dfee8cc9326e917a/test.py"><code class="xref download docutils literal notranslate"><span class="pre">download</span> <span class="pre">test.py</span></code></a></p>
-</td>
-</tr>
-</tbody>
-</table>
+<p>gives <a class="reference download internal" download="" href="_downloads/b284a28710cce90d9d9be3a7f4cabc8e/test.py"><code class="xref download docutils literal notranslate"><span class="pre">download</span> <span class="pre">test.py</span></code></a></p>
+</dd>
+</dl>
 </div>
 </div>
 <div class="section" id="others">
@@ -801,11 +775,11 @@ heading, like so:</p>
 </pre></div>
 </div>
 <p>You can also explicitly number the footnotes (<code class="docutils literal notranslate"><span class="pre">[1]_</span></code>) or use auto-numbered
-footnotes without names (<code class="docutils literal notranslate"><span class="pre">[#]_</span></code>). Here is an example <a class="footnote-reference" href="#footnote1" id="id1">[1]</a>.</p>
+footnotes without names (<code class="docutils literal notranslate"><span class="pre">[#]_</span></code>). Here is an example <a class="footnote-reference brackets" href="#footnote1" id="id1">1</a>.</p>
 </div>
 <div class="section" id="citations">
 <h2><a class="toc-backref" href="#id28">Citations</a><a class="headerlink" href="#citations" title="Permalink to this headline">¶</a></h2>
-<p>Citation references, like <a class="reference internal" href="#cit2002" id="id2">[CIT2002]</a> may be defined at the bottom of the page:</p>
+<p>Citation references, like <a class="reference internal" href="#cit2002" id="id2"><span>[CIT2002]</span></a> may be defined at the bottom of the page:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="p">[</span><span class="n">CIT2002</span><span class="p">]</span> <span class="n">A</span> <span class="n">citation</span>
           <span class="p">(</span><span class="k">as</span> <span class="n">often</span> <span class="n">used</span> <span class="ow">in</span> <span class="n">journals</span><span class="p">)</span><span class="o">.</span>
 </pre></div>
@@ -829,22 +803,22 @@ footnotes without names (<code class="docutils literal notranslate"><span class=
 <span class="o">+---------+---------+-----------+</span>
 </pre></div>
 </div>
-<table border="1" class="docutils">
+<table class="docutils align-default">
 <colgroup>
-<col width="31%" />
-<col width="31%" />
-<col width="38%" />
+<col style="width: 31%" />
+<col style="width: 31%" />
+<col style="width: 38%" />
 </colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td><a class="reference internal" href="../images/wiki_logo_openalea.png"><img alt="logo" class="align-middle" src="../images/wiki_logo_openalea.png" style="width: 20pt; height: 20pt;" /></a></td>
-<td><a class="reference internal" href="../images/wiki_logo_openalea.png"><img alt="logo" class="align-middle" src="../images/wiki_logo_openalea.png" style="width: 20pt; height: 20pt;" /></a></td>
-<td>this is a longish text to include within a table and which is longer than the width of the column.</td>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="../images/wiki_logo_openalea.png"><img alt="logo" class="align-middle" src="../images/wiki_logo_openalea.png" style="width: 20pt; height: 20pt;" /></a></p></td>
+<td><p><a class="reference internal" href="../images/wiki_logo_openalea.png"><img alt="logo" class="align-middle" src="../images/wiki_logo_openalea.png" style="width: 20pt; height: 20pt;" /></a></p></td>
+<td><p>this is a longish text to include within a table and which is longer than the width of the column.</p></td>
 </tr>
 </tbody>
 </table>
 <div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">Not easy to get exactly what you want though.</p>
+<p class="admonition-title">Note</p>
+<p>Not easy to get exactly what you want though.</p>
 </div>
 </div>
 <div class="section" id="cross-referencing-syntax">
@@ -857,8 +831,8 @@ linksâ€™s text will be the same as target.</p>
 hyperlinks: <code class="docutils literal notranslate"><span class="pre">:role:`title</span> <span class="pre">&lt;target&gt;`</span></code> will refer to target, but the link text
 will be title.</p>
 <div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">instead of :role:, you can use :ref:</p>
+<p class="admonition-title">Note</p>
+<p>instead of :role:, you can use :ref:</p>
 </div>
 </div>
 <div class="section" id="adding-raw-html">
@@ -869,25 +843,24 @@ will be title.</p>
 <td>column 1</td>
 </tr>
 </html><p class="rubric">Footnotes</p>
-<table class="docutils footnote" frame="void" id="footnote1" rules="none">
-<colgroup><col class="label" /><col /></colgroup>
-<tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id1">[1]</a></td><td>this is a footnote aimed at illustrating the footnote capability.</td></tr>
-</tbody>
-</table>
+<dl class="footnote brackets">
+<dt class="label" id="footnote1"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
+<dd><p>this is a footnote aimed at illustrating the footnote capability.</p>
+</dd>
+</dl>
 <p class="rubric">Bibliography</p>
-<table class="docutils citation" frame="void" id="cit2002" rules="none">
-<colgroup><col class="label" /><col /></colgroup>
-<tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id2">[CIT2002]</a></td><td>A citation
-(as often used in journals).</td></tr>
-</tbody>
-</table>
+<dl class="citation">
+<dt class="label" id="cit2002"><span class="brackets"><a class="fn-backref" href="#id2">CIT2002</a></span></dt>
+<dd><p>A citation
+(as often used in journals).</p>
+</dd>
+</dl>
 </div>
 </div>
 
 
           </div>
+          
         </div>
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
@@ -905,14 +878,14 @@ will be title.</p>
 <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="examples/README.html">This is my gallery</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Making Sense of the Pandemic.html">Making Sense of the Pandemic</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Letter to the town of Brookine Massachusetts.html">Letter to the town of Brookine Massachusetts</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Covid Medical Treatments.html">Covid Medical Treatments</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Events in Medical History we might want to consider.html">Events in Medical History we might want to consider</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Making%20Sense%20of%20the%20Pandemic.html">Making Sense of the Pandemic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Letter%20to%20the%20town%20of%20Brookine%20Massachusetts.html">Letter to the town of Brookine Massachusetts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Covid%20Medical%20Treatments.html">Covid Medical Treatments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Events%20in%20Medical%20History%20we%20might%20want%20to%20consider.html">Events in Medical History we might want to consider</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Vaccines.html">Vaccines</a></li>
-<li class="toctree-l1"><a class="reference internal" href="FAQ Frequently Asked Questions.html">FAQ Frequently Asked Questions</a></li>
-<li class="toctree-l1"><a class="reference internal" href="FAQ Frequently Asked Questions.html#what-is-the-historical-background-and-timeline-of-key-participants-of-this-pandemic">What is the historical background and timeline of key participants of this pandemic</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Resources and additional background material.html">Resources and additional background material</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FAQ%20Frequently%20Asked%20Questions.html">FAQ Frequently Asked Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FAQ%20Frequently%20Asked%20Questions.html#what-is-the-historical-background-and-timeline-of-key-participants-of-this-pandemic">What is the historical background and timeline of key participants of this pandemic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Resources%20and%20additional%20background%20material.html">Resources and additional background material</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Restructured Text (reST) and Sphinx CheatSheet</a></li>
 <li class="toctree-l1"><a class="reference internal" href="#generalities">Generalities</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#introduction">Introduction</a></li>
@@ -951,21 +924,21 @@ will be title.</p>
 <li class="toctree-l1"><a class="reference internal" href="test1.html#colored-boxes-note-seealso-todo-and-warnings">colored boxes: note, seealso, todo and warnings</a></li>
 <li class="toctree-l1"><a class="reference internal" href="test1.html#section-title-3">Section Title 3</a></li>
 <li class="toctree-l1"><a class="reference internal" href="test3.html">test3</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Big Picture.html">Big Picture</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Big Picture.html#comments-about-various-suggested-recommended-not-recommended-covid-virus-treatments">Comments about various suggested / recommended / not-recommended Covid virus treatments</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Big Picture.html#events-in-medical-history-we-might-want-to-consider">Events in Medical History we might want to consider</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Big Picture.html#vaccines">Vaccines</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Big Picture.html#resources-and-additional-background-material">Resources and additional background material</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Big Picture.html#knowledge-vs-noise-our-opinions-about-news-and-media-sources">Knowledge vs Noise - our opinions about news and media sources</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Big Picture.html#what-is-narrative-control-and-how-is-it-used-to-shape-public-opinion">What is narrative control and how is it used to shape public opinion</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Big Picture.html#government-monitoring-and-control">Government Monitoring and Control</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Big Picture.html#current-events-and-their-relationship-to-today-s-events">Current Events and their relationship to today’s events</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Big Picture.html#economics-fossil-fuels-pharma-money-power">Economics, Fossil Fuels, Pharma, Money, Power</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Big Picture.html#who-is-with-us-who-is-against-lockdowns-and-injections">Who is with us - who is against lockdowns and injections</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Big Picture.html#who-apparently-is-a-fascist-in-favor-of-lockdowns-and-injections-of-young-healthy-of-reproductive-age">Who apparently is a fascist in favor of lockdowns and injections of young healthy of reproductive age</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Big Picture.html#how-you-can-maintain-stability-and-normalcy-and-your-mental-health-during-these-trying-times">How you can maintain stability and normalcy and your mental health during these trying times</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Big Picture.html#license">License</a></li>
-<li class="toctree-l1"><a class="reference internal" href="How you can help.html">How you can help</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Big%20Picture.html">Big Picture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Big%20Picture.html#comments-about-various-suggested-recommended-not-recommended-covid-virus-treatments">Comments about various suggested / recommended / not-recommended Covid virus treatments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Big%20Picture.html#events-in-medical-history-we-might-want-to-consider">Events in Medical History we might want to consider</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Big%20Picture.html#vaccines">Vaccines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Big%20Picture.html#resources-and-additional-background-material">Resources and additional background material</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Big%20Picture.html#knowledge-vs-noise-our-opinions-about-news-and-media-sources">Knowledge vs Noise - our opinions about news and media sources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Big%20Picture.html#what-is-narrative-control-and-how-is-it-used-to-shape-public-opinion">What is narrative control and how is it used to shape public opinion</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Big%20Picture.html#government-monitoring-and-control">Government Monitoring and Control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Big%20Picture.html#current-events-and-their-relationship-to-today-s-events">Current Events and their relationship to today’s events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Big%20Picture.html#economics-fossil-fuels-pharma-money-power">Economics, Fossil Fuels, Pharma, Money, Power</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Big%20Picture.html#who-is-with-us-who-is-against-lockdowns-and-injections">Who is with us - who is against lockdowns and injections</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Big%20Picture.html#who-apparently-is-a-fascist-in-favor-of-lockdowns-and-injections-of-young-healthy-of-reproductive-age">Who apparently is a fascist in favor of lockdowns and injections of young healthy of reproductive age</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Big%20Picture.html#how-you-can-maintain-stability-and-normalcy-and-your-mental-health-during-these-trying-times">How you can maintain stability and normalcy and your mental health during these trying times</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Big%20Picture.html#license">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="How%20you%20can%20help.html">How you can help</a></li>
 <li class="toctree-l1"><a class="reference internal" href="license.html">license</a></li>
 <li class="toctree-l1"><a class="reference internal" href="help.html">help</a></li>
 </ul>
@@ -980,17 +953,23 @@ will be title.</p>
 </ul>
 </div>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
-      <input type="hidden" name="check_keywords" value="yes" />
-      <input type="hidden" name="area" value="default" />
     </form>
     </div>
 </div>
-<script type="text/javascript">$('#searchbox').show(0);</script>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
         </div>
       </div>
       <div class="clearer"></div>
@@ -999,8 +978,8 @@ will be title.</p>
       &copy;2021, Thomas Connors.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.4</a>
-      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.5.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
       <a href="_sources/CheatSheet1.rst.txt"

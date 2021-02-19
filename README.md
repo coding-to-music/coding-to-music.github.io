@@ -17,12 +17,25 @@ Currently now all-knowledge.info is pointing to here
 Install sphinx
 ```javascript
 sudo apt-get install python3-sphinx
+
+mkdir project
+cd project
+sphinx-quickstart .
 ```
 
 How to build:
 ```java
 cd docs
 make html
+
+// common make commands
+make clean
+make build
+make linkcheck
+
+python3 -m http.server
+
+http://localhost:8000/_build/htmlindex.html
 
 // That will use the following file as a source:
 // https://coding-to-music.github.io/docs/source/index.rst
@@ -149,3 +162,33 @@ extensions = [
     $ cd sphinx-gallery
     $ pip install -r dev-requirements.txt
     $ pip install -e .
+
+
+Good overview of how modules work in Sphinx
+https://stackoverflow.com/questions/53668052/sphinx-cannot-find-my-python-files-says-no-module-named
+
+Carol Willing - Practical Sphinx - PyCon 2018
+https://www.youtube.com/watch?v=0ROZRNZkPS8&ab_channel=PyCon2018
+
+
+Key items to remember
+```java
+// Important Directives
+.. image::
+.. warning::
+.. code:: bash
+
+.. toctree::
+    :titlesonly:
+    :caption: Step zero: this is the caption
+
+
+// Important Variables
+_static
+_build
+
+// Important files
+conf.py             main configuration
+.readthedocs.yml    config for promoting to ReadTheDocs
+index.rst           main viewing page
+```
