@@ -164,6 +164,11 @@ extensions = [
     $ pip install -e .
 
 
+Good overview of documentation with Sphinx
+https://coderefinery.github.io/documentation/
+https://coderefinery.github.io/documentation/guide/
+https://coderefinery.org/
+
 Good overview of how modules work in Sphinx
 https://stackoverflow.com/questions/53668052/sphinx-cannot-find-my-python-files-says-no-module-named
 
