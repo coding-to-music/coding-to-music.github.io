@@ -216,3 +216,11 @@ To view html files
 ```java
 python3 -m http.server
 ```
+
+This person has examples of how to build locally vs to github
+https://github.com/annegentle/create-demo
+
+Came from this article 
+
+https://www.docslikecode.com/articles/github-pages-python-sphinx/
+
