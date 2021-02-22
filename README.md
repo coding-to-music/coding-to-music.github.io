@@ -1,14 +1,16 @@
 Hello and welcome!!
 
-This site is published at https://coding-to-music.github.io/ on each commit via the repo settings
+This site  published at https://coding-to-music.github.io/ on each commit via the repo settings
+
+And mirror published at https://pandemic-overview.readthedocs.io on each commit via webhook 
+
+Currently now all-knowledge.info is pointing to here
 
 You are lookating at this repository https://github.com/coding-to-music/coding-to-music.github.io 
 
 My main repo/profile/README is over here https://github.com/coding-to-music
 
-This repo you are looking at is where the website https://pandemic-overview.readthedocs.io is hosted from 
 
-Currently now all-knowledge.info is pointing to here
 
 ```java
 // put all the files that will be the content of the table of contents here:
