@@ -1,5 +1,7 @@
 Hello and welcome!!
 
+This site is published at https://coding-to-music.github.io/ on each commit via the repo settings
+
 You are lookating at this repository https://github.com/coding-to-music/coding-to-music.github.io 
 
 My main repo/profile/README is over here https://github.com/coding-to-music
@@ -169,6 +171,16 @@ https://coderefinery.github.io/documentation/
 https://coderefinery.github.io/documentation/guide/
 https://coderefinery.org/
 
+Hosting websites/homepages on GitHub Pages
+https://coderefinery.github.io/documentation/06-gh-pages/
+
+
+Overview of open source collaboration, automated testing, version control, git branching, reproducable research, DevOps Automation, Continuous Integration
+https://coderefinery.org/lessons/
+
+Collaborating and sharing using GitHub without command line - using either the GitHub website or GitHub desktop application. Why? Because for many cases, it is enough
+https://coderefinery.github.io/github-without-command-line/
+
 Good overview of how modules work in Sphinx
 https://stackoverflow.com/questions/53668052/sphinx-cannot-find-my-python-files-says-no-module-named
 
@@ -196,4 +208,9 @@ _build
 conf.py             main configuration
 .readthedocs.yml    config for promoting to ReadTheDocs
 index.rst           main viewing page
+```
+
+To view html files
+```java
+python3 -m http.server
 ```
