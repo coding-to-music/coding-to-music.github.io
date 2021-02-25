@@ -3,11 +3,11 @@ No mandated Use for Emergency Use Authorization
 
 .. figure:: assets/Pfizer-GettyImages-1230530059-768x432.jpg
   :scale: 60 %
-  :alt:  Ivermectin-perscription
-  A health worker holds a vial of the Pfizer-BioNTech Covid-19 vaccine at a vaccination center in Pfaffenhofen, Germany.
+  :alt: A health worker holds a vial of the Pfizer-BioNTech Covid-19 vaccine at a vaccination center in Pfaffenhofen, Germany.
+
 CHRISTOF STACHE/AFP VIA GETTY IMAGES
 
-
+https://www.statnews.com/2021/02/23/federal-law-prohibits-employers-and-others-from-requiring-vaccination-with-a-covid-19-vaccine-distributed-under-an-eua/
 
 Federal law prohibits employers and others from requiring vaccination with a Covid-19 vaccine distributed under an Emergency Use Authorization EUA
 
@@ -56,3 +56,5 @@ Aaron Siri is the managing partner at Siri & Glimstad LLP, a complex civil litig
 
 Aaron Siri
  aaron@sirillp.com
+
+https://www.statnews.com/2021/02/23/federal-law-prohibits-employers-and-others-from-requiring-vaccination-with-a-covid-19-vaccine-distributed-under-an-eua/
