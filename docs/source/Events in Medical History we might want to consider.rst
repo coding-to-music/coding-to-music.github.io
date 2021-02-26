@@ -7,5 +7,6 @@ Events in Medical History we might want to consider
 
    1976 Swine Flu Fiasco
    Tuskgee Medical Experiments - 40 years of untreated Syphlis
+   Dengvaxia - 2016 Sonofi Phillipines Denge Fever Deaths and Halt of Use
    History of Epidemics 
 
