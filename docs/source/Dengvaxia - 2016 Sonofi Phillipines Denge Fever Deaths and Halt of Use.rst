@@ -24,8 +24,9 @@ As of August 2019, over 600 people (mostly children) that had received at least 
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Contents:
+
 
 Events
 -------
@@ -106,5 +107,6 @@ Allegations of corruption
 Employees of the Public Attorneys Office have asked the Office of the Ombudsman to issue a preventive suspension order against PAO chief Persida Acosta and her forensics chief Dr. Erwin Erfe for alleged corruption in the agency. It was alleged that Acosta has two "loyal" certified public accountants named Lira Hosea Suangco and Maveric Sales who are tasked to maintain office supplies such as bond paper to be used for the Dengvaxia cases. The funds, however, were used for other purposes. It was also alleged that Acosta and Erfe are using PAO funds to purchase tarpaulins, t-shirts, and coffins to be used in rallies.[61]
 
 See also
+---------
 
 2019 Philippines measles outbreak – attributed to the aftermath of the controversy
