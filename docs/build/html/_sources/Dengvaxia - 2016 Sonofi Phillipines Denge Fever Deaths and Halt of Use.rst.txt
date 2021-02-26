@@ -2,7 +2,7 @@ Dengvaxia - 2016 Sonofi Phillipines Denge Fever Deaths and Halt of Use
 ========================================================================
  
 .. figure:: assets/Dengvaxia-Sonofi-Phillipines.png
-  :scale: 60 %
+  :scale: 100 %
   :alt:  Dengvaxia Sonofi Phillipines
 
 
@@ -23,17 +23,9 @@ In late November 2017, the DOH suspended the school-based vaccination program.[4
 As of August 2019, over 600 people (mostly children) that had received at least a single dose of the vaccine had died,[6] though not necessarily caused by the vaccine itself. The DOH has since banned the vaccine's use and sale in the Philippines.[7] The scare caused by the controversy has been suggested as a factor in the country's loss of confidence in vaccines and low immunization rates,[8] resulting in an infectious disease crisis in the country in 2019,[9] including a measles outbreak.[citation needed]
 
 
-Contents
-----------
-
-1	Events
-1.1	Charges
-1.2	Gordon's draft report
-2	Casualties and consequences
-3	Reactions
-3.1	Allegations of corruption
-4	See also
-5	References
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
 
 Events
 -------
@@ -47,11 +39,13 @@ President Aquino converses with Sanofi Pasteur CEO Olivier Charmeil during a cou
 
 On December 1, 2015, former President Benigno Aquino III met with executives of Sanofi Pasteur in a courtesy call in Paris, making the Philippines the first Asian country to approve the commercial sale of Dengvaxia.[10]
 
+Click to enlarge
 
 .. figure:: assets/President_Aquino_at_the_launching_of_dengue_vaccine_school-based_immunization_in_Region_III.jpg
   :scale: 60 %
   :alt:  President Benigno Aquino III at the launching of the dengue vaccine school-based immunization program.
 
+Click to enlarge
 
 
 In April 2016, the DOH, launched the dengue vaccination campaign in Central Luzon, Calabarzon and Metro Manila, where about 700,000 individuals received at least one dose of the vaccine.[11] The government paid P3.5-billion for the vaccine.[10]
