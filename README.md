@@ -29,11 +29,15 @@ sudo apt-get install python3-sphinx
 mkdir project
 cd project
 sphinx-quickstart .
+
+sudo apt-get install python3-venv
+python -m venv ver3.9
 ```
 
 How to build:
 ```java
 cd docs
+make clean
 make html
 
 // common make commands
