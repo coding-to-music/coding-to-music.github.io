@@ -4,6 +4,10 @@ This site  published at https://coding-to-music.github.io/ on each commit via th
 
 And mirror published at https://pandemic-overview.readthedocs.io on each commit via webhook 
 
+However, the builds have not been working since 8 days
+
+https://readthedocs.org/projects/pandemic-overview/builds/
+
 Currently now http://all-knowledge.info is pointing to here
 
 You are lookating at this repository https://github.com/coding-to-music/coding-to-music.github.io 
