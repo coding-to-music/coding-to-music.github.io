@@ -10,7 +10,7 @@ https://readthedocs.org/projects/pandemic-overview/builds/
 
 Currently now http://all-knowledge.info is pointing to here
 
-You are lookating at this repository https://github.com/coding-to-music/coding-to-music.github.io 
+You are looking at this repository https://github.com/coding-to-music/coding-to-music.github.io 
 
 My main repo/profile/README is over here https://github.com/coding-to-music
 
