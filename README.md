@@ -31,7 +31,7 @@ cd project
 sphinx-quickstart .
 
 sudo apt-get install python3-venv
-python -m venv ver3.9
+python -m venv ver3.7
 ```
 
 How to build:
