@@ -26,7 +26,7 @@ from time import strftime, localtime
 
 # 1. If you set today to some non-false value, then it is used:
 
-##today = ''
+today = ''
 # 2. Otherwise, today_fmt is used as the format for a strftime call.
 
 ##today_fmt = '%B %d, %Y'
