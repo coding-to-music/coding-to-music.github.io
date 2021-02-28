@@ -24,3 +24,5 @@ Source: [https://en.wikipedia.org/wiki/Doxycycline](https://en.wikipedia.org/wik
 .. figure:: assets/Effect-of-doxycycline-on-the-cell-viability-and-cell-cycle-A-IC-50-mM-dose-of.png
   :scale: 60 %
   :alt:  doxycycline-on-the-cell-viability
+
+Last change: |today|

@@ -29,3 +29,5 @@ Drug class: Macrolide
 .. figure:: assets/Azithromycin-1200x675-cropped.png
   :scale: 60 %
   :alt:  azithromycin 
+
+Last change: |today|

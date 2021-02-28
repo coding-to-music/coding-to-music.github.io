@@ -58,3 +58,5 @@ Aaron Siri
  aaron@sirillp.com
 
 https://www.statnews.com/2021/02/23/federal-law-prohibits-employers-and-others-from-requiring-vaccination-with-a-covid-19-vaccine-distributed-under-an-eua/
+
+Last change: |today|

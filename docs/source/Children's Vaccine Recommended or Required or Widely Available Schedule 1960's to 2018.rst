@@ -62,3 +62,4 @@ Vaccines in Widespread Use 1985-2020
   :scale: 60 %
   :alt:  2018-Vaccine-Schedule
 
+Last change: |today|

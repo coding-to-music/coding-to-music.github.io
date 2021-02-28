@@ -12,5 +12,5 @@ Covid Medical Treatments
    Doxycycline
    Azithromycin
 
-
+Last change: |today|
 

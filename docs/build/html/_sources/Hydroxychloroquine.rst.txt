@@ -23,3 +23,5 @@ Mr McCullough said “the virus invades inside cells, so we have to use drugs th
 “I think that honestly it’s atrocious.
 
 “History will look back on that and think it was the worst way to handle a potentially fatal illness."
+
+Last change: |today|

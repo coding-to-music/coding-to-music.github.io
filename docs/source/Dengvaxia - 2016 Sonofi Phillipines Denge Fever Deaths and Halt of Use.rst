@@ -110,3 +110,5 @@ See also
 ---------
 
 2019 Philippines measles outbreak – attributed to the aftermath of the controversy
+
+Last change: |today|

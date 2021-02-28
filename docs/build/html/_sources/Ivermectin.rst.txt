@@ -59,3 +59,4 @@ Source: IVERMECTIN POUR-ON FOR CATTLE- ivermectin solution
 https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=b339a104-62b3-4bb8-95e8-41cbff08d754&type=display 
 
 
+Last change: |today|

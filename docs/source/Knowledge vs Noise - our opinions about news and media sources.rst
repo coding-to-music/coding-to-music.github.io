@@ -5,3 +5,4 @@ Knowledge vs Noise - our opinions about news and media sources
    :maxdepth: 2
    :caption: Contents:
 
+Last change: |today|

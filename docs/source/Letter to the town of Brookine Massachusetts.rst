@@ -42,3 +42,4 @@ Brookline Health: Salaries 2018-2021
   :scale: 60 %
   :alt:  Brookline-Health-Salaries-2018-2021
 
+Last change: |today|

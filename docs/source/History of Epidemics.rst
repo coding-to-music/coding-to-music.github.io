@@ -84,3 +84,5 @@ NOTE: Sources of information relating to vaccines continue to be removed from ci
 https://www.facebook.com/groups/1113717195767034/?multi_permalinks=1148526305619456&notif_id=1613175766789283&notif_t=group_highlights&ref=notif
 Retrieved Feb 17 2021 
 Posted by Vince Clements in the Facebook Group: COVID 19 Vaccine Group
+
+Last change: |today|

@@ -76,3 +76,4 @@ This guide explains how and why the GitHub workflow works.
 - Deploy to pre-prod or prod  
 - Merge with main branch 
 
+Last change: |today|

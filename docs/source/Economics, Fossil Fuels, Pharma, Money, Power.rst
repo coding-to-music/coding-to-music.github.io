@@ -5,3 +5,4 @@ Economics, Fossil Fuels, Pharma, Money, Power
    :maxdepth: 2
    :caption: Contents:
 
+Last change: |today|

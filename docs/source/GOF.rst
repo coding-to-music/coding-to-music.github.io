@@ -52,3 +52,5 @@ You fund the Wuhan Institute of Virology to do this stuff that sounds like it's 
 No, you run the money through a series of cover organizations to make it look like you're funding a US operation, which then subcontracts with the Wuhan Institute of Virology. 
 
 The US could say, China did it. China could say, the US did it. And the cool thing is both of them are almost telling the truth.
+
+Last change: |today|

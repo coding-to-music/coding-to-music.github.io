@@ -44,3 +44,5 @@
 .. figure:: assets/WPost-Swine-Flu-4-What-killed-the-program-Guillain-Barre.png
   :scale: 60 %
   :alt:  
+
+Last change: |today|

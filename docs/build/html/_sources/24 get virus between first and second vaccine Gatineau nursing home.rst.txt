@@ -35,3 +35,4 @@ Rapid testing will add to strain on long-term care sector, advocates warn
 A CHSLD Lionel-Émond resident was the first person in western Quebec to get a COVID-19 vaccine in late December. Seventeen residents and two staff members at the home died during the first wave of the COVID-19 pandemic.
 
 
+Last change: |today|

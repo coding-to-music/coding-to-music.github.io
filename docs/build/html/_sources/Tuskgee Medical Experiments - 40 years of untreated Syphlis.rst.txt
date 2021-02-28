@@ -80,3 +80,4 @@ The purpose of the study was to determine whether penicillin could prevent, not 
 
 Following Cutler’s death in 2003, historian Susan Reverby uncovered the records of the Guatemala experiments while doing research related to the Tuskegee study. She shared her findings with U.S. government officials in 2010. Soon afterward, Secretary of State Hillary Clinton and Secretary of Health and Human Services Kathleen Sebelius issued an apology for the STD study and President Obama called the Guatemalan president to apologize for the experiments.
 
+Last change: |today|
