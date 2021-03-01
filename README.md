@@ -184,6 +184,11 @@ https://coderefinery.org/
 Hosting websites/homepages on GitHub Pages
 https://coderefinery.github.io/documentation/06-gh-pages/
 
+https://daler.github.io/sphinxdoc-test/includeme.html
+
+https://daler.github.io/trackhub/
+https://github.com/daler/trackhub
+
 
 Overview of open source collaboration, automated testing, version control, git branching, reproducable research, DevOps Automation, Continuous Integration
 https://coderefinery.org/lessons/

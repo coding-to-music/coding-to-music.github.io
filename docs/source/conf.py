@@ -32,17 +32,25 @@ today = ''
 ##today_fmt = '%B %d, %Y'
 today_fmt = "%a, %d %b %Y %I:%M %p %Z"
 
+
 # -- Project information -----------------------------------------------------
 
-project = 'all-knowledge'
-copyright = '2021, Thomas Connors'
+project = u'all-knowledge'
+copyright = u'2021, Thomas Connors'
 author = 'Thomas Connors'
 
+# The version info for the project you're documenting, acts as replacement for
+# |version| and |release|, also used in various other places throughout the
+# built documents.
+#
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
 release = '0.0.1'
-
+# The short X.Y version.
+# version = trackhub.__version__
+# The full version, including alpha/beta/rc tags.
+# release = version
 
 # -- General configuration ---------------------------------------------------
 
@@ -99,7 +107,7 @@ language = None
 exclude_patterns = []
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = None
+pygments_style = 'sphinx'
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -107,7 +115,7 @@ pygments_style = None
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -118,7 +126,8 @@ html_theme = 'alabaster'
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['nstatic']
+#html_static_path = ['nstatic']
+html_static_path = ['_static']
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
