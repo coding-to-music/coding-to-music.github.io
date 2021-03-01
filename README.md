@@ -1,10 +1,29 @@
 Hello and welcome!!
 
+
+Goals:
+- Today's date in Eastern Standard Time
+- Display a tweet
+- Display image gallery
+
+What works:
+    And mirror published at https://pandemic-overview.readthedocs.io on each commit via webhook 
+    (works)
+
+
+What does not work:
+    This site  published at https://coding-to-music.github.io/ on each commit via the repo settings
+    (has not worked in a couple days, see settings, error deploying to github.io )
+
+
+
+------------------
+
 This site  published at https://coding-to-music.github.io/ on each commit via the repo settings
+(has not worked in a couple days, see settings, error deploying to github.io )
 
 And mirror published at https://pandemic-overview.readthedocs.io on each commit via webhook 
-
-However, the builds have not been working since 8 days
+(works)
 
 https://readthedocs.org/projects/pandemic-overview/builds/
 
