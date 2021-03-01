@@ -147,6 +147,10 @@ Changes made:
 - requirements.txt
 - .readthedocs.yml
 
+Removed from requirements.txt
+sphinx_gallery.gen_gallery>=0.8.2
+
+
 https://github.com/sphinx-gallery/sphinx-gallery
 
 ```java
@@ -174,6 +178,7 @@ extensions = [
     $ cd sphinx-gallery
     $ pip install -r dev-requirements.txt
     $ pip install -e .
+
 
 
 Good overview of documentation with Sphinx
