@@ -35,6 +35,6 @@ This document was generated on |date| at |time|.
 .. |repl_time| date:: %a, %d %b %Y %I:%M %p %Z
 
 
-Last change: |repl_time|
+Page Built: |repl_time|
 
-Last change: |today|
+This is the substitution called today: |today|
