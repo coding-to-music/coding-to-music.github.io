@@ -11,7 +11,7 @@ Common side effects include diarrhea, nausea, vomiting, and an increased risk of
 
 Doxycycline was patented in 1957 and came into commercial use in 1967.[5][6] It is on the World Health Organization's List of Essential Medicines.[7] Doxycycline is available as a generic medicine.[1][8] In 2017, it was the 113th most commonly prescribed medication in the United States, with more than six million prescriptions.[9][10] It is available in India under the brand name DOXY-1- LDR.[11]
 
-Source: [https://en.wikipedia.org/wiki/Doxycycline](https://en.wikipedia.org/wiki/Doxycycline) 
+Source: https://en.wikipedia.org/wiki/Doxycycline  
 
 .. figure:: assets/doxycycline-study.jpeg
   :scale: 60 %
