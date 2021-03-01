@@ -32,4 +32,9 @@ Today's date is |date|.
 
 This document was generated on |date| at |time|.
 
+.. |repl_time| date:: %a, %d %b %Y %I:%M %p %Z
+
+
+Last change: |repl_time|
+
 Last change: |today|
