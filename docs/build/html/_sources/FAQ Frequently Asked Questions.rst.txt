@@ -64,8 +64,13 @@ What items do we consider false, and why?
 Who are the participants, the cast members in this story?  
 ------------------------------------------------------------------------------
 
+
+What is narrative control and how is it used to shape public opinion
+------------------------------------------------------------------------------
+
 - 
 - 
+
 
 What are some historical events we might want to recall when considering this pandemic  
 --------------------------------------------------------------------------------------------
