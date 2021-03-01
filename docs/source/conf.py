@@ -17,7 +17,7 @@ import sys
 sys.path.insert(0, os.path.abspath('.'))
 sys.path.insert(0, os.path.abspath('..'))
 sys.path.insert(0, os.path.abspath('../..'))
-import sphinx_gallery
+# import sphinx_gallery
 
 from time import strftime, localtime
 # strftime("%a, %d %b %Y %I:%M %p %Z", localtime())
