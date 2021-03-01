@@ -149,6 +149,9 @@ Changes made:
 
 Removed from requirements.txt
 sphinx_gallery.gen_gallery>=0.8.2
+sphinx.ext.autodoc
+sphinxcontrib.twitter
+
 
 
 https://github.com/sphinx-gallery/sphinx-gallery
