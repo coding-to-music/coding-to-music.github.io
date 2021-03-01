@@ -15,7 +15,21 @@ What does not work:
     This site  published at https://coding-to-music.github.io/ on each commit via the repo settings
     (has not worked in a couple days, see settings, error deploying to github.io )
 
+```java
+.. |date| date::
+.. |time| date:: %H:%M
 
+Today's date is |date|.
+
+This document was generated on |date| at |time|.
+
+.. |repl_time| date:: %a, %d %b %Y %I:%M %p %Z
+
+
+Page Built: |repl_time|
+
+This is the substitution called today: |today|
+```
 
 ------------------
 

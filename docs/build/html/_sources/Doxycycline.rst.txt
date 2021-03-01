@@ -25,16 +25,5 @@ Source: https://en.wikipedia.org/wiki/Doxycycline
   :scale: 60 %
   :alt:  doxycycline-on-the-cell-viability
 
-.. |date| date::
-.. |time| date:: %H:%M
 
-Today's date is |date|.
-
-This document was generated on |date| at |time|.
-
-.. |repl_time| date:: %a, %d %b %Y %I:%M %p %Z
-
-
-Page Built: |repl_time|
-
-This is the substitution called today: |today|
+Page Generated: |today|
