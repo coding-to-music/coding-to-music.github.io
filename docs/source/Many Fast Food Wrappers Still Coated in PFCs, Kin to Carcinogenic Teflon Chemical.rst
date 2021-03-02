@@ -38,3 +38,5 @@ It is possible that some of the papers that tested positive were not intentional
  
 TELL THE FDA: BAN PFAS CHEMICALS IN FOOD WRAPPERS
 Are you ready to take the next step? Join EWG and tell the Food and Drug Administration that it's time to ban toxic PFAS chemicals from use in food wrappers. Enter your information below and we'll add your name to EWG's petition urging the FDA to take action.
+
+Last change: |today|
