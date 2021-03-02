@@ -34,3 +34,5 @@ Source `Twitter exchange`_.
 Why was top virus researcher being coy/disingenuous/lying?!? He told Joe Rogan "it is natural we are not smart enough to invent" yet by using caged ferrets & repeatedly exposing to viruses they routinely see what nature creates and harvest the best strains
 
 New from @jjcouey JC on a Bike (Univ Pitt researcher). It is routine to evolve virus using caged ferrets repeatedly exposed to viruses & harvest the best strains. Why is Wuhan Harvard, NC Chapel Hill jointly doing research in 2015?
+
+Last change: |today|
