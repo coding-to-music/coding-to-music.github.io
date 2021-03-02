@@ -17,18 +17,19 @@ Guide
 ^^^^^
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    :caption: Contents:
 
-   examples/README
    Making Sense of the Pandemic
    Letter to the town of Brookine Massachusetts
    No mandated Use for Emergency Use Authorization
    Covid Medical Treatments
    Events in Medical History we might want to consider
    Vaccines
+   Food Safety
    FAQ Frequently Asked Questions
    Resources and additional background material
+   examples/README
    test1
    test3
    Big Picture
