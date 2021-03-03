@@ -121,6 +121,11 @@ Read stories, learn through practice, share with others.
 Sphinx, Jekyll, and Hugo, all are static site generators that teams use for web sites and documentation sites. Let’s go through setting up a static site generator and a common CICD system with it.
 https://www.docslikecode.com/learn/
 
+Good description in the Linux kernel documentation for how they advise people to contribute documentation, using reStructuredText 
+
+https://www.kernel.org/doc/html/v4.13/doc-guide/sphinx.html
+
+
 To embed tweets, install this:
 https://pypi.org/project/sphinxcontrib.twitter/#description
 

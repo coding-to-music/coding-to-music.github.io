@@ -4,15 +4,6 @@ Making Sense of the Pandmic
 As best we can
 --------------
 
-Here is some text explaining some very complicated stuff.::
-
-    print 'hello'
-    >> hello
-
-Not sure how this works
-
-https://readthedocs.org/projects/pandemic-overview/builds/
-
 Guide
 ^^^^^
 
@@ -29,10 +20,7 @@ Guide
    Food Safety
    FAQ Frequently Asked Questions
    Resources and additional background material
-   examples/README
-   test1
-   test3
-   Big Picture
+   test2
    How you can help
    license
    help
