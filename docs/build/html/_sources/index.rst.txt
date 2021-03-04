@@ -1,11 +1,6 @@
 Making Sense of the Pandmic
 =========================================
 
-As best we can
---------------
-
-Guide
-^^^^^
 
 .. toctree::
    :maxdepth: 2
