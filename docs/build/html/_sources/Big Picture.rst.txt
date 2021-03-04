@@ -40,7 +40,7 @@ WHO 2020 Global flu counts
   :alt: UK daily deaths 2015-2020 
 
 .. figure:: assets/CDC-survival-rates-by-age-September-2020.jpeg
-  :width: 60 %
+  :width: 80 %
   :alt: CDC survival rates by age September 2020 
 
 
@@ -53,7 +53,7 @@ WHO official urges world leaders to stop using lockdowns as primary virus contro
 
   
 .. figure:: assets/WHO-Dr-David-Nabarro-dont-do-lockdowns.jpeg
-  :width: 60 %
+  :width: 80 %
   :alt:  WHO-Dr-David-Nabarro-dont-do-lockdowns
 
 Source: [MSN "WHO: stop using lockdowns as primary virus control method" October 10 2020](https://www.msn.com/en-us/health/medical/who-official-urges-world-leaders-to-stop-using-lockdowns-as-primary-virus-control-method/ar-BB19TBUo?fbclid=IwAR2ErYb8DhCy3tGuMj8DdolYhmbftMKCfCLEYPW1qT4PCt7uSK9nqnkgx0w)
@@ -62,7 +62,7 @@ Source: [MSN "WHO: stop using lockdowns as primary virus control method" October
 UK virus cases hospital ICU deaths
 
 .. figure:: assets/virus-cases-hospital-ICU-deaths.jpeg
-  :width: 60 %
+  :width: 80 %
   :alt:  virus cases hospital ICU deaths
 
 Source: [Twitter Christina Pagel @chrischirp Jan 16, 2021](https://twitter.com/chrischirp/status/1350416441498079234)
@@ -81,7 +81,7 @@ WHO guidance Diagnostic testing for SARS-CoV-2 states that careful interpretatio
 WHO reminds IVD users that **disease prevalence alters the predictive value of test results**; *as disease prevalence decreases, the risk of false positive increases (2). This means that the probability that a person who has a positive result (SARS-CoV-2 detected) is truly infected with SARS-CoV-2 decreases as prevalence decreases, irrespective of the claimed specificity.*    
 
 .. figure:: assets/WHO-Jan-20-2021-PCR-changes.jpeg
-  :width: 60 %
+  :width: 80 %
   :alt:  WHO Jan 20 2021 PCR changes
 
 Source: [WHO requests users to follow the instructions for use (IFU) when interpreting results for specimens tested using PCR methodology. January 20 2021](https://www.who.int/news/item/20-01-2021-who-information-notice-for-ivd-users-2020-05)
@@ -171,13 +171,13 @@ How to understand the ways Twitter filters, throttles and amplifies communicatio
 When I posted this:
 
 .. figure:: assets/brookline-economic-development-GIS-public-health-storefronts.png
-  :width: 60 %
+  :width: 80 %
   :alt:  brookline-economic-development-GIS-public-health-storefronts
 
 I am constantly shadowbanned on Twitter
 
 .. figure:: assets/twitter-shadowban-example.png
-  :width: 60 %
+  :width: 80 %
   :alt:  Twitter Shadowban Example 
 
 
@@ -229,7 +229,7 @@ How does the lockdowns help and encourage large business but destroy small busin
 Here is a question I posted on Facebook, and also on Twitter
 
 .. figure:: assets/brookline-economic-development-GIS-public-health-storefronts.png
-  :width: 60 %
+  :width: 80 %
   :alt:  brookline-economic-development-GIS-public-health-storefronts
 
 

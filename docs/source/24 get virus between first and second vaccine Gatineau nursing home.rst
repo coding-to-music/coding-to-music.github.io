@@ -15,7 +15,7 @@ https://www.cbc.ca/news/canada/ottawa/chsld-lionel-emond-gatineau-covid19-outbre
 
 
 .. figure:: assets/chsld-lionel-emond-care-home-long-term-gatineau-covid-19.webp
-  :width: 60 %
+  :width: 80 %
   :alt:  A new outbreak has been declared at CHSLD Lionel-Émond in Gatineau, Que., near the Hull Hospital. Most of those infected have had their first dose of COVID-19 vaccines, said the region's health unit. (Radio-Canada)
 
 A new COVID-19 outbreak has been declared at CHSLD Lionel-Émond in Gatineau, Que., where at least two dozen residents and staff have contracted the illness while waiting for their second vaccine doses.

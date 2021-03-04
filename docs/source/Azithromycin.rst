@@ -2,7 +2,7 @@ Azithromycin
 -------------
 
 .. figure:: assets/azithromycin-250-mg-tablets-2.jpg
-  :width: 60 %
+  :width: 80 %
   :alt:  doxycycline-study
 
 Common brands: Zithromax, Zithromax Z-Pak, Zmax
@@ -22,12 +22,12 @@ Alcohol: Interactions can occur
 Drug class: Macrolide
 
 .. figure:: assets/azithromycin-250-mg-tablets.jpg
-  :width: 60 %
+  :width: 80 %
   :alt:  azithromycin 250 mg tablets
 
 
 .. figure:: assets/Azithromycin-1200x675-cropped.png
-  :width: 60 %
+  :width: 80 %
   :alt:  azithromycin 
 
 Last change: |today|

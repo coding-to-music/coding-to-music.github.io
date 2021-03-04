@@ -2,7 +2,7 @@ No mandated Use for Covid vaccines under the Emergency Use Authorization
 ---------------------------------------------------------------------------
 
 .. figure:: assets/Pfizer-GettyImages-1230530059-768x432.jpg
-  :width: 60 %
+  :width: 80 %
   :alt: A health worker holds a vial of the Pfizer-BioNTech Covid-19 vaccine at a vaccination center in Pfaffenhofen, Germany.
 
 CHRISTOF STACHE/AFP VIA GETTY IMAGES

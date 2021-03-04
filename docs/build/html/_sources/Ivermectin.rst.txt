@@ -2,7 +2,7 @@ Ivermectin
 -----------
 
 .. figure:: assets/Ivermectin-perscription.jpg
-  :width: 60 %
+  :width: 80 %
   :alt:  Ivermectin-perscription
 
 Source `UK Daily Mail, By Luke Andrews`_.
@@ -43,7 +43,7 @@ Published: January 19, 2021
 Source 
 
 .. figure:: assets/Ivermectin-sheep-drench.jpg
-  :width: 60 %
+  :width: 80 %
   :alt:  Ivermectin-sheep-drench
 
 MODE OF ACTION
