@@ -1,5 +1,5 @@
-No mandated Use for Emergency Use Authorization
-------------------------------------------------
+No mandated Use for Covid vaccines under the Emergency Use Authorization
+---------------------------------------------------------------------------
 
 .. figure:: assets/Pfizer-GettyImages-1230530059-768x432.jpg
   :scale: 60 %
