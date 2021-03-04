@@ -11,20 +11,18 @@ Guide
    :maxdepth: 2
    :caption: Contents:
 
-   Making Sense of the Pandemic
-   Letter to the town of Brookine Massachusetts
-   No mandated Use for Emergency Use Authorization
    Covid Medical Treatments
-   Events in Medical History we might want to consider
+   Legal Issues
    Vaccines
    Food Safety
    FAQ Frequently Asked Questions
+   Events in Medical History we might want to consider
    Resources and additional background material
-   test2
+   Letter to the town of Brookine Massachusetts
    How you can help
    license
    help
-
+   test2
 
 
 Indices and tables
