@@ -9,7 +9,7 @@ FOR IMMEDIATE RELEASE:
 FRIDAY, FEBRUARY 19, 2021
 
 .. figure:: assets/PthalatesPR.jpg
-  :scale: 80 %
+  :width: 80 %
   :alt:  PthalatesPR
 
 

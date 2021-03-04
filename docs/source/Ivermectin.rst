@@ -43,7 +43,7 @@ Published: January 19, 2021
 Source 
 
 .. figure:: assets/Ivermectin-sheep-drench.jpg
-  :scale: 60 %
+  :width: 60 %
   :alt:  Ivermectin-sheep-drench
 
 MODE OF ACTION

@@ -7,7 +7,7 @@ For further information, please visit
 https://github.com/coding-to-music
 
 .. figure:: assets/1985-vaccine-usage.jpg
-   :scale: 50 %
+   :width: 50 %
    :alt: map to buried treasure
 
 .. note::

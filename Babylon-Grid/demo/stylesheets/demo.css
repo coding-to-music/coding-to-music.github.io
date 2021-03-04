@@ -257,7 +257,7 @@ article.donate .desc {
   text-shadow: 0 2px 0 #832918;
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: graywidth;
 }
 
 /* line 153, ../sass/demo.scss */
