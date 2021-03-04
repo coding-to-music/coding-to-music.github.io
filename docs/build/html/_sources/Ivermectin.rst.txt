@@ -2,7 +2,7 @@ Ivermectin
 -----------
 
 .. figure:: assets/Ivermectin-perscription.jpg
-  :scale: 60 %
+  :width: 60 %
   :alt:  Ivermectin-perscription
 
 Source `UK Daily Mail, By Luke Andrews`_.
