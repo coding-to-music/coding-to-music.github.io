@@ -349,8 +349,11 @@ Dystopian Books (and sometimes movies and TV series)
 | Book                | Author       | Relevant Lessons |  
 +=====================+==============+==================+
 | Animal Farm         | name         | classic          |  
++---------------------+--------------+------------------+
 | Brave New World     | name         | classic          |  
++---------------------+--------------+------------------+
 | 1984                | name         | classic          |  
++---------------------+--------------+------------------+
 | The Handmaid's Tale | name         | classic          |  
 +---------------------+--------------+------------------+
 
@@ -362,6 +365,7 @@ Dystopian movies and TV series
 | Show                | Author       | Relevant Lessons |  
 +=====================+==============+==================+
 | 12 Monkey's         | name         | classic          |  
++---------------------+--------------+------------------+
 | The Expanse         | name         | classic          |  
 +---------------------+--------------+------------------+
 
