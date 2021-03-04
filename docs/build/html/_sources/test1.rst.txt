@@ -98,13 +98,6 @@ You have also the **note** and **warning** directives:
 
 .. warning:: note the space between the directive and the text
 
-.. todo:: a todo box
-
-There is another nice dircective with the **todo** one but it requires to add `sphinx.ext.todo` extension in the **conf.py** file and these two lines of code::
-
-    [extensions]
-    todo_include_todos=True
-
 A transition marker is a horizontal line
 of 4 or more repeated punctuation
 characters.
@@ -217,15 +210,6 @@ Please refer to the fine manual [GVR2001].
 
 The problem with forms 1 and 2 is that they are neither intuitive nor unobtrusive (they break design goals 5 & 2). They overload double-quotes, which are too often used in ordinary text (potentially breaking design goal 4). The brackets in form 3 are also too common in ordinary text (such as [nested] asides and Python lists like [12]).
 
-=================
- Section Title 1
-=================
 
-------------------
- Section Title 2
-------------------
-
-Section Title 3
-================
 
 Last change: |today|

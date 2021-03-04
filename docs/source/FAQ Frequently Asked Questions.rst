@@ -30,7 +30,7 @@ MedPageToday.com - Here's What's Wrong With COVID-19 Case Counts Python_
 
 .. _Python: https://www.medpagetoday.com/infectiousdisease/covid19/89522
 
-What would a multi-year chart of "Deaths by Cause and Age" show us and where is that data?    
+What would a chart of "Deaths by Cause and Age" show us and where is that data?    
 --------------------------------------------------------------------------------------------
 
 
@@ -39,7 +39,7 @@ What would a multi-year chart of "Deaths by Cause and Age" show us and where is 
 - Why is this simple data being withheld?  
 
 
-What are some simple questions that we think do not make any sense  
+Some simple questions that we think do not make any sense  
 ------------------------------------------------------------------------------
 
 
@@ -71,12 +71,6 @@ What is narrative control and how is it used to shape public opinion
 - 
 - 
 
-
-What are some historical events we might want to recall when considering this pandemic  
---------------------------------------------------------------------------------------------
-
-- 
-- 
 
 What is pathogen research, who funds it and how much?  
 ------------------------------------------------------------------------------

@@ -5,7 +5,6 @@ Resources and additional background material
    :maxdepth: 2
    :caption: Contents:
 
-   What is the historical background and timeline of key participants of this pandemic
    Knowledge vs Noise - our opinions about news and media sources
    What is narrative control and how is it used to shape public opinion
    Government Monitoring and Control
