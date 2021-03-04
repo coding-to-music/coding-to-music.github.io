@@ -2,7 +2,7 @@ Hydroxychloroquine
 -------------------
 
 .. figure:: assets/Hydroxychloroquine.jpeg
-  :scale: 60 %
+  :width: 60 %
   :alt:  Hydroxychloroquine
 
 ‘Only a one in 17 billion chance hydroxychloroquine doesn’t work’: medical professor
