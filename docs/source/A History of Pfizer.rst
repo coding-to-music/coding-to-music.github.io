@@ -28,7 +28,9 @@ The convulsion of the American Civil War, which broke out soon after in 1862, ha
 
 After the war, Pfizer continued to focus on industrial chemicals as much as medicines, producing the citric acid needed for the emerging soft drinks industry, fuelling brands like Coca Cola and Dr Pepper’s expansion in the 1880s. This became their mainstay for many years, laying the basis for their continued growth. Also, when supply of tartaric acid was disrupted due to the civil war and increased tariffs, Pfizer developed its production to become the leading supplier of chemicals in the US.
 
-“The ‘first industrial war’ involved drug producers as much as weapons manufacturers”
+.. note::
+    “The ‘first industrial war’ involved drug producers as much as weapons manufacturers”
+
 Erhart died in 1891, and Pfizer in 1906, leaving a company of around 200 employees in the hands of Emil Pfizer, who served as president until the 1940s, the last member of the Pfizer family to be involved in managing the company. Under his stewardship, Pfizer’s expertise in scientific production methods developed greatly. In 1919 their scientists pioneered mould fermentation production of citric acid from molasses, freeing their citric acid business from European citrus fruit supplies, which had been disrupted by the First World War. They developed a deep tank fermentation process, the principles of which would later be applied to the production of penicillin. As a consequence of Pfizer’s innovation, the price of citric acid tumbled over the succeeding decades, with the value of the chemical falling by 5/6ths in 20 years. In 1936 the company discovered a fermentation free method of producing vitamin C, which they rapidly expanded into vitamins B2 and B12 amongst others, rapidly becoming a leading vitamin producer – chemicals that were very novel at the time.
 
 This expertise in fermentation and large-scale pharmaceutical production put Pfizer in good stead when in 1941 the US government appealed to the pharma industry for support in producing penicillin for the war effort. In an unprecedented collaboration, Pfizer worked with government scientists, the researchers such as Frederick Banting who had been working on the drug before the war, and a plethora of other players in the industry to markedly improve the efficiency of drug production, as they proudly state “most of the penicillin that [went] ashore with Allied force on D-Day [was] made by Pfizer”.
@@ -37,7 +39,9 @@ Antibiotics marked the transition to the modern Pfizer. Their follow-up to penic
 
 Pfizer initiated its first major internationalisation at this stage, moving into nine new countries in 1951. It was at this time they set their site at Sandwich in the UK, initially just to finish processing compounds imported from America, but due to tariffs on imported products the company rapidly expanded the plant to accommodate producing medicines from scratch. Pfizer’s international expansion put great trust in their local staff compared to other organisations, recruiting nationals and giving them a great deal of autonomy.
 
-“Lipitor…became the biggest-selling prescription medicine ever, earning Pfizer $12 billion a year in 2007, one quarter of its total sales”
+.. note::
+    “Lipitor…became the biggest-selling prescription medicine ever, earning Pfizer $12 billion a year in 2007, one quarter of its total sales”
+
 The areas that Pfizer directed its research into expanded in these years as well. In 1952, it established its Agricultural Division, beginning its foray into animal health, and in 1953 acquired Roerig, a nutritional supplement specialist, which became incorporated as a division in its own right. By the 1960s, Pfizer were at their “most diversified point in [its] history” – in its own words, its interests “stretched from pills to perfume, and petrochemicals to pet products”.
 
 Throughout the 60s and 70s the company continued to bring out new drugs, such as the broad spectrum antibiotic Vibramycin, and broadening its research base, reorganising its R&D operations in 1971 into a Central Research Division, and increasing spend on this area of the company from 5% to 15% of revenue. This attention to innovation began to pay off in the 1980s, with a series of blockbusters, the first of which, the COX inhibitor Feldene, arrived in 1980 rapidly becoming one of the biggest-selling anti-inflammatories in the world. Others rapidly followed, including Glucotrol, aimed at diabetics, and Procardia, an anti-hypertensive. The 1990s and 2000s would soon take this blockbuster-based success to new levels.
@@ -46,7 +50,8 @@ The statin Lipitor, approved in 1997 for Warner-Lambert before their merger with
 
 But Pfizer’s almost Hollywood-level blockbuster of the 1990s was the little blue pill of Viagrar. Formulated initially at the Sandwich site in the UK as an anti-hypertensive, it was found have “unexpected” side effects that made the company rapidly change the indication to erectile dysfunction. But despite the cultural ubiquity, Viagra has recently faced the inevitable threat from competition and generics, dropping from 92% of the ED market in 2000 to around 50% in 2007, with vigorous competition from drugs such as Cialis and Levitra.
 
-“Pfizer is the 6th largest lobbier in Washington, and spent $25 million on lobbying during the passing of Obama’s healthcare reform legislation alone”
+.. note::
+    “Pfizer is the 6th largest lobbier in Washington, and spent $25 million on lobbying during the passing of Obama’s healthcare reform legislation alone”
 
 Ups and downs
 -----------------------
@@ -98,7 +103,8 @@ Leif Johansson, AZ’s chairman, did not mince his words, saying: “Pfizer’s 
 
 This did not stymie Pfizer’s desire to move its HQ out of the US, though. The next year it also attempted a ‘reverse takeover’ of Irish Pharma firm Allergan – where, technically, Allergan would acquire the US company and rename itself as Pfizer, allowing Pfizer to have its tax base in Ireland.
 
-At the time $160 billion deal was the biggest ever seen in the pharma sector.
+.. note::
+    At the time $160 billion deal was the biggest ever seen in the pharma sector.
 
 But soon the Obama administration came down hard on such ‘tax inversion’ deals, changing laws such that the deal was no longer attractive to Pfizer.
 
