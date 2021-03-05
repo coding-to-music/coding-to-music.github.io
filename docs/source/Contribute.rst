@@ -2,7 +2,7 @@ Contribute
 ============
 
 
-contribute to pharmaphorum
+contribute to All-Knowledge.info
 
 all-knowledge.info, and its associated digital projects, are a leading online destination for general and specific industry news, analysis, insight, whitepapers, videos, podcasts and debate.
 Our global audience spans pharmaceutical and biotechnology companies, service providers, knowledge providers, communications agencies, payers, patient organisations / advocates, technology companies and others with an interest in the sector. More detailed demographics can be found on our Advertise page.

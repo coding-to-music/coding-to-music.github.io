@@ -1,16 +1,12 @@
 Ivermectin
------------
+==============
 
 .. figure:: assets/Ivermectin-perscription.jpg
   :width: 80 %
   :alt:  Ivermectin-perscription
 
 Source `UK Daily Mail, By Luke Andrews`_.
-
 .. _UK Daily Mail, By Luke Andrews: https://www.dailymail.co.uk/news/article-9110301/Cheap-hair-lice-drug-cut-risk-hospitalised-Covid-patients-dying-80-study-finds.html
-
- 
-
 
 Ivermectin, the most promising COVID treatment to date, won its developers the Nobel Prize in Medicine in 2015 and a place on the World Health Organization’s Model List of Essential Medicines. Since the 1980s, with billions of doses given  
 
@@ -18,7 +14,8 @@ Source: Trial Site News, By Mary Beth Pfeiffer, December 27 2020 : In Far-Flung 
 
 https://trialsitenews.com/in-far-flung-places-covid-19-is-being-treated-early-and-well-heres-why-americans-dont-know-this/
 
-Cheap hair lice drug may cut the risk of hospitalised Covid patients dying by up to 80%, study finds  
+.. note::
+  Cheap hair lice drug may cut the risk of hospitalised Covid patients dying by up to 80%, study finds  
 
 Ivermectin - which can cost as little as £1.50 per treatment- was also found to potentially halve the time those suffering from the virus were on the ward  
 
@@ -47,6 +44,7 @@ Source
   :alt:  Ivermectin-sheep-drench
 
 MODE OF ACTION
+----------------
 
 Ivermectin is a member of the macrocylic lactone class of endectocides which have a unique mode of action. Compounds of the class bind selectively and with high affinity to glutamate-gated chloride ion channels which occur in invertebrate nerve and muscle cells.
 

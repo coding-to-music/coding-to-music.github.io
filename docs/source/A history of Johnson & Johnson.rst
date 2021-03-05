@@ -60,7 +60,8 @@ This is not the only controversy J&J has had to deal with in recent years.
 
 The company has also faced claims that it did not adequately communicate the risks of its opioid painkillers in its marketing, contributing to the US’ ‘opioid epidemic’, and that its talc products could contain small amounts of asbestos and lead to cancer.
 
-The company has been hit with billions of dollars in lawsuits relating to these charges, 
+.. note::
+    The company has been hit with billions of dollars in lawsuits relating to these charges 
 
 J&J has been bullish in both its insistence that the claims are inflated or false and that it can easily deal with the lawsuits, but the company has both won and lost existing cases, with many still caught up in appeals processes, and it remains to be seen how the balance will eventually play out.
 
