@@ -1,7 +1,6 @@
-test1
-=====
+reStructured Text Special directives
+----------------------------------------
 
-This is test1
 
 For further information, please visit
 https://github.com/coding-to-music
@@ -77,9 +76,8 @@ True   True   True
 
    Is this key point right here, you know?
 
-##################
 Special directives
-##################
+-----------------------
 
 colored boxes: note, seealso, todo and warnings
 =================================================
