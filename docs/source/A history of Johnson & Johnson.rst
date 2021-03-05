@@ -1,5 +1,5 @@
 A history of Johnson & Johnson
---------------------------------
+===============================
 
 .. figure:: assets/JJ-logo-605x340.jpg
   :width: 80 %
@@ -20,10 +20,12 @@ Both these factors can be tied in part to J&J’s strong presence in the consume
 Johnson & Johnson was founded over 125 years ago in the year 1886. However, it wasn’t until 1959 – 73 years and two major acquisitions later – that J&J developed its significant presence in the pharmaceutical industry.
 
 Where it all began
+---------------------------
 
 In 1886, three brothers – Robert Wood Johnson, James Wood Johnson and Edward Mead Johnson – founded Johnson & Johnson, in New Brunswick, New Jersey in the United States. It’s said that the Johnson brothers were inspired to start the business in order to create a line of ready-to-use surgical dressings, after hearing a speech by antiseptic advocate Joseph Lister in 1885. Robert Wood Johnson served as the first president – the company became incorporated in 1887 and throughout the nineteenth century, Robert worked to improve sanitation practices.
 
-“J&J pioneered the first commercial first aid kits, which were initially designed to help railroad workers, but soon became the standard practise in treating injuries”
+.. note::
+    “J&J pioneered the first commercial first aid kits, which were initially designed to help railroad workers, but soon became the standard practise in treating injuries”
  
 
 A year later, J&J pioneered the first commercial first aid kits, which were initially designed to help railroad workers, but soon became the standard practise in treating injuries. In 1894, J&J’s heritage baby business began, by the launch of maternity kits. These kits had the aim of making childbirth safer for mother and babies. Johnson’s Baby Powder also went on sale during this year and was extremely successful. Robert Wood’s granddaughter, Mary Lea, was the first baby to be used on the baby powder label.
@@ -37,12 +39,14 @@ One of J&J’s subsidiaries is Ethicon, which is a manufacturer of surgical sutu
 In 1959, J&J acquired McNeil Laboratories in the US and also Cilag Chemie, AG in Europe. These two acquisitions enabled the company to gain a significant presence in the field of pharmaceutical medicines for the first time. One McNeil product was the first prescription aspirin-free pain reliever, Tylenol (acetaminophen) elixir for children.
 
 The joining of Janssen
+---------------------------
 
 It was in 1961 that Belgium’s Janssen Pharmaceutica N.V. joined the J&J Family of Companies. Its founder, Dr Paul Janssen, is recognised as one of the most innovative and prolific pharmaceutical researchers of the 20th century.
 
 Today, Janssen is one of the world’s leading research-based pharma companies and markets prescription medicines in the areas of gastroenterology, women’s health, mental health, neurology and HIV/AIDS, to name a few.
 
-“Dr Paul Janssen is recognised as one of the most innovative and prolific pharmaceutical researchers of the 20th century”
+.. note::
+    “Dr Paul Janssen is recognised as one of the most innovative and prolific pharmaceutical researchers of the 20th century”
  
 
 United under the common name of J&J, Janssen is now split into three different businesses – Janssen Research & Development, Janssen Healthcare Innovation and Janssen Diagnostics. Some of the most well-known Janssen products include diarrhoea treatment, Immodium (loperamide), antipsychotic Risperdal (risperidone) and Alzheimer’s disease drug, Reminyl (galantamine).
@@ -50,6 +54,7 @@ United under the common name of J&J, Janssen is now split into three different b
 Risperdal is well-known due to the controversy in the US following its product launch in 1994. Juries in several US states found J&J guilty of hiding information about adverse effects of the antipsychotic medication. In 2012, J&J agreed to pay US $181 million to 26 states in order to settle these claims – though another lawsuit related to the drug (for $8 billion, eventually reduced to $6.8 billion) hit the company in 2019.
 
 Litigation & controversy
+---------------------------
 
 This is not the only controversy J&J has had to deal with in recent years. 
 
@@ -60,6 +65,7 @@ The company has been hit with billions of dollars in lawsuits relating to these 
 J&J has been bullish in both its insistence that the claims are inflated or false and that it can easily deal with the lawsuits, but the company has both won and lost existing cases, with many still caught up in appeals processes, and it remains to be seen how the balance will eventually play out.
 
 Acquisitions post-Janssen
+---------------------------
 
 Between 1976 and 1989, James E. Burke was chairman and CEO of J&J. During this tenure, J&J entered into the areas of vision care, mechanical wound closure and diabetes management. It was also during this time that J&J opened the first operating companies in China and Egypt.
 
@@ -85,6 +91,7 @@ In 2006, J&J acquired Pfizer Consumer Healthcare for $16.6 billion in cash. The 
 And at the tail end of 2020, a $6.5 billion deal to buy Momenta meant that J&J added potential inflammatory disease blockbuster nipocalimab to the pipeline at Janssen.
 
 COVID and beyond
+---------------------------
 
 J&J’s size meant that it had the resources to bring to bear against COVID-19 as the pandemic ravaged the world in 2020 and 2021, and the company soon began work on its own vaccine in partnership with the US government.
 

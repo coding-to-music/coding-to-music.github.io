@@ -1,5 +1,10 @@
 A History of Pfizer
-----------------------
+=======================
+
+.. figure:: assets/PfizerLogo.jpg
+  :width: 80 %
+  :alt:  Pfizer Logo
+
 
 A history of Pfizer December 2, 2020
 
@@ -10,14 +15,9 @@ Few companies embody the term ‘pharma giant’ as much as Pfizer. Here we take
 
 Pfizer was founded in 1849 by two recent German immigrants to the USA, Charles Pfizer and Charles Erhart. Both in their mid-twenties, the two men set up what was initially a fine chemicals business in a Brooklyn factory, using a loan from Pfizer’s father as capital. The company’s first product, a palatable anti-parasitic drug, made to taste like toffee, united Pfizer’s skills as a chemist with Erhart’s training as a confectioner. It was a success, and set the pattern for the company’s future development.
 
-.. figure:: assets/PfizerLogo.jpg
-  :width: 80 %
-  :alt:  Pfizer Logo
-
 Source `A history of Pfizer by pharmaphorum.com retrieved March 5 2021`_.
 
 .. _A history of Pfizer by pharmaphorum.com retrieved March 5 2021: https://pharmaphorum.com/sales-marketing/a_history_of_pfizer/
-
 
 .. figure:: assets/stock-photo-tokyo-may-pfizer-building-on-may-in-tokyo-pfizer-is-one-of-largest-pharmaceutical-106958480.jpg
   :width: 80 %
@@ -49,6 +49,7 @@ But Pfizer’s almost Hollywood-level blockbuster of the 1990s was the little bl
 “Pfizer is the 6th largest lobbier in Washington, and spent $25 million on lobbying during the passing of Obama’s healthcare reform legislation alone”
 
 Ups and downs
+-----------------------
 
 Like most pharma companies of its size, Pfizer has faced its fair share of controversy as one of the most well-known drugmakers in the world.
 
@@ -63,6 +64,7 @@ Perhaps unsurprisingly for the biggest company in one of the biggest industries 
 Despite this political clout, the company also tried to belay its image as a pharma monster, like many others in the industry, by spending generously on charity, donating AIDS drugs both to poor communities in the US, and to developing countries.
 
 The era of mega-mergers
+-----------------------
 
 Since the turn of the millennium, Pfizer has embarked on a series of mega-mergers, gobbling up Warner-Lambert in 2000, Pharmacia and Upjohn in 2002, Wyeth in 2009, and Medivation in 2016.
 
@@ -101,6 +103,7 @@ At the time $160 billion deal was the biggest ever seen in the pharma sector.
 But soon the Obama administration came down hard on such ‘tax inversion’ deals, changing laws such that the deal was no longer attractive to Pfizer.
 
 No signs of slowing down
+---------------------------
 
 Despite some setbacks, Pfizer remains one of the biggest pharma companies in the world today. The sheer size of the organisation is mindboggling, totalling well over 100,000 employees. One commentator compared the company’s 38,000 sales reps to “three army divisions”, a sales team that has been immortalised in a Hollywood rom-com of all things – Love and Other Drugs, starring Jake Gyllenhaal and Anne Hathaway.
 
