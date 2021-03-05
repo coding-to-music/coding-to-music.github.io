@@ -1,48 +1,6 @@
 Big Picture
 ============
 
-Big picture: Key Important Charts
-----------------------------------
-
-
-.. figure:: assets/Flu_Covid_1916_to_December_2020.jpg
-  :width: 30 %
-  :alt: Flu vs. Covid 1916 to December 2020 
-
-.. figure:: assets/Flu_Covid_1916_to_December_2020.jpg
-  :width: 50 %
-  :alt: Flu vs. Covid 1916 to December 2020 
-
-.. figure:: assets/Flu_Covid_1916_to_December_2020.jpg
-  :width: 80 %
-  :alt: Flu vs. Covid 1916 to December 2020 
-
-.. figure:: assets/Flu_Covid_1916_to_December_2020.jpg
-  :width: 100 %
-  :alt: Flu vs. Covid 1916 to December 2020 
-
-
-
-
-WHO 2020 Global flu counts
----------------------------
-
-.. figure:: assets/WHO-2020-Global-flu-counts.jpeg
-  :width: 80 %
-  :alt: WHO 2020 Global flu counts 
-
-.. figure:: assets/deaths-per-week-USA-2015-2020.png
-  :width: 80 %
-  :alt: Deaths per week USA 2015-2020 
-
-.. figure:: assets/UK-daily-deaths-2015-2020-large.jpeg
-  :width: 80 %
-  :alt: UK daily deaths 2015-2020 
-
-.. figure:: assets/CDC-survival-rates-by-age-September-2020.jpeg
-  :width: 80 %
-  :alt: CDC survival rates by age September 2020 
-
 
 
 WHO official urges world leaders to stop using lockdowns as primary virus control method    

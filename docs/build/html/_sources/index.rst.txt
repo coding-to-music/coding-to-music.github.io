@@ -9,6 +9,7 @@ Making Sense of the Pandmic
    Covid Medical Treatments
    Legal Issues
    Vaccines
+   Charts and Graphs
    Food Safety
    FAQ Frequently Asked Questions
    Events in Medical History we might want to consider
