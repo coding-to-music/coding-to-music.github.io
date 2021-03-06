@@ -2,33 +2,29 @@ Big Picture Important Charts
 ==================================
 
 
+VAERS data covid vaccine Feb-12-2021
+---------------------------------------------------
+
+VAERS data covid vaccine Feb-12-2021
+
 .. figure:: assets/vaers-data-covid-vaccine-feb-12-2021.jpg
   :width: 80 %
-  :alt: XXXXXXX 
+  :alt: VAERS data covid vaccine Feb-12-2021
 
-XXXXXXX
+
+
+VAERS COVID Injection Deaths Feb-4-2021
 ---------------------------------------------------
 
-XXXXXXX
-
-
-
-.. figure:: assets/virus-cases-hospital-ICU-deaths.jpeg
-  :width: 80 %
-  :alt: XXXXXXX 
-
-XXXXXXX
----------------------------------------------------
-
-XXXXXXX
-
+VAERS COVID Injection Deaths Feb-4-2021
 
 
 .. figure:: assets/VAERS-COVID-Injection-Deaths-2.4.21.jpg
   :width: 80 %
-  :alt: XXXXXXX 
+  :alt: VAERS COVID Injection Deaths Feb-4-2021 
 
-XXXXXXX
+
+XXXXXXX vaers-data-covid-vaccine-feb-4-1536x926.png
 ---------------------------------------------------
 
 XXXXXXX
@@ -39,8 +35,8 @@ XXXXXXX
   :width: 80 %
   :alt: XXXXXXX 
 
-XXXXXXX
----------------------------------------------------
+XXXXXXX CDC-653-Deaths-12697-Reported-Injuries-Following-Experimental-mRNA-COVID-Injections.jpg
+--------------------------------------------------------------------------------------------------
 
 XXXXXXX
 
@@ -50,7 +46,7 @@ XXXXXXX
   :width: 80 %
   :alt: XXXXXXX 
 
-XXXXXXX
+XXXXXXX  WHO-2020-Global-flu-counts.jpeg
 ---------------------------------------------------
 
 XXXXXXX
@@ -61,7 +57,7 @@ XXXXXXX
   :width: 80 %
   :alt: XXXXXXX 
 
-XXXXXXX
+XXXXXXX  UK-daily-deaths-2015-2020-large.jpeg
 ---------------------------------------------------
 
 XXXXXXX
@@ -72,18 +68,8 @@ XXXXXXX
   :width: 80 %
   :alt: XXXXXXX 
 
-XXXXXXX
----------------------------------------------------
 
-XXXXXXX
-
-
-
-.. figure:: assets/tree.svg
-  :width: 80 %
-  :alt: XXXXXXX 
-
-XXXXXXX
+XXXXXXX  Flu_Covid_1916_to_December_2020.jpg
 ---------------------------------------------------
 
 XXXXXXX
@@ -94,7 +80,7 @@ XXXXXXX
   :width: 80 %
   :alt: XXXXXXX 
 
-XXXXXXX
+XXXXXXX  deaths-per-week-USA-2015-2020.png
 ---------------------------------------------------
 
 XXXXXXX
@@ -105,7 +91,7 @@ XXXXXXX
   :width: 80 %
   :alt: XXXXXXX 
 
-XXXXXXX
+XXXXXXX  deaths-per-week-USA-2015-2020-1.png
 ---------------------------------------------------
 
 XXXXXXX
@@ -116,8 +102,8 @@ XXXXXXX
   :width: 80 %
   :alt: XXXXXXX 
 
-XXXXXXX
----------------------------------------------------
+XXXXXXX  CDC-survival-rates-by-age-September-2020.jpeg
+-----------------------------------------------------------
 
 XXXXXXX
 
@@ -127,7 +113,7 @@ XXXXXXX
   :width: 80 %
   :alt: XXXXXXX 
 
-XXXXXXX
+XXXXXXX This is what I am working on
 ---------------------------------------------------
 
 XXXXXXX
@@ -138,7 +124,7 @@ XXXXXXX
   :width: 80 %
   :alt: XXXXXXX 
 
-XXXXXXX
+XXXXXXX  VAERS-2020-01-29
 ---------------------------------------------------
 
 XXXXXXX
@@ -149,7 +135,7 @@ XXXXXXX
   :width: 80 %
   :alt: XXXXXXX 
 
-XXXXXXX
+XXXXXXX  CDC-wonder-2021-Jan-22
 ---------------------------------------------------
 
 XXXXXXX
@@ -160,7 +146,7 @@ XXXXXXX
   :width: 80 %
   :alt: XXXXXXX 
 
-XXXXXXX
+XXXXXXX  vaccine-books
 ---------------------------------------------------
 
 XXXXXXX
@@ -171,7 +157,7 @@ XXXXXXX
   :width: 80 %
   :alt: XXXXXXX 
 
-XXXXXXX
+XXXXXXX  VAERS-2020-01-22
 ---------------------------------------------------
 
 XXXXXXX
@@ -182,7 +168,7 @@ XXXXXXX
   :width: 80 %
   :alt: XXXXXXX 
 
-XXXXXXX
+XXXXXXX  VAERS-data-2021-01-25
 ---------------------------------------------------
 
 XXXXXXX
@@ -193,7 +179,7 @@ XXXXXXX
   :width: 80 %
   :alt: XXXXXXX 
 
-XXXXXXX
+XXXXXXX  israel-positive-after-gene-therapy
 ---------------------------------------------------
 
 XXXXXXX
@@ -204,7 +190,7 @@ XXXXXXX
   :width: 80 %
   :alt: XXXXXXX 
 
-XXXXXXX
+XXXXXXX  2020-deaths-across-Euromomo-countries
 ---------------------------------------------------
 
 XXXXXXX
