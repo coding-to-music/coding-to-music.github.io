@@ -3,100 +3,35 @@ Big Picture Important Charts
 
 
 
-XXXXXXX  israel-positive-after-gene-therapy
----------------------------------------------------
+Over 12,000 people test positive for COVID-19 after receiving Pfizer vaccine
+-----------------------------------------------------------------------------
 
-XXXXXXX
-
-
+Over 12,000 people test positive for COVID-19 after receiving Pfizer vaccine
 
 .. figure:: assets/israel-positive-after-gene-therapy.jpg
   :width: 80 %
-  :alt: XXXXXXX 
+  :alt: Over 12,000 people test positive for COVID-19 after receiving Pfizer vaccine 
 
-XXXXXXX  2020-deaths-across-Euromomo-countries
+
+2020 deaths across Euromomo countries
 ---------------------------------------------------
 
-XXXXXXX
-
-
+2020 deaths across Euromomo countries
 
 .. figure:: assets/2020-deaths-across-Euromomo-countries.png
   :width: 80 %
-  :alt: XXXXXXX 
+  :alt: 2020 deaths across Euromomo countries 
 
-XXXXXXX
+
+
+Deaths per week USA 2015-2020
 ---------------------------------------------------
 
-XXXXXXX
-
-
-XXXXXXX  WHO-2020-Global-flu-counts.jpeg
----------------------------------------------------
-
-XXXXXXX
-
-
-
-.. figure:: assets/WHO-2020-Global-flu-counts.jpeg
-  :width: 80 %
-  :alt: XXXXXXX 
-
-XXXXXXX  UK-daily-deaths-2015-2020-large.jpeg
----------------------------------------------------
-
-XXXXXXX
-
-
-
-.. figure:: assets/UK-daily-deaths-2015-2020-large.jpeg
-  :width: 80 %
-  :alt: XXXXXXX 
-
-
-XXXXXXX  Flu_Covid_1916_to_December_2020.jpg
----------------------------------------------------
-
-XXXXXXX
-
-
-
-.. figure:: assets/Flu_Covid_1916_to_December_2020.jpg
-  :width: 80 %
-  :alt: XXXXXXX 
-
-XXXXXXX  deaths-per-week-USA-2015-2020.png
----------------------------------------------------
-
-XXXXXXX
-
-
-
-.. figure:: assets/deaths-per-week-USA-2015-2020.png
-  :width: 80 %
-  :alt: XXXXXXX 
-
-XXXXXXX  deaths-per-week-USA-2015-2020-1.png
----------------------------------------------------
-
-XXXXXXX
-
-
+Deaths per week USA 2015-2020
 
 .. figure:: assets/deaths-per-week-USA-2015-2020-1.png
   :width: 80 %
-  :alt: XXXXXXX 
-
-XXXXXXX  CDC-survival-rates-by-age-September-2020.jpeg
------------------------------------------------------------
-
-XXXXXXX
-
-
-
-.. figure:: assets/CDC-survival-rates-by-age-September-2020.jpeg
-  :width: 80 %
-  :alt: XXXXXXX 
+  :alt: Deaths per week USA 2015-2020 
 
 
 Covid Vaccine Death Counts via VAERS Feb-26-2021
