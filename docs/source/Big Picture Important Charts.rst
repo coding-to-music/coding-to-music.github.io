@@ -57,17 +57,16 @@ CDC survival rates by age September 2020
   :alt: CDC survival rates by age September 2020 
 
 CDC survival rates by age September 2020
----------------------------------------------------
-
-CDC survival rates by age September 2020
 
 UK virus cases hospital ICU deaths
 ---------------------------------------------------
 
-  .. figure:: assets/virus-cases-hospital-ICU-deaths.jpeg
+UK virus cases hospital ICU deaths
+
+.. figure:: assets/virus-cases-hospital-ICU-deaths.jpeg
     :width: 80 %
     :alt:  virus cases hospital ICU deaths
   
-  Source: [Twitter Christina Pagel @chrischirp Jan 16, 2021](https://twitter.com/chrischirp/status/1350416441498079234)
+Source: [Twitter Christina Pagel @chrischirp Jan 16, 2021](https://twitter.com/chrischirp/status/1350416441498079234)
   
-  Last change: |today| 
+Last change: |today| 
