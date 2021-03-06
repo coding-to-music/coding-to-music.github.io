@@ -21,7 +21,6 @@ https://readthedocs.org/projects/pandemic-overview/builds/
    :maxdepth: 2
    :caption: Contents:
    
-   test1
    examples/README
 
 
