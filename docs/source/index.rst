@@ -13,6 +13,10 @@ Making Sense of the Pandmic
    Food Safety
    FAQ Frequently Asked Questions
    Events in Medical History we might want to consider
+   WEF World Economic Forum
+   Media and Influencers
+   Advice for Living
+   Words of Wisdom from Famous People
    Resources and additional background material
    Letter to the town of Brookine Massachusetts
    How you can help

@@ -39,9 +39,6 @@ How to install vscode on your computer
 How to set up SSH keys on your computer with vscode     
 ------------------------------------------------------------------------------
 
-How to edit Markdown to format documents [Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)  
------------------------------------------------------------------------------------------------------------------------------------
-
 How do use branching in GitHub    
 ------------------------------------------------------------------------------
 
@@ -54,10 +51,10 @@ How to use puppeteer to automatically scrape a web page to retrieve data
 How to buy a $250 chromebook for an awesome development experience     
 ------------------------------------------------------------------------------
 
-How to know about how the government is monitoring your Apple computer via the M2 chip     
+How the government is monitoring your Apple computer via the M2 chip     
 -----------------------------------------------------------------------------------------
 
-How to know about how the government is monitoring your Chromebook     
+How the government is monitoring your Chromebook     
 ------------------------------------------------------------------------------
 
 How another project 'Minimal Mistakes' guides contributors in their Pull Request process    
