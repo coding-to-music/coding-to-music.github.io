@@ -6,5 +6,6 @@ Charts and Graphs
    :caption: Contents:
 
    Big Picture Important Charts
+   VAERS Vaccine Incident Reporting System
 
 Last change: |today|

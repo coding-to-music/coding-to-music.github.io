@@ -13,6 +13,16 @@ Vaccines
    A History of Pfizer
    A history of Johnson & Johnson
 
+Vaccine Books
+---------------------------------------------------
+
+Vaccine Books
+
+.. figure:: assets/vaccine-books.jpg
+  :width: 80 %
+  :alt: Vaccine Books 
+
+
 What is the history of vaccines, how much money and what are they used for    
 ------------------------------------------------------------------------------
 

@@ -2,49 +2,34 @@ Big Picture Important Charts
 ==================================
 
 
-VAERS data covid vaccine Feb-12-2021
----------------------------------------------------
 
-VAERS data covid vaccine Feb-12-2021
-
-.. figure:: assets/vaers-data-covid-vaccine-feb-12-2021.jpg
-  :width: 80 %
-  :alt: VAERS data covid vaccine Feb-12-2021
-
-
-
-VAERS COVID Injection Deaths Feb-4-2021
----------------------------------------------------
-
-VAERS COVID Injection Deaths Feb-4-2021
-
-
-.. figure:: assets/VAERS-COVID-Injection-Deaths-2.4.21.jpg
-  :width: 80 %
-  :alt: VAERS COVID Injection Deaths Feb-4-2021 
-
-
-XXXXXXX vaers-data-covid-vaccine-feb-4-1536x926.png
+XXXXXXX  israel-positive-after-gene-therapy
 ---------------------------------------------------
 
 XXXXXXX
 
 
 
-.. figure:: assets/vaers-data-covid-vaccine-feb-4-1536x926.png
+.. figure:: assets/israel-positive-after-gene-therapy.jpg
   :width: 80 %
   :alt: XXXXXXX 
 
-XXXXXXX CDC-653-Deaths-12697-Reported-Injuries-Following-Experimental-mRNA-COVID-Injections.jpg
---------------------------------------------------------------------------------------------------
+XXXXXXX  2020-deaths-across-Euromomo-countries
+---------------------------------------------------
 
 XXXXXXX
 
 
 
-.. figure:: assets/CDC-653-Deaths-12697-Reported-Injuries-Following-Experimental-mRNA-COVID-Injections.jpg
+.. figure:: assets/2020-deaths-across-Euromomo-countries.png
   :width: 80 %
   :alt: XXXXXXX 
+
+XXXXXXX
+---------------------------------------------------
+
+XXXXXXX
+
 
 XXXXXXX  WHO-2020-Global-flu-counts.jpeg
 ---------------------------------------------------
@@ -112,100 +97,6 @@ XXXXXXX
 .. figure:: assets/CDC-survival-rates-by-age-September-2020.jpeg
   :width: 80 %
   :alt: XXXXXXX 
-
-XXXXXXX This is what I am working on
----------------------------------------------------
-
-XXXXXXX
-
-
-
-.. figure:: assets/2020_october_this_is_what_I_am_working_on.png
-  :width: 80 %
-  :alt: XXXXXXX 
-
-XXXXXXX  VAERS-2020-01-29
----------------------------------------------------
-
-XXXXXXX
-
-
-
-.. figure:: assets/VAERS-2020-01-29.jpg
-  :width: 80 %
-  :alt: XXXXXXX 
-
-XXXXXXX  CDC-wonder-2021-Jan-22
----------------------------------------------------
-
-XXXXXXX
-
-
-
-.. figure:: assets/CDC-wonder-2021-Jan-22.jpg
-  :width: 80 %
-  :alt: XXXXXXX 
-
-XXXXXXX  vaccine-books
----------------------------------------------------
-
-XXXXXXX
-
-
-
-.. figure:: assets/vaccine-books.jpg
-  :width: 80 %
-  :alt: XXXXXXX 
-
-XXXXXXX  VAERS-2020-01-22
----------------------------------------------------
-
-XXXXXXX
-
-
-
-.. figure:: assets/VAERS-2020-01-22.jpg
-  :width: 80 %
-  :alt: XXXXXXX 
-
-XXXXXXX  VAERS-data-2021-01-25
----------------------------------------------------
-
-XXXXXXX
-
-
-
-.. figure:: assets/VAERS-data-2021-01-25.jpg
-  :width: 80 %
-  :alt: XXXXXXX 
-
-XXXXXXX  israel-positive-after-gene-therapy
----------------------------------------------------
-
-XXXXXXX
-
-
-
-.. figure:: assets/israel-positive-after-gene-therapy.jpg
-  :width: 80 %
-  :alt: XXXXXXX 
-
-XXXXXXX  2020-deaths-across-Euromomo-countries
----------------------------------------------------
-
-XXXXXXX
-
-
-
-.. figure:: assets/2020-deaths-across-Euromomo-countries.png
-  :width: 80 %
-  :alt: XXXXXXX 
-
-XXXXXXX
----------------------------------------------------
-
-XXXXXXX
-
 
 
 Covid Vaccine Death Counts via VAERS Feb-26-2021
