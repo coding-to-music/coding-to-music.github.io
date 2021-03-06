@@ -23,7 +23,6 @@ https://readthedocs.org/projects/pandemic-overview/builds/
    
    test1
    examples/README
-   Big Picture
 
 
 
