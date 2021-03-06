@@ -1,9 +1,8 @@
 reStructured Text Special directives
 ----------------------------------------
 
+https://cheat.readthedocs.io/en/latest/rst.html
 
-For further information, please visit
-https://github.com/coding-to-music
 
 .. figure:: assets/1985-vaccine-usage.jpg
    :width: 50 %
@@ -38,23 +37,8 @@ False  True   True
 True   True   True
 =====  =====  ========
 
-.. DANGER::
-   Beware killer rabbits!
-
-.. attention::
-   attention here
-
-.. caution::
-   caution here
-
-.. danger::
-   danger here
-
 .. error::
-   error here
-
-.. hint::
-   hint here
+   Beware killer rabbits!
 
 .. important::
    important here
@@ -108,27 +92,25 @@ transitions be immediately adjacent.
 
 
 
-   This is the caption of the figure (a simple paragraph).
+This is the caption of the figure (a simple paragraph).
 
-   The legend consists of all elements after the caption.  In this
-   case, the legend consists of this paragraph and the following
-   table:
+The legend consists of all elements after the caption.  In this case, the legend consists of this paragraph and the following table:
 
-   .. note::
-      Begin Table 1
+.. note::
+   Begin Table 1
 
-   +-----------------------+-----------------------+
-   | Symbol                | Meaning               |
-   +=======================+=======================+
-   | cat1                  | Campground            |
-   +-----------------------+-----------------------+
-   | cat2                  | Lake                  |
-   +-----------------------+-----------------------+
-   | cat3                  | Mountain              |
-   +-----------------------+-----------------------+
++-----------------------+-----------------------+
+| Symbol                | Meaning               |
++=======================+=======================+
+| cat1                  | Campground            |
++-----------------------+-----------------------+
+| cat2                  | Lake                  |
++-----------------------+-----------------------+
+| cat3                  | Mountain              |
++-----------------------+-----------------------+
 
 
-   End Table 1
+End Table 1
 
 
 

@@ -2,6 +2,226 @@ Big Picture Important Charts
 ==================================
 
 
+.. figure:: assets/vaers-data-covid-vaccine-feb-12-2021.jpg
+  :width: 80 %
+  :alt: XXXXXXX 
+
+XXXXXXX
+---------------------------------------------------
+
+XXXXXXX
+
+
+
+.. figure:: assets/virus-cases-hospital-ICU-deaths.jpeg
+  :width: 80 %
+  :alt: XXXXXXX 
+
+XXXXXXX
+---------------------------------------------------
+
+XXXXXXX
+
+
+
+.. figure:: assets/VAERS-COVID-Injection-Deaths-2.4.21.jpg
+  :width: 80 %
+  :alt: XXXXXXX 
+
+XXXXXXX
+---------------------------------------------------
+
+XXXXXXX
+
+
+
+.. figure:: assets/vaers-data-covid-vaccine-feb-4-1536x926.png
+  :width: 80 %
+  :alt: XXXXXXX 
+
+XXXXXXX
+---------------------------------------------------
+
+XXXXXXX
+
+
+
+.. figure:: assets/CDC-653-Deaths-12697-Reported-Injuries-Following-Experimental-mRNA-COVID-Injections.jpg
+  :width: 80 %
+  :alt: XXXXXXX 
+
+XXXXXXX
+---------------------------------------------------
+
+XXXXXXX
+
+
+
+.. figure:: assets/WHO-2020-Global-flu-counts.jpeg
+  :width: 80 %
+  :alt: XXXXXXX 
+
+XXXXXXX
+---------------------------------------------------
+
+XXXXXXX
+
+
+
+.. figure:: assets/UK-daily-deaths-2015-2020-large.jpeg
+  :width: 80 %
+  :alt: XXXXXXX 
+
+XXXXXXX
+---------------------------------------------------
+
+XXXXXXX
+
+
+
+.. figure:: assets/tree.svg
+  :width: 80 %
+  :alt: XXXXXXX 
+
+XXXXXXX
+---------------------------------------------------
+
+XXXXXXX
+
+
+
+.. figure:: assets/Flu_Covid_1916_to_December_2020.jpg
+  :width: 80 %
+  :alt: XXXXXXX 
+
+XXXXXXX
+---------------------------------------------------
+
+XXXXXXX
+
+
+
+.. figure:: assets/deaths-per-week-USA-2015-2020.png
+  :width: 80 %
+  :alt: XXXXXXX 
+
+XXXXXXX
+---------------------------------------------------
+
+XXXXXXX
+
+
+
+.. figure:: assets/deaths-per-week-USA-2015-2020-1.png
+  :width: 80 %
+  :alt: XXXXXXX 
+
+XXXXXXX
+---------------------------------------------------
+
+XXXXXXX
+
+
+
+.. figure:: assets/CDC-survival-rates-by-age-September-2020.jpeg
+  :width: 80 %
+  :alt: XXXXXXX 
+
+XXXXXXX
+---------------------------------------------------
+
+XXXXXXX
+
+
+
+.. figure:: assets/2020_october_this_is_what_I_am_working_on.png
+  :width: 80 %
+  :alt: XXXXXXX 
+
+XXXXXXX
+---------------------------------------------------
+
+XXXXXXX
+
+
+
+.. figure:: assets/VAERS-2020-01-29.jpg
+  :width: 80 %
+  :alt: XXXXXXX 
+
+XXXXXXX
+---------------------------------------------------
+
+XXXXXXX
+
+
+
+.. figure:: assets/CDC-wonder-2021-Jan-22.jpg
+  :width: 80 %
+  :alt: XXXXXXX 
+
+XXXXXXX
+---------------------------------------------------
+
+XXXXXXX
+
+
+
+.. figure:: assets/vaccine-books.jpg
+  :width: 80 %
+  :alt: XXXXXXX 
+
+XXXXXXX
+---------------------------------------------------
+
+XXXXXXX
+
+
+
+.. figure:: assets/VAERS-2020-01-22.jpg
+  :width: 80 %
+  :alt: XXXXXXX 
+
+XXXXXXX
+---------------------------------------------------
+
+XXXXXXX
+
+
+
+.. figure:: assets/VAERS-data-2021-01-25.jpg
+  :width: 80 %
+  :alt: XXXXXXX 
+
+XXXXXXX
+---------------------------------------------------
+
+XXXXXXX
+
+
+
+.. figure:: assets/israel-positive-after-gene-therapy.jpg
+  :width: 80 %
+  :alt: XXXXXXX 
+
+XXXXXXX
+---------------------------------------------------
+
+XXXXXXX
+
+
+
+.. figure:: assets/2020-deaths-across-Euromomo-countries.png
+  :width: 80 %
+  :alt: XXXXXXX 
+
+XXXXXXX
+---------------------------------------------------
+
+XXXXXXX
+
+
+
 Covid Vaccine Death Counts via VAERS Feb-26-2021
 ---------------------------------------------------
 
