@@ -26,6 +26,15 @@ WHO herd immunity definition Dec-31-2020
 
 WHO herd immunity definition Dec-31-2020
 
+Source:
+Replying to 
+@Heachy_1979
+GOOD NEWS: A month and a half later the WHO edited the text to put natural immunity back in, but...
+BAD NEWS: They made natural immunity sound evil and plastered VACCINE into definition. In fact it is now mentioned SEVENTEEN times. Speaks to an agenda. 
+https://twitter.com/birb_k/status/1368440134618681346
+12:55 AM · Mar 7, 2021
+@birb_k
+
 .. figure:: assets/WHO-herd-immunity-definition-Dec-31-2020.jpeg
     :width: 80 %
     :alt: WHO herd immunity definition Dec-31-2020 
