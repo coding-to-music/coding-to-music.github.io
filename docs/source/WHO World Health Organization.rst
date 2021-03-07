@@ -2,6 +2,24 @@ WHO World Health Organization
 ===============================
 
 
+WHO herd immunity definition Dec-31-2020
+---------------------------------------------------
+
+WHO herd immunity definition Dec-31-2020
+
+.. figure:: assets/WHO-herd-immunity-definition-Dec-31-2020.jpeg
+    :width: 80 %
+    :alt: WHO herd immunity definition Dec-31-2020 
+
+WHO Herd Immunity Definition June VS Nov 2020
+---------------------------------------------------
+
+WHO Herd Immunity Definition June VS Nov 2020
+
+.. figure:: assets/WHO-herd-immunity-definition-June-VS-Nov-2020.jpeg
+    :width: 80 %
+    :alt: WHO Herd Immunity Definition June VS Nov 2020 
+
 WHO 2020 Global flu counts
 ---------------------------------------------------
 
