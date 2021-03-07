@@ -2,6 +2,25 @@ WHO World Health Organization
 ===============================
 
 
+Vaccine Definition Merriam-Webster Feb-5-2021 vs Mar-31-2019
+--------------------------------------------------------------
+
+Vaccine Definition Merriam-Webster Feb-5-2021 vs Mar-31-2019
+
+Source:
+Something interesting to notice-
+If something doesn’t fall under a certain description outlined for indemnity, what do you do? Why, you change the definition to cover your ass! That’s what you do!
+https://twitter.com/LynnFynn3/status/1368228908810842117
+10:56 AM · Mar 6, 2021·
+@LynnFynn3
+
+
+
+.. figure:: assets/vaccine-definition-Merriam-Webster-Feb-5-2021-vs-Mar-31-2019.jpeg
+    :width: 80 %
+    :alt: Vaccine Definition Merriam-Webster Feb-5-2021 vs Mar-31-2019 
+
+
 WHO herd immunity definition Dec-31-2020
 ---------------------------------------------------
 
@@ -15,6 +34,11 @@ WHO Herd Immunity Definition June VS Nov 2020
 ---------------------------------------------------
 
 WHO Herd Immunity Definition June VS Nov 2020
+
+Source:
+https://twitter.com/LynnFynn3/status/1368238151609769994
+11:32 AM · Mar 6, 2021
+@LynnFynn3
 
 .. figure:: assets/WHO-herd-immunity-definition-June-VS-Nov-2020.jpeg
     :width: 80 %
