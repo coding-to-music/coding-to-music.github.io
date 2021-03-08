@@ -1,7 +1,6 @@
 How you can help    
 =======================================================================================
 
-
 - There are many ways you can continue your research and help out the community at the same time.  
 - Here are some suggestions, please add to this list:   
 
@@ -11,7 +10,7 @@ How you can help
  
     Contribute
     Sphinx Documentation System
-
+    Tech stack for this website
  
 
 Join the [discord community]()    
