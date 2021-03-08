@@ -33,6 +33,8 @@ Then a webhook will send to ReadTheDocs which will do a build on their system ht
 
 And it will be promoted to https://pandemic-overview.readthedocs.io/
 
+http://all-knowledge.info points to https://pandemic-overview.readthedocs.io/
+
 Key Technologies
 
 - GitHub      https://github.com/coding-to-music
