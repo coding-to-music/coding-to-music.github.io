@@ -10,7 +10,6 @@ How you can help
     :caption: Contents:
  
     Contribute
-    reStructured Text Special directives
     Sphinx Documentation System
 
  
