@@ -1,7 +1,7 @@
 Letter to the town of Brookine Massachusetts
 =============================================
 
-FY2021 revised budget: revised budget highlights  
+FY2021 Revised Budget: revised budget highlights  
 -------------------------------------------------
 
 .. figure:: assets/FY2021-revised-budget-revised-budget-highlights.png
@@ -10,7 +10,7 @@ FY2021 revised budget: revised budget highlights
 
 Source: [FY 2021 Revised Budget Presentation to the Select Board](https://www.brooklinema.gov/DocumentCenter/View/21900/Revised-FY2021-Budet-Presentation-to-the-Select-Board-June-2-2020?bidId=)
 
-FY2021 revised budget: assumptions local receipts  
+FY2021 Revised Budget: assumptions local receipts  
 -------------------------------------------------
 
 .. figure:: assets/FY2021-revised-budget-assumptions-local-receipts.png
