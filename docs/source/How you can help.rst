@@ -11,7 +11,8 @@ How you can help
     Contribute
     Sphinx Documentation System
     Tech stack for this website
- 
+    Useful Software Development Tools
+
 
 Join the [discord community]()    
 ------------------------------------------------------------------------------
