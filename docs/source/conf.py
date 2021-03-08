@@ -66,7 +66,7 @@ release = '0.0.1'
 #     'sphinx.ext.autodoc'
 #     ]
 
-extensions = ['sphinx.ext.autodoc', 'sphinx.ext.coverage', 'sphinx.ext.napoleon']
+extensions = ['sphinx.ext.autodoc', 'sphinx.ext.coverage', 'sphinx.ext.napoleon',"sphinxext.opengraph"]
 
 try:
     import sphinxcontrib.spelling
@@ -81,6 +81,15 @@ sphinx_gallery_conf = {
      'examples_dirs': 'examples',   # path to your example scripts
      'gallery_dirs': 'auto_examples',  # path to where to save gallery generated output
 }
+
+ogp_site_url = "http://example.org/"
+ogp_image = "http://example.org/image.png"
+ogp_description_length = 300
+ogp_type = "article"
+
+ogp_custom_meta_tags = [
+    '<meta property="og:ignore_canonical" content="true" />',
+]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['ntemplates']
