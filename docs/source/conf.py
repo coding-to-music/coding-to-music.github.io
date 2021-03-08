@@ -82,8 +82,8 @@ sphinx_gallery_conf = {
      'gallery_dirs': 'auto_examples',  # path to where to save gallery generated output
 }
 
-ogp_site_url = "http://example.org/"
-ogp_image = "http://example.org/image.png"
+ogp_site_url = "http://all-knowledge.info/"
+ogp_image = "assets/Ivermectin-perscription.jpg"
 ogp_description_length = 300
 ogp_type = "article"
 
