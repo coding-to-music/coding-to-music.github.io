@@ -14,6 +14,7 @@ Then a webhook will send to ReadTheDocs which will do a build on their system ht
 And it will be promoted to https://pandemic-overview.readthedocs.io/
 
 Key Technologies
+
 - Sphinx      https://www.sphinx-doc.org/en/master/
 - ReadTheDocs https://readthedocs.org/
 - github.io   https://pages.github.com/
