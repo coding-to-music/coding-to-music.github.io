@@ -81,12 +81,28 @@ sphinx_gallery_conf = {
      'examples_dirs': 'examples',   # path to your example scripts
      'gallery_dirs': 'auto_examples',  # path to where to save gallery generated output
 }
+# ogp_custom_meta_tags = [
+#     '<meta property="og:ignore_canonical" content="true" />',
+# ]
 
-ogp_site_url = "https://pandemic-overview.readthedocs.io"
-# ogp_image = "https://pandemic-overview.readthedocs.io/en/latest/_images/CDC-653-Deaths-12697-Reported-Injuries-Following-Experimental-mRNA-COVID-Injections.jpg"
-# ogp_description_length = 300
 ogp_type = "article"
-# ogp_use_first_image=True
+ogp_site_url = "https://pandemic-overview.readthedocs.io"
+ogp_image = "https://pandemic-overview.readthedocs.io/en/latest/_images/CDC-653-Deaths-12697-Reported-Injuries-Following-Experimental-mRNA-COVID-Injections.jpg"
+ogp_description_length = 200
+ogp_use_first_image=True
+og_site_name="All-Knowlege.info" 
+og_locale="en_US"
+
+# page-specific
+
+# og:title="Links 3/8/2021 | naked capitalism"
+# og:description="Our popular daily Links" 
+# og:headline="Our popular daily Links" 
+# article:published_time" content="2021-03-08T11:55:38+00:00" 
+# article:modified_time" content="2021-03-08T12:48:53+00:00" 
+
+
+
 
 # This is what another website has:
 # og:locale="en_US"
@@ -124,9 +140,6 @@ ogp_type = "article"
   
 #   <title>WHO World Health Organization &mdash; all-knowledge 0.0.1 documentation</title>
 
-# ogp_custom_meta_tags = [
-#     '<meta property="og:ignore_canonical" content="true" />',
-# ]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['ntemplates']
