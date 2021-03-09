@@ -1,6 +1,14 @@
 The Dodgy Dealings of Pfizer Exposed
 =========================================
 
+.. figure:: assets/Vaccines/Pfizer/Pfizer-image-3.png
+    :width: 80 %
+    :alt: Pfizer and Parliament  
+
+    The Dodgy Dealings of Pfizer Exposed     
+    
+    The Dodgy Dealings of Pfizer Exposed
+
 https://dailyexpose.co.uk/2021/03/02/the-dodgy-dealings-of-pfizer-exposed/
 
 BY THE DAILY EXPOSE ON MARCH 2, 2021 • ( 2 COMMENTS )
@@ -23,9 +31,9 @@ Pfizer’s ransom demands were even more berserk in Argentina. Pfizer demanded t
     :width: 80 %
     :alt: Pfizer and Parliament  
 
-Pfizer and Parliament     
+    Pfizer and Parliament     
     
-Pfizer and Parliament
+    Pfizer and Parliament
 
 
 The parliament ultimately acquiesced to Pfizer and defined negligence to include only vaccine distribution and delivery. Pfizer rejected this offer, too, and demanded a new decree — one that would hold the government of Argentina hostage. Pfizer demanded that Argentina purchase an international insurance policy to cover for all future civil cases against Pfizer. When Argentina agreed, Pfizer made even more demands, requiring Argentina to put their sovereign assets up as collateral. Pfizer wanted Argentina to put their bank reserves, military bases, and embassy buildings as collateral in the deal.
