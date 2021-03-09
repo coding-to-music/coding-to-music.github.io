@@ -124,9 +124,9 @@ ogp_type = "article"
   
 #   <title>WHO World Health Organization &mdash; all-knowledge 0.0.1 documentation</title>
 
-ogp_custom_meta_tags = [
-    '<meta property="og:ignore_canonical" content="true" />',
-]
+# ogp_custom_meta_tags = [
+#     '<meta property="og:ignore_canonical" content="true" />',
+# ]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['ntemplates']
