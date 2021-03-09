@@ -82,10 +82,46 @@ sphinx_gallery_conf = {
      'gallery_dirs': 'auto_examples',  # path to where to save gallery generated output
 }
 
-ogp_site_url = "http://all-knowledge.info/"
+ogp_site_url = "https://pandemic-overview.readthedocs.io"
 ogp_image = "https://pandemic-overview.readthedocs.io/en/latest/_images/CDC-653-Deaths-12697-Reported-Injuries-Following-Experimental-mRNA-COVID-Injections.jpg"
 ogp_description_length = 300
 ogp_type = "article"
+
+# This is what another website has:
+# og:locale="en_US"
+# og:title="Links 3/8/2021 | naked capitalism"
+# og:description="Our popular daily Links" 
+# og:url="https://www.nakedcapitalism.com/2021/03/links-3-8-2021.html" 
+# og:site_name="All-Knowlege.info" 
+# article:published_time" content="2021-03-08T11:55:38+00:00" 
+# article:modified_time" content="2021-03-08T12:48:53+00:00" 
+# og:image=
+
+# ogp_site_url="This config option is very important, set it to the URL the site is being hosted on."
+# ogp_image="This is not required. Link to image to show."
+# ogp_description_length="Configure the amount of characters taken from a page. The default of 200 is probably good for most people. If something other than a number is used, it defaults back to 200."
+# ogp_type="This sets the ogp type attribute, for more information on the types available please take a look at https://ogp.me/#types. By default it is set to website, which should be fine for most use cases."
+
+# ogp_site_name="This is not required. Name of the site. This is displayed above the title."
+# ogp_image_alt="This is not required. Alt text for image. Defaults to using ogp_site_name or the document's title as alt text, if available. Set to False if you want to turn off alt text completely."
+# ogp_use_first_image="This is not required. Set to True to use each page's first image, if available. If set to True but no image is found, Sphinx will use ogp_image instead."
+# ogp_custom_meta_tags="This is not required. List of custom html snippets to insert."
+
+#   <meta property="og:title" content="WHO World Health Organization" />
+#   <meta property="og:type" content="article" />
+
+#   <meta property="og:url" content="http://all-knowledge.info/WHO World Health Organization.html" />
+#   <meta property="og:description" content="Vaccine Definition Merriam-Webster Feb-5-2021 vs Mar-31-2019: Vaccine Definition Merriam-Webster Feb-5-2021 vs Mar-31-2019 Source: Something interesting to notice- If something doesn’t fall under a certain description outlined for indemnity, what do you do? Why, you change the definition to cover..." />
+
+#   <meta property="og:image" content="https://pandemic-overview.readthedocs.io/en/latest/_images/CDC-653-Deaths-12697-Reported-Injuries-Following-Experimental-mRNA-COVID-Injections.jpg" />
+
+#   <meta property="og:image:alt" content="WHO World Health Organization" />
+
+#   <meta property="og:ignore_canonical" content="true" />
+
+#   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+#   <title>WHO World Health Organization &mdash; all-knowledge 0.0.1 documentation</title>
 
 ogp_custom_meta_tags = [
     '<meta property="og:ignore_canonical" content="true" />',

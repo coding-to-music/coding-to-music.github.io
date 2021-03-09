@@ -1,6 +1,10 @@
 WHO World Health Organization
 ===============================
 
+.. figure:: assets/vaccine-definition-Merriam-Webster-Feb-5-2021-vs-Mar-31-2019.jpeg
+    :width: 80 %
+    :alt: Vaccine Definition Merriam-Webster Feb-5-2021 vs Mar-31-2019 
+
 
 Vaccine Definition Merriam-Webster Feb-5-2021 vs Mar-31-2019
 --------------------------------------------------------------
