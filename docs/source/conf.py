@@ -46,7 +46,7 @@ author = 'Thomas Connors'
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
-release = '0.0.1'
+release = ''
 # The short X.Y version.
 # version = trackhub.__version__
 # The full version, including alpha/beta/rc tags.
@@ -86,7 +86,7 @@ ogp_site_url = "https://pandemic-overview.readthedocs.io"
 # ogp_image = "https://pandemic-overview.readthedocs.io/en/latest/_images/CDC-653-Deaths-12697-Reported-Injuries-Following-Experimental-mRNA-COVID-Injections.jpg"
 # ogp_description_length = 300
 ogp_type = "article"
-ogp_use_first_image=True
+# ogp_use_first_image=True
 
 # This is what another website has:
 # og:locale="en_US"

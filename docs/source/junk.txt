@@ -5,7 +5,9 @@
   <meta property="og:title" content="The Dodgy Dealings of Pfizer Exposed" />
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://pandemic-overview.readthedocs.io/The-Dodgy-Dealings-of-Pfizer-Exposed.html" />
-  <meta property="og:description" content="Pfizer and Parliament The Dodgy Dealings of Pfizer Exposed, The Dodgy Dealings of Pfizer Exposed, https://dailyexpose.co.uk/2021/03/02/the-dodgy-dealings-of-pfizer-exposed/ BY THE DAILY EXPOSE ON M..." />
+  <meta property="og:description" content="Pfizer and Parliament The Dodgy Dealings of Pfizer Exposed, The Dodgy Dealings of Pfizer Exposed, BY THE DAILY EXPOSE ON MARCH 2, 2021 • ( 2 COMMENTS ) https://dailyexpose.co.uk/2021/03/02/the-dodg..." />
+  <meta property="og:image" content="_images/Pfizer-image-3.png" />
+  <meta property="og:image:alt" content="The Dodgy Dealings of Pfizer Exposed" />
   <meta property="og:ignore_canonical" content="true" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
@@ -49,7 +51,7 @@
 
 <link rel="stylesheet" href="https://assets.readthedocs.org/static/css/readthedocs-doc-embed.css" type="text/css" />
 
-<script type="application/json" id="READTHEDOCS_DATA">{"ad_free": true, "api_host": "https://readthedocs.org", "build_date": "2021-03-09T10:58:37Z", "builder": "sphinx", "canonical_url": null, "commit": "455c9f88", "docroot": "/docs/source/", "features": {"docsearch_disabled": false}, "global_analytics_code": "UA-17997319-1", "language": "en", "page": "The-Dodgy-Dealings-of-Pfizer-Exposed", "programming_language": "words", "project": "pandemic-overview", "proxied_api_host": "/_", "source_suffix": ".rst", "subprojects": {}, "theme": "sphinx_rtd_theme", "user_analytics_code": "G-BYXRJ31SVH", "version": "latest"}</script>
+<script type="application/json" id="READTHEDOCS_DATA">{"ad_free": true, "api_host": "https://readthedocs.org", "build_date": "2021-03-09T11:16:49Z", "builder": "sphinx", "canonical_url": null, "commit": "441d0943", "docroot": "/docs/source/", "features": {"docsearch_disabled": false}, "global_analytics_code": "UA-17997319-1", "language": "en", "page": "The-Dodgy-Dealings-of-Pfizer-Exposed", "programming_language": "words", "project": "pandemic-overview", "proxied_api_host": "/_", "source_suffix": ".rst", "subprojects": {}, "theme": "sphinx_rtd_theme", "user_analytics_code": "G-BYXRJ31SVH", "version": "latest"}</script>
 
 <!--
 Using this variable directly instead of using `JSON.parse` is deprecated.
@@ -227,6 +229,7 @@ READTHEDOCS_DATA = JSON.parse(document.getElementById('READTHEDOCS_DATA').innerH
             
   <div class="section" id="the-dodgy-dealings-of-pfizer-exposed">
 <h1>The Dodgy Dealings of Pfizer Exposed<a class="headerlink" href="#the-dodgy-dealings-of-pfizer-exposed" title="Permalink to this headline">¶</a></h1>
+<img alt="_images/Pfizer-image-3.png" src="_images/Pfizer-image-3.png" />
 <div class="figure align-default" id="id1">
 <a class="reference internal image-reference" href="_images/Pfizer-image-3.png"><img alt="Pfizer and Parliament" src="_images/Pfizer-image-3.png" style="width: 80%;" /></a>
 <p class="caption"><span class="caption-text">The Dodgy Dealings of Pfizer Exposed</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
@@ -234,8 +237,8 @@ READTHEDOCS_DATA = JSON.parse(document.getElementById('READTHEDOCS_DATA').innerH
 <p>The Dodgy Dealings of Pfizer Exposed</p>
 </div>
 </div>
-<p><a class="reference external" href="https://dailyexpose.co.uk/2021/03/02/the-dodgy-dealings-of-pfizer-exposed/">https://dailyexpose.co.uk/2021/03/02/the-dodgy-dealings-of-pfizer-exposed/</a></p>
 <p>BY THE DAILY EXPOSE ON MARCH 2, 2021 • ( 2 COMMENTS )</p>
+<p><a class="reference external" href="https://dailyexpose.co.uk/2021/03/02/the-dodgy-dealings-of-pfizer-exposed/">https://dailyexpose.co.uk/2021/03/02/the-dodgy-dealings-of-pfizer-exposed/</a></p>
 <p>Before Pfizer’s experimental mRNA technology was globally approved as a “safe” vaccine against the alleged Covid-19 disease, the pharmaceutical giant was already negotiating with governments around the world on how to deal with any adverse reactions to their experimental jab.</p>
 <p>Pfizer has lobbied entire legislative bodies to indemnify vaccine makers from future vaccine injury lawsuits. In a contract with the government of Brazil, Pfizer made ransom demands, requiring Brazil to waive the sovereignty of its assets abroad to cover for Pfizer’s negligence.</p>
 <p>Pfizer demanded that Brazil create a guarantee fund and deposit that money in a foreign bank account to cover all future vaccine injury liabilities. Brazil’s Health Ministry refused Pfizer’s demands and made them public on the 23rd January 2021. In the contract, Pfizer demanded that the laws of Brazil would NOT apply to Pfizer, to exempt the company from all civil liability.</p>
@@ -293,7 +296,7 @@ READTHEDOCS_DATA = JSON.parse(document.getElementById('READTHEDOCS_DATA').innerH
 <p>Now vaccine makers are working with the airline industry, concert venues, Tony Blair and entire governments to enforce a Vaccine Passport for everyone. The coercion, force, fraud and criminal demands of vaccine companies is one of the greatest threats to health, liberty and human rights in the 21st century.</p>
 </div>
 <p>Now vaccine makers are working with the airline industry, concert venues, Tony Blair and entire governments to enforce a Vaccine Passport for everyone. The coercion, force, fraud and criminal demands of vaccine companies is one of the greatest threats to health, liberty and human rights in the 21st century.</p>
-<p>Last change: Tue, 09 Mar 2021 10:58 AM UTC</p>
+<p>Last change: Tue, 09 Mar 2021 11:16 AM UTC</p>
 </div>
 </div>
 
@@ -314,7 +317,7 @@ READTHEDOCS_DATA = JSON.parse(document.getElementById('READTHEDOCS_DATA').innerH
         &#169; Copyright 2021, Thomas Connors.
       <span class="commit">
         
-        Revision <code>455c9f88</code>.
+        Revision <code>441d0943</code>.
       </span>
 
     </p>
