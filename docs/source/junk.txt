@@ -4,7 +4,7 @@
   
   <meta property="og:title" content="The Dodgy Dealings of Pfizer Exposed" />
   <meta property="og:type" content="article" />
-  <meta property="og:url" content="https://pandemic-overview.readthedocs.io/The Dodgy Dealings of Pfizer Exposed.html" />
+  <meta property="og:url" content="https://pandemic-overview.readthedocs.io/The-Dodgy-Dealings-of-Pfizer-Exposed.html" />
   <meta property="og:description" content="Pfizer and Parliament The Dodgy Dealings of Pfizer Exposed, The Dodgy Dealings of Pfizer Exposed, https://dailyexpose.co.uk/2021/03/02/the-dodgy-dealings-of-pfizer-exposed/ BY THE DAILY EXPOSE ON M..." />
   <meta property="og:ignore_canonical" content="true" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -23,7 +23,7 @@
   
 
   
-    <link rel="canonical" href="https://pandemic-overview.readthedocs.io/en/latest/The Dodgy Dealings of Pfizer Exposed.html" />
+    <link rel="canonical" href="https://pandemic-overview.readthedocs.io/en/latest/The-Dodgy-Dealings-of-Pfizer-Exposed.html" />
 
   
   <!--[if lt IE 9]>
@@ -49,7 +49,7 @@
 
 <link rel="stylesheet" href="https://assets.readthedocs.org/static/css/readthedocs-doc-embed.css" type="text/css" />
 
-<script type="application/json" id="READTHEDOCS_DATA">{"ad_free": true, "api_host": "https://readthedocs.org", "build_date": "2021-03-09T10:52:15Z", "builder": "sphinx", "canonical_url": null, "commit": "fe7b1123", "docroot": "/docs/source/", "features": {"docsearch_disabled": false}, "global_analytics_code": "UA-17997319-1", "language": "en", "page": "The Dodgy Dealings of Pfizer Exposed", "programming_language": "words", "project": "pandemic-overview", "proxied_api_host": "/_", "source_suffix": ".rst", "subprojects": {}, "theme": "sphinx_rtd_theme", "user_analytics_code": "G-BYXRJ31SVH", "version": "latest"}</script>
+<script type="application/json" id="READTHEDOCS_DATA">{"ad_free": true, "api_host": "https://readthedocs.org", "build_date": "2021-03-09T10:58:37Z", "builder": "sphinx", "canonical_url": null, "commit": "455c9f88", "docroot": "/docs/source/", "features": {"docsearch_disabled": false}, "global_analytics_code": "UA-17997319-1", "language": "en", "page": "The-Dodgy-Dealings-of-Pfizer-Exposed", "programming_language": "words", "project": "pandemic-overview", "proxied_api_host": "/_", "source_suffix": ".rst", "subprojects": {}, "theme": "sphinx_rtd_theme", "user_analytics_code": "G-BYXRJ31SVH", "version": "latest"}</script>
 
 <!--
 Using this variable directly instead of using `JSON.parse` is deprecated.
@@ -211,7 +211,7 @@ READTHEDOCS_DATA = JSON.parse(document.getElementById('READTHEDOCS_DATA').innerH
         
           
             
-              <a href="https://github.com/coding-to-music/coding-to-music.github.io/blob/master/docs/source/The Dodgy Dealings of Pfizer Exposed.rst" class="fa fa-github"> Edit on GitHub</a>
+              <a href="https://github.com/coding-to-music/coding-to-music.github.io/blob/master/docs/source/The-Dodgy-Dealings-of-Pfizer-Exposed.rst" class="fa fa-github"> Edit on GitHub</a>
             
           
         
@@ -293,7 +293,7 @@ READTHEDOCS_DATA = JSON.parse(document.getElementById('READTHEDOCS_DATA').innerH
 <p>Now vaccine makers are working with the airline industry, concert venues, Tony Blair and entire governments to enforce a Vaccine Passport for everyone. The coercion, force, fraud and criminal demands of vaccine companies is one of the greatest threats to health, liberty and human rights in the 21st century.</p>
 </div>
 <p>Now vaccine makers are working with the airline industry, concert venues, Tony Blair and entire governments to enforce a Vaccine Passport for everyone. The coercion, force, fraud and criminal demands of vaccine companies is one of the greatest threats to health, liberty and human rights in the 21st century.</p>
-<p>Last change: Tue, 09 Mar 2021 10:52 AM UTC</p>
+<p>Last change: Tue, 09 Mar 2021 10:58 AM UTC</p>
 </div>
 </div>
 
@@ -314,7 +314,7 @@ READTHEDOCS_DATA = JSON.parse(document.getElementById('READTHEDOCS_DATA').innerH
         &#169; Copyright 2021, Thomas Connors.
       <span class="commit">
         
-        Revision <code>fe7b1123</code>.
+        Revision <code>455c9f88</code>.
       </span>
 
     </p>
@@ -356,7 +356,7 @@ READTHEDOCS_DATA = JSON.parse(document.getElementById('READTHEDOCS_DATA').innerH
         <dt>Versions</dt>
         
          <strong> 
-        <dd><a href="https://pandemic-overview.readthedocs.io/en/latest/The Dodgy Dealings of Pfizer Exposed.html">latest</a></dd>
+        <dd><a href="https://pandemic-overview.readthedocs.io/en/latest/The-Dodgy-Dealings-of-Pfizer-Exposed.html">latest</a></dd>
          </strong> 
         
       </dl>
@@ -401,11 +401,11 @@ READTHEDOCS_DATA = JSON.parse(document.getElementById('READTHEDOCS_DATA').innerH
       <dl>
         <dt>On GitHub</dt>
         <dd>
-          <a href="https://github.com/coding-to-music/coding-to-music.github.io/blob/master/docs/source/The Dodgy Dealings of Pfizer Exposed.rst">View</a>
+          <a href="https://github.com/coding-to-music/coding-to-music.github.io/blob/master/docs/source/The-Dodgy-Dealings-of-Pfizer-Exposed.rst">View</a>
         </dd>
         
         <dd>
-          <a href="https://github.com/coding-to-music/coding-to-music.github.io/edit/master/docs/source/The Dodgy Dealings of Pfizer Exposed.rst">Edit</a>
+          <a href="https://github.com/coding-to-music/coding-to-music.github.io/edit/master/docs/source/The-Dodgy-Dealings-of-Pfizer-Exposed.rst">Edit</a>
         </dd>
         
       </dl>

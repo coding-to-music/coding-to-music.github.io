@@ -1,6 +1,9 @@
 The Dodgy Dealings of Pfizer Exposed
 =========================================
 
+.. image:: assets/Vaccines/Pfizer/Pfizer-image-3.png
+
+
 .. figure:: assets/Vaccines/Pfizer/Pfizer-image-3.png
     :width: 80 %
     :alt: Pfizer and Parliament  
@@ -9,9 +12,9 @@ The Dodgy Dealings of Pfizer Exposed
     
     The Dodgy Dealings of Pfizer Exposed
 
-https://dailyexpose.co.uk/2021/03/02/the-dodgy-dealings-of-pfizer-exposed/
-
 BY THE DAILY EXPOSE ON MARCH 2, 2021 • ( 2 COMMENTS )
+
+https://dailyexpose.co.uk/2021/03/02/the-dodgy-dealings-of-pfizer-exposed/
 
 Before Pfizer’s experimental mRNA technology was globally approved as a “safe” vaccine against the alleged Covid-19 disease, the pharmaceutical giant was already negotiating with governments around the world on how to deal with any adverse reactions to their experimental jab.
 
