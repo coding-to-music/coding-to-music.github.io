@@ -2,17 +2,21 @@ WHO World Health Organization
 ===============================
 
 
-.. image:: assets/Vaccines/WHO/WHO-Dr-David-Nabarro-dont-do-lockdowns.jpeg
+.. figure:: assets/Vaccines/WHO/WHO-Dr-David-Nabarro-dont-do-lockdowns.jpeg
     :width: 80 %
     :alt: WHO Dr David Nabarro dont do lockdowns 
 
-WHO Dr David Nabarro "don't do lockdowns"    
+Caption WHO Dr David Nabarro "don't do lockdowns"    
     
-.. image:: assets/Vaccines/WHO/WHO-do-not-do-lockdowns.png
+Legend this is the legend
+
+.. figure:: assets/Vaccines/WHO/WHO-do-not-do-lockdowns.png
     :width: 80 %
     :alt: WHO do not do lockdowns 
 
-WHO do not do lockdowns    
+Caption WHO do not do lockdowns    
+
+Legend this is the legend
 
 Vaccine Definition Merriam-Webster Feb-5-2021 vs Mar-31-2019
 --------------------------------------------------------------

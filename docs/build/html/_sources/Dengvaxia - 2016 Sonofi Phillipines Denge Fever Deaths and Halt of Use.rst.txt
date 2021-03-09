@@ -5,8 +5,6 @@ Dengvaxia - 2016 Sonofi Phillipines Denge Fever Deaths and Halt of Use
   :width: 100 %
   :alt:  Dengvaxia Sonofi Phillipines
 
-
-
 Dengvaxia controversy
 
 From Wikipedia, the free encyclopedia
@@ -35,7 +33,6 @@ Events
   :width: 80 %
   :alt:  President Benigno S. Aquino III converses with Sanofi Pasteur chief executive officer Olivier Charmeil
 
-
 President Aquino converses with Sanofi Pasteur CEO Olivier Charmeil during a courtesy call on December 1, 2015, in Paris, France.
 
 On December 1, 2015, former President Benigno Aquino III met with executives of Sanofi Pasteur in a courtesy call in Paris, making the Philippines the first Asian country to approve the commercial sale of Dengvaxia.[10]
@@ -46,8 +43,9 @@ Click to enlarge
   :width: 80 %
   :alt:  President Benigno Aquino III at the launching of the dengue vaccine school-based immunization program.
 
-Click to enlarge
+President Benigno Aquino III at the launching of the dengue vaccine school-based immunization program.
 
+President Benigno Aquino III at the launching of the dengue vaccine school-based immunization program.
 
 In April 2016, the DOH, launched the dengue vaccination campaign in Central Luzon, Calabarzon and Metro Manila, where about 700,000 individuals received at least one dose of the vaccine.[11] The government paid P3.5-billion for the vaccine.[10]
 
