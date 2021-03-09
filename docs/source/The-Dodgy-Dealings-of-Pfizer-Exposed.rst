@@ -1,16 +1,13 @@
 The Dodgy Dealings of Pfizer Exposed
 =========================================
 
-.. image:: assets/Vaccines/Pfizer/Pfizer-image-3.png
-
-
 .. figure:: assets/Vaccines/Pfizer/Pfizer-image-3.png
     :width: 80 %
     :alt: Pfizer and Parliament  
 
     The Dodgy Dealings of Pfizer Exposed     
     
-    The Dodgy Dealings of Pfizer Exposed
+    The UK has also only approved the Pfizer jab for emergency use, which means Pfizer are not liable for any injury that occurs due to their vaccine – the British taxpayer is instead.
 
 BY THE DAILY EXPOSE ON MARCH 2, 2021 • ( 2 COMMENTS )
 
