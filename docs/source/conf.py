@@ -86,6 +86,7 @@ sphinx_gallery_conf = {
 #     '<meta property="og:ignore_canonical" content="true" />',
 # ]
 
+html_baseurl="https://pandemic-overview.readthedocs.io/en/latest/"
 _images="https://pandemic-overview.readthedocs.io/en/latest/_images"
 ogp_type = "article"
 ogp_site_url = "https://pandemic-overview.readthedocs.io"
