@@ -19,6 +19,14 @@ Pfizer’s ransom demands in Argentina
 
 Pfizer’s ransom demands were even more berserk in Argentina. Pfizer demanded that the Government of Argentina foot the bill and compensate all future civil lawsuits when the vaccine injures people. Pfizer lobbied the Argentina Parliament to pass a law in October of 2020 to ensure their protection. When the parliament wrote that Pfizer needed to pay for future negligence, Pfizer rejected the deal.
 
+.. figure:: assets/Vaccines/Pfizer/Pfizer-image-3.png
+    :width: 80 %
+    :alt: Pfizer and Parliament  
+
+Pfizer and Parliament     
+    
+Pfizer and Parliament
+
 
 The parliament ultimately acquiesced to Pfizer and defined negligence to include only vaccine distribution and delivery. Pfizer rejected this offer, too, and demanded a new decree — one that would hold the government of Argentina hostage. Pfizer demanded that Argentina purchase an international insurance policy to cover for all future civil cases against Pfizer. When Argentina agreed, Pfizer made even more demands, requiring Argentina to put their sovereign assets up as collateral. Pfizer wanted Argentina to put their bank reserves, military bases, and embassy buildings as collateral in the deal.
 
@@ -42,13 +50,13 @@ This new law, signed by former President Ronald Reagan, granted vaccine companie
 Congress and the regulatory agencies
 --------------------------------------
 
-.. figure:: assets/Vaccines/WHO/WHO-Dr-David-Nabarro-dont-do-lockdowns.jpeg
+.. figure:: assets/Vaccines/Ronald-Reagan/Ronald-Reagan.png
     :width: 80 %
-    :alt: WHO Dr David Nabarro dont do lockdowns 
+    :alt: Ronald Reagan 1886 Vaccine Law 
 
-Caption WHO Dr David Nabarro "don't do lockdowns"    
+    Ronald Reagan 1886 Vaccine Law    
     
-Legend this is the legend
+    Ronald Reagan 1886 Vaccine Law
 
 
 By turning a blind eye toward vaccine injury, Congress and the regulatory agencies gave vaccine companies an open door to push new vaccines into the arms of children and adults. If an individual is injured or dies from a vaccine, the vaccine maker is not liable; instead, the US federal government defends the vaccine in a special vaccine court that pays out damages only to select victims. Many cases are litigated for years before a settlement is reached, while countless other injuries are ignored. In the first three months of 2020, $57 million was paid out to families suffering from vaccine injury.
