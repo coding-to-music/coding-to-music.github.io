@@ -12,6 +12,7 @@ Vaccines
    What is the history of vaccines, how much money and what are they used for
    A History of Pfizer
    A history of Johnson & Johnson
+   The Dodgy Dealings of Pfizer Exposed
 
 Over 12,000 people test positive for COVID-19 after receiving Pfizer vaccine
 -----------------------------------------------------------------------------

@@ -83,8 +83,8 @@ sphinx_gallery_conf = {
 }
 
 ogp_site_url = "https://pandemic-overview.readthedocs.io"
-ogp_image = "https://pandemic-overview.readthedocs.io/en/latest/_images/CDC-653-Deaths-12697-Reported-Injuries-Following-Experimental-mRNA-COVID-Injections.jpg"
-ogp_description_length = 300
+# ogp_image = "https://pandemic-overview.readthedocs.io/en/latest/_images/CDC-653-Deaths-12697-Reported-Injuries-Following-Experimental-mRNA-COVID-Injections.jpg"
+# ogp_description_length = 300
 ogp_type = "article"
 
 # This is what another website has:
