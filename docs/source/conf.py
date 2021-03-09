@@ -81,10 +81,12 @@ sphinx_gallery_conf = {
      'examples_dirs': 'examples',   # path to your example scripts
      'gallery_dirs': 'auto_examples',  # path to where to save gallery generated output
 }
+
 # ogp_custom_meta_tags = [
 #     '<meta property="og:ignore_canonical" content="true" />',
 # ]
 
+_images="https://pandemic-overview.readthedocs.io/en/latest/_images"
 ogp_type = "article"
 ogp_site_url = "https://pandemic-overview.readthedocs.io"
 ogp_image = "https://pandemic-overview.readthedocs.io/en/latest/_images/CDC-653-Deaths-12697-Reported-Injuries-Following-Experimental-mRNA-COVID-Injections.jpg"

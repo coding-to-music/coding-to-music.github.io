@@ -9,7 +9,7 @@ The Dodgy Dealings of Pfizer Exposed
     
     The UK has also only approved the Pfizer jab for emergency use, which means Pfizer are not liable for any injury that occurs due to their vaccine – the British taxpayer is instead.
 
-    
+
 BY THE DAILY EXPOSE ON MARCH 2, 2021 • ( 2 COMMENTS )
 
 https://dailyexpose.co.uk/2021/03/02/the-dodgy-dealings-of-pfizer-exposed/
@@ -52,7 +52,7 @@ For thirty-four years, vaccine companies have operated ABOVE THE LAW in the Unit
 By 1986, a majority in Congress were still convinced that the benefits of vaccination outweighed the risks of a potential infection, even with viable treatments at hand. In order to maintain vaccine supply and prevent the bankruptcy and criminal prosecution of vaccine companies, Congress passed the 1986 National Childhood Vaccine Injury Act.
 
 .. Note::
-    the Department of Health and Human Services was required to study the safety of vaccines and improve vaccine science, with a report to Congress every two years; however, these studies did not take place over the past thirty-four years
+    The Department of Health and Human Services was required to study the safety of vaccines and improve vaccine science, with a report to Congress every two years; however, these studies did not take place over the past thirty-four years
 
 This new law, signed by former President Ronald Reagan, granted vaccine companies immunity from prosecution when their products injured or killed people. As part of the trade-off, the Department of Health and Human Services was required to study the safety of vaccines and improve vaccine science, with a report to Congress every two years; however, these studies did not take place over the past thirty-four years, as confirmed by a revolutionary lawsuit filed by the Informed Consent Action (ICAN).
 
