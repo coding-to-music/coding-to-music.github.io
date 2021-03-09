@@ -63,11 +63,11 @@ Congress and the regulatory agencies
 
 .. figure:: assets/Vaccines/Ronald-Reagan/Ronald-Reagan.png
     :width: 80 %
-    :alt: Ronald Reagan 1886 Vaccine Law 
+    :alt: Ronald Reagan 1986 Vaccine Law 
 
-    Ronald Reagan 1886 Vaccine Law    
+    Ronald Reagan 1986 Vaccine Law    
     
-    Ronald Reagan 1886 Vaccine Law
+    Ronald Reagan 1986 Vaccine Law
 
 
 By turning a blind eye toward vaccine injury, Congress and the regulatory agencies gave vaccine companies an open door to push new vaccines into the arms of children and adults. If an individual is injured or dies from a vaccine, the vaccine maker is not liable; instead, the US federal government defends the vaccine in a special vaccine court that pays out damages only to select victims. Many cases are litigated for years before a settlement is reached, while countless other injuries are ignored. In the first three months of 2020, $57 million was paid out to families suffering from vaccine injury.

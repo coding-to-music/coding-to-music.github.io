@@ -36,8 +36,8 @@ today_fmt = "%a, %d %b %Y %I:%M %p %Z"
 # -- Project information -----------------------------------------------------
 
 project = u'all-knowledge'
-copyright = u'2021, Thomas Connors'
-author = 'Thomas Connors'
+copyright = u'2021, Thomas Connors and Contributors'
+author = 'Thomas Connors and Contributors'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
