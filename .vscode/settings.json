@@ -1,5 +1,5 @@
 {
     "restructuredtext.preview.docutil.disabled": true,
-    "python.pythonPath": "/home/connorstom/aprojects/coding-to-music.github.io/ver3.7/bin/python3",
+    "python.pythonPath": "ver3.7/bin/python",
     "restructuredtext.confPath": "${workspaceFolder}/docs/source"
 }
