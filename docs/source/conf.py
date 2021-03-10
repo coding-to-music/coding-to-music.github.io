@@ -192,6 +192,8 @@ html_theme = 'sphinx_rtd_theme'
 #html_static_path = ['nstatic']
 html_static_path = ['_static']
 
+html_images_path = ['_images']
+
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
 #

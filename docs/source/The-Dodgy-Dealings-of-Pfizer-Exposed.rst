@@ -37,7 +37,6 @@ Pfizer’s ransom demands were even more berserk in Argentina. Pfizer demanded t
     In the early 1980s, vaccine injury was prevalent and openly discussed, with children suffering injuries from vaccines that contained tetanus and pertussis toxoids and a highly reactive adjuvant.
 
 
-
 The parliament ultimately acquiesced to Pfizer and defined negligence to include only vaccine distribution and delivery. Pfizer rejected this offer, too, and demanded a new decree — one that would hold the government of Argentina hostage. Pfizer demanded that Argentina purchase an international insurance policy to cover for all future civil cases against Pfizer. When Argentina agreed, Pfizer made even more demands, requiring Argentina to put their sovereign assets up as collateral. Pfizer wanted Argentina to put their bank reserves, military bases, and embassy buildings as collateral in the deal.
 
 Pfizer understands what’s at stake. They have been fined over £3.5 billion in medical and safety offences, and participated in the largest healthcare fraud of the century – illegally promoting certain pharmaceutical products. Their latest mRNA technology, promoted as a “safe and efficacious” vaccine, is more of the same fraud and Pfizer’s top scientists know it. The co-founder of the new Pfizer’s vaccine, Dr Ugur Sahin, confirmed that the inoculation was created in a few hours on January 25, 2020. The technology is easily mass produced and was ready to be unleashed on the world in the summer of 2020.
