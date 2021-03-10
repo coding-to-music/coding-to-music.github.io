@@ -13,6 +13,7 @@ Vaccines
    A History of Pfizer
    A history of Johnson & Johnson
    The-Dodgy-Dealings-of-Pfizer-Exposed
+   Facebook-Kim-Jong-Bong-Vaccine-Recommendations-Australia
    
 
 Over 12,000 people test positive for COVID-19 after receiving Pfizer vaccine
