@@ -87,7 +87,7 @@ sphinx_gallery_conf = {
 # ]
 
 html_baseurl="https://pandemic-overview.readthedocs.io/en/latest/"
-_images="https://pandemic-overview.readthedocs.io/en/latest/_images"
+# _images="https://pandemic-overview.readthedocs.io/en/latest/_images"
 ogp_type = "article"
 ogp_site_url = "https://pandemic-overview.readthedocs.io"
 ogp_image = "https://pandemic-overview.readthedocs.io/en/latest/_images/CDC-653-Deaths-12697-Reported-Injuries-Following-Experimental-mRNA-COVID-Injections.jpg"
