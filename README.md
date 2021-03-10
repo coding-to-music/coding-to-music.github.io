@@ -55,6 +55,8 @@ My main repo/profile/README is over here https://github.com/coding-to-music
 
 ```
 
+https://pandemic-overview.readthedocs.io/en/latest/Tech%20stack%20for%20this%20website.html
+
 Install sphinx
 ```javascript
 sudo apt-get install python3-sphinx
@@ -65,6 +67,7 @@ sphinx-quickstart .
 
 sudo apt-get install python3-venv
 python -m venv ver3.7
+source ver3.7/bin/activate
 ```
 
 How to build:
