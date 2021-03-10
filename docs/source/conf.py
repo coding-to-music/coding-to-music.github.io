@@ -95,6 +95,7 @@ ogp_description_length = 200
 ogp_use_first_image=True
 og_site_name="All-Knowlege.info" 
 og_locale="en_US"
+og_headline="All-Knowlege.info"
 
 # page-specific
 
