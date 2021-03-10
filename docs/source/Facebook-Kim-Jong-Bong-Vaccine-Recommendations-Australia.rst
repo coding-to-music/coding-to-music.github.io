@@ -1,6 +1,17 @@
 Facebook Kim Jong Bong Vaccine Recommendations Australia
 ------------------------------------------------------------
 
+.. figure:: assets/Vaccines/Vaccine-Schedule/infant-typical-vacines.jpg
+    :width: 80 %
+    :alt: typical vaccines for an infant  
+
+    Typical vaccines for an infant     
+    
+    So I’m wondering what vaccinations would you say my baby should definitely get and which ones are total BS
+
+
+
+
 Brittney Sarkela shared her first post.
 
 March 9 2021
