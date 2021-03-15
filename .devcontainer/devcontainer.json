@@ -45,9 +45,9 @@
 
 	"postCreateCommand": "pip3 install --user -r docs/source/requirements.txt",
 
-	"containerEnv": {
-	    "PATH": "${containerEnv:PATH}:/home/vscode.local.bin"
-	},
+	// "containerEnv": {
+	//     "PATH": "${containerEnv:PATH}:/home/vscode.local.bin"
+	// },
 
 	// "PATH2": "${localEnv:PATH}:/home/vscode.local.bin"
 
