@@ -1,5 +1,5 @@
 {
     "restructuredtext.preview.docutil.disabled": true,
-    "python.pythonPath": "ver3.7/bin/python",
+    "python.pythonPath": "/usr/bin/python3",
     "restructuredtext.confPath": "${workspaceFolder}/docs/source"
 }
