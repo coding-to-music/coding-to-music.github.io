@@ -12,6 +12,7 @@ How you can help
     Sphinx-Documentation-System
     Tech-stack-for-this-website
     Useful-Software-Development-Tools
+    Upcoming-software-to-try
 
 
 Join the [discord community]()    
