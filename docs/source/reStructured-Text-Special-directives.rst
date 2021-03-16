@@ -1,6 +1,10 @@
 reStructured Text Special directives
 ========================================
 
+.. contents::
+   :local:
+ 
+
 https://cheat.readthedocs.io/en/latest/rst.html
 
 

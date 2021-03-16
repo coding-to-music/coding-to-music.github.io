@@ -1,6 +1,9 @@
 WHO World Health Organization
 ===============================
 
+.. contents::
+    :local:
+  
 
 .. figure:: assets/Vaccines/WHO/WHO-Dr-David-Nabarro-dont-do-lockdowns.jpeg
     :width: 80 %

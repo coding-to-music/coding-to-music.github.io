@@ -1,11 +1,9 @@
 WEF World Economic Forum
 =========================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-   
+.. contents::
+   :local:
+ 
 
 What is the WEF World Economic Forum and Klaus Schwab     
 ------------------------------------------------------------------------------

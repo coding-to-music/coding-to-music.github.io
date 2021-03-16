@@ -1,6 +1,9 @@
 Tuskgee Medical Experiments - 40 years of untreated Syphlis    
 ==============================================================
 
+.. contents::
+  :local:
+
 
 .. figure:: assets/1-Tuskegee-Experiment-1932-1972.png
   :width: 80 %

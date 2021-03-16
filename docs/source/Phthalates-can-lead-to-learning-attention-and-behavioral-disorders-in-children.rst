@@ -1,6 +1,10 @@
 Phthalates can lead to learning, attention and behavioral disorders in children
 ---------------------------------------------------------------------------------
 
+.. contents::
+  :local:
+
+
 Contact: 
 Iris Myers
 (202) 667-6982

@@ -1,6 +1,10 @@
 VAERS Vaccine Incident Reporting System
 ==========================================
 
+.. contents::
+  :local:
+
+
 Covid Vaccine Death Counts via VAERS Feb-26-2021
 ---------------------------------------------------
 

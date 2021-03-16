@@ -1,5 +1,9 @@
 Normal GOF Research
----------------------
+=======================
+
+.. contents::
+  :local:
+
 
 .. figure:: assets/2015-covid-prototype1.jpeg
   :width: 80 %
