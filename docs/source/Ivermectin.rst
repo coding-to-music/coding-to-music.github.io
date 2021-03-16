@@ -1,6 +1,10 @@
 Ivermectin
 ==============
 
+.. contents::
+  :local:
+
+
 .. figure:: assets/Ivermectin-perscription.jpg
   :width: 80 %
   :alt:  Ivermectin-perscription

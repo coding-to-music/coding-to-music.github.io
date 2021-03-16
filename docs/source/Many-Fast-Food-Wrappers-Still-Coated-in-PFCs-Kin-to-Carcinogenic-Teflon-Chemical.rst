@@ -1,6 +1,10 @@
 Many Fast Food Wrappers Still Coated in PFCs, Kin to Carcinogenic Teflon Chemical
 -----------------------------------------------------------------------------------
 
+.. contents::
+  :local:
+
+
 https://www.ewg.org/research/many-fast-food-wrappers-still-coated-pfcs-kin-carcinogenic-teflon-chemical
 
 WEDNESDAY, FEBRUARY 1, 2017

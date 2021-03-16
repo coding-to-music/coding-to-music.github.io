@@ -1,10 +1,8 @@
 Media and Influencers
 =======================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
+.. contents::
+  :local:
 
 
 Who is with us - who is against lockdowns and injections    

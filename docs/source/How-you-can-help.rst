@@ -1,6 +1,10 @@
 How you can help    
 =======================================================================================
 
+.. contents::
+    :local:
+  
+
 - There are many ways you can continue your research and help out the community at the same time.  
 - Here are some suggestions, please add to this list:   
 

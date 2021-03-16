@@ -1,5 +1,9 @@
 Hydroxychloroquine
--------------------
+=======================
+
+.. contents::
+  :local:
+
 
 .. figure:: assets/Hydroxychloroquine.jpeg
   :width: 80 %

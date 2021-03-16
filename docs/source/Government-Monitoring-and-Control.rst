@@ -1,6 +1,10 @@
 Government Monitoring and Control  
 =======================================================================================
 
+.. contents::
+  :local:
+
+
 
 What is narrative control and how is it used to shape public opinion  
 ------------------------------------------------------------------------------

@@ -1,6 +1,10 @@
 Letter to the town of Brookine Massachusetts
 =============================================
 
+.. contents::
+  :local:
+
+
 FY2021 Revised Budget: revised budget highlights  
 -------------------------------------------------
 

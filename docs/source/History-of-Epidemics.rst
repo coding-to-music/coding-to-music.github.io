@@ -1,6 +1,10 @@
 History of Epidemics
 =====================
 
+.. contents::
+    :local:
+  
+
 If you want to understand C  O  V  I  D—the history of polio may offer important insights. Perhaps more than any other disease, polio has been used to promote the safety and efficacy of vaccines. The information disseminated about polio remains deeply ingrained in the public consciousness as absolute truth. However, the actual history of polio tells a far different, more sinister story.
 
 Historical Timeline
