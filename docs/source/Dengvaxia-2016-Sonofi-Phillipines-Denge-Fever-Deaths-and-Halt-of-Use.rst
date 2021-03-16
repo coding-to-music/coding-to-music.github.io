@@ -7,6 +7,10 @@ Dengvaxia - 2016 Sonofi Phillipines Denge Fever Deaths and Halt of Use
 
 Dengvaxia controversy
 
+.. contents::
+  :local:
+
+
 From Wikipedia, the free encyclopedia
 
 https://en.wikipedia.org/wiki/Dengvaxia_controversy

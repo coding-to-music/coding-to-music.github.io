@@ -1,6 +1,11 @@
 Tech stack for this website
 =============================
 
+.. contents::
+    :local:
+  
+  
+
 The repository is here:
 
 https://github.com/coding-to-music/coding-to-music.github.io
