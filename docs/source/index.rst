@@ -6,22 +6,22 @@ Making Sense of the Pandmic
    :maxdepth: 2
    :caption: Contents:
 
-   Covid Medical Treatments
-   Legal Issues
+   Covid-Medical-Treatments
+   Legal-Issues
    Vaccines
-   Charts and Graphs
-   Food Safety
-   FAQ Frequently Asked Questions
-   Events in Medical History we might want to consider
-   WHO World Health Organization
-   WEF World Economic Forum
-   Media and Influencers
-   Advice for Living
-   Words of Wisdom from Famous People
-   Resources and additional background material
-   Letter to the town of Brookine Massachusetts
+   Charts-and-Graphs
+   Food-Safety
+   FAQ-Frequently-Asked-Questions
+   Events-in-Medical-History-we-might-want-to-consider
+   WHO-World-Health-Organization
+   WEF-World-Economic-Forum
+   Media-and-Influencers
+   Advice-for-Living
+   Words-of-Wisdom-from-Famous-People
+   Resources-and-additional-background-material
+   Letter-to-the-town-of-Brookine-Massachusetts
    Municipal-Matters
-   How you can help
+   How-you-can-help
    license
    help
    test2

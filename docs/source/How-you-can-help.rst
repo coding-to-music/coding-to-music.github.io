@@ -9,9 +9,9 @@ How you can help
     :caption: Contents:
  
     Contribute
-    Sphinx Documentation System
-    Tech stack for this website
-    Useful Software Development Tools
+    Sphinx-Documentation-System
+    Tech-stack-for-this-website
+    Useful-Software-Development-Tools
 
 
 Join the [discord community]()    

@@ -5,7 +5,7 @@ Charts and Graphs
    :maxdepth: 2
    :caption: Contents:
 
-   Big Picture Important Charts
-   VAERS Vaccine Incident Reporting System
+   Big-Picture-Important-Charts
+   VAERS-Vaccine-Incident-Reporting-System
 
 Last change: |today|

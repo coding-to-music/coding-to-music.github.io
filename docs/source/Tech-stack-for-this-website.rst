@@ -44,7 +44,7 @@ Key Technologies
     :maxdepth: 2
     :caption: Contents:
  
-    OpenGraph Object Sharing Image Preview System
+    OpenGraph-Object-Sharing-Image-Preview-System
     
 
 

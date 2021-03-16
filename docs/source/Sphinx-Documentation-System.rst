@@ -5,7 +5,7 @@ Sphinx Documentation System
     :maxdepth: 2
     :caption: Contents:
  
-    reStructured Text Special directives
+    reStructured-Text-Special-directives
 
 
 Excellent overview at ScribeTools
