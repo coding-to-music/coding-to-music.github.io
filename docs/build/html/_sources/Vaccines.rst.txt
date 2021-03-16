@@ -15,6 +15,8 @@ Vaccines
    The-Dodgy-Dealings-of-Pfizer-Exposed
    Facebook-Kim-Jong-Bong-Vaccine-Recommendations-Australia
    
+.. contents::
+    :local:
 
 Over 12,000 people test positive for COVID-19 after receiving Pfizer vaccine
 -----------------------------------------------------------------------------

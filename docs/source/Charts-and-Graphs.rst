@@ -1,9 +1,6 @@
 Charts and Graphs
 --------------------
 
-.. contents::
-   :local:
- 
 
 .. toctree::
    :maxdepth: 2
@@ -11,5 +8,9 @@ Charts and Graphs
 
    Big-Picture-Important-Charts
    VAERS-Vaccine-Incident-Reporting-System
+
+
+.. contents::
+   :local:
 
 Last change: |today|

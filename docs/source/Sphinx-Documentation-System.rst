@@ -1,9 +1,6 @@
 Sphinx Documentation System
 =============================
 
-.. contents::
-    :local:
-  
 
 .. toctree::
     :maxdepth: 2
@@ -11,6 +8,8 @@ Sphinx Documentation System
  
     reStructured-Text-Special-directives
 
+.. contents::
+    :local:
 
 Excellent overview at ScribeTools
 

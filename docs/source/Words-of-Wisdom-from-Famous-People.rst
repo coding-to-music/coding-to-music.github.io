@@ -1,9 +1,6 @@
 Words of Wisdom from Famous People
 ===========================================
 
-.. contents::
-    :local:
-  
 
 .. toctree::
     :maxdepth: 2
@@ -11,5 +8,8 @@ Words of Wisdom from Famous People
  
     Placeholder
 
+.. contents::
+    :local:
+  
     
 Last change: |today|

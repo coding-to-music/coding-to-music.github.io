@@ -1,10 +1,7 @@
 How you can help    
 =======================================================================================
 
-.. contents::
-    :local:
   
-
 - There are many ways you can continue your research and help out the community at the same time.  
 - Here are some suggestions, please add to this list:   
 
@@ -18,6 +15,8 @@ How you can help
     Useful-Software-Development-Tools
     Upcoming-software-to-try
 
+.. contents::
+    :local:
 
 Join the [discord community]()    
 ------------------------------------------------------------------------------

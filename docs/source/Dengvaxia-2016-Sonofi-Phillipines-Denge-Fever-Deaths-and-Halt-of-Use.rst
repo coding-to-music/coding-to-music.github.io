@@ -1,6 +1,10 @@
 Dengvaxia - 2016 Sonofi Phillipines Denge Fever Deaths and Halt of Use
 ========================================================================
- 
+
+.. toctree::
+  :maxdepth: 3
+  :caption: Contents:
+
 .. contents::
   :local:
 
@@ -10,9 +14,6 @@ Dengvaxia - 2016 Sonofi Phillipines Denge Fever Deaths and Halt of Use
   :alt:  Dengvaxia Sonofi Phillipines
 
 Dengvaxia controversy
-
-.. contents::
-  :local:
 
 
 From Wikipedia, the free encyclopedia
@@ -27,11 +28,6 @@ The program was stopped when Sanofi Pasteur advised the government that the vacc
 In late November 2017, the DOH suspended the school-based vaccination program.[4][5]
 
 As of August 2019, over 600 people (mostly children) that had received at least a single dose of the vaccine had died,[6] though not necessarily caused by the vaccine itself. The DOH has since banned the vaccine's use and sale in the Philippines.[7] The scare caused by the controversy has been suggested as a factor in the country's loss of confidence in vaccines and low immunization rates,[8] resulting in an infectious disease crisis in the country in 2019,[9] including a measles outbreak.[citation needed]
-
-
-.. toctree::
-   :maxdepth: 3
-   :caption: Contents:
 
 
 Events

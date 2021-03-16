@@ -26,6 +26,8 @@ Making Sense of the Pandmic
    help
    test2
 
+.. contents::
+    :local:
 
 Indices and tables
 ==================

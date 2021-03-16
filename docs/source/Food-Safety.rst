@@ -8,4 +8,7 @@ Food Safety
    Many-Fast-Food-Wrappers-Still-Coated-in-PFCs-Kin-to-Carcinogenic-Teflon-Chemical
    Phthalates-can-lead-to-learning-attention-and-behavioral-disorders-in-children
 
+.. contents::
+    :local:
+
 Last change: |today|

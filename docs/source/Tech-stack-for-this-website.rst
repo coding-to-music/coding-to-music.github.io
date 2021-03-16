@@ -1,15 +1,27 @@
 Tech stack for this website
 =============================
 
+.. toctree::
+    :maxdepth: 2
+    :caption: Contents:
+ 
+    OpenGraph-Object-Sharing-Image-Preview-System
+    
+
 .. contents::
     :local:
   
   
+The repository is here
+-------------------------
 
 The repository is here:
 
 https://github.com/coding-to-music/coding-to-music.github.io
 
+
+Here is the directory structure
+------------------------------------
 
 Here is the directory structure.::
 
@@ -28,6 +40,9 @@ Here is the directory structure.::
 
 This site is static content, written in reStructured Text, compiled by Sphinx into HTML pages that are stored on GitHub.io CDN content delivery network.
 
+To add content
+----------------
+
 To add content:
 
 - add or modify a .rst file in the docs/source/ directory
@@ -38,6 +53,9 @@ To add content:
 - http://all-knowledge.info points to https://pandemic-overview.readthedocs.io/
 
 Key Technologies
+------------------
+
+Key Technologies
 
 - GitHub      https://github.com/coding-to-music
 - Sphinx      https://www.sphinx-doc.org/en/master/
@@ -45,12 +63,6 @@ Key Technologies
 - github.io   https://pages.github.com/
 - sphinxext-opengraph https://pypi.org/project/sphinxext-opengraph/
   
-.. toctree::
-    :maxdepth: 2
-    :caption: Contents:
- 
-    OpenGraph-Object-Sharing-Image-Preview-System
-    
 
 
 Last change: |today|

@@ -11,4 +11,7 @@ Events in Medical History we might want to consider
    Dr-Sherri-Tenpenny-explains-7-mechanisms-in-mRNA-vaccines
    History-of-Epidemics 
 
+.. contents::
+    :local:
+
 Last change: |today|

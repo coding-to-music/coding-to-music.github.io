@@ -13,6 +13,8 @@ Resources and additional background material
    Normal-GOF-research
    GOF
 
+.. contents::
+    :local:
 
 
 

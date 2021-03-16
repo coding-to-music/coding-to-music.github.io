@@ -7,4 +7,7 @@ Legal Issues
 
    No-mandated-Use-for-Emergency-Use-Authorization
 
+.. contents::
+    :local:
+
 Last change: |today|
