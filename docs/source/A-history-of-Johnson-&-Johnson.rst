@@ -1,6 +1,9 @@
 A history of Johnson & Johnson
 ===============================
 
+.. contents::
+  :local:
+
 .. figure:: assets/JJ-logo-605x340.jpg
   :width: 80 %
   :alt:  Johnson & Johnson logo

@@ -1,6 +1,9 @@
 2018 Adirondacks NY State Road Study Salt Found in Drinking Water Wells
 ============================================================================
 
+.. contents::
+    :local:
+  
 Study finds high salt in well water as state plans to test less road salting
 
 https://www.adirondackexplorer.org/stories/salt-in-drinking-water

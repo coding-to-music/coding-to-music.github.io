@@ -1,11 +1,15 @@
 24 get virus between first and second vaccine Gatineau nursing home
 =================================================================================
 
+.. contents::
+  :local:
+
 More than two dozen people (24+ people) got the virus after the first vaccine injection, but before they got the second vaccine injection. So basically 24+ people got the virus within weeks of getting the vaccine.
 
 Ottawa
 
 New COVID-19 outbreak strikes Gatineau nursing home
+--------------------------------------------------------
 
 Most positive cases asymptomatic, had 1st dose of COVID-19 vaccine
 
@@ -25,6 +29,7 @@ On Monday, the region's health authority, Centre intégré de santé et des serv
 "Several positive cases [were] reported in the last 24 hours," according to the news release. CISSSO said it's on the lookout for possible COVID-19 variants related to the outbreak.
 
 Majority of cases asymptomatic
+-------------------------------
 
 According to CISSSO, nearly all those infected were vaccinated with an initial dose in December. Most of the latest cases are asymptomatic and were discovered only after scheduled screening, making it difficult to determine when or how the outbreak began, CISSSO said.
 

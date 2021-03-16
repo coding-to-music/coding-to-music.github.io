@@ -1,6 +1,9 @@
 Contribute
 ============
 
+.. contents::
+    :local:
+  
 
 contribute to All-Knowledge.info
 

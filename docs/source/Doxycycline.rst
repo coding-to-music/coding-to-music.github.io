@@ -1,5 +1,9 @@
 Doxycycline
-------------
+==============
+
+.. contents::
+  :local:
+
 
 .. figure:: assets/doxycycline-capsules.jpeg
   :width: 80 %

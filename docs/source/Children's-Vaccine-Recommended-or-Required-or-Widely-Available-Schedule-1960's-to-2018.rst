@@ -1,6 +1,10 @@
 Children's Vaccine Recommended / Required / Widely Available Schedule 1960's to 2018 
 ======================================================================================
 
+.. contents::
+  :local:
+
+
 1970-Vaccine-Schedule   
 ------------------------------------------------------------------------------
 

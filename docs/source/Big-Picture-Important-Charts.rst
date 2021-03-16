@@ -1,6 +1,9 @@
 Big Picture Important Charts
 ==================================
 
+.. contents::
+  :local:
+
 
 
 Over 12,000 people test positive for COVID-19 after receiving Pfizer vaccine

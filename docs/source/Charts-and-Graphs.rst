@@ -1,6 +1,10 @@
 Charts and Graphs
 --------------------
 
+.. contents::
+   :local:
+ 
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:

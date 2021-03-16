@@ -1,5 +1,9 @@
 Azithromycin
--------------
+===============
+
+.. contents::
+  :local:
+
 
 .. figure:: assets/azithromycin-250-mg-tablets-2.jpg
   :width: 80 %
@@ -8,16 +12,32 @@ Azithromycin
 Common brands: Zithromax, Zithromax Z-Pak, Zmax
 
 Antibiotics
+------------
 
 It can treat various types of infections, including pink eye (bacterial conjunctivitis).
 
+Brands
+---------
+
 Brands: Zithromax, Zithromax Z-Pak, Zmax, AzaSite, and Zithromax TRI-PAK
+
+Availability
+--------------
 
 Availability: Prescription needed
 
+Pregnancy
+------------
+
 Pregnancy: No known risks
 
+Alcohol
+---------
+
 Alcohol: Interactions can occur
+
+Drug Class
+-----------
 
 Drug class: Macrolide
 

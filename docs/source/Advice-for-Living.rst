@@ -1,12 +1,9 @@
 Advice for living
 ===================
 
-.. toctree::
-    :maxdepth: 2
-    :caption: Contents:
- 
-    Placeholder
-
+.. contents::
+    :local:
+  
 
 How you can maintain stability and normalcy and your mental health during these trying times    
 ----------------------------------------------------------------------------------------------

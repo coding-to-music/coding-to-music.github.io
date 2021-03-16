@@ -1,6 +1,10 @@
 2021 New York State Scales Back Adirondacks Road Salt Study due to fears data will become public
 ===================================================================================================
 
+.. contents::
+    :local:
+  
+
 State lawmakers recently scaled back a study of road salt pollution in the Adirondacks, apparently bowing to concerns that the study could expose the state to liability from residents with unsafe water.
 
 

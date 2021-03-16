@@ -1,6 +1,9 @@
 A History of Pfizer
 =======================
 
+.. contents::
+  :local:
+
 .. figure:: assets/PfizerLogo.jpg
   :width: 80 %
   :alt:  Pfizer Logo
