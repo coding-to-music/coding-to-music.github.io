@@ -1,5 +1,5 @@
-Treatment for COVID-19 is better than a year ago, but it still has a long way to go
-=======================================================================================
+Treatment for COVID-19 is better than a year ago, but it still has a long way to go (March 2021)
+==================================================================================================
 
 
 .. contents::
@@ -36,6 +36,7 @@ The past 12 months have been largely filled with trial and error, rather than sy
 Suffering patients and hopeful caregivers have naturally filled the gaps with over-the-counter or readily available options, some of which might be helpful and some hazardous – there's limited research to tell the difference. 
 
 Dr. Kevin Tracey
+
 A year later, we’re still flying blind.
 ----------------------------------------
 
@@ -166,6 +167,7 @@ The country needs a national clinical trials network, ready to spring into actio
 Dr. Kevin Tracey
 
 My hope is that this is the Sputnik moment for U.S. science.
+---------------------------------------------------------------------
 
 Wright said the failure to effectively treat the opioid epidemic reinforces the need for such a network. "We didn't have a single unifying force" for treating either opioids or COVID-19, he said. "We have been burned twice. It should not happen a third time."
 
