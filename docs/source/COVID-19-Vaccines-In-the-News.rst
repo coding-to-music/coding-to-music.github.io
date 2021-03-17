@@ -1,11 +1,9 @@
-COVID-19 Vaccines In the News
-==============================
+Pfizer drops India vaccine application after regulator seeks local trial (Feb 5 2021)
+=======================================================================================
 
 .. contents::
     :local:
   
-COVID-19 Vaccines In the News  
-------------------------------------------------------------------------------
 
 Pfizer drops India vaccine application after regulator seeks local trial 
 ------------------------------------------------------------------------------
@@ -29,6 +27,9 @@ NEW DELHI (Reuters) - Pfizer Inc said on Friday it had withdrawn an application 
 The decision means the vaccine will not be available for sale in the world's two most populous countries, India and China, in the near future. Both countries are running their immunisation campaigns using other products.
 
 Unlike other companies conducting small studies in India for foreign-developed vaccines, Pfizer had sought an exception citing approvals it had received elsewhere based on trials done in countries such as the United States and Germany.
+
+Bridging trials to determine if a vaccine is safe and generates an immune response
+-------------------------------------------------------------------------------------
 
 Indian health officials say they generally ask for so-called bridging trials to determine if a vaccine is safe and generates an immune response in its citizens. There are, however, provisions under India's rules to waive such trials in certain conditions.
 
