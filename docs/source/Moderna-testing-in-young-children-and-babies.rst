@@ -12,7 +12,6 @@ By JESSICA SCHLADEBECK
 NEW YORK DAILY NEWS |
 MAR 16, 2021 AT 1:55 PM
 
-
 Moderna has begun testing its COVID-19 vaccine on babies and young children, the drug company announced Tuesday.
 
 First group of kids in two-phase clinical trial
