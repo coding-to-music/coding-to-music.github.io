@@ -11,8 +11,8 @@ Vaccine Rollout News
 .. contents::
     :local:
 
-Over 12,000 people test positive for COVID-19 after receiving Pfizer vaccine
------------------------------------------------------------------------------
+Over 12,000 people test positive for COVID-19 after receiving Pfizer vaccine in Israel (Jan 21, 2021)
+---------------------------------------------------------------------------------------------------------
 
 Over 12,000 people test positive for COVID-19 after receiving Pfizer vaccine
 

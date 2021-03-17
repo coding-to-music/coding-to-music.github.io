@@ -28,10 +28,13 @@ The decision means the vaccine will not be available for sale in the world's two
 
 Unlike other companies conducting small studies in India for foreign-developed vaccines, Pfizer had sought an exception citing approvals it had received elsewhere based on trials done in countries such as the United States and Germany.
 
-Bridging trials to determine if a vaccine is safe and generates an immune response
--------------------------------------------------------------------------------------
+Bridging trials are used to determine if a vaccine is safe and generates an immune response
+--------------------------------------------------------------------------------------------
 
 Indian health officials say they generally ask for so-called bridging trials to determine if a vaccine is safe and generates an immune response in its citizens. There are, however, provisions under India's rules to waive such trials in certain conditions.
+
+Pfizer declines to perform a Bridging trial
+--------------------------------------------------------------------------------------------
 
 The drug regulator said on its website its experts did not recommend the vaccine because of side effects reported abroad were still being investigated. It also said Pfizer had not proposed any plan to generate safety and immunogenicity data in India.
 
