@@ -8,7 +8,10 @@ Making Sense of the Pandmic
 
    Covid-Medical-Treatments
    Legal-Issues
-   Vaccines
+   Vaccine-rollout-news
+   Vaccine-history
+   Vaccine-testing-and-approvals
+   How-Vaccines-Work
    Charts-and-Graphs
    Food-Safety
    FAQ-Frequently-Asked-Questions

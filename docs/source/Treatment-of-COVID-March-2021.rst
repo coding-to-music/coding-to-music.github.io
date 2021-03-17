@@ -167,6 +167,8 @@ The country needs a national clinical trials network, ready to spring into actio
 Dr. Kevin Tracey
 
 My hope is that this is the Sputnik moment for U.S. science.
+
+The Sputnik moment for U.S. Science?
 ---------------------------------------------------------------------
 
 Wright said the failure to effectively treat the opioid epidemic reinforces the need for such a network. "We didn't have a single unifying force" for treating either opioids or COVID-19, he said. "We have been burned twice. It should not happen a third time."
