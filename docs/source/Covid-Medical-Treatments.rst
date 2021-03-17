@@ -12,6 +12,7 @@ Comments about various suggested or recommended or not-recommended Covid virus t
    Doxycycline
    Azithromycin
    Covid-Deranges-the-Immune-System-in-Complex-and-Deadly-Ways
+   Treatment-of-COVID-March-2021
 
 .. contents::
     :local:
