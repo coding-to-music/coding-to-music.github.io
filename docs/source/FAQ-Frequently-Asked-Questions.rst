@@ -5,9 +5,6 @@ FAQ Frequently Asked Questions
   :local:
 
 
-Future topics to be developed 
-===============================
-
 What do we know?    
 ------------------------------------------------------------------------------
 
@@ -67,6 +64,9 @@ What items do we consider false, and why?
 
 - The virus did not come from nature. It has too many advanced gain-of-function features that scientists recently proudly documented in published papers.    
 
+
+FAQ: Future topics to be developed 
+====================================
 
 Who are the participants, the cast members in this story?  
 ------------------------------------------------------------------------------
