@@ -11,6 +11,13 @@ Docker
 
 Docker is a container software system 
 
+
+Install Docker Engine on Debian
+-----------------------------------
+
+https://docs.docker.com/engine/install/debian/
+
+
 Docker Sphinx - Good end-to-end overview
 --------------------------------------------
 
@@ -23,6 +30,13 @@ Docker Sphinx - Good end-to-end overview
 - create a dockerfile
 - Docker Build the image
 - Docker Run the container
+
+
+digitalocean/sample-dockerfile
+---------------------------------
+
+https://github.com/digitalocean/sample-dockerfile
+
 
 Official docker-sphinx
 -----------------------
@@ -157,10 +171,48 @@ https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html
 Visual Studio Code - VSCode Dev Containers
 -----------------------------------------------
 
+VSCode Remote development on Digitalocean
+--------------------------------------------
+
+https://medium.com/@klogic/vscode-remote-development-on-digitalocean-d7d65e1656ef
+
+
+How To Use Visual Studio Code for Remote Development via the Remote-SSH Plugin
+----------------------------------------------------------------------------------
+
+https://www.digitalocean.com/community/tutorials/how-to-use-visual-studio-code-for-remote-development-via-the-remote-ssh-plugin
+
+
+VSCode Remote Development using SSH
+--------------------------------------
+
+https://code.visualstudio.com/docs/remote/ssh
+
+
+Remote Development Tips and Tricks
+-------------------------------------
+
+https://code.visualstudio.com/docs/remote/troubleshooting#_using-rsync-to-maintain-a-local-copy-of-your-source-code
+
+vscode-theme-generator
+-------------------------
+
+https://github.com/Tyriar/vscode-theme-generator
 
 Vagrant
---------------
+=============
 
+Install Vagrant
+------------------
+https://learn.hashicorp.com/tutorials/vagrant/getting-started-install
+
+Vagrant Quick Start
+--------------------
+
+https://learn.hashicorp.com/tutorials/vagrant/getting-started-index?in=vagrant/getting-started
+
+Sharing Objects
+====================
 
 Facebook - Using Objects
 -----------------------------------
