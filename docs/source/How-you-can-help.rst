@@ -12,6 +12,7 @@ How you can help
     Tech-stack-for-this-website
     Sphinx-Documentation-System
     Docker-and-Sphinx
+    Kubernetes
     vscode-SSH-Remote-Containers
     Upcoming-software-to-try
     Github-Workflow
@@ -21,6 +22,9 @@ How you can help
 
 .. contents::
     :local:
+
+Future Topics to be developed
+==================================
 
 Join the [discord community]()    
 ------------------------------------------------------------------------------
