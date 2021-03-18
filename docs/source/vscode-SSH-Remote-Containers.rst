@@ -21,6 +21,10 @@ VSCode Remote development on Digitalocean
 
 https://medium.com/@klogic/vscode-remote-development-on-digitalocean-d7d65e1656ef
 
+How To Use Visual Studio Code: Developing inside a Container 
+--------------------------------------------------------------------------------
+
+https://code.visualstudio.com/docs/remote/containers
 
 How To Use Visual Studio Code for Remote Development via the Remote-SSH Plugin
 ----------------------------------------------------------------------------------

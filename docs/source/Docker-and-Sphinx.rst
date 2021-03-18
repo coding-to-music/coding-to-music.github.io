@@ -18,6 +18,17 @@ Install Docker Engine on Debian
 https://docs.docker.com/engine/install/debian/
 
 
+Docker: Post-installation steps for Linux
+--------------------------------------------
+
+https://docs.docker.com/engine/install/linux-postinstall/
+
+How To Install and Use Docker on Debian 10
+----------------------------------------------
+
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-debian-10
+
+
 Docker Sphinx - Good end-to-end overview
 --------------------------------------------
 
@@ -121,6 +132,12 @@ Notes
 - Then, execute `docker-compose up -d` to run sphinsearch daemon in the background.
 
 Read more at https://lukaszherok.com/post/view/9/Running%20SphinxSearch%20in%20Podman%20container
+
+
+keimlink/docker-sphinx-doc
+-----------------------------
+
+https://github.com/keimlink/docker-sphinx-doc
 
 
 sphinxdocker/Dockerfile

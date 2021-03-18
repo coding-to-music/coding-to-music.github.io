@@ -43,6 +43,10 @@ How to help automate data collection
 How to get your computer set up     
 ------------------------------------------------------------------------------
 
+BattleCode 2021 - Overview - has many details to get your computer set up 
+
+https://github.com/coding-to-music/battlecode2021#create-ssh-key-for-github
+
 How to install vscode on your computer     
 ------------------------------------------------------------------------------
 
