@@ -12,7 +12,7 @@ How you can help
     Contribute
     Sphinx-Documentation-System
     Tech-stack-for-this-website
-    Useful-Software-Development-Tools
+    Docker-and-Sphinx
     Upcoming-software-to-try
 
 .. contents::
