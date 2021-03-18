@@ -1,5 +1,5 @@
-VAERS Vaccine Incident Reporting System
-==========================================
+Vaccines - VAERS Incident Reporting System
+============================================
 
 .. contents::
   :local:

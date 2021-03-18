@@ -1,5 +1,5 @@
-Legal Issues
-=============
+Vaccines - Legal Issues
+==========================
 
 .. toctree::
    :maxdepth: 2

@@ -1,5 +1,5 @@
-Vaccine Rollout News
-============================
+Vaccines - Covid Rollout News
+===============================
 
 .. toctree::
    :maxdepth: 2

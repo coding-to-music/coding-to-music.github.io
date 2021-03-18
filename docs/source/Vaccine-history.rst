@@ -1,4 +1,4 @@
-Vaccine History 
+Vaccines - History 
 ====================================
 
 .. toctree::
@@ -25,8 +25,8 @@ Vaccine Books
   :width: 80 %
   :alt: Vaccine Books 
 
-Vaccine Future topics to be developed 
-=======================================
+Vaccines - Future topics to be developed 
+==========================================
 
 What is the history of vaccines, how much money and what are they used for    
 ------------------------------------------------------------------------------

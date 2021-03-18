@@ -1,5 +1,5 @@
-Vaccine Testing and Approvals
-===============================
+Vaccines - Testing and Approvals
+==================================
 
 .. toctree::
    :maxdepth: 2
