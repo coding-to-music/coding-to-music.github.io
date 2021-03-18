@@ -13,11 +13,11 @@ Making Sense of the Pandmic
    Vaccine-testing-and-approvals
    How-Vaccines-Work
    Charts-and-Graphs
-   Food-Safety
-   FAQ-Frequently-Asked-Questions
    Events-in-Medical-History-we-might-want-to-consider
    WHO-World-Health-Organization
    WEF-World-Economic-Forum
+   Food-Safety
+   FAQ-Frequently-Asked-Questions
    Media-and-Influencers
    Advice-for-Living
    Words-of-Wisdom-from-Famous-People
