@@ -168,48 +168,7 @@ ReadTheDocs - Getting Started with Sphinx
 https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html
 
 
-Visual Studio Code - VSCode Dev Containers
------------------------------------------------
 
-VSCode Remote development on Digitalocean
---------------------------------------------
-
-https://medium.com/@klogic/vscode-remote-development-on-digitalocean-d7d65e1656ef
-
-
-How To Use Visual Studio Code for Remote Development via the Remote-SSH Plugin
-----------------------------------------------------------------------------------
-
-https://www.digitalocean.com/community/tutorials/how-to-use-visual-studio-code-for-remote-development-via-the-remote-ssh-plugin
-
-
-VSCode Remote Development using SSH
---------------------------------------
-
-https://code.visualstudio.com/docs/remote/ssh
-
-
-Remote Development Tips and Tricks
--------------------------------------
-
-https://code.visualstudio.com/docs/remote/troubleshooting#_using-rsync-to-maintain-a-local-copy-of-your-source-code
-
-vscode-theme-generator
--------------------------
-
-https://github.com/Tyriar/vscode-theme-generator
-
-Vagrant
-=============
-
-Install Vagrant
-------------------
-https://learn.hashicorp.com/tutorials/vagrant/getting-started-install
-
-Vagrant Quick Start
---------------------
-
-https://learn.hashicorp.com/tutorials/vagrant/getting-started-index?in=vagrant/getting-started
 
 Sharing Objects
 ====================
