@@ -1,4 +1,4 @@
-How Vaccines Work 
+Vaccines - How Vaccines Work 
 ====================================
 
 .. toctree::

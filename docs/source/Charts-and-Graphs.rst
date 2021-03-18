@@ -1,6 +1,5 @@
-Charts and Graphs
---------------------
-
+Vaccines - Pandemic Charts and Graphs
+=======================================
 
 .. toctree::
    :maxdepth: 2
