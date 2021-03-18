@@ -14,8 +14,9 @@ How you can help
     Docker-and-Sphinx
     vscode-SSH-Remote-Containers
     Upcoming-software-to-try
-    Vagrant
     Github-Workflow
+    Using-and-Sharing-Rich-Objects
+    Vagrant
     Contribute
 
 .. contents::
