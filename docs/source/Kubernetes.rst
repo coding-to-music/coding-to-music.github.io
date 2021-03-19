@@ -73,6 +73,9 @@ Goals
 - Install Docker
 - Install a Docker image with DigitalOcean's Kubernetes and doctl 
 - Install doctl -- DigitalOcean's CLI
+- Get token from DigitalOcean
+- Create a DigitalOcean's Kubernetes cluster
+- Connect to DigitalOcean's Kubernetes cluster 
 
 Docker Hub
 -----------------------
