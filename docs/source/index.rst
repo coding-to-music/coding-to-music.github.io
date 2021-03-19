@@ -13,6 +13,7 @@ Making Sense of the Pandmic
    Vaccine-testing-and-approvals
    How-Vaccines-Work
    Charts-and-Graphs
+   Vaccine-future-topics
    Events-in-Medical-History-we-might-want-to-consider
    WHO-World-Health-Organization
    WEF-World-Economic-Forum
