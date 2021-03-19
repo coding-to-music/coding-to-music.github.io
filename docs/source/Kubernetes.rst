@@ -60,11 +60,11 @@ If the check fails, sha256 exits with nonzero status and prints output similar t
     kubectl: FAILED
     sha256sum: WARNING: 1 computed checksum did NOT match
 
-#. Test to ensure the version you installed is up-to-date:  ::
+3. Test to ensure the version you installed is up-to-date:  ::
 
     kubectl version --client
 
-#. Install kubectl ::
+4. Install kubectl ::
 
     sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 
