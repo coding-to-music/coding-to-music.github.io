@@ -7,6 +7,7 @@ Kubernetes
  
     Install-Nodejs-and-npm
     Install-and-Set-Up-kubectl
+    Install-Dotfiles-Repository
     Install-Docker
     Install-a-Docker-image-with-DigitalOcean-Kubernetes-and-doctl 
     Install-doctl-DigitalOcean-CLI
@@ -24,6 +25,7 @@ Goals
 
 - Install Node.js and npm
 - Install and Set Up kubectl
+- Install Dotfiles Repository
 - Install Docker
 - Install a Docker image with DigitalOcean's Kubernetes and doctl 
 - Install doctl -- DigitalOcean's CLI
