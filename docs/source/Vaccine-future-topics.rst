@@ -19,8 +19,6 @@ Vaccine Books
   :width: 80 %
   :alt: Vaccine Books 
 
-Vaccines - Future topics 
-==========================================
 
 What is the history of vaccines, how much money and what are they used for    
 ------------------------------------------------------------------------------
