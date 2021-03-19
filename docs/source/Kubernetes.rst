@@ -18,8 +18,7 @@ https://linuxize.com/post/how-to-install-node-js-on-debian-10/
 
 To install Node.js and npm on your Debian use the following commands: :: 
 
-    sudo apt install 
-    nodejs npm
+    sudo apt install nodejs npm
 
 One the installation is completed, verify it by typing: ::
 
@@ -68,7 +67,12 @@ If the check fails, sha256 exits with nonzero status and prints output similar t
 
     sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 
+Goals 
+-------------------
 
+- Install Docker
+- Install a Docker image with DigitalOcean's Kubernetes and doctl 
+- Install doctl -- DigitalOcean's CLI
 
 Docker Hub
 -----------------------
