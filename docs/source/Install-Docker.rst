@@ -45,5 +45,19 @@ Hello World Docker ::
     https://docs.docker.com/get-started/
 
 
+Run a Docker Sample nodejs express
+---------------------------------------
+
+
+Monitor port 3000 with Chrome Extension "Web Server for Chrome"
+
+https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb/related?hl=en
+
+Click "Launch App"
+
+
+
+
+
 
 Last change: |today|
