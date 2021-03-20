@@ -9,7 +9,20 @@ Personalizing containers with dotfile repositories
 .. contents::
     :local:
 
+
+
+Check typical tools are installed, SSH and Git
+--------------------------------------------------
    
+Ensure container has Dotfiles ::
+
+    git config --list
+
+
+Check that GitHub can be reached ::
+
+    ssh -vT git@github.com
+
 Install Dotfiles Repository - share git credentials with containers
 ------------------------------------------------------------------------
 
