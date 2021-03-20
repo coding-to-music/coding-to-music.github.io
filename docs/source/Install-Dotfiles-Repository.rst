@@ -11,6 +11,7 @@ Personalizing containers with dotfile repositories
 
 
 
+
 Check typical tools are installed, SSH and Git
 --------------------------------------------------
    
