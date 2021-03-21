@@ -20,10 +20,10 @@ https://sphinx-rtd-theme.readthedocs.io/en/stable/index.html
 
 THEME DOCUMENTATION
 
-    Installation  https://sphinx-rtd-theme.readthedocs.io/en/stable/installing.html
-    Configuration  https://sphinx-rtd-theme.readthedocs.io/en/stable/configuring.html
-    Theme options  https://sphinx-rtd-theme.readthedocs.io/en/stable/configuring.html#theme-options
-    How the table of contents displays  https://sphinx-rtd-theme.readthedocs.io/en/stable/configuring.html#how-the-table-of-contents-displays
+    - Installation  https://sphinx-rtd-theme.readthedocs.io/en/stable/installing.html
+    - Configuration  https://sphinx-rtd-theme.readthedocs.io/en/stable/configuring.html
+    - Theme options  https://sphinx-rtd-theme.readthedocs.io/en/stable/configuring.html#theme-options
+    - How the table of contents displays  https://sphinx-rtd-theme.readthedocs.io/en/stable/configuring.html#how-the-table-of-contents-displays
 
     1. Structural Elements     https://sphinx-rtd-theme.readthedocs.io/en/stable/demo/structure.html
     2. Structural Elements 2   https://sphinx-rtd-theme.readthedocs.io/en/stable/demo/structure.html#structural-elements-2
