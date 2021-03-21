@@ -10,7 +10,6 @@ General Computer Setup
     :local:
 
 
-
 Setup your computer, we will cover each item     
 --------------------------------------------------------------------
 
@@ -251,16 +250,18 @@ Now you need to create your SSH key for Github ::
     home/tom/.ssh/id_rsa.pub         // this is the public key,      short paragraph
     // Copy that key in that file. I would suggest using Win SCP to download the file similar to FTP
 
-file: ssh-rsa 
+file: ssh-rsa (this is your secret, it is not public)::
 
     - 7 lines long private key 
     - a short paragraph 
     - this is what you will paste into GitHub and Digitalocean
     - e1f0vfsMPOANChLOUWbSJTtf4s4P2x6CAYCOQYcd “connors.tom@gmail.com”
 
------BEGIN RSA PRIVATE KEY-----
-really big long private key
------END RSA PRIVATE KEY-----
+file: ssh-rsa.pub (this is a public key you will paste in GitHub or DigitalOcean) ::
+
+    - -----BEGIN RSA PRIVATE KEY-----
+    - really big long private key
+    - -----END RSA PRIVATE KEY-----
 
 GitHub - set your ssh key and get your GitHub token for vscode   
 -----------------------------------------------------------------
