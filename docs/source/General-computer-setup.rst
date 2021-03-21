@@ -22,8 +22,10 @@ In your Chromebook settings, enable the Linux (Beta)
 Details about your computer and operating system    
 ------------------------------------------------------
 
-Chromebook is Debian ::
+Chromebook is Debian 
 ~~~~~~~~~~~~~~~~~~~~~~~
+
+Chromebook is Debian ::
 
     connorstom@penguin:~$ cat /etc/os-release
     PRETTY_NAME="Debian GNU/Linux 10 (buster)"
@@ -37,8 +39,10 @@ Chromebook is Debian ::
     BUG_REPORT_URL="https://bugs.debian.org/"
 
 
-Digitalocean is Ubuntu   ::
+Digitalocean is Ubuntu   
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Digitalocean is Ubuntu   ::
 
     // this chart would be different on Ubuntu. Here is a Debain example
     connorstom@penguin:~$ cat /etc/os-release
@@ -113,8 +117,10 @@ If you're on an older Linux distribution, you will need to run this instead: ::
 
     sudo dpkg -i <file>.deb
     sudo apt-get install -f # Install dependencies
-    connorstom@penguin:~$ code --version
-    1.51.1
+
+    // validate install 
+    $ code --version
+    1.54.2
     e5a624b788d92b8d34d1392e4c4d9789406efe8f
     x64
 
@@ -127,7 +133,7 @@ The repository and key can also be installed manually with the following script:
     sudo install -o root -g root -m 644 packages.microsoft.gpg /usr/share/keyrings/
     sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
 
-Then update the package cache and install the package using:
+Then update the package cache and install the package using: ::
 
     sudo apt-get install apt-transport-https
     sudo apt-get update
