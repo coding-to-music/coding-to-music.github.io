@@ -11,6 +11,27 @@ Sphinx Documentation System
 .. contents::
     :local:
 
+
+
+ReadTheDocs Documentation System
+------------------------------------
+
+https://sphinx-rtd-theme.readthedocs.io/en/stable/index.html
+
+THEME DOCUMENTATION
+
+    Installation  https://sphinx-rtd-theme.readthedocs.io/en/stable/installing.html
+    Configuration  https://sphinx-rtd-theme.readthedocs.io/en/stable/configuring.html
+    Theme options  https://sphinx-rtd-theme.readthedocs.io/en/stable/configuring.html#theme-options
+    How the table of contents displays  https://sphinx-rtd-theme.readthedocs.io/en/stable/configuring.html#how-the-table-of-contents-displays
+
+    1. Structural Elements     https://sphinx-rtd-theme.readthedocs.io/en/stable/demo/structure.html
+    2. Structural Elements 2   https://sphinx-rtd-theme.readthedocs.io/en/stable/demo/structure.html#structural-elements-2
+    3. Paragraph Level Markup  https://sphinx-rtd-theme.readthedocs.io/en/stable/demo/demo.html
+    4. Lists & Tables          https://sphinx-rtd-theme.readthedocs.io/en/stable/demo/lists_tables.html
+    5. API documentation and generated content   https://sphinx-rtd-theme.readthedocs.io/en/stable/demo/api.html
+
+
 Excellent overview at ScribeTools of Sphinx 
 ---------------------------------------------
 
