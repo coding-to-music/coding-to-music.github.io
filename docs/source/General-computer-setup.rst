@@ -250,14 +250,14 @@ Now you need to create your SSH key for Github ::
     home/tom/.ssh/id_rsa.pub         // this is the public key,      short paragraph
     // Copy that key in that file. I would suggest using Win SCP to download the file similar to FTP
 
-file: ssh-rsa (this is your secret, it is not public)::
+file: ssh-rsa.pub (this is a public key you will paste in GitHub or DigitalOcean) ::
 
-    - 7 lines long private key 
+    - 7 lines long public key 
     - a short paragraph 
     - this is what you will paste into GitHub and Digitalocean
     - e1f0vfsMPOANChLOUWbSJTtf4s4P2x6CAYCOQYcd “connors.tom@gmail.com”
 
-file: ssh-rsa.pub (this is a public key you will paste in GitHub or DigitalOcean) ::
+file: ssh-rsa (this is your secret, it is not public)::
 
     - -----BEGIN RSA PRIVATE KEY-----
     - really big long private key
