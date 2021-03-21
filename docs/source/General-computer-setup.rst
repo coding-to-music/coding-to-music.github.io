@@ -72,35 +72,6 @@ Edit the file .bash_aliases and put the contents from GitHub ::
     // in the future, you will just need to type 'sc' and it will source your .bashrc which calls .bash_aliases
 
 
-Installing Git so you can work with GitHub
-----------------------------------------------
-
-Download and install Git ::
-
-    $ sudo apt-get install git
-
-    // Now git should be installed. To check use
-    $ git --version
-    git version 2.19.1
-
-Configuring GitHub git config user.name user.email 
---------------------------------------------------------------------
-
-Once the installation has successfully completed, the next thing to do is to set up the configuration details of the GitHub user. To do this use the following two commands by replacing "user_name" with your GitHub username and replacing "email_id" with your email-id you used to create your GitHub account.
-
-Set the git config global values :: 
-
-    git config --global user.name coding-to-music
-    git config --global user.email connors.tom@gmail.com
-
-To validate correct setup  ::
-
-    git config --list
-
-Check that GitHub can be reached ::
-
-    ssh -vT git@github.com
-
 VS Code install for Debian and Ubuntu based distributions
 --------------------------------------------------------------------
 
@@ -221,6 +192,36 @@ When a new version is released you can update the Visual Studio Code package thr
     // or just this
     sudo apt update
     sudo apt upgrade code
+
+Installing Git so you can work with GitHub
+----------------------------------------------
+
+Download and install Git ::
+
+    $ sudo apt-get install git
+
+    // Now git should be installed. To check use
+    $ git --version
+    git version 2.19.1
+
+Configuring GitHub git config user.name user.email 
+--------------------------------------------------------------------
+
+Once the installation has successfully completed, the next thing to do is to set up the configuration details of the GitHub user. To do this use the following two commands by replacing "user_name" with your GitHub username and replacing "email_id" with your email-id you used to create your GitHub account.
+
+Set the git config global values :: 
+
+    git config --global user.name coding-to-music
+    git config --global user.email connors.tom@gmail.com
+
+To validate correct setup  ::
+
+    git config --list
+
+Check that GitHub can be reached ::
+
+    ssh -vT git@github.com
+
 
 Create .ssh directory and generate SSH public and private keys  
 --------------------------------------------------------------------
