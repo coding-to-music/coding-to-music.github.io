@@ -143,12 +143,9 @@ Now that VS Code is installed on your Ubuntu system you can launch it either fro
 
 When you start VS Code for the first time, a window like the following should appear:
 
-<img width="800px" src="https://github.com/coding-to-music/battlecode2021/blob/main/Assets/vscode-default-home-screen.jpg?raw=true" align="center" alt="vscode-default-home-screen.jpg" />
-</b>
-
-.. figure:: assets/Software/XXXX
+.. figure:: assets/Software/vscode-default-home-screen.jpg
   :width: 80 %
-  :alt:  XXXX
+  :alt:  vscode-default-home-screen.jpg
 
 
 Connect with vscode in the cloud so your settings persist over devices and sessions
@@ -161,25 +158,16 @@ There is a very good set of detailed instructions about vscode cloud settings sy
 Setup a password for cloud sync - you will be prompted each time you start vscode  
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
-<img width="800px" src="https://github.com/coding-to-music/battlecode2021/blob/main/Assets/choose-password-for-vscode-sync-data.png?raw=true" align="center" alt="choose-password-for-vscode-sync-data.png" />
-</b>
-
-.. figure:: assets/Software/XXXX
+.. figure:: assets/Software/choose-password-for-vscode-sync-data.png
   :width: 80 %
-  :alt:  XXXX
+  :alt:  choose-password-for-vscode-sync-data.png
 
 If you previously have a cloud account you can merge your data    
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-<br />  
-<img width="800px" src="https://github.com/coding-to-music/battlecode2021/blob/main/Assets/merge-or-replace-cloud-sync-data.png?raw=true" align="center" alt="merge-or-replace-cloud-sync-data.png" />
-</b>
-<br />  
-
-.. figure:: assets/Software/XXXX
+.. figure:: assets/Software/merge-or-replace-cloud-sync-data.png
   :width: 80 %
-  :alt:  XXXX
+  :alt:  merge or replace cloud sync data
 
 You can now start installing extensions and configuring VS Code according to your preferences.
 
@@ -282,19 +270,13 @@ Once you copy the key,
 - goto “Settings->SSH and GPG Keys” and 
 - add and name of the new key   
 
-<img width="800px" src="https://github.com/coding-to-music/battlecode2021/blob/main/Assets/ssh-keys-in-GitHub.png?raw=true" align="center" alt="Battlecode 2021 Image" />
-</b>
 
-.. figure:: assets/Software/XXXX
+.. figure:: assets/Software/ssh-keys-in-GitHub.png
   :width: 80 %
-  :alt:  XXXX
+  :alt:  ssh keys in GitHub
 
 Get your vscode token from github account settings 
 --------------------------------------------------------------------
-
-</b>
-<img width="400px" src="https://github.com/coding-to-music/battlecode2021/blob/main/Assets/vscode-github-token.png?raw=true" align="center" alt="vscode-github-token.png" />
-</b>
 
 .. figure:: assets/Software/vscode-github-token.png
   :width: 80 %
