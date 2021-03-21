@@ -25,6 +25,8 @@ THEME DOCUMENTATION
     - Theme options  https://sphinx-rtd-theme.readthedocs.io/en/stable/configuring.html#theme-options
     - How the table of contents displays  https://sphinx-rtd-theme.readthedocs.io/en/stable/configuring.html#how-the-table-of-contents-displays
 
+DEMO DOCUMENTATION
+
     1. Structural Elements     https://sphinx-rtd-theme.readthedocs.io/en/stable/demo/structure.html
     2. Structural Elements 2   https://sphinx-rtd-theme.readthedocs.io/en/stable/demo/structure.html#structural-elements-2
     3. Paragraph Level Markup  https://sphinx-rtd-theme.readthedocs.io/en/stable/demo/demo.html
