@@ -76,7 +76,9 @@ Installing Git so you can work with GitHub
 ----------------------------------------------
 
 Download and install Git ::
+
     $ sudo apt-get install git
+
     // Now git should be installed. To check use
     $ git --version
     git version 2.19.1
@@ -102,7 +104,7 @@ Check that GitHub can be reached ::
 VS Code install for Debian and Ubuntu based distributions
 --------------------------------------------------------------------
 
-[https://code.visualstudio.com/docs/setup/linux](https://code.visualstudio.com/docs/setup/linux)
+https://code.visualstudio.com/docs/setup/linux
 
 The easiest way to install Visual Studio Code for Debian/Ubuntu based distributions is to download and install the [.deb package (64-bit)](https://go.microsoft.com/fwlink/?LinkID=760868), either through the graphical software center if it's available, or through the command line with: ::
 
@@ -137,14 +139,14 @@ Then update the package cache and install the package using: ::
 
     sudo apt-get install apt-transport-https
     sudo apt-get update
-    sudo apt-get install code # or code-insiders
+    sudo apt-get install code
 
     sudo apt install gnome-keyring
 
 Installing Visual Studio Code on Ubuntu
 ------------------------------------------
 
-[https://linuxize.com/post/how-to-install-visual-studio-code-on-ubuntu-18-04/](https://linuxize.com/post/how-to-install-visual-studio-code-on-ubuntu-18-04/)
+https://linuxize.com/post/how-to-install-visual-studio-code-on-ubuntu-18-04
 
 To install Visual Studio Code on your Ubuntu system, follow these steps:
 
@@ -178,7 +180,7 @@ Connect with vscode in the cloud so your settings persist over devices and sessi
 
 vscode->settings->Sync Data
 
-There is a very good set of detailed instructions about vscode cloud settings sync [HERE](https://code.visualstudio.com/docs/editor/settings-sync)
+There is a very good set of detailed instructions about vscode cloud settings sync HERE https://code.visualstudio.com/docs/editor/settings-sync
 
 Setup a password for cloud sync - you will be prompted each time you start vscode  
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
