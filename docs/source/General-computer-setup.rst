@@ -14,47 +14,43 @@ General Computer Setup
 Setup your computer, we will cover each item     
 --------------------------------------------------------------------
 
-## Enable Linux on your Chromebook     
+Enable Linux on your Chromebook     
 --------------------------------------------------------------------
 
 In your Chromebook settings, enable the Linux (Beta)
 
-## Details about your computer and operating system    
-===========================================================
+Details about your computer and operating system    
+------------------------------------------------------
 
-### Chromebook is Debian
---------------------------------------------------------------------
+Chromebook is Debian ::
+~~~~~~~~~~~~~~~~~~~~~~~
 
-```java
-connorstom@penguin:~$ cat /etc/os-release
-PRETTY_NAME="Debian GNU/Linux 10 (buster)"
-NAME="Debian GNU/Linux"
-VERSION_ID="10"
-VERSION="10 (buster)"
-VERSION_CODENAME=buster
-ID=debian
-HOME_URL="https://www.debian.org/"
-SUPPORT_URL="https://www.debian.org/support"
-BUG_REPORT_URL="https://bugs.debian.org/"
-```
-
-### Digitalocean is Ubuntu  
---------------------------------------------------------------------
+    connorstom@penguin:~$ cat /etc/os-release
+    PRETTY_NAME="Debian GNU/Linux 10 (buster)"
+    NAME="Debian GNU/Linux"
+    VERSION_ID="10"
+    VERSION="10 (buster)"
+    VERSION_CODENAME=buster
+    ID=debian
+    HOME_URL="https://www.debian.org/"
+    SUPPORT_URL="https://www.debian.org/support"
+    BUG_REPORT_URL="https://bugs.debian.org/"
 
 
-```java
-// this chart would be different on Ubuntu. Here is a Debain example
-connorstom@penguin:~$ cat /etc/os-release
-PRETTY_NAME="Debian GNU/Linux 10 (buster)"
-NAME="Debian GNU/Linux"
-VERSION_ID="10"
-VERSION="10 (buster)"
-VERSION_CODENAME=buster
-ID=debian
-HOME_URL="https://www.debian.org/"
-SUPPORT_URL="https://www.debian.org/support"
-BUG_REPORT_URL="https://bugs.debian.org/"
-```
+Digitalocean is Ubuntu   ::
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    // this chart would be different on Ubuntu. Here is a Debain example
+    connorstom@penguin:~$ cat /etc/os-release
+    PRETTY_NAME="Debian GNU/Linux 10 (buster)"
+    NAME="Debian GNU/Linux"
+    VERSION_ID="10"
+    VERSION="10 (buster)"
+    VERSION_CODENAME=buster
+    ID=debian
+    HOME_URL="https://www.debian.org/"
+    SUPPORT_URL="https://www.debian.org/support"
+    BUG_REPORT_URL="https://bugs.debian.org/"
 
 Handy aliases and abbreviations into .bashrc and .bash_aliases   
 --------------------------------------------------------------------
@@ -215,32 +211,27 @@ Updating Visual Studio Code - every month need to do this
 --------------------------------------------------------------------
 
 
-When a new version is released you can update the Visual Studio Code package through your desktop standard Software Update tool or by running the following commands in your terminal:
+When a new version is released you can update the Visual Studio Code package through your desktop standard Software Update tool or by running the following commands in your terminal: ::
 
-```java
-sudo apt update
-sudo apt upgrade
-// or just this
-sudo apt update
-sudo apt upgrade code
-```
+    sudo apt update
+    sudo apt upgrade
+    // or just this
+    sudo apt update
+    sudo apt upgrade code
 
 Create .ssh directory and generate SSH public and private keys  
 --------------------------------------------------------------------
 
-Create a directory for the public keys
+Create a directory for the public keys ::
 
+    // In root
+    Mkdir .ssh
+    Chmod 700 .ssh
+    Cd .ssh
+    // Create SSH public and private keys  
+    // Store them here  
 
-```java
-// In root
-Mkdir .ssh
-Chmod 700 .ssh
-Cd .ssh
-// Create SSH public and private keys  
-// Store them here  
-
-Chmod 600 private_key
-```
+    Chmod 600 private_key
 
 Create SSH Key for Github
 --------------------------------------------------------------------
