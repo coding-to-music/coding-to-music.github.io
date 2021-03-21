@@ -252,7 +252,7 @@ Now you need to create your SSH key for Github ::
 
 file: ssh-rsa.pub (this is a public key you will paste in GitHub or DigitalOcean) ::
 
-    - 7 lines long public key 
+    - 7 lines length public key 
     - a short paragraph 
     - this is what you will paste into GitHub and Digitalocean
     - e1f0vfsMPOANChLOUWbSJTtf4s4P2x6CAYCOQYcd “connors.tom@gmail.com”
@@ -260,7 +260,7 @@ file: ssh-rsa.pub (this is a public key you will paste in GitHub or DigitalOcean
 file: ssh-rsa (this is your secret, it is not public)::
 
     - -----BEGIN RSA PRIVATE KEY-----
-    - really big long private key
+    - really big length private key
     - -----END RSA PRIVATE KEY-----
 
 GitHub - set your ssh key and get your GitHub token for vscode   
@@ -282,6 +282,9 @@ Get your vscode token from github account settings
 .. figure:: assets/Software/vscode-github-token.png
   :width: 80 %
   :alt:  vscode-github-token.png
+
+Let vscode know about the GitHub token 
+----------------------------------------
 
 Let vscode know about the GitHub token at the bottom left of vscode click bottom-left and paste github token into the command prompt area in the top menu toolbar 
 
