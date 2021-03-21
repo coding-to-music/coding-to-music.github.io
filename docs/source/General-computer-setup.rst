@@ -146,6 +146,11 @@ When you start VS Code for the first time, a window like the following should ap
 <img width="800px" src="https://github.com/coding-to-music/battlecode2021/blob/main/Assets/vscode-default-home-screen.jpg?raw=true" align="center" alt="vscode-default-home-screen.jpg" />
 </b>
 
+.. figure:: assets/Software/XXXX
+  :width: 80 %
+  :alt:  XXXX
+
+
 Connect with vscode in the cloud so your settings persist over devices and sessions
 --------------------------------------------------------------------------------------------
 
@@ -160,6 +165,10 @@ Setup a password for cloud sync - you will be prompted each time you start vscod
 <img width="800px" src="https://github.com/coding-to-music/battlecode2021/blob/main/Assets/choose-password-for-vscode-sync-data.png?raw=true" align="center" alt="choose-password-for-vscode-sync-data.png" />
 </b>
 
+.. figure:: assets/Software/XXXX
+  :width: 80 %
+  :alt:  XXXX
+
 If you previously have a cloud account you can merge your data    
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -167,7 +176,11 @@ If you previously have a cloud account you can merge your data
 <img width="800px" src="https://github.com/coding-to-music/battlecode2021/blob/main/Assets/merge-or-replace-cloud-sync-data.png?raw=true" align="center" alt="merge-or-replace-cloud-sync-data.png" />
 </b>
 <br />  
-  
+
+.. figure:: assets/Software/XXXX
+  :width: 80 %
+  :alt:  XXXX
+
 You can now start installing extensions and configuring VS Code according to your preferences.
 
 
@@ -246,8 +259,8 @@ Now you need to create your SSH key for Github ::
     ssh-keygen -t rsa -C “connors.tom@gmail.com”  
 
     // It will get saved to 
-    home/tom/.ssh/id_rsa                // this is the private key, very long paragraph
-    home/tom/.ssh/id_rsa.pub         // this is the public key,         short paragraph
+    home/tom/.ssh/id_rsa             // this is the private key, very long paragraph
+    home/tom/.ssh/id_rsa.pub         // this is the public key,      short paragraph
     // Copy that key in that file. I would suggest using Win SCP to download the file similar to FTP
 
 file: ssh-rsa 
@@ -272,6 +285,9 @@ Once you copy the key,
 <img width="800px" src="https://github.com/coding-to-music/battlecode2021/blob/main/Assets/ssh-keys-in-GitHub.png?raw=true" align="center" alt="Battlecode 2021 Image" />
 </b>
 
+.. figure:: assets/Software/XXXX
+  :width: 80 %
+  :alt:  XXXX
 
 Get your vscode token from github account settings 
 --------------------------------------------------------------------
@@ -280,12 +296,14 @@ Get your vscode token from github account settings
 <img width="400px" src="https://github.com/coding-to-music/battlecode2021/blob/main/Assets/vscode-github-token.png?raw=true" align="center" alt="vscode-github-token.png" />
 </b>
 
+.. figure:: assets/Software/vscode-github-token.png
+  :width: 80 %
+  :alt:  vscode-github-token.png
 
 Let vscode know about the GitHub token at the bottom left of vscode click bottom-left and paste github token into the command prompt area in the top menu toolbar 
 
-<br />  
-<img width="600px" src="https://github.com/coding-to-music/battlecode2021/blob/main/Assets/bottom-left-of-vscode-click-and-paste-github-token.png?raw=true" align="center" alt="bottom-left-of-vscode-click-and-paste-github-token.png" />
-</b>
-<br />  
-  
+.. figure:: assets/Software/bottom-left-of-vscode-click-and-paste-github-token.png
+  :width: 80 %
+  :alt:  bottom left of vscode click and paste github token
+
 Last change: |today|

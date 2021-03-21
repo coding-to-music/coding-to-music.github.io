@@ -7,7 +7,7 @@ Azithromycin
 
 .. figure:: assets/azithromycin-250-mg-tablets-2.jpg
   :width: 80 %
-  :alt:  doxycycline-study
+  :alt:  azithromycin-250-mg-tablets
 
 Common brands: Zithromax, Zithromax Z-Pak, Zmax
 
