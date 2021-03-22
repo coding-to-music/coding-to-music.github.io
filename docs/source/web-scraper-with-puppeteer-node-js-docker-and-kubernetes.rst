@@ -44,6 +44,49 @@ To follow this tutorial, you will need a machine with:
 - Node.js installed on your development machine. This tutorial was tested on Node.js version 12.18.3 and npm version 6.14.6. Follow this guide to install Node.js on macOS, or follow this guide to install Node.js on various Linux distributions.
 - If you are using DigitalOcean Kubernetes, then you will also need a Personal Access Token. To create one, you can follow our guide on how to create a Personal Access Token. Save this token in a safe place; it provides full access to your account.
 
+Validate Proper Software Versions and Setup
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+To Validate Docker Installation: ::
+
+    docker --version
+
+
+An account at Docker Hub for storing your Docker image: ::
+
+    docker --version
+
+
+A Kubernetes cluster: ::
+
+    docker --version
+
+
+To Validate kubectl Installation: ::
+
+    docker --version
+
+
+To Validate doctl Installation: ::
+
+    docker --version
+
+
+To Validate Node.js Installation: ::
+
+    docker --version
+
+
+To Validate npm Installation: ::
+
+    docker --version
+
+
+Personal Access Token for DigitalOcean Kubernetes: ::
+
+    docker --version
+
+
 
 
 Last change: |today| 
