@@ -29,7 +29,11 @@ Containers vs Virtual Machines
 
 Many of you have probably used a VM, so you're actually already familiar with some of the concepts of a container.
 
-![Containers vs. VMs]({{ page.root }}/fig/container_vs_vm.png)
+
+.. figure:: assets/Software/container_vs_vm.png
+  :width: 80 %
+  :alt:  Containers vs. VMs
+
 
 The key difference here is that VMs virtualise **hardware** while containers virtualise **operating systems**.  There are other differences (and benefits)
 
@@ -76,8 +80,9 @@ A few examples of how containers are being used at Pawsey
 
 Here's an overview of what a workflow might look like:
 
-![Docker Workflow]({{ page.root }}/fig/docker_workflow.png)
-
+.. figure:: assets/Software/docker_workflow.png
+  :width: 80 %
+  :alt:  Docker Workflow
 
 > ## A word of warning: sudo ##
 > 
