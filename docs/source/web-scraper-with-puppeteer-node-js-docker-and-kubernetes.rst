@@ -51,41 +51,68 @@ To Validate Docker Installation: ::
 
     docker --version
 
+    Docker version 20.10.5, build 55c4c88
+
 
 An account at Docker Hub for storing your Docker image: ::
 
-    docker --version
+    Need better example of how to validate
 
 
 A Kubernetes cluster: ::
 
-    docker --version
+    Need better example of how to validate
 
 
 To Validate kubectl Installation: ::
 
-    docker --version
+    kubectl version --client
 
+    Client Version: version.Info{
+        Major:"1", 
+        Minor:"20", 
+        GitVersion:"v1.20.5", 
+        GitCommit:"6b1d87acf3c8253c123756b9e61dac642678305f", 
+        GitTreeState:"clean", 
+        BuildDate:"2021-03-18T01:10:43Z", 
+        GoVersion:"go1.15.8", 
+        Compiler:"gc", 
+        Platform:"linux/amd64"
+        }
 
 To Validate doctl Installation: ::
 
-    docker --version
+    doctl --version
 
+    bash: doctl: command not found
 
 To Validate Node.js Installation: ::
 
-    docker --version
+    nodejs --version
 
+    v10.24.0
 
 To Validate npm Installation: ::
 
-    docker --version
+    npm --version
+
+    5.8.0
+
+To Validate Python Installation: ::
+
+    python --version
+
+    Python 2.7.16
+
+    python3 --version
+
+    Python 3.7.3
+
 
 
 Personal Access Token for DigitalOcean Kubernetes: ::
 
     docker --version
-
 
 
 
