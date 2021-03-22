@@ -31,7 +31,7 @@ Many of you have probably used a VM, so you're actually already familiar with so
 
 
 .. figure:: assets/Software/container_vs_vm.png
-  :width: 80 %
+  :width: 100 %
   :alt:  Containers vs. VMs
 
 
@@ -81,7 +81,7 @@ A few examples of how containers are being used at Pawsey
 Here's an overview of what a workflow might look like:
 
 .. figure:: assets/Software/docker_workflow.png
-  :width: 80 %
+  :width: 100 %
   :alt:  Docker Workflow
 
 > ## A word of warning: sudo ##
