@@ -112,7 +112,7 @@ To Validate Python Installation: ::
 
 Personal Access Token for DigitalOcean Kubernetes: ::
 
-    docker --version
+    Need better example of how to validate
 
 
 
