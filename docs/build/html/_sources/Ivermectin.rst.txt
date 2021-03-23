@@ -7,7 +7,8 @@ Ivermectin
 
 .. figure:: assets/Ivermectin-perscription.jpg
   :width: 80 %
-  :alt:  Ivermectin-perscription
+  
+  Ivermectin-perscription
 
 Source `UK Daily Mail, By Luke Andrews`_.
 .. _UK Daily Mail, By Luke Andrews: https://www.dailymail.co.uk/news/article-9110301/Cheap-hair-lice-drug-cut-risk-hospitalised-Covid-patients-dying-80-study-finds.html
@@ -45,7 +46,8 @@ Source
 
 .. figure:: assets/Ivermectin-sheep-drench.jpg
   :width: 80 %
-  :alt:  Ivermectin-sheep-drench
+  
+  Ivermectin-sheep-drench
 
 MODE OF ACTION
 ----------------

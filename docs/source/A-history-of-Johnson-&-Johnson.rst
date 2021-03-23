@@ -6,7 +6,8 @@ A history of Johnson & Johnson
 
 .. figure:: assets/JJ-logo-605x340.jpg
   :width: 80 %
-  :alt:  Johnson & Johnson logo
+  
+  Johnson & Johnson logo
 
   February 26, 2021
 
@@ -80,7 +81,8 @@ In 1994, the first coronary stent was created by J&J and was called the Palmaz-S
 
 .. figure:: assets/AlexGorsky-CEO-Johnson-Johnson-Wall-270x180.jpg
   :width: 80 %
-  :alt:  AlexGorsky-CEO-Johnson-Johnson-Wall
+  
+  AlexGorsky-CEO-Johnson-Johnson-Wall
 
 CEO Alex Gorsky, who was appointed in 2012
 

@@ -7,7 +7,8 @@ Hydroxychloroquine
 
 .. figure:: assets/Hydroxychloroquine.jpeg
   :width: 80 %
-  :alt:  Hydroxychloroquine
+  
+  Hydroxychloroquine
 
 ‘Only a one in 17 billion chance hydroxychloroquine doesn’t work’: medical professor
 Source: [skynews.com.au, November 29 2020 : ‘Only a one in 17 billion chance hydroxychloroquine doesn’t work’: medical professor](https://www.skynews.com.au/details/_6212859932001?fbclid=IwAR0Qzx3BAeJtPoqN958ZFnc3ckUdfQlEr0zuIly69-Gl-mJ3cmPPmcfRjrE) 

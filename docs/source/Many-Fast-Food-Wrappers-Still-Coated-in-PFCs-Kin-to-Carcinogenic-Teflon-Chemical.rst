@@ -16,12 +16,14 @@ Scientists from nonprofit research organizations including EWG, federal and stat
 
 .. figure:: assets/EWG_PFC_Definition_02.webp
   :width: 80 %
-  :alt:  Ivermectin-sheep-drench
+  
+  Ivermectin-sheep-drench
 
 
 .. figure:: assets/EWG_PFC_HealthEffects_02.webp
   :width: 80 %
-  :alt:  Ivermectin-sheep-drench
+  
+  Ivermectin-sheep-drench
 
 What is a PFC
 

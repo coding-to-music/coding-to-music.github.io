@@ -7,7 +7,8 @@ Placeholder
     
 .. figure:: assets/Hydroxychloroquine.jpeg
   :width: 80 %
-  :alt:  Hydroxychloroquine
+  
+  Hydroxychloroquine
 
 
 Last change: |today| 

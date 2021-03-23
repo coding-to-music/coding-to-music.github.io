@@ -8,7 +8,8 @@ Facebook Kim Jong Bong Vaccine Recommendations Australia
 
 .. figure:: assets/Vaccines/Vaccine-Schedule/infant-typical-vacines.jpg
     :width: 80 %
-    :alt: typical vaccines for an infant  
+    
+ typical vaccines for an infant  
 
     Typical vaccines for an infant     
     

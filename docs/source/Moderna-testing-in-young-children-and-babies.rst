@@ -26,7 +26,8 @@ An analysis of how the young patients respond to different dose amounts in the f
 
 .. figure:: assets/Vaccines/Moderna/Moderna-Covid-19-vaccines.jpg
   :width: 80 %
-  :alt:  Moderna Covid-19 vaccines
+  
+  Moderna Covid-19 vaccines
 
 
 Moderna Covid-19 vaccines. (ANDREW CABALLERO-REYNOLDS/AFP via Getty Images)

@@ -144,7 +144,8 @@ When you start VS Code for the first time, a window like the following should ap
 
 .. figure:: assets/Software/vscode-default-home-screen.jpg
   :width: 80 %
-  :alt:  vscode-default-home-screen.jpg
+  
+  vscode-default-home-screen.jpg
 
 
 Connect with vscode in the cloud so your settings persist over devices and sessions
@@ -159,14 +160,16 @@ Setup a password for cloud sync - you will be prompted each time you start vscod
 
 .. figure:: assets/Software/choose-password-for-vscode-sync-data.png
   :width: 80 %
-  :alt:  choose-password-for-vscode-sync-data.png
+  
+  choose-password-for-vscode-sync-data.png
 
 If you previously have a cloud account you can merge your data    
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: assets/Software/merge-or-replace-cloud-sync-data.png
   :width: 80 %
-  :alt:  merge or replace cloud sync data
+  
+  merge or replace cloud sync data
 
 You can now start installing extensions and configuring VS Code according to your preferences.
 
@@ -274,14 +277,16 @@ Once you copy the key,
 
 .. figure:: assets/Software/ssh-keys-in-GitHub.png
   :width: 80 %
-  :alt:  ssh keys in GitHub
+  
+  ssh keys in GitHub
 
 Get your vscode token from github account settings 
 --------------------------------------------------------------------
 
 .. figure:: assets/Software/vscode-github-token.png
   :width: 80 %
-  :alt:  vscode-github-token.png
+  
+  vscode-github-token.png
 
 Let vscode know about the GitHub token 
 ----------------------------------------
@@ -290,6 +295,7 @@ Let vscode know about the GitHub token at the bottom left of vscode click bottom
 
 .. figure:: assets/Software/bottom-left-of-vscode-click-and-paste-github-token.png
   :width: 80 %
-  :alt:  bottom left of vscode click and paste github token
+  
+  bottom left of vscode click and paste github token
 
 Last change: |today|

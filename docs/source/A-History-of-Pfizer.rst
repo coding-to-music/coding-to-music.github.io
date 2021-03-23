@@ -6,7 +6,8 @@ A History of Pfizer
 
 .. figure:: assets/PfizerLogo.jpg
   :width: 80 %
-  :alt:  Pfizer Logo
+  
+  Pfizer Logo
 
 
 A history of Pfizer December 2, 2020
@@ -24,7 +25,8 @@ Source `A history of Pfizer by pharmaphorum.com retrieved March 5 2021`_.
 
 .. figure:: assets/stock-photo-tokyo-may-pfizer-building-on-may-in-tokyo-pfizer-is-one-of-largest-pharmaceutical-106958480.jpg
   :width: 80 %
-  :alt:  Pfizer’s Tokyo building
+  
+  Pfizer’s Tokyo building
 
 
 The convulsion of the American Civil War, which broke out soon after in 1862, had as much of an impact on the nascent pharmaceutical industry as on American society in general. The “first industrial war” involved drug producers as much as weapons manufacturers. Like their competitor Squibb, the sudden need for enormous quantities of painkillers and antiseptics for the Union armies provided a great scope to expand production. By 1868, Pfizer’s revenues had doubled since the start of the war, and their product lines had expanded greatly.

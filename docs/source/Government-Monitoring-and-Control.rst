@@ -22,13 +22,15 @@ When I posted this:
 
 .. figure:: assets/brookline-economic-development-GIS-public-health-storefronts.png
   :width: 80 %
-  :alt:  brookline-economic-development-GIS-public-health-storefronts
+  
+  brookline-economic-development-GIS-public-health-storefronts
 
 I am constantly shadowbanned on Twitter
 
 .. figure:: assets/twitter-shadowban-example.png
   :width: 80 %
-  :alt:  Twitter Shadowban Example 
+  
+  Twitter Shadowban Example 
 
 
 
@@ -81,7 +83,8 @@ Here is a question I posted on Facebook, and also on Twitter
 
 .. figure:: assets/brookline-economic-development-GIS-public-health-storefronts.png
   :width: 80 %
-  :alt:  brookline-economic-development-GIS-public-health-storefronts
+  
+  brookline-economic-development-GIS-public-health-storefronts
 
 
 Last change: |today|

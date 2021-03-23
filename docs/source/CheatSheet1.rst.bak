@@ -603,7 +603,8 @@ to put an image
     :width: 200px
     :align: center
     :height: 100px
-    :alt: alternate text
+    
+ alternate text
 
 .. note:: As mentionned earlier, a directive may have options put between two columns:
 
@@ -613,7 +614,8 @@ to put an image
         :width: 200px
         :align: center
         :height: 100px
-        :alt: alternate text
+        
+ alternate text
 
 figure directive
 =================
@@ -624,7 +626,8 @@ figure directive
         :width: 200px
         :align: center
         :height: 100px
-        :alt: alternate text
+        
+ alternate text
         :figclass: align-center
 
         figure are like images but with a caption
@@ -642,7 +645,8 @@ gives
     :width: 200px
     :align: center
     :height: 100px
-    :alt: alternate text
+    
+ alternate text
     :figclass: align-center
 
     figure are like images but with a caption

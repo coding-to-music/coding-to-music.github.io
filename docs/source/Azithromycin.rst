@@ -7,7 +7,8 @@ Azithromycin
 
 .. figure:: assets/azithromycin-250-mg-tablets-2.jpg
   :width: 80 %
-  :alt:  azithromycin-250-mg-tablets
+  
+  azithromycin-250-mg-tablets
 
 Common brands: Zithromax, Zithromax Z-Pak, Zmax
 
@@ -43,11 +44,13 @@ Drug class: Macrolide
 
 .. figure:: assets/azithromycin-250-mg-tablets.jpg
   :width: 80 %
-  :alt:  azithromycin 250 mg tablets
+  
+  azithromycin 250 mg tablets
 
 
 .. figure:: assets/Azithromycin-1200x675-cropped.png
   :width: 80 %
-  :alt:  azithromycin 
+  
+  azithromycin 
 
 Last change: |today|

@@ -14,7 +14,8 @@ FRIDAY, FEBRUARY 19, 2021
 
 .. figure:: assets/PthalatesPR.jpg
   :width: 80 %
-  :alt:  PthalatesPR
+  
+  PthalatesPR
 
 
 WASHINGTON – Prenatal exposure to the widely used plasticizer chemicals called phthalates can lead to learning, attention and behavioral disorders in children, according to a peer-reviewed study published today in the American Journal of Public Health.

@@ -7,21 +7,24 @@ Tuskgee Medical Experiments - 40 years of untreated Syphlis
 
 .. figure:: assets/1-Tuskegee-Experiment-1932-1972.png
   :width: 80 %
-  :alt:  White doctor injecting black farm worker
+  
+  White doctor injecting black farm worker
 
 The National Archives
 
 
 .. figure:: assets/1a-Tuskegee-Experiment-1932-1972.png
   :width: 80 %
-  :alt:  Tuskgee Medical Experiments - 40 years of untreated Syphlis
+  
+  Tuskgee Medical Experiments - 40 years of untreated Syphlis
 
 The National Archives
 
 
 .. figure:: assets/1-zoom-Tuskegee-Experiment-1932-1972.png
   :width: 80 %
-  :alt:  Participants in the Tuskegee Syphilis Study
+  
+  Participants in the Tuskegee Syphilis Study
 
 
 UPDATED: DEC 15, 2020 ORIGINAL: MAY 16, 2017
@@ -41,7 +44,8 @@ READ MORE: The ‘Father of Modern Gynecology’ Performed Shocking Experiments 
 
 .. figure:: assets/2-Tuskegee-Experiment-1932-1972.png
   :width: 80 %
-  :alt: A man receiving treatment in the Tuskegee Syphilis Study 
+  
+ A man receiving treatment in the Tuskegee Syphilis Study 
 
 The men were monitored by health workers but only given placebos such as aspirin and mineral supplements, despite the fact that penicillin became the recommended treatment for syphilis in 1947, some 15 years into the study. PHS researchers convinced local physicians in Macon County not to treat the participants, and instead research was done at the Tuskegee Institute. (Now called Tuskegee University, the school was founded in 1881 with Booker T. Washington at its first teacher.)
 
@@ -57,7 +61,8 @@ READ MORE: Henrietta Lacks: How Her Cells Became One of the Most Important Medic
 
 .. figure:: assets/3-Tuskegee-Experiment-1932-1972.png
   :width: 80 %
-  :alt: A man receiving treatment in the Tuskegee Syphilis Study 
+  
+ A man receiving treatment in the Tuskegee Syphilis Study 
 
 In 1973, Congress held hearings on the Tuskegee experiments, and the following year the study’s surviving participants, along with the heirs of those who died, received a $10 million out-of-court settlement. Additionally, new guidelines were issued to protect human subjects in U.S. government-funded research projects.
 
@@ -71,7 +76,8 @@ READ MORE: 7 of the More Outrageous Medical Treatments in History
 
 .. figure:: assets/4-Tuskegee-Experiment-1932-1972.png
   :width: 80 %
-  :alt:  Herman Shaw speaks as President Bill Clinton looks on, during ceremonies at the White House on May 16, 1997. Clinton apologized to the survivors and families of the victims of the Tuskegee Syphilis Study.
+  
+  Herman Shaw speaks as President Bill Clinton looks on, during ceremonies at the White House on May 16, 1997. Clinton apologized to the survivors and families of the victims of the Tuskegee Syphilis Study.
 
 *Paul J. Richards/AFP/Getty Images*
 

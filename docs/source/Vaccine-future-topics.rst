@@ -17,7 +17,8 @@ Vaccine Books
 
 .. figure:: assets/vaccine-books.jpg
   :width: 80 %
-  :alt: Vaccine Books 
+  
+ Vaccine Books 
 
 
 What is the history of vaccines, how much money and what are they used for    

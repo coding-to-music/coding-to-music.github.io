@@ -7,7 +7,8 @@ The Dodgy Dealings of Pfizer Exposed
 
 .. figure:: assets/Vaccines/Pfizer/Pfizer-image-3.png
     :width: 80 %
-    :alt: Pfizer and Parliament  
+    
+ Pfizer and Parliament  
 
     The Dodgy Dealings of Pfizer Exposed     
     
@@ -34,7 +35,8 @@ Pfizer’s ransom demands were even more berserk in Argentina. Pfizer demanded t
 
 .. figure:: assets/Vaccines/Pfizer/Pfizer-image-3.png
     :width: 80 %
-    :alt: Pfizer and Parliament  
+    
+ Pfizer and Parliament  
 
     Pfizer and Parliament     
     
@@ -65,7 +67,8 @@ Congress and the regulatory agencies
 
 .. figure:: assets/Vaccines/Ronald-Reagan/Ronald-Reagan.png
     :width: 80 %
-    :alt: Ronald Reagan 1986 Vaccine Law 
+    
+ Ronald Reagan 1986 Vaccine Law 
 
     Ronald Reagan 1986 Vaccine Law    
     

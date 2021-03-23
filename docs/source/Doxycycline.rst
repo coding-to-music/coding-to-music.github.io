@@ -7,7 +7,8 @@ Doxycycline
 
 .. figure:: assets/doxycycline-capsules.jpeg
   :width: 80 %
-  :alt:  doxycycline capsules
+  
+  doxycycline capsules
 
 Doxycycline is a broad-spectrum tetracycline-class antibiotic used in the treatment of infections caused by bacteria and certain parasites.[1] It is used to treat bacterial pneumonia, acne, chlamydia infections, Lyme disease, cholera, typhus, and syphilis.[1] It is also used to prevent malaria and in combination with quinine, to treat malaria.[1] Doxycycline may be taken by mouth or by injection into a vein.[1]
 
@@ -19,15 +20,18 @@ Source: https://en.wikipedia.org/wiki/Doxycycline
 
 .. figure:: assets/doxycycline-study.jpeg
   :width: 80 %
-  :alt:  doxycycline-study
+  
+  doxycycline-study
 
 .. figure:: assets/Doxycycline_for_STIs.jpg
   :width: 80 %
-  :alt:  doxycycline for STIs
+  
+  doxycycline for STIs
 
 .. figure:: assets/Effect-of-doxycycline-on-the-cell-viability-and-cell-cycle-A-IC-50-mM-dose-of.png
   :width: 80 %
-  :alt:  doxycycline-on-the-cell-viability
+  
+  doxycycline-on-the-cell-viability
 
 
 Page Generated: |today|
