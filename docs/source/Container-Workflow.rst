@@ -11,6 +11,7 @@ objectives:
 - Learn how to download and run images
 
 keypoints:
+
 - You've learned some basic Docker commands for running, downloading, and searching for docker images
 - "`docker run` for running images (add `-it` for interactive mode)"
 - "`docker pull` for downloading images"
@@ -42,7 +43,7 @@ The key difference here is that VMs virtualise **hardware** while containers vir
 * Modular (can easily combine multiple containers that work together)
 
 
- Terminology 
+Terminology 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 An **image** is a file (or set of files) that contains the application and all its dependencies, libraries, run-time systems, etc. required to run.  You can copy images around, upload them, download them etc.
@@ -56,7 +57,7 @@ A **Dockerfile** is a recipe to build an image.
 A **registry** is a server application where images are stored and can be accessed by users. It can be public (e.g. Docker Hub) or private.
 
 
- Containers and your workflow 
+Containers and your workflow 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 There are a number of reasons for using containers in your daily work:
@@ -96,7 +97,7 @@ Here's an overview of what a workflow might look like:
 {: .callout}
 
 
- Running a simple command in a container 
+Running a simple command in a container 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Let's run a simple command:
@@ -226,7 +227,7 @@ bitnami/tensorflow-inception        Bitnami Docker Image for TensorFlow Inceptio
 {: .output}
 
 
- Running an interactive command in an image 
+Running an interactive command in an image 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Docker has the option to run containers interactively.  While this is convenient (and useful for debugging), in general you shouldn't use this model as your standard way of working with containers.  To run interactively, we just need to use the `-i` and `-t` flags, or `-it` for brevity:
