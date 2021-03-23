@@ -33,7 +33,8 @@ Many of you have probably used a VM, so you're actually already familiar with so
 
 .. figure:: assets/Software/container_vs_vm.png
   :width: 100 %
-  :alt:  Containers vs. VMs
+  
+  Containers vs. VMs
 
 
 The key difference here is that VMs virtualise **hardware** while containers virtualise **operating systems**.  There are other differences (and benefits)
@@ -83,7 +84,9 @@ Here's an overview of what a workflow might look like:
 
 .. figure:: assets/Software/docker_workflow.png
   :width: 100 %
-  :alt:  Docker Workflow
+  
+  Docker Workflow
+
 
 >  A word of warning: sudo 
 > 
