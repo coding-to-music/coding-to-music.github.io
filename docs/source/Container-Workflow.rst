@@ -25,7 +25,7 @@ Docker is a tool that allows you to easily create, deploy, and run applications 
 
 
 Containers vs Virtual Machines
-----------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Many of you have probably used a VM, so you're actually already familiar with some of the concepts of a container.
 
@@ -42,8 +42,8 @@ The key difference here is that VMs virtualise **hardware** while containers vir
 * Modular (can easily combine multiple containers that work together)
 
 
-### Terminology ###
-----------------------------------------------------------------------
+ Terminology 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 An **image** is a file (or set of files) that contains the application and all its dependencies, libraries, run-time systems, etc. required to run.  You can copy images around, upload them, download them etc.
 
@@ -56,8 +56,8 @@ A **Dockerfile** is a recipe to build an image.
 A **registry** is a server application where images are stored and can be accessed by users. It can be public (e.g. Docker Hub) or private.
 
 
-### Containers and your workflow ###
-----------------------------------------------------------------------
+ Containers and your workflow 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 There are a number of reasons for using containers in your daily work:
 
@@ -84,7 +84,7 @@ Here's an overview of what a workflow might look like:
   :width: 100 %
   :alt:  Docker Workflow
 
-> ## A word of warning: sudo ##
+>  A word of warning: sudo 
 > 
 > Docker requires `sudo`, i.e. `root`, privileges to be used. The major implication is that commands and applications have the potential to damage the host operating system and filesystem, with no root password required. By default, no host directory is visible inside containers, which greatly reduces chances of harm. In a subsequent episode we'll see how to selectively map host directories to the container for input/output.
 > 
@@ -96,8 +96,8 @@ Here's an overview of what a workflow might look like:
 {: .callout}
 
 
-### Running a simple command in a container ###
-----------------------------------------------------------------------
+ Running a simple command in a container 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Let's run a simple command:
 
@@ -226,8 +226,8 @@ bitnami/tensorflow-inception        Bitnami Docker Image for TensorFlow Inceptio
 {: .output}
 
 
-### Running an interactive command in an image ###
-----------------------------------------------------------------------
+ Running an interactive command in an image 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Docker has the option to run containers interactively.  While this is convenient (and useful for debugging), in general you shouldn't use this model as your standard way of working with containers.  To run interactively, we just need to use the `-i` and `-t` flags, or `-it` for brevity:
 
@@ -267,7 +267,7 @@ The `-t` and `-i` options make sure we allocate a terminal to the container, and
 As you can see, you have root access in your container, and you are in what looks like a normal linux system. Now you can do whatever you like, e.g. install software and develop applications, all within the container of your choice.
 
 
-> ## Pull and run a Python Miniconda container ##
+>  Pull and run a Python Miniconda container 
 ----------------------------------------------------------------------
 
 > 
@@ -277,7 +277,7 @@ As you can see, you have root access in your container, and you are in what look
 > 
 > Finally, open and then close an interactive Python console through the container.
 > 
-> > ## Solution ##
+> >  Solution 
 > > 
 > > Pull: 
 > > 
@@ -309,7 +309,7 @@ As you can see, you have root access in your container, and you are in what look
 {: .challenge}
 
 
-> ## Best practices ##
+>  Best practices 
 ----------------------------------------------------------------------
 
 > 
