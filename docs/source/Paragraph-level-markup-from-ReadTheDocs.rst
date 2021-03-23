@@ -12,6 +12,16 @@ Paragraph Level Markup
 
 .. contents:: Table of Contents
 
+
+Source Notes:
+Retrieved March 23 2021 This page was copied from https://sphinx-rtd-theme.readthedocs.io/en/stable/demo/demo.html
+
+Source code: 
+https://github.com/readthedocs/sphinx_rtd_theme/blob/f6554bfcbfc404db824e11608b1a91c275b3e3d3/docs/demo/demo.rst
+
+
+The ReadTheDocs system was created and docs written by Dave Snider
+
 Inline Markup
 =============
 

@@ -8,7 +8,7 @@ The Dodgy Dealings of Pfizer Exposed
 .. figure:: assets/Vaccines/Pfizer/Pfizer-image-3.png
     :width: 80 %
     
- Pfizer and Parliament  
+    Pfizer and Parliament  
 
     The Dodgy Dealings of Pfizer Exposed     
     
