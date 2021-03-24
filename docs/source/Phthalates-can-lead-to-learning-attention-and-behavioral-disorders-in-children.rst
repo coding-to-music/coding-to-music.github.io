@@ -12,7 +12,7 @@ iris@ewg.org
 FOR IMMEDIATE RELEASE: 
 FRIDAY, FEBRUARY 19, 2021
 
-.. figure:: assets/PthalatesPR.jpg
+.. figure:: assets/Food-Safety/Pthalates/PthalatesPR.jpg
   :width: 80 %
   
   PthalatesPR

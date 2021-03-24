@@ -14,13 +14,13 @@ More than a decade since the health hazards of perfluroinated chemicals, or PFCs
 
 Scientists from nonprofit research organizations including EWG, federal and state regulatory agencies and academic institutions[†] collaborated to test samples of sandwich and pastry wrappers, french fry bags, pizza boxes, and other paper and paperboard from 27 fast food chains and several local restaurants in five regions of the U.S. They found that of the 327 samples used to serve food, collected in 2014 and 2015, 40 percent tested positive for fluorine.
 
-.. figure:: assets/EWG_PFC_Definition_02.webp
+.. figure:: assets/Food-Safety/Fast-Food-Wrappers/EWG_PFC_Definition_02.webp
   :width: 80 %
   
   Ivermectin-sheep-drench
 
 
-.. figure:: assets/EWG_PFC_HealthEffects_02.webp
+.. figure:: assets/Food-Safety/Fast-Food-Wrappers/EWG_PFC_HealthEffects_02.webp
   :width: 80 %
   
   Ivermectin-sheep-drench
