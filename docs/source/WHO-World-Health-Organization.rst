@@ -6,18 +6,18 @@ WHO World Health Organization
   
 
 .. figure:: assets/Vaccines/WHO/WHO-Dr-David-Nabarro-dont-do-lockdowns.jpeg
-    :width: 80 %
+  :width: 80 %
     
- WHO Dr David Nabarro dont do lockdowns 
+  WHO Dr David Nabarro dont do lockdowns 
 
-Caption WHO Dr David Nabarro "don't do lockdowns"    
+  Caption WHO Dr David Nabarro "don't do lockdowns"    
     
 Legend this is the legend
 
 .. figure:: assets/Vaccines/WHO/WHO-do-not-do-lockdowns.png
-    :width: 80 %
+  :width: 80 %
     
- WHO do not do lockdowns 
+  WHO do not do lockdowns 
 
 Caption WHO do not do lockdowns    
 
@@ -37,10 +37,10 @@ https://twitter.com/LynnFynn3/status/1368228908810842117
 
 
 
-.. figure:: assets/vaccine-definition-Merriam-Webster-Feb-5-2021-vs-Mar-31-2019.jpeg
-    :width: 80 %
+.. figure:: assets/Vaccines/vaccine-definition-Merriam-Webster-Feb-5-2021-vs-Mar-31-2019.jpeg
+  :width: 80 %
     
- Vaccine Definition Merriam-Webster Feb-5-2021 vs Mar-31-2019 
+  Vaccine Definition Merriam-Webster Feb-5-2021 vs Mar-31-2019 
 
 
 WHO herd immunity definition Dec-31-2020
@@ -57,10 +57,10 @@ https://twitter.com/birb_k/status/1368440134618681346
 12:55 AM · Mar 7, 2021
 @birb_k
 
-.. figure:: assets/WHO-herd-immunity-definition-Dec-31-2020.jpeg
-    :width: 80 %
+.. figure:: assets/Vaccines/WHO/WHO-herd-immunity-definition-Dec-31-2020.jpeg
+  :width: 80 %
     
- WHO herd immunity definition Dec-31-2020 
+  WHO herd immunity definition Dec-31-2020 
 
 WHO Herd Immunity Definition June VS Nov 2020
 ---------------------------------------------------
@@ -72,20 +72,20 @@ https://twitter.com/LynnFynn3/status/1368238151609769994
 11:32 AM · Mar 6, 2021
 @LynnFynn3
 
-.. figure:: assets/WHO-herd-immunity-definition-June-VS-Nov-2020.jpeg
-    :width: 80 %
+.. figure:: assets/Vaccines/WHO/WHO-herd-immunity-definition-June-VS-Nov-2020.jpeg
+  :width: 80 %
     
- WHO Herd Immunity Definition June VS Nov 2020 
+  WHO Herd Immunity Definition June VS Nov 2020 
 
 WHO 2020 Global flu counts
 ---------------------------------------------------
 
 WHO 2020 Global flu counts
 
-.. figure:: assets/WHO-2020-Global-flu-counts.jpeg
-    :width: 80 %
+.. figure:: assets/Vaccines/WHO/WHO-2020-Global-flu-counts.jpeg
+  :width: 80 %
     
- WHO 2020 Global flu counts 
+  WHO 2020 Global flu counts 
 
 WHO official urges world leaders to stop using lockdowns as primary virus control method    
 -----------------------------------------------------------------------------------------
@@ -95,7 +95,7 @@ WHO official urges world leaders to stop using lockdowns as primary virus contro
 - “The only time we believe a lockdown is justified is to buy you time to reorganize, regroup, rebalance your resources, protect your health workers who are exhausted, but by and large, we’d rather not do it.”  
 
   
-.. figure:: assets/WHO-Dr-David-Nabarro-dont-do-lockdowns.jpeg
+.. figure:: assets/Vaccines/WHO/WHO-Dr-David-Nabarro-dont-do-lockdowns.jpeg
   :width: 80 %
   
   WHO-Dr-David-Nabarro-dont-do-lockdowns
@@ -115,7 +115,7 @@ WHO guidance Diagnostic testing for SARS-CoV-2 states that careful interpretatio
 
 WHO reminds IVD users that **disease prevalence alters the predictive value of test results**; *as disease prevalence decreases, the risk of false positive increases (2). This means that the probability that a person who has a positive result (SARS-CoV-2 detected) is truly infected with SARS-CoV-2 decreases as prevalence decreases, irrespective of the claimed specificity.*    
 
-.. figure:: assets/WHO-Jan-20-2021-PCR-changes.jpeg
+.. figure:: assets/Vaccines/WHO/WHO-Jan-20-2021-PCR-changes.jpeg
   :width: 80 %
   
   WHO Jan 20 2021 PCR changes
