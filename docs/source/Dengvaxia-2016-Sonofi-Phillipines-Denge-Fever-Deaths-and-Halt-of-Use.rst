@@ -10,7 +10,8 @@ Dengvaxia - 2016 Sonofi Phillipines Denge Fever Deaths and Halt of Use
 
 
 .. figure:: assets/Vaccines/History-Lessons/Dengvaxia-Sonofi-Phillipines/Dengvaxia-Sonofi-Phillipines.png
-  :width: 100 %
+  :align: center
+  :width: 90 %
   
   Dengvaxia Sonofi Phillipines
 
@@ -35,6 +36,7 @@ Events
 -------
 
 .. figure:: assets/Vaccines/History-Lessons/Dengvaxia-Sonofi-Phillipines/1024px-President_Benigno_S._Aquino_III_converses_with_Sanofi_Pasteur_chief_executive_officer_Olivier_Charmeil.jpg
+  :align: center
   :width: 80 %
   
   President Benigno S. Aquino III converses with Sanofi Pasteur chief executive officer Olivier Charmeil
@@ -46,6 +48,7 @@ On December 1, 2015, former President Benigno Aquino III met with executives of 
 Click to enlarge
 
 .. figure:: assets/Vaccines/History-Lessons/Dengvaxia-Sonofi-Phillipines/President_Aquino_at_the_launching_of_dengue_vaccine_school-based_immunization_in_Region_III.jpg
+  :align: center
   :width: 80 %
   
   President Benigno Aquino III at the launching of the dengue vaccine school-based immunization program.

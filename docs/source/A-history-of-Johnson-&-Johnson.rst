@@ -6,6 +6,7 @@ A history of Johnson & Johnson
 
 .. figure:: assets/Vaccines/JnJ/JJ-logo-605x340.jpg
   :width: 80 %
+  :align: center
   
   Johnson & Johnson logo
 
@@ -80,6 +81,7 @@ In 1994, the first coronary stent was created by J&J and was called the Palmaz-S
 
 
 .. figure:: assets/Vaccines/JnJ/AlexGorsky-CEO-Johnson-Johnson-Wall-270x180.jpg
+  :align: center
   :width: 80 %
   
   AlexGorsky-CEO-Johnson-Johnson-Wall

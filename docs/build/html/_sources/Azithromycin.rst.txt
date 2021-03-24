@@ -6,6 +6,7 @@ Azithromycin
 
 
 .. figure:: assets/Medical-Treatments/Azithromycin/azithromycin-250-mg-tablets-2.jpg
+  :align: center
   :width: 80 %
   
   azithromycin-250-mg-tablets
@@ -43,12 +44,14 @@ Drug Class
 Drug class: Macrolide
 
 .. figure:: assets/Medical-Treatments/Azithromycin/azithromycin-250-mg-tablets.jpg
+  :align: center
   :width: 80 %
   
   azithromycin 250 mg tablets
 
 
 .. figure:: assets/Medical-Treatments/Azithromycin/Azithromycin-1200x675-cropped.png
+  :align: center
   :width: 80 %
   
   azithromycin 
