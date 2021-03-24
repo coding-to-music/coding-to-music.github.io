@@ -7,6 +7,7 @@ Ivermectin
 
 .. figure:: assets/Medical-Treatments/Ivermectin/Ivermectin-perscription.jpg
   :width: 80 %
+  :align: center
   
   Ivermectin-perscription
 
@@ -41,6 +42,7 @@ Source
 
 .. figure:: assets/Medical-Treatments/Ivermectin/Ivermectin-sheep-drench.jpg
   :width: 80 %
+  :align: center
   
   Ivermectin-sheep-drench
 
