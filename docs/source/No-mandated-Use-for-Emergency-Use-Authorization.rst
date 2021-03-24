@@ -6,11 +6,12 @@ No mandated Use for Covid vaccines under the Emergency Use Authorization
 
 
 .. figure:: assets/Vaccines/Pfizer/Pfizer-GettyImages-1230530059-768x432.jpg
+  :align: center
   :width: 80 %
   
   A health worker holds a vial of the Pfizer-BioNTech Covid-19 vaccine at a vaccination center in Pfaffenhofen, Germany.
 
-CHRISTOF STACHE/AFP VIA GETTY IMAGES
+  CHRISTOF STACHE/AFP VIA GETTY IMAGES
 
 https://www.statnews.com/2021/02/23/federal-law-prohibits-employers-and-others-from-requiring-vaccination-with-a-covid-19-vaccine-distributed-under-an-eua/
 

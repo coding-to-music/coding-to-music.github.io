@@ -13,6 +13,7 @@ FOR IMMEDIATE RELEASE:
 FRIDAY, FEBRUARY 19, 2021
 
 .. figure:: assets/Food-Safety/Pthalates/PthalatesPR.jpg
+  :align: center
   :width: 80 %
   
   PthalatesPR

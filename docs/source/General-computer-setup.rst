@@ -143,6 +143,7 @@ Now that VS Code is installed on your Ubuntu system you can launch it either fro
 When you start VS Code for the first time, a window like the following should appear:
 
 .. figure:: assets/Software/vscode-default-home-screen.jpg
+  :align: center
   :width: 80 %
   
   vscode-default-home-screen.jpg
@@ -159,6 +160,7 @@ Setup a password for cloud sync - you will be prompted each time you start vscod
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: assets/Software/choose-password-for-vscode-sync-data.png
+  :align: center
   :width: 80 %
   
   choose-password-for-vscode-sync-data.png
@@ -167,6 +169,7 @@ If you previously have a cloud account you can merge your data
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: assets/Software/merge-or-replace-cloud-sync-data.png
+  :align: center
   :width: 80 %
   
   merge or replace cloud sync data
@@ -276,6 +279,7 @@ Once you copy the key,
 
 
 .. figure:: assets/Software/ssh-keys-in-GitHub.png
+  :align: center
   :width: 80 %
   
   ssh keys in GitHub
@@ -284,6 +288,7 @@ Get your vscode token from github account settings
 --------------------------------------------------------------------
 
 .. figure:: assets/Software/vscode-github-token.png
+  :align: center
   :width: 80 %
   
   vscode-github-token.png
@@ -294,6 +299,7 @@ Let vscode know about the GitHub token
 Let vscode know about the GitHub token at the bottom left of vscode click bottom-left and paste github token into the command prompt area in the top menu toolbar 
 
 .. figure:: assets/Software/bottom-left-of-vscode-click-and-paste-github-token.png
+  :align: center
   :width: 80 %
   
   bottom left of vscode click and paste github token

@@ -12,6 +12,7 @@ This is what I am working on
 
 
 .. figure:: assets/2020_october_this_is_what_I_am_working_on.png
+  :align: center
   :width: 80 %
   
   This is what I am working on 

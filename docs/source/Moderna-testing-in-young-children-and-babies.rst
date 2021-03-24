@@ -25,6 +25,7 @@ A first group of kids received their initial shot of the vaccine through a two-p
 An analysis of how the young patients respond to different dose amounts in the first phase will help create the proper dosage used in the second phase, which will also include a placebo.
 
 .. figure:: assets/Vaccines/Moderna/Moderna-Covid-19-vaccines.jpg
+  :align: center
   :width: 80 %
   
   Moderna Covid-19 vaccines

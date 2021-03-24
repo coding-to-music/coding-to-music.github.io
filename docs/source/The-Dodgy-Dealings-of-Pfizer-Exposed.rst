@@ -6,6 +6,7 @@ The Dodgy Dealings of Pfizer Exposed
   
 
 .. figure:: assets/Vaccines/Pfizer/Pfizer-image-3.png
+    :align: center
     :width: 80 %
     
     Pfizer and Parliament  
@@ -34,10 +35,9 @@ Pfizer’s ransom demands in Argentina
 Pfizer’s ransom demands were even more berserk in Argentina. Pfizer demanded that the Government of Argentina foot the bill and compensate all future civil lawsuits when the vaccine injures people. Pfizer lobbied the Argentina Parliament to pass a law in October of 2020 to ensure their protection. When the parliament wrote that Pfizer needed to pay for future negligence, Pfizer rejected the deal.
 
 .. figure:: assets/Vaccines/Pfizer/Pfizer-image-3.png
+    :align: center
     :width: 80 %
     
-    Pfizer and Parliament  
-
     Pfizer and Parliament     
     
     In the early 1980s, vaccine injury was prevalent and openly discussed, with children suffering injuries from vaccines that contained tetanus and pertussis toxoids and a highly reactive adjuvant.
@@ -66,6 +66,7 @@ Congress and the regulatory agencies
 --------------------------------------
 
 .. figure:: assets/Vaccines/Ronald-Reagan/Ronald-Reagan.png
+    :align: center
     :width: 80 %
     
     Ronald Reagan 1986 Vaccine Law 

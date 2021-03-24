@@ -16,6 +16,7 @@ Vaccine Books
 Vaccine Books
 
 .. figure:: assets/Vaccines/Books/vaccine-books.jpg
+  :align: center
   :width: 80 %
   
   Vaccine Books 

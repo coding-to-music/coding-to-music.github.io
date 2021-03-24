@@ -6,13 +6,14 @@ Normal GOF Research
 
 
 .. figure:: assets/2015-covid-prototype1.jpeg
+  :align: center
   :width: 80 %
   
   A SARS-like Cluster of Circulating Bat Coronaviruses Shows Potential for Human Emergence
 
-Source `Twitter exchange image1`_.
+  Source `Twitter exchange image1`_.
 
-.. _Twitter exchange image1: https://twitter.com/ThomasConnors/status/1245566505011552257
+  .. _Twitter exchange image1: https://twitter.com/ThomasConnors/status/1245566505011552257
 
 From 2015 PubMed 
 
@@ -27,13 +28,14 @@ A SARS-like Cluster of Circulating Bat Coronaviruses Shows Potential for Human E
 ACE2 replicate efficiently human airway cells achieve epidemic"
 
 .. figure:: assets/2015-covid-prototype1.jpeg
+  :align: center
   :width: 80 %
   
   15 Authors, labs including Wuhan & Dana Farber in Boston & Harvard in Cambridge. wtf, lots of people working on this the budget must have been in the millions
 
-Source `Twitter exchange`_.
+  Source `Twitter exchange`_.
 
-.. _Twitter exchange: https://twitter.com/ThomasConnors/status/1245566505011552257
+  .. _Twitter exchange: https://twitter.com/ThomasConnors/status/1245566505011552257
 
 15 Authors, labs including Wuhan & Dana Farber in Boston & Harvard in Cambridge. wtf, lots of people working on this the budget must have been in the millions, this is normal stuff. This is just one paper there are many many. They've demonstrated most of the features of #COVID19
 

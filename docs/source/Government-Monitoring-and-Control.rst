@@ -21,6 +21,7 @@ How to understand the ways Twitter filters, throttles and amplifies communicatio
 When I posted this:
 
 .. figure:: assets/Boston/Brookline/OpenLetter/brookline-economic-development-GIS-public-health-storefronts.png
+  :align: center
   :width: 80 %
   
   brookline-economic-development-GIS-public-health-storefronts
@@ -28,6 +29,7 @@ When I posted this:
 I am constantly shadowbanned on Twitter
 
 .. figure:: assets/twitter-shadowban-example.png
+  :align: center
   :width: 80 %
   
   Twitter Shadowban Example 
@@ -82,6 +84,7 @@ How does the lockdowns help and encourage large business but destroy small busin
 Here is a question I posted on Facebook, and also on Twitter
 
 .. figure:: assets/Boston/Brookline/OpenLetter/brookline-economic-development-GIS-public-health-storefronts.png
+  :align: center
   :width: 80 %
   
   brookline-economic-development-GIS-public-health-storefronts

@@ -9,6 +9,7 @@ https://cheat.readthedocs.io/en/latest/rst.html
 
 
 .. figure:: assets/Vaccines/Vaccine-Schedule/1985-vaccine-usage.jpg
+   :align: center
    :width: 50 %
    
    map to buried treasure

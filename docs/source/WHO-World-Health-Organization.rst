@@ -6,6 +6,7 @@ WHO World Health Organization
   
 
 .. figure:: assets/Vaccines/WHO/WHO-Dr-David-Nabarro-dont-do-lockdowns.jpeg
+  :align: center
   :width: 80 %
     
   WHO Dr David Nabarro dont do lockdowns 
@@ -15,11 +16,11 @@ WHO World Health Organization
 Legend this is the legend
 
 .. figure:: assets/Vaccines/WHO/WHO-do-not-do-lockdowns.png
+  :align: center
   :width: 80 %
     
   WHO do not do lockdowns 
 
-Caption WHO do not do lockdowns    
 
 Legend this is the legend
 
@@ -38,6 +39,7 @@ https://twitter.com/LynnFynn3/status/1368228908810842117
 
 
 .. figure:: assets/Vaccines/Definition/vaccine-definition-Merriam-Webster-Feb-5-2021-vs-Mar-31-2019.jpeg
+  :align: center
   :width: 80 %
     
   Vaccine Definition Merriam-Webster Feb-5-2021 vs Mar-31-2019 
@@ -58,6 +60,7 @@ https://twitter.com/birb_k/status/1368440134618681346
 @birb_k
 
 .. figure:: assets/Vaccines/WHO/WHO-herd-immunity-definition-Dec-31-2020.jpeg
+  :align: center
   :width: 80 %
     
   WHO herd immunity definition Dec-31-2020 
@@ -73,6 +76,7 @@ https://twitter.com/LynnFynn3/status/1368238151609769994
 @LynnFynn3
 
 .. figure:: assets/Vaccines/WHO/WHO-herd-immunity-definition-June-VS-Nov-2020.jpeg
+  :align: center
   :width: 80 %
     
   WHO Herd Immunity Definition June VS Nov 2020 
@@ -83,6 +87,7 @@ WHO 2020 Global flu counts
 WHO 2020 Global flu counts
 
 .. figure:: assets/Vaccines/Death-Rates/WHO-2020-Global-flu-counts.jpeg
+  :align: center
   :width: 80 %
     
   WHO 2020 Global flu counts 
@@ -96,11 +101,12 @@ WHO official urges world leaders to stop using lockdowns as primary virus contro
 
   
 .. figure:: assets/Vaccines/WHO/WHO-Dr-David-Nabarro-dont-do-lockdowns.jpeg
+  :align: center
   :width: 80 %
   
   WHO-Dr-David-Nabarro-dont-do-lockdowns
 
-Source: [MSN "WHO: stop using lockdowns as primary virus control method" October 10 2020](https://www.msn.com/en-us/health/medical/who-official-urges-world-leaders-to-stop-using-lockdowns-as-primary-virus-control-method/ar-BB19TBUo?fbclid=IwAR2ErYb8DhCy3tGuMj8DdolYhmbftMKCfCLEYPW1qT4PCt7uSK9nqnkgx0w)
+  Source: [MSN "WHO: stop using lockdowns as primary virus control method" October 10 2020](https://www.msn.com/en-us/health/medical/who-official-urges-world-leaders-to-stop-using-lockdowns-as-primary-virus-control-method/ar-BB19TBUo?fbclid=IwAR2ErYb8DhCy3tGuMj8DdolYhmbftMKCfCLEYPW1qT4PCt7uSK9nqnkgx0w)
 
 
 The WHO is recommending key changes to PCR testing
@@ -116,11 +122,12 @@ WHO guidance Diagnostic testing for SARS-CoV-2 states that careful interpretatio
 WHO reminds IVD users that **disease prevalence alters the predictive value of test results**; *as disease prevalence decreases, the risk of false positive increases (2). This means that the probability that a person who has a positive result (SARS-CoV-2 detected) is truly infected with SARS-CoV-2 decreases as prevalence decreases, irrespective of the claimed specificity.*    
 
 .. figure:: assets/Vaccines/WHO/WHO-Jan-20-2021-PCR-changes.jpeg
+  :align: center
   :width: 80 %
   
   WHO Jan 20 2021 PCR changes
 
-Source: [WHO requests users to follow the instructions for use (IFU) when interpreting results for specimens tested using PCR methodology. January 20 2021](https://www.who.int/news/item/20-01-2021-who-information-notice-for-ivd-users-2020-05)
+  Source: [WHO requests users to follow the instructions for use (IFU) when interpreting results for specimens tested using PCR methodology. January 20 2021](https://www.who.int/news/item/20-01-2021-who-information-notice-for-ivd-users-2020-05)
 
 
 
