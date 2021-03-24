@@ -37,7 +37,7 @@ https://twitter.com/LynnFynn3/status/1368228908810842117
 
 
 
-.. figure:: assets/Vaccines/vaccine-definition-Merriam-Webster-Feb-5-2021-vs-Mar-31-2019.jpeg
+.. figure:: assets/Vaccines/Definition/vaccine-definition-Merriam-Webster-Feb-5-2021-vs-Mar-31-2019.jpeg
   :width: 80 %
     
   Vaccine Definition Merriam-Webster Feb-5-2021 vs Mar-31-2019 
@@ -82,7 +82,7 @@ WHO 2020 Global flu counts
 
 WHO 2020 Global flu counts
 
-.. figure:: assets/Vaccines/WHO/WHO-2020-Global-flu-counts.jpeg
+.. figure:: assets/Vaccines/Death-Rates/WHO-2020-Global-flu-counts.jpeg
   :width: 80 %
     
   WHO 2020 Global flu counts 

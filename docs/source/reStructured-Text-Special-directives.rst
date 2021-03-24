@@ -8,10 +8,10 @@ reStructured Text Special directives
 https://cheat.readthedocs.io/en/latest/rst.html
 
 
-.. figure:: assets/1985-vaccine-usage.jpg
+.. figure:: assets/Vaccines/Vaccine-Schedule/1985-vaccine-usage.jpg
    :width: 50 %
    
- map to buried treasure
+   map to buried treasure
 
 .. note::
    Begin Grid table:

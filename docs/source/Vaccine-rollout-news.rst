@@ -16,7 +16,7 @@ Over 12,000 people test positive for COVID-19 after receiving Pfizer vaccine in 
 
 Over 12,000 people test positive for COVID-19 after receiving Pfizer vaccine
 
-.. figure:: assets/israel-positive-after-gene-therapy.jpg
+.. figure:: assets/Vaccines/Death-Rates/israel-positive-after-gene-therapy.jpg
   :width: 80 %
   
  Over 12,000 people test positive for COVID-19 after receiving Pfizer vaccine 

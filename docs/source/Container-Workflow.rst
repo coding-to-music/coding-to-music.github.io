@@ -103,36 +103,34 @@ Here's an overview of what a workflow might look like:
 Running a simple command in a container 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Let's run a simple command:
+Let's run a simple command: ::
 
-```
-$ docker run ubuntu cat /etc/os-release
-```
-{: .bash}
+  $ docker run ubuntu cat /etc/os-release
 
-```
-Unable to find image 'ubuntu:latest' locally
-latest: Pulling from library/ubuntu
-898c46f3b1a1: Pull complete 
-63366dfa0a50: Pull complete 
-041d4cd74a92: Pull complete 
-6e1bee0f8701: Pull complete 
-Digest: sha256:017eef0b616011647b269b5c65826e2e2ebddbe5d1f8c1e56b3599fb14fabec8
-Status: Downloaded newer image for ubuntu:latest
+Here is the results: ::
 
-NAME="Ubuntu"
-VERSION="18.04.2 LTS (Bionic Beaver)"
-ID=ubuntu
-ID_LIKE=debian
-PRETTY_NAME="Ubuntu 18.04.2 LTS"
-VERSION_ID="18.04"
-HOME_URL="https://www.ubuntu.com/"
-SUPPORT_URL="https://help.ubuntu.com/"
-BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
-PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
-VERSION_CODENAME=bionic
-UBUNTU_CODENAME=bionic
-```
+  Unable to find image 'ubuntu:latest' locally
+  latest: Pulling from library/ubuntu
+  898c46f3b1a1: Pull complete 
+  63366dfa0a50: Pull complete 
+  041d4cd74a92: Pull complete 
+  6e1bee0f8701: Pull complete 
+  Digest: sha256:017eef0b616011647b269b5c65826e2e2ebddbe5d1f8c1e56b3599fb14fabec8
+  Status: Downloaded newer image for ubuntu:latest
+
+  NAME="Ubuntu"
+  VERSION="18.04.2 LTS (Bionic Beaver)"
+  ID=ubuntu
+  ID_LIKE=debian
+  PRETTY_NAME="Ubuntu 18.04.2 LTS"
+  VERSION_ID="18.04"
+  HOME_URL="https://www.ubuntu.com/"
+  SUPPORT_URL="https://help.ubuntu.com/"
+  BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+  PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+  VERSION_CODENAME=bionic
+  UBUNTU_CODENAME=bionic
+
 {: .output}
 
 Here's what we've done:
