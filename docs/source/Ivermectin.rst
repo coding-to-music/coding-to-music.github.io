@@ -31,7 +31,7 @@ Source  `UK Daily Mail, By Luke Andrews <https://www.dailymail.co.uk/news/articl
 
 The effect of early treatment with ivermectin on viral load, symptoms and humoral response in patients with non-severe COVID-19: A pilot, double-blind, placebo-controlled, randomized clinical trial  
 
-Source: `The Lancet: The effect of early treatment with ivermectin on viral load, symptoms and humoral response in patients with non-severe COVID-19: A pilot, double-blind, placebo-controlled, randomized clinical trial <https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(20)30464-8/fulltext >`
+Source: `The Lancet: The effect of early treatment with ivermectin on viral load, symptoms and humoral response in patients with non-severe COVID-19: A pilot, double-blind, placebo-controlled, randomized clinical trial <https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(20)30464-8/fulltext>`
 
 Published: January 19, 2021
 
@@ -53,13 +53,16 @@ This leads to an increase in the permeability of the cell membrane to chloride i
 
 The margin of safety for compounds of this class is attributable to the fact that mammals do not have glutamate-gated chloride channels, the macrocyclic lactones have a low affinity for other mammalian ligand-gated chloride channels and they do not readily cross the blood-brain barrier.
 
-Source: `IVERMECTIN POUR-ON FOR CATTLE- ivermectin solution <https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=b339a104-62b3-4bb8-95e8-41cbff08d754&type=display >`
+Source: `IVERMECTIN POUR-ON FOR CATTLE- ivermectin solution <https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=b339a104-62b3-4bb8-95e8-41cbff08d754&type=display>`
+
+Source: `Ref1`_ 
 
 Footnotes
 ----------------
 
 .. _Python: http://www.python.org/
 
+.. _Ref1: https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=b339a104-62b3-4bb8-95e8-41cbff08d754&type=display
 
 .. target-notes::
 
