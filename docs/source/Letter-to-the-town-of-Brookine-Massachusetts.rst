@@ -8,7 +8,7 @@ Letter to the town of Brookine Massachusetts
 FY2021 Revised Budget: revised budget highlights  
 -------------------------------------------------
 
-.. figure:: assets/FY2021-revised-budget-revised-budget-highlights.png
+.. figure:: assets/Boston/Brookline/OpenLetter/FY2021-revised-budget-revised-budget-highlights.png
   :width: 80 %
   
   FY2021-revised-budget-revised-budget-highlights
@@ -18,7 +18,7 @@ Source: [FY 2021 Revised Budget Presentation to the Select Board](https://www.br
 FY2021 Revised Budget: assumptions local receipts  
 -------------------------------------------------
 
-.. figure:: assets/FY2021-revised-budget-assumptions-local-receipts.png
+.. figure:: assets/Boston/Brookline/OpenLetter/FY2021-revised-budget-assumptions-local-receipts.png
   :width: 80 %
   
   FY2021-revised-budget-assumptions-local-receipts
@@ -26,7 +26,7 @@ FY2021 Revised Budget: assumptions local receipts
 FY2021 Revised Budget: Departmental Reductions  
 -------------------------------------------------
 
-.. figure:: assets/FY2021-revised-budget-dept-reductions.png
+.. figure:: assets/Boston/Brookline/OpenLetter/FY2021-revised-budget-dept-reductions.png
   :width: 80 %
   
   FY2021-revised-budget-dept-reductions
@@ -36,7 +36,7 @@ Brookline Health: Budget 2018-2021
 
 Brookline subdirectory
 
-.. figure:: assets/Brookline-Health-Budget-2018-2021.png
+.. figure:: assets/Boston/Brookline/OpenLetter/Brookline-Health-Budget-2018-2021.png
   :width: 80 %
   
   Brookline-Health-Budget-2018-2021
@@ -46,7 +46,7 @@ Source: [Financial Plan - Live Tracking](https://brooklinema.opengov.com/transpa
 Brookline Health: Salaries 2018-2021  
 -------------------------------------------------
 
-.. figure:: assets/Brookline-Health-Salaries-2018-2021.png
+.. figure:: assets/Boston/Brookline/OpenLetter/Brookline-Health-Salaries-2018-2021.png
   :width: 80 %
   
   Brookline-Health-Salaries-2018-2021

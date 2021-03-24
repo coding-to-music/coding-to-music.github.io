@@ -5,7 +5,7 @@ Ivermectin
   :local:
 
 
-.. figure:: assets/Ivermectin-perscription.jpg
+.. figure:: assets/Medical-Treatments/Ivermectin/Ivermectin-perscription.jpg
   :width: 80 %
   
   Ivermectin-perscription
@@ -44,7 +44,7 @@ Published: January 19, 2021
 
 Source 
 
-.. figure:: assets/Ivermectin-sheep-drench.jpg
+.. figure:: assets/Medical-Treatments/Ivermectin/Ivermectin-sheep-drench.jpg
   :width: 80 %
   
   Ivermectin-sheep-drench

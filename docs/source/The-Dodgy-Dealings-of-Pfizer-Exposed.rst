@@ -36,7 +36,7 @@ Pfizer’s ransom demands were even more berserk in Argentina. Pfizer demanded t
 .. figure:: assets/Vaccines/Pfizer/Pfizer-image-3.png
     :width: 80 %
     
- Pfizer and Parliament  
+    Pfizer and Parliament  
 
     Pfizer and Parliament     
     
@@ -68,7 +68,7 @@ Congress and the regulatory agencies
 .. figure:: assets/Vaccines/Ronald-Reagan/Ronald-Reagan.png
     :width: 80 %
     
- Ronald Reagan 1986 Vaccine Law 
+    Ronald Reagan 1986 Vaccine Law 
 
     Ronald Reagan 1986 Vaccine Law    
     

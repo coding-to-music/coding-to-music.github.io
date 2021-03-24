@@ -5,7 +5,7 @@ Doxycycline
   :local:
 
 
-.. figure:: assets/doxycycline-capsules.jpeg
+.. figure:: assets/Medical-Treatments/Doxycycline/doxycycline-capsules.jpeg
   :width: 80 %
   
   doxycycline capsules
@@ -18,17 +18,17 @@ Doxycycline was patented in 1957 and came into commercial use in 1967.[5][6] It 
 
 Source: https://en.wikipedia.org/wiki/Doxycycline  
 
-.. figure:: assets/doxycycline-study.jpeg
+.. figure:: assets/Medical-Treatments/Doxycycline/doxycycline-study.jpeg
   :width: 80 %
   
   doxycycline-study
 
-.. figure:: assets/Doxycycline_for_STIs.jpg
+.. figure:: assets/Medical-Treatments/Doxycycline/Doxycycline_for_STIs.jpg
   :width: 80 %
   
   doxycycline for STIs
 
-.. figure:: assets/Effect-of-doxycycline-on-the-cell-viability-and-cell-cycle-A-IC-50-mM-dose-of.png
+.. figure:: assets/Medical-Treatments/Doxycycline/Effect-of-doxycycline-on-the-cell-viability-and-cell-cycle-A-IC-50-mM-dose-of.png
   :width: 80 %
   
   doxycycline-on-the-cell-viability

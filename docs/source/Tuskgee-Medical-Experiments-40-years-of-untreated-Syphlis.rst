@@ -5,7 +5,7 @@ Tuskgee Medical Experiments - 40 years of untreated Syphlis
   :local:
 
 
-.. figure:: assets/1-Tuskegee-Experiment-1932-1972.png
+.. figure:: assets/Vaccines/History-Lessons/Tuskegee-Experiment-1932-1972/1-Tuskegee-Experiment-1932-1972.png
   :width: 80 %
   
   White doctor injecting black farm worker
@@ -13,7 +13,7 @@ Tuskgee Medical Experiments - 40 years of untreated Syphlis
 The National Archives
 
 
-.. figure:: assets/1a-Tuskegee-Experiment-1932-1972.png
+.. figure:: assets/Vaccines/History-Lessons/Tuskegee-Experiment-1932-1972/1a-Tuskegee-Experiment-1932-1972.png
   :width: 80 %
   
   Tuskgee Medical Experiments - 40 years of untreated Syphlis
@@ -21,7 +21,7 @@ The National Archives
 The National Archives
 
 
-.. figure:: assets/1-zoom-Tuskegee-Experiment-1932-1972.png
+.. figure:: assets/Vaccines/History-Lessons/Tuskegee-Experiment-1932-1972/1-zoom-Tuskegee-Experiment-1932-1972.png
   :width: 80 %
   
   Participants in the Tuskegee Syphilis Study
@@ -42,10 +42,10 @@ The participants were primarily sharecroppers, and many had never before visited
 
 READ MORE: The ‘Father of Modern Gynecology’ Performed Shocking Experiments on Enslaved Women
 
-.. figure:: assets/2-Tuskegee-Experiment-1932-1972.png
+.. figure:: assets/Vaccines/History-Lessons/Tuskegee-Experiment-1932-1972/2-Tuskegee-Experiment-1932-1972.png
   :width: 80 %
   
- A man receiving treatment in the Tuskegee Syphilis Study 
+  A man receiving treatment in the Tuskegee Syphilis Study 
 
 The men were monitored by health workers but only given placebos such as aspirin and mineral supplements, despite the fact that penicillin became the recommended treatment for syphilis in 1947, some 15 years into the study. PHS researchers convinced local physicians in Macon County not to treat the participants, and instead research was done at the Tuskegee Institute. (Now called Tuskegee University, the school was founded in 1881 with Booker T. Washington at its first teacher.)
 
@@ -59,10 +59,10 @@ By that time, 28 participants had perished from syphilis, 100 more had passed aw
 
 READ MORE: Henrietta Lacks: How Her Cells Became One of the Most Important Medical Tools in History
 
-.. figure:: assets/3-Tuskegee-Experiment-1932-1972.png
+.. figure:: assets/Vaccines/History-Lessons/Tuskegee-Experiment-1932-1972/3-Tuskegee-Experiment-1932-1972.png
   :width: 80 %
   
- A man receiving treatment in the Tuskegee Syphilis Study 
+  A man receiving treatment in the Tuskegee Syphilis Study 
 
 In 1973, Congress held hearings on the Tuskegee experiments, and the following year the study’s surviving participants, along with the heirs of those who died, received a $10 million out-of-court settlement. Additionally, new guidelines were issued to protect human subjects in U.S. government-funded research projects.
 
@@ -74,7 +74,7 @@ The final study participant passed away in 2004.
 
 READ MORE: 7 of the More Outrageous Medical Treatments in History
 
-.. figure:: assets/4-Tuskegee-Experiment-1932-1972.png
+.. figure:: assets/Vaccines/History-Lessons/Tuskegee-Experiment-1932-1972/4-Tuskegee-Experiment-1932-1972.png
   :width: 80 %
   
   Herman Shaw speaks as President Bill Clinton looks on, during ceremonies at the White House on May 16, 1997. Clinton apologized to the survivors and families of the victims of the Tuskegee Syphilis Study.

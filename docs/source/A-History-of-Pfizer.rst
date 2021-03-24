@@ -4,7 +4,7 @@ A History of Pfizer
 .. contents::
   :local:
 
-.. figure:: assets/PfizerLogo.jpg
+.. figure:: assets/Vaccines/Pfizer/PfizerLogo.jpg
   :width: 80 %
   
   Pfizer Logo
@@ -23,7 +23,7 @@ Source `A history of Pfizer by pharmaphorum.com retrieved March 5 2021`_.
 
 .. _A history of Pfizer by pharmaphorum.com retrieved March 5 2021: https://pharmaphorum.com/sales-marketing/a_history_of_pfizer/
 
-.. figure:: assets/stock-photo-tokyo-may-pfizer-building-on-may-in-tokyo-pfizer-is-one-of-largest-pharmaceutical-106958480.jpg
+.. figure:: assets/Vaccines/Pfizer/stock-photo-tokyo-may-pfizer-building-on-may-in-tokyo-pfizer-is-one-of-largest-pharmaceutical-106958480.jpg
   :width: 80 %
   
   Pfizer’s Tokyo building

@@ -20,7 +20,7 @@ How to understand the ways Twitter filters, throttles and amplifies communicatio
 
 When I posted this:
 
-.. figure:: assets/brookline-economic-development-GIS-public-health-storefronts.png
+.. figure:: assets/Boston/Brookline/OpenLetter/brookline-economic-development-GIS-public-health-storefronts.png
   :width: 80 %
   
   brookline-economic-development-GIS-public-health-storefronts
@@ -81,7 +81,7 @@ How does the lockdowns help and encourage large business but destroy small busin
 
 Here is a question I posted on Facebook, and also on Twitter
 
-.. figure:: assets/brookline-economic-development-GIS-public-health-storefronts.png
+.. figure:: assets/Boston/Brookline/OpenLetter/brookline-economic-development-GIS-public-health-storefronts.png
   :width: 80 %
   
   brookline-economic-development-GIS-public-health-storefronts

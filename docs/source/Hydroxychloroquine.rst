@@ -5,7 +5,7 @@ Hydroxychloroquine
   :local:
 
 
-.. figure:: assets/Hydroxychloroquine.jpeg
+.. figure:: assets/Medical-Treatments/Hydroxychloroquine/Hydroxychloroquine.jpeg
   :width: 80 %
   
   Hydroxychloroquine
