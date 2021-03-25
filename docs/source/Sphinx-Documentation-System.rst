@@ -16,7 +16,9 @@ This next file is having some difficulties
 Paragraph-level-markup-from-ReadTheDocs
 
 
-.. note:: Having a problem with rst file: Paragraph-level-markup-from-ReadTheDocs 
+.. admonition:: Having a problem with rst file: Paragraph-level-markup-from-ReadTheDocs
+
+   Having a problem with rst file: Paragraph-level-markup-from-ReadTheDocs
 
 
 .. code-block:: 
