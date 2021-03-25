@@ -7,13 +7,26 @@ Sphinx Documentation System
     :caption: Contents:
  
     reStructured-Text-Special-directives
-    Paragraph-level-markup-from-ReadTheDocs
 
 .. contents::
     :local:
 
 
+This next file is having some difficulties
 Paragraph-level-markup-from-ReadTheDocs
+
+.. note:: Text1
+    Text2
+
+
+.. .. note:: text
+.. ::  resolving references...
+..     failed
+
+..     Exception occurred:
+..     File "/home/docs/checkouts/readthedocs.org/user_builds/pandemic-overview/envs/latest/lib/python3.7/site-packages/sphinx/builders/latex/transforms.py", line 383, in unrestrict
+..     fntext = footnotetext('', *footnote.children, ids=footnote['ids'])
+..     AttributeError: 'NoneType' object has no attribute 'children'
 
 ReadTheDocs Documentation System
 ------------------------------------
