@@ -13,10 +13,10 @@ objectives:
 keypoints:
 
 - You've learned some basic Docker commands for running, downloading, and searching for docker images
-- "`docker run` for running images (add `-it` for interactive mode)"
-- "`docker pull` for downloading images"
-- "`docker search` for searching images"
-- "Other useful commands to list current images and containers are `docker images` and `docker ps -a`"
+- `docker run` for running images (add `-it` for interactive mode)
+- `docker pull` for downloading images
+- `docker search` for searching images
+- Other useful commands to list current images and containers are `docker images` and `docker ps -a`
 
 Docker Containers 
 ----------------------------------------------------------------------
@@ -86,7 +86,8 @@ Here's an overview of what a workflow might look like:
 .. figure:: assets/Software/docker_workflow.png
   :align: center
   :width: 100 %
-  
+  :alt: Docker Workflow
+
   Docker Workflow
 
 
