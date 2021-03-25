@@ -1,14 +1,23 @@
-=============================
- reStructuredText Directives
-=============================
+============================================================================================
+ reStructuredText Directives - This is the official definition - This is the true resource 
+============================================================================================
 :Author: David Goodger
 :Contact: docutils-develop@lists.sourceforge.net
 :Revision: $Revision: 8610 $
 :Date: $Date: 2021-01-27 00:39:13 +0100 (Mi, 27. JÃ¤n 2021) $
 :Copyright: This document has been placed in the public domain.
 
+.. Note:: 
+    
+    This page was Retrieved and copied March 25 2021
+    https://docutils.sourceforge.io/docs/ref/rst/directives.html
+
+
+    
 .. contents::
    :depth: 2
+
+
 
 This document describes the directives implemented in the reference
 reStructuredText parser.
