@@ -16,15 +16,8 @@ This next file is having some difficulties
 Paragraph-level-markup-from-ReadTheDocs
 
 
-.. note:: Paragraph-level-markup-from-ReadTheDocs 
+.. note:: Having a problem with rst file: Paragraph-level-markup-from-ReadTheDocs 
 
-::  resolving references...
-    failed
-
-    Exception occurred:
-    File "/home/docs/checkouts/readthedocs.org/user_builds/pandemic-overview/envs/latest/lib/python3.7/site-packages/sphinx/builders/latex/transforms.py", line 383, in unrestrict
-    fntext = footnotetext('', footnote.children, ids=footnote['ids'])
-    AttributeError: 'NoneType' object has no attribute 'children'
 
 .. code-block:: 
     :caption: Code Blocks can have captions.
