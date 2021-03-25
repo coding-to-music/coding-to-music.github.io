@@ -15,6 +15,11 @@ The Dodgy Dealings of Pfizer Exposed
     
     The UK has also only approved the Pfizer jab for emergency use, which means Pfizer are not liable for any injury that occurs due to their vaccine – the British taxpayer is instead.
 
+.. note:: Here is content on the side:
+
+.. note:: Here is content on the side:
+    Here is content on the next line
+
 
 BY THE DAILY EXPOSE ON MARCH 2, 2021 • ( 2 COMMENTS )
 
