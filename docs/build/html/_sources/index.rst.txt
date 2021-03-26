@@ -10,8 +10,8 @@ Making Sense of the Pandmic
     Vaccines    
     Pandemic-Participants
     Food-Safety
-    Letter-to-the-town-of-Brookine-Massachusetts
     Municipal-Matters
+    Letter-to-the-town-of-Brookine-Massachusetts
     How-you-can-help
     license
     help

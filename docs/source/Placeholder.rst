@@ -60,6 +60,8 @@ Here is another image example
 
   Here is a Legend 
 
+" "
+
 There must be blank lines before the caption paragraph and before the
 legend.  To specify a legend without a caption, use an empty comment
 ("..") in place of the caption.
