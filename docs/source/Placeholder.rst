@@ -45,9 +45,7 @@ _`image options`.  For example::
 
 
 .. figure:: static/yi_jing_01_chien.jpg
-  :height: 100 %
   :width: 50 %
-  :scale: 100 %
   :alt: alternate text
   :align: right
 
