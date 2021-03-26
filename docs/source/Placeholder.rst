@@ -42,6 +42,12 @@ _`image options`.  For example::
        :align: right
 
 
+Here is another image example 
+
+    .. image:: static/yi_jing_01_chien.jpg
+       :width: 50 %
+       :alt: alternate text
+       :align: right
 
 
 .. figure:: static/yi_jing_01_chien.jpg
