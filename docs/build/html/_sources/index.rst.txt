@@ -8,21 +8,13 @@ Making Sense of the Pandmic
 
     Covid-Medical-Treatments
     Vaccines    
-    Events-in-Medical-History-we-might-want-to-consider
-    WHO-World-Health-Organization
-    WEF-World-Economic-Forum
+    Pandemic-Participants
     Food-Safety
-    FAQ-Frequently-Asked-Questions
-    Media-and-Influencers
-    Advice-for-Living
-    Words-of-Wisdom-from-Famous-People
-    Resources-and-additional-background-material
     Letter-to-the-town-of-Brookine-Massachusetts
     Municipal-Matters
     How-you-can-help
     license
     help
-    test2
 
 .. contents::
     :local:
