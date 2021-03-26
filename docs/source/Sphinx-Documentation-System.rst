@@ -9,10 +9,11 @@ Sphinx Documentation System
     reStructuredText-Directives-docutils
     reStructured-Text-Special-directives
     Paragraph-level-markup-from-ReadTheDocs
+    custom_domains
     faq
     canonical
     google-analytics
-    technical-docs-sea-guide
+    technical-docs-seo-guide
 
 .. contents::
     :local:
