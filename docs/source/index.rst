@@ -11,7 +11,6 @@ Making Sense of the Pandmic
     Pandemic-Participants
     Food-Safety
     Municipal-Matters
-    Letter-to-the-town-of-Brookine-Massachusetts
     How-you-can-help
     license
     help
