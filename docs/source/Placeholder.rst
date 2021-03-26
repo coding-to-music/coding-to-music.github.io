@@ -35,9 +35,9 @@ Optionally, the image link block may contain a flat field list, the
 _`image options`.  For example::
 
     .. image:: static/yi_jing_01_chien.jpg
-       :height: 100px
-       :width: 200 px
-       :scale: 50 %
+       :height: 400px
+       :width: 400 px
+       :scale: 75 %
        :alt: alternate text
        :align: right
 
