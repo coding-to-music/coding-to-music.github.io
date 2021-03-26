@@ -31,6 +31,9 @@ intervening blank lines.  If there are multiple lines in the link
 block, they are stripped of leading and trailing whitespace and joined
 together.
 
+Example 1 
+~~~~~~~~~~~~~~~~~~~~
+
 Optionally, the image link block may contain a flat field list, the
 _`image options`.  For example::
 
@@ -42,6 +45,8 @@ _`image options`.  For example::
        :align: right
 
 
+Example 2 
+~~~~~~~~~~~~~~~~~~~~
 
 Here is another image example 
 
@@ -66,6 +71,8 @@ There must be blank lines before the caption paragraph and before the
 legend.  To specify a legend without a caption, use an empty comment
 ("..") in place of the caption.
 
+Example 3 
+~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: static/yi_jing_01_chien.jpg
   :width: 50 %
@@ -76,6 +83,8 @@ legend.  To specify a legend without a caption, use an empty comment
 
   Legend 
 
+Example 4 
+~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: static/yi_jing_01_chien.jpg
   :width: 80 %
@@ -86,6 +95,8 @@ legend.  To specify a legend without a caption, use an empty comment
 
   Legend 
 
+Example 5 
+~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: static/yi_jing_01_chien.jpg
   :width: 100 %
@@ -96,6 +107,8 @@ legend.  To specify a legend without a caption, use an empty comment
 
   Legend 
 
+Example 6 
+~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: static/yi_jing_01_chien.jpg
   :width: 50 %
@@ -106,6 +119,8 @@ legend.  To specify a legend without a caption, use an empty comment
 
   Legend 
 
+Example 7 
+~~~~~~~~~~~~~~~~~~~~
 
 The following options are recognized:
 
