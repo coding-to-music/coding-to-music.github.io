@@ -67,6 +67,46 @@ legend.  To specify a legend without a caption, use an empty comment
 ("..") in place of the caption.
 
 
+.. figure:: static/yi_jing_01_chien.jpg
+  :width: 50 %
+  :alt: alternate text
+  :align: left
+
+  Here is a caption or empty text ".."
+
+  Legend 
+
+
+.. figure:: static/yi_jing_01_chien.jpg
+  :width: 80 %
+  :alt: alternate text
+  :align: center
+
+  Here is a caption or empty text ".."
+
+  Legend 
+
+
+.. figure:: static/yi_jing_01_chien.jpg
+  :width: 100 %
+  :alt: alternate text
+  :align: center
+
+  Here is a caption or empty text ".."
+
+  Legend 
+
+
+.. figure:: static/yi_jing_01_chien.jpg
+  :width: 50 %
+  :alt: alternate text
+  :align: right
+
+  Here is a caption or empty text ".."
+
+  Legend 
+
+
 The following options are recognized:
 
 ``alt`` : text
