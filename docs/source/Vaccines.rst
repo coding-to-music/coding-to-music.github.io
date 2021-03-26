@@ -5,6 +5,7 @@ Vaccines
     :maxdepth: 2
     :caption: Contents:
  
+    WHO-The-different-types-of-COVID-19-vaccines
     Vaccine-rollout-news
     Vaccine-history
     Vaccine-testing-and-approvals
