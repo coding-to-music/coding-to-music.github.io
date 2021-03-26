@@ -18,6 +18,8 @@ An "image" is a simple picture::
 
     .. image:: static/yi_jing_01_chien.jpg
 
+.. image:: static/yi_jing_01_chien.jpg
+
 Inline images can be defined with an "image" directive in a `substitution
 definition`_
 
@@ -38,6 +40,14 @@ _`image options`.  For example::
        :scale: 50 %
        :alt: alternate text
        :align: right
+
+.. image:: static/yi_jing_01_chien.jpg
+  :height: 100px
+  :width: 200 px
+  :scale: 50 %
+  :alt: alternate text
+  :align: right
+
 
 The following options are recognized:
 

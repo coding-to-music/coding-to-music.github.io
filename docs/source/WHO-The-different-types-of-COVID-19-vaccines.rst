@@ -23,6 +23,7 @@ The different types of COVID-19 vaccines
 .. Note:: 
     
     This page was Retrieved and copied March 25 2021
+    
     https://www.who.int/news-room/feature-stories/detail/the-race-for-a-covid-19-vaccine-explained
 
 
