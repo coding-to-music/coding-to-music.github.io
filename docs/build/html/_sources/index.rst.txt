@@ -7,7 +7,6 @@ Making Sense of the Pandmic
     :caption: Contents:
 
     Covid-Medical-Treatments
-    Legal-Issues
     Vaccines    
     Events-in-Medical-History-we-might-want-to-consider
     WHO-World-Health-Organization
