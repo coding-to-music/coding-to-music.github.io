@@ -17,10 +17,10 @@ How you can help
     Docker-and-Sphinx
     Kubernetes
     Web-Scraping
-    Upcoming-software-to-try
+    Search-Engine-Optimization-SEO-Guide
     Github-Workflow
     Using-and-Sharing-Rich-Objects
-    Vagrant
+    Upcoming-software-to-try
     Contribute
 
 .. contents::
