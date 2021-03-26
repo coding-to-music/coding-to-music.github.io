@@ -41,12 +41,21 @@ _`image options`.  For example::
        :alt: alternate text
        :align: right
 
-.. image:: static/yi_jing_01_chien.jpg
+
+.. figure:: static/yi_jing_01_chien.jpg
   :height: 100px
   :width: 200 px
   :scale: 50 %
   :alt: alternate text
   :align: right
+
+  Here is a Legend or empty text ".." 
+
+  Here is a caption
+
+There must be blank lines before the caption paragraph and before the
+legend.  To specify a legend without a caption, use an empty comment
+("..") in place of the caption.
 
 
 The following options are recognized:
