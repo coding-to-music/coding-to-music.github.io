@@ -1,4 +1,4 @@
-WHO-The-different-types-of-COVID-19-vaccines
+WHO: The different types of COVID-19 vaccines
 ================================================
 
 .. toctree::
