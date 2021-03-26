@@ -40,3 +40,4 @@ Most of the Adirondack road salt, about 110,000 tons annually, is applied to sta
 
 State officials have been briefed and examined the study, Kelting said. The state Department of Health has offered to test for free the well water of affected homeowners and begun doing that, he said.
 
+Last change: |today| 

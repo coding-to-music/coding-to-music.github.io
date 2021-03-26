@@ -73,3 +73,4 @@ The new law calls for other state testing areas elsewhere in the park, pending t
 
 Some local highway departments are moving more quickly to curb salt use. Warren County’s public works department, for instance, is already treating 100 miles of roads with a saltwater brine and using more advanced plows that do a better job clearing roads.
 
+Last change: |today| 

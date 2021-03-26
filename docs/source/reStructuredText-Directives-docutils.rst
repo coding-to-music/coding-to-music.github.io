@@ -2090,3 +2090,5 @@ _`:name:` : text
    sentence-end-double-space: t
    fill-column: 70
    End:
+
+   Last change: |today| 

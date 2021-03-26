@@ -13,7 +13,13 @@ Sphinx Documentation System
     faq
     canonical
     google-analytics
+    user-defined-redirects
     technical-docs-seo-guide
+    guides/wipe-environment
+    guides/feature-flags
+    guides/reproducible-builds
+    guides/localization
+    guides/manage-translations
 
 .. contents::
     :local:

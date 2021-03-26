@@ -317,3 +317,5 @@ We deploy readthedocs.org from the ``rel`` branch in our GitHub repository.
 You can see the latest commits that have been deployed by looking on GitHub: https://github.com/readthedocs/readthedocs.org/commits/rel
 
 We also keep an up-to-date :doc:`changelog </changelog>`.
+
+Last change: |today| 
