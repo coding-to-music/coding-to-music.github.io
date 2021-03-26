@@ -1,5 +1,5 @@
-Frequently Asked Questions
-==========================
+ReadTheDocs - Frequently Asked Questions
+==========================================
 
 My project isn't building correctly
 -----------------------------------

@@ -8,6 +8,11 @@ Sphinx Documentation System
  
     reStructuredText-Directives-docutils
     reStructured-Text-Special-directives
+    Paragraph-level-markup-from-ReadTheDocs
+    faq
+    canonical
+    google-analytics
+    technical-docs-sea-guide
 
 .. contents::
     :local:
