@@ -1,9 +1,6 @@
 Pandemic Participants
 ==========================
 
-Placeholder
-=================
-
 .. toctree::
     :maxdepth: 2
     :caption: Contents:
