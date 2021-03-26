@@ -6,8 +6,8 @@ Sphinx Documentation System
     :maxdepth: 2
     :caption: Contents:
  
+    reStructuredText-Directives-docutils
     reStructured-Text-Special-directives
-    reStructuredText-Directives
 
 .. contents::
     :local:

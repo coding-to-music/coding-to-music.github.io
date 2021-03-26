@@ -1,6 +1,6 @@
-============================================================================================
- reStructuredText Directives - This is the official definition - This is the true resource 
-============================================================================================
+==================================================================================================
+docutils reStructuredText Directives - This is the official definition - This is the true resource 
+==================================================================================================
 :Author: David Goodger
 :Contact: docutils-develop@lists.sourceforge.net
 :Revision: $Revision: 8610 $
@@ -628,6 +628,13 @@ For example, this input::
 
         -- Buckaroo Banzai
 
+.. epigraph::
+
+    No matter where you go, there you are.
+
+    -- Buckaroo Banzai
+
+
 becomes this document tree fragment::
 
     <block_quote classes="epigraph">
@@ -697,6 +704,17 @@ example::
 
        you will erase the entire contents of your file system.
 
+.. compound::
+
+    The 'rm' command is very dangerous.  If you are logged
+    in as root and enter ::
+
+        cd /
+        rm -rf *
+
+    you will erase the entire contents of your file system.
+
+
 In the example above, a literal block is "embedded" within a sentence
 that begins in one physical paragraph and ends in another.
 
@@ -739,6 +757,12 @@ extension mechanism for users & applications.  For example::
     .. container:: custom
 
        This paragraph might be rendered in a custom way.
+
+
+.. container:: custom
+
+    This paragraph might be rendered in a custom way.
+
 
 Parsing the above results in the following pseudo-XML::
 
@@ -786,6 +810,17 @@ title with a table or specify options, e.g.::
        False  True
        True   False
        =====  =====
+
+.. table:: Truth table for "not"
+   :widths: auto
+
+   =====  =====
+     A    not A
+   =====  =====
+   False  True
+   True   False
+   =====  =====
+
 
 The following options are recognized:
 
@@ -846,6 +881,16 @@ Example::
        "Crunchy Frog", 1.49, "If we took the bones out, it wouldn't be
        crunchy, now would it?"
        "Gannet Ripple", 1.99, "On a stick!"
+
+
+.. csv-table:: Frozen Delights!
+    :header: "Treat", "Quantity", "Description"
+    :widths: 15, 10, 30
+
+    "Albatross", 2.99, "On a stick!"
+    "Crunchy Frog", 1.49, "If we took the bones out, it wouldn't be
+    crunchy, now would it?"
+    "Gannet Ripple", 1.99, "On a stick!"
 
 Block markup and inline markup within cells is supported.  Line ends
 are recognized within cells.
