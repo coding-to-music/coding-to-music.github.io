@@ -58,9 +58,9 @@ Here is another image example
 
   Here is a caption or empty text ".."
 
-  Here is a Legend 
+  Inner Legend 
 
-" "
+"Outer Caption here"
 
 There must be blank lines before the caption paragraph and before the
 legend.  To specify a legend without a caption, use an empty comment
