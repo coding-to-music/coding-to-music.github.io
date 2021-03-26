@@ -1,13 +1,22 @@
-Placeholder
+Vaccines
 =================
 
 .. toctree::
     :maxdepth: 2
     :caption: Contents:
  
+    Vaccine-rollout-news
+    Vaccine-history
+    Vaccine-testing-and-approvals
+    How-Vaccines-Work
+    Charts-and-Graphs
+    Vaccine-future-topics
+
 
 .. contents::
     :local:
+
+    
 
     
 .. figure:: assets/Medical-Treatments/Hydroxychloroquine/Hydroxychloroquine.jpeg
@@ -15,6 +24,8 @@ Placeholder
   :width: 80 %
   
   Hydroxychloroquine
+
+
 
 
 Last change: |today| 
