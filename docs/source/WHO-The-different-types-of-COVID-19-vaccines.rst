@@ -103,10 +103,10 @@ A subunit vaccine is one that only uses the very specific parts (the subunits) o
 
 .. figure:: assets/Vaccines/WHO/Vaccine-Types/WHO-vaccine-types-04-The-genetic-approach-nucleic-acid-vaccine.jpg
   :width: 100%
-  :alt: A subunit vaccine is one that only uses the very specific parts (the subunits) of a virus or bacterium that the immune system needs to recognize
+  :alt: The nucleic acid approach is a new way of developing vaccines. Before the COVID-19 pandemic, none had yet been through the full approvals process for use in humans
   :align: center
 
-  A subunit vaccine is one that only uses the very specific parts (the subunits) of a virus or bacterium that the immune system needs to recognize
+  The nucleic acid approach is a new way of developing vaccines. Before the COVID-19 pandemic, none had yet been through the full approvals process for use in humans
 
 
 The genetic approach (nucleic acid vaccine)
@@ -124,6 +124,11 @@ Unlike vaccine approaches that use either a weakened or dead whole microbe or pa
 
   **The nucleic acid approach is a new way of developing vaccines. Before the COVID-19 pandemic, none had yet been through the full approvals process for use in humans**
 
+
+.. Warning:: 
+    
+    
+    **The nucleic acid approach is a new way of developing vaccines. Before the COVID-19 pandemic, none had yet been through the full approvals process for use in humans**
 
 A nucleic acid vaccine delivers a specific set of instructions to our cells, either as DNA or mRNA, for them to make the specific protein that we want our immune system to recognize and respond to. 
 
