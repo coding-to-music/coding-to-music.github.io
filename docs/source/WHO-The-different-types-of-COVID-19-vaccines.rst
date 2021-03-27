@@ -50,10 +50,10 @@ Typically, many vaccine candidates will be evaluated before any are found to be 
   :align: center
 
   Three Main Approaches to create a vaccine:
-  
-    - Using a whole virus or bacterium
-    - Just the genetic material (subunit)
-    - Modify DNA or mRNA  
+
+    Using a whole virus or bacterium
+    Just the genetic material (subunit)
+    Modify DNA or mRNA  
 
 
 The different types of vaccines
@@ -66,8 +66,11 @@ There are three main approaches to designing a vaccine. Their differences lie in
   :alt: Vaccines Topics image 02 Whole Microbe Approach
   :align: center
 
-  Vaccines Topics image 02 Whole Microbe Approach
-
+  The whole-microbe approach
+  
+  Inactivated vaccine: take the disease-carrying virus or bacterium, or one very similar to it, and inactivate or kill it using chemicals, heat or radiation. Flu and polio vaccines    
+  Live-attenuated vaccine: uses a living but weakened version of the virus or one that’s very similar. The measles, mumps and rubella (MMR) vaccine and the chickenpox and shingles vaccine are examples. Not suitable for people with compromised immune systems.
+  Viral vector vaccine: uses a safe virus to deliver specific sub-parts – called proteins – of the germ of interest so that it can trigger an immune response. Ebola vaccine.
 
 The whole-microbe approach
 ---------------------------------------------
