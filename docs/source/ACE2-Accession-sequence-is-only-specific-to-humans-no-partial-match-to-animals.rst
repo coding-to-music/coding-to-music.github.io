@@ -4,6 +4,12 @@ ACE2 Accession sequence is only specific to humans no partial match to animals
 .. contents::
   :local:
 
+.. Note:: 
+    
+    This page was Retrieved and copied March 10 2021
+    
+    https://twitter.com/ThomasConnors/status/1266413879388758017
+
 
 .. figure:: assets/Vaccines/ACE2/ACE2-Accession-sequence-is-only-specific-to-humans-no-partial-match-to-animals.jpeg
   :align: center
