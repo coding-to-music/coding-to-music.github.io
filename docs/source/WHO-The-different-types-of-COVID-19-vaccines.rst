@@ -31,10 +31,10 @@ The different types of COVID-19 vaccines
 
 .. figure:: assets/Vaccines/WHO/Vaccine-Types/WHO-vaccine-types-00-header-three-types-whole-virus-vs-just-genetic-material-vs-triggers-of-your-immune-system.png
   :width: 100 %
-  :alt: Vaccines Topics Header
+  :alt: There are three main approaches to designing a vaccine. Their differences lie in whether they use a whole virus or bacterium; just the parts of the germ that triggers the immune system; or just the genetic material that provides the instructions for making specific proteins and not the whole virus.
   :align: center
 
-  Vaccines Topics Header
+  There are three main approaches to designing a vaccine. Their differences lie in whether they use a whole virus or bacterium; just the parts of the germ that triggers the immune system; or just the genetic material that provides the instructions for making specific proteins and not the whole virus.
 
 
 This article is part of a series of explainers on vaccine development and distribution. Learn more about vaccines – from how they work and how they’re made to ensuring safety and equitable access – in WHO’s Vaccines Explained series.
@@ -49,7 +49,11 @@ Typically, many vaccine candidates will be evaluated before any are found to be 
   :alt: Vaccines Topics image 01 Three Main Approaches to create a vaccine 
   :align: center
 
-  Vaccines Topics image 01 Threee Main Approaches to create a vaccine 
+  Three Main Approaches to create a vaccine:
+  
+    - Using a whole virus or bacterium
+    - Just the genetic material (subunit)
+    - Modify DNA or mRNA  
 
 
 The different types of vaccines
