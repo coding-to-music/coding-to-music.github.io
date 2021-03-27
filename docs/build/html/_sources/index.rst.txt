@@ -8,6 +8,7 @@ Making Sense of the Pandmic
 
     Covid-Medical-Treatments
     Vaccines    
+    Origins-of-the-COVID19-virus
     Pandemic-Participants
     Food-Safety
     Municipal-Matters
