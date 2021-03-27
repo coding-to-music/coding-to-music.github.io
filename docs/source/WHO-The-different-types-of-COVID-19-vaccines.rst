@@ -1,6 +1,15 @@
 WHO: The different types of COVID-19 vaccines
 ================================================
 
+
+.. Warning:: 
+    
+    From the WHO article:
+    
+    **The nucleic acid approach is a new way of developing vaccines. Before the COVID-19 pandemic, none had yet been through the full approvals process for use in humans**
+
+
+
 .. toctree::
     :maxdepth: 2
     :caption: Contents:
@@ -106,15 +115,15 @@ The genetic approach (nucleic acid vaccine)
 Unlike vaccine approaches that use either a weakened or dead whole microbe or parts of one, a nucleic acid vaccine just uses a section of genetic material that provides the instructions for specific proteins, not the whole microbe. DNA and RNA are the instructions our cells use to make proteins. In our cells, DNA is first turned into messenger RNA, which is then used as the blueprint to make specific proteins. 
 
 
-.. figure:: assets/Vaccines/WHO/Vaccine-Types/vaccines-topics-four-images-working-05-dna-rna-v2.jpg
+.. figure:: assets/Vaccines/WHO/Vaccine-Types/vaccines-topics-four-images-working-05-nucleic-acid-approach-modify-dna-rna.jpg
   :width: 100%
   :alt: Vaccines Topics images 05 DNA RNA v2
   :align: center
 
-  Vaccines Topics images 05 DNA RNA v2
+  A nucleic acid vaccine delivers a specific set of instructions to our cells, either as DNA or mRNA, for them to make the specific protein that we want our immune system to recognize and respond to.
 
+  **The nucleic acid approach is a new way of developing vaccines. Before the COVID-19 pandemic, none had yet been through the full approvals process for use in humans**
 
-Vaccines Topics Four images working 05 DNA RNA v2
 
 A nucleic acid vaccine delivers a specific set of instructions to our cells, either as DNA or mRNA, for them to make the specific protein that we want our immune system to recognize and respond to. 
 
