@@ -121,7 +121,7 @@ A subunit vaccine is one that only uses the very specific parts (the subunits) o
   The nucleic acid approach is a new way of developing vaccines. Before the COVID-19 pandemic, none had yet been through the full approvals process for use in humans
 
 
-The genetic approach (nucleic acid vaccine)
+The genetic approach (nucleic acid DNA mRNA)
 ---------------------------------------------
 
 Unlike vaccine approaches that use either a weakened or dead whole microbe or parts of one, a nucleic acid vaccine just uses a section of genetic material that provides the instructions for specific proteins, not the whole microbe. DNA and RNA are the instructions our cells use to make proteins. In our cells, DNA is first turned into messenger RNA, which is then used as the blueprint to make specific proteins. 
