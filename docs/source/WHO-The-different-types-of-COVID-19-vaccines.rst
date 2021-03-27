@@ -29,7 +29,7 @@ The different types of COVID-19 vaccines
     https://www.who.int/news-room/feature-stories/detail/the-race-for-a-covid-19-vaccine-explained
 
 
-.. figure:: assets/Vaccines/WHO/Vaccine-Types/vaccines-topics-four-images-working-05-header.png
+.. figure:: assets/Vaccines/WHO/Vaccine-Types/WHO-vaccine-types-00-header-three-types-whole-virus-vs-just-genetic-material-vs-triggers-of-your-immune-system.png
   :width: 100 %
   :alt: Vaccines Topics Header
   :align: center
@@ -44,7 +44,7 @@ As of December 2020, there are over 200 vaccine candidates for COVID-19 being de
 Why are there so many vaccines in development?
 Typically, many vaccine candidates will be evaluated before any are found to be both safe and effective. For example, of all the vaccines that are studied in the lab and laboratory animals, roughly 7 out of every 100 will be considered good enough to move into clinical trials in humans. Of the vaccines that do make it to clinical trials, just one in five is successful. Having lots of different vaccines in development increases the chances that there will be one or more successful vaccines that will be shown to be safe and efficacious for the intended prioritized populations.
 
-.. figure:: assets/Vaccines/WHO/Vaccine-Types/vaccines-topics-four-images-working-01-three-main-approaches.jpg
+.. figure:: assets/Vaccines/WHO/Vaccine-Types/WHO-vaccine-types-01-three-main-approaches.jpg
   :width: 100%
   :alt: Vaccines Topics image 01 Three Main Approaches to create a vaccine 
   :align: center
@@ -57,7 +57,7 @@ The different types of vaccines
 
 There are three main approaches to designing a vaccine. Their differences lie in whether they use a whole virus or bacterium; just the parts of the germ that triggers the immune system; or just the genetic material that provides the instructions for making specific proteins and not the whole virus.
 
-.. figure:: assets/Vaccines/WHO/Vaccine-Types/vaccines-topics-four-images-working-02-whole-microbe-approach.jpg
+.. figure:: assets/Vaccines/WHO/Vaccine-Types/WHO-vaccine-types-02-whole-microbe-approach.jpg
   :width: 100%
   :alt: Vaccines Topics image 02 Whole Microbe Approach
   :align: center
@@ -90,7 +90,7 @@ The subunit approach
 ---------------------------------------------
 
 
-.. figure:: assets/Vaccines/WHO/Vaccine-Types/vaccines-topics-four-images-working-03-subunit-approach.jpg
+.. figure:: assets/Vaccines/WHO/Vaccine-Types/WHO-vaccine-types-03-subunit-approach.jpg
   :width: 100%
   :alt: A subunit vaccine is one that only uses the very specific parts (the subunits) of a virus or bacterium that the immune system needs to recognize
   :align: center
@@ -101,7 +101,7 @@ The subunit approach
 A subunit vaccine is one that only uses the very specific parts (the subunits) of a virus or bacterium that the immune system needs to recognize. It doesn't contain the whole microbe or use a safe virus as a vector. The subunits may be proteins or sugars. Most of the vaccines on the childhood schedule are subunit vaccines, protecting people from diseases such as whooping cough, tetanus, diphtheria and meningococcal meningitis.
 
 
-.. figure:: assets/Vaccines/WHO/Vaccine-Types/vaccines-topics-four-images-working-04-The-genetic-approach-nucleic-acid-vaccine.jpg
+.. figure:: assets/Vaccines/WHO/Vaccine-Types/WHO-vaccine-types-04-The-genetic-approach-nucleic-acid-vaccine.jpg
   :width: 100%
   :alt: A subunit vaccine is one that only uses the very specific parts (the subunits) of a virus or bacterium that the immune system needs to recognize
   :align: center
@@ -115,7 +115,7 @@ The genetic approach (nucleic acid vaccine)
 Unlike vaccine approaches that use either a weakened or dead whole microbe or parts of one, a nucleic acid vaccine just uses a section of genetic material that provides the instructions for specific proteins, not the whole microbe. DNA and RNA are the instructions our cells use to make proteins. In our cells, DNA is first turned into messenger RNA, which is then used as the blueprint to make specific proteins. 
 
 
-.. figure:: assets/Vaccines/WHO/Vaccine-Types/vaccines-topics-four-images-working-05-nucleic-acid-approach-modify-dna-rna.jpg
+.. figure:: assets/Vaccines/WHO/Vaccine-Types/WHO-vaccine-types-05-nucleic-acid-approach-modify-dna-rna.jpg
   :width: 100%
   :alt: Vaccines Topics images 05 DNA RNA v2
   :align: center
