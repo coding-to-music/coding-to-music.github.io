@@ -20,6 +20,16 @@ The different types of COVID-19 vaccines
     https://www.who.int/news-room/feature-stories/detail/the-race-for-a-covid-19-vaccine-explained
 
 
+.. figure:: assets/Vaccines/WHO/Vaccine-Types/vaccines-topics-four-images-working-05-header.png
+  :width: 80 %
+  :alt: Vaccines Topics Header
+  :align: center
+
+  Vaccines Topics Header
+
+  Legend Vaccines Topics Header 
+
+
 This article is part of a series of explainers on vaccine development and distribution. Learn more about vaccines – from how they work and how they’re made to ensuring safety and equitable access – in WHO’s Vaccines Explained series.
 
 As of December 2020, there are over 200 vaccine candidates for COVID-19 being developed. Of these, at least 52 candidate vaccines are in human trials. There are several others currently in phase I/II, which will enter phase III in the coming months (for more information on the clinical trial phases, see part three of our Vaccine Explained series).
