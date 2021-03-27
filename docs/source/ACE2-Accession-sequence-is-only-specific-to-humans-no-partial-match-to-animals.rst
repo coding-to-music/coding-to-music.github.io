@@ -13,7 +13,7 @@ ACE2 Accession sequence is only specific to humans no partial match to animals
 
   Source `Twitter exchange @ThomasConnors 12:59 PM · May 29, 2020`_.
 
-  .. _Twitter: https://twitter.com/ThomasConnors/status/1266413879388758017
+  .. _Twitter exchange @ThomasConnors 12:59 PM · May 29, 2020: https://twitter.com/ThomasConnors/status/1266413879388758017
 
 
 Last change: |today|

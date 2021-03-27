@@ -1,4 +1,4 @@
-Origins of the COVID19 Virus 
+Origins of the Virus 
 ================================
 
 .. toctree::
