@@ -1,6 +1,13 @@
 Origins of the Virus 
 ================================
 
+.. figure:: assets/Vaccines/Origins/GettyImages_643959858.0.webp
+  :align: center
+  :width: 100 %
+  
+  Wuhan Lab Workers
+
+
 .. toctree::
     :maxdepth: 2
     :caption: Contents:
@@ -15,11 +22,6 @@ Origins of the Virus
 
 
 
-.. figure:: assets/Vaccines/Origins/GettyImages_643959858.0.webp
-  :align: center
-  :width: 100 %
-  
-  Wuhan Lab Workers
 
 
 
