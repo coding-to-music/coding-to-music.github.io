@@ -46,12 +46,12 @@ Typically, many vaccine candidates will be evaluated before any are found to be 
 The different types of vaccines
 There are three main approaches to designing a vaccine. Their differences lie in whether they use a whole virus or bacterium; just the parts of the germ that triggers the immune system; or just the genetic material that provides the instructions for making specific proteins and not the whole virus.
 
-.. figure:: assets/Vaccines/WHO/Vaccine-Types/vaccines-topics-four-images-working-02.jpg
+.. figure:: assets/Vaccines/WHO/Vaccine-Types/vaccines-topics-four-images-working-02-whole-microbe-approach.jpg
   :width: 100%
-  :alt: Vaccines Topics image 02 DNA RNA
+  :alt: Vaccines Topics image 02 Whole Microbe Approach
   :align: center
 
-  Vaccines Topics image 02 DNA RNA
+  Vaccines Topics image 02 Whole Microbe Approach
 
 
 The whole-microbe approach
