@@ -35,15 +35,17 @@ As of December 2020, there are over 200 vaccine candidates for COVID-19 being de
 Why are there so many vaccines in development?
 Typically, many vaccine candidates will be evaluated before any are found to be both safe and effective. For example, of all the vaccines that are studied in the lab and laboratory animals, roughly 7 out of every 100 will be considered good enough to move into clinical trials in humans. Of the vaccines that do make it to clinical trials, just one in five is successful. Having lots of different vaccines in development increases the chances that there will be one or more successful vaccines that will be shown to be safe and efficacious for the intended prioritized populations.
 
-.. figure:: assets/Vaccines/WHO/Vaccine-Types/vaccines-topics-four-images-working-01.jpg
+.. figure:: assets/Vaccines/WHO/Vaccine-Types/vaccines-topics-four-images-working-01-three-main-approaches.jpg
   :width: 100%
-  :alt: Vaccines Topics image 01 DNA RNA
+  :alt: Vaccines Topics image 01 Three Main Approaches to create a vaccine 
   :align: center
 
-  Vaccines Topics image 01 DNA RNA
+  Vaccines Topics image 01 Threee Main Approaches to create a vaccine 
 
 
 The different types of vaccines
+---------------------------------------------
+
 There are three main approaches to designing a vaccine. Their differences lie in whether they use a whole virus or bacterium; just the parts of the germ that triggers the immune system; or just the genetic material that provides the instructions for making specific proteins and not the whole virus.
 
 .. figure:: assets/Vaccines/WHO/Vaccine-Types/vaccines-topics-four-images-working-02-whole-microbe-approach.jpg
@@ -79,23 +81,23 @@ The subunit approach
 ---------------------------------------------
 
 
-.. figure:: assets/Vaccines/WHO/Vaccine-Types/vaccines-topics-four-images-working-03.jpg
+.. figure:: assets/Vaccines/WHO/Vaccine-Types/vaccines-topics-four-images-working-03-subunit-approach.jpg
   :width: 100%
-  :alt: Vaccines Topics image 03 DNA RNA
+  :alt: A subunit vaccine is one that only uses the very specific parts (the subunits) of a virus or bacterium that the immune system needs to recognize
   :align: center
 
-  Vaccines Topics image 03 DNA RNA
+  A subunit vaccine is one that only uses the very specific parts (the subunits) of a virus or bacterium that the immune system needs to recognize
 
 
 A subunit vaccine is one that only uses the very specific parts (the subunits) of a virus or bacterium that the immune system needs to recognize. It doesn't contain the whole microbe or use a safe virus as a vector. The subunits may be proteins or sugars. Most of the vaccines on the childhood schedule are subunit vaccines, protecting people from diseases such as whooping cough, tetanus, diphtheria and meningococcal meningitis.
 
 
-.. figure:: assets/Vaccines/WHO/Vaccine-Types/vaccines-topics-four-images-working-04.jpg
+.. figure:: assets/Vaccines/WHO/Vaccine-Types/vaccines-topics-four-images-working-04-The-genetic-approach-nucleic-acid-vaccine.jpg
   :width: 100%
-  :alt: Vaccines Topics image 04 DNA RNA
+  :alt: A subunit vaccine is one that only uses the very specific parts (the subunits) of a virus or bacterium that the immune system needs to recognize
   :align: center
 
-  Vaccines Topics image 04 DNA RNA
+  A subunit vaccine is one that only uses the very specific parts (the subunits) of a virus or bacterium that the immune system needs to recognize
 
 
 The genetic approach (nucleic acid vaccine)
