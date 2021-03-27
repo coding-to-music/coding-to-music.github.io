@@ -5,6 +5,8 @@ Origins of the Virus
     :maxdepth: 2
     :caption: Contents:
  
+    Normal-GOF-research
+    GOF
     ACE2-Accession-sequence-is-only-specific-to-humans-no-partial-match-to-animals
 
 .. contents::
