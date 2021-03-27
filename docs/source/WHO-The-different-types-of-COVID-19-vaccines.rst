@@ -21,13 +21,11 @@ The different types of COVID-19 vaccines
 
 
 .. figure:: assets/Vaccines/WHO/Vaccine-Types/vaccines-topics-four-images-working-05-header.png
-  :width: 80 %
+  :width: 100 %
   :alt: Vaccines Topics Header
   :align: center
 
   Vaccines Topics Header
-
-  Legend Vaccines Topics Header 
 
 
 This article is part of a series of explainers on vaccine development and distribution. Learn more about vaccines – from how they work and how they’re made to ensuring safety and equitable access – in WHO’s Vaccines Explained series.
@@ -38,26 +36,22 @@ Why are there so many vaccines in development?
 Typically, many vaccine candidates will be evaluated before any are found to be both safe and effective. For example, of all the vaccines that are studied in the lab and laboratory animals, roughly 7 out of every 100 will be considered good enough to move into clinical trials in humans. Of the vaccines that do make it to clinical trials, just one in five is successful. Having lots of different vaccines in development increases the chances that there will be one or more successful vaccines that will be shown to be safe and efficacious for the intended prioritized populations.
 
 .. figure:: assets/Vaccines/WHO/Vaccine-Types/vaccines-topics-four-images-working-01.jpg
-  :width: 80 %
-  :alt: Vaccines Topics Four images working 01
+  :width: 100%
+  :alt: Vaccines Topics image 01 DNA RNA
   :align: center
 
-  Vaccines Topics Four images working 01
-
-  Legend Vaccines Topics Four images working 01 
+  Vaccines Topics image 01 DNA RNA
 
 
 The different types of vaccines
 There are three main approaches to designing a vaccine. Their differences lie in whether they use a whole virus or bacterium; just the parts of the germ that triggers the immune system; or just the genetic material that provides the instructions for making specific proteins and not the whole virus.
 
 .. figure:: assets/Vaccines/WHO/Vaccine-Types/vaccines-topics-four-images-working-02.jpg
-  :width: 80 %
-  :alt: Vaccines Topics Four images working 02
+  :width: 100%
+  :alt: Vaccines Topics image 02 DNA RNA
   :align: center
 
-  Vaccines Topics Four images working 02
-
-  Legend Vaccines Topics Four images working 02 
+  Vaccines Topics image 02 DNA RNA
 
 
 The whole-microbe approach
@@ -86,26 +80,22 @@ The subunit approach
 
 
 .. figure:: assets/Vaccines/WHO/Vaccine-Types/vaccines-topics-four-images-working-03.jpg
-  :width: 80 %
-  :alt: Vaccines Topics Four images working 03
+  :width: 100%
+  :alt: Vaccines Topics image 03 DNA RNA
   :align: center
 
-  Vaccines Topics Four images working 03
-
-  Legend Vaccines Topics Four images working 03 
+  Vaccines Topics image 03 DNA RNA
 
 
 A subunit vaccine is one that only uses the very specific parts (the subunits) of a virus or bacterium that the immune system needs to recognize. It doesn't contain the whole microbe or use a safe virus as a vector. The subunits may be proteins or sugars. Most of the vaccines on the childhood schedule are subunit vaccines, protecting people from diseases such as whooping cough, tetanus, diphtheria and meningococcal meningitis.
 
 
 .. figure:: assets/Vaccines/WHO/Vaccine-Types/vaccines-topics-four-images-working-04.jpg
-  :width: 80 %
-  :alt: Vaccines Topics Four images working 04
+  :width: 100%
+  :alt: Vaccines Topics image 04 DNA RNA
   :align: center
 
-  Vaccines Topics Four images working 04
-
-  Legend Vaccines Topics Four images working 04 
+  Vaccines Topics image 04 DNA RNA
 
 
 The genetic approach (nucleic acid vaccine)
@@ -115,13 +105,11 @@ Unlike vaccine approaches that use either a weakened or dead whole microbe or pa
 
 
 .. figure:: assets/Vaccines/WHO/Vaccine-Types/vaccines-topics-four-images-working-05-dna-rna-v2.jpg
-  :width: 80 %
-  :alt: Vaccines Topics Four images working 05 DNA RNA v2
+  :width: 100%
+  :alt: Vaccines Topics images 05 DNA RNA v2
   :align: center
 
-  Vaccines Topics Four images working 05 DNA RNA v2
-
-  Legend Vaccines Topics Four images working 05 
+  Vaccines Topics images 05 DNA RNA v2
 
 
 Vaccines Topics Four images working 05 DNA RNA v2
@@ -129,11 +117,6 @@ Vaccines Topics Four images working 05 DNA RNA v2
 A nucleic acid vaccine delivers a specific set of instructions to our cells, either as DNA or mRNA, for them to make the specific protein that we want our immune system to recognize and respond to. 
 
 The nucleic acid approach is a new way of developing vaccines. Before the COVID-19 pandemic, none had yet been through the full approvals process for use in humans, though some DNA vaccines, including for particular cancers, were undergoing human trials. Because of the pandemic, research in this area has progressed very fast and some mRNA vaccines for COVID-19 are getting emergency use authorization, which means they can now be given to people beyond using them only in clinical trials.
-
-
-
-
-
 
 
 
