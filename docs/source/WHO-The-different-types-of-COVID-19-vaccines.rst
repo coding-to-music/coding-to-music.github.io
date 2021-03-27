@@ -67,15 +67,18 @@ There are three main approaches to designing a vaccine. Their differences lie in
   :align: center
 
   The whole-microbe approach
-  
-  - Inactivated vaccine: take the disease-carrying virus or bacterium, or one very similar to it, and inactivate or kill it using chemicals, heat or radiation. Flu and polio vaccines    
-  
-  - Live-attenuated vaccine: uses a living but weakened version of the virus or one that’s very similar. The measles, mumps and rubella (MMR) vaccine and the chickenpox and shingles vaccine are examples. Not suitable for people with compromised immune systems.
-  
-  - Viral vector vaccine: uses a safe virus to deliver specific sub-parts – called proteins – of the germ of interest so that it can trigger an immune response. Ebola vaccine.
+  Inactivated, Live-attenuated, viral vector
+
 
 The whole-microbe approach
 ---------------------------------------------
+
+The whole-microbe approach
+- Inactivated vaccine: take the disease-carrying virus or bacterium, or one very similar to it, and inactivate or kill it using chemicals, heat or radiation. Flu and polio vaccines    
+
+- Live-attenuated vaccine: uses a living but weakened version of the virus or one that’s very similar. The measles, mumps and rubella (MMR) vaccine and the chickenpox and shingles vaccine are examples. Not suitable for people with compromised immune systems.
+
+- Viral vector vaccine: uses a safe virus to deliver specific sub-parts – called proteins – of the germ of interest so that it can trigger an immune response. Ebola vaccine.
 
 Inactivated vaccine
 ~~~~~~~~~~~~~~~~~~~~~~
