@@ -14,6 +14,7 @@ Placeholder
 Image
 =====
 
+
 An "image" is a simple picture::
 
     .. image:: static/yi_jing_01_chien.jpg
