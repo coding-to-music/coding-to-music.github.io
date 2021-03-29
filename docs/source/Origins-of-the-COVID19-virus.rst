@@ -5,7 +5,7 @@ Origins of the Virus
   :align: center
   :width: 100 %
   
-  Wuhan Lab Workers
+  Wuhan Lab Workers Working on Gain of Function research on Viruses
 
 
 .. toctree::
