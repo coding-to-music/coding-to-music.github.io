@@ -46,7 +46,7 @@ This has the results of serving:
 
 It also gets included in the Read the Docs flyout:
 
-.. image:: ../assets/Guides/translation_bar.png
+.. image:: ../assets/guides/translation_bar.png
 
 .. figure:: ../assets/Medical-Treatments/Azithromycin/azithromycin-250-mg-tablets-2.jpg
   :align: center
