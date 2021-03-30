@@ -48,14 +48,6 @@ It also gets included in the Read the Docs flyout:
 
 .. image:: ../assets/guides/translation_bar.png
 
-.. figure:: ../assets/Medical-Treatments/Azithromycin/azithromycin-250-mg-tablets-2.jpg
-  :align: center
-  :width: 80 %
-  
-  azithromycin-250-mg-tablets
-
-Common brands: Zithromax, Zithromax Z-Pak, Zmax
-
 
 .. note::
     The default language of a custom domain is determined by the language of the
