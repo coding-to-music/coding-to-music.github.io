@@ -6,10 +6,11 @@
     :maxdepth: 2
     :caption: Contents:
  
-    
+    2017-10-23_spars-scenario-center-news    
 
 .. contents::
     :local:
+
 
 
 .. Note:: 
