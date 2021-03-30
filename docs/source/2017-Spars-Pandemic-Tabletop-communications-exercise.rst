@@ -21,10 +21,10 @@
 
 
 
-
-.. figure:: assets/2017-Spars-Pandemic-Tabletop-communications-exercise/spars-pandemic-scenario.pdf
+.. figure:: assets/2017-Spars-Pandemic-Tabletop-communications-exercise/171018-spars-pandemic-scenario-cover-page.jpg
   :align: right
   :width: 50 %
+  :target: assets/2017-Spars-Pandemic-Tabletop-communications-exercise/spars-pandemic-scenario.pdf
   :alt: SPARS Pandemic scenario book (PDF)
 
   Self-guided tabletop training experience challenges public health communicators and risk communication researchers to consider the complex messaging dilemmas of a future outbreak that requires development of a new vaccine
