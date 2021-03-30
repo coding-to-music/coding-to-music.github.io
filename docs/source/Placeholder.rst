@@ -5,6 +5,8 @@ Placeholder
     :maxdepth: 2
     :caption: Contents:
  
+    test2
+
 
 .. contents::
     :local:

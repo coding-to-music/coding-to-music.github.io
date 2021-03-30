@@ -13,7 +13,6 @@ Pandemic Participants
     Advice-for-Living
     Words-of-Wisdom-from-Famous-People
     Resources-and-additional-background-material
-    test2
 
 .. contents::
     :local:
