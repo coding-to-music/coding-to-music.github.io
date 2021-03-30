@@ -17,21 +17,23 @@
     
     This page was Retrieved and copied March 30 2021
     
-    https://twitter.com/ThomasConnors/status/1266413879388758017
+    https://www.centerforhealthsecurity.org/our-work/Center-projects/completed-projects/spars-pandemic-scenario.html
 
 
 
 
 .. figure:: assets/2017-Spars-Pandemic-Tabletop-communications-exercise/spars-pandemic-scenario.pdf
-  :align: center
-  :width: 100 %
-  
-  BTW here's a very simple way to see this virus is man made. That chart shows the Accession sequence for the ACE2 receptor. It's only a human sequence, it does not share partial sequence with other animals. Boom this is not from nature
+  :align: right
+  :width: 50 %
+  :alt: SPARS Pandemic scenario book (PDF)
 
-  Source `Twitter exchange @ThomasConnors 12:59 PM · May 29, 2020`_.
+  Self-guided tabletop training experience challenges public health communicators and risk communication researchers to consider the complex messaging dilemmas of a future outbreak that requires development of a new vaccine
 
-  .. _Twitter exchange @ThomasConnors 12:59 PM · May 29, 2020: https://twitter.com/ThomasConnors/status/1266413879388758017
+  Source `SPARS Pandemic scenario book (PDF) March 30 2021`_.
 
+  .. _SPARS Pandemic scenario book (PDF) March 30 2021: https://www.centerforhealthsecurity.org/our-work/pubs_archive/pubs-pdfs/2017/spars-pandemic-scenario.pdf
+
+SPARS pandemic scenario book
 
 
 
