@@ -5,7 +5,7 @@ Placeholder
     :maxdepth: 2
     :caption: Contents:
  
-
+    examples/README
 
 .. contents::
     :local:
@@ -29,7 +29,7 @@ Placeholder
   .. _Twitter exchange @ThomasConnors 12:59 PM · May 29, 2020: https://twitter.com/ThomasConnors/status/1266413879388758017
 
 
-
+or by :ref:`using a configuration file <examples/README:>` (That's a README from perhaps January 2021).
 
 .. index::
    single: execution; context
@@ -38,11 +38,11 @@ Placeholder
    triple: module; search; path
 
 The execution context
----------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 Image
-=====
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 An "image" is a simple picture::

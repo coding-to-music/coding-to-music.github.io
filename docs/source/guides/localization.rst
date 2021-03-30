@@ -46,7 +46,7 @@ This has the results of serving:
 
 It also gets included in the Read the Docs flyout:
 
-.. image:: ../img/translation_bar.png
+.. image:: ../assets/Guides/translation_bar.png
 
 .. figure:: ../assets/Medical-Treatments/Azithromycin/azithromycin-250-mg-tablets-2.jpg
   :align: center
@@ -60,7 +60,7 @@ Common brands: Zithromax, Zithromax Z-Pak, Zmax
 .. note::
     The default language of a custom domain is determined by the language of the
     parent project that the domain was configured on. See
-    :doc:`custom_domains` for more information.
+    "custom_domains" for more information.
 
 .. note:: You can include multiple translations in the same repository,
           with same ``conf.py`` and ``.rst`` files,
