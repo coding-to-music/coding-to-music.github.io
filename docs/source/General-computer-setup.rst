@@ -343,6 +343,6 @@ Same with .ssh and git credentials
 set ssh key at Digitalocean - what & where to 
 --------------------------------------------------------------------
 
-
+.. todo:: set ssh key at Digitalocean - what & where to
 
 Last change: |today|

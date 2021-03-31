@@ -17,6 +17,7 @@ import sys
 sys.path.insert(0, os.path.abspath('.'))
 sys.path.insert(0, os.path.abspath('..'))
 sys.path.insert(0, os.path.abspath('../..'))
+sys.path.append(os.path.abspath("./_ext"))
 # import sphinx_gallery
 
 from time import strftime, localtime
@@ -32,6 +33,9 @@ today = ''
 ##today_fmt = '%B %d, %Y'
 today_fmt = "%a, %d %b %Y %I:%M %p %Z"
 
+extensions = ['todo']
+
+todo_include_todos = True
 
 # -- Project information -----------------------------------------------------
 

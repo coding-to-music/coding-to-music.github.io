@@ -22,6 +22,7 @@ How you can help
     Github-Workflow
     Using-and-Sharing-Rich-Objects
     Upcoming-software-to-try
+    ToDo-project-tasks
     Contribute
 
 .. contents::
