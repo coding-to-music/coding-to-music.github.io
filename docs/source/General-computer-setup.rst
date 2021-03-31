@@ -334,10 +334,12 @@ Get your vscode token from github account settings
 Install docker
 --------------------------------------------------------------------
 
-When creating a new container need to have my bash_aliases come over
-Same with .ssh and git credentials
---------------------------------------------------------------------
+.. todo:: Install Docker 
 
+When creating a new container need to have my bash_aliases come over -Same with .ssh and git credentials
+------------------------------------------------------------------------------------------------------------
+
+.. todo:: When creating a new container need to have my bash_aliases come over - Same with .ssh and git credentials
 
 
 set ssh key at Digitalocean - what & where to 
