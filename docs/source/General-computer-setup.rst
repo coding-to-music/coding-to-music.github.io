@@ -21,7 +21,9 @@ Checklist for the various things needed to set up your development environment a
 - Install Visual Studio Code
 - Connect with vscode in the cloud so your settings persist over devices and sessions
 - Create SSH keys to communicate securely with the cloud
-- Configure GitHub ssh keys and vscode token
+- Configure ssh keys and token for vscode 
+- Configure ssh keys and token for DigitalOcean
+- Install DigitalOcean doctl  
 - Install Docker 
 
 
