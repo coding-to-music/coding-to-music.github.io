@@ -13,6 +13,18 @@ General Computer Setup
 Setup your computer, we will cover each item     
 --------------------------------------------------------------------
 
+Checklist for the various things needed to set up your development environment and tools
+-----------------------------------------------------------------------------------------
+
+- Enable Linux on your Chromebook
+- Handy aliases and abbreviations into .bashrc and .bash_aliases
+- Install Visual Studio Code
+- Connect with vscode in the cloud so your settings persist over devices and sessions
+- Create SSH keys to communicate securely with the cloud
+- Configure GitHub ssh keys and vscode token
+- Install Docker 
+
+
 Enable Linux on your Chromebook     
 --------------------------------------------------------------------
 
@@ -284,24 +296,51 @@ Once you copy the key,
   
   ssh keys in GitHub
 
-Get your vscode token from github account settings 
---------------------------------------------------------------------
 
-.. figure:: assets/Software/vscode-github-token.png
-  :align: center
-  :width: 80 %
-  
-  vscode-github-token.png
+After ssh-keygen :: 
+
+    // display the ssh public key so you can copy it   
+    cat id_rsa.pub 
+
 
 Let vscode know about the GitHub token 
 ----------------------------------------
 
 Let vscode know about the GitHub token at the bottom left of vscode click bottom-left and paste github token into the command prompt area in the top menu toolbar 
 
+- and copy it and paste it into github/settings/sshkeys
+- then go back to vscode, click on the left panel source control icon
+- click to clone a repository or some other activity that will involve GitHub
+- it will ask you for access, click yes, it will bring you to github, approve (and if necessary copy the token and paste it into vscode but you probably won't need to)
+
 .. figure:: assets/Software/bottom-left-of-vscode-click-and-paste-github-token.png
   :align: center
   :width: 80 %
   
   bottom left of vscode click and paste github token
+
+
+Get your vscode token from github account settings 
+--------------------------------------------------------------------
+
+.. figure:: assets/Software/vscode-github-token.png
+  :align: center
+  :width: 50 %
+  
+  vscode-github-token.png
+
+Install docker
+--------------------------------------------------------------------
+
+When creating a new container need to have my bash_aliases come over
+Same with .ssh and git credentials
+--------------------------------------------------------------------
+
+
+
+set ssh key at Digitalocean - what & where to 
+--------------------------------------------------------------------
+
+
 
 Last change: |today|
