@@ -33,7 +33,7 @@ today = ''
 ##today_fmt = '%B %d, %Y'
 today_fmt = "%a, %d %b %Y %I:%M %p %Z"
 
-extensions = ['todo']
+extensions = ['todo','sphinx.ext.todo']
 
 todo_include_todos = True
 
