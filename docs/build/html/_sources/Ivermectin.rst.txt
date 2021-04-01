@@ -27,7 +27,13 @@ Source: `Trial Site News, By Mary Beth Pfeiffer, December 27 2020 : In Far-Flung
 .. note::
   Cheap hair lice drug may cut the risk of hospitalised Covid patients dying by up to 80%, study finds  
 
+Ivermectin Overview
+----------------------------------------------
+
 Ivermectin - which can cost as little as £1.50 per treatment- was also found to potentially halve the time those suffering from the virus were on the ward  
+
+Discovered 1970's for head lice and scabies
+----------------------------------------------
 
 Ivermectin was discovered in the 1970s and has fast become an essential medicine for a vast number of parasitic infections, such as head lice and scabies.
 
