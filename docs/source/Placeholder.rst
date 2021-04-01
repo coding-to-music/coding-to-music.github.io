@@ -6,6 +6,7 @@ Placeholder
     :caption: Contents:
  
     Placeholder-too
+    Placeholder-study
     examples/README
 
 .. contents::

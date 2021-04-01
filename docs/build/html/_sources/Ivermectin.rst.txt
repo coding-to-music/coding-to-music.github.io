@@ -6,7 +6,7 @@ Ivermectin
   :caption: Contents:
  
   Role-of-ivermectin-in-the-prevention-of-SARS-CoV-2-infection-among-healthcare-workers-in-India
-  
+  Ivermectin-among-Healthcare-Providers-in-a-Selected-Tertiary-Hospital-in-Dhaka
 
 .. contents::
   :local:

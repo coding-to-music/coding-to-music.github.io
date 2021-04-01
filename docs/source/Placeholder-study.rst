@@ -1,4 +1,4 @@
-Role of ivermectin in the prevention of SARS-CoV-2 infection among healthcare workers in India (March 30 2021)
+Placeholder Study (March 30 2021)
 ====================================================================================================================
 
 
@@ -20,7 +20,7 @@ Role of ivermectin in the prevention of SARS-CoV-2 infection among healthcare wo
 
 Authors:
 
-Priyamadhaba Behera,Binod Kumar Patro,Arvind Kumar Singh,Pradnya Dilip Chandanshive,Ravikumar S. R.,Somen Kumar Pradhan,Siva Santosh Kumar Pentapati,Gitanjali Batmanabane ,Prasanta Raghab Mohapatra,Biswa Mohan Padhy,Shakti Kumar Bal,Sudipta Ranjan Singh,Rashmi Ranjan Mohanty
+Priyamadhaba Behera,Binod Kumar Patro,Arvind Kumar Singh
 
 Published: February 16, 2021 https://doi.org/10.1371/journal.pone.0247163
 
