@@ -9,7 +9,7 @@ class todo(nodes.Admonition, nodes.Element):
     pass
 
 
-class todolist(nodes.General, nodes.Element):
+class mytodolist(nodes.General, nodes.Element):
     pass
 
 
@@ -21,10 +21,10 @@ def depart_todo_node(self, node):
     self.depart_admonition(node)
 
 
-class TodolistDirective(Directive):
+class mytodolistDirective(Directive):
 
     def run(self):
-        return [todolist('')]
+        return [mytodolist('')]
 
 
 class TodoDirective(SphinxDirective):
@@ -73,14 +73,14 @@ def process_todo_nodes(app, doctree, fromdocname):
         for node in doctree.traverse(todo):
             node.parent.remove(node)
 
-    # Replace all todolist nodes with a list of the collected todos.
+    # Replace all mytodolist nodes with a list of the collected todos.
     # Augment each todo with a backlink to the original location.
     env = app.builder.env
 
     if not hasattr(env, 'todo_all_todos'):
         env.todo_all_todos = []
 
-    for node in doctree.traverse(todolist):
+    for node in doctree.traverse(mytodolist):
         if not app.config.mytodo_include_todos:
             node.replace_self([])
             continue
@@ -106,7 +106,7 @@ def process_todo_nodes(app, doctree, fromdocname):
             para += newnode
             para += nodes.Text('.)', '.)')
 
-            # Insert into the todolist
+            # Insert into the mytodolist
             content.append(todo_info['todo'])
             content.append(para)
 
@@ -116,14 +116,14 @@ def process_todo_nodes(app, doctree, fromdocname):
 def setup(app):
     app.add_config_value('mytodo_include_todos', False, 'html')
 
-    app.add_node(todolist)
+    app.add_node(mytodolist)
     app.add_node(todo,
                  html=(visit_todo_node, depart_todo_node),
                  latex=(visit_todo_node, depart_todo_node),
                  text=(visit_todo_node, depart_todo_node))
 
     app.add_directive('todo', TodoDirective)
-    app.add_directive('todolist', TodolistDirective)
+    app.add_directive('mytodolist', mytodolistDirective)
     app.connect('doctree-resolved', process_todo_nodes)
     app.connect('env-purge-doc', purge_todos)
     app.connect('env-merge-info', merge_todos)

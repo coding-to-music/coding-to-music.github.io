@@ -69,9 +69,9 @@ release = ''
 # extensions = [
 #     'sphinx.ext.autodoc'
 #     ]
+    # 'todo',
 
 extensions = [
-    'todo',
     'sphinx.ext.todo',
     'sphinx.ext.coverage', 
     'sphinx.ext.napoleon',
