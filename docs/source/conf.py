@@ -33,9 +33,9 @@ today = ''
 ##today_fmt = '%B %d, %Y'
 today_fmt = "%a, %d %b %Y %I:%M %p %Z"
 
-extensions = ['todo','sphinx.ext.todo']
+# extensions = ['todo','sphinx.ext.todo']
 
-todo_include_todos = True
+# todo_include_todos = True
 
 # -- Project information -----------------------------------------------------
 
@@ -70,7 +70,13 @@ release = ''
 #     'sphinx.ext.autodoc'
 #     ]
 
-extensions = ['sphinx.ext.autodoc', 'sphinx.ext.coverage', 'sphinx.ext.napoleon',"sphinxext.opengraph"]
+extensions = [
+    'todo',
+    'sphinx.ext.todo',
+    'sphinx.ext.coverage', 
+    'sphinx.ext.napoleon',
+    "sphinxext.opengraph",
+    'sphinx.ext.autodoc'] 
 
 try:
     import sphinxcontrib.spelling

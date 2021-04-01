@@ -69,7 +69,7 @@ def merge_todos(app, env, docnames, other):
 
 
 def process_todo_nodes(app, doctree, fromdocname):
-    if not app.config.todo_include_todos:
+    if not app.config.mytodo_include_todos:
         for node in doctree.traverse(todo):
             node.parent.remove(node)
 
@@ -81,7 +81,7 @@ def process_todo_nodes(app, doctree, fromdocname):
         env.todo_all_todos = []
 
     for node in doctree.traverse(todolist):
-        if not app.config.todo_include_todos:
+        if not app.config.mytodo_include_todos:
             node.replace_self([])
             continue
 
@@ -114,7 +114,7 @@ def process_todo_nodes(app, doctree, fromdocname):
 
 
 def setup(app):
-    app.add_config_value('todo_include_todos', False, 'html')
+    app.add_config_value('mytodo_include_todos', False, 'html')
 
     app.add_node(todolist)
     app.add_node(todo,
