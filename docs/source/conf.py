@@ -35,7 +35,7 @@ today_fmt = "%a, %d %b %Y %I:%M %p %Z"
 
 # extensions = ['todo','sphinx.ext.todo']
 
-# todo_include_todos = True
+todo_include_todos = True
 
 # -- Project information -----------------------------------------------------
 
