@@ -5,6 +5,7 @@ Placeholder
     :maxdepth: 2
     :caption: Contents:
  
+    Placeholder-too
     examples/README
 
 .. contents::

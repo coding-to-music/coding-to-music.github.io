@@ -1,6 +1,13 @@
 Ivermectin
 ==============
 
+.. toctree::
+  :maxdepth: 2
+  :caption: Contents:
+ 
+  Role-of-ivermectin-in-the-prevention-of-SARS-CoV-2-infection-among-healthcare-workers-in-India
+  
+
 .. contents::
   :local:
 
