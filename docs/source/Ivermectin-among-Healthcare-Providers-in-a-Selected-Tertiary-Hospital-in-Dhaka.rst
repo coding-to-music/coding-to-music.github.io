@@ -20,7 +20,7 @@ Ivermectin as Pre-exposure Prophylaxis for COVID-19 among Healthcare Providers i
 
 Authors:
 
-Mohammed Tarek Alam, Rubaiul Murshed, Pauline Francisca Gomes et al
+Mohammed Tarek Alam, Rubaiul Murshed,  Pauline Francisca Gomes et al
 
 Published: February 16, 2021 https://doi.org/10.1371/journal.pone.0247163
 
