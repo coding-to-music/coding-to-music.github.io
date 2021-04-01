@@ -33,9 +33,13 @@ Ivermectin Overview
 Ivermectin - which can cost as little as £1.50 per treatment- was also found to potentially halve the time those suffering from the virus were on the ward  
 
 Discovered 1970's for head lice and scabies
-----------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Ivermectin was discovered in the 1970s and has fast become an essential medicine for a vast number of parasitic infections, such as head lice and scabies.
+
+
+Common brand names: Soolantra, Sklice 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 It is branded as Stromectol, an oral tablet for scabies and Soolantra, a skin cream for rosacea. It is branded as Sklice for treating head lice, which was approved in the US this year. 
 
@@ -60,8 +64,8 @@ Source
   
   Ivermectin-sheep-drench
 
-MODE OF ACTION
-----------------
+Mode of Action
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Ivermectin is a member of the macrocylic lactone class of endectocides which have a unique mode of action. Compounds of the class bind selectively and with high affinity to glutamate-gated chloride ion channels which occur in invertebrate nerve and muscle cells.
 
@@ -74,7 +78,8 @@ Source: IVERMECTIN POUR-ON FOR CATTLE- ivermectin solution https://dailymed.nlm.
 Source: `Ref1`_ 
 
 Footnotes
-----------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 .. _Python: http://www.python.org/
 
