@@ -331,7 +331,6 @@ Get your vscode token from github account settings
   
   vscode-github-token.png
 
-
 Install docker
 --------------------------------------------------------------------
 
