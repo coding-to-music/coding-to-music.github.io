@@ -8,7 +8,7 @@ reStructured Text Special directives
 https://cheat.readthedocs.io/en/latest/rst.html
 
 
-.. figure:: assets/Vaccines/Vaccine-Schedule/1985-vaccine-usage.jpg
+.. figure:: ../assets/Vaccines/Vaccine-Schedule/1985-vaccine-usage.jpg
    :align: center
    :width: 50 %
    
