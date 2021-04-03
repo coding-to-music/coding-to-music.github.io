@@ -11,11 +11,11 @@ Vaccines - Testing and Approvals
 .. contents::
     :local:
 
-.. figure:: assets/Vaccines/Pfizer/stock-photo-tokyo-may-pfizer-building-on-may-in-tokyo-pfizer-is-one-of-largest-pharmaceutical-106958480.jpg
+.. image:: assets/Vaccines/Pfizer/stock-photo-tokyo-may-pfizer-building-on-may-in-tokyo-pfizer-is-one-of-largest-pharmaceutical-106958480.jpg
   :align: center
   :width: 80 %
   
-  Pfizer’s Tokyo building
+Pfizer’s Tokyo building
 
 
 
