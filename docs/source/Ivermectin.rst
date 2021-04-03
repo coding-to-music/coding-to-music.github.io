@@ -103,10 +103,9 @@ https://pubmed.ncbi.nlm.nih.gov/33293006/
 Ivermectin as Pre-exposure Prophylaxis for COVID‐19
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-“Ivermectin as Pre-exposure Prophylaxis for COVID-19 among Healthcare Providers in a Selected Tertiary Hospital in Dhaka – An Observational Study” [European Journal of Medical & Health Sciences]. Conclusion: “Ivermectin, an FDA-approved, safe, cheap and widely available drug, should be subjected to large-scale trials all over the world to ascertain its effectiveness as pre-exposure prophylaxis for COVID-19.” Methods: “An observational study, with 118 healthcare providers who were enrolled purposively, was conducted in a tertiary hospital in Dhaka from May 2020 to August 2020. The subjects were divided into experimental and control groups; and the experimental group received an oral monthly dose of Ivermectin 12mg for 4 months. Both groups were exposed to COVID-19 positive patients admitted in the hospital during the course of study. The symptomatic subjects were evaluated by physical examination, COVID-19 RT-PCR and/or HRCT of chest.”
+“A COVID-19 prophylaxis? Lower incidence associated with prophylactic administration of ivermectin” [International Journal of Antimicrobial Agents]. Method: “we collected data from countries that routinely deploy prophylactic chemotherapy (PCT) using various drugs including ivermectin [18]. Based on the varying MDA designs, we grouped these countries into two different categories—those that include ivermectin in their PCT and those that do not. We then proceeded to compare COVID-19 proliferation between these two groups and further contrasted them against a third group of countries that do not use PCT at all.” Results and Discussion: “the difference between nations that deploy PCT using ivermectin and those that do not use any PCT turned out to be highly significant… there is a very strong negative correlation between the use of PCT—especially involving ivermectin—and COVID-19 proliferation. This, paired with ivermectin’s proven inhibitory effect on SARS-CoV-2 replication in vitro, leads us to the hypothesis that the drug may have a—likely indirect—prophylactic effect and thereby reduce the spread of the disease.”
 
-Need URL
-
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7698683/
 
 Reader comment: user Rob at nakedcapitalism.com 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
