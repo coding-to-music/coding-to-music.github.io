@@ -77,6 +77,21 @@ Source: IVERMECTIN POUR-ON FOR CATTLE- ivermectin solution https://dailymed.nlm.
 
 Source: `Ref1`_ 
 
+Additional Postive reports for Ivermectin
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+"Ivermectin as an adjunct reduced the rate of mortality, low O2 duration, and duration of hospitalization in adult COVID 19 patients. The improvement of other clinical parameters showed that the ivermectin, with a wide margin of safety, had a high therapeutic effect on COVID-19.
+https://www.researchsquare.com/article/rs-109670/v1
+
+"Addition of Ivermectin to standard care is very effective drug for treatment of COVID-19 patients with significant reduction in mortality compared to Hydroxychloroquine plus standard treatment only. Early use of Ivermectin is very useful for controlling COVID 19 infections; prophylaxis and improving cytokines storm."
+https://www.researchsquare.com/article/rs-100956/v2
+
+"Ivermectin with doxycycline reduced the time to recovery and the percentage of patients who progress to more advanced stage of disease"
+https://www.medrxiv.org/.../10.1101/2020.10.26.20219345v1/
+
+Ivermectin treatment may Improve the prognosis of patients with COVID-19
+https://pubmed.ncbi.nlm.nih.gov/33293006/
+
 Footnotes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
