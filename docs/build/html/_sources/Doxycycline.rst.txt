@@ -37,5 +37,9 @@ Source: https://en.wikipedia.org/wiki/Doxycycline
   
   doxycycline-on-the-cell-viability
 
+Additional Studies and Reports about Doxycycline
+------------------------------------------------------------
+
+
 
 Page Generated: |today|

@@ -56,4 +56,9 @@ Drug class: Macrolide
   
   azithromycin 
 
+Additional Studies and Reports about Azithromycin
+------------------------------------------------------------
+
+
+
 Last change: |today|
