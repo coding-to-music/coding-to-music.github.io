@@ -5,11 +5,17 @@ Vaccines - Testing and Approvals
    :maxdepth: 2
    :caption: Contents:
 
+   An-Internal-Medicine-Doctor-and-His-Peers-Read-the-Pfizer-Vaccine-Study-and-See-Red-Flags
    Moderna-testing-in-young-children-and-babies
    
 .. contents::
     :local:
 
+.. figure:: assets/Vaccines/Pfizer/stock-photo-tokyo-may-pfizer-building-on-may-in-tokyo-pfizer-is-one-of-largest-pharmaceutical-106958480.jpg
+  :align: center
+  :width: 80 %
+  
+  Pfizer’s Tokyo building
 
 
 
