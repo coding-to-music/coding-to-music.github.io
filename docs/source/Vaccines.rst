@@ -12,6 +12,7 @@ Vaccines
     Vaccine-testing-and-approvals
     How-Vaccines-Work
     Charts-and-Graphs
+    Vaccines-Side-Effects 
     Vaccine-future-topics
 
 
