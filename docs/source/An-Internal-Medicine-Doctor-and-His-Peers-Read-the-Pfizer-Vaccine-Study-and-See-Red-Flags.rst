@@ -1,4 +1,4 @@
-An Internal Medicine Doctor and His Peers Read the Pfizer Vaccine Study and See Red Flags [Updated]
+An Internal Medicine Doctor and His Peers Read the Pfizer Vaccine Study and See Red Flags
 ======================================================================================================
 
 
@@ -6,8 +6,6 @@ An Internal Medicine Doctor and His Peers Read the Pfizer Vaccine Study and See 
   :maxdepth: 2
   :caption: Contents:
  
-  Role-of-ivermectin-in-the-prevention-of-SARS-CoV-2-infection-among-healthcare-workers-in-India
-  Ivermectin-among-Healthcare-Providers-in-a-Selected-Tertiary-Hospital-in-Dhaka
 
 .. contents::
   :local:
