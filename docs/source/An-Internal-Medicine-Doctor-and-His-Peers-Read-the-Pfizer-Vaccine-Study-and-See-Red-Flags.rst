@@ -10,19 +10,31 @@ An Internal Medicine Doctor and His Peers Read the Pfizer Vaccine Study and See 
 .. contents::
   :local:
 
-.. figure:: assets/Vaccines/Pfizer/stock-photo-tokyo-may-pfizer-building-on-may-in-tokyo-pfizer-is-one-of-largest-pharmaceutical-106958480.jpg
+.. image:: assets/Vaccines/Pfizer/stock-photo-tokyo-may-pfizer-building-on-may-in-tokyo-pfizer-is-one-of-largest-pharmaceutical-106958480.jpg
   :align: center
   :width: 80 %
+
   
-  Pfizer’s Tokyo building
+Pfizer’s Tokyo building
 
 Posted on December 14, 2020 by Yves Smith
 
-https://www.nakedcapitalism.com/2020/12/an-internal-medicine-doctor-and-his-peers-read-the-pfizer-vaccine-study-and-see-red-flags.html
+.. Note:: 
+    
+    This page was Retrieved and copied April 2 2021
+    
+    https://www.nakedcapitalism.com/2020/12/an-internal-medicine-doctor-and-his-peers-read-the-pfizer-vaccine-study-and-see-red-flags.html 
+
+
+Introduction by Yves
+~~~~~~~~~~~~~~~~~~~~~
 
 Yves here. Reader IM Doc, an internal medicine practitioner of 30 years, trained and worked in one of the top teaching hospitals in the US for most of his career before moving to a rural hospital in an affluent pocket of Flyover. He has been giving commentary from the front lines of the pandemic. Along with current and former colleagues, he is troubled by the PR-flier-level information presented to the public about the Pfizer and Moderna vaccines, at least prior to the release of an article in the New England Journal of Medicine on the Pfizer vaccine: Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine. However, he did not find the study to be reassuring. He has taken the trouble of writing up his reservations after discussing the article with his group of nine physicians that meets regularly to sanity check concerns and discuss the impact that articles will have on their practices.
 
 By IM Doc, a internal medicine doctor working in a rural hospital in the heartlands
+
+Introduction by IM Doc, a internal medicine doctor working in a rural hospital in the heartlands 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Right off the bat – I am as weary and concerned about this pandemic as anyone. What my little rural area has been through in the past three weeks or so has been nothing short of harrowing. This virus has the ability to render patients about as sick as I have ever seen in my life, while leaving more than half the population with minimal if any symptoms. The patients who are sick are often very sick. And instead of slow and steady improvement like we normally experience, most of these patients are assigned to a long and hard slog. Multiple complications arise. This leads to very diminished throughput in the hospital. The patients literally stack up and we have nowhere to put the new ones coming in who themselves will be there for days or weeks. On top of that are the constant donning and doffing of PPE and intense emotional experiences for the staff, who are themselves becoming patients or in this small town have grandma or Aunt Gertrude as a patient.
 
@@ -40,9 +52,12 @@ And now the paper.
 
 Unfortunately, this study from Pfizer in the latest NEJM, and indeed this whole vaccine rollout, are case studies in the pathology Agnell described. There are more red flags in this paper and related events than present on any May Day in downtown Beijing. Yet all anyone hears from our media, our medical elites, and our politicians are loud hosannas and complete unquestioning acceptance of this new technique. And lately, ridicule and spite for anyone who dares to raise questions.
 
+Big Pharma deserves nothing from me but complete and total skepticism
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 I have learned over thirty years as a primary care provider that Big Pharma deserves nothing from me but complete and total skepticism and the assumption that anything they put forth is pure deception until proven otherwise. Why so harsh? Well, to put it bluntly, Big Pharma has covered my psyche with 30 years of scars:
 
-• As a very young doctor, I treated an extraordinary middle-aged woman who had contracted polio as a toddler from a poorly tested polio vaccine rolled out in an “emergency.” Tens of thousands of American kids shared her fate1
+• As a very young doctor, I treated an extraordinary middle-aged woman who had contracted polio as a toddler from a poorly tested polio vaccine rolled out in an “emergency.” Tens of thousands of American kids shared her fate`1`_
 • The eight patients I took care of until they died from congestive heart failure that had been induced by a diabetes drug called Actos. The drug company knew full well heart failure was a risk during their trials. When it became obvious after the rollout, they did everything they could to obfuscate. Actos now carries a black box warning about increased risk of heart failure
 • The three women who I took care of who had been made widows as their husbands died of completely unexpected heart attacks while on Vioxx. I have no proof the Vioxx did this. But when Vioxx was finally removed from the market, the mortality rate in the US fell that year by a measurable amount, inconsistent with recent trends and forecasts. Merck knew from their trials that Vioxx had a significant risk of cardiovascular events and stroke, and did absolutely nothing to relay that danger in any way. Worse, they did everything they could to muddle information and evade responsibility once the truth started to come out
 • The dozens upon dozens of twenty and thirty-something patients who have been rendered emotional and spiritual zombies by the SSRIs, antipsychotics and amphetamines they have been taking since childhood. Their brain never learned what emotions were, much less how to process them and we are left with empty husks where people never developed. The SSRIs and antipsychotics were NEVER approved for anyone under 18. EVER. While there are some validated uses for stimulants in children, they are obviously overprescribed, as confirmed by long-standing media reports of their routine use as a study/performance aid. It is all about the lucre.
@@ -60,11 +75,17 @@ Admittedly, over the past generation, as the corporatism and dollar-counting has
 
 So I read the editorial first. You can find it on the NEJM webpage, in the top right corner.
 
+Read the editorial first
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 And, amazingly, it is basically a recitation of the same whiz-bang Pfizer puffery that we have all been reading for the past few weeks. There really is not much new. Furthermore, it is filled with words like “triumph” and “dramatic success”. Those accolades have yet to be earned. This vaccine has not yet even been released. Surely, “triumph” is a bit premature. Those words would NEVER have been used by my mentor or similar researchers in his generation. They would have been focused on the good, the bad and the ugly. A generation ago, editorial reviewers saw their job as informing the reader and making certain the clinicians that were reading knew of any limitations or problems.
 
 In quite frankly unprecedented fashion, two different events that were carefully reported occurred almost simultaneously with the release of both the paper and the editorial. Both of these events contradict and contravene data and conclusions reported in both the paper and the editorial and I believe they deserve immediate attention. They both belie the assertions of the editorial writers that [emphasis mine] “the (safety) pattern appears to be similar to that of other viral vaccines and does not arouse specific concern”.
 
 First, a critical issue for any clinician is “exclusion criteria”. This refers in general to groups of subjects that were not allowed into the trial prima facie. Common examples would include over 70, patients on chemotherapy and other immunosuppressed patients, children, diabetics, etc.. This issue is important because I do not want to give my patient this vaccine (available apparently next week) to any patient that is in an excluded group. Those patients really ought to wait until more information is available – FOR THEIR OWN SAFETY. And not to mention, exclusion criteria exist because the subjects in them are usually considered more vulnerable to mayhem than average subjects. From my reading of this paper, and the accompanying editorial, one would assume there were no exclusion criteria. They certainly are never mentioned.
+
+The paper is silent on this question of exclusion criteria
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 I reiterate, the paper is silent on this question of exclusion criteria, as is the editorial. Had my mentor seen something like “exclusion criteria” in the source material, and realized that it was not in the final paper, he would have absolutely included a notice in his editorial. This would have been after calling the principal investigator and directly questioning why there was no mention in the original paper. Patient safety should be foremost on everyone’s mind at all times in clinical research and its presentation to practitioners.
 
@@ -85,6 +106,7 @@ Even people who’ve had a severe allergic reaction to food or to something in t
 Are you serious? Dr. Marks, have you ever seen an anaphylactic reaction? I live in a very rural area. Many patients live 30 minutes or more from the hospital. What if one of them had an anaphylactic reaction to this vaccine hours after administration, had no epi-pen and had to travel a half hour to get to the nearest hospital? There is a very high likelihood that a good outcome would not occur. Sometimes, as a physician, I simply cannot believe what I am hearing out of the mouths of our so-called medical leaders.
 
 To the writers of the editorial accompanying this research:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Did you actually look at the source material? The existence of at least one exclusion criterion for severe allergic reactions had to be in there somewhere. If you did look at the source material, are there others that the physicians of America need to know about? If they were not in the source material, after the events in the UK, has anyone bothered to follow up with Pfizer about this omission?
 
@@ -108,9 +130,10 @@ I could not find any mention of this event in the text of the paper. NOT ONE. Le
 
 The area for the reporting of this Grade 4 reaction would be on the 2nd row down at the left of the set called B, titled systemic events and use of medication. The area of concern would be where the graph is marked with the number 16. Do you see a red line there? It would be at the very top. I have blown this up 4 times on my computer and see no red there. I am left to assume that this Grade 4 “Life Threatening or Disabling” event that was clearly within the time parameters of this trial was not reported in this study.
 
-To those who say that I am making way too much out of one patient with a severe fever, let’s do a little math. There are 37,706 participants in the “Main Safety Population” (from Table 1), of which 18.860 received the vaccine.2 Let us assume that this individual was the only one that had a GRADE 4 reaction. Let us also assume that the end goal is to vaccinate every American a total of 330,000,000 people. So if we extrapolate this 1 out of 18,860 into all 330,000,000 of us, it suggest that roughly 17,500 could have this kind of fever. Now assume a 70% vaccination rate, and you get that would be approximately 12,250. I hope you now understand that in clinical medicine related to trials like this – a whole lot of nothing can turn into a whole lot of something quickly when you extrapolate to the entire targeted group. Does anyone not think that the clinicians of America should be prepared for anything like this that may be coming?
+To those who say that I am making way too much out of one patient with a severe fever, let’s do a little math. There are 37,706 participants in the “Main Safety Population” (from Table 1), of which 18.860 received the vaccine.`2`_ Let us assume that this individual was the only one that had a GRADE 4 reaction. Let us also assume that the end goal is to vaccinate every American a total of 330,000,000 people. So if we extrapolate this 1 out of 18,860 into all 330,000,000 of us, it suggest that roughly 17,500 could have this kind of fever. Now assume a 70% vaccination rate, and you get that would be approximately 12,250. I hope you now understand that in clinical medicine related to trials like this – a whole lot of nothing can turn into a whole lot of something quickly when you extrapolate to the entire targeted group. Does anyone not think that the clinicians of America should be prepared for anything like this that may be coming?
 
 A couple more questions for NEJM and the editorial writers:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Were you ever made aware that this Grade 4 reaction occurred? Now that we have a reliable report that it occurred, has there been any attempt to investigate?
 
@@ -134,6 +157,9 @@ We get the Pfizer ad glossy editorial treatment from Eric Rubin MD, the editor-i
 
 Why would this fact been important to my mentor? (and I had the privilege of hearing him trash a paper in an open forum about a very similar issue, a paper introducing a drug to the world that later was the disaster of the decade, Vioxx) Why is this important to me and all the other physicians in my review group here in flyover country yesterday?
 
+One of only several conclusions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Because the choice of authorship of the editorial leads you to one of only several conclusions:
 
 • Pfizer would not release the source data because of proprietary corporate concerns and no self-respecting expert would review without it
@@ -156,7 +182,7 @@ I looked in vain all day today for media discussions of conflicts of interest wi
 
 What I did find was the Boston NPR affiliate WBUR discussing Dr. Rubin’s Yes vote. You can listen yourself:
 
-
+https://www.wbur.org/commonhealth/2020/12/11/eric-rubin-fda-advisory-coronavirus-vaccine-approval
 
 This interview left me much more concerned about Dr. Rubin’s role and what exactly he read in the raw data from Pfizer. In this interview, he admits that he as an FDA advisory member has seen no data from the Moderna trial coming up for a vote this week:
 
@@ -230,14 +256,21 @@ Please look at Dr. Angell’s seminal article from 2009. She predicted in her wo
 
 ____
 
-1 As a special homage to the polio patient described above, a truly exceptional woman, let me underscore that the disastrous rollout of the this polio vaccine came at a time similar to ours. Panic and malaise were in the air. The children of America and the world were being stricken with polio at an alarming rate. Dr. Alton Ochsner, a leading figure in medicine of the day, vaccinated both of his grandchildren in public in an attempt to bolster confidence in the vaccines. Within 8 days his grandson was dead of bulbar polio. All the celebrities and politicians lining up to take this vaccine on national TV should remember this tragedy. “Stupid human tricks” like this have no place in this kind of situation, and can backfire in unexpected ways. Unlike that era’s polio vaccine, there is no way on earth this vaccine can transmit COVID. However, there are those of us in the medical profession who treat the plan to make population-wide use of messenger RNA, which before these trials had been repeatedly investigated but never reached the human trial stage save in a small scale Zika vaccine study. This is no time for machismo. This is also no time for anything less than complete transparency on the part of everyone involved in the quest for safe and effective vaccines. To behave in any other way is an affront to patients like mine who have suffered and died in the past.
+Footnotes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-2 If you read the paper, you might well have wondered about that 18,860 number and even checked Table 1 to make sure it’s accurate (it is), since the third paragraph of the Abstract, under the headline “Results,” has very different figures:
+
+.. _1: As a special homage to the polio patient described above, a truly exceptional woman, let me underscore that the disastrous rollout of the this polio vaccine came at a time similar to ours. Panic and malaise were in the air. The children of America and the world were being stricken with polio at an alarming rate. Dr. Alton Ochsner, a leading figure in medicine of the day, vaccinated both of his grandchildren in public in an attempt to bolster confidence in the vaccines. Within 8 days his grandson was dead of bulbar polio. All the celebrities and politicians lining up to take this vaccine on national TV should remember this tragedy. “Stupid human tricks” like this have no place in this kind of situation, and can backfire in unexpected ways. Unlike that era’s polio vaccine, there is no way on earth this vaccine can transmit COVID. However, there are those of us in the medical profession who treat the plan to make population-wide use of messenger RNA, which before these trials had been repeatedly investigated but never reached the human trial stage save in a small scale Zika vaccine study. This is no time for machismo. This is also no time for anything less than complete transparency on the part of everyone involved in the quest for safe and effective vaccines. To behave in any other way is an affront to patients like mine who have suffered and died in the past.
+
+.. _2: If you read the paper, you might well have wondered about that 18,860 number and even checked Table 1 to make sure it’s accurate (it is), since the third paragraph of the Abstract, under the headline “Results,” has very different figures:
 
 A total of 43,548 participants underwent randomization, of whom 43,448 received injections: 21,720 with BNT162b2 and 21,728 with placebo.
 
 So how did the researchers get from 21,720 injected with the vaccine to the 18,860 in the “Main Safety Population”? This sort of thing confirms the impression that this is a very incomplete or sloppy study. It is really not clear where the difference between the 37,706 and the 43,548, or for that matter, the 36,520 total subjects in the Tables 2 and 3 (Efficacy) come from. I used the 37,706 and hence the 18,860 that went with it from Table because it gave slightly smaller numbers than using the Table 2 and 3 figures, but they would be close to each other.
 
 My concern here is the 6000ish discrepancy between the figures in the main text compared to the tables. Were they excluded? If so, why? I could not make heads or tails out of this, and accordingly kept it out of the body of this post. This kind of inconsistency really needs to be hashed out with the actual source data in hand, and should have been explained in the article, even if just in footnotes.
+
+.. target-notes::
+
 
 Last change: |today|
