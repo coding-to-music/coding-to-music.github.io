@@ -11,7 +11,7 @@ WHO: The different types of COVID-19 vaccines
 
 
 .. toctree::
-    :maxdepth: 4
+    :maxdepth: 2
     :caption: Contents:
  
 
@@ -21,7 +21,7 @@ WHO: The different types of COVID-19 vaccines
 
     
 The different types of COVID-19 vaccines
-12 January 2021
+Published: 12 January 2021
 
 .. Note:: 
     
