@@ -1,5 +1,5 @@
-Footnotes Examples
-==================================
+reStructuredText: References and Footnotes Examples
+=======================================================
 
 .. toctree::
    :maxdepth: 2
