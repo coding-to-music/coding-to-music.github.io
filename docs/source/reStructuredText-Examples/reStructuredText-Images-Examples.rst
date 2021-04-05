@@ -196,9 +196,9 @@ Image
 
 An "image" is a simple picture::
 
-    .. image:: static/yi_jing_01_chien.jpg
+    .. image:: ../static/yi_jing_01_chien.jpg
 
-.. image:: static/yi_jing_01_chien.jpg
+.. image:: ../static/yi_jing_01_chien.jpg
 
 Inline images can be defined with an "image" directive in a `substitution
 definition`_
@@ -217,14 +217,14 @@ Example 1 Right 30% scale
 Optionally, the image link block may contain a flat field list, the
 _`image options`.  For example::
 
-    .. image:: static/yi_jing_01_chien.jpg
+    .. image:: ../static/yi_jing_01_chien.jpg
        :height: 100 %
        :width: 100 %
        :scale: 10 cm
        :alt: alternate text
        :align: right
 
-.. image:: static/yi_jing_01_chien.jpg
+.. image:: ../static/yi_jing_01_chien.jpg
     :scale: 30 %
     :alt: alternate text
     :align: right
@@ -235,13 +235,13 @@ Example 2 Right 50% width
 
 Here is another image example 
 
-    .. image:: static/yi_jing_01_chien.jpg
+    .. image:: ../static/yi_jing_01_chien.jpg
        :width: 50 %
        :alt: alternate text
        :align: right
 
 
-.. figure:: static/yi_jing_01_chien.jpg
+.. figure:: ../static/yi_jing_01_chien.jpg
   :width: 50 %
   :alt: alternate text
   :align: right
@@ -259,7 +259,7 @@ legend.  To specify a legend without a caption, use an empty comment
 Example 3 Left 50% width
 ---------------------------------------------------------------------
 
-.. figure:: static/yi_jing_01_chien.jpg
+.. figure:: ../static/yi_jing_01_chien.jpg
   :width: 50 %
   :alt: alternate text
   :align: left
@@ -271,7 +271,7 @@ Example 3 Left 50% width
 Example 4 Centered 80% width 
 ---------------------------------------------------------------------
 
-.. figure:: static/yi_jing_01_chien.jpg
+.. figure:: ../static/yi_jing_01_chien.jpg
   :width: 80 %
   :alt: alternate text
   :align: center
@@ -283,7 +283,7 @@ Example 4 Centered 80% width
 Example 5 Centered 100% width 
 ---------------------------------------------------------------------
 
-.. figure:: static/yi_jing_01_chien.jpg
+.. figure:: ../static/yi_jing_01_chien.jpg
   :width: 100 %
   :alt: alternate text
   :align: center
@@ -295,7 +295,7 @@ Example 5 Centered 100% width
 Example 6 
 ---------------------------------------------------------------------
 
-.. figure:: static/yi_jing_01_chien.jpg
+.. figure:: ../static/yi_jing_01_chien.jpg
   :width: 50 %
   :alt: alternate text
   :align: right
@@ -338,6 +338,7 @@ _`:name:` : text
       .. image:: bild.png
 
     New in Docutils 0.8.
+
 
 
 ``figclass`` : text
@@ -403,7 +404,7 @@ The "class" directive sets the `"classes"`_ attribute value on its content
 or on the first immediately following [#]_ non-comment element [#]_.
 The directive argument consists of one or more space-separated class
 names. The names are transformed to conform to the regular expression
-``[a-z](-?[a-z0-9]+)*`` (see `Identifier Normalization`_ below).
+``[a-z](-?[a-z0-9]+)*`` (see `Identifier Normalization` below).
 
 Examples::
 
@@ -471,6 +472,74 @@ The text above is parsed and transformed into this doctree fragment::
    element (paragraph, in this case) individually, instead of to the block
    quote as a whole.
 
+
+
+Identifier Normalization
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Docutils `class names`_ and `identifier keys`_ are normalized to conform
+to the regular expression "``[a-z](-?[a-z0-9]+)*``" by converting
+
+* alphabetic characters to lowercase,
+* accented characters to the base character,
+* non-alphanumeric characters to hyphens,
+* consecutive hyphens into one hyphen
+
+and stripping
+
+* leading hyphens and number characters, and
+* trailing hyphens.
+
+For example ``"Rot.Gelb&GrÃ¼n:+2008"`` becomes ``"rot-gelb-grun-2008"`` and
+``"1000_Steps!"`` becomes ``"steps"``.
+
+.. topic:: Rationale:
+
+    Identifier keys must be valid in all supported output formats.
+
+    For HTMLÂ 4.1 + CSS1 compatibility, identifiers should have no
+    underscores, colons, or periods.  Hyphens may be used.
+
+    - The `HTML 4.01 spec`_ defines identifiers based on SGML tokens:
+
+          ID and NAME tokens must begin with a letter ([A-Za-z]) and
+          may be followed by any number of letters, digits ([0-9]),
+          hyphens ("-"), underscores ("_"), colons (":"), and periods
+          (".").
+
+          -- http://www.w3.org/TR/html401/types.html#type-name
+
+    - The `CSS1 spec`_ defines identifiers based on the "name" token
+      ("flex" tokenizer notation below; "latin1" and "escape" 8-bit
+      characters have been replaced with XML entities)::
+
+          unicode     \\[0-9a-f]{1,4}
+          latin1      [&iexcl;-&yuml;]
+          escape      {unicode}|\\[ -~&iexcl;-&yuml;]
+          nmchar      [-A-Za-z0-9]|{latin1}|{escape}
+          name        {nmchar}+
+
+    The CSS1 rule requires underscores ("_"), colons (":"), and
+    periods (".") to be escaped [#]_,
+    therefore `"classes"`_ and `"ids"`_ attributes should not
+    contain these characters.  Combined with HTML4.1 requirements (the
+    first character must be a letter; no "unicode", "latin1", or
+    "escape" characters), this results in the regular expression
+    ``[A-Za-z][-A-Za-z0-9]*``. Docutils adds a normalization by
+    downcasing and merge of consecutive hyphens.
+
+    .. [#] CSS identifiers may use underscores ("_") directly in
+       `CSSÂ LevelÂ 1`__, `CSS2.1`__, CSS2.2__, and CSS3__.
+
+       __ https://www.w3.org/TR/CSS21/syndata.html#value-def-identifier
+       __ https://www.w3.org/TR/CSS/#css-level-1
+       __ https://www.w3.org/TR/CSS22/syndata.html
+       __ https://www.w3.org/TR/css-syntax-3/#typedef-ident-token
+
+    .. _HTML 4.01 spec: http://www.w3.org/TR/html401/
+    .. _CSS1 spec: http://www.w3.org/TR/REC-CSS1
+
+.. _role:
 
 
 
