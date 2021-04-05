@@ -10,6 +10,185 @@ reStructuredText Images Examples
     :local:
 
 
+
+--------
+ Images
+--------
+
+There are two image directives: "image" and "figure".
+
+
+Image
+=====
+
+:Directive Type: "image"
+:Doctree Element: image_
+:Directive Arguments: One, required (image URI).
+:Directive Options: Possible.
+:Directive Content: None.
+
+An "image" is a simple picture::
+
+    .. image:: picture.png
+
+Inline images can be defined with an "image" directive in a `substitution
+definition`_
+
+The URI for the image source file is specified in the directive
+argument.  As with hyperlink targets, the image URI may begin on the
+same line as the explicit markup start and target name, or it may
+begin in an indented text block immediately following, with no
+intervening blank lines.  If there are multiple lines in the link
+block, they are stripped of leading and trailing whitespace and joined
+together.
+
+Optionally, the image link block may contain a flat field list, the
+_`image options`.  For example::
+
+    .. image:: picture.jpeg
+       :height: 100px
+       :width: 200 px
+       :scale: 50 %
+       :alt: alternate text
+       :align: right
+
+The following options are recognized:
+
+``alt`` : text
+    Alternate text: a short description of the image, displayed by
+    applications that cannot display images, or spoken by applications
+    for visually impaired users.
+
+``height`` : `length`_
+    The desired height of the image.
+    Used to reserve space or scale the image vertically.  When the "scale"
+    option is also specified, they are combined.  For example, a height of
+    200px and a scale of 50 is equivalent to a height of 100px with no scale.
+
+``width`` : `length`_ or `percentage`_ of the current line width
+    The width of the image.
+    Used to reserve space or scale the image horizontally.  As with "height"
+    above, when the "scale" option is also specified, they are combined.
+
+``scale`` : integer percentage (the "%" symbol is optional)
+    The uniform scaling factor of the image.  The default is "100Â %", i.e.
+    no scaling.
+
+    If no "height" or "width" options are specified, the `Python
+    Imaging Library`_ (PIL/Pillow_) may be used to determine them, if
+    it is installed and the image file is available.
+
+``align`` : "top", "middle", "bottom", "left", "center", or "right"
+    The alignment of the image, equivalent to the HTML ``<img>`` tag's
+    deprecated "align" attribute or the corresponding "vertical-align" and
+    "text-align" CSS properties.
+    The values "top", "middle", and "bottom"
+    control an image's vertical alignment (relative to the text
+    baseline); they are only useful for inline images (substitutions).
+    The values "left", "center", and "right" control an image's
+    horizontal alignment, allowing the image to float and have the
+    text flow around it.  The specific behavior depends upon the
+    browser or rendering software used.
+
+``target`` : text (URI or reference name)
+    Makes the image into a hyperlink reference ("clickable").  The
+    option argument may be a URI (relative or absolute), or a
+    `reference name`_ with underscore suffix (e.g. ```a name`_``).
+
+and the common options `:class:`_ and `:name:`_.
+
+
+Figure
+======
+
+:Directive Type: "figure"
+:Doctree Elements: figure_, image_, caption_, legend_
+:Directive Arguments: One, required (image URI).
+:Directive Options: Possible.
+:Directive Content: Interpreted as the figure caption and an optional
+                    legend.
+
+A "figure" consists of image_ data (including `image options`_), an optional
+caption (a single paragraph), and an optional legend (arbitrary body
+elements). For page-based output media, figures might float to a different
+position if this helps the page layout.
+::
+
+    .. figure:: picture.png
+       :scale: 50 %
+       :alt: map to buried treasure
+
+       This is the caption of the figure (a simple paragraph).
+
+       The legend consists of all elements after the caption.  In this
+       case, the legend consists of this paragraph and the following
+       table:
+
+       +-----------------------+-----------------------+
+       | Symbol                | Meaning               |
+       +=======================+=======================+
+       | .. image:: tent.png   | Campground            |
+       +-----------------------+-----------------------+
+       | .. image:: waves.png  | Lake                  |
+       +-----------------------+-----------------------+
+       | .. image:: peak.png   | Mountain              |
+       +-----------------------+-----------------------+
+
+There must be blank lines before the caption paragraph and before the
+legend.  To specify a legend without a caption, use an empty comment
+("..") in place of the caption.
+
+The "figure" directive supports all of the options of the "image"
+directive (see `image options`_ above). These options (except
+"align") are passed on to the contained image.
+
+``align`` : "left", "center", or "right"
+    The horizontal alignment of the figure, allowing the image to
+    float and have the text flow around it.  The specific behavior
+    depends upon the browser or rendering software used.
+
+In addition, the following options are recognized:
+
+``figwidth`` : "image", length_, or percentage_ of current line width
+    The width of the figure.
+    Limits the horizontal space used by the figure.
+    A special value of "image" is allowed, in which case the
+    included image's actual width is used (requires the `Python Imaging
+    Library`_). If the image file is not found or the required software is
+    unavailable, this option is ignored.
+
+    Sets the "width" attribute of the "figure" doctree element.
+
+    This option does not scale the included image; use the "width"
+    `image`_ option for that. ::
+
+        +---------------------------+
+        |        figure             |
+        |                           |
+        |<------ figwidth --------->|
+        |                           |
+        |  +---------------------+  |
+        |  |     image           |  |
+        |  |                     |  |
+        |  |<--- width --------->|  |
+        |  +---------------------+  |
+        |                           |
+        |The figure's caption should|
+        |wrap at this width.        |
+        +---------------------------+
+
+``figclass`` : text
+    Set a `"classes"`_ attribute value on the figure element.  See the
+    class_ directive below.
+
+.. _Python Imaging Library: 
+    https://en.wikipedia.org/wiki/Python_Imaging_Library
+.. _Pillow: https://pypi.org/project/Pillow/
+
+
+
+
+
 Image
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
