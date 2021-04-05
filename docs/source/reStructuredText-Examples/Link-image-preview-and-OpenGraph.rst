@@ -1,4 +1,4 @@
-reStructuredText Link image preview and OpenGraph headers and images settings
+Link image preview and OpenGraph headers and images settings
 ================================================================================
 
 .. toctree::

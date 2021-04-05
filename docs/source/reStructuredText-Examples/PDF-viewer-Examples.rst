@@ -1,4 +1,4 @@
-reStructuredText-ShareThis-and-other-sharing-tools
+PDF viewer Examples
 ================================================================
 
 .. toctree::

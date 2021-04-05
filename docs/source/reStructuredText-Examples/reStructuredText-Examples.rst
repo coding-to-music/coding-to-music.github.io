@@ -1,21 +1,21 @@
 ReadTheDocs and reStructuredText Examples and Summary Guides
-======================================
+================================================================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-   reStructuredText-References-and-Footnotes-Examples
-   reStructuredText-Images-Examples
-   reStructuredText-Tables-Examples
    reStructuredText-Admonitions-Examples
+   reStructuredText-Images-Examples
+   reStructuredText-References-and-Footnotes-Examples
+   reStructuredText-Tables-Examples
+   Build-a-website-content-index
+   How-to-move-files-when-developing-in-a-container
    Link-image-preview-and-OpenGraph
    PDF-viewer-Examples
-   ShareThis-and-other-sharing-tools
    Search-engine-SEO-Meta-keywords
-   How-to-move-files-when-developing-in-a-container
-   Build-a-website-content-index
-   reStructuredText-Use-my-own-domain
+   ShareThis-and-other-sharing-tools
+   Use-my-own-domain
 
 .. contents::
     :local:
