@@ -6,7 +6,6 @@ Words of Wisdom from Famous People
     :maxdepth: 2
     :caption: Contents:
  
-    Placeholder
 
 .. contents::
     :local:
