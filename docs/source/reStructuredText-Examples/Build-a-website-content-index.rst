@@ -1,4 +1,4 @@
-reStructuredText: Build a website content index
+Build a website content index
 ================================================================
 
 .. toctree::

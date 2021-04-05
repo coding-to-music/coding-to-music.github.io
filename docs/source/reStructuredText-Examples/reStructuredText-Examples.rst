@@ -1,4 +1,4 @@
-reStructuredText-Examples
+ReadTheDocs and reStructuredText Examples and Summary Guides
 ======================================
 
 .. toctree::
@@ -14,7 +14,7 @@ reStructuredText-Examples
    reStructuredText-ShareThis-and-other-sharing-tools
    reStructuredText-Search-engine-SEO-Meta-keywords
    reStructuredText-How-to-move-files-when-developing-in-a-container
-   reStructuredText-Build-a-website-content-index
+   Build-a-website-content-index
    reStructuredText-Use-my-own-domain
 
 .. contents::
