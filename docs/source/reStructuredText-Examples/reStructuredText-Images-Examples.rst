@@ -19,7 +19,7 @@ There are two image directives: "image" and "figure".
 
 
 Image
-=====
+--------------
 
 :Directive Type: "image"
 :Doctree Element: image_
@@ -43,7 +43,7 @@ block, they are stripped of leading and trailing whitespace and joined
 together.
 
 Optionally, the image link block may contain a flat field list, the
-_`image options`.  For example::
+_`myimage options`.  For example::
 
     .. image:: picture.jpeg
        :height: 100px
@@ -99,7 +99,8 @@ and the common options `:class:`_ and `:name:`_.
 
 
 Figure
-======
+--------------
+
 
 :Directive Type: "figure"
 :Doctree Elements: figure_, image_, caption_, legend_
@@ -108,7 +109,7 @@ Figure
 :Directive Content: Interpreted as the figure caption and an optional
                     legend.
 
-A "figure" consists of image_ data (including `image options`_), an optional
+A "figure" consists of image_ data (including `myimage options`_), an optional
 caption (a single paragraph), and an optional legend (arbitrary body
 elements). For page-based output media, figures might float to a different
 position if this helps the page layout.
@@ -139,7 +140,7 @@ legend.  To specify a legend without a caption, use an empty comment
 ("..") in place of the caption.
 
 The "figure" directive supports all of the options of the "image"
-directive (see `image options`_ above). These options (except
+directive (see `myimage options`_ above). These options (except
 "align") are passed on to the contained image.
 
 ``align`` : "left", "center", or "right"
@@ -211,7 +212,7 @@ block, they are stripped of leading and trailing whitespace and joined
 together.
 
 Example 1 Right 30% scale
----------------------------------------------------------------------~~~~~~~~~~
+---------------------------------------------------------------------
 
 Optionally, the image link block may contain a flat field list, the
 _`image options`.  For example::
@@ -230,7 +231,7 @@ _`image options`.  For example::
 
 
 Example 2 Right 50% width
----------------------------------------------------------------------~~~~~~~~~~
+---------------------------------------------------------------------
 
 Here is another image example 
 
@@ -256,7 +257,7 @@ legend.  To specify a legend without a caption, use an empty comment
 ("..") in place of the caption.
 
 Example 3 Left 50% width
----------------------------------------------------------------------~~~~~~~~~~
+---------------------------------------------------------------------
 
 .. figure:: static/yi_jing_01_chien.jpg
   :width: 50 %
@@ -268,7 +269,7 @@ Example 3 Left 50% width
   Legend 
 
 Example 4 Centered 80% width 
----------------------------------------------------------------------~~~~~~~~~~
+---------------------------------------------------------------------
 
 .. figure:: static/yi_jing_01_chien.jpg
   :width: 80 %
@@ -280,7 +281,7 @@ Example 4 Centered 80% width
   Legend 
 
 Example 5 Centered 100% width 
----------------------------------------------------------------------~~~~~~~~~~
+---------------------------------------------------------------------
 
 .. figure:: static/yi_jing_01_chien.jpg
   :width: 100 %
@@ -292,7 +293,7 @@ Example 5 Centered 100% width
   Legend 
 
 Example 6 
-~~~~~~~~~~~~~~~~~~~~
+---------------------------------------------------------------------
 
 .. figure:: static/yi_jing_01_chien.jpg
   :width: 50 %
@@ -304,7 +305,7 @@ Example 6
   Legend 
 
 Example 7 
-~~~~~~~~~~~~~~~~~~~~
+---------------------------------------------------------------------
 
 The following options are recognized:
 
@@ -474,8 +475,6 @@ In addition, the following options are recognized:
 
 
 
-Class
-=====
 
 
 
