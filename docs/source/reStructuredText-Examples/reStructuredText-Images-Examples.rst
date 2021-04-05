@@ -190,7 +190,7 @@ In addition, the following options are recognized:
 
 
 Image
-~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------------------------------------
 
 
 An "image" is a simple picture::
@@ -211,7 +211,7 @@ block, they are stripped of leading and trailing whitespace and joined
 together.
 
 Example 1 Right 30% scale
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------------------------------------~~~~~~~~~~
 
 Optionally, the image link block may contain a flat field list, the
 _`image options`.  For example::
@@ -230,7 +230,7 @@ _`image options`.  For example::
 
 
 Example 2 Right 50% width
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------------------------------------~~~~~~~~~~
 
 Here is another image example 
 
@@ -256,7 +256,7 @@ legend.  To specify a legend without a caption, use an empty comment
 ("..") in place of the caption.
 
 Example 3 Left 50% width
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------------------------------------~~~~~~~~~~
 
 .. figure:: static/yi_jing_01_chien.jpg
   :width: 50 %
@@ -268,7 +268,7 @@ Example 3 Left 50% width
   Legend 
 
 Example 4 Centered 80% width 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------------------------------------~~~~~~~~~~
 
 .. figure:: static/yi_jing_01_chien.jpg
   :width: 80 %
@@ -280,7 +280,7 @@ Example 4 Centered 80% width
   Legend 
 
 Example 5 Centered 100% width 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------------------------------------~~~~~~~~~~
 
 .. figure:: static/yi_jing_01_chien.jpg
   :width: 100 %

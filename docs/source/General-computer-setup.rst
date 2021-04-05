@@ -206,6 +206,7 @@ Updating Visual Studio Code - every month need to do this
 
 When a new version is released you can update the Visual Studio Code package through your desktop standard Software Update tool or by running the following commands in your terminal: ::
 
+    // update code vscode and upgrade vscode code 
     sudo apt update
     sudo apt upgrade
 
