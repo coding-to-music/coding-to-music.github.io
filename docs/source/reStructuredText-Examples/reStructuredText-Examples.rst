@@ -26,9 +26,6 @@ ReadTheDocs and reStructuredText Examples and Summary Guides
   
 
 
-Social sharing with image preview
-Test this
-https://www.dailymail.co.uk/news/article-9428743/The-conspiracy-theory-wont-rest-peace.html
 
 Placeholder images
 
