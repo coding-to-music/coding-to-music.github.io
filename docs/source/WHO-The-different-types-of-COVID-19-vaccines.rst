@@ -16,8 +16,8 @@ WHO: The different types of COVID-19 vaccines
  
 
 .. contents::
-    :depth: 3
     :local:
+    :depth: 4
 
     
 The different types of COVID-19 vaccines
