@@ -6,9 +6,9 @@ ReadTheDocs Documentation System
     :maxdepth: 2
     :caption: Contents:
  
+    reStructuredText-Examples/reStructuredText-Examples
     reStructuredText-Examples/reStructuredText-Directives-docutils
     reStructuredText-Examples/reStructured-Text-Special-directives
-    reStructuredText-Examples/reStructuredText-Examples
     Paragraph-level-markup-from-ReadTheDocs
     custom_domains
     faq
