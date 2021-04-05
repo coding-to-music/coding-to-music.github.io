@@ -3,7 +3,7 @@ Making Sense of the Pandmic
 
 
 .. toctree::
-    :maxdepth: 4
+    :maxdepth: 2
     :caption: Contents:
 
     Covid-Medical-Treatments
