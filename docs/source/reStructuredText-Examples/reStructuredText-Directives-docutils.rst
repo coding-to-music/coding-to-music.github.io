@@ -58,7 +58,7 @@ reStructuredText Directives`_.
  Admonitions
 -------------
 
-.. From Webster's Revised Unabridged Dictionary (1913) [web1913]:
+.. admonition:: From Webster's Revised Unabridged Dictionary (1913) [web1913]:
    Admonition
       Gentle or friendly reproof; counseling against a fault or
       error; expression of authoritative advice; friendly caution
@@ -101,11 +101,11 @@ type.  For example::
 
 This directive might be rendered something like this::
 
-    +------------------------+
-    |        !DANGER!        |
-    |                        |
-    | Beware killer rabbits! |
-    +------------------------+
+        +------------------------+
+        |        !DANGER!        |
+        |                        |
+        | Beware killer rabbits! |
+        +------------------------+
 
 The following admonition directives have been implemented:
 
@@ -2083,7 +2083,6 @@ _`:name:` : text
 .. _topic: ../doctree.html#topic
 
 
-
 ..
    Local Variables:
    mode: indented-text
