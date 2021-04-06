@@ -2,23 +2,23 @@ ReadTheDocs and reStructuredText Examples and Summary Guides
 ================================================================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+  :maxdepth: 2
+  :caption: Contents:
 
-   reStructuredText-Admonitions-Examples
-   reStructuredText-Images-Examples
-   reStructuredText-References-and-Footnotes-Examples
-   reStructuredText-Tables-Examples
-   Build-a-website-content-index
-   How-to-move-files-when-developing-in-a-container
-   Link-image-preview-and-OpenGraph
-   PDF-viewer-Examples
-   Search-engine-SEO-Meta-keywords
-   ShareThis-and-other-sharing-tools
-   Use-my-own-domain
+  reStructuredText-Admonitions-Examples
+  reStructuredText-References-and-Footnotes-Examples
+  reStructuredText-Tables-Examples
+  reStructuredText-Images-Examples
+  Build-a-website-content-index
+  How-to-move-files-when-developing-in-a-container
+  Link-image-preview-and-OpenGraph
+  PDF-viewer-Examples
+  Search-engine-SEO-Meta-keywords
+  ShareThis-and-other-sharing-tools
+  Use-my-own-domain
 
 .. contents::
-    :local:
+  :local:
 
 .. image:: ../assets/Vaccines/Pfizer/stock-photo-tokyo-may-pfizer-building-on-may-in-tokyo-pfizer-is-one-of-largest-pharmaceutical-106958480.jpg
   :align: center
