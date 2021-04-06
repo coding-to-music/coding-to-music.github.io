@@ -10,6 +10,18 @@ reStructuredText Images Examples
     :local:
 
 
+Try and reduce the 
+
+❌ Bad:
+   Things that don't work yet
+
+
+And get more of the good
+
+✅ Good:
+   Things that work
+
+
 
 --------
  Images
