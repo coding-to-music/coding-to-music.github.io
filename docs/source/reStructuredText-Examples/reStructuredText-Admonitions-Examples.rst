@@ -69,6 +69,18 @@ This directive might be rendered something like this::
     | Beware killer rabbits! |
     +------------------------+
 
+.. DANGER::
+    Beware killer rabbits!
+
+This directive might be rendered something like this::
+
++------------------------+
+|        !DANGER!        |
+|                        |
+| Beware killer rabbits! |
++------------------------+
+
+
 The following admonition directives have been implemented:
 
 - attention
@@ -95,6 +107,14 @@ bullet list consisting of two list items::
        - It includes this bullet list.
 
 
+.. note:: This is a note admonition.
+    This is the second line of the first paragraph.
+
+    - The note contains all indented body elements
+        following.
+    - It includes this bullet list.
+
+
 Generic Admonition
 ==================
 
@@ -115,6 +135,10 @@ prefixed).  For example, this admonition::
     .. admonition:: And, by the way...
 
        You can make up your own admonition too.
+
+.. admonition:: And, by the way...
+
+    You can make up your own admonition too.
 
 becomes the following document tree (pseudo-XML)::
 
