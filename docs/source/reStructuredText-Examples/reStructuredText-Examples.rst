@@ -18,6 +18,7 @@ ReadTheDocs and reStructuredText Examples and Summary Guides
   Search-engine-SEO-Meta-keywords
   ShareThis-and-other-sharing-tools
   Use-my-own-domain
+  /dcma/index
 
 .. contents::
   :local:

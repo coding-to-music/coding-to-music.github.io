@@ -6,14 +6,15 @@ ReadTheDocs Documentation System
     :maxdepth: 2
     :caption: Contents:
  
-    reStructuredText-Examples/getting-started-with-sphinx
-    reStructuredText-Examples/getting-started-with-mkdocs
+    intro/getting-started-with-sphinx
+    intro/getting-started-with-mkdocs
+    intro/import-guide
     reStructuredText-Examples/reStructuredText-Directives-docutils
     reStructuredText-Examples/reStructured-Text-Special-directives
     Paragraph-level-markup-from-ReadTheDocs
     guides/custom_domains
     faq
-    canonical
+    guides/canonical
     google-analytics
     user-defined-redirects
     technical-docs-seo-guide
