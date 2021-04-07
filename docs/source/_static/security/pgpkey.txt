@@ -1,0 +1,1 @@
+pgpkey.txt would go here, see https://github.com/readthedocs/readthedocs.org/blob/master/docs/_static/security/pgpkey.txt

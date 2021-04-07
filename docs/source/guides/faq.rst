@@ -139,7 +139,7 @@ http://docs.celeryproject.org/projects/kombu/en/latest/
 
 You can add subprojects in the project admin dashboard.
 
-For details on custom domains, see our documentation on :doc:`/custom_domains`.
+For details on custom domains, see our documentation on :doc:`/guides/custom_domains`.
 
 
 Where do I need to put my docs for RTD to find it?

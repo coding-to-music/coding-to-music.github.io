@@ -19,12 +19,12 @@ To test your build process, you can build them locally in a clean environment
 Then you should make sure you are running those same steps on Read the Docs.
 
 You can configure how your project is built from the web interface (:guilabel:`Admin` tab),
-or by :ref:`using a configuration file <guides/reproducible-builds:using a configuration file>` (recommended).
+or by :ref:`using a configuration file </guides/reproducible-builds:using a configuration file>` (recommended).
 If you aren't familiar with these tools, check our docs:
 
-- :doc:`../intro/getting-started-with-sphinx`
-- :doc:`../intro/getting-started-with-mkdocs`
-- :doc:`../config-file/v2`
+- :doc:`/intro/getting-started-with-sphinx`
+- :doc:`/intro/getting-started-with-mkdocs`
+- :doc:`/config-file/v2`
 
 .. note::
 
@@ -73,7 +73,7 @@ By default Read the Docs will install the tool you chose to build your docs,
 and other dependencies, this is done so new users can build their docs without much configuration.
 
 We highly recommend not to assume these dependencies will always be present or that their versions won't change.
-Always declare your dependencies explicitly using a :ref:`configuration file <guides/reproducible-builds:using a configuration file>`,
+Always declare your dependencies explicitly using a :ref:`configuration file </guides/reproducible-builds:using a configuration file>`,
 for example:
 
 ✅ Good:
@@ -166,7 +166,7 @@ Some examples:
           - sphinx_rtd_theme
 
 Check the `pip user guide`_ for more information about requirements files,
-or our Conda docs about :ref:`environment files <guides/conda:creating the \`\`environment.yml\`\`>`.
+or our Conda docs about :ref:`environment files </guides/conda:creating the \`\`environment.yml\`\`>`.
 
 .. _`pip user guide`: https://pip.pypa.io/en/stable/user_guide/#requirements-files
 
