@@ -7,7 +7,7 @@ Sandbox
 
    ../ReadTheDocs-Documentation-System
    ../WHO-The-different-types-of-COVID-19-vaccines
-   ../reStructuredText-Examples/Placeholder
+   ../myGuides/Placeholder
    
 .. contents::
     :local:

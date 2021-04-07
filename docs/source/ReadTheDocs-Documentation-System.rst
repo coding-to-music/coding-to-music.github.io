@@ -9,15 +9,15 @@ ReadTheDocs Documentation System
     intro/getting-started-with-sphinx
     intro/getting-started-with-mkdocs
     intro/import-guide
-    reStructuredText-Examples/reStructuredText-Directives-docutils
-    reStructuredText-Examples/reStructured-Text-Special-directives
-    Paragraph-level-markup-from-ReadTheDocs
+    myGuides/reStructuredText-Directives-docutils
+    myGuides/reStructured-Text-Special-directives
+    guides/Paragraph-level-markup-from-ReadTheDocs
     guides/custom_domains
-    faq
+    guides/faq
     guides/canonical
-    google-analytics
-    user-defined-redirects
-    technical-docs-seo-guide
+    guides/google-analytics
+    guides/user-defined-redirects
+    guides/technical-docs-seo-guide
     guides/wipe-environment
     guides/feature-flags
     guides/reproducible-builds
