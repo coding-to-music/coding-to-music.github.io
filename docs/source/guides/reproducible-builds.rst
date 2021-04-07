@@ -22,8 +22,8 @@ You can configure how your project is built from the web interface (:guilabel:`A
 or by :ref:`using a configuration file <guides/reproducible-builds:using a configuration file>` (recommended).
 If you aren't familiar with these tools, check our docs:
 
-- :doc:`/intro/getting-started-with-sphinx`
-- :doc:`/intro/getting-started-with-mkdocs`
+- :doc:`../reStructuredText-Examples/getting-started-with-sphinx`
+- :doc:`../reStructuredText-Examples/getting-started-with-mkdocs`
 - :doc:`/config-file/v2`
 
 .. note::

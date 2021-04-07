@@ -20,6 +20,17 @@ sys.path.insert(0, os.path.abspath('../..'))
 sys.path.append(os.path.abspath("./_ext"))
 # import sphinx_gallery
 
+# sys.path.append(os.path.dirname(__file__))
+# os.environ.setdefault("DJANGO_SETTINGS_MODULE", "readthedocs.settings.dev")
+
+# from django.conf import settings
+# from django.utils import timezone
+
+# import django
+# django.setup()
+
+featureflags = 'ManyAvailable'
+
 from time import strftime, localtime
 # strftime("%a, %d %b %Y %I:%M %p %Z", localtime())
 
@@ -40,9 +51,11 @@ todo_include_todos = True
 # -- Project information -----------------------------------------------------
 
 project = u'all-knowledge'
-copyright = u'2021, Thomas Connors and Contributors'
 author = 'Thomas Connors and Contributors'
-
+copyright = '2020-2021, Thomas Connors and Contributors'
+# copyright = '2020-{}, Thomas Connors and Contributors'.format(
+#     time.now().year
+# )
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
@@ -66,13 +79,10 @@ release = ''
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 
-# extensions = [
-#     'sphinx.ext.autodoc'
-#     ]
-    # 'todo',
-
 extensions = [
     'sphinx.ext.todo',
+    'sphinx_tabs.tabs',
+    'sphinx-prompt',
     'sphinx.ext.coverage', 
     'sphinx.ext.napoleon',
     "sphinxext.opengraph",
@@ -91,6 +101,11 @@ sphinx_gallery_conf = {
      'examples_dirs': 'examples',   # path to your example scripts
      'gallery_dirs': 'auto_examples',  # path to where to save gallery generated output
 }
+
+rst_epilog = """
+.. |org_brand| replace:: Read the Docs Community
+.. |com_brand| replace:: Read the Docs for Business
+"""
 
 # ogp_custom_meta_tags = [
 #     '<meta property="og:ignore_canonical" content="true" />',

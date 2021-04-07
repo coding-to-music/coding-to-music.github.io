@@ -1,4 +1,4 @@
-2017-10-23 Spars Scenario - John's Hopkins University News Announcement
+2017-10-23 SPARS Scenario - John's Hopkins University News Announcement
 ============================================================================
 
 

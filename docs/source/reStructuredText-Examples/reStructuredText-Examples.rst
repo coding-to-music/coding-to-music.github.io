@@ -9,6 +9,8 @@ ReadTheDocs and reStructuredText Examples and Summary Guides
   reStructuredText-References-and-Footnotes-Examples
   reStructuredText-Tables-Examples
   reStructuredText-Images-Examples
+  Sphinx-tabs
+  Sphinx-prompt
   Build-a-website-content-index
   How-to-move-files-when-developing-in-a-container
   Link-image-preview-and-OpenGraph

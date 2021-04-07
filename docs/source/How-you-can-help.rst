@@ -13,6 +13,7 @@ How you can help
     General-computer-setup
     vscode-SSH-Remote-Containers
     Sphinx-Documentation-System
+    reStructuredText-Examples/reStructuredText-Examples
     ReadTheDocs-Documentation-System
     Container-Workflow
     Docker-and-Sphinx
