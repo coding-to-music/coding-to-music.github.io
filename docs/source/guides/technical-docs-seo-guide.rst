@@ -147,7 +147,7 @@ and will still be showing it to users.
 This is why it is important to update your own links within your docs as well as redirecting.
 If the hostname moved from docs.readthedocs.io to docs.readthedocs.org, this would be even more important!
 
-Read the Docs supports a few different kinds of :doc:`user defined redirects </user-defined-redirects>`
+Read the Docs supports a few different kinds of :doc:`user defined redirects </guides/user-defined-redirects>`
 that should cover all the different cases such as redirecting a certain page for all project versions,
 or redirecting one version to another.
 
@@ -266,7 +266,7 @@ Some of the most valuable feedback these provide include:
 Analytics tools
 ~~~~~~~~~~~~~~~
 
-A tool like :doc:`Google Analytics </google-analytics>`
+A tool like :doc:`Google Analytics </guides/google-analytics>`
 can give you feedback about the search terms people use to find your docs,
 your most popular pages, and lots of other useful data.
 

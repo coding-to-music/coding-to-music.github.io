@@ -82,13 +82,15 @@ reStructuredText Directives`_.
 Specific Admonitions
 ====================
 
-:Directive Types: "attention", "caution", "danger", "error", "hint",
-                  "important", "note", "tip", "warning", "admonition"
-:Doctree Elements: attention, caution, danger, error, hint, important,
-                   note, tip, warning, admonition_, title
-:Directive Arguments: None.
-:Directive Options: `:class:`_, `:name:`_
-:Directive Content: Interpreted as body elements.
+.. prompt::
+
+    :Directive Types: "attention", "caution", "danger", "error", "hint",
+                    "important", "note", "tip", "warning", "admonition"
+    :Doctree Elements: attention, caution, danger, error, hint, important,
+                    note, tip, warning, admonition_, title
+    :Directive Arguments: None.
+    :Directive Options: `:class:`_, `:name:`_
+    :Directive Content: Interpreted as body elements.
 
 Admonitions are specially marked "topics" that can appear anywhere an
 ordinary body element can.  They contain arbitrary body elements.

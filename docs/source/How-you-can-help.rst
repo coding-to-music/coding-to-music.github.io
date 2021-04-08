@@ -14,7 +14,7 @@ How you can help
     myGuides/vscode-SSH-Remote-Containers
     myGuides/Sphinx-Documentation-System
     ReadTheDocs-Documentation-System
-    myGuides/reStructuredText-Examples
+    myGuides/myGuides
     myGuides/Container-Workflow
     myGuides/Docker-and-Sphinx
     myGuides/Kubernetes

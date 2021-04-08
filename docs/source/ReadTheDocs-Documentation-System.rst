@@ -28,30 +28,39 @@ ReadTheDocs Documentation System
     :local:
 
 
-This next file is having some difficulties
-Paragraph-level-markup-from-ReadTheDocs
-
-
-
-.. admonition:: Having a problem with rst file: Paragraph-level-markup-from-ReadTheDocs
-
-   Having a problem with rst file: Paragraph-level-markup-from-ReadTheDocs
-
-
-.. code-block:: 
-    :caption: Code Blocks can have captions.
-
-    resolving references...
-    failed
-
-    Exception occurred:
-    File "/home/docs/checkouts/readthedocs.org/user_builds/pandemic-overview/envs/latest/lib/python3.7/site-packages/sphinx/builders/latex/transforms.py", line 383, in unrestrict
-    fntext = footnotetext('', *footnote.children, ids=footnote['ids'])
-    AttributeError: 'NoneType' object has no attribute 'children'
-
-
 ReadTheDocs Documentation System
 ------------------------------------
+
+This project is built with software from a project called ReadTheDocs
+
+Purpose
+-------
+
+`Read the Docs`_ hosts documentation for the open source community. It supports
+Sphinx_ docs written with reStructuredText_, and can pull from your Subversion_,
+Bazaar_, Git_, and Mercurial_ repositories.
+Then we build documentation and host it for you.
+Think of it as *Continuous Documentation*.
+
+.. _Read the docs: https://readthedocs.org/
+.. _Sphinx: http://www.sphinx-doc.org/
+.. _reStructuredText: http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
+.. _Subversion: http://subversion.tigris.org/
+.. _Bazaar: http://bazaar.canonical.com/
+.. _Git: http://git-scm.com/
+.. _Mercurial: https://www.mercurial-scm.org/
+
+Documentation for RTD
+---------------------
+
+You will find complete documentation for setting up your project at `the Read
+the Docs site`_.
+
+.. _the Read the Docs site: https://docs.readthedocs.io/
+
+
+ReadTheDocs Theme and Demo Documentation
+-------------------------------------------
 
 https://sphinx-rtd-theme.readthedocs.io/en/stable/index.html
 
