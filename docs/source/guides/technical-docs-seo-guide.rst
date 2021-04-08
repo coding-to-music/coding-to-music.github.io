@@ -219,10 +219,10 @@ In Sphinx, you can customize your meta description using the following Restructu
             can let you customize the look and feel of your docs or add additional functionality.
 
 
-.. figure:: _static/images/guides/google-search-engine-results.png
+.. figure:: /_static/images/guides/google-search-engine-results.png
     :align: center
     :figwidth: 80%
-    :target: _static/images/guides/google-search-engine-results.png
+    :target: /_static/images/guides/google-search-engine-results.png
 
     Google search engine results showing a customized meta description
 
