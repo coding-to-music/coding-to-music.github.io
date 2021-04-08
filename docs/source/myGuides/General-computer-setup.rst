@@ -156,7 +156,7 @@ Now that VS Code is installed on your Ubuntu system you can launch it either fro
 
 When you start VS Code for the first time, a window like the following should appear:
 
-.. figure:: assets/Software/vscode-default-home-screen.jpg
+.. figure:: /assets/Software/vscode-default-home-screen.jpg
   :align: center
   :width: 80 %
   
@@ -173,7 +173,7 @@ There is a very good set of detailed instructions about vscode cloud settings sy
 Setup a password for cloud sync - you will be prompted each time you start vscode  
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. figure:: assets/Software/choose-password-for-vscode-sync-data.png
+.. figure:: /assets/Software/choose-password-for-vscode-sync-data.png
   :align: center
   :width: 80 %
   
@@ -182,7 +182,7 @@ Setup a password for cloud sync - you will be prompted each time you start vscod
 If you previously have a cloud account you can merge your data    
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. figure:: assets/Software/merge-or-replace-cloud-sync-data.png
+.. figure:: /assets/Software/merge-or-replace-cloud-sync-data.png
   :align: center
   :width: 80 %
   
@@ -293,7 +293,7 @@ Once you copy the key,
 - add and name of the new key   
 
 
-.. figure:: assets/Software/ssh-keys-in-GitHub.png
+.. figure:: /assets/Software/ssh-keys-in-GitHub.png
   :align: center
   :width: 80 %
   
@@ -316,7 +316,7 @@ Let vscode know about the GitHub token at the bottom left of vscode click bottom
 - click to clone a repository or some other activity that will involve GitHub
 - it will ask you for access, click yes, it will bring you to github, approve (and if necessary copy the token and paste it into vscode but you probably won't need to)
 
-.. figure:: assets/Software/bottom-left-of-vscode-click-and-paste-github-token.png
+.. figure:: /assets/Software/bottom-left-of-vscode-click-and-paste-github-token.png
   :align: center
   :width: 80 %
   
@@ -326,7 +326,7 @@ Let vscode know about the GitHub token at the bottom left of vscode click bottom
 Get your vscode token from github account settings 
 --------------------------------------------------------------------
 
-.. figure:: assets/Software/vscode-github-token.png
+.. figure:: /assets/Software/vscode-github-token.png
   :align: center
   :width: 50 %
   

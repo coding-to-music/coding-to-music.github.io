@@ -9,22 +9,22 @@ How you can help
     :maxdepth: 2
     :caption: Contents:
  
-    Tech-stack-for-this-website
-    General-computer-setup
-    vscode-SSH-Remote-Containers
-    Sphinx-Documentation-System
+    myGuides/Tech-stack-for-this-website
+    myGuides/General-computer-setup
+    myGuides/vscode-SSH-Remote-Containers
+    myGuides/Sphinx-Documentation-System
     ReadTheDocs-Documentation-System
     myGuides/reStructuredText-Examples
-    Container-Workflow
-    Docker-and-Sphinx
-    Kubernetes
-    Web-Scraping
-    Search-Engine-Optimization-SEO-Guide
-    Github-Workflow
-    Using-and-Sharing-Rich-Objects
-    Upcoming-software-to-try
-    ToDo-project-tasks
-    Contribute
+    myGuides/Container-Workflow
+    myGuides/Docker-and-Sphinx
+    myGuides/Kubernetes
+    myGuides/Web-Scraping
+    myGuides/Search-Engine-Optimization-SEO-Guide
+    myGuides/Github-Workflow
+    myGuides/Using-and-Sharing-Rich-Objects
+    myGuides/Upcoming-software-to-try
+    myGuides/ToDo-project-tasks
+    myGuides/Contribute
 
 .. contents::
     :local:
