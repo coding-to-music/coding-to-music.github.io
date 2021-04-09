@@ -9,6 +9,8 @@ My Guides for Various Technical Topics
   reStructuredText-References-and-Footnotes-Examples
   reStructuredText-Tables-Examples
   reStructuredText-Images-Examples
+  reStructuredText-Twitter-Examples
+  reStructuredText-Video-Examples
   Sphinx-tabs
   Sphinx-prompt
   Build-a-website-content-index
