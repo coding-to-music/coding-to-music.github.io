@@ -10,8 +10,8 @@ How you can help
     :caption: Contents:
  
     myGuides/Tech-stack-for-this-website
-    myGuides/General-computer-setup
     myGuides/myGuides
+    myGuides/General-computer-setup
     Advanced-Computer-Setup
     myGuides/ToDo-project-tasks
     myGuides/Contribute

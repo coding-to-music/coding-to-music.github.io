@@ -44,7 +44,7 @@ Begin Webster's example
 .. _warning:
 
 Specific Admonitions
-====================
+-----------------------
 
 
 Admonitions are specially marked "topics" that can appear anywhere an
@@ -104,7 +104,7 @@ bullet list consisting of two list items::
 
 
 Generic Admonition
-==================
+-----------------------
 
 :Directive Type: "admonition"
 :Doctree Elements: admonition_, title
@@ -179,6 +179,7 @@ _`:name:` : text
       .. image:: bild.png
 
     New in Docutils 0.8.
+
 
 
 
