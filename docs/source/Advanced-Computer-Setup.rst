@@ -11,10 +11,7 @@ Advanced Computer Setup and Topics
     myGuides/Container-Workflow
     myGuides/Docker-and-Sphinx
     myGuides/Kubernetes
-    myGuides/Web-Scraping
-    myGuides/Search-Engine-Optimization-SEO-Guide
     myGuides/Github-Workflow
-    myGuides/Using-and-Sharing-Rich-Objects
 
 .. contents::
   :local:
