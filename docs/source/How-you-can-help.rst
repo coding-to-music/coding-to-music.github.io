@@ -11,17 +11,8 @@ How you can help
  
     myGuides/Tech-stack-for-this-website
     myGuides/General-computer-setup
-    myGuides/vscode-SSH-Remote-Containers
-    myGuides/Sphinx-Documentation-System
-    ReadTheDocs-Documentation-System
     myGuides/myGuides
-    myGuides/Container-Workflow
-    myGuides/Docker-and-Sphinx
-    myGuides/Kubernetes
-    myGuides/Web-Scraping
-    myGuides/Search-Engine-Optimization-SEO-Guide
-    myGuides/Github-Workflow
-    myGuides/Using-and-Sharing-Rich-Objects
+    Advanced-Computer-Setup
     myGuides/Upcoming-software-to-try
     myGuides/ToDo-project-tasks
     myGuides/Contribute

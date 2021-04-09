@@ -5,21 +5,24 @@ My Guides for Various Technical Topics
   :maxdepth: 2
   :caption: Contents:
 
-  reStructuredText-Admonitions-Examples
-  reStructuredText-References-and-Footnotes-Examples
-  reStructuredText-Tables-Examples
-  reStructuredText-Images-Examples
-  reStructuredText-Twitter-Examples
-  reStructuredText-Video-Examples
-  Sphinx-tabs
-  Sphinx-prompt
-  Build-a-website-content-index
-  How-to-move-files-when-developing-in-a-container
-  Link-image-preview-and-OpenGraph
-  PDF-viewer-Examples
-  Search-engine-SEO-Meta-keywords
-  ShareThis-and-other-sharing-tools
-  Use-my-own-domain
+  /myGuides/reStructuredText-Admonitions-Examples
+  /myGuides/reStructuredText-References-and-Footnotes-Examples
+  /myGuides/reStructuredText-Tables-Examples
+  /myGuides/reStructuredText-Images-Examples
+  /myGuides/reStructuredText-Twitter-Examples
+  /myGuides/reStructuredText-Video-Examples
+  /myGuides/Sphinx-tabs
+  /myGuides/Sphinx-prompt
+  /myGuides/PDF-viewer-Examples
+  /myGuides/How-to-move-files-when-developing-in-a-container
+  /myGuides/Link-image-preview-and-OpenGraph
+  /myGuides/Using-and-Sharing-Rich-Objects
+  /myGuides/Search-engine-SEO-Meta-keywords
+  /myGuides/ShareThis-and-other-sharing-tools
+  /myGuides/Use-my-own-domain
+  /myGuides/Build-a-website-content-index
+  /myGuides/Web-Scraping
+  /myGuides/Search-Engine-Optimization-SEO-Guide
   /dcma/index
 
 .. contents::
