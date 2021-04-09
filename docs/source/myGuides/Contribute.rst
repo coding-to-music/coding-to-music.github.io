@@ -56,4 +56,16 @@ Anything else?
 
 We believe in the power of collective wisdom – bringing knowledge together to solve problems – so if you have an idea for us, or potential collaboration not covered here, then please get in touch via editorial@all-knowledge.info.
 
-Credit to the source: adapted and revised from https://pharmaphorum.com/contribute/
+
+.. Note:: 
+    
+    This page was Retrieved and copied March 10 2021
+    
+    Credit to the source: adapted and revised from 
+    
+    https://pharmaphorum.com/contribute/
+
+
+
+
+Last change: |today|
