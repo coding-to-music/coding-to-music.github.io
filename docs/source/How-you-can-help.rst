@@ -13,9 +13,9 @@ How you can help
     myGuides/General-computer-setup
     myGuides/myGuides
     Advanced-Computer-Setup
-    myGuides/Upcoming-software-to-try
     myGuides/ToDo-project-tasks
     myGuides/Contribute
+    myGuides/Upcoming-software-to-try
 
 .. contents::
     :local:
