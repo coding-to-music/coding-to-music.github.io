@@ -6,23 +6,24 @@ ReadTheDocs Documentation System
     :maxdepth: 2
     :caption: Contents:
  
-    intro/getting-started-with-sphinx
-    intro/getting-started-with-mkdocs
-    intro/import-guide
-    myGuides/reStructuredText-Directives-docutils
-    myGuides/reStructured-Text-Special-directives
-    guides/Paragraph-level-markup-from-ReadTheDocs
-    guides/custom_domains
-    guides/faq
-    guides/canonical
-    guides/google-analytics
-    guides/user-defined-redirects
-    guides/technical-docs-seo-guide
-    guides/wipe-environment
-    guides/feature-flags
-    guides/reproducible-builds
-    guides/localization
-    guides/manage-translations
+    /guides/intro/getting-started-with-sphinx
+    /guides/intro/getting-started-with-mkdocs
+    /guides/intro/import-guide
+    /myGuides/reStructuredText-Directives-docutils
+    /myGuides/reStructured-Text-Special-directives
+    /guides/Paragraph-level-markup-from-ReadTheDocs
+    /guides/custom_domains
+    /guides/faq
+    /guides/canonical
+    /guides/google-analytics
+    /guides/user-defined-redirects
+    /guides/technical-docs-seo-guide
+    /guides/wipe-environment
+    /guides/feature-flags
+    /guides/reproducible-builds
+    /guides/localization
+    /guides/manage-translations
+    /guides/config-file
 
 .. contents::
     :local:

@@ -182,7 +182,7 @@ ReadTheDocs - Getting Started with Sphinx
 
 ReadTheDocs - Getting Started with Sphinx
 
-https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html
+https://docs.readthedocs.io/en/stable/guides/intro/getting-started-with-sphinx.html
 
 
 

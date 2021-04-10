@@ -15,14 +15,14 @@ It has many great features including:
 .. note::
 
     MkDocs is a great choice for building technical documentation.
-    However, Read the Docs also supports :doc:`Sphinx </intro/getting-started-with-sphinx>`,
+    However, Read the Docs also supports :doc:`Sphinx </guides/intro/getting-started-with-sphinx>`,
     another tool for writing and building documentation.
 
 
 Quick start
 -----------
 
-.. seealso:: If you already have a Mkdocs project, check out our :doc:`/intro/import-guide` guide.
+.. seealso:: If you already have a Mkdocs project, check out our :doc:`/guides/intro/import-guide` guide.
 
 Assuming you have Python already, `install MkDocs`_:
 
@@ -60,7 +60,7 @@ You can make changes to your Markdown files and your docs will automatically reb
    Your MkDocs project is built
 
 Once you have your documentation in a public repository such as GitHub, Bitbucket, or GitLab,
-you can start using Read the Docs by :doc:`importing your docs </intro/import-guide>`.
+you can start using Read the Docs by :doc:`importing your docs </guides/intro/import-guide>`.
 
 .. _install MkDocs: https://www.mkdocs.org/#installation
 

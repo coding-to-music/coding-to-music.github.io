@@ -15,7 +15,7 @@ To import one of these projects, just click the import
 icon next to the repository you'd like to import. This will bring up a form that
 is already filled with your project's information. Feel free to edit any of
 these properties, and then click **Next** to
-:ref:`build your documentation <intro/import-guide:Building your documentation>`.
+:ref:`build your documentation </guides/intro/import-guide:Building your documentation>`.
 
 .. _Read the Docs dashboard: https://readthedocs.org/dashboard
 .. _Import: https://readthedocs.org/dashboard/import

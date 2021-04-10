@@ -28,7 +28,7 @@ Source `Contributing set up, create branch, Pull Requests, GitHub Flow`_.
 
 Source `Understanding the GitHub flow`_.
 
-.. _Understanding the GitHub flow: https://guides.github.com/introduction/flow/
+.. _Understanding the GitHub flow: https:/guides.github.com/introduction/flow/
 
 GitHub flow is a lightweight, branch-based workflow that supports teams and projects where deployments are made regularly  
   
