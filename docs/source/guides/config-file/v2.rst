@@ -256,7 +256,7 @@ Give the virtual environment access to the global site-packages directory.
 :Type: ``bool``
 :Default: ``false``
 
-Depending on the :ref:`config-file/v2:build.image`,
+Depending on the :ref:`/config-file/v2:build.image`,
 Read the Docs includes some libraries like scipy, numpy, etc.
 That you can access to them by enabling this option.
 See :doc:`/builds` for more details.
