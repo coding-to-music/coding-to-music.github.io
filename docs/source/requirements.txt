@@ -3,3 +3,4 @@ sphinx_rtd_theme
 sphinxext.opengraph
 sphinx_tabs
 sphinx_prompt
+sphinxcontrib.images

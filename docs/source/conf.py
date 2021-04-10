@@ -86,6 +86,7 @@ extensions = [
     'sphinx.ext.coverage', 
     'sphinx.ext.napoleon',
     "sphinxext.opengraph",
+    'sphinxcontrib.images',
     'sphinx.ext.autodoc'] 
 
 try:
