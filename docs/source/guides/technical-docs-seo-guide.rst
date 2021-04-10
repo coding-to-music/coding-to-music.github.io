@@ -19,7 +19,7 @@ that is answerable by your documentation, that your docs appear in the results.*
 This guide isn't meant to be your only resource on SEO,
 and there's a lot of SEO topics not covered here.
 For additional reading, please see the
-:ref:`external resources <technical-docs-seo-guide:External resources>` section.
+:ref:`external resources </guides/technical-docs-seo-guide:External resources>` section.
 
 While many of the topics here apply to all forms of technical documentation,
 this guide will focus on Sphinx, which is the most common
@@ -86,8 +86,8 @@ Optimizing your docs for search engine spiders
 Once a crawler or spider finds your site, it will follow links and redirects
 in an attempt to find any and all pages on your site.
 While there are a few ways to guide the search engine in its crawl
-for example by using a :ref:`sitemap <technical-docs-seo-guide:Use a sitemap.xml file>`
-or a :ref:`robots.txt file <technical-docs-seo-guide:Use a robots.txt file>`
+for example by using a :ref:`sitemap </guides/technical-docs-seo-guide:Use a sitemap.xml file>`
+or a :ref:`robots.txt file </guides/technical-docs-seo-guide:Use a robots.txt file>`
 which we'll discuss shortly,
 the most important thing is making sure the spider can follow links on your site
 and get to all your pages.
@@ -175,7 +175,7 @@ and lives at the root of your site (eg. https://docs.readthedocs.io/robots.txt).
 It tells search engines which pages to crawl or not to crawl
 and can allow you to control how a search engine crawls your site.
 For example, you may want to request that search engines
-:ref:`ignore unsupported versions of your documentation <faq:How can I avoid search results having a deprecated version of my docs?>`
+:ref:`ignore unsupported versions of your documentation </guides/faq:How can I avoid search results having a deprecated version of my docs?>`
 while keeping those docs online in case people need them.
 
 By default, Read the Docs serves a ``robots.txt`` for you.
@@ -257,7 +257,7 @@ Some of the most valuable feedback these provide include:
 * Google and Bing will show pages that were previously indexed that now give a 404
   (or more rarely a 500 or other status code).
   These will remain in the index for some time but will eventually be removed.
-  This is a good opportunity to create a :ref:`redirect <technical-docs-seo-guide:Redirects>`.
+  This is a good opportunity to create a :ref:`redirect </guides/technical-docs-seo-guide:Redirects>`.
 * These tools will show any crawl issues with your documentation.
 * Search Console and Webmaster Tools will highlight security issues found
   or if Google or Bing took action against your site because they believe it is spammy.
