@@ -79,6 +79,8 @@ release = ''
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 
+# extensions = ['todo','sphinx.ext.todo']
+
 extensions = [
     'sphinx.ext.todo',
     'sphinx_tabs.tabs',
