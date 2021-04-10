@@ -5,6 +5,14 @@ help
   :local:
 
 
+About 
+---------------------------------------------------
+
+For further information, please visit
+https://github.com/coding-to-music
+
+
+
 This is what I am working on
 ---------------------------------------------------
 
@@ -15,9 +23,7 @@ This is what I am working on
   :align: center
   :width: 80 %
   
-  This is what I am working on 
 
-For further information, please visit
-https://github.com/coding-to-music
+
 
 Last change: |today|
