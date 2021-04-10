@@ -82,7 +82,7 @@ release = ''
 # extensions = ['todo','sphinx.ext.todo']
 
 extensions = [
-    'sphinx.ext.todo',
+    'todo',
     'sphinx_tabs.tabs',
     'sphinx-prompt',
     'sphinx.ext.coverage', 
