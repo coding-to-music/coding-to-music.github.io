@@ -24,7 +24,7 @@ If you aren't familiar with these tools, check our docs:
 
 - :doc:`/intro/getting-started-with-sphinx`
 - :doc:`/intro/getting-started-with-mkdocs`
-- :doc:`/config-file/v2`
+- :doc:`/guides/config-file/v2`
 
 .. note::
 

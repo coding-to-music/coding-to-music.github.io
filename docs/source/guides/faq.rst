@@ -149,7 +149,7 @@ Read the Docs will crawl your project looking for a ``conf.py``. Where it finds 
 it will run ``sphinx-build`` in that directory.
 So as long as you only have one set of sphinx documentation in your project, it should Just Work.
 
-You can specify an exact path to your documentation using a Read the Docs :doc:`config-file/index`.
+You can specify an exact path to your documentation using a Read the Docs :doc:`/guides/config-file/index`.
 
 
 I want to use the Blue/Default Sphinx theme
@@ -244,7 +244,7 @@ contents would look like::
     ../python/
 
 You can customize the path to your requirements file and any other installed dependency
-using a Read the Docs :doc:`config-file/index`.
+using a Read the Docs :doc:`/guides/config-file/index`.
 
 .. _Sphinx's autoapi: http://sphinx-doc.org/ext/autodoc.html
 .. _pip requirements file: https://pip.pypa.io/en/stable/user_guide.html#requirements-files
@@ -253,7 +253,7 @@ using a Read the Docs :doc:`config-file/index`.
 I need to install a package in a environment with pinned versions
 -----------------------------------------------------------------
 
-To ensure proper installation of a python package, the ``pip`` :ref:`install method <config-file/v2:python.install>` will automatically upgrade every dependency to its most recent version in case they aren't pinned by the package definition.
+To ensure proper installation of a python package, the ``pip`` :ref:`install method </guides/config-file/v2:python.install>` will automatically upgrade every dependency to its most recent version in case they aren't pinned by the package definition.
 If instead you'd like to pin your dependencies outside the package, you can add this line to your requirements or environment file (if you are using Conda).
 
 In your ``requirements.txt`` file::

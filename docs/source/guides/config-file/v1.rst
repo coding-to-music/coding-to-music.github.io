@@ -8,8 +8,8 @@ Read the Docs has support for configuring builds with a YAML file.
 
    Version 1 shouldn't be used.
    The version 2 of the configuration file is now available.
-   See the :ref:`new features <config-file/v2:New settings>`
-   and :ref:`how to migrate from v1 <config-file/v2:Migrating from v1>`.
+   See the :ref:`new features </guides/config-file/v2:New settings>`
+   and :ref:`how to migrate from v1 </guides/config-file/v2:Migrating from v1>`.
 
 Here is an example of what this file looks like:
 
@@ -151,7 +151,7 @@ the highest supported minor version will be selected.
     The supported Python versions depends on the version of the build image your
     project is using. The default build image that is used to build
     documentation contains support for Python ``2.7`` and ``3.7``.
-    See :ref:`config-file/v1:build.image` for more information on supported Python versions.
+    See :ref:`/guides/config-file/v1:build.image` for more information on supported Python versions.
 
 .. code-block:: yaml
 
@@ -165,7 +165,7 @@ python.use_system_site_packages
 * Type: Boolean
 
 When true, it gives the virtual environment access to the global site-packages directory.
-Depending on the :ref:`config-file/v1:build.image`,
+Depending on the :ref:`/guides/config-file/v1:build.image`,
 Read the Docs includes some libraries like scipy, numpy, etc.
 See :doc:`/builds` for more details.
 
