@@ -23,7 +23,6 @@ ReadTheDocs Documentation System
     /guides/reproducible-builds
     /guides/localization
     /guides/manage-translations
-    /guides/config-file
 
 .. contents::
     :local:
