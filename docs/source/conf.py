@@ -92,6 +92,7 @@ release = ''
 #     "sphinxext.opengraph",
 #     'sphinxcontrib.images',
 #     'sphinx.ext.autodoc'] 
+#     "crate.sphinx.csv",  # create filters on CSV files to include exclude rows
 
 
 extensions = [
@@ -115,7 +116,6 @@ extensions = [
     "sphinxcontrib.nwdiag",
     "sphinxcontrib.plantuml",
     "sphinxcontrib.seqdiag",
-    "crate.sphinx.csv",  # create filters on CSV files to include exclude rows
 ]
 
 
