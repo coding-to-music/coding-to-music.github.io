@@ -83,15 +83,41 @@ release = ''
 
 # extensions = ['todo','sphinx.ext.todo']
 
+# extensions = [
+#     'todo',
+#     'sphinx_tabs.tabs',
+#     'sphinx-prompt',
+#     'sphinx.ext.coverage', 
+#     'sphinx.ext.napoleon',
+#     "sphinxext.opengraph",
+#     'sphinxcontrib.images',
+#     'sphinx.ext.autodoc'] 
+
+
 extensions = [
-    'todo',
-    'sphinx_tabs.tabs',
+    "bareos-ext",
+    "limitation",
+    "sphinx_issues",
     'sphinx-prompt',
-    'sphinx.ext.coverage', 
-    'sphinx.ext.napoleon',
     "sphinxext.opengraph",
     'sphinxcontrib.images',
-    'sphinx.ext.autodoc'] 
+    'sphinx_tabs.tabs',
+    "sphinx.ext.autodoc",  # Core Sphinx library for auto html doc generation from docstrings
+    "sphinx.ext.autosectionlabel",
+    "sphinx.ext.autosummary",  # Create neat summary tables for modules/classes/methods etc
+    "sphinx.ext.coverage",
+    "sphinx.ext.intersphinx",  # Link to other project's documentation (see mapping below)
+    "sphinx.ext.napoleon",
+    "sphinx.ext.todo",
+    "sphinx.ext.viewcode",  # Add a link to the Python source code for classes, functions etc.
+    "sphinxcontrib.actdiag",
+    "sphinxcontrib.blockdiag",
+    "sphinxcontrib.nwdiag",
+    "sphinxcontrib.plantuml",
+    "sphinxcontrib.seqdiag",
+    "crate.sphinx.csv",  # create filters on CSV files to include exclude rows
+]
+
 
 try:
     import sphinxcontrib.spelling
