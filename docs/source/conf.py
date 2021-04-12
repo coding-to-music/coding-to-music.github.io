@@ -18,6 +18,8 @@ sys.path.insert(0, os.path.abspath('.'))
 sys.path.insert(0, os.path.abspath('..'))
 sys.path.insert(0, os.path.abspath('../..'))
 sys.path.append(os.path.abspath("./_ext"))
+sys.path.insert(0, os.path.abspath("../../../python-bareos/"))
+sys.path.insert(0, os.path.abspath("./_extensions"))
 # import sphinx_gallery
 
 # sys.path.append(os.path.dirname(__file__))
@@ -171,6 +173,33 @@ og_headline="All-Knowlege.info"
 #   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
 #   <title>WHO World Health Organization &mdash; all-knowledge 0.0.1 documentation</title>
+
+# about <isonum.txt>, see
+# http://docutils.sourceforge.net/docs/ref/rst/definitions.html#substitution-definitions
+# http://docutils.sourceforge.net/docutils/parsers/rst/include/isonum.txt
+rst_epilog = """
+.. include:: <isonum.txt>
+.. |checkmark| unicode:: U+2713
+.. |configCharsToQuote| replace:: ``&<>()@^|``
+.. |bareosFd| replace:: Bareos File Daemon
+.. |fd| replace:: Bareos File Daemon
+.. |bareosSd| replace:: Bareos Storage Daemon
+.. |sd| replace:: Bareos Storage Daemon
+.. |bareosDir| replace:: Bareos Director
+.. |dir| replace:: Bareos Director
+.. |bconsole| replace:: Bareos Console
+.. |bareosTraymonitor| replace:: Bareos Traymonitor
+.. |traymonitor| replace:: Bareos Traymonitor
+.. |bareosWebui| replace:: Bareos Webui
+.. |webui| replace:: Bareos WebUI
+.. |mysql| replace:: MySQL/MariaDB
+.. |postgresql| replace:: PostgreSQL
+.. |sqlite| replace:: Sqlite
+.. |vmware| replace:: VMware
+.. |vsphere| replace:: VMware vSphere
+.. |ndmpbareos| replace:: :ref:`section-NdmpBareos`
+.. |ndmpnative| replace:: :ref:`section-NdmpNative`
+"""
 
 
 # Add any paths that contain templates here, relative to this directory.

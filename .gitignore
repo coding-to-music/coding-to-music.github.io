@@ -3,6 +3,7 @@ docs/source/junk1.html
 docs/source/junk2.html
 docs/source/junk3.html
 
+*.pyc
 doc/*.pyc
 venv/
 __pycache__

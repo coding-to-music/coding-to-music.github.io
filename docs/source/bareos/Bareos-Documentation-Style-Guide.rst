@@ -21,7 +21,7 @@ It is doubtfull, is PDFs can be created easily (internally, Sphinx would convert
    /bareos/CommonNames.rst
    /bareos/SpecificFormatting.rst
    /bareos/Gotchas.rst
-   /bareos/Conf-py.rst
+   /bareos/Bareos-conf-py.rst
 
 .. contents::
    :local:
