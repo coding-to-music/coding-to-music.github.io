@@ -300,8 +300,8 @@ There are several diagram formats available for you to use.
 A block diagram
 ~~~~~~~~~~~~~~~
 
-literalinclude /bareos/example/blockdiag.rst.inc
-
+.. literalinclude:: /bareos/example/blockdiag.rst.inc
+   :language: none
 
 .. include:: /bareos/example/blockdiag.rst.inc
 
