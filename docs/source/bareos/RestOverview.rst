@@ -3,6 +3,13 @@ reST Overview
 
 .. highlight:: none
 
+.. Note:: 
+    
+    This page was Retrieved and copied April 11 2021
+    
+    https://github.com/bareos/bareos/blob/bareos-20/docs/manuals/source/DocumentationStyleGuide/RestOverview.rst
+
+
 The outline for this chapter has been taken from
 https://devguide.python.org/documenting/
 and adapted and extended for our needs.

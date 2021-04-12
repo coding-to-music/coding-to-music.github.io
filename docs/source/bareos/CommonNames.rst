@@ -1,6 +1,13 @@
 Common Names
 ============
 
+.. Note:: 
+    
+    This page was Retrieved and copied April 11 2021
+    
+    https://github.com/bareos/bareos/blob/bareos-20/docs/manuals/source/DocumentationStyleGuide/CommonNames.rst
+
+
 Specific strings are used again and again in the Bareos documentation.
 
 Here we define how these name should be written (upper or lower case, in one word vs. multiple words, ...).
