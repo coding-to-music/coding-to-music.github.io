@@ -1,5 +1,12 @@
-Advanced Computer Setup and Topics 
+The bareos conf.py looks as follows 
 ================================================================
+
+.. Note:: 
+    
+    This page was Retrieved and copied April 11 2021
+    
+    https://github.com/bareos/bareos/blob/bareos-20/docs/manuals/source/conf.py
+
 
 .. toctree::
     :maxdepth: 2
@@ -11,13 +18,10 @@ Advanced Computer Setup and Topics
 
 
 
-The bareos conf.py looks a follows:
+The bareos conf.py looks as follows:
 
 .. literalinclude:: /bareos/example/conf.py.inc
 
-Output:
-
-.. include:: /bareos/example/conf.py.inc
 
 
 Last change: |today|
