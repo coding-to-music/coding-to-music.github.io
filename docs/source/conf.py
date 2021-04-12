@@ -93,10 +93,10 @@ release = ''
 #     'sphinxcontrib.images',
 #     'sphinx.ext.autodoc'] 
 #     "crate.sphinx.csv",  # create filters on CSV files to include exclude rows
+#     "bareos-ext",
 
 
 extensions = [
-    "bareos-ext",
     "limitation",
     "sphinx_issues",
     'sphinx-prompt',
@@ -133,10 +133,6 @@ sphinx_gallery_conf = {
      'gallery_dirs': 'auto_examples',  # path to where to save gallery generated output
 }
 
-rst_epilog = """
-.. |org_brand| replace:: Read the Docs Community
-.. |com_brand| replace:: Read the Docs for Business
-"""
 
 # ogp_custom_meta_tags = [
 #     '<meta property="og:ignore_canonical" content="true" />',
@@ -203,8 +199,17 @@ og_headline="All-Knowlege.info"
 # about <isonum.txt>, see
 # http://docutils.sourceforge.net/docs/ref/rst/definitions.html#substitution-definitions
 # http://docutils.sourceforge.net/docutils/parsers/rst/include/isonum.txt
+
+
+# rst_epilog = """
+# .. |org_brand| replace:: Read the Docs Community
+# .. |com_brand| replace:: Read the Docs for Business
+# """
+
 rst_epilog = """
 .. include:: <isonum.txt>
+.. |org_brand| replace:: Read the Docs Community
+.. |com_brand| replace:: Read the Docs for Business
 .. |checkmark| unicode:: U+2713
 .. |configCharsToQuote| replace:: ``&<>()@^|``
 .. |bareosFd| replace:: Bareos File Daemon
