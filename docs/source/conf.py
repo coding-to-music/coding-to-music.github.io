@@ -228,9 +228,10 @@ rst_epilog = """
 .. |sqlite| replace:: Sqlite
 .. |vmware| replace:: VMware
 .. |vsphere| replace:: VMware vSphere
-.. |ndmpbareos| replace:: :ref:`section-NdmpBareos`
-.. |ndmpnative| replace:: :ref:`section-NdmpNative`
 """
+
+# .. |ndmpbareos| replace:: :ref:`section-NdmpBareos`
+# .. |ndmpnative| replace:: :ref:`section-NdmpNative`
 
 
 # Add any paths that contain templates here, relative to this directory.
