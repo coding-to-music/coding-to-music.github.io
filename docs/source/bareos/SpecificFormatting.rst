@@ -301,10 +301,10 @@ A block diagram
 ~~~~~~~~~~~~~~~
 
 .. note:: Getting build error: NotImplementedError: Unknown node: blockdiag_node
-  .. literalinclude:: /bareos/example/blockdiag.rst.inc
-     :language: none
+   literalinclude /bareos/example/blockdiag.rst.inc
+     language none
 
-  .. include:: /bareos/example/blockdiag.rst.inc
+   include /bareos/example/blockdiag.rst.inc
 
 An activity diagram
 ~~~~~~~~~~~~~~~~~~~
