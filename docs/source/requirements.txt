@@ -10,3 +10,4 @@ sphinxcontrib-blockdiag
 sphinxcontrib-nwdiag
 sphinxcontrib-plantuml
 sphinxcontrib-seqdiag
+readthedocs-sphinx-ext<2.2
