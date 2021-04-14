@@ -111,13 +111,14 @@ extensions = [
     "sphinx.ext.napoleon",
     "sphinx.ext.todo",
     "sphinx.ext.viewcode",  # Add a link to the Python source code for classes, functions etc.
-    "sphinxcontrib.actdiag",
-    "sphinxcontrib.blockdiag",
-    "sphinxcontrib.nwdiag",
-    "sphinxcontrib.plantuml",
-    "sphinxcontrib.seqdiag",
 ]
 
+
+    # "actdiag",
+    # "blockdiag",
+    # "nwdiag",
+    # "plantuml",
+    # "seqdiag",
 
 try:
     import sphinxcontrib.spelling
