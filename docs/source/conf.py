@@ -97,6 +97,7 @@ release = ''
 
 
 extensions = [
+    'todo',
     "limitation",
     "sphinx_issues",
     'sphinx-prompt',
