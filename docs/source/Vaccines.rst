@@ -13,6 +13,7 @@ Vaccines
     How-Vaccines-Work
     Charts-and-Graphs
     Vaccines-Side-Effects 
+    Vaccine-safety-videos
     Vaccine-future-topics
 
 
