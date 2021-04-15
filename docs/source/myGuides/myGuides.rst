@@ -5,6 +5,8 @@ My Guides for Various Technical Topics
   :maxdepth: 1
   :caption: Contents:
 
+  /myGuides/reStructuredText-Paragraphs
+  /myGuides/reStructuredText-Sections-and-Headings
   /myGuides/reStructuredText-Admonitions-Examples
   /myGuides/reStructuredText-References-and-Footnotes-Examples
   /myGuides/reStructuredText-Tables-Examples
