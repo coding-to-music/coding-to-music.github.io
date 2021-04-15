@@ -6,8 +6,8 @@ sphinx-prompt
 sphinxext-opengraph
 sphinxcontrib-images
 readthedocs-sphinx-ext<2.2
-actdiag
-blockdiag
-nwdiag
-plantuml
-seqdiag
+sphinxcontrib-actdiag
+sphinxcontrib-blockdiag
+sphinxcontrib-nwdiag
+sphinxcontrib-plantuml
+sphinxcontrib-seqdiag

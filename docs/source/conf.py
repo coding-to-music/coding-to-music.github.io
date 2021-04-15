@@ -99,6 +99,11 @@ release = ''
 extensions = [
     'todo',
     "limitation",
+    "sphinxcontrib.actdiag",
+    "sphinxcontrib.blockdiag",
+    "sphinxcontrib.nwdiag",
+    "sphinxcontrib.plantuml",
+    "sphinxcontrib.seqdiag",
     "sphinx_issues",
     'sphinx-prompt',
     "sphinxext.opengraph",
@@ -115,11 +120,6 @@ extensions = [
 ]
 
 
-    # "actdiag",
-    # "blockdiag",
-    # "nwdiag",
-    # "plantuml",
-    # "seqdiag",
 
 try:
     import sphinxcontrib.spelling
