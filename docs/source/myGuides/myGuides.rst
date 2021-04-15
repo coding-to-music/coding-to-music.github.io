@@ -10,6 +10,7 @@ My Guides for Various Technical Topics
   /myGuides/reStructuredText-Admonitions-Examples
   /myGuides/reStructuredText-References-and-Footnotes-Examples
   /myGuides/reStructuredText-Tables-Examples
+  /myGuides/reStructuredText-Source-Code
   /myGuides/reStructuredText-Images-Examples
   /myGuides/reStructuredText-Twitter-Examples
   /myGuides/reStructuredText-Video-Examples
