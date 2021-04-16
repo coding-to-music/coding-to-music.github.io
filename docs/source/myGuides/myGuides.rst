@@ -2,7 +2,7 @@ My Guides for Various Technical Topics
 ================================================================
 
 .. toctree::
-  :maxdepth: 1
+  :maxdepth: 0
   :caption: Contents:
 
   /myGuides/reStructuredText-Paragraphs

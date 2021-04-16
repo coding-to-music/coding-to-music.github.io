@@ -6,7 +6,7 @@ How you can help
 - Here are some suggestions, please add to this list:   
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
     :caption: Contents:
  
     myGuides/Tech-stack-for-this-website
