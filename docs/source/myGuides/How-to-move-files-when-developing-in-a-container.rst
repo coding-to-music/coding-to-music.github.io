@@ -12,9 +12,9 @@ How to move files when developing in a container
 
 Use Docker cp to move files in and out of the container::
 
-.. prompt:: bash $
+.. prompt:: 
 
-    docker cp filename [container#]:/DestinationPath
+   docker cp filename [container#]:/DestinationPath
 
 
 Last change: |today|

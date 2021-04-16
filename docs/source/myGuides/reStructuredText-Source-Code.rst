@@ -21,7 +21,7 @@ Source code will be formatted by the directive ``code-block``.
 Example::
 
    .. code-block:: sh
-      :caption: Titel
+      :caption: CaptionHere
 
       Line 1
       Line 2
@@ -30,7 +30,7 @@ Example::
 Output:
 
 .. code-block:: sh
-   :caption: Titel
+   :caption: CaptionHere
 
    Line 1
    Line 2
