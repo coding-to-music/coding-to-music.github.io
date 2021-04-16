@@ -11,7 +11,7 @@ My Guides for Various Technical Topics
   /myGuides/reStructuredText-References-and-Footnotes-Examples
   /myGuides/reStructuredText-Tables-Examples
   /myGuides/reStructuredText-Source-Code
-  /myGuides/reStructuredText-Images-Examples
+  /myGuides/reStructuredText-Images-and-Figures-Examples
   /myGuides/reStructuredText-Twitter-Examples
   /myGuides/reStructuredText-Video-Examples
   /myGuides/Sphinx-tabs

@@ -1,4 +1,4 @@
-reStructuredText Images Examples
+reStructuredText Images and Figures Examples
 ================================================================
 
 .. toctree::
