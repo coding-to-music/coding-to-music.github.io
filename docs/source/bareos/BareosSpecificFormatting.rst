@@ -8,6 +8,7 @@ Bareos Specific Formatting
     https://github.com/bareos/bareos/blob/ce8718090add1d705fa630ed866601dde5e25a9c/docs/manuals/bareos/BareosSpecificFormatting.rst
 
 
+
 .. toctree::
 
    /bareos/BareosSpecificFormatting/DocumentFileStructure.rst
@@ -21,4 +22,4 @@ Bareos Specific Formatting
 
 
 
-   Last change: |today|
+Last change: |today|
