@@ -5,7 +5,7 @@ Gotchas
     
     This page was Retrieved and copied April 11 2021
     
-    https://github.com/bareos/bareos/blob/bareos-20/docs/manuals/source/DocumentationStyleGuide/Gotchas.rst
+    https://github.com/bareos/bareos/blob/bareos-20/docs/manuals/source/bareos/Gotchas.rst
 
 
 sphinx-build

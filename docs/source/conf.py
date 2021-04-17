@@ -80,6 +80,21 @@ release = ''
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
+# ...
+# extensions = [
+#     # ...
+#     "sphinx_issues"
+# ]
+
+# # Github repo
+# issues_github_path = "sloria/marshmallow"
+
+issues_github_path = "bareos/bareos"
+
+# # equivalent to
+# issues_uri = "https://github.com/sloria/marshmallow/issues/{issue}"
+# issues_pr_uri = "https://github.com/sloria/marshmallow/pull/{pr}"
+# issues_commit_uri = "https://github.com/sloria/marshmallow/commit/{commit}"
 
 # extensions = ['todo','sphinx.ext.todo']
 

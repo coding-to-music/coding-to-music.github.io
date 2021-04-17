@@ -5,7 +5,7 @@ Common Names
     
     This page was Retrieved and copied April 11 2021
     
-    https://github.com/bareos/bareos/blob/bareos-20/docs/manuals/source/DocumentationStyleGuide/CommonNames.rst
+    https://github.com/bareos/bareos/blob/bareos-20/docs/manuals/source/bareos/CommonNames.rst
 
 
 Specific strings are used again and again in the Bareos documentation.
