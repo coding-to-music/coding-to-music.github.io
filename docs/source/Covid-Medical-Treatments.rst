@@ -7,6 +7,7 @@ Comments about various suggested or recommended or not-recommended Covid virus t
    :maxdepth: 2
    :caption: Contents:
 
+   Budesonide-inhaler
    Ivermectin
    Hydroxychloroquine
    Doxycycline

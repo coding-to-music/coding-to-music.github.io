@@ -43,12 +43,12 @@ and
 
 Example:
 
-.. literalinclude:: /bareos/example/sinceVersion-documentation-sphinx.rst.inc
+.. literalinclude:: /source/bareos/example/sinceVersion-documentation-sphinx.rst.inc
    :language: none
 
 This will be displayed as:
 
-.. include:: /bareos/example/sinceVersion-documentation-sphinx.rst.inc
+.. include:: /source/bareos/example/sinceVersion-documentation-sphinx.rst.inc
 
 
 Note
@@ -76,16 +76,16 @@ If you want to display the release notes of a Bareos stable release, use the fol
     #2
    }
 
-.. literalinclude:: /bareos/example/releasenotes-template.rst.inc
+.. literalinclude:: /source/bareos/example/releasenotes-template.rst.inc
 
 Example:
 
-.. literalinclude:: /bareos/example/releasenotes-17.2.7.rst.inc
+.. literalinclude:: /source/bareos/example/releasenotes-17.2.7.rst.inc
 
 
 See the output at :ref:`bareos-17.2.7`\ .
 
-.. COMMENT include:: /bareos/example/releasenotes.rst.inc
+.. COMMENT include:: /source/bareos/example/releasenotes.rst.inc
 
 
 
