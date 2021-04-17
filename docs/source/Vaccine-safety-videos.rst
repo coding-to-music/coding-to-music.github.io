@@ -176,7 +176,7 @@ Vaccine Documentaries
 
 14. Autism Yesterday - (2010) - http://bit.ly/1URU2A7
 
-*Updated on 03/31/21
+*Updated on 03/31/21*
 
 #Covid19 #Vaccines #BigPharma #Science
 
