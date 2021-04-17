@@ -96,13 +96,13 @@ To refer to a release, use::
 
     :ref:`bareos-<VERSION>`
 
-Example:
+Example: (these links are hard to maintain)
 
-  This refers to :ref:`bareos-17.2.7`\ .
+  This refers to `bareos-17.2.7`\ .
 
 Output:
 
-This refers to :ref:`bareos-17.2.7`\ .
+This refers to `bareos-17.2.7`\ .
 
 
 .. Release Notes - Unstable Version
