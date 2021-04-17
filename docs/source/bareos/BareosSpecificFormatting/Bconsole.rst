@@ -5,7 +5,7 @@ Bconsole
     
     This page was Retrieved and copied April 16 2021
     
-    https://github.com/bareos/bareos/blob/master/docs/manuals/source/bareos/BareosSpecificFormatting/Bconsole.rst
+    https://github.com/bareos/bareos/blob/master/docs/manuals/bareos/BareosSpecificFormatting/Bconsole.rst
 
 Bconsole Command
 ----------------

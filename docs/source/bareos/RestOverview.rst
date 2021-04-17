@@ -7,7 +7,7 @@ reST Overview
     
     This page was Retrieved and copied April 11 2021
     
-    https://github.com/bareos/bareos/blob/bareos-20/docs/manuals/source/bareos/RestOverview.rst
+    https://github.com/bareos/bareos/blob/bareos-20/docs/manuals/bareos/RestOverview.rst
 
 
 The outline for this chapter has been taken from

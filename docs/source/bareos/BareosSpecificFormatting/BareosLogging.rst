@@ -5,7 +5,7 @@ Bareos Logging
     
     This page was Retrieved and copied April 16 2021
     
-    https://github.com/bareos/bareos/blob/master/docs/manuals/source/bareos/BareosSpecificFormatting/BareosLogging.rst
+    https://github.com/bareos/bareos/blob/master/docs/manuals/bareos/BareosSpecificFormatting/BareosLogging.rst
 
 
 If you want to display Bareos specific logs, use following formatting:

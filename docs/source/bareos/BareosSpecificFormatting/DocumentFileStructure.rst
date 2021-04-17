@@ -5,7 +5,7 @@ Document File Structure
     
     This page was Retrieved and copied April 16 2021
     
-    https://github.com/bareos/bareos/blob/master/docs/manuals/source/bareos/BareosSpecificFormatting/DocumentFileStructure.rst
+    https://github.com/bareos/bareos/blob/master/docs/manuals/bareos/BareosSpecificFormatting/DocumentFileStructure.rst
 
 
 The document is splitted chapter wise in different rst files.

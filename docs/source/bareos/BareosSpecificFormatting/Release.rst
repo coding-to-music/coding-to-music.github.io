@@ -5,7 +5,7 @@ Releases
     
     This page was Retrieved and copied April 16 2021
     
-    https://github.com/bareos/bareos/blob/master/docs/manuals/source/bareos/BareosSpecificFormatting/Release.rst
+    https://github.com/bareos/bareos/blob/master/docs/manuals/bareos/BareosSpecificFormatting/Release.rst
 
 
 
@@ -43,12 +43,12 @@ and
 
 Example:
 
-.. literalinclude:: /source/bareos/example/sinceVersion-documentation-sphinx.rst.inc
+.. literalinclude:: /bareos/example/sinceVersion-documentation-sphinx.rst.inc
    :language: none
 
 This will be displayed as:
 
-.. include:: /source/bareos/example/sinceVersion-documentation-sphinx.rst.inc
+.. include:: /bareos/example/sinceVersion-documentation-sphinx.rst.inc
 
 
 Note
@@ -76,16 +76,16 @@ If you want to display the release notes of a Bareos stable release, use the fol
     #2
    }
 
-.. literalinclude:: /source/bareos/example/releasenotes-template.rst.inc
+.. literalinclude:: /bareos/example/releasenotes-template.rst.inc
 
 Example:
 
-.. literalinclude:: /source/bareos/example/releasenotes-17.2.7.rst.inc
+.. literalinclude:: /bareos/example/releasenotes-17.2.7.rst.inc
 
 
-See the output at :ref:`bareos-17.2.7`\ .
+See the output at `bareos-17.2.7`\ .
 
-.. COMMENT include:: /source/bareos/example/releasenotes.rst.inc
+.. COMMENT include:: /bareos/example/releasenotes.rst.inc
 
 
 

@@ -5,7 +5,7 @@ Issues tracked on Mantis
     
     This page was Retrieved and copied April 16 2021
     
-    https://github.com/bareos/bareos/blob/master/docs/manuals/source/bareos/BareosSpecificFormatting/Issue.rst
+    https://github.com/bareos/bareos/blob/master/docs/manuals/bareos/BareosSpecificFormatting/Issue.rst
 
 
 
