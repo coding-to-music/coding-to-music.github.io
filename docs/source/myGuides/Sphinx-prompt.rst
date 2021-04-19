@@ -29,7 +29,22 @@ A default prompt can be created using a ``prompt`` directive:
        <statements>
 
 
+no prompt language specified: (so default is text)
 .. prompt::
+
+   <statements>
+
+
+bash prompt:
+
+.. prompt:: bash
+
+   <statements>
+
+
+python prompt:
+
+.. prompt:: python
 
    <statements>
 
