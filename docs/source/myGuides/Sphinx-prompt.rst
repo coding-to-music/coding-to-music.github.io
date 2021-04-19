@@ -28,6 +28,12 @@ A default prompt can be created using a ``prompt`` directive:
 
        <statements>
 
+
+.. prompt::
+
+   <statements>
+
+
 The prompt can be further customized in one of two ways:
 
 - Using positional arguments:

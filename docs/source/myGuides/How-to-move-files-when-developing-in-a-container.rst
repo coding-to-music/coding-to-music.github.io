@@ -10,9 +10,11 @@ How to move files when developing in a container
     :local:
 
 
-Use Docker cp to move files in and out of the container::
+Use Docker cp to move files in and out of the container
 
-.. prompt:: run this from OUTSIDE the container, to import files into the container
+run this from OUTSIDE the container, to import files into the container
+
+.. prompt:: bash
    ls -l 
    -rw-r--r-- 1 tmc tmc     54218 Apr 17 03:59 budesonide_3_cropped-768x992.jpg
    
