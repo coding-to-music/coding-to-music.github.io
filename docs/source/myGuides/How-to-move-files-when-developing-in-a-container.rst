@@ -14,8 +14,6 @@ Use Docker cp to move files in and out of the container
 
 run this from OUTSIDE the container, to import files into the container
 
-MUST have a blank line following the directive
-
 .. prompt:: bash
 
    ls -l 

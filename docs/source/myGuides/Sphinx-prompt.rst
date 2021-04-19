@@ -22,6 +22,8 @@ Syntax
 
 A default prompt can be created using a ``prompt`` directive:
 
+MUST have a blank line following the directive
+
 .. code::
 
     .. prompt::
