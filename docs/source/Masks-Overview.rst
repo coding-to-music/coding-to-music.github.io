@@ -2,7 +2,7 @@ Masks - What Are They For?
 ====================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
    masks-are-ineffective-to-prevent-transmission-of-viral-and-infectious-disease-such-SARS-CoV-2-and-COVID-19
