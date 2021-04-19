@@ -128,7 +128,7 @@ Physiological Effects	Psychological Effect	Health Consequences
 
 .. figure:: assets/Masks/Physiological-Psychological-Effects-Wearing-Facemask-Their-Potential-Health-Consequences.png
   :width: 100 %
-  :align: center
+  :align: left
   
   Physiological and Psychological Effects of Wearing Facemask and Their Potential Health Consequences.
 
