@@ -11,6 +11,15 @@ Budenside Inhaler
     :local:
 
 
+
+.. figure:: assets/Budesonide/budesonide_3_cropped-768x992.jpg
+  :width: 80 %
+  :align: center
+  
+  Budesonide Inhaler
+
+
+
 findings from 146 people – of whom half took 800 micrograms of the budesonide inhaler twice a day and half were on usual care – suggests that inhaled budesonide reduced the relative risk of urgent care or hospitalisation by 90% in the 28-day study period
 
 .. Note:: 
