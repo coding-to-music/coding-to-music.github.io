@@ -1,5 +1,5 @@
-NIH: Masks are ineffective transmission of viral and infectious disease such SARS-CoV-2 and COVID-19
-======================================================================================================
+NIH: Masks are ineffective to prevent transmission of viral and infectious disease such SARS-CoV-2 and COVID-19
+=====================================================================================================================
 
 .. Note:: 
     
@@ -19,13 +19,20 @@ NIH: Masks are ineffective transmission of viral and infectious disease such SAR
 
 
 
-Journal ListElsevier Public Health Emergency Collection
+Journal List -> Elsevier Public Health Emergency Collection -> PMC7680614
+
 PMC7680614
+
 Med Hypotheses. 2021 Jan; 146: 110411.
+
 Published online 2020 Nov 22. doi: 10.1016/j.mehy.2020.110411
+
 PMCID: PMC7680614
+
 PMID: 33303303
+
 Title: Facemasks in the COVID-19 era: A health hypothesis
+
 Baruch Vainshelboim⁎
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7680614/?fbclid=IwAR2e_lF94uwKtX8NM8mNAMpfCmLVi4v1DBeXFtXTZJAOMh1WeBYvJI8Y6KQ
@@ -40,6 +47,8 @@ Many countries across the globe utilized medical and non-medical facemasks as no
 Keywords: Physiology, Psychology, Health, SARS-CoV-2, Safety, Efficacy
 
 Introduction
+-------------------
+
 Facemasks are part of non-pharmaceutical interventions providing some breathing barrier to the mouth and nose that have been utilized for reducing the transmission of respiratory pathogens [1]. Facemasks can be medical and non-medical, where two types of the medical masks primarily used by healthcare workers [1], [2]. The first type is National Institute for Occupational Safety and Health (NIOSH)-certified N95 mask, a filtering face-piece respirator, and the second type is a surgical mask [1]. The designed and intended uses of N95 and surgical masks are different in the type of protection they potentially provide. The N95s are typically composed of electret filter media and seal tightly to the face of the wearer, whereas surgical masks are generally loose fitting and may or may not contain electret-filtering media. The N95s are designed to reduce the wearer’s inhalation exposure to infectious and harmful particles from the environment such as during extermination of insects. In contrast, surgical masks are designed to provide a barrier protection against splash, spittle and other body fluids to spray from the wearer (such as surgeon) to the sterile environment (patient during operation) for reducing the risk of contamination [1].
 
 The third type of facemasks are the non-medical cloth or fabric masks. The non-medical facemasks are made from a variety of woven and non-woven materials such as Polypropylene, Cotton, Polyester, Cellulose, Gauze and Silk. Although non-medical cloth or fabric facemasks are neither a medical device nor personal protective equipment, some standards have been developed by the French Standardization Association (AFNOR Group) to define a minimum performance for filtration and breathability capacity [2]. The current article reviews the scientific evidences with respect to safety and efficacy of wearing facemasks, describing the physiological and psychological effects and the potential long-term consequences on health.

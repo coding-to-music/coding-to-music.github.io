@@ -5,7 +5,7 @@ Masks - What Are They For?
    :maxdepth: 2
    :caption: Contents:
 
-   masks-are-ineffective-to-halt-transmission-of-viral-and-infectious-disease-such-SARS-CoV-2-and-COVID-19
+   masks-are-ineffective-to-prevent-transmission-of-viral-and-infectious-disease-such-SARS-CoV-2-and-COVID-19
 
    
 .. contents::

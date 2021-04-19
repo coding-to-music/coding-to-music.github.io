@@ -8,7 +8,11 @@ Vaccines - Documentaries and Doctors who Explain Risks and Dangers
 .. contents::
     :local:
 
-
+.. Note:: 
+    
+    This page was Retrieved and copied April 16 2021
+    
+    URL Facebook Messenger
 
 Doctors Who Explain Clearly Why Vaccines Are Not Safe or Effective
 --------------------------------------------------------------------

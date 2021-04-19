@@ -1,6 +1,12 @@
 Budenside Inhaler 
 ===========================================================================================
 
+.. Note:: 
+    
+    This page was Retrieved and copied April 16 2021
+    
+    https://twitter.com/ThomasConnors/status/1382158993632681990
+
 
 .. toctree::
    :maxdepth: 2
@@ -20,13 +26,8 @@ Budenside Inhaler
 
 
 
-findings from 146 people – of whom half took 800 micrograms of the budesonide inhaler twice a day and half were on usual care – suggests that inhaled budesonide reduced the relative risk of urgent care or hospitalisation by 90% in the 28-day study period
+Findings from 146 people – of whom half took 800 micrograms of the budesonide inhaler twice a day and half were on usual care – suggests that inhaled budesonide reduced the relative risk of urgent care or hospitalisation by 90% in the 28-day study period
 
-.. Note:: 
-    
-    This page was Retrieved and copied April 16 2021
-    
-    https://twitter.com/ThomasConnors/status/1382158993632681990
 
 
 https://twitter.com/ThomasConnors/status/1382158993632681990

@@ -4,6 +4,13 @@ Covid Deranges the Immune System in Complex and Deadly Ways
 .. contents::
     :local:
   
+.. Note:: 
+    
+    This page was Retrieved and copied March 5 2021
+    
+    URL https://www.nakedcapitalism.com/2021/03/covid-deranges-the-immune-system-in-complex-and-deadly-ways.html
+
+
 Posted on March 5, 2021 by Yves Smith
 
 https://www.nakedcapitalism.com/2021/03/covid-deranges-the-immune-system-in-complex-and-deadly-ways.html

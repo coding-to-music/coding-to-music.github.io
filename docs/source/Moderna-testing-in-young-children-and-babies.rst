@@ -5,11 +5,19 @@ Moderna begins testing COVID vaccine on young children, babies
     :local:
 
     
-https://www.nydailynews.com/coronavirus/ny-covid-moderna-testing-vaccine-on-children-20210316-t5gdhbc6yjgmrhjsvyflsynou4-story.html
+.. Note:: 
+    
+    This page was Retrieved and copied April 18 2021
+    
+    URL https://www.nydailynews.com/coronavirus/ny-covid-moderna-testing-vaccine-on-children-20210316-t5gdhbc6yjgmrhjsvyflsynou4-story.html
+
 
 Moderna begins testing COVID vaccine on young children, babies
+
 By JESSICA SCHLADEBECK
+
 NEW YORK DAILY NEWS |
+
 MAR 16, 2021 AT 1:55 PM
 
 Moderna has begun testing its COVID-19 vaccine on babies and young children, the drug company announced Tuesday.
