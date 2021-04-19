@@ -5,6 +5,19 @@ Vaccines - VAERS Incident Reporting System
   :local:
 
 
+Covid Vaccine Death Counts via VAERS April 8, 2021
+---------------------------------------------------
+
+Covid Vaccine Death Counts via VAERS April 8, 2021
+
+.. figure:: assets/Vaccines/VAERS/vaers_covid_vaccine_injury_april_8_2021-1024x572.png
+  :align: center
+  :width: 100 %
+  
+  Covid Vaccine Death Counts via VAERS April 8, 2021 
+
+
+
 Covid Vaccine Death Counts via VAERS Feb-26-2021
 ---------------------------------------------------
 

@@ -5,10 +5,11 @@ help
   :local:
 
 
-About 
+About Me
 ---------------------------------------------------
 
-For further information, please visit
+For further information, please visit my GitHub profile, has links for more information
+
 https://github.com/coding-to-music
 
 
@@ -16,12 +17,12 @@ https://github.com/coding-to-music
 This is what I am working on
 ---------------------------------------------------
 
-This is what I am working on
+This website is working towards this:
 
 
 .. figure:: assets/2020_october_this_is_what_I_am_working_on.png
   :align: center
-  :width: 80 %
+  :width: 100 %
   
 
 
