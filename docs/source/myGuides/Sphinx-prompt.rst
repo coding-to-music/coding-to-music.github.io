@@ -29,7 +29,9 @@ A default prompt can be created using a ``prompt`` directive:
        <statements>
 
 
+
 no prompt language specified: (so default is text)
+
 .. prompt::
 
    <statements>
