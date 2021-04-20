@@ -302,7 +302,7 @@ A block diagram
 
 .. note:: Getting build error: NotImplementedError: Unknown node: blockdiag_node
    literalinclude /bareos/example/blockdiag.rst.inc
-     language none
+   :language: none
 
    include /bareos/example/blockdiag.rst.inc
 

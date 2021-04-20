@@ -73,7 +73,7 @@ and to troubleshoot any issues that arise.
 Some documentation projects require additional configuration to build
 such as specifying a certain version of Python or installing additional dependencies.
 You can configure these settings in a ``.readthedocs.yaml`` file.
-See our :doc:`/bareos/guides/config-file/index` docs for more details.
+See our :doc:`/bareos/config-file/index` docs for more details.
 
 It is also important to note that the default version of Sphinx is ``v1.8.5``.
 We recommend to set the version your project uses :ref:`explicitily </bareos/guides/reproducible-builds:don't rely on implicit dependencies>`.

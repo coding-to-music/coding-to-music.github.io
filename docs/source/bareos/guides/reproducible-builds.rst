@@ -24,7 +24,7 @@ If you aren't familiar with these tools, check our docs:
 
 - :doc:`/bareos/guides/intro/getting-started-with-sphinx`
 - :doc:`/bareos/guides/intro/getting-started-with-mkdocs`
-- :doc:`/bareos/guides/config-file/v2`
+- :doc:`/bareos/config-file/v2`
 
 .. note::
 
