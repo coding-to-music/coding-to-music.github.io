@@ -233,7 +233,7 @@ og_headline="All-Knowlege.info"
 
 # about <isonum.txt>, see
 # http://docutils.sourceforge.net/docs/ref/rst/definitions.html#substitution-definitions
-# http://docutils.sourceforge.net/docutils/parsers/rst/include/isonum.txt
+# http://docutils.sourceforge.net/docutils/parsers/rst/bareos/include/isonum.txt
 
 
 # rst_epilog = """

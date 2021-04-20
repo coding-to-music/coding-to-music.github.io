@@ -10,7 +10,7 @@ has many great features for writing technical documentation including:
 
 * Generate web pages, printable PDFs, documents for e-readers (ePub),
   and more all from the same sources
-* You can use reStructuredText or :ref:`Markdown </guides/intro/getting-started-with-sphinx:Using Markdown with Sphinx>`
+* You can use reStructuredText or :ref:`Markdown </bareos/guides/intro/getting-started-with-sphinx:Using Markdown with Sphinx>`
   to write documentation
 * An extensive system of cross-referencing code and documentation
 * Syntax highlighted code samples
@@ -20,7 +20,7 @@ Quick start video
 -----------------
 
 This screencast will help you get started or you can
-:ref:`read our guide below </guides/intro/getting-started-with-sphinx:Quick start>`.
+:ref:`read our guide below </bareos/guides/intro/getting-started-with-sphinx:Quick start>`.
 
 .. raw:: html
 
@@ -32,7 +32,7 @@ This screencast will help you get started or you can
 Quick start
 -----------
 
-.. seealso:: If you already have a Sphinx project, check out our :doc:`/guides/intro/import-guide` guide.
+.. seealso:: If you already have a Sphinx project, check out our :doc:`/bareos/guides/intro/import-guide` guide.
 
 Assuming you have Python already, :doc:`install Sphinx <sphinx:usage/installation>`:
 
@@ -79,11 +79,11 @@ Open this file in your web browser to see your docs.
 
 Edit your files and rebuild until you like what you see, then commit your changes and push to your public repository.
 Once you have Sphinx documentation in a public repository, you can start using Read the Docs
-by :doc:`importing your docs </guides/intro/import-guide>`.
+by :doc:`importing your docs </bareos/guides/intro/import-guide>`.
 
 .. warning::
 
-   We strongly recommend to :ref:`pin the Sphinx version </guides/reproducible-builds:pinning dependencies>`
+   We strongly recommend to :ref:`pin the Sphinx version </bareos/guides/reproducible-builds:pinning dependencies>`
    used for your project to build the docs to avoid potential future incompatibilities.
 
 .. _this template: https://www.writethedocs.org/guide/writing/beginners-guide-to-docs/#id1

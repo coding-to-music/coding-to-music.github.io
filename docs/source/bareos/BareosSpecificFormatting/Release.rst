@@ -5,7 +5,7 @@ Releases
     
     This page was Retrieved and copied April 16 2021
     
-    https://github.com/bareos/bareos/blob/master/docs/manuals/bareos/BareosSpecificFormatting/Release.rst
+    https://github.com/bareos/blob/master/docs/manuals/bareos/BareosSpecificFormatting/Release.rst
 
 
 

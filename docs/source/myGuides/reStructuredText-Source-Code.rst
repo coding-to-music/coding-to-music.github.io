@@ -62,7 +62,7 @@ Valid values for the highlighting language are:
 
 If the text resides in a seperate file, use::
 
-   .. literalinclude:: /include/config/backup-client1.cfg
+   .. literalinclude:: /bareos/include/config/backup-client1.cfg
       :language: bareosconfig
 
 All included files should be located under :file:`/include`.
@@ -70,6 +70,6 @@ All included files should be located under :file:`/include`.
 The beginning :file:`/` means, root directory of the documenation source directory.
 Without it, the path is relative to the directory of the including file.
 
-Configuration files should be located under :file:`/include/config/`\ .
+Configuration files should be located under :file:`/bareos/include/config/`\ .
 
 Last change: |today|

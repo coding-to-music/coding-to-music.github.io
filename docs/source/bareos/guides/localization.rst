@@ -46,7 +46,7 @@ This has the results of serving:
 
 It also gets included in the Read the Docs flyout:
 
-.. image:: ../assets/guides/translation_bar.png
+.. image:: ../assets/bareos/guides/translation_bar.png
 
 
 .. note::

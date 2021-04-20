@@ -52,7 +52,7 @@ import datetime
 
 # about <isonum.txt>, see
 # http://docutils.sourceforge.net/docs/ref/rst/definitions.html#substitution-definitions
-# http://docutils.sourceforge.net/docutils/parsers/rst/include/isonum.txt
+# http://docutils.sourceforge.net/docutils/parsers/rst/bareos/include/isonum.txt
 rst_epilog = """
 .. include:: <isonum.txt>
 .. |checkmark| unicode:: U+2713
@@ -116,7 +116,7 @@ autosectionlabel_prefix_document = True
 
 issues_github_path = "bareos/bareos"
 # issues_uri = 'https://bugs.bareos.org/view.php?id={issue}'
-# issues_pr_uri = 'https://github.com/bareos/bareos/pull/{pr}'
+# issues_pr_uri = 'https://github.com/bareos/pull/{pr}'
 
 
 # Add any paths that contain templates here, relative to this directory.

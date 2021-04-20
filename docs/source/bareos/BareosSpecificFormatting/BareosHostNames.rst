@@ -5,7 +5,7 @@ Bareos Host Names
     
     This page was Retrieved and copied April 16 2021
     
-    https://github.com/bareos/bareos/blob/master/docs/manuals/bareos/BareosSpecificFormatting/BareosHostNames.rst
+    https://github.com/bareos/blob/master/docs/manuals/bareos/BareosSpecificFormatting/BareosHostNames.rst
 
 
 All host names in example should use the :strong:`example.com` domain.

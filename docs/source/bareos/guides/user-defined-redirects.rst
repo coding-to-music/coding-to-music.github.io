@@ -50,7 +50,7 @@ Where ``en`` and ``latest`` are the default language and version values for your
 
    In other words, a *Prefix Redirect* removes a prefix from the original URL.
    This prefix is removed from the rest of the URL's ``path`` after ``/$lang/$version``.
-   For example, if the URL is ``/es/1.0/guides/tutorial/install.html`` the "From URL's prefix" will be removed from ``/guides/tutorial/install.html`` part.
+   For example, if the URL is ``/es/1.0/bareos/guides/tutorial/install.html`` the "From URL's prefix" will be removed from ``/bareos/guides/tutorial/install.html`` part.
 
 
 Page Redirects

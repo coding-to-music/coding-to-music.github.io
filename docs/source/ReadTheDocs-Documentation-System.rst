@@ -6,23 +6,23 @@ ReadTheDocs Documentation System
     :maxdepth: 2
     :caption: Contents:
  
-    /guides/intro/getting-started-with-sphinx
-    /guides/intro/getting-started-with-mkdocs
-    /guides/intro/import-guide
+    /bareos/guides/intro/getting-started-with-sphinx
+    /bareos/guides/intro/getting-started-with-mkdocs
+    /bareos/guides/intro/import-guide
     /myGuides/reStructuredText-Directives-docutils
     /myGuides/reStructured-Text-Special-directives
-    /guides/Paragraph-level-markup-from-ReadTheDocs
-    /guides/custom_domains
-    /guides/faq
-    /guides/canonical
-    /guides/google-analytics
-    /guides/user-defined-redirects
-    /guides/technical-docs-seo-guide
-    /guides/wipe-environment
-    /guides/feature-flags
-    /guides/reproducible-builds
-    /guides/localization
-    /guides/manage-translations
+    /bareos/guides/Paragraph-level-markup-from-ReadTheDocs
+    /bareos/guides/custom_domains
+    /bareos/guides/faq
+    /bareos/guides/canonical
+    /bareos/guides/google-analytics
+    /bareos/guides/user-defined-redirects
+    /bareos/guides/technical-docs-seo-guide
+    /bareos/guides/wipe-environment
+    /bareos/guides/feature-flags
+    /bareos/guides/reproducible-builds
+    /bareos/guides/localization
+    /bareos/guides/manage-translations
 
 .. contents::
     :local:

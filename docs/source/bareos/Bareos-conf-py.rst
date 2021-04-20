@@ -5,7 +5,7 @@ The bareos conf.py looks as follows
     
     This page was Retrieved and copied April 11 2021
     
-    https://github.com/bareos/bareos/blob/bareos-20/docs/manuals/source/conf.py
+    https://github.com/bareos/blob/bareos-20/docs/manuals/source/conf.py
 
 
 .. toctree::

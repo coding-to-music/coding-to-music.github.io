@@ -7,7 +7,7 @@ reST Overview
     
     This page was Retrieved and copied April 11 2021
     
-    https://github.com/bareos/bareos/blob/bareos-20/docs/manuals/bareos/RestOverview.rst
+    https://github.com/bareos/blob/bareos-20/docs/manuals/bareos/RestOverview.rst
 
 
 The outline for this chapter has been taken from
@@ -237,7 +237,7 @@ Valid values for the highlighting language are:
 
 If the text resides in a seperate file, use::
 
-   .. literalinclude:: /include/config/backup-client1.cfg
+   .. literalinclude:: /bareos/include/config/backup-client1.cfg
       :language: bareosconfig
 
 All included files should be located under :file:`/include`.
@@ -245,7 +245,7 @@ All included files should be located under :file:`/include`.
 The beginning :file:`/` means, root directory of the documenation source directory.
 Without it, the path is relative to the directory of the including file.
 
-Configuration files should be located under :file:`/include/config/`\ .
+Configuration files should be located under :file:`/bareos/include/config/`\ .
 
 Hyperlinks
 ----------
@@ -645,11 +645,11 @@ Image
 
 Image can be included by::
 
-   .. image:: /include/images/bareos-webui-jobs.*
+   .. image:: /bareos/include/images/bareos-webui-jobs.*
       :caption: Bareos WebUI: Job Overview
       :width: 80.0%
 
-All images should be located in the :file:`/include/images/` directory.
+All images should be located in the :file:`/bareos/include/images/` directory.
 Sphinx supports a number of image format.
 With the file extension :file:`.*` Sphinx chooses the best one.
 In general, images should be stored as SVG.

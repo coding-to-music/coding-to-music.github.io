@@ -19,7 +19,7 @@ that is answerable by your documentation, that your docs appear in the results.*
 This guide isn't meant to be your only resource on SEO,
 and there's a lot of SEO topics not covered here.
 For additional reading, please see the
-:ref:`external resources </guides/technical-docs-seo-guide:External resources>` section.
+:ref:`external resources </bareos/guides/technical-docs-seo-guide:External resources>` section.
 
 While many of the topics here apply to all forms of technical documentation,
 this guide will focus on Sphinx, which is the most common
@@ -86,8 +86,8 @@ Optimizing your docs for search engine spiders
 Once a crawler or spider finds your site, it will follow links and redirects
 in an attempt to find any and all pages on your site.
 While there are a few ways to guide the search engine in its crawl
-for example by using a :ref:`sitemap </guides/technical-docs-seo-guide:Use a sitemap.xml file>`
-or a :ref:`robots.txt file </guides/technical-docs-seo-guide:Use a robots.txt file>`
+for example by using a :ref:`sitemap </bareos/guides/technical-docs-seo-guide:Use a sitemap.xml file>`
+or a :ref:`robots.txt file </bareos/guides/technical-docs-seo-guide:Use a robots.txt file>`
 which we'll discuss shortly,
 the most important thing is making sure the spider can follow links on your site
 and get to all your pages.
@@ -147,7 +147,7 @@ and will still be showing it to users.
 This is why it is important to update your own links within your docs as well as redirecting.
 If the hostname moved from docs.readthedocs.io to docs.readthedocs.org, this would be even more important!
 
-Read the Docs supports a few different kinds of :doc:`user defined redirects </guides/user-defined-redirects>`
+Read the Docs supports a few different kinds of :doc:`user defined redirects </bareos/guides/user-defined-redirects>`
 that should cover all the different cases such as redirecting a certain page for all project versions,
 or redirecting one version to another.
 
@@ -161,8 +161,8 @@ The canonical URL tells search engines where the original version
 your documentation is even if you have multiple versions on the internet
 (for example, incomplete translations or deprecated versions).
 
-Read the Docs supports :doc:`setting the canonical URL </guides/canonical>`
-if you are using a :doc:`custom domain </guides/custom_domains>`
+Read the Docs supports :doc:`setting the canonical URL </bareos/guides/canonical>`
+if you are using a :doc:`custom domain </bareos/guides/custom_domains>`
 under :guilabel:`Admin` > :guilabel:`Domains`
 in the Read the Docs dashboard.
 
@@ -175,7 +175,7 @@ and lives at the root of your site (eg. https://docs.readthedocs.io/robots.txt).
 It tells search engines which pages to crawl or not to crawl
 and can allow you to control how a search engine crawls your site.
 For example, you may want to request that search engines
-:ref:`ignore unsupported versions of your documentation </guides/faq:How can I avoid search results having a deprecated version of my docs?>`
+:ref:`ignore unsupported versions of your documentation </bareos/guides/faq:How can I avoid search results having a deprecated version of my docs?>`
 while keeping those docs online in case people need them.
 
 By default, Read the Docs serves a ``robots.txt`` for you.
@@ -219,10 +219,10 @@ In Sphinx, you can customize your meta description using the following Restructu
             can let you customize the look and feel of your docs or add additional functionality.
 
 
-.. figure:: /_static/images/guides/google-search-engine-results.png
+.. figure:: /_static/images/bareos/guides/google-search-engine-results.png
     :align: center
     :figwidth: 80%
-    :target: /_static/images/guides/google-search-engine-results.png
+    :target: /_static/images/bareos/guides/google-search-engine-results.png
 
     Google search engine results showing a customized meta description
 
@@ -257,7 +257,7 @@ Some of the most valuable feedback these provide include:
 * Google and Bing will show pages that were previously indexed that now give a 404
   (or more rarely a 500 or other status code).
   These will remain in the index for some time but will eventually be removed.
-  This is a good opportunity to create a :ref:`redirect </guides/technical-docs-seo-guide:Redirects>`.
+  This is a good opportunity to create a :ref:`redirect </bareos/guides/technical-docs-seo-guide:Redirects>`.
 * These tools will show any crawl issues with your documentation.
 * Search Console and Webmaster Tools will highlight security issues found
   or if Google or Bing took action against your site because they believe it is spammy.
@@ -266,7 +266,7 @@ Some of the most valuable feedback these provide include:
 Analytics tools
 ~~~~~~~~~~~~~~~
 
-A tool like :doc:`Google Analytics </guides/google-analytics>`
+A tool like :doc:`Google Analytics </bareos/guides/google-analytics>`
 can give you feedback about the search terms people use to find your docs,
 your most popular pages, and lots of other useful data.
 

@@ -15,7 +15,7 @@ To import one of these projects, just click the import
 icon next to the repository you'd like to import. This will bring up a form that
 is already filled with your project's information. Feel free to edit any of
 these properties, and then click **Next** to
-:ref:`build your documentation </guides/intro/import-guide:Building your documentation>`.
+:ref:`build your documentation </bareos/guides/intro/import-guide:Building your documentation>`.
 
 .. _Read the Docs dashboard: https://readthedocs.org/dashboard
 .. _Import: https://readthedocs.org/dashboard/import
@@ -73,10 +73,10 @@ and to troubleshoot any issues that arise.
 Some documentation projects require additional configuration to build
 such as specifying a certain version of Python or installing additional dependencies.
 You can configure these settings in a ``.readthedocs.yaml`` file.
-See our :doc:`/guides/config-file/index` docs for more details.
+See our :doc:`/bareos/guides/config-file/index` docs for more details.
 
 It is also important to note that the default version of Sphinx is ``v1.8.5``.
-We recommend to set the version your project uses :ref:`explicitily </guides/reproducible-builds:don't rely on implicit dependencies>`.
+We recommend to set the version your project uses :ref:`explicitily </bareos/guides/reproducible-builds:don't rely on implicit dependencies>`.
 
 Read the Docs will host multiple versions of your code. You can read more about
 how to use this well on our :doc:`/versions` page.

@@ -213,7 +213,7 @@ def get_config_directive(text):
 
         if components >= 4:
             # e.g. fileset include/exclude directive
-            # dir/fileset/include/File
+            # dir/fileset/bareos/include/File
             result["CamelCaseSub1"] = uppercaseFirstLetter(
                 inputComponent[3].replace(" ", "")
             )
@@ -221,7 +221,7 @@ def get_config_directive(text):
 
         if components >= 5:
             # e.g. fileset include options
-            # dir/fileset/include/options/basejob
+            # dir/fileset/bareos/include/options/basejob
             result["CamelCaseSub2"] = uppercaseFirstLetter(
                 inputComponent[4].replace(" ", "")
             )
