@@ -8,6 +8,7 @@ Sandbox
    /myGuides/myGuides
    /WHO-The-different-types-of-COVID-19-vaccines
    /myGuides/Placeholder
+   /guides/config-file/index
    
 .. contents::
     :local:
