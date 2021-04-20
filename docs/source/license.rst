@@ -1,5 +1,5 @@
-license
-=======
+License
+===========
 
 .. contents::
     :local:
