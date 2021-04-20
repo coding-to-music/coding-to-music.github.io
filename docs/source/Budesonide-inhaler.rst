@@ -18,12 +18,6 @@ Budenside Inhaler
 
 
 
-.. figure:: assets/Budesonide/budesonide_3_cropped-768x992.jpg
-  :width: 80 %
-  :align: center
-  
-  Budesonide Inhaler
-
 
 
 Findings from 146 people – of whom half took 800 micrograms of the budesonide inhaler twice a day and half were on usual care – suggests that inhaled budesonide reduced the relative risk of urgent care or hospitalisation by 90% in the 28-day study period
@@ -47,12 +41,20 @@ https://oxfordbrc.nihr.ac.uk/common-asthma-treatment-reduces-need-for-hospitalis
 
 8 February 2021 · Listed under COVID-19, Respiratory
 
-FacebookTwitterLinkedInShare
+
 Early treatment with a medication commonly used to treat asthma appears to significantly reduce the need for urgent care and hospitalisation in people with COVID-19, researchers at the University of Oxford have found.
 
 
 146 people took part in the trial.
+
 The STOIC study found that inhaled budesonide given to patients with COVID-19 within seven days of the onset of symptoms also reduced recovery time. Budesonide is a corticosteroid used in the long-term management of asthma and chronic obstructive pulmonary disease (COPD).
+
+.. figure:: assets/Budesonide/budesonide_3_cropped-768x992.jpg
+  :width: 50 %
+  :align: right
+  
+  Budesonide Inhaler
+
 
 Findings from the phase 2 randomised study, which was supported by the NIHR Oxford Biomedical Research Centre (BRC), were published by The Lancet Respiratory Medicine [Note: this article was updated to include publication of peer-reviewed paper]
 
