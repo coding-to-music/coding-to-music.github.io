@@ -19,6 +19,7 @@ or run :program:`make clean` before.
 
 Also do a :program:`make clean` if you change the structure of the document (e.g. rename or move a file).
 
+
 Not shown text
 --------------
 

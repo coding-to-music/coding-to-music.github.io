@@ -72,4 +72,8 @@ The trial was inspired by the fact that, in the early days of the pandemic, pati
 
 As well as the Oxford BRC, the STOIC trial was supported by AstraZeneca.
 
+STOIC study https://stoic.ndm.ox.ac.uk/
+Lancet Respiratory Medicine https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(21)00160-0/fulltext
+
+
 Last change: |today|
