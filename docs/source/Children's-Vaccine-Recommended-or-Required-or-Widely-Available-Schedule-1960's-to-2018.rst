@@ -5,6 +5,17 @@ Children's Vaccine Recommended / Required / Widely Available Schedule 1960's to 
   :local:
 
 
+1962 to 2019 Children's Vaccine Schedule   
+------------------------------------------------------------------------------
+
+.. figure:: assets/Vaccines/Vaccine-Schedule/1962-2019-vaccine-schedule.jpeg
+  :align: center
+  :width: 100 %
+  
+  1962 to 2019 Children's Vaccine Schedule
+
+
+
 1970-Vaccine-Schedule   
 ------------------------------------------------------------------------------
 
@@ -79,5 +90,16 @@ Vaccines in Widespread Use 1985-2020
   :width: 80 %
   
   2018-Vaccine-Schedule
+
+
+1962 to 2019 Children's Vaccine Schedule   
+------------------------------------------------------------------------------
+
+.. figure:: assets/Vaccines/Vaccine-Schedule/1962-2019-vaccine-schedule.jpeg
+  :align: center
+  :width: 100 %
+  
+  1962 to 2019 Children's Vaccine Schedule
+
 
 Last change: |today|
