@@ -126,7 +126,7 @@ Physiological Effects	Psychological Effect	Health Consequences
 • Health deterioration
 • Premature mortality
 
-.. figure:: assets/Masks/Physiological-Psychological-Effects-Wearing-Facemask-Their-Potential-Health-Consequences.png
+.. figure:: ../assets/Masks/Physiological-Psychological-Effects-Wearing-Facemask-Their-Potential-Health-Consequences.png
   :width: 100 %
   :align: left
   

@@ -1,19 +1,19 @@
-Masks - What Are They For? 
+Masks 
 ====================================
 
 .. toctree::
-   :maxdepth: 1
-   :caption: Contents:
+  :maxdepth: 1
+  :caption: Contents:
 
-   /masks/masks-are-ineffective-to-prevent-transmission-of-viral-and-infectious-disease-such-SARS-CoV-2-and-COVID-19
+  masks-are-ineffective-to-prevent-transmission-of-viral-and-infectious-disease-such-SARS-CoV-2-and-COVID-19
 
    
 .. contents::
-    :local:
+  :local:
 
 
 
-.. figure:: assets/Masks/Physiological-Psychological-Effects-Wearing-Facemask-Their-Potential-Health-Consequences.png
+.. figure:: ../assets/Masks/Physiological-Psychological-Effects-Wearing-Facemask-Their-Potential-Health-Consequences.png
   :width: 100 %
   :align: left
   
