@@ -111,7 +111,7 @@ Include your contact information
 Include your signature
     This can be a physical or electronic signature.
 
-Please complete this :download:`takedown request template <../_static/dmca/takedown-template.txt>` and send it to: support@readthedocs.com
+Please complete this :download:`takedown request template <../_static/dcma/takedown-template.txt.inc>` and send it to: support@readthedocs.com
 
 Submitting a Counter
 ~~~~~~~~~~~~~~~~~~~~

@@ -218,7 +218,6 @@ In Sphinx, you can customize your meta description using the following Restructu
             Adding additional CSS or JavaScript files to your Sphinx documentation
             can let you customize the look and feel of your docs or add additional functionality.
 
-
 .. figure:: /_static/images/bareos/guides/google-search-engine-results.png
     :align: center
     :figwidth: 80%
