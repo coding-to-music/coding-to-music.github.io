@@ -8,7 +8,7 @@ Advanced Computer Setup and Topics
     ReadTheDocs-Documentation-System
     myGuides/vscode-SSH-Remote-Containers
     myGuides/Sphinx-Documentation-System
-    bareos/Bareos-Documentation-Style-Guide
+    bareos/index
     myGuides/Container-Workflow
     myGuides/Docker-and-Sphinx
     myGuides/Kubernetes

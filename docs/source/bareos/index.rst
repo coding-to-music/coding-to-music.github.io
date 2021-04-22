@@ -1,5 +1,7 @@
-Bareos Project - Their Documentation Style Guide
-==================================================
+Bareos Project - Reference Implementation
+===========================================================================================================
+
+Bareos Project - Excellent reference model implementation of Sphinx and ReadTheDocs and reStructuredText
 
 .. Note:: 
     
