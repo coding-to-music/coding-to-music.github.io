@@ -132,6 +132,7 @@ issues_github_path = "source/bareos/bareos"
 extensions = [
     'todo',
     "limitation",
+    'notfound.extension',
     "sphinxcontrib.actdiag",
     "sphinxcontrib.blockdiag",
     "sphinxcontrib.nwdiag",
