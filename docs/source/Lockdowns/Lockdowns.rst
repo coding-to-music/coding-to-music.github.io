@@ -4,10 +4,16 @@ Lockdowns
 .. meta::
     :description lang=en:
         Lockdowns have strong psychological effects and hurt mental health
+
+.. meta::
     :datePublished:
         |today|
+
+.. meta::
     :dateModified:
         |today|
+
+.. meta::
     :publisher:
         all-knowledge.info
 
