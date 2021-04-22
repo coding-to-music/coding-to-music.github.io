@@ -46,9 +46,9 @@ This has the results of serving:
 
 It also gets included in the Read the Docs flyout:
 
-.. image:: ../assets/bareos/guides/translation_bar.png
+.. image:: /_static/images/ReadTheDocs/guides/translation_bar.png
 
-
+    
 .. note::
     The default language of a custom domain is determined by the language of the
     parent project that the domain was configured on. See
