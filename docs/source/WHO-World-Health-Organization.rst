@@ -13,16 +13,6 @@ WHO World Health Organization
 
   Caption WHO Dr David Nabarro "don't do lockdowns"    
     
-Legend this is the legend
-
-.. figure:: assets/Vaccines/WHO/WHO-do-not-do-lockdowns.png
-  :align: center
-  :width: 80 %
-    
-  WHO do not do lockdowns 
-
-
-Legend this is the legend
 
 Vaccine Definition Merriam-Webster Feb-5-2021 vs Mar-31-2019
 --------------------------------------------------------------
