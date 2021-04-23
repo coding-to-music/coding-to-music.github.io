@@ -22,12 +22,15 @@ Lockdowns
    :maxdepth: 1
    :caption: Contents:
 
-   
-
+   /Lockdowns/The-2006-Origins-of-the-Lockdown-Idea.rst
 
    
 .. contents::
     :local:
+
+.. figure:: /assets/Lockdowns/lockdowns-psychological-torture-crime.jpg
+  :width: 100 %
+  :align: left
 
 
 .. figure:: /assets/Lockdowns/lockdowns.jpeg
