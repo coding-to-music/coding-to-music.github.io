@@ -21,6 +21,8 @@ Jeffrey A. Tucker
   :width: 100 %
   :align: left
   
+
+
 .. include:: /Lockdowns/The-2006-Origins-of-the-Lockdown-Idea.rst.inc
 
 
