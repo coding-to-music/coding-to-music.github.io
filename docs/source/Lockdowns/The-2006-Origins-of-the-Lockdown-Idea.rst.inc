@@ -1,4 +1,4 @@
-﻿American Institute for Economic Research
+American Institute for Economic Research
 The 2006 Origins of the Lockdown Idea
 
 Jeffrey A. Tucker 
