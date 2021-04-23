@@ -1,14 +1,15 @@
 The 2006 Origins of the Lockdown Idea
 =============================================
 
+.. Note:: 
+    
+    This page was Retrieved and copied April 23 2021
+    
+    https://www.aier.org/article/the-2006-origins-of-the-lockdown-idea/
+
+
 Jeffrey A. Tucker 
 – May 15, 2020
-
-https://www.aier.org/article/the-2006-origins-of-the-lockdown-idea/
-
-
-
-Lockdowns-Disease-Mitigation-Measures-in-the-Control-of-Pandemic-Influenza
 
 
 .. contents::
