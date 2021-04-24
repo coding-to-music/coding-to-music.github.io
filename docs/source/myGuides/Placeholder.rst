@@ -7,7 +7,7 @@ Placeholder
  
     Placeholder-too
     Placeholder-study
-    /examples/README
+    /examples/README.rst
 
 .. contents::
     :local:

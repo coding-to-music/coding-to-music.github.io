@@ -19,7 +19,26 @@ Connect - view - follow my activites
 
 Please visit my GitHub profile, I try to code every day https://github.com/coding-to-music
 
-I am active on `Twitter <https://twitter.com/ThomasConnors>`_, I post 50-100 times per day https://twitter.com/ThomasConnors/status/1385983698290495489
+I am active on `Twitter <https://twitter.com/ThomasConnors>`_, I post 50-100 times per day 
+
+https://twitter.com/ThomasConnors/status/1385983698290495489
+
+
+.. tweet:: https://twitter.com/pypi/status/1385983698290495489
+
+
+:tw:`@ThomasConnors`
+
+
+.. tweet:: https://twitter.com/pypi/status/315214320826978305
+
+You can use display-thread flag to display replyes.
+
+.. tweet:: https://twitter.com/pypi/status/315214320826978305
+
+:tw:`@shomah4a`
+
+.. timeline:: 319830355039371264
 
 I just (April 2021) started getting active on Reddit - look at my posts - great community, millions of users https://www.reddit.com/user/BostonTom2019
 
@@ -32,9 +51,6 @@ see my `LinkedIn Recent Activity <https://www.linkedin.com/in/thomasconnors44/de
 
 I am particularly fond of this Medium article I wrote in September 2019: 
 `Thought experiment — Summer Camp for All rather than Universal Basic Income <https://medium.com/@connors.tom/thought-experiment-summer-camp-for-all-rather-than-universal-basic-income-a1f2eb1df017>`_
-
-
-https://twitter.com/ThomasConnors/status/1385983698290495489
 
 
 This is what I am working on
