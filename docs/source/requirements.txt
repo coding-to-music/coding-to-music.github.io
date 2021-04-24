@@ -12,4 +12,3 @@ sphinxcontrib-nwdiag
 sphinxcontrib-plantuml
 sphinxcontrib-seqdiag
 sphinx-notfound-page
-sphinxcontrib.twitter

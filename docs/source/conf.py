@@ -138,7 +138,6 @@ extensions = [
     "sphinxcontrib.nwdiag",
     "sphinxcontrib.plantuml",
     "sphinxcontrib.seqdiag",
-    "sphinxcontrib.twitter",
     "sphinx_issues",
     'sphinx-prompt',
     "sphinxext.opengraph",
