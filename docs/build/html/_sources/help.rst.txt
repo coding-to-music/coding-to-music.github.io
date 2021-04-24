@@ -14,7 +14,7 @@ My current activites are creating and using content creation tools, using curren
 
 I first used the internet in the 1980's, for example we used rec.music.gdead to trade Greatful Dead show tapes when I was working as a co-op student doing situation awareness mapping while working at MITRE. 
 
-Connect with me
+Connect - view - follow my activites
 ---------------------------------------------------
 
 Please visit my GitHub profile, I try to code every day https://github.com/coding-to-music
@@ -25,9 +25,13 @@ I just (April 2021) started getting active on Reddit - look at my posts - great 
 
 I am active on Facebook, post several times per day https://www.facebook.com/thomasconnors44
 
-I frequently post on computer and technical topics at LinkedIn - see the "feed" section https://www.linkedin.com/in/thomasconnors44/
+I frequently post on computer and technical topics at `LinkedIn <https://www.linkedin.com/in/thomasconnors44/>`_
 
-I am particularly fond of this Medium article I wrote in September 2019 `Thought experiment — Summer Camp for All rather than Universal Basic Income <https://medium.com/@connors.tom/thought-experiment-summer-camp-for-all-rather-than-universal-basic-income-a1f2eb1df017>`_
+see my `LinkedIn Recent Activity <https://www.linkedin.com/in/thomasconnors44/detail/recent-activity/>`_
+
+
+I am particularly fond of this Medium article I wrote in September 2019: 
+`Thought experiment — Summer Camp for All rather than Universal Basic Income <https://medium.com/@connors.tom/thought-experiment-summer-camp-for-all-rather-than-universal-basic-income-a1f2eb1df017>`_
 
 
 https://twitter.com/ThomasConnors/status/1385983698290495489
