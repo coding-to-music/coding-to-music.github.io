@@ -19,7 +19,7 @@ Connect - view - follow my activites
 
 Please visit my GitHub profile, I try to code every day https://github.com/coding-to-music
 
-I am active on Twitter, I post 50-100 times per day https://twitter.com/ThomasConnors/status/1385983698290495489
+I am active on `Twitter <https://twitter.com/ThomasConnors>`_, I post 50-100 times per day https://twitter.com/ThomasConnors/status/1385983698290495489
 
 I just (April 2021) started getting active on Reddit - look at my posts - great community, millions of users https://www.reddit.com/user/BostonTom2019
 
