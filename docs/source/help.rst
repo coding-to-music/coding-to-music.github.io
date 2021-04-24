@@ -30,7 +30,7 @@ https://twitter.com/ThomasConnors/status/1385983698290495489
 :tw:`@ThomasConnors`
 
 
-.. tweet:: https://twitter.com/pypi/status/315214320826978305
+https://twitter.com/pypi/status/315214320826978305
 
 
 I just (April 2021) started getting active on Reddit - look at my posts - great community, millions of users https://www.reddit.com/user/BostonTom2019
