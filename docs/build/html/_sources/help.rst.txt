@@ -32,13 +32,6 @@ https://twitter.com/ThomasConnors/status/1385983698290495489
 
 .. tweet:: https://twitter.com/pypi/status/315214320826978305
 
-You can use display-thread flag to display replyes.
-
-.. tweet:: https://twitter.com/pypi/status/315214320826978305
-
-:tw:`@shomah4a`
-
-.. timeline:: 319830355039371264
 
 I just (April 2021) started getting active on Reddit - look at my posts - great community, millions of users https://www.reddit.com/user/BostonTom2019
 
