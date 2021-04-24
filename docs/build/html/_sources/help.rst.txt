@@ -10,17 +10,24 @@ About Me
 
 My name is Tom Connors, I was born in Boston in 1962, am a member of a large Irish family in Boston, my kids are grown now and I have all this time, now that I am on Pandemic Relief after working for decades as a software developer and project manager for Fidelity Investments and State Street Bank and Athena Healthcare, among others. I recieved my undergrad in Computer Science in 1993 from Northeastern University in Boston, and earned my MBA from Babson College in 2015. An active traveler and reader, seeking pastry and a good place to read and relax.
 
-Please visit my GitHub profile I try to code every day https://github.com/coding-to-music
+My current activites are creating and using content creation tools, using current cloud engineering building tools to create and operate a reliable content delivery pipeline, and being able to convey messages effectively.
 
-I am active on Twitter, I post like 50-100 times per day https://twitter.com/ThomasConnors/status/1385983698290495489
+I first used the internet in the 1980's, for example we used rec.music.gdead to trade Greatful Dead show tapes when I was working as a co-op student doing situation awareness mapping while working at MITRE. 
 
-I just started getting active on Reddit - look at my posts - great community, millions of users https://www.reddit.com/user/BostonTom2019
+Connect with me
+---------------------------------------------------
+
+Please visit my GitHub profile, I try to code every day https://github.com/coding-to-music
+
+I am active on Twitter, I post 50-100 times per day https://twitter.com/ThomasConnors/status/1385983698290495489
+
+I just (April 2021) started getting active on Reddit - look at my posts - great community, millions of users https://www.reddit.com/user/BostonTom2019
 
 I am active on Facebook, post several times per day https://www.facebook.com/thomasconnors44
 
-LinkedIn Profile https://www.linkedin.com/in/thomasconnors44/
+I frequently post on computer and technical topics at LinkedIn - see the "feed" section https://www.linkedin.com/in/thomasconnors44/
 
-I am particularly fond of this Medium article I wrote in Septemper 2019 https://medium.com/@connors.tom/thought-experiment-summer-camp-for-all-rather-than-universal-basic-income-a1f2eb1df017
+I am particularly fond of this Medium article I wrote in September 2019 `Thought experiment — Summer Camp for All rather than Universal Basic Income <https://medium.com/@connors.tom/thought-experiment-summer-camp-for-all-rather-than-universal-basic-income-a1f2eb1df017>`_
 
 
 https://twitter.com/ThomasConnors/status/1385983698290495489
