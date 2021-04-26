@@ -1,5 +1,5 @@
 ﻿Biography Questions: 
-1. Are you comfortable being referred to as “Tom Conners” in the article?
+1. Are you comfortable being referred to as “Tom Connors” in the article?
 2. How long have you lived in Brookline?
 
 
@@ -23,9 +23,16 @@ Brookline’s Climate Action Plan and Climate Change Questions:
 13. What types of buildings in Brookline do you think use the most energy?
 14. How do you recommend buildings, including homes, to be more energy efficient? 
 15. Are you aware of certain places in Brookline implementing renewable energy?
-16. What do you think of Brookline’s local environmental organizations of Mothers Out Front, Climate is Everybody’s Business, the Neighborhood Association, Climate Action Brookline, and more? 
+16. What do you think of Brookline’s local environmental organizations: 
+- Mothers Out Front
+- Climate is Everybody’s Business
+- The Neighborhood Association
+- Climate Action Brookline
+- Brookline for Everyone
+
    1. Which organizations have you heard of? 
    2. Which organization(s) do you think is the most effective? 
+
 17. If you haven’t already done so, would you consider joining Brookline’s Green Electricity Program?
 18. How do you propose Boston and Brookline to have a network of protected bike paths center of the road or part of the sidewalk? 
 19. Are you in support of using electric vehicles v. vehicles that run on fossil fuels?
