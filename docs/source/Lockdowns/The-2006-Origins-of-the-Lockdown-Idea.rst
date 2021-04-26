@@ -17,7 +17,7 @@ Jeffrey A. Tucker
 
 
 
-.. figure:: /assets/Lockdowns/lockingdown-800x508.jpeg
+.. figure:: /assets/Lockdowns/lockingdown-800x508.jpg
   :width: 100 %
   :align: left
   
