@@ -1,17 +1,23 @@
 ﻿Biography Questions: 
+-----------------------------------------------------------------
+
 1. Are you comfortable being referred to as “Tom Connors” in the article?
 2. How long have you lived in Brookline?
 
 
 Brookline’s Climate Action Plan and Climate Change Questions: 
+-----------------------------------------------------------------
+
 3. Are you aware of the history of the Climate Action Plan in Brookline and its progress updates over the years? 
 4. What do you think of Brookline’s Climate Action Plan’s 6 Strategies:
+
    1. Energy Efficiency
    2. Increased Renewable Energy
    3. Improved Transportation Options
    4. Reduced Waste
    5. Enhanced Tree Canopies, Open Space
    6. Adaptation
+
 5. Would you include another strategy or add to one of the existing strategies above? 
 6. As a data scientist and software developer, how would you use data for good decisions and planning in environmental sustainability?
 7. How do you recommend we maintain and monitor our built environment? 
@@ -24,14 +30,15 @@ Brookline’s Climate Action Plan and Climate Change Questions:
 14. How do you recommend buildings, including homes, to be more energy efficient? 
 15. Are you aware of certain places in Brookline implementing renewable energy?
 16. What do you think of Brookline’s local environmental organizations: 
-- Mothers Out Front
-- Climate is Everybody’s Business
-- The Neighborhood Association
-- Climate Action Brookline
-- Brookline for Everyone
+
+- Mothers Out Front  
+- Climate is Everybody’s Business  
+- The Neighborhood Association  
+- Climate Action Brookline   
+- Brookline for Everyone   
 
    1. Which organizations have you heard of? 
-   2. Which organization(s) do you think is the most effective? 
+   2. Which organization(s) do you think are being effective? 
 
 17. If you haven’t already done so, would you consider joining Brookline’s Green Electricity Program?
 18. How do you propose Boston and Brookline to have a network of protected bike paths center of the road or part of the sidewalk? 
