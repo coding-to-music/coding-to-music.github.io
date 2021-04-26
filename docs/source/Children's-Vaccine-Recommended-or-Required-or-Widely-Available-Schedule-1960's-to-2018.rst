@@ -92,7 +92,7 @@ Vaccines in Widespread Use 1985-2020
   2018-Vaccine-Schedule
 
 
-1962 to 2019 Children's Vaccine Schedule   
+1962 to 2019 Children's Vaccine Schedule - again   
 ------------------------------------------------------------------------------
 
 .. figure:: assets/Vaccines/Vaccine-Schedule/1962-2019-vaccine-schedule.jpeg

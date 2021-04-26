@@ -1,14 +1,19 @@
 2021 New York State Scales Back Adirondacks Road Salt Study due to fears data will become public
 ===================================================================================================
 
+.. Note:: 
+    
+    This page was Retrieved and copied March 2 2021
+    
+    https://www.adirondackexplorer.org/stories/state-scales-back-salt-study
+
+
 .. contents::
     :local:
   
 
-State lawmakers recently scaled back a study of road salt pollution in the Adirondacks, apparently bowing to concerns that the study could expose the state to liability from residents with unsafe water.
+Article Title: State lawmakers recently scaled back a study of road salt pollution in the Adirondacks, apparently bowing to concerns that the study could expose the state to liability from residents with unsafe water.
 
-
-https://www.adirondackexplorer.org/stories/state-scales-back-salt-study
 
 March 2, 2021 7 Comments
 
@@ -47,6 +52,8 @@ DOT officials wanted changes to the study because they felt the original law unf
 “The recently-signed Randy Preston Road Salt Reduction Act is strong legislation that facilitates partnerships with local officials and can only help strengthen NYSDOT’s position as a national leader in the safe and balanced application of road salt in the North Country and across New York,” transportation department spokesman Joseph Morrissey said in a statement. “We look forward to being an active participant in working collaboratively with the task force, and implementing recommendations as practicable while maintaining the health and safety of the traveling public.”
 
 Billy Jones
+------------------
+
 Assemblyman Bill Jones touts the road salt reduction bill in Saranac Lake in December. Photo by Mike Lynch
 Assemblyman Bill Jones, who sponsored this year’s amendment, said it deals “more holistically” with the salt problem.
 

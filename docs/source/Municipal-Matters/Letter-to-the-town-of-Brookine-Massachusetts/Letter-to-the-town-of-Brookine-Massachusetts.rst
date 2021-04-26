@@ -12,9 +12,10 @@ FY2021 Revised Budget: revised budget highlights
   :align: center
   :width: 80 %
   
-  FY2021-revised-budget-revised-budget-highlights
+  FY2021 revised budget: revised budget highlights
 
-Source: [FY 2021 Revised Budget Presentation to the Select Board](https://www.brooklinema.gov/DocumentCenter/View/21900/Revised-FY2021-Budet-Presentation-to-the-Select-Board-June-2-2020?bidId=)
+  Source: `FY 2021 Revised Budget Presentation to the Select Board <https://www.brooklinema.gov/DocumentCenter/View/21900/Revised-FY2021-Budet-Presentation-to-the-Select-Board-June-2-2020?bidId=>`_
+
 
 FY2021 Revised Budget: assumptions local receipts  
 -------------------------------------------------
@@ -23,7 +24,7 @@ FY2021 Revised Budget: assumptions local receipts
   :align: center
   :width: 80 %
   
-  /assets/Municipal-Matters/Letter-to-the-town-of-Brookine-Massachusetts/FY2021-revised-budget-assumptions-local-receipts
+  FY2021 revised budget assumptions local receipts
 
 FY2021 Revised Budget: Departmental Reductions  
 -------------------------------------------------
@@ -32,20 +33,20 @@ FY2021 Revised Budget: Departmental Reductions
   :align: center
   :width: 80 %
   
-  FY2021-revised-budget-dept-reductions
+  FY2021 Revised Budget: Departmental Reductions
 
 Brookline Health: Budget 2018-2021  
 -------------------------------------------------
 
-Brookline subdirectory
+
 
 .. figure:: /assets/Boston/Brookline/OpenLetter/Brookline-Health-Budget-2018-2021.png
   :align: center
   :width: 80 %
   
-  Brookline-Health-Budget-2018-2021
+  Brookline Health Budget 2018-2021
 
-Source: [Financial Plan - Live Tracking](https://brooklinema.opengov.com/transparency/42952/accountType=expenses&embed=n&breakdown=types&currentYearAmount=cumulative&currentYearPeriod=years&graph=bar&legendSort=coa&month=2&proration=false&saved_view=141455&selection=48FF762B5E4BCEF083F472B45A84F80F&projections=null&projectionType=null&highlighting=null&highlightingVariance=null&year=2020&selectedDataSetIndex=null&fiscal_start=earliest&fiscal_end=latest)
+  Source: `Financial Plan - Live Tracking <https://brooklinema.opengov.com/transparency/42952/accountType=expenses&embed=n&breakdown=types&currentYearAmount=cumulative&currentYearPeriod=years&graph=bar&legendSort=coa&month=2&proration=false&saved_view=141455&selection=48FF762B5E4BCEF083F472B45A84F80F&projections=null&projectionType=null&highlighting=null&highlightingVariance=null&year=2020&selectedDataSetIndex=null&fiscal_start=earliest&fiscal_end=latest>`_
 
 Brookline Health: Salaries 2018-2021  
 -------------------------------------------------
@@ -54,7 +55,7 @@ Brookline Health: Salaries 2018-2021
   :align: center
   :width: 80 %
   
-  Brookline-Health-Salaries-2018-2021
+  Brookline Health Salaries 2018-2021
 
 
 Public Health Department
