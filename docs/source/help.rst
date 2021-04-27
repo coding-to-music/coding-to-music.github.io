@@ -12,12 +12,14 @@ My name is Tom Connors, I was born in Boston in 1962, am a member of a large Iri
 
 My current activites are creating and using content creation tools, using current cloud engineering building tools to create and operate a reliable content delivery pipeline, and being able to convey messages effectively.
 
-I first used the internet in the 1980's, for example we used rec.music.gdead to trade Greatful Dead show tapes when I was working as a co-op student doing situation awareness mapping while working at MITRE. 
+I first used the internet in the 1980's, for example we used rec.music.gdead to trade Greatful Dead show tapes when I was working as a co-op student doing situational awareness mapping while working at MITRE. 
 
 Connect - view - follow my activites
 ---------------------------------------------------
 
 Please visit my GitHub profile, I try to code every day https://github.com/coding-to-music
+
+My technical learnings and what I am doing I tend to document here: `How you can help </myGuides/How-you-can-help>`_ 
 
 I am active on `Twitter <https://twitter.com/ThomasConnors>`_, I post 50-100 times per day 
 
@@ -40,6 +42,7 @@ see my `LinkedIn Recent Activity <https://www.linkedin.com/in/thomasconnors44/de
 I am particularly fond of this Medium article I wrote in September 2019: 
 `Thought experiment — Summer Camp for All rather than Universal Basic Income <https://medium.com/@connors.tom/thought-experiment-summer-camp-for-all-rather-than-universal-basic-income-a1f2eb1df017>`_
 
+Some technical documentation at `dev.to <https://dev.to/codingtomusic>`_
 
 This is what I am working on
 ---------------------------------------------------
