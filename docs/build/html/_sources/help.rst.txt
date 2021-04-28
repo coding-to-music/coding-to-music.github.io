@@ -19,9 +19,9 @@ Connect - view - follow my activites
 
 Please visit my GitHub profile, I try to code every day `GitHub.com/coding-to-music <https://github.com/coding-to-music>`_
 
-My technical learnings and what I am doing I tend to document here: `How you can help </How-you-can-help/How-you-can-help.html>`_ 
+My technical learnings and what I am doing I tend to document here: `How you can help </en/latest/How-you-can-help/How-you-can-help.html>`_ 
 
-I am active on `Twitter twitter.com/ThomasConnors <https://twitter.com/ThomasConnors>`_, I post 50-100 times per day 
+I am active on `Twitter.com/ThomasConnors <https://twitter.com/ThomasConnors>`_, I post 50-100 times per day 
 
 https://twitter.com/ThomasConnors/status/1385983698290495489
 
