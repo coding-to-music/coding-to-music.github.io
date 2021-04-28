@@ -15,7 +15,7 @@ Making Sense of the Pandmic
     Pandemic-Participants
     Food-Safety
     Municipal-Matters/Municipal-Matters
-    How-you-can-help
+    How-you-can-help/How-you-can-help
     Sandbox/Sandbox
     license
     help

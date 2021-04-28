@@ -1,27 +1,15 @@
-How you can help    
+Future Topics to be developed
 =======================================================================================
 
   
-- There are many ways you can continue your research and help out the community at the same time.  
-- Here are some suggestions, please add to this list:   
 
 .. toctree::
     :maxdepth: 1
     :caption: Contents:
  
-    myGuides/Tech-stack-for-this-website
-    myGuides/myGuides
-    myGuides/General-computer-setup
-    Advanced-Computer-Setup
-    myGuides/ToDo-project-tasks
-    myGuides/Contribute
-    myGuides/Upcoming-software-to-try
-
 .. contents::
     :local:
 
-Future Topics to be developed
-----------------------------------
 
 Join the [discord community]()    
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
