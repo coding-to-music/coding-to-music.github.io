@@ -17,11 +17,11 @@ I first used the internet in the 1980's, for example we used rec.music.gdead to 
 Connect - view - follow my activites
 ---------------------------------------------------
 
-Please visit my GitHub profile, I try to code every day https://github.com/coding-to-music
+Please visit my GitHub profile, I try to code every day `GitHub.com/coding-to-music <https://github.com/coding-to-music>`_
 
-My technical learnings and what I am doing I tend to document here: `How you can help <How-you-can-help.html>`_ 
+My technical learnings and what I am doing I tend to document here: `How you can help </How-you-can-help/How-you-can-help.html>`_ 
 
-I am active on `Twitter <https://twitter.com/ThomasConnors>`_, I post 50-100 times per day 
+I am active on `Twitter twitter.com/ThomasConnors <https://twitter.com/ThomasConnors>`_, I post 50-100 times per day 
 
 https://twitter.com/ThomasConnors/status/1385983698290495489
 
@@ -29,12 +29,11 @@ https://twitter.com/ThomasConnors/status/1385983698290495489
 .. tweet:: https://twitter.com/pypi/status/1385983698290495489
 
 
+I just (April 2021) started getting active on Reddit - look at my posts - great community, millions of users `Reddit.com/user/BostonTom2019 <https://www.reddit.com/user/BostonTom2019>`_
 
-I just (April 2021) started getting active on Reddit - look at my posts - great community, millions of users https://www.reddit.com/user/BostonTom2019
+I am active on Facebook, post several times per day `Facebook.com/thomasconnors44 <https://www.facebook.com/thomasconnors44>`_
 
-I am active on Facebook, post several times per day https://www.facebook.com/thomasconnors44
-
-I frequently post on computer and technical topics at `LinkedIn <https://www.linkedin.com/in/thomasconnors44/>`_
+I frequently post on computer and technical topics at `LinkedIn.com/in/thomasconnors44 <https://www.linkedin.com/in/thomasconnors44/>`_
 
 see my `LinkedIn Recent Activity <https://www.linkedin.com/in/thomasconnors44/detail/recent-activity/>`_
 
@@ -42,7 +41,7 @@ see my `LinkedIn Recent Activity <https://www.linkedin.com/in/thomasconnors44/de
 I am particularly fond of this Medium article I wrote in September 2019: 
 `Thought experiment — Summer Camp for All rather than Universal Basic Income <https://medium.com/@connors.tom/thought-experiment-summer-camp-for-all-rather-than-universal-basic-income-a1f2eb1df017>`_
 
-Some technical documentation at `dev.to <https://dev.to/codingtomusic>`_
+Some technical documentation at `dev.to/codingtomusic <https://dev.to/codingtomusic>`_
 
 This is what I am working on
 ---------------------------------------------------
