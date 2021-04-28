@@ -50,6 +50,9 @@ today_fmt = "%a, %d %b %Y %I:%M %p %Z"
 
 todo_include_todos = True
 
+# Enable numref
+numfig = True
+
 # -- Project information -----------------------------------------------------
 
 project = u'all-knowledge'
