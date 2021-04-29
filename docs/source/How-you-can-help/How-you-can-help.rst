@@ -16,6 +16,7 @@ How you can help
     /myGuides/ToDo-project-tasks
     /myGuides/Contribute
     /myGuides/Upcoming-software-to-try
+    /How-you-can-help/Links-to-add-to-site
     /How-you-can-help/Future-topics-to-be-developed
 
 
