@@ -8,7 +8,7 @@ Help - About
 About Me
 ---------------------------------------------------
 
-My name is Tom Connors, I was born in Boston in 1962, am a member of a large Irish family in Boston, my kids are grown now and I have all this time, now that I am on Pandemic Relief after working for decades as a software developer and project manager for Fidelity Investments and State Street Bank and Athena Healthcare, among others. I recieved my undergrad in Computer Science in 1993 from Northeastern University in Boston, and earned my MBA from Babson College in 2015. An active traveler and reader, seeking pastry and a good place to read and relax.
+My name is Tom Connors, I was born in Boston in 1962, I am a member of a large Irish family in Boston, my kids are grown now, and I have all this time, now that I am on Pandemic Relief after working for decades as a software developer and project manager for Fidelity Investments and State Street Bank and Athena Healthcare, among others. I recieved my undergrad in Computer Science in 1993 from Northeastern University in Boston, and earned my MBA from Babson College in 2015. An active traveler and reader, seeking pastry and a good place to read and relax.
 
 My current activites are creating and using content creation tools, using current cloud engineering building tools to create and operate a reliable content delivery pipeline, and being able to convey messages effectively.
 
@@ -41,7 +41,7 @@ see my `LinkedIn Recent Activity <https://www.linkedin.com/in/thomasconnors44/de
 I am particularly fond of this Medium article I wrote in September 2019: 
 `Thought experiment — Summer Camp for All rather than Universal Basic Income <https://medium.com/@connors.tom/thought-experiment-summer-camp-for-all-rather-than-universal-basic-income-a1f2eb1df017>`_
 
-Some technical documentation at `dev.to/codingtomusic <https://dev.to/codingtomusic>`_
+I wrote some technical documentation at `dev.to/codingtomusic <https://dev.to/codingtomusic>`_
 
 This is what I am working on
 ---------------------------------------------------
