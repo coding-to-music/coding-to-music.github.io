@@ -48,11 +48,10 @@ Gain of Function
 2004 PubMed:  Need link  
 Immunization with SARS coronavirus vaccines leads to pulmonary immunopathology on challenge with the SARS virus  
 
-Session 3: What is the debate on the potential risks and benefits of GOF research?
-Posted by Gain of Function Symposium Dec 24, 2014
-https://www.youtube.com/watch?v=z5BJ5yBjShQ&ab_channel=GainofFunctionSymposium
-
-Yoshihiro Kawaoka discusses the key issues on benefits that need to be addressed in the assessments the NIH will undertake, while David Relman discusses the key issues on risks.
+Session 3: What is the debate on the potential risks and benefits of GOF research?  
+- Posted by Gain of Function Symposium Dec 24, 2014  
+- Yoshihiro Kawaoka discusses the key issues on benefits that need to be addressed in the assessments the NIH will undertake, while David Relman discusses the key issues on risks.
+- https://www.youtube.com/watch?v=z5BJ5yBjShQ&ab_channel=GainofFunctionSymposium  
  
 
 Fauci and Wuhan and Daszak images  
