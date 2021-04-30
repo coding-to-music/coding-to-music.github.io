@@ -1,6 +1,12 @@
 Links to add to the documentation 
 ===================================
 
+.. figure:: /assets/How-you-can-help/Coming_Attractions-780x683.jpg
+  :align: center
+  :width: 80 %
+  
+  Coming Attractions - Links to add to the documentation
+
 
 .. Note:: 
     
