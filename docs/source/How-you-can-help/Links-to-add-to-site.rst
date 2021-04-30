@@ -97,9 +97,25 @@ https://innowiki.org/category/innovations/innovation-type-communication-enabler/
 Webmaster SEO Search 
 ------------------------------
 
+Bing Search Console   
+https://www.bing.com/webmasters
+
+Google Search Console  
+https://search.google.com/search-console
+
 SEO How to submit a site to Yahoo  
 https://kinsta.com/blog/submit-website-to-search-engines/#how-do-i-submit-my-website-to-yahoo
 
+
+Bing Webmaster Guidelines
+https://www.bing.com/webmasters/help/webmasters-guidelines-30fba23a
+
+Bing Robots.txt tester  
+https://www.bing.com/webmasters/robotstxttester  
+https://www.bing.com/webmasters/help/robotstxt-tester-623520ca  
+
+Google Sitemaps  
+https://developers.google.com/search/docs/advanced/sitemaps/build-sitemap
 
 What is CKAN? - CKAN User Guide 
 ---------------------------------
@@ -127,6 +143,12 @@ Sphinx
 https://sublime-and-sphinx-guide.readthedocs.io/en/latest/glossary.html
 
 https://sublime-and-sphinx-guide.readthedocs.io/en/latest/images.html#use-image-substitutions
+
+sphinxcontrib.twitter
+https://pypi.org/project/sphinxcontrib.twitter/
+
+automatically label sections  
+https://docs.readthedocs.io/en/stable/guides/cross-referencing-with-sphinx.html#automatically-label-sections
 
 code-examples  
 https://docs.ckan.org/en/2.9/contributing/documentation.html#code-examples
