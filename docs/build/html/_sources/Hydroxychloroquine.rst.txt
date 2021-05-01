@@ -5,7 +5,7 @@ Hydroxychloroquine
   :local:
 
 
-.. figure:: assets/Medical-Treatments/Hydroxychloroquine/Hydroxychloroquine.jpeg
+.. figure:: assets/Health-A-to-Z/Hydroxychloroquine/Hydroxychloroquine.jpeg
   :align: center
   :width: 80 %
   
@@ -38,7 +38,7 @@ Hydroxychloroquine has long been commonly used to treat Rheumatoid arthritis and
 Additional Studies and Reports about Hydroxychloroquine
 ------------------------------------------------------------
 
-.. figure:: assets/Medical-Treatments/Hydroxychloroquine/Timeline-of-key-events-in-the-story-of-chloroquine-hydroxychloroquine-and-COVID‐19.png
+.. figure:: assets/Health-A-to-Z/Hydroxychloroquine/Timeline-of-key-events-in-the-story-of-chloroquine-hydroxychloroquine-and-COVID‐19.png
   :align: center
   :width: 80 %
   

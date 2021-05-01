@@ -287,7 +287,7 @@ Interactions Between the Bareos Services
 
 The following block diagram shows the typical interactions between the Bareos Services for a backup job. Each block represents in general a separate process (normally a daemon). In general, the Director oversees the flow of information. It also maintains the Catalog.
 
-.. image:: /include/images/flow.*
+.. image:: /assets/bareos/flow.*
    :width: 80.0%
 
 

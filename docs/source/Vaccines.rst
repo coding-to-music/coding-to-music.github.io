@@ -23,7 +23,7 @@ Vaccines
     
 
     
-.. figure:: assets/Medical-Treatments/Hydroxychloroquine/Hydroxychloroquine.jpeg
+.. figure:: assets/Health-A-to-Z/Hydroxychloroquine/Hydroxychloroquine.jpeg
   :align: center
   :width: 80 %
   
