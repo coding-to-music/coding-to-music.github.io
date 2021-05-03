@@ -52,7 +52,24 @@ This website is working towards this vision:
 .. figure:: assets/2020_october_this_is_what_I_am_working_on.png
   :align: center
   :width: 100 %
-  
+
+
+I need to do this 
+---------------------------------------------------
+
+.. figure:: assets/Help-about/I-need-to-do-this.png
+  :align: center
+  :width: 100 %
+
+  I need to do this
+
+
+
+
+Something to consider doing 
+---------------------------------------------------
+
+
 .. Note:: 
 
   This signature text from Caitlin Johnstone, I should do something similar:
