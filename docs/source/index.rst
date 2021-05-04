@@ -6,7 +6,7 @@ Making Sense of the Pandmic
     :maxdepth: 2
     :caption: Contents:
 
-    /topics/topics/topics
+    /topics/topics
     /topics/Covid-Medical-Treatments/Covid-Medical-Treatments
     /topics/Data-science-of-the-pandemic/Data-science-of-the-pandemic
     /topics/Vaccines/Vaccines    
