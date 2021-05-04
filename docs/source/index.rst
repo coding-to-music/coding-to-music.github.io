@@ -6,20 +6,20 @@ Making Sense of the Pandmic
     :maxdepth: 2
     :caption: Contents:
 
-    Covid-Medical-Treatments
-    Vaccines    
-    Masks/Masks
-    Lockdowns/Lockdowns
-    Origins-of-the-COVID19-virus
-    Pandemic-Preparedness
-    Pandemic-Participants
-    Food-Safety
-    Health-A-to-Z/Health-A-to-Z
-    Municipal-Matters/Municipal-Matters
+    /topics/Covid-Medical-Treatments/Covid-Medical-Treatments
+    /topics/Vaccines/Vaccines    
+    /topics/Masks/Masks
+    /topics/Lockdowns/Lockdowns
+    /topics/Origins-of-the-COVID19-virus/Origins-of-the-COVID19-virus
+    /topics/Pandemic-Preparedness/Pandemic-Preparedness
+    /topics/Pandemic-Participants/Pandemic-Participants
+    /topics/Food-Safety/Food-Safety
+    /topics/Health-A-to-Z/Health-A-to-Z
+    /topics/Municipal-Matters/Municipal-Matters
     How-you-can-help/How-you-can-help
     Sandbox/Sandbox
-    license
-    help
+    License/license
+    Help-about/help
 
 .. contents::
     :local:

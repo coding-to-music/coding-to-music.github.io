@@ -12,7 +12,7 @@ How you can help
     /myGuides/Tech-stack-for-this-website
     /myGuides/myGuides
     /myGuides/General-computer-setup
-    /Advanced-Computer-Setup
+    /myGuides/Advanced-Computer-Setup
     /myGuides/ToDo-project-tasks
     /myGuides/Contribute
     /myGuides/Upcoming-software-to-try
