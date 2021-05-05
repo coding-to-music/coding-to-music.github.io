@@ -2,10 +2,10 @@ Topics
 ==============================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
-x  /topics/1976-Swine-Flu/1976-Swine-Flu
+   /topics/1976-Swine-Flu/1976-Swine-Flu
    /topics/5G-Beam-Forming/5G-Beam-Forming 
    /topics/Advice-for-Living/Advice-for-Living
    /topics/Azithromycin/Azithromycin
@@ -28,7 +28,7 @@ x  /topics/1976-Swine-Flu/1976-Swine-Flu
    /topics/Media-and-Influencers/Media-and-Influencers
    /topics/Municipal-Matters/Municipal-Matters
    /topics/Narrative-Control/Narrative-Control
-x  /topics/Origins-of-the-Virus/Origins-of-the-Virus
+   /topics/Origins-of-the-Virus/Origins-of-the-Virus
    /topics/Pandemic-Participants/Pandemic-Participants
    /topics/Pandemic-Preparedness/Pandemic-Preparedness
    /topics/Remdesivir/Remdesivir
@@ -39,7 +39,7 @@ x  /topics/Treatment-of-COVID/Treatment-of-COVID
 x  /topics/Tuskgee-Medical-Experiments/Tuskgee-Medical-Experiments
    /topics/Vaccines/Vaccines
    /topics/Vaccine-History/Vaccine-History
-x  /topics/Vaccine-How-Vaccines-Work/Vaccine-How-Vaccines-Work
+   /topics/Vaccine-How-Vaccines-Work/Vaccine-How-Vaccines-Work
    /topics/Vaccine-Rollout-News/Vaccine-Rollout-News
 x  /topics/Vaccine-Safety-Videos/Vaccine-Safety-Videos
    /topics/Vaccine-Schedule/Vaccine-Schedule
