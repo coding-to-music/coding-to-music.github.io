@@ -37,11 +37,11 @@ Topics
    /topics/Remdesivir/Remdesivir
    /topics/Narrative-Control/Resources-and-additional-background-material/Resources-and-additional-background-material
    /topics/Vaccine-Injury-Reporting-Systems/PRISM
-x  /topics/Rockefeller-Foundation/Rockefeller-Foundation
+   /topics/Rockefeller-Foundation/Rockefeller-Foundation
    /topics/Shedding/Shedding
    /topics/Toxoplasmosis/Toxoplasmosis
-x  /topics/Treatment-of-COVID/Treatment-of-COVID
-x  /topics/Tuskgee-Medical-Experiments/Tuskgee-Medical-Experiments
+   /topics/Treatment-of-COVID/Treatment-of-COVID
+   /topics/Tuskgee-Medical-Experiments/Tuskgee-Medical-Experiments
    /topics/Vaccines/Vaccines
    /topics/Vaccine-History/Vaccine-History
    /topics/Vaccine-How-Vaccines-Work/Vaccine-How-Vaccines-Work

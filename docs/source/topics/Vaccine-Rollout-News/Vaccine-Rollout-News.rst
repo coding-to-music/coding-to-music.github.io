@@ -2,7 +2,7 @@ Vaccines - Covid Rollout News
 ===============================
 
 .. toctree::
-  :maxdepth: 2
+  :maxdepth: 1
   :caption: Contents:
 
   /topics/Vaccine-Rollout-News/COVID-19-Vaccines-In-the-News
@@ -11,6 +11,8 @@ Vaccines - Covid Rollout News
    
 .. contents::
     :local:
+
+
 
 Over 12,000 people test positive for COVID-19 after receiving Pfizer vaccine in Israel (Jan 21, 2021)
 ---------------------------------------------------------------------------------------------------------
