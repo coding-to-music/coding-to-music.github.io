@@ -2,11 +2,12 @@ Vaccines - Covid Rollout News
 ===============================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+  :maxdepth: 2
+  :caption: Contents:
 
-   COVID-19-Vaccines-In-the-News
-   24-get-virus-between-first-and-second-vaccine-Gatineau-nursing-home
+  /topics/Vaccine-Rollout-News/COVID-19-Vaccines-In-the-News
+  /topics/Vaccine-Rollout-News/24-get-virus-between-first-and-second-vaccine-Gatineau-nursing-home
+  /topics/Vaccine-Rollout-News/An-Internal-Medicine-Doctor-and-His-Peers-Read-the-Pfizer-Vaccine-Study-and-See-Red-Flags
    
 .. contents::
     :local:

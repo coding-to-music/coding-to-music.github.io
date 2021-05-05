@@ -9,8 +9,8 @@ Vaccines
     /topics/WHO-World-Health-Organization/WHO-The-different-types-of-COVID-19-vaccines
 x   /topics/Vaccine-rollout-news/Vaccine-rollout-news
    /topics/Vaccine-history/Vaccine-History
-x   /topics/Vaccine-testing-and-approvals/Vaccine-testing-and-approvals
-x   /topics/How-Vaccines-Work/Vaccines-How-Vaccines-Work
+    /topics/Vaccine-testing-and-approvals/Vaccine-Testing-and-Approvals
+    /topics/How-Vaccines-Work/Vaccines-How-Vaccines-Work
     /topics/Data-science-of-the-pandemic/Charts-and-Graphs
     /topics/Vaccine-Side-Effects/Vaccines-Side-Effects
     /topics/Vaccine-Safety-Videos/Vaccine-safety-videos
@@ -23,12 +23,6 @@ x   /topics/How-Vaccines-Work/Vaccines-How-Vaccines-Work
     
 
     
-.. figure:: /assets/Health-A-to-Z/Hydroxychloroquine/Hydroxychloroquine.jpeg
-  :align: center
-  :width: 80 %
-  
-  Hydroxychloroquine
-
 
 
 

@@ -5,8 +5,8 @@ Vaccines - Side Effects
    :maxdepth: 2
    :caption: Contents:
 
-   /topics/Vaccine-side-effects/Immunization-with-SARS-coronavirus-vaccines-leads-to-pulmonary-immunopathology-on-challenge-with-the-SARS-virus
-   /topics/Vaccine-side-effects/SARS-CoV-2-spike-protein-alone-may-cause-lung-damage
+   /topics/Vaccine-Side-Effects/Immunization-with-SARS-coronavirus-vaccines-leads-to-pulmonary-immunopathology-on-challenge-with-the-SARS-virus
+   /topics/Vaccine-Side-Effects/SARS-CoV-2-spike-protein-alone-may-cause-lung-damage
    
 .. contents::
     :local:
