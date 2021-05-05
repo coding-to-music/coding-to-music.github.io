@@ -23,7 +23,7 @@ Jeffrey A. Tucker
   
 
 
-.. include:: /Lockdowns/The-2006-Origins-of-the-Lockdown-Idea.rst.inc
+.. include:: /topics/Lockdowns/The-2006-Origins-of-the-Lockdown-Idea.rst.inc
 
 
 PDF: Lockdowns-Disease-Mitigation-Measures-in-the-Control-of-Pandemic-Influenza

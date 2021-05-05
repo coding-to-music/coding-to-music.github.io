@@ -2,11 +2,11 @@ Vaccines - Testing and Approvals
 ==================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
    /topics/Vaccine-Rollout-News/An-Internal-Medicine-Doctor-and-His-Peers-Read-the-Pfizer-Vaccine-Study-and-See-Red-Flags
-   /topics/Vaccine-Rollout-News/Moderna-testing-in-young-children-and-babies
+   /topics/Vaccine-Testing-and-Approvals/Moderna-testing-in-young-children-and-babies
    
 .. contents::
     :local:

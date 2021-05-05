@@ -31,11 +31,6 @@ Remdesivir
 https://twitter.com/rahulsingh1966/status/1385888818381746181
 
 
-Vitamin D
---------------
-
-Vitamin D: the New COVID-19 Chloroquine?
-https://berthub.eu/articles/posts/vitamin-d-the-new-covid-19-chloroquine/
 
 
 

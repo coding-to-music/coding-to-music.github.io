@@ -7,7 +7,7 @@ Health A to Z
  
     /topics/Shedding/Shedding
     /topics/Toxoplasmosis/Toxoplasmosis
-    /topics/Health-links-to-add
+    /topics/Health-A-to-Z/Health-Links-to-Add
 
 .. contents::
     :local:

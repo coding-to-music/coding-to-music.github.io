@@ -5,7 +5,7 @@ Vaccines - History
    :maxdepth: 2
    :caption: Contents:
 
-   /topics/Vaccine-Schedule/Children's-Vaccine-Recommended-or-Required-or-Widely-Available-Schedule-1960's-to-2018
+   /topics/Vaccine-Schedule/Childrens-Vaccine-Recommended-or-Required-or-Widely-Available-Schedule-1960s-to-2018
    /topics/Vaccine-History/What-is-the-history-of-vaccines-how-much-money-and-what-are-they-used-for
    /topics/Vaccine-History/A-History-of-Pfizer
    /topics/Vaccine-History/A-history-of-Johnson-Johnson

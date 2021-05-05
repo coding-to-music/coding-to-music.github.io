@@ -10,7 +10,7 @@ Brookline MA: Climate Action Plan - Thomas Connors Interview - April 2021
   :local:
 
 
-.. include:: /Municipal-Matters/Brookline-MA-Climate-Action-Plan/Transcript-Interview-Tom-Connors.docx.txt.inc
+.. include:: /topics/Municipal-Matters/Brookline-MA-Climate-Action-Plan/Transcript-Interview-Tom-Connors.docx.txt.inc
 
 
 Last change: |today|

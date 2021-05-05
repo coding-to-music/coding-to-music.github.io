@@ -19,10 +19,10 @@ Topics
    /topics/FAQ-Frequently-Asked-Questions/FAQ-Frequently-Asked-Questions
    /topics/Food-Safety/Food-Safety
    /topics/GOF-Gain-of-Function/GOF-Gain-of-Function
-   /topics/Narrative-Control/Knowledge-vs-Noise-our-opinions-about-news-and-media-sources
+   /topics/Narrative-Control/Knowledge-vs-Noise-our-opinions-about-news-and-media-sources/Knowledge-vs-Noise-our-opinions-about-news-and-media-sources
    /topics/Narrative-Control/Government-Monitoring-and-Control/Government-Monitoring-and-Control
-   /topics/Health-A-to-Z.rst
-   /topics/Health-links-to-add.rst
+   /topics/Health-A-to-Z/Health-A-to-Z.rst
+   /topics/Health-A-to-Z/Health-Links-to-Add.rst
    /topics/Hydroxychloroquine/Hydroxychloroquine
    /topics/Ivermectin/Ivermectin
    /topics/Legal-Issues/Legal-Issues
@@ -36,7 +36,7 @@ Topics
    /topics/Pandemic-Preparedness/Pandemic-Preparedness
    /topics/Remdesivir/Remdesivir
    /topics/Narrative-Control/Resources-and-additional-background-material/Resources-and-additional-background-material
-   /topics/Vaccine-Injury-Reporting-Systems/PRISM
+   /topics/PRISM/PRISM
    /topics/Rockefeller-Foundation/Rockefeller-Foundation
    /topics/Shedding/Shedding
    /topics/Toxoplasmosis/Toxoplasmosis
@@ -44,14 +44,15 @@ Topics
    /topics/Tuskgee-Medical-Experiments/Tuskgee-Medical-Experiments
    /topics/Vaccines/Vaccines
    /topics/Vaccine-History/Vaccine-History
-   /topics/Vaccine-How-Vaccines-Work/Vaccine-How-Vaccines-Work
+   /topics/Vaccines-How-Vaccines-Work/Vaccines-How-Vaccines-Work
    /topics/Vaccine-Injury-Reporting-Systems/Vaccine-Injury-Reporting-Systems
-   /topics/Vaccine-Injury-Reporting-Systems/VAERS
+   /topics/VAERS/VAERS
    /topics/Vaccine-Rollout-News/Vaccine-Rollout-News
    /topics/Vaccine-Safety-Videos/Vaccine-Safety-Videos
    /topics/Vaccine-Schedule/Vaccine-Schedule
    /topics/Vaccine-Side-Effects/Vaccine-Side-Effects
    /topics/Vaccine-Testing-and-Approvals/Vaccine-Testing-and-Approvals
+   /topics/Vitamin-D/Vitamin-D
    /topics/WEF-World-Economic-Forum/WEF-World-Economic-Forum
    /topics/WHO-World-Health-Organization/WHO-World-Health-Organization
    /topics/Words-of-Wisdom-from-Famous-People/Words-of-Wisdom-from-Famous-People
