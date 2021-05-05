@@ -5,7 +5,7 @@ Pandemic Participants
     :maxdepth: 1
     :caption: Contents:
  
-    /topics/Events-in-Medical-History-we-might-want-to-consider/Events-in-Medical-History-we-might-want-to-consider
+    /topics/Vaccine-History/Events-in-Medical-History-we-might-want-to-consider
     /topics/WHO-World-Health-Organization/WHO-World-Health-Organization
     /topics/WEF-World-Economic-Forum/WEF-World-Economic-Forum
     /topics/FAQ-Frequently-Asked-Questions/FAQ-Frequently-Asked-Questions

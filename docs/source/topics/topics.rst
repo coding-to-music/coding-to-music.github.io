@@ -7,6 +7,7 @@ Topics
 
    /topics/1976-Swine-Flu/1976-Swine-Flu
    /topics/5G-Beam-Forming/5G-Beam-Forming 
+   /topics/ACE2/ACE2 
    /topics/Advice-for-Living/Advice-for-Living
    /topics/Azithromycin/Azithromycin
    /topics/Bill-and-Melinda-Gates-Foundation/Bill-and-Melinda-Gates-Foundation

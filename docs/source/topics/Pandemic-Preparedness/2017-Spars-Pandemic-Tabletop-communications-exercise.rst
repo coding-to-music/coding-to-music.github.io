@@ -6,7 +6,7 @@
     :maxdepth: 2
     :caption: Contents:
  
-    /topics/Pandemic-Preparedness/2017-10-23_spars-scenario-center-news    
+    /topics/Pandemic-Preparedness/2017-10-23-spars-scenario-center-news    
 
 .. contents::
     :local:
