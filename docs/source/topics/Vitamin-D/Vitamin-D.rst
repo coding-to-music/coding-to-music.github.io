@@ -6,7 +6,6 @@ Vitamin-D
     :maxdepth: 1
     :caption: Contents:
 
-    /topics/Vitamin-D/Vitamin-D
 
 
 

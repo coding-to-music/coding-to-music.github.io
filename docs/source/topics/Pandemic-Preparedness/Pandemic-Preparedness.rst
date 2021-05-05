@@ -5,7 +5,7 @@ Pandemic Preparedness
     :maxdepth: 2
     :caption: Contents:
  
-    2017-Spars-Pandemic-Tabletop-communications-exercise
+    /topics/Pandemic-Preparedness/2017-10-23-spars-scenario-center-news
 
 .. contents::
     :local:

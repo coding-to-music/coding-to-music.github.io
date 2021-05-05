@@ -5,7 +5,7 @@ Events in Medical History we might want to consider
    :maxdepth: 1
    :caption: Contents:
 
-   /topics/Vaccine-History/1976-Swine-Flu-Fiasco
+   /topics/1976-Swine-Flu/1976-Swine-Flu
    /topics/Tuskgee-Medical-Experiments/Tuskgee-Medical-Experiments-40-years-of-untreated-Syphlis
    /topics/Vaccine-History/Dengvaxia-2016-Sonofi-Phillipines-Denge-Fever-Deaths-and-Halt-of-Use
    /topics/Vaccines-How-Vaccines-Work/Dr-Sherri-Tenpenny-explains-7-mechanisms-in-mRNA-vaccines
