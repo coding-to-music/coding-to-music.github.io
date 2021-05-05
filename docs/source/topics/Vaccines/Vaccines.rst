@@ -7,10 +7,10 @@ Vaccines
  
     /topics/Legal-Issues/Legal-Issues
     /topics/WHO-World-Health-Organization/WHO-The-different-types-of-COVID-19-vaccines
-    /topics/Vaccine-rollout-news/Vaccine-rollout-news
-    /topics/Vaccine-history/Vaccine-history
-    /topics/Vaccine-testing-and-approvals/Vaccine-testing-and-approvals
-    /topics/How-Vaccines-Work/Vaccines-How-Vaccines-Work
+x   /topics/Vaccine-rollout-news/Vaccine-rollout-news
+   /topics/Vaccine-history/Vaccine-History
+x   /topics/Vaccine-testing-and-approvals/Vaccine-testing-and-approvals
+x   /topics/How-Vaccines-Work/Vaccines-How-Vaccines-Work
     /topics/Data-science-of-the-pandemic/Charts-and-Graphs
     /topics/Vaccine-Side-Effects/Vaccines-Side-Effects
     /topics/Vaccine-Safety-Videos/Vaccine-safety-videos
