@@ -1,5 +1,5 @@
 Seroprevalence of Toxoplasma gondii among pregnant women
----------------------------------------------------------------------------
+================================================================
 
 .. figure:: /assets/How-you-can-help/Coming_Attractions-780x683.jpg
   :align: center

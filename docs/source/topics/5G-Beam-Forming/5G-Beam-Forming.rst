@@ -5,7 +5,6 @@
     :maxdepth: 2
     :caption: Contents:
 
-    /topics/5G-Beam-Forming/
 
 
 .. contents::
