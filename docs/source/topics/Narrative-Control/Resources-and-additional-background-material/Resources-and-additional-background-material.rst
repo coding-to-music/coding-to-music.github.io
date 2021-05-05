@@ -2,7 +2,7 @@ Resources and additional background material
 =============================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
    /topics/Narrative-Control/Government-Monitoring-and-Control/Government-Monitoring-and-Control
