@@ -13,7 +13,6 @@ Origins of the Virus
     :caption: Contents:
  
     /topics/GOF-Gain-of-Function/Normal-GOF-research
-    /topics/GOF-Gain-of-Function/GOF
     /topics/ACE2/ACE2-Accession-sequence-is-only-specific-to-humans-no-partial-match-to-animals
 
 .. contents::

@@ -6,7 +6,7 @@ Resources and additional background material
    :caption: Contents:
 
    /topics/Narrative-Control/Government-Monitoring-and-Control/Government-Monitoring-and-Control
-   /topics/Narrative-Control/Knowledge-vs-Noise-our-opinions-about-news-and-media-sources
+   /topics/Narrative-Control/Knowledge-vs-Noise-our-opinions-about-news-and-media-sources/Knowledge-vs-Noise-our-opinions-about-news-and-media-sources
    /topics/Narrative-Control/What-is-narrative-control-and-how-is-it-used-to-shape-public-opinion
    /topics/Narrative-Control/Current-Events-and-their-relationship-to-todays-events
    /topics/Economics-Fossil-Fuels-Pharma-Money-Power/Economics-Fossil-Fuels-Pharma-Money-Power
