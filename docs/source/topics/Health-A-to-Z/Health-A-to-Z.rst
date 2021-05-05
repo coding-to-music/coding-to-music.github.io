@@ -2,7 +2,7 @@ Health A to Z
 =============================
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
     :caption: Contents:
  
     /topics/Shedding/Shedding
