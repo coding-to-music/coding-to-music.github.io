@@ -5,7 +5,6 @@ Remdesivir
    :maxdepth: 2
    :caption: Contents:
 
-   /topics/Remdesivir/
 
 
 .. contents::

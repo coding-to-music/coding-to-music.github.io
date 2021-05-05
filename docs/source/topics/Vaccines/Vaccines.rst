@@ -13,8 +13,8 @@ x   /topics/Vaccine-rollout-news/Vaccine-rollout-news
     /topics/How-Vaccines-Work/Vaccines-How-Vaccines-Work
     /topics/Data-science-of-the-pandemic/Charts-and-Graphs
     /topics/Vaccine-Side-Effects/Vaccines-Side-Effects
-    /topics/Vaccine-Safety-Videos/Vaccine-safety-videos
-    /topics/Vaccines/Vaccine-future-topics
+    /topics/Vaccine-Safety-Videos/Vaccine-Safety-Videos
+    /topics/Vaccines/Vaccine-Future-Topics
 
 
 .. contents::
