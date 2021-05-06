@@ -2,10 +2,10 @@ GOF - Gain of Function
 =========================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+    :maxdepth: 1
+    :caption: Contents:
 
-
+    /topics/Origins-of-the-Virus/GOF-Gain-of-Function-An-Analysis-By-Mohamed-Gardoud
 
 .. contents::
     :local:

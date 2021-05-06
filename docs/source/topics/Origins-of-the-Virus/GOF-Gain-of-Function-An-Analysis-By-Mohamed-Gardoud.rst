@@ -1,5 +1,12 @@
-GOF
-====
+GOF - Gain of Function - An Analysis By Mohamed Gardoud
+==============================================================
+
+.. Note:: 
+    
+    This page was Retrieved and copied March 2021
+
+    https://www.facebook.com/groups/1113717195767034/?multi_permalinks=1145243942614359&notif_id=1613175766789283&notif_t=group_highlights&ref=notif
+
 
 .. contents::
     :local:
