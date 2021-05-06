@@ -13,10 +13,10 @@ Vitamin-D
     :local:
 
 
-Vitamin D
---------------
 
 Vitamin D: the New COVID-19 Chloroquine?
+-----------------------------------------------
+
 https://berthub.eu/articles/posts/vitamin-d-the-new-covid-19-chloroquine/
 
 

@@ -2,7 +2,7 @@ Dengvaxia - 2016 Sonofi Phillipines Denge Fever Deaths and Halt of Use
 ========================================================================
 
 .. toctree::
-  :maxdepth: 3
+  :maxdepth: 1
   :caption: Contents:
 
 .. contents::

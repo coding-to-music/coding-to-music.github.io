@@ -5,9 +5,8 @@ Vaccines - Pandemic Charts and Graphs
    :maxdepth: 2
    :caption: Contents:
 
-   Big-Picture-Important-Charts
-   VAERS-Vaccine-Incident-Reporting-System
-
+   /topics/Data-science-of-the-pandemic/Big-Picture-Important-Charts
+   /topics/VAERS/VAERS-Vaccine-Incident-Reporting-System.rst
 
 .. contents::
    :local:

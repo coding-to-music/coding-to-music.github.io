@@ -2,7 +2,7 @@ Vaccines - How Vaccines Work
 ====================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
    /topics/Vaccines-How-Vaccines-Work/Dr-Sherri-Tenpenny-explains-7-mechanisms-in-mRNA-vaccines

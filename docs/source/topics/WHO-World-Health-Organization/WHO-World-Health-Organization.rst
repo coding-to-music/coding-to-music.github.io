@@ -1,6 +1,13 @@
 WHO World Health Organization
 ===============================
 
+.. toctree::
+    :maxdepth: 1
+    :caption: Contents:
+
+    /topics/WHO-World-Health-Organization/WHO-The-different-types-of-COVID-19-vaccines
+   
+
 .. contents::
     :local:
   

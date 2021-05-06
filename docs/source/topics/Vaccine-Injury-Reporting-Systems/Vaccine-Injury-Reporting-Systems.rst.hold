@@ -3,7 +3,7 @@ Vaccine Injury Reporting Systems
 
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
     :caption: Contents:
 
     /topics/Data-science-of-the-pandemic/Charts-and-Graphs
