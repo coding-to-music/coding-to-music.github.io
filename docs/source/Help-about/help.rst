@@ -57,11 +57,11 @@ This website is working towards this vision:
 I need to do this 
 ---------------------------------------------------
 
-.. figure:: /assets/Help-about/I-need-to-do-this.png
+.. figure:: /assets/Help-about/2021-May-2-This-is-what-I-need-to-do.jpeg
   :align: center
   :width: 100 %
 
-  I need to do this
+  May 2, 2021 - I need to do this
 
 
 

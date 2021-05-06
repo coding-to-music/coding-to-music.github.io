@@ -5,7 +5,7 @@ Vaccines
     :maxdepth: 2
     :caption: Contents:
  
-    /topics/Legal-Issues/Legal-Issues
+    /topics/Vaccine-Legal-Issues/Vaccine-Legal-Issues
     /topics/WHO-World-Health-Organization/WHO-The-different-types-of-COVID-19-vaccines
     /topics/Vaccine-Rollout-News/Vaccine-Rollout-News
     /topics/Vaccine-History/Vaccine-History

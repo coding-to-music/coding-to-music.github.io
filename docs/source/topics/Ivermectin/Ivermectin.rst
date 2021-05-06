@@ -12,7 +12,7 @@ Ivermectin
   :local:
 
 
-.. figure:: /assets/Health-A-to-Z/Ivermectin/Ivermectin-perscription.jpg
+.. figure:: /assets/topics/Ivermectin/Ivermectin-perscription.jpg
   :width: 80 %
   :align: center
   
@@ -57,7 +57,7 @@ Published: January 19, 2021
 
 Source 
 
-.. figure:: /assets/Health-A-to-Z/Ivermectin/Ivermectin-sheep-drench.jpg
+.. figure:: /assets/topics/Ivermectin/Ivermectin-sheep-drench.jpg
   :width: 80 %
   :align: center
   :target: footnotes_

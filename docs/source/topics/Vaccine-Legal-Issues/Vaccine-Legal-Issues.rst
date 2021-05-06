@@ -2,10 +2,10 @@ Vaccines - Legal Issues
 ==========================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
-   No-mandated-Use-for-Emergency-Use-Authorization
+   /topics/Vaccine-Legal-Issues/No-mandated-Use-for-Emergency-Use-Authorization
 
 .. contents::
     :local:

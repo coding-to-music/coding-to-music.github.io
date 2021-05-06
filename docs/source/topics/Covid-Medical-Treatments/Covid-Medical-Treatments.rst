@@ -4,7 +4,7 @@ Covid Medical Treatments
 Comments about various suggested or recommended or not-recommended Covid virus treatments 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
    /topics/Budesonide-inhaler/Budesonide-inhaler

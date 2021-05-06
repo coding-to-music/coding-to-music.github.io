@@ -27,7 +27,6 @@ Topics
    /topics/Health-A-to-Z/Health-Links-to-Add.rst
    /topics/Hydroxychloroquine/Hydroxychloroquine
    /topics/Ivermectin/Ivermectin
-   /topics/Legal-Issues/Legal-Issues
    /topics/Lockdowns/Lockdowns
    /topics/Masks/Masks
    /topics/Media-and-Influencers/Media-and-Influencers
@@ -49,6 +48,7 @@ Topics
    /topics/Vaccines-How-Vaccines-Work/Vaccines-How-Vaccines-Work
    /topics/Vaccine-Injury-Reporting-Systems/Vaccine-Injury-Reporting-Systems
    /topics/VAERS/VAERS
+   /topics/Vaccine-Legal-Issues/Vaccine-Legal-Issues
    /topics/Vaccine-Rollout-News/Vaccine-Rollout-News
    /topics/Vaccine-Safety-Videos/Vaccine-Safety-Videos
    /topics/Vaccine-Schedule/Vaccine-Schedule
