@@ -6,8 +6,6 @@ VAERS - Vaccine Adverse Event Reporting System
     :caption: Contents:
 
     /topics/VAERS/VAERS-Vaccine-Incident-Reporting-System.rst
-    /topics/Data-science-of-the-pandemic/Big-Picture-Important-Charts
-    /topics/Data-science-of-the-pandemic/Charts-and-Graphs
 
 
 

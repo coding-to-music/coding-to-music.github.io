@@ -5,7 +5,6 @@ Big Picture Important Charts
     :maxdepth: 1
     :caption: Contents:
 
-    /topics/Data-science-of-the-pandemic/Charts-and-Graphs
     /topics/VAERS/VAERS-Vaccine-Incident-Reporting-System.rst
 
 

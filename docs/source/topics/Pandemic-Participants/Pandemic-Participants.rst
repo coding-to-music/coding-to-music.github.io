@@ -13,7 +13,6 @@ Pandemic Participants
     /topics/Economics-Fossil-Fuels-Pharma-Money-Power/Economics-Fossil-Fuels-Pharma-Money-Power
     /topics/GOF-Gain-of-Function/GOF-Gain-of-Function
     /topics/Origins-of-the-Virus/Origins-of-the-Virus
-    /topics/Pandemic-Participants/Pandemic-Participants
     /topics/Pandemic-Preparedness/Pandemic-Preparedness
     /topics/Rockefeller-Foundation/Rockefeller-Foundation
     /topics/WEF-World-Economic-Forum/WEF-World-Economic-Forum
