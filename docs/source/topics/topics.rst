@@ -11,6 +11,7 @@ Topics
    /topics/ACE2/ACE2 
    /topics/Advice-for-Living/Advice-for-Living
    /topics/Azithromycin/Azithromycin
+   /topics/Bill-Gates-Memes/Bill-Gates-Memes
    /topics/Bill-and-Melinda-Gates-Foundation/Bill-and-Melinda-Gates-Foundation
    /topics/Budesonide-inhaler/Budesonide-inhaler
    /topics/Covid-Medical-Treatments/Covid-Medical-Treatments

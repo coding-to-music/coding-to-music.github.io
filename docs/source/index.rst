@@ -7,6 +7,7 @@ Making Sense of the Pandmic
     :caption: Contents:
 
     /topics/Covid-Medical-Treatments/Covid-Medical-Treatments
+    /topics/Bill-Gates-Memes/Bill-Gates-Memes
     /topics/topics
     /topics/Data-science-of-the-pandemic/Data-science-of-the-pandemic
     /topics/Vaccines/Vaccines    
