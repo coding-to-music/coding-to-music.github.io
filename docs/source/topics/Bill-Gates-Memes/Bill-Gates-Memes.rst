@@ -19,26 +19,6 @@ Bill Gates Memes
     :height: 150px
     :width: 150px
 
-.. thumbnail:: /assets/topics/Bill-Gates-Memes/2015-covid-prototype1.jpeg
-    :group: group1
-    :height: 150px
-    :width: 150px
-
-.. thumbnail:: /assets/topics/Bill-Gates-Memes/2015-covid-prototype2.jpeg
-    :group: group1
-    :height: 150px
-    :width: 150px
-
-.. thumbnail:: /assets/topics/Bill-Gates-Memes/2017-2020-UK-England-all-cause-mortality-Z-score-EUROMOMO.jpeg
-    :group: group1
-    :height: 150px
-    :width: 150px
-
-.. thumbnail:: /assets/topics/Bill-Gates-Memes/2020-12-07-Standard-Oil-Rockefeller-Foundation-Bill-Gates.png
-    :group: group1
-    :height: 150px
-    :width: 150px
-
 .. thumbnail:: /assets/topics/Bill-Gates-Memes/20201211_203611.jpg
     :group: group1
     :height: 150px
@@ -199,22 +179,12 @@ Bill Gates Memes
     :height: 150px
     :width: 150px
 
-.. thumbnail:: /assets/topics/Bill-Gates-Memes/Bill-Gates-what-is-he-doing-now2.png
-    :group: group1
-    :height: 150px
-    :width: 150px
-
 .. thumbnail:: /assets/topics/Bill-Gates-Memes/California-Masks.jpg
     :group: group1
     :height: 150px
     :width: 150px
 
 .. thumbnail:: /assets/topics/Bill-Gates-Memes/Christine-Shuaibu-ochronosis_20210419-185938.png
-    :group: group1
-    :height: 150px
-    :width: 150px
-
-.. thumbnail:: /assets/topics/Bill-Gates-Memes/Dengvaxia-Sonofi-Phillipines.png
     :group: group1
     :height: 150px
     :width: 150px
@@ -349,6 +319,16 @@ Bill Gates Memes
     :height: 150px
     :width: 150px
 
+.. thumbnail:: /assets/topics/Bill-Gates-Memes/2015-covid-prototype1.jpeg
+    :group: group1
+    :height: 150px
+    :width: 150px
+
+.. thumbnail:: /assets/topics/Bill-Gates-Memes/2015-covid-prototype2.jpeg
+    :group: group1
+    :height: 150px
+    :width: 150px
+
 .. thumbnail:: /assets/topics/Bill-Gates-Memes/Gates_AIDS_fund-93igpom.jpg
     :group: group1
     :height: 150px
@@ -419,11 +399,6 @@ Bill Gates Memes
     :height: 150px
     :width: 150px
 
-.. thumbnail:: /assets/topics/Bill-Gates-Memes/bill-gates-steve-jobs2.jpg
-    :group: group1
-    :height: 150px
-    :width: 150px
-
 .. thumbnail:: /assets/topics/Bill-Gates-Memes/bridge-1-930x520_0.jpg
     :group: group1
     :height: 150px
@@ -450,6 +425,16 @@ Bill Gates Memes
     :width: 150px
 
 .. thumbnail:: /assets/topics/Bill-Gates-Memes/vaccine-books.jpg
+    :group: group1
+    :height: 150px
+    :width: 150px
+
+.. thumbnail:: /assets/topics/Bill-Gates-Memes/2017-2020-UK-England-all-cause-mortality-Z-score-EUROMOMO.jpeg
+    :group: group1
+    :height: 150px
+    :width: 150px
+
+.. thumbnail:: /assets/topics/Bill-Gates-Memes/2020-12-07-Standard-Oil-Rockefeller-Foundation-Bill-Gates.png
     :group: group1
     :height: 150px
     :width: 150px
