@@ -15,6 +15,21 @@ Sandbox
 .. thumbnail:: /assets/topics/Azithromycin/azithromycin-250-mg-tablets.jpg
 
 
+.. thumbnail:: /assets/topics/Azithromycin/azithromycin-250-mg-tablets.jpg
+    :group: group1
+
+.. thumbnail:: https://upload.wikimedia.org/wikipedia/meta/0/08/Wikipedia-logo-v2_1x.png
+    :group: group1
+
+.. thumbnail:: /assets/topics/Azithromycin/azithromycin-250-mg-tablets.jpg
+    :group: group1
+
+.. thumbnail:: /assets/topics/Azithromycin/azithromycin-250-mg-tablets.jpg
+    :group: group1
+
+.. thumbnail:: /assets/topics/Azithromycin/azithromycin-250-mg-tablets.jpg
+    :group: group1
+
 .. figure:: /assets/topics/Azithromycin/azithromycin-250-mg-tablets.jpg
   :align: center
   :width: 80 %
