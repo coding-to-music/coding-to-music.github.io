@@ -1,6 +1,7 @@
 sphinx>=1.8.3
 sphinx_rtd_theme
 sphinx-tabs
+sphinx-gallery
 sphinx_issues
 sphinx-prompt
 sphinxext-opengraph

@@ -22,6 +22,9 @@ sys.path.insert(0, os.path.abspath("../../../python-source/bareos/"))
 sys.path.insert(0, os.path.abspath("./_extensions"))
 # import sphinx_gallery
 
+from sphinx_gallery.sorting import ExplicitOrder  
+from sphinx_gallery.sorting import ExampleTitleSortKey  
+
 # sys.path.append(os.path.dirname(__file__))
 # os.environ.setdefault("DJANGO_SETTINGS_MODULE", "readthedocs.settings.dev")
 
@@ -58,6 +61,7 @@ numfig = True
 project = u'all-knowledge'
 author = 'Thomas Connors and Contributors'
 copyright = '2020-2021, Thomas Connors and Contributors'
+# copyright = '{}, {}'.format(datetime.datetime.now().year, author)
 # copyright = '2020-{}, Thomas Connors and Contributors'.format(
 #     time.now().year
 # )
@@ -153,10 +157,40 @@ extensions = [
     "sphinx.ext.intersphinx",  # Link to other project's documentation (see mapping below)
     "sphinx.ext.napoleon",
     "sphinx.ext.todo",
+    'sphinx_gallery.gen_gallery',
     "sphinx.ext.viewcode",  # Add a link to the Python source code for classes, functions etc.
 ]
 
+# Add any paths that contain templates here, relative to this directory.
+# templates_path = ['_templates']
 
+# List of patterns, relative to source directory, that match files and
+# directories to ignore when looking for source files.
+# This pattern also affects html_static_path and html_extra_path.
+
+# Add any extra paths that contain custom files (such as robots.txt or
+# .htaccess) here, relative to this directory. These files are copied
+# directly to the root of the documentation.
+html_extra_path = ['robots.txt']
+
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+
+# The suffix(es) of source filenames.
+# You can specify multiple suffix as a list of string:
+source_suffix = '.rst'
+
+# The master toctree document.
+master_doc = 'index'
+
+# The reST default role (used for this markup: `text`) to use for all
+# documents. Set to the "smart" one.
+default_role = 'obj'
+
+# Disable having a separate return type row
+napoleon_use_rtype = False
+
+# Disable google style docstrings
+napoleon_google_docstring = False
 
 try:
     import sphinxcontrib.spelling
@@ -168,9 +202,34 @@ else:
 spelling_work_list_filename='worlist.txt'
 
 sphinx_gallery_conf = {
-     'examples_dirs': 'examples',   # path to your example source/bareos/scripts
-     'gallery_dirs': 'auto_examples',  # path to where to save gallery generated output
+    'topic_dirs': 'topics',   # path to your example source/bareos/scripts
+    'gallery_dirs': 'auto_topics',  # path to where to save gallery generated output
+    'backreferences_dir': os.path.join('generated', 'modules'),
+    'filename_pattern': '^((?!skip_).)*$',
+    'examples_dirs': os.path.join('..', 'examples'),
+    'subsection_order': ExplicitOrder([
+        '../examples/acquiring_data',
+        '../examples/map',
+        '../examples/map_transformations',
+        '../examples/time_series',
+        '../examples/units_and_coordinates',
+        '../examples/plotting',
+        '../examples/differential_rotation',
+        '../examples/saving_and_loading_data',
+        '../examples/computer_vision_techniques',
+        '../examples/developer_tools'
+    ]),
+    'within_subsection_order': ExampleTitleSortKey,
+    'gallery_dirs': os.path.join('generated', 'gallery'),
+    # Comes from the theme.
+    "default_thumb_file": os.path.join(html_static_path[0], "img", "sunpy_icon_128x128.png"),
+    'abort_on_example_error': False,
+    'plot_gallery': 'True',
+    'remove_config_comments': True,
+    'doc_module': ('sunpy'),
+    'only_warn_on_example_error': True,
 }
+
 
 
 # ogp_custom_meta_tags = [
