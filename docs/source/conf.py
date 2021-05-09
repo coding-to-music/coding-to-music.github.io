@@ -202,27 +202,19 @@ else:
 spelling_work_list_filename='worlist.txt'
 
 sphinx_gallery_conf = {
-    'topic_dirs': 'topics',   # path to your example source/bareos/scripts
-    'gallery_dirs': 'auto_topics',  # path to where to save gallery generated output
+    'examples_dirs': 'examples',   # path to your example source/bareos/scripts
+    'gallery_dirs': 'auto_examples',  # path to where to save gallery generated output
     'backreferences_dir': os.path.join('generated', 'modules'),
     'filename_pattern': '^((?!skip_).)*$',
     'examples_dirs': os.path.join('..', 'examples'),
     'subsection_order': ExplicitOrder([
-        '../examples/acquiring_data',
-        '../examples/map',
-        '../examples/map_transformations',
-        '../examples/time_series',
-        '../examples/units_and_coordinates',
-        '../examples/plotting',
-        '../examples/differential_rotation',
-        '../examples/saving_and_loading_data',
-        '../examples/computer_vision_techniques',
-        '../examples/developer_tools'
+        'assets/lockdowns',
+        'assets/masks'
     ]),
     'within_subsection_order': ExampleTitleSortKey,
     'gallery_dirs': os.path.join('generated', 'gallery'),
     # Comes from the theme.
-    "default_thumb_file": os.path.join(html_static_path[0], "img", "sunpy_icon_128x128.png"),
+    # "default_thumb_file": os.path.join(html_static_path[0], "img", "zotero_128x128x32.png"),
     'abort_on_example_error': False,
     'plot_gallery': 'True',
     'remove_config_comments': True,
