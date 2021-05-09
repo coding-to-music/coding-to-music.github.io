@@ -2,10 +2,11 @@ Sandbox
 ==================================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+    :maxdepth: 2
+    :caption: Contents:
 
-   /myGuides/Placeholder
+    /generated/gallery/index
+    /myGuides/Placeholder
    
 .. contents::
     :local:
