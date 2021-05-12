@@ -242,12 +242,29 @@ Invenio Software
 
 https://inveniosoftware.org/
 
+
+Invenio Software - Showcase - many major websites use Invenio 
+--------------------------------------------------------------------------------------------
+
+https://inveniosoftware.org/showcase/
+
+
+Invenio Software - Showcase - many major websites use Invenio 
+
+    * `CERN Document Server <http://cds.cern.ch/>`_ - CERN official repository for publications, articles, reports and multimedia content in HEP.
+    * `CERN Open Data <http://opendata.cern.ch/>`_ - Discover open Research datasets and software of LHC experiments. Visualise events and run and your own analysis.
+    * `INSPIRE <http://inspirehep.net/>`_ - Run by a collaboration of CERN, DESY, Fermilab, IHEP, and SLAC, and interacts closely with HEP publishers, arXiv.org, NASA-ADS, PDG, HEPDATA and others.
+    * `Zenodo <http://zenodo.org/>`_ is an open home for the long-tail of science, enabling researchers to share and preserve any research outputs.
+    * `B2SHARE <https://b2share.eudat.eu/>`_ is a user-friendly, reliable and trustworthy way for researchers, scientific communities and citizen scientists to store and share small-scale research data from diverse contexts.
+
+
+SV40 is quite the debacle.
+--------------------------------------------------------------------------------------------
+
 https://www.reddit.com/r/NoNewNormal/comments/na4byd/events_in_medical_history_we_might_want_to/
 
 DeadEndFred https://www.reddit.com/user/DeadEndFred/
 
-SV40 is quite the debacle.
---------------------------------------------------------------------------------------------
 
 SV40 is quite the debacle.
 
@@ -277,6 +294,44 @@ https://www.reddit.com/user/lifeisforkiamsoup/
 
 https://www.cbsnews.com/news/bayer-admits-it-paid-millions-in-hiv-infection-cases-just-not-in-english/
 
+
+
+Big Tech’s Censors Come for Science
+-----------------------------------------------
+
+Big Tech’s Censors Come for Science
+
+https://jacobinmag.com/2021/05/big-tech-censorship-science-covid-19-debate
+
+BY PANKAJ MEHTA
+
+When we allow private organizations like Facebook, Google, and Twitter to police scientific discourse, we abdicate our commitment to free scientific inquiry.
+
+
+Sphinx - Gallery of Examples
+-----------------------------------------------
+
+https://sphinx-gallery.github.io/stable/auto_examples/index.html
+
+
+Sunpy loop edge enhancement python script
+-----------------------------------------------
+
+https://github.com/sunpy/sunpy/blob/main/examples/computer_vision_techniques/loop_edge_enhance.py
+
+Google Structured Data Testing tool
+-----------------------------------------------
+
+https://search.google.com/structured-data/testing-tool
+
+is being depreciated
+
+It is being replaced by 
+
+Google Search Rich Results Test 
+-----------------------------------------------
+
+https://search.google.com/test/rich-results?
 
 
 
