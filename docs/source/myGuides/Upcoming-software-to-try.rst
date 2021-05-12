@@ -237,6 +237,48 @@ Zenodo - policies
 https://about.zenodo.org/policies/
 
 
+https://developers.zenodo.org/#introduction
+
+
+https://github.com/zenodo/zenodo/tree/master/docs
+
+
+zotero translators
+--------------------------------------------------------------------------------------------
+
+https://www.zotero.org/support/dev/translators/coding
+
+
+zotero web api v3
+--------------------------------------------------------------------------------------------
+
+https://www.zotero.org/support/dev/web_api/v3/start
+
+
+zotero creating_locate_engines_using_opensearch
+--------------------------------------------------------------------------------------------
+
+https://www.zotero.org/support/dev/creating_locate_engines_using_opensearch
+
+
+zotero - exposing exposing_metadata
+--------------------------------------------------------------------------------------------
+
+https://www.zotero.org/support/dev/exposing_metadata
+
+
+Zenoto - make a deposit
+--------------------------------------------------------------------------------------------
+
+https://zenodo.org/deposit?page=1&size=20
+
+
+zotero.org/support/brand  many different icons
+--------------------------------------------------------------------------------------------
+
+https://www.zotero.org/support/brand  many different icons
+
+
 Invenio Software
 --------------------------------------------------------------------------------------------
 
@@ -319,6 +361,49 @@ Sunpy loop edge enhancement python script
 
 https://github.com/sunpy/sunpy/blob/main/examples/computer_vision_techniques/loop_edge_enhance.py
 
+
+SunPy Example Gallery - generated vis sphinx 
+-----------------------------------------------
+
+https://docs.sunpy.org/en/stable/generated/gallery/index.html#
+
+
+
+Binder - Getting Started with Binder
+------------------------------------------
+
+https://mybinder.readthedocs.io/en/latest/introduction.html
+
+
+Simple Binder usage with Sphinx-Gallery through Jupytext
+-----------------------------------------------------------
+
+https://stanczakdominik.github.io/posts/simple-binder-usage-with-sphinx-gallery-through-jupytext/
+
+
+sphinx-jinja - A sphinx extension to include jinja based templates based documentation into a sphinx doc
+-----------------------------------------------------------
+
+https://pypi.org/project/sphinx-jinja/
+
+
+documentation.help
+-----------------------------------------------------------
+
+https://documentation.help/
+
+FOR ALL SORTS OF PROGRAMMING AND SOFTWARE DOCUMENTATION, APIS, AND HELP INFORMATION
+
+
+Sphinx - Templating via documentation.help
+-----------------------------------------------------------
+
+https://documentation.help/Sphinx/templating.html
+
+Sphinx - Templating via sphinx-doc 
+
+https://www.sphinx-doc.org/en/master/templating.html
+
 Google Structured Data Testing tool
 -----------------------------------------------
 
@@ -333,9 +418,22 @@ Google Search Rich Results Test
 
 https://search.google.com/test/rich-results?
 
+Bing Webmasters Tools 
+---------------------------
+
+https://www.bing.com/webmasters/home?siteUrl=https://pandemic-overview.readthedocs.io/en/latest/
+
+Search Central - Developers.google.com - Build and submit a sitemap
+----------------------------------------------------------------------
+
+https://developers.google.com/search/docs/advanced/sitemaps/build-sitemap
 
 
 
+Fixing ‘Got permission denied while trying to connect to the Docker daemon socket’ error with Docker
+-------------------------------------------------------------------------------------------------------
+
+https://linuxhandbook.com/docker-permission-denied/
 
 
 
