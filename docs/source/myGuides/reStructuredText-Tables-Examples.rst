@@ -107,8 +107,8 @@ and the common options `:class:`_ and `:name:`_.
 
 .. _csv-table:
 
-CSV Table
-=========
+CSV Table Example
+===================
 
 :Directive Type: "csv-table"
 :Doctree Element: table_
