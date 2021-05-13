@@ -1,5 +1,9 @@
 :index:`\ <single: Werkzeug WSGI web application library>`\
 
+.. meta::
+    :description lang=en:
+        Werkzeug is a comprehensive WSGI web application library. It began as a simple collection of various utilities for WSGI applications and has become one of the most advanced WSGI utility libraries.
+
 Werkzeug is a comprehensive WSGI web application library
 ======================================================================
 
