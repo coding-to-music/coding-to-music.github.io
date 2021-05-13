@@ -12,7 +12,7 @@ Narrative Control
     /topics/Narrative-Control/What-is-narrative-control-and-how-is-it-used-to-shape-public-opinion
     /topics/Narrative-Control/Current-Events-and-their-relationship-to-todays-events
     /topics/Economics-Fossil-Fuels-Pharma-Money-Power/Economics-Fossil-Fuels-Pharma-Money-Power
-
+    /topics/Narrative-Control/Narrative-Control-Links-to-Add
 
 .. contents::
     :local:

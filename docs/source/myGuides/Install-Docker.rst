@@ -56,6 +56,12 @@ https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoe
 Click "Launch App"
 
 
+Fixing ‘Got permission denied while trying to connect to the Docker daemon socket’ error with Docker
+-------------------------------------------------------------------------------------------------------
+
+https://linuxhandbook.com/docker-permission-denied/
+
+
 
 
 
