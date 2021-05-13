@@ -1,6 +1,13 @@
 Sphinx Jinja is a templating engine
 ==========================================
 
+.. Note:: 
+    
+    | This page was:
+    | Created May 12 2021
+    | Updated May 13 2021
+    | Last Built |today|
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:

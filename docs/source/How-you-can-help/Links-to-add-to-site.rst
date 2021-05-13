@@ -8,9 +8,15 @@ Links to add to the documentation
   Coming Attractions - Links to add to the documentation
 
 
+
+
 .. Note:: 
     
-    These next links added April 29 2021
+    | This page was:
+    | Created April 12 2021
+    | Updated May 13 2021
+    | Last Built |today|
+    | These next links added April 29 2021
 
 
 .. toctree::
