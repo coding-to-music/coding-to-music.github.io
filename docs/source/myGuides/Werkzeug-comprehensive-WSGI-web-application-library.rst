@@ -1,3 +1,5 @@
+:index:`\ <single: Werkzeug WSGI web application library>`\
+
 Werkzeug is a comprehensive WSGI web application library
 ======================================================================
 
