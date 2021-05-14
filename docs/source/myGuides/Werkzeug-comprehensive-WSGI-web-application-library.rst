@@ -1,22 +1,14 @@
 :index:`\ <single: Werkzeug WSGI web application library>`\
 
 .. meta::
-    :description lang=en:
-        Werkzeug WSGI Server / Gateway invokes callable object served by the WSGI Application / Framework
-    :headline lang=en:
-        Werkzeug WSGI web application library
-    :image lang=en:
-        https://pandemic-overview.readthedocs.io/en/latest/_images/WSGI-web-application-library.png
-    :author lang=en:
-        Thomas Connors
-    :publisher lang=en:
-        all-knowledge.info
-    :datePublished lang=en:
-        May 12 2021
-    :dateModified lang=en:
-        May 14 2021
-    :mainEntityOfPage lang=en:
-        https://pandemic-overview.readthedocs.io/en/latest/myGuides/Werkzeug-comprehensive-WSGI-web-application-library.html
+    :description lang=en: Werkzeug WSGI Server / Gateway invokes callable object served by the WSGI Application / Framework
+    :headline lang=en: Werkzeug WSGI web application library
+    :image lang=en: https://pandemic-overview.readthedocs.io/en/latest/_images/WSGI-web-application-library.png
+    :author lang=en: Thomas Connors
+    :publisher lang=en: all-knowledge.info
+    :datePublished lang=en: May 12 2021
+    :dateModified lang=en: May 14 2021
+    :mainEntityOfPage lang=en: https://pandemic-overview.readthedocs.io/en/latest/myGuides/Werkzeug-comprehensive-WSGI-web-application-library.html
 
         
 og:author="Thomas Connors"
