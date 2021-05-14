@@ -1,11 +1,8 @@
 :index:`\ <single: Werkzeug WSGI web application library>`\
 
 .. meta::
-    :property:
-        :description lang=en:
-            Werkzeug WSGI web application library
-    :headline lang=en:
-        Werkzeug WSGI web application library
+    :description lang=en:
+        Werkzeug WSGI Server / Gateway invokes callable object served by the WSGI Application / Framework
     :headline lang=en:
         Werkzeug WSGI web application library
     :image lang=en:
@@ -22,7 +19,12 @@
         https://pandemic-overview.readthedocs.io/en/latest/myGuides/Werkzeug-comprehensive-WSGI-web-application-library.html
 
         
-
+og:author="Thomas Connors"
+og:title="Werkzeug WSGI web application library"
+og:description="Werkzeug WSGI web application library" 
+og:headline="Werkzeug WSGI web application library" 
+article:modified_time" content="2021-05-14T12:48:53+00:00" 
+article:published_time" content="2021-05-12T11:55:38+00:00" 
 
 Werkzeug WSGI web application library
 ======================================================================
@@ -38,7 +40,7 @@ Werkzeug WSGI web application library
   :align: center
   :width: 80 %
   
-  1976 Swine Flu Pandemic: Ford Swine Flu 1975 Rushed Vaccine Fiasco  
+  WSGI Server / Gateway invokes callable object served by the WSGI Application / Framework  
 
 
 .. toctree::
