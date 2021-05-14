@@ -34,10 +34,6 @@
 
 
 .. meta::
-    :ogp_type: = "article"
-
-
-.. meta::
     :ogp_site_url: = http://example.org/
 
 
@@ -50,11 +46,19 @@
 
 
 .. meta::
-    :ogp_article:modified_time:=May 13 2021
+    :ogp_type: = "article"
 
 
 .. meta::
-    :ogp_article:published_time:=May 12 2021 
+    :author:=Thomas Connors
+
+
+.. meta::
+    :modified_time:=May 13 2021
+
+
+.. meta::
+    :published_time:=May 12 2021 
 
 
 .. meta::
@@ -67,10 +71,6 @@
 
 .. meta::
     :ogp_headline:=Werkzeug WSGI web application library 
-
-
-.. meta::
-    :ogp_article:author=Thomas Connors
 
 
 .. meta::
