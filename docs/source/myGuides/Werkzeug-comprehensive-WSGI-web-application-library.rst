@@ -10,13 +10,28 @@
     :dateModified lang=en: May 14 2021
     :mainEntityOfPage lang=en: https://pandemic-overview.readthedocs.io/en/latest/myGuides/Werkzeug-comprehensive-WSGI-web-application-library.html
 
-        
-og:author="Thomas Connors"
-og:title="Werkzeug WSGI web application library"
-og:description="Werkzeug WSGI web application library" 
-og:headline="Werkzeug WSGI web application library" 
-article:modified_time" content="2021-05-14T12:48:53+00:00" 
-article:published_time" content="2021-05-12T11:55:38+00:00" 
+
+ogp_site_url = "http://example.org/"
+ogp_image = "http://example.org/image.png"
+ogp_description_length = 300
+ogp_type = "article"
+ogp_title="Werkzeug WSGI web application library"
+ogp_description="Werkzeug WSGI web application library" 
+ogp_headline="Werkzeug WSGI web application library" 
+ogp_article:modified_time="2021-05-14T12:48:53+00:00" 
+ogp_article:published_time="2021-05-12T11:55:38+00:00" 
+ogp_article:expiration_time="2025-05-12T11:55:38+00:00"
+ogp_article:author="Thomas Connors"
+ogp_article:section="Technology"
+ogp_article:tag=[Word1, word2, word3]
+ogp_custom_meta_tags = [
+    'todo',
+    "limitation",
+    'notfound.extension'
+]
+
+
+
 
 Werkzeug WSGI web application library
 ======================================================================
