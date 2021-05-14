@@ -50,15 +50,11 @@
 
 
 .. meta::
-    :ogp_article:modified_time=2021-05-14T12:48:53+00:00
+    :ogp_article:modified_time:=May 13 2021
 
 
 .. meta::
-    :ogp_article:published_time=2021-05-12T11:55:38+00:00 
-
-
-.. meta::
-    :ogp_article:expiration_time=2025-05-12T11:55:38+00:00
+    :ogp_article:published_time:=May 12 2021 
 
 
 .. meta::
@@ -66,7 +62,7 @@
 
 
 .. meta::
-    :ogp_description=Werkzeug WSGI web application library
+    :ogp_description:=Werkzeug WSGI web application library
 
 
 .. meta::
