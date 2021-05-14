@@ -2,35 +2,35 @@
 
 
 .. meta::
-    :descriptionlang=en: DESCRIPTIONWerkzeug WSGI Server / Gateway invokes callable object served by the WSGI Application / Framework
+    :description lang=en: DESCRIPTIONWerkzeug WSGI Server / Gateway invokes callable object served by the WSGI Application / Framework
 
 
 .. meta::
-    :headlinelang=en: HEADLINEWerkzeug WSGI web application library
+    :headline lang=en: HEADLINEWerkzeug WSGI web application library
 
 
 .. meta::
-    :imagelang=en: https://pandemic-overview.readthedocs.io/en/latest/_images/WSGI-web-application-library.png
+    :image lang=en: https://pandemic-overview.readthedocs.io/en/latest/_images/WSGI-web-application-library.png
 
 
 .. meta::
-    :authorlang=en: Thomas Connors
+    :author lang=en: Thomas Connors
 
 
 .. meta::
-    :publisherlang=en: all-knowledge.info
+    :publisher lang=en: all-knowledge.info
 
 
 .. meta::
-    :datePublishedlang=en: May 12 2021
+    :datePublished lang=en: May 12 2021
 
 
 .. meta::
-    :dateModifiedlang=en: May 14 2021
+    :dateModified lang=en: May 14 2021
 
 
 .. meta::
-    :mainEntityOfPagelang=en: https://pandemic-overview.readthedocs.io/en/latest/myGuides/Werkzeug-comprehensive-WSGI-web-application-library.html
+    :mainEntityOfPage lang=en: https://pandemic-overview.readthedocs.io/en/latest/myGuides/Werkzeug-comprehensive-WSGI-web-application-library.html
 
 
 .. meta::
@@ -62,15 +62,15 @@
 
 
 .. meta::
-    :ogp_title:= Werkzeug WSGI web application library
+    :ogp_title lang=en:= Werkzeug WSGI web application library
 
 
 .. meta::
-    :ogp_description:=Werkzeug WSGI web application library
+    :ogp_description lang=en:=Werkzeug WSGI web application library
 
 
 .. meta::
-    :ogp_headline:=Werkzeug WSGI web application library 
+    :ogp_headline lang=en:=Werkzeug WSGI web application library 
 
 
 .. meta::
