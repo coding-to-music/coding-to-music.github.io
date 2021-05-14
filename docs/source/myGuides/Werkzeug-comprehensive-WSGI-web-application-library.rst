@@ -1,8 +1,9 @@
 :index:`\ <single: Werkzeug WSGI web application library>`\
 
 .. meta::
-    :description lang=en:
-        Werkzeug WSGI web application library
+    :property:
+        :description lang=en:
+            Werkzeug WSGI web application library
     :headline lang=en:
         Werkzeug WSGI web application library
     :headline lang=en:
