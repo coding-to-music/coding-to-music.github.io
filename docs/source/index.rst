@@ -133,8 +133,6 @@ Making Sense of the Pandmic
 
 
 
-.. contents::
-    :local:
 
 
 Indices and tables

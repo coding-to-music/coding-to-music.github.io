@@ -3,6 +3,23 @@
 .. meta::
     :description lang=en:
         Werkzeug WSGI web application library
+    :headline lang=en:
+        Werkzeug WSGI web application library
+    :headline lang=en:
+        The headline field is recommended. Please provide a value if available.
+    :image lang=en:
+        A value for the image field is required.
+    :author lang=en:
+        |author|
+    :datePublished lang=en:
+        |today|
+    :publisher lang=en:
+        |publisher|
+    :dateModified lang=en:
+        |today|
+    :mainEntityOfPage lang=en:
+        
+
 
 Werkzeug WSGI web application library
 ======================================================================
@@ -13,6 +30,13 @@ Werkzeug WSGI web application library
     | Created May 12 2021
     | Updated May 13 2021
     | Last Built |today|
+
+.. figure:: /assets/Vaccines/History-Lessons/1976-Swine-Flu-Pandemic/1-Ford-Swine-Flu-1975-Rushed-Vaccine-Fiasco.png
+  :align: center
+  :width: 80 %
+  
+  1976 Swine Flu Pandemic: Ford Swine Flu 1975 Rushed Vaccine Fiasco  
+
 
 .. toctree::
    :maxdepth: 2
