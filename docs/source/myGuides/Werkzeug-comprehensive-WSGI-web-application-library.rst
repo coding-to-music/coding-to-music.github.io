@@ -6,18 +6,20 @@
     :headline lang=en:
         Werkzeug WSGI web application library
     :headline lang=en:
-        The headline field is recommended. Please provide a value if available.
+        Werkzeug WSGI web application library
     :image lang=en:
-        A value for the image field is required.
+        https://pandemic-overview.readthedocs.io/en/latest/_images/1-Ford-Swine-Flu-1975-Rushed-Vaccine-Fiasco.png
     :author lang=en:
-        |author|
-    :datePublished lang=en:
-        |today|
+        Thomas Connors
     :publisher lang=en:
-        |publisher|
+        all-knowledge.info
+    :datePublished lang=en:
+        May 12 2021
     :dateModified lang=en:
-        |today|
+        May 14 2021
     :mainEntityOfPage lang=en:
+        https://pandemic-overview.readthedocs.io/en/latest/myGuides/Werkzeug-comprehensive-WSGI-web-application-library.html
+
         
 
 
