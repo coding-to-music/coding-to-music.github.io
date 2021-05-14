@@ -9,7 +9,7 @@
     :headline lang=en:
         Werkzeug WSGI web application library
     :image lang=en:
-        https://pandemic-overview.readthedocs.io/en/latest/_images/1-Ford-Swine-Flu-1975-Rushed-Vaccine-Fiasco.png
+        https://pandemic-overview.readthedocs.io/en/latest/_images/WSGI-web-application-library.png
     :author lang=en:
         Thomas Connors
     :publisher lang=en:
@@ -34,7 +34,7 @@ Werkzeug WSGI web application library
     | Updated May 13 2021
     | Last Built |today|
 
-.. figure:: /assets/Vaccines/History-Lessons/1976-Swine-Flu-Pandemic/1-Ford-Swine-Flu-1975-Rushed-Vaccine-Fiasco.png
+.. figure:: /assets/Software/WSGI-web-application-library.png
   :align: center
   :width: 80 %
   
