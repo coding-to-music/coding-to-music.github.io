@@ -32,6 +32,10 @@ ogp_custom_meta_tags = [
 'MetaTag4',
 ]
 
+ogp_custom_meta_tags = [
+    '<meta property="og:ignore_canonical" content="true" />',
+    '<meta name="theme-color" content="#AC2B37" />',
+]
 
 
 
