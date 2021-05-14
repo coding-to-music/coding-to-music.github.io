@@ -1,64 +1,85 @@
 :index:`\ <single: Werkzeug WSGI web application library>`\
 
+
 .. meta::
     :description: lang=en: DESCRIPTIONWerkzeug WSGI Server / Gateway invokes callable object served by the WSGI Application / Framework
+
 
 .. meta::
     :headline: lang=en: HEADLINEWerkzeug WSGI web application library
 
+
 .. meta::
     :image: lang=en: https://pandemic-overview.readthedocs.io/en/latest/_images/WSGI-web-application-library.png
+
 
 .. meta::
     :author: lang=en: Thomas Connors
 
+
 .. meta::
     :publisher: lang=en: all-knowledge.info
+
 
 .. meta::
     :datePublished: lang=en: May 12 2021
 
+
 .. meta::
     :dateModified: lang=en: May 14 2021
+
 
 .. meta::
     :mainEntityOfPage: lang=en: https://pandemic-overview.readthedocs.io/en/latest/myGuides/Werkzeug-comprehensive-WSGI-web-application-library.html
 
+
 .. meta::
     :ogp_type: = "article"
 
-.. meta::
-    :ogp_title:= Werkzeug WSGI web application library
 
 .. meta::
     :ogp_site_url: = http://example.org/
 
+
 .. meta::
     :ogp_image: = http://example.org/image.png
+
 
 .. meta::
     :ogp_description_length: = 300
 
-.. meta::
-    :ogp_description=Werkzeug WSGI web application library
-
-.. meta::
-    :ogp_headline:=Werkzeug WSGI web application library 
 
 .. meta::
     :ogp_article:modified_time=2021-05-14T12:48:53+00:00
 
+
 .. meta::
     :ogp_article:published_time=2021-05-12T11:55:38+00:00 
+
 
 .. meta::
     :ogp_article:expiration_time=2025-05-12T11:55:38+00:00
 
+
+.. meta::
+    :ogp_title:= Werkzeug WSGI web application library
+
+
+.. meta::
+    :ogp_description=Werkzeug WSGI web application library
+
+
+.. meta::
+    :ogp_headline:=Werkzeug WSGI web application library 
+
+
 .. meta::
     :ogp_article:author=Thomas Connors
 
+
 .. meta::
     :ogp_article:section=Technology
+
 
 
 
