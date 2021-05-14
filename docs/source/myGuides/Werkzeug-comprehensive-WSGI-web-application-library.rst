@@ -50,31 +50,27 @@
 
 
 .. meta::
-    :author:=Thomas Connors
+    :modified_time = May 13 2021
 
 
 .. meta::
-    :modified_time:=May 13 2021
+    :published_time = May 12 2021 
 
 
 .. meta::
-    :published_time:=May 12 2021 
+    :title lang=en: = Werkzeug WSGI web application library
 
 
 .. meta::
-    :ogp_title lang=en:= Werkzeug WSGI web application library
+    :description lang=en: = Werkzeug WSGI web application library
 
 
 .. meta::
-    :ogp_description lang=en:=Werkzeug WSGI web application library
+    :headline lang=en:=Werkzeug WSGI web application library 
 
 
 .. meta::
-    :ogp_headline lang=en:=Werkzeug WSGI web application library 
-
-
-.. meta::
-    :ogp_article:section=Technology
+    :article:section:=Technology
 
 
 
