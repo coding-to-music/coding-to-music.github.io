@@ -122,7 +122,7 @@ Werkzeug WSGI web application library
 
 
 Example of embedded YouTube video
------------------
+--------------------------------------
 
 This screencast will help you get started or you can
 :ref:`read our guide below </bareos/guides/intro/getting-started-with-sphinx:Quick start>`.
