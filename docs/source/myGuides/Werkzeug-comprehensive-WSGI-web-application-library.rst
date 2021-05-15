@@ -2,11 +2,11 @@
 
 
 .. meta::
-    :title lang=en: = Werkzeug WSGI web application library
+    :title lang=en: Werkzeug WSGI web application library
 
 
 .. meta::
-    :description lang=en: = Werkzeug WSGI web application library
+    :description lang=en: Werkzeug WSGI web application library
 
 
 .. meta::
@@ -42,35 +42,35 @@
 
 
 .. meta::
-    :ogp_site_url: = http://example.org/
+    :ogp_site_url: http://example.org/
 
 
 .. meta::
-    :ogp_image: = http://example.org/image.png
+    :ogp_image: http://example.org/image.png
 
 
 .. meta::
-    :ogp_description_length: = 300
+    :ogp_description_length: 300
 
 
 .. meta::
-    :ogp_type: = "article"
+    :ogp_type: "article"
 
 
 .. meta::
-    :modified_time: = May 13 2021
+    :modified_time: May 13 2021
 
 
 .. meta::
-    :published_time: = May 12 2021 
+    :published_time: May 12 2021 
 
 
 .. meta::
-    :headline lang=en: = Werkzeug WSGI web application library 
+    :headline lang=en: Werkzeug WSGI web application library 
 
 
 .. meta::
-    :article:section: = Technology
+    :article:section: Technology
 
 
 
