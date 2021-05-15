@@ -1,7 +1,9 @@
 :index:`\ <single: Werkzeug WSGI web application library>`\
 
 
-.. meta::
+
+.. code::
+
     :title lang=en: Werkzeug WSGI web application library
     :description lang=en: Get started writing technical documentation with Sphinx and publishing to Read the Docs.
     :description lang=en: Werkzeug WSGI Server / Gateway invokes callable object served by the WSGI Application / Framework
@@ -20,8 +22,6 @@
     :published_time: May 12 2021 
     :headline lang=en: Werkzeug WSGI web application library 
     :article:section: Technology
-
-.. code::
 
     # :ogp_article:tag=[Word1, word2, word3]
     # :ogp_custom_meta_tags: = [
