@@ -84,15 +84,10 @@
 
 
 
+
+
 Werkzeug WSGI web application library
 ======================================================================
-
-.. Note:: 
-    
-    | This page was:
-    | Created May 12 2021
-    | Updated May 13 2021
-    | Last Built |today|
 
 .. figure:: /assets/Software/WSGI-web-application-library.png
   :align: center
@@ -109,19 +104,6 @@ Werkzeug WSGI web application library
 .. contents::
     :local:
 
-
-
-Example of embedded YouTube video
---------------------------------------
-
-This screencast will help you get started or you can
-`read our guide below <https://pandemic-overview.readthedocs.io/en/latest/bareos/guides/intro/getting-started-with-sphinx>`_.
-
-.. raw:: html
-
-    <div style="text-align: center; margin-bottom: 2em;">
-    <iframe width="100%" height="350" src="https://www.youtube-nocookie.com/embed/oJsUvBQyHBs?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    </div>
 
 
 Werkzeug is a WSGI web application library
@@ -151,6 +133,30 @@ An interactive debugger that allows inspecting stack traces and source code in t
 Werkzeug doesn't enforce any dependencies. It is up to the developer to choose a template engine, database adapter, and even how to handle requests. It can be used to build all sorts of end user applications such as blogs, wikis, or bulletin boards.
 
 `Flask <https://www.palletsprojects.com/p/flask/>`_ wraps Werkzeug, using it to handle the details of WSGI while providing more structure and patterns for defining powerful applications.
+
+
+Example of embedded YouTube video
+--------------------------------------
+
+This screencast will help you get started or you can
+`read our guide below <https://pandemic-overview.readthedocs.io/en/latest/bareos/guides/intro/getting-started-with-sphinx>`_.
+
+.. raw:: html
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <iframe width="100%" height="350" src="https://www.youtube-nocookie.com/embed/oJsUvBQyHBs?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+
+
+
+
+.. Note:: 
+    
+    | This page was:
+    | Created May 12 2021
+    | Updated May 13 2021
+    | Last Built |today|
+
 
 
 Last change: |today|
