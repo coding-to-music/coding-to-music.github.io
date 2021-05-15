@@ -121,8 +121,21 @@ issues_github_path = "source/bareos/bareos"
 # issues_pr_uri = "https://github.com/sloria/marshmallow/pull/{pr}"
 # issues_commit_uri = "https://github.com/sloria/marshmallow/commit/{commit}"
 
-# extensions = ['todo','sphinx.ext.todo']
+# Add sphinxext.delta to your extensions list in your conf.py
 
+# extensions = [
+#     sphinxext.delta,
+# ]
+# Options
+# There are 2 required and 1 optional configurations:
+
+# delta_doc_path
+# REQUIRED: Relative path to your articles. IE: source/docs
+delta_doc_path='source/docs'
+# delta_inject_location
+# OPTIONAL: Relative location for the toctree to be injected. Defaults to master_doc.
+
+# extensions = ['todo','sphinx.ext.todo']
 # extensions = [
 #     'todo',
 #     'sphinx_tabs.tabs',
@@ -147,6 +160,7 @@ extensions = [
     "sphinxcontrib.seqdiag",
     "sphinx_issues",
     'sphinx-prompt',
+    'sphinxext.delta',
     "sphinxext.opengraph",
     'sphinxcontrib.images',
     'sphinx_tabs.tabs',

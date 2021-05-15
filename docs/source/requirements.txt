@@ -5,6 +5,7 @@ sphinx-gallery
 sphinx_issues
 sphinx-prompt
 sphinxext-opengraph
+sphinxext-delta,
 sphinxcontrib-images
 readthedocs-sphinx-ext
 sphinxcontrib-actdiag
