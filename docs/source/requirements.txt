@@ -6,7 +6,7 @@ sphinx_issues
 sphinx-prompt
 sphinxext-opengraph
 sphinxcontrib-images
-readthedocs-sphinx-ext<2.2
+readthedocs-sphinx-ext
 sphinxcontrib-actdiag
 sphinxcontrib-blockdiag
 sphinxcontrib-nwdiag

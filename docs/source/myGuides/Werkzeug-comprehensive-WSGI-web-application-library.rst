@@ -79,19 +79,19 @@
 :ogp_article:tag=[Word1, word2, word3]
 
 
-:ogp_custom_meta_tags: = [
-    'MetaTag1',
-    'MetaTag2',
-    'MetaTag3',
-    'MetaTag4',
-    ]
+# :ogp_custom_meta_tags: = [
+#     'MetaTag1',
+#     'MetaTag2',
+#     'MetaTag3',
+#     'MetaTag4',
+#     ]
 
 
 
-ogp_custom_meta_tags = [
-        '<meta property="og:ignore_canonical" content="true" />',
-        '<meta name="theme-color" content="#AC2B37" />',
-    ]
+# ogp_custom_meta_tags = [
+#         '<meta property="og:ignore_canonical" content="true" />',
+#         '<meta name="theme-color" content="#AC2B37" />',
+#     ]
 
 
 
