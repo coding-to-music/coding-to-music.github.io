@@ -25,6 +25,8 @@
 
 .. code::
 
+    ogp_image = "https://pandemic-overview.readthedocs.io/en/latest/_images/Coming_Attractions-780x683.jpg"
+
     <!-- HTML Meta Tags -->
     <title>Werkzeug WSGI web application library</title>
     <meta name="description" content=":title lang=en: Werkzeug WSGI web application library :description lang=en: Get started writing technical documentation with Sphinx and publishing to Read the Docs. :description lang=en: Werkzeug W...">
