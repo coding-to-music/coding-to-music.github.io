@@ -8,7 +8,7 @@ Making Sense of the Pandmic
 
     .. toctree::
         :maxdepth: 2
-        :caption: Contents:
+        
 
         /topics/Covid-Medical-Treatments/Covid-Medical-Treatments
         /topics/Bill-Gates-Memes/Bill-Gates-Memes
@@ -31,7 +31,6 @@ Making Sense of the Pandmic
 
     .. toctree::
         :maxdepth: 2
-        :caption: Contents:
 
         /topics/Covid-Medical-Treatments/Covid-Medical-Treatments
 
@@ -39,7 +38,6 @@ Making Sense of the Pandmic
 
     .. toctree::
         :maxdepth: 2
-        :caption: Contents:
 
         /topics/Bill-Gates-Memes/Bill-Gates-Memes
 
@@ -47,7 +45,7 @@ Making Sense of the Pandmic
 
     .. toctree::
         :maxdepth: 2
-        :caption: Contents:
+        
 
         /topics/topics
 
@@ -55,7 +53,7 @@ Making Sense of the Pandmic
 
     .. toctree::
         :maxdepth: 2
-        :caption: Contents:
+        
 
         /topics/Data-science-of-the-pandemic/Data-science-of-the-pandemic
 
@@ -63,7 +61,7 @@ Making Sense of the Pandmic
 
     .. toctree::
         :maxdepth: 2
-        :caption: Contents:
+        
 
         /topics/Vaccines/Vaccines    
 
@@ -71,7 +69,7 @@ Making Sense of the Pandmic
 
     .. toctree::
         :maxdepth: 2
-        :caption: Contents:
+        
 
         /topics/Masks/Masks
 
@@ -79,7 +77,7 @@ Making Sense of the Pandmic
 
     .. toctree::
         :maxdepth: 2
-        :caption: Contents:
+        
 
         /topics/Lockdowns/Lockdowns
 
@@ -87,7 +85,7 @@ Making Sense of the Pandmic
 
     .. toctree::
         :maxdepth: 2
-        :caption: Contents:
+        
 
         /topics/Origins-of-the-Virus/Origins-of-the-Virus
 
@@ -95,7 +93,7 @@ Making Sense of the Pandmic
 
     .. toctree::
         :maxdepth: 2
-        :caption: Contents:
+        
 
         /topics/Pandemic-Preparedness/Pandemic-Preparedness
 
@@ -103,7 +101,7 @@ Making Sense of the Pandmic
 
     .. toctree::
         :maxdepth: 2
-        :caption: Contents:
+        
 
         /topics/Pandemic-Participants/Pandemic-Participants
 
@@ -111,7 +109,7 @@ Making Sense of the Pandmic
 
     .. toctree::
         :maxdepth: 2
-        :caption: Contents:
+        
 
         /topics/Food-Safety/Food-Safety
 
@@ -119,7 +117,7 @@ Making Sense of the Pandmic
 
     .. toctree::
         :maxdepth: 2
-        :caption: Contents:
+        
 
         /topics/Municipal-Matters/Municipal-Matters
 
@@ -127,7 +125,7 @@ Making Sense of the Pandmic
 
     .. toctree::
         :maxdepth: 2
-        :caption: Contents:
+        
 
         /How-you-can-help/How-you-can-help
 
