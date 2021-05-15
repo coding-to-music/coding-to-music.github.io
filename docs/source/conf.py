@@ -162,7 +162,7 @@ extensions = [
     "sphinx_issues",
     'sphinx-prompt',
     'sphinxext.delta',
-    "sphinxext.opengraph",
+    "sphinxext-opengraph2",
     'sphinxcontrib.images',
     'sphinx_tabs.tabs',
     "sphinx.ext.autodoc",  # Core Sphinx library for auto html doc generation from docstrings
