@@ -20,6 +20,7 @@ sys.path.insert(0, os.path.abspath('../..'))
 sys.path.append(os.path.abspath("./_ext"))
 sys.path.insert(0, os.path.abspath("../../../python-source/bareos/"))
 sys.path.insert(0, os.path.abspath("./_extensions"))
+sys.path.insert(0, os.path.abspath("./_ext"))
 # import sphinx_gallery
 
 from sphinx_gallery.sorting import ExplicitOrder  
