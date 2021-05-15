@@ -2,6 +2,14 @@
 
 
 .. meta::
+    :title lang=en: = Werkzeug WSGI web application library
+
+
+.. meta::
+    :description lang=en: = Werkzeug WSGI web application library
+
+
+.. meta::
     :description lang=en: DESCRIPTIONWerkzeug WSGI Server / Gateway invokes callable object served by the WSGI Application / Framework
 
 
@@ -58,19 +66,11 @@
 
 
 .. meta::
-    :title lang=en: = Werkzeug WSGI web application library
+    :headline lang=en: = Werkzeug WSGI web application library 
 
 
 .. meta::
-    :description lang=en: = Werkzeug WSGI web application library
-
-
-.. meta::
-    :headline lang=en:=Werkzeug WSGI web application library 
-
-
-.. meta::
-    :article:section:=Technology
+    :article:section: = Technology
 
 
 
