@@ -6,11 +6,11 @@
 
 
 .. meta::
-    :description lang=en: Werkzeug WSGI web application library
+   :description lang=en: Get started writing technical documentation with Sphinx and publishing to Read the Docs.
 
 
 .. meta::
-    :description lang=en: DESCRIPTIONWerkzeug WSGI Server / Gateway invokes callable object served by the WSGI Application / Framework
+    :description lang=en: Werkzeug WSGI Server / Gateway invokes callable object served by the WSGI Application / Framework
 
 
 .. meta::
@@ -119,6 +119,19 @@ Werkzeug WSGI web application library
    
 .. contents::
     :local:
+
+
+Example of embedded YouTube video
+-----------------
+
+This screencast will help you get started or you can
+:ref:`read our guide below </bareos/guides/intro/getting-started-with-sphinx:Quick start>`.
+
+.. raw:: html
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <iframe width="100%" height="350" src="https://www.youtube-nocookie.com/embed/oJsUvBQyHBs?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
 
 
 Werkzeug is a WSGI web application library
