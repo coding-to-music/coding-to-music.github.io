@@ -1,9 +1,51 @@
 :index:`\ <single: Werkzeug WSGI web application library>`\
 
 
+<!-- HTML Meta Tags -->
+<title>Werkzeug WSGI web application library</title>
+<meta name="description" content=":title lang=en: Werkzeug WSGI web application library :description lang=en: Get started writing technical documentation with Sphinx and publishing to Read the Docs. :description lang=en: Werkzeug W...">
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://pandemic-overview.readthedocs.io/en/latest/myGuides/Werkzeug-comprehensive-WSGI-web-application-library.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Werkzeug WSGI web application library">
+<meta property="og:description" content=":title lang=en: Werkzeug WSGI web application library :description lang=en: Get started writing technical documentation with Sphinx and publishing to Read the Docs. :description lang=en: Werkzeug W...">
+<meta property="og:image" content="../_images/WSGI-web-application-library.png">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:domain" content="pandemic-overview.readthedocs.io">
+<meta property="twitter:url" content="https://pandemic-overview.readthedocs.io/en/latest/myGuides/Werkzeug-comprehensive-WSGI-web-application-library.html">
+<meta name="twitter:title" content="Werkzeug WSGI web application library">
+<meta name="twitter:description" content=":title lang=en: Werkzeug WSGI web application library :description lang=en: Get started writing technical documentation with Sphinx and publishing to Read the Docs. :description lang=en: Werkzeug W...">
+<meta name="twitter:image" content="../_images/WSGI-web-application-library.png">
+
+<!-- Meta Tags Generated via https://www.opengraph.xyz -->
+      
 
 .. code::
 
+    <!-- HTML Meta Tags -->
+    <title>Werkzeug WSGI web application library</title>
+    <meta name="description" content=":title lang=en: Werkzeug WSGI web application library :description lang=en: Get started writing technical documentation with Sphinx and publishing to Read the Docs. :description lang=en: Werkzeug W...">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://pandemic-overview.readthedocs.io/en/latest/myGuides/Werkzeug-comprehensive-WSGI-web-application-library.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Werkzeug WSGI web application library">
+    <meta property="og:description" content=":title lang=en: Werkzeug WSGI web application library :description lang=en: Get started writing technical documentation with Sphinx and publishing to Read the Docs. :description lang=en: Werkzeug W...">
+    <meta property="og:image" content="../_images/WSGI-web-application-library.png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="pandemic-overview.readthedocs.io">
+    <meta property="twitter:url" content="https://pandemic-overview.readthedocs.io/en/latest/myGuides/Werkzeug-comprehensive-WSGI-web-application-library.html">
+    <meta name="twitter:title" content="Werkzeug WSGI web application library">
+    <meta name="twitter:description" content=":title lang=en: Werkzeug WSGI web application library :description lang=en: Get started writing technical documentation with Sphinx and publishing to Read the Docs. :description lang=en: Werkzeug W...">
+    <meta name="twitter:image" content="../_images/WSGI-web-application-library.png">
+
+    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+      
     :title lang=en: Werkzeug WSGI web application library
     :description lang=en: Get started writing technical documentation with Sphinx and publishing to Read the Docs.
     :description lang=en: Werkzeug WSGI Server / Gateway invokes callable object served by the WSGI Application / Framework
@@ -71,7 +113,7 @@ Example of embedded YouTube video
 --------------------------------------
 
 This screencast will help you get started or you can
-:ref:`read our guide below </bareos/guides/intro/getting-started-with-sphinx:Quick start>`.
+`read our guide below <https://pandemic-overview.readthedocs.io/en/latest/bareos/guides/intro/getting-started-with-sphinx>`_.
 
 .. raw:: html
 
