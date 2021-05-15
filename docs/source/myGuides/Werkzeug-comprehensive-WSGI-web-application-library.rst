@@ -76,7 +76,7 @@
 
 
 
-:ogp_article:tag=[Word1, word2, word3]
+# :ogp_article:tag=[Word1, word2, word3]
 
 
 # :ogp_custom_meta_tags: = [
