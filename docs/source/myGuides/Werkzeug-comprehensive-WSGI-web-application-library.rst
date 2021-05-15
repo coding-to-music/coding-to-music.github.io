@@ -54,7 +54,7 @@
 
 
 .. meta::
-    :ogp_type: "article"
+    :ogp_type: article
 
 
 .. meta::
