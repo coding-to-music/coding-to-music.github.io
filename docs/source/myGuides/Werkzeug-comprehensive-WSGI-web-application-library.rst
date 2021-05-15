@@ -58,11 +58,11 @@
 
 
 .. meta::
-    :modified_time = May 13 2021
+    :modified_time: = May 13 2021
 
 
 .. meta::
-    :published_time = May 12 2021 
+    :published_time: = May 12 2021 
 
 
 .. meta::
@@ -91,7 +91,7 @@
 ogp_custom_meta_tags = [
         '<meta property="og:ignore_canonical" content="true" />',
         '<meta name="theme-color" content="#AC2B37" />',
-]
+    ]
 
 
 
