@@ -4,7 +4,6 @@ sphinx-tabs
 sphinx-gallery
 sphinx_issues
 sphinx-prompt
-sphinxext-delta,
 sphinxcontrib-images
 readthedocs-sphinx-ext
 sphinxcontrib-actdiag

@@ -132,7 +132,7 @@ issues_github_path = "source/bareos/bareos"
 
 # delta_doc_path
 # REQUIRED: Relative path to your articles. IE: source/docs
-delta_doc_path='source/docs'
+# delta_doc_path='source/docs'
 # delta_inject_location
 # OPTIONAL: Relative location for the toctree to be injected. Defaults to master_doc.
 
@@ -148,6 +148,8 @@ delta_doc_path='source/docs'
 #     'sphinx.ext.autodoc'] 
 #     "crate.sphinx.csv",  # create filters on CSV files to include exclude rows
 #     "bareos-ext",
+#     'sphinxext-delta',
+#     "sphinxext-opengraph2",
 
 
 extensions = [
@@ -161,8 +163,6 @@ extensions = [
     "sphinxcontrib.seqdiag",
     "sphinx_issues",
     'sphinx-prompt',
-    'sphinxext.delta',
-    "sphinxext-opengraph2",
     'sphinxcontrib.images',
     'sphinx_tabs.tabs',
     "sphinx.ext.autodoc",  # Core Sphinx library for auto html doc generation from docstrings

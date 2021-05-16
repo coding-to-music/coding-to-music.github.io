@@ -23,7 +23,6 @@ And get more of the good
 
 
 
---------
  Images
 --------
 
