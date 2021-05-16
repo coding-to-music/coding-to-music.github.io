@@ -5,12 +5,19 @@
     :keywords: werkzeug German noun: "tool". Etymology: werk ("work"), zeug ("stuff")
     :title: Werkzeug WSGI web application library
     :headline lang=en: HEADLINEWerkzeug WSGI web application library
-    :image lang=en: https://pandemic-overview.readthedocs.io/en/latest/_images/WSGI-web-application-library.png
+    :image: https://pandemic-overview.readthedocs.io/en/latest/_images/WSGI-web-application-library.png
     :author lang=en: Thomas Connors
     :publisher lang=en: all-knowledge.info
     :datePublished lang=en: May 12 2021
     :dateModified lang=en: May 14 2021
     :mainEntityOfPage lang=en: https://pandemic-overview.readthedocs.io/en/latest/myGuides/Werkzeug-comprehensive-WSGI-web-application-library.html
+    :twitter:site: all-knowledge.info
+    :twitter:card: summary_large_image
+    :twitter:url: https://pandemic-overview.readthedocs.io/en/latest/myGuides/Werkzeug-comprehensive-WSGI-web-application-library.html
+    :twitter:title: Werkzeug WSGI web application library
+    :twitter:description: Werkzeug is a comprehensive WSGI web application library. It began as a simple collection of various utilities for WSGI applications and has become one of the most advanced WSGI utility libraries.
+    :twitter:image: https://pandemic-overview.readthedocs.io/en/latest/_images/WSGI-web-application-library.png
+
 
 
 Werkzeug WSGI web application library
@@ -114,11 +121,19 @@ This screencast will help you get started or you can
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta property="twitter:domain" content="pandemic-overview.readthedocs.io">
+    <meta name="twitter:site" content="@ThomasConnors">
     <meta property="twitter:url" content="https://pandemic-overview.readthedocs.io/en/latest/myGuides/Werkzeug-comprehensive-WSGI-web-application-library.html">
-    <meta name="twitter:title" content="Werkzeug WSGI web application library">
     <meta name="twitter:description" content=":title lang=en: Werkzeug WSGI web application library :description lang=en: Get started writing technical documentation with Sphinx and publishing to Read the Docs. :description lang=en: Werkzeug W...">
     <meta name="twitter:image" content="../_images/WSGI-web-application-library.png">
+
+    <!-- OpenGraph Meta Tags -->
+    <meta name="og:site_name" content="all-knowledge.info">
+    :ogp_type: article
+    <meta property="og:url" content="https://pandemic-overview.readthedocs.io/en/latest/myGuides/Werkzeug-comprehensive-WSGI-web-application-library.html">
+
+
+    <meta name="twitter:title" content="Werkzeug WSGI web application library">
+    <meta property="twitter:domain" content="pandemic-overview.readthedocs.io">
 
     <!-- Meta Tags Generated via https://www.opengraph.xyz -->
       
