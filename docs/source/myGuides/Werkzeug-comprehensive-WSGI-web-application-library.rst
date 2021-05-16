@@ -4,7 +4,7 @@
     :description: Werkzeug is a comprehensive WSGI web application library. It began as a simple collection of various utilities for WSGI applications and has become one of the most advanced WSGI utility libraries.
     :keywords: werkzeug German noun: "tool". Etymology: werk ("work"), zeug ("stuff")
     :title: Werkzeug WSGI web application library
-    :headline lang=en: HEADLINEWerkzeug WSGI web application library
+    :headline lang=en: Werkzeug WSGI web application library
     :image: https://pandemic-overview.readthedocs.io/en/latest/_images/WSGI-web-application-library.png
     :author lang=en: Thomas Connors
     :publisher lang=en: all-knowledge.info
@@ -17,7 +17,11 @@
     :twitter:title: Werkzeug WSGI web application library
     :twitter:description: Werkzeug is a comprehensive WSGI web application library. It began as a simple collection of various utilities for WSGI applications and has become one of the most advanced WSGI utility libraries.
     :twitter:image: https://pandemic-overview.readthedocs.io/en/latest/_images/WSGI-web-application-library.png
-
+    :og:site_name: all-knowledge.info
+    :og:type: article
+    :og:url: https://pandemic-overview.readthedocs.io/en/latest/myGuides/Werkzeug-comprehensive-WSGI-web-application-library.html
+    :og:title: Werkzeug WSGI web application library
+    :og:image: https://pandemic-overview.readthedocs.io/en/latest/_images/WSGI-web-application-library.png
 
 
 Werkzeug WSGI web application library
@@ -136,47 +140,6 @@ This screencast will help you get started or you can
     <meta property="twitter:domain" content="pandemic-overview.readthedocs.io">
 
     <!-- Meta Tags Generated via https://www.opengraph.xyz -->
-      
-    :title lang=en: Werkzeug WSGI web application library
-    :description lang=en: Get started writing technical documentation with Sphinx and publishing to Read the Docs.
-    :description lang=en: Werkzeug WSGI Server / Gateway invokes callable object served by the WSGI Application / Framework
-    :headline lang=en: HEADLINEWerkzeug WSGI web application library
-    :image lang=en: https://pandemic-overview.readthedocs.io/en/latest/_images/WSGI-web-application-library.png
-    :author lang=en: Thomas Connors
-    :publisher lang=en: all-knowledge.info
-    :datePublished lang=en: May 12 2021
-    :dateModified lang=en: May 14 2021
-    :mainEntityOfPage lang=en: https://pandemic-overview.readthedocs.io/en/latest/myGuides/Werkzeug-comprehensive-WSGI-web-application-library.html
-    :ogp_site_url: http://example.org/
-    :ogp_image: http://example.org/image.png
-    :ogp_description_length: 300
-    :ogp_type: article
-    :modified_time: May 13 2021
-    :published_time: May 12 2021 
-    :headline lang=en: Werkzeug WSGI web application library 
-    :article:section: Technology
-
-    # :ogp_article:tag=[Word1, word2, word3]
-    # :ogp_custom_meta_tags: = [
-    #     'MetaTag1',
-    #     'MetaTag2',
-    #     'MetaTag3',
-    #     'MetaTag4',
-    #     ]
-
-
-
-    # ogp_custom_meta_tags = [
-    #         '<meta property="og:ignore_canonical" content="true" />',
-    #         '<meta name="theme-color" content="#AC2B37" />',
-    #     ]
-
-
-
-
-
-
-
 
 
 .. Note:: 
