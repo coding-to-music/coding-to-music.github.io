@@ -1,8 +1,8 @@
 :index:`\ <single: Werkzeug WSGI web application library>`\
 
 .. meta::
-   :description: Modules Documentation of PyPresseportal - Python wrapper for the Presseportal API
-   :keywords: Presseportal, News Aktuell, DPA, press release, investor relations
+   :description: Werkzeug is a comprehensive WSGI web application library. It began as a simple collection of various utilities for WSGI applications and has become one of the most advanced WSGI utility libraries.
+   :keywords: werkzeug German noun: "tool". Etymology: werk ("work"), zeug ("stuff")
 
 
 Werkzeug WSGI web application library
