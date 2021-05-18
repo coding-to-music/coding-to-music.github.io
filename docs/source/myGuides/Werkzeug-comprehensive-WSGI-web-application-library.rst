@@ -86,14 +86,68 @@ This screencast will help you get started or you can
     </div>
 
 
-Example of embedded GitHub Project Issue Kanban board 
-----------------------------------------------------------
+Example of embedded GitHub Project Issue Kanban board - for this project
+---------------------------------------------------------------------------
 
 .. raw:: html
 
     <div style="text-align: center; margin-bottom: 2em;">
     <iframe width="100%" height="350" src="https://github.com/coding-to-music/coding-to-music.github.io/projects/1?fullscreen=true" frameborder="0" allowfullscreen></iframe>
     </div>
+
+
+How to insert a javascript in a single Sphinx page?
+------------------------------------------------------
+
+.. raw:: html
+
+    <script>
+    function myFunction() {
+     alert("I am an alert box!");
+    }
+    </script>
+
+
+<button onclick="myFunction()">Try it</button>
+
+How can i insert html and css and javascript both in a sphinx's reStructuredText file ?
+----------------------------------------------------------------------------------------------
+
+The html content:
+
+https://cloudstack.ninja/showkey/how-to-embed-html-and-css-and-javascript-in-sphinxs-restructuredtext-file/
+
+.. code-block:: 
+
+    <div id="mytest">test</div>
+
+
+The css content:
+
+.. code-block:: 
+
+    <style type='text/css'>
+    #mytest{
+        border:1px solid red;
+        height:80px;
+        width:80px;
+    }
+    </style>
+
+The javascript content:
+
+.. code-block:: 
+
+    <script type='text/javascript'>
+    var ob = document.getElementById('mytest');
+    ob.onmouseover = function(){
+        this.innerHTML = 'text in box changed';
+    } 
+    </script>
+
+
+
+
 
 
 .. Note:: 
