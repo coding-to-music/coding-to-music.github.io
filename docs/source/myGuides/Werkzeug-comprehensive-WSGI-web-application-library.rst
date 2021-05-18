@@ -86,8 +86,8 @@ This screencast will help you get started or you can
     </div>
 
 
-Example of embedded GitHub Project Issue Kanban board - for this project
----------------------------------------------------------------------------
+Example of embedded GitHub Project Issue Kanban board - for this project (does not work)
+----------------------------------------------------------------------------------------------
 
 .. raw:: html
 
@@ -96,7 +96,7 @@ Example of embedded GitHub Project Issue Kanban board - for this project
     </div>
 
 
-Example of embedded Twitter page (not working)
+Example of embedded Twitter page (does not work)
 ---------------------------------------------------------------------------
 
 .. raw:: html
@@ -105,7 +105,7 @@ Example of embedded Twitter page (not working)
     <iframe width="100%" height="350" src="https://twitter.com" frameborder="0" allowfullscreen></iframe>
     </div>
 
-Example of embedded Facebook photo
+Example of embedded Facebook photo (does not work)
 ---------------------------------------------------------------------------
 
 .. raw:: html
@@ -114,7 +114,7 @@ Example of embedded Facebook photo
     <iframe width="100%" height="350" src="https://www.facebook.com/photo/?fbid=259355012646906&set=gm.543252166842990" frameborder="0" allowfullscreen></iframe>
     </div>
 
-Example of embedded CNN
+Example of embedded CNN (does not work)
 ---------------------------------------------------------------------------
 
 .. raw:: html
@@ -124,10 +124,25 @@ Example of embedded CNN
     </div>
 
 
+An embedded HTML page using embed and drudgereport:
+
+.. raw:: html
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <embed type="text/html" src="https://drudgereport.com" width="500" height="200">
+    </div>
 
 
+An embedded HTML page using object and drudgereport:
 
-Example of embedded other website using iframe
+.. raw:: html
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <object data="https://drudgereport.com" width="500" height="200"></object>
+    </div>
+
+
+Example of embedded other website drudgereport using iframe
 ---------------------------------------------------------------------------
 
 .. raw:: html
