@@ -96,6 +96,26 @@ Example of embedded GitHub Project Issue Kanban board - for this project
     </div>
 
 
+Example of embedded Twitter page
+---------------------------------------------------------------------------
+
+.. raw:: html
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <iframe width="100%" height="350" src="https://twitter.com" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+
+Example of embedded other website
+---------------------------------------------------------------------------
+
+.. raw:: html
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <iframe width="100%" height="350" src="https://drudgereport.com" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+
 How to insert a javascript in a single Sphinx page?
 ------------------------------------------------------
 
