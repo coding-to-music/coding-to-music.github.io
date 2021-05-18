@@ -92,7 +92,7 @@ Example of embedded GitHub Project Issue Kanban board
 .. raw:: html
 
     <div style="text-align: center; margin-bottom: 2em;">
-    <iframe width="100%" height="350" src="https://github.com/coding-to-music/coding-to-music.github.io/projects/1?fullscreen=true" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe width="100%" height="350" src="https://github.com/coding-to-music/coding-to-music.github.io/projects/1?fullscreen=true" frameborder="0" allowfullscreen></iframe>
     </div>
 
 
