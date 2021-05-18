@@ -86,60 +86,14 @@ This screencast will help you get started or you can
     </div>
 
 
-<!-- HTML Meta Tags -->
-<title>Werkzeug WSGI web application library</title>
-<meta name="description" content=":title lang=en: Werkzeug WSGI web application library :description lang=en: Get started writing technical documentation with Sphinx and publishing to Read the Docs. :description lang=en: Werkzeug W...">
+Example of embedded GitHub Project Issue Kanban board 
+----------------------------------------------------------
 
-<!-- Facebook Meta Tags -->
-<meta property="og:url" content="https://pandemic-overview.readthedocs.io/en/latest/myGuides/Werkzeug-comprehensive-WSGI-web-application-library.html">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Werkzeug WSGI web application library">
-<meta property="og:description" content=":title lang=en: Werkzeug WSGI web application library :description lang=en: Get started writing technical documentation with Sphinx and publishing to Read the Docs. :description lang=en: Werkzeug W...">
-<meta property="og:image" content="../_images/WSGI-web-application-library.png">
+.. raw:: html
 
-<!-- Twitter Meta Tags -->
-<meta name="twitter:card" content="summary_large_image">
-<meta property="twitter:domain" content="pandemic-overview.readthedocs.io">
-<meta property="twitter:url" content="https://pandemic-overview.readthedocs.io/en/latest/myGuides/Werkzeug-comprehensive-WSGI-web-application-library.html">
-<meta name="twitter:title" content="Werkzeug WSGI web application library">
-<meta name="twitter:description" content=":title lang=en: Werkzeug WSGI web application library :description lang=en: Get started writing technical documentation with Sphinx and publishing to Read the Docs. :description lang=en: Werkzeug W...">
-<meta name="twitter:image" content="../_images/WSGI-web-application-library.png">
-
-<!-- Meta Tags Generated via https://www.opengraph.xyz -->
-      
-
-.. code::
-
-    ogp_image = "https://pandemic-overview.readthedocs.io/en/latest/_images/Coming_Attractions-780x683.jpg"
-
-    <!-- HTML Meta Tags -->
-    <title>Werkzeug WSGI web application library</title>
-    <meta name="description" content=":title lang=en: Werkzeug WSGI web application library :description lang=en: Get started writing technical documentation with Sphinx and publishing to Read the Docs. :description lang=en: Werkzeug W...">
-
-    <!-- Facebook Meta Tags -->
-    <meta property="og:url" content="https://pandemic-overview.readthedocs.io/en/latest/myGuides/Werkzeug-comprehensive-WSGI-web-application-library.html">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Werkzeug WSGI web application library">
-    <meta property="og:description" content=":title lang=en: Werkzeug WSGI web application library :description lang=en: Get started writing technical documentation with Sphinx and publishing to Read the Docs. :description lang=en: Werkzeug W...">
-    <meta property="og:image" content="../_images/WSGI-web-application-library.png">
-
-    <!-- Twitter Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@ThomasConnors">
-    <meta property="twitter:url" content="https://pandemic-overview.readthedocs.io/en/latest/myGuides/Werkzeug-comprehensive-WSGI-web-application-library.html">
-    <meta name="twitter:description" content=":title lang=en: Werkzeug WSGI web application library :description lang=en: Get started writing technical documentation with Sphinx and publishing to Read the Docs. :description lang=en: Werkzeug W...">
-    <meta name="twitter:image" content="../_images/WSGI-web-application-library.png">
-
-    <!-- OpenGraph Meta Tags -->
-    <meta name="og:site_name" content="all-knowledge.info">
-    :ogp_type: article
-    <meta property="og:url" content="https://pandemic-overview.readthedocs.io/en/latest/myGuides/Werkzeug-comprehensive-WSGI-web-application-library.html">
-
-
-    <meta name="twitter:title" content="Werkzeug WSGI web application library">
-    <meta property="twitter:domain" content="pandemic-overview.readthedocs.io">
-
-    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+    <div style="text-align: center; margin-bottom: 2em;">
+    <iframe width="100%" height="350" src="https://github.com/coding-to-music/coding-to-music.github.io/projects/1?fullscreen=true" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
 
 
 .. Note:: 
