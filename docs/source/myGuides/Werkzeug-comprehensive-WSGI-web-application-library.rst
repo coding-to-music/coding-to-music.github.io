@@ -114,13 +114,13 @@ Example of embedded Facebook photo (does not work)
     <iframe width="100%" height="350" src="https://www.facebook.com/photo/?fbid=259355012646906&set=gm.543252166842990" frameborder="0" allowfullscreen></iframe>
     </div>
 
-Example of embedded CNN (does not work)
+Example of embedded GIF hosted elsewhere
 ---------------------------------------------------------------------------
 
 .. raw:: html
 
     <div style="text-align: center; margin-bottom: 2em;">
-    <iframe width="100%" height="350" src="https://www.cnn.com/" frameborder="0" allowfullscreen></iframe>
+    <iframe width="100%" height="350" src="https://i1.wp.com/techcrunch.com/wp-content/uploads/2021/05/starline-gif.gif?ssl=1" frameborder="0" allowfullscreen></iframe>
     </div>
 
 
