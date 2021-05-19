@@ -123,13 +123,15 @@ https://pandemic-overview.readthedocs.io/en/latest/_images/spars-pandemic-scenar
 
 .. raw:: html
 
-    <object data="SPARS Pandemic scenario book (PDF) October 23 2017" type="application/pdf"
+    <div style="text-align: center; margin-bottom: 2em;">
+    <object data="spars-pandemic-scenario.pdf" type="application/pdf"
             width="800" height="1200">
     <p>You don't have a PDF plugin, but you can
-        <a href="https://pandemic-overview.readthedocs.io/en/latest/_images/spars-pandemic-scenario.pdf">download the PDF file.
+        <a href="spars-pandemic-scenario.pdf">download the PDF file.
         </a>
     </p>
     </object>
+    </div>
 
 How to insert a javascript in a single Sphinx page and create an alert box? (does not work) 
 ----------------------------------------------------------------------------------------------
@@ -138,11 +140,13 @@ https://stackoverflow.com/questions/59098032/how-to-insert-a-javascript-in-a-sin
 
 .. raw:: html
 
+    <div style="text-align: center; margin-bottom: 2em;">
     <script>
     function myFunction() {
      alert("I am an alert box!");
     }
     </script>
+    </div>
 
 
 Example of embedded Twitter page (does not work)
@@ -162,6 +166,7 @@ https://developers.google.com/youtube/player_parameters
 
 .. raw:: html
 
+    <div style="text-align: center; margin-bottom: 2em;">
     <div id="ytplayer"></div>
 
     <script>
@@ -182,8 +187,9 @@ https://developers.google.com/youtube/player_parameters
         });
     }
     </script>
+    </div>
 
-Example of embedded GIF hosted elsewhere
+Example of embedded GIF hosted elsewhere (need to scale or make fullscreen)
 ---------------------------------------------------------------------------
 
 .. raw:: html
@@ -236,11 +242,13 @@ How to insert a javascript in a single Sphinx page?
 
 .. raw:: html
 
+    <div style="text-align: center; margin-bottom: 2em;">
     <script>
     function myFunction() {
      alert("I am an alert box!");
     }
     </script>
+    </div>
 
 
 <button onclick="myFunction()">Try it</button>
@@ -279,8 +287,6 @@ The javascript content:
         this.innerHTML = 'text in box changed';
     } 
     </script>
-
-
 
 
 
