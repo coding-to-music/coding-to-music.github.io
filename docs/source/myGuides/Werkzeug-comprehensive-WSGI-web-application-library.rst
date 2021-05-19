@@ -73,11 +73,17 @@ Werkzeug doesn't enforce any dependencies. It is up to the developer to choose a
 `Flask <https://www.palletsprojects.com/p/flask/>`_ wraps Werkzeug, using it to handle the details of WSGI while providing more structure and patterns for defining powerful applications.
 
 
-Example of embedded YouTube video
---------------------------------------
+Example of embedded YouTube video (works)
+--------------------------------------------
 
 This screencast will help you get started or you can
 `read our guide below <https://pandemic-overview.readthedocs.io/en/latest/bareos/guides/intro/getting-started-with-sphinx>`_.
+
+.. code-block:: 
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <iframe width="100%" height="350" src="https://www.youtube-nocookie.com/embed/oJsUvBQyHBs?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
 
 .. raw:: html
 
@@ -86,15 +92,30 @@ This screencast will help you get started or you can
     </div>
 
 
-Example of embedded GitHub Project Issue Kanban board - for this project (does not work)
+Example of embedded GitHub Project Issue Kanban board - for this project (Need to do this)
 ----------------------------------------------------------------------------------------------
 
 Need to do this
 
 
 
-Use a large figure as a cover on a link but people may not know to click it to download the PDF
+Use a large figure as a cover on a link (but people may not know to click it to download the PDF)
 ---------------------------------------------------------------------------------------------------
+
+.. code-block:: 
+
+    .. figure:: /assets/2017-Spars-Pandemic-Tabletop-communications-exercise/171018-spars-pandemic-scenario-cover-page.jpg
+        :align: right
+        :width: 80 %
+        :target: /assets/2017-Spars-Pandemic-Tabletop-communications-exercise/spars-pandemic-scenario.pdf
+        :alt: SPARS Pandemic scenario book (PDF)
+
+        Self-guided tabletop training experience challenges public health communicators and risk communication researchers to consider the complex messaging dilemmas of a future outbreak that requires development of a new vaccine
+
+        Source `SPARS Pandemic scenario book (PDF) March 30 2021`_.
+
+        .. _SPARS Pandemic scenario book (PDF) March 30 2021: https://www.centerforhealthsecurity.org/our-work/pubs_archive/pubs-pdfs/2017/spars-pandemic-scenario.pdf
+
 
 .. figure:: /assets/2017-Spars-Pandemic-Tabletop-communications-exercise/171018-spars-pandemic-scenario-cover-page.jpg
   :align: right
@@ -111,7 +132,7 @@ Use a large figure as a cover on a link but people may not know to click it to d
 SPARS pandemic scenario book
 
 
-How to use an <object> object that embeds a PDF into a sphinx rst page 
+How to use an <object> object that embeds a PDF into a sphinx rst page (does not work)
 ----------------------------------------------------------------------------------------------
 
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies
@@ -120,6 +141,18 @@ https://pandemic-overview.readthedocs.io/en/latest/_images/171018-spars-pandemic
 
 https://pandemic-overview.readthedocs.io/en/latest/_images/spars-pandemic-scenario.pdf
 
+
+.. code-block:: 
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <object data="spars-pandemic-scenario.pdf" type="application/pdf"
+            width="800" height="1200">
+    <p>You don't have a PDF plugin, but you can
+        <a href="spars-pandemic-scenario.pdf">download the PDF file.
+        </a>
+    </p>
+    </object>
+    </div>
 
 .. raw:: html
 
@@ -138,6 +171,16 @@ How to insert a javascript in a single Sphinx page and create an alert box? (doe
 
 https://stackoverflow.com/questions/59098032/how-to-insert-a-javascript-in-a-single-sphinx-page
 
+.. code-block:: 
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <script>
+    function myFunction() {
+     alert("I am an alert box!");
+    }
+    </script>
+    </div>
+
 .. raw:: html
 
     <div style="text-align: center; margin-bottom: 2em;">
@@ -152,17 +195,48 @@ https://stackoverflow.com/questions/59098032/how-to-insert-a-javascript-in-a-sin
 Example of embedded Twitter page (does not work)
 ---------------------------------------------------------------------------
 
+.. code-block:: 
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <iframe width="100%" height="350" src="https://twitter.com" frameborder="0" allowfullscreen></iframe>
+    </div>
+
 .. raw:: html
 
     <div style="text-align: center; margin-bottom: 2em;">
     <iframe width="100%" height="350" src="https://twitter.com" frameborder="0" allowfullscreen></iframe>
     </div>
 
-Embed a player using the IFrame Player API
+Embed a player using the IFrame Player API (perfect)
 ---------------------------------------------------------------------------
 
 https://developers.google.com/youtube/player_parameters
 
+
+.. code-block:: 
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <div id="ytplayer"></div>
+
+    <script>
+    // Load the IFrame Player API code asynchronously.
+    var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/player_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    // Replace the 'ytplayer' element with an <iframe> and
+    // YouTube player after the API code downloads.
+    var player;
+    function onYouTubePlayerAPIReady() {
+        player = new YT.Player('ytplayer', {
+        height: '360',
+        width: '640',
+        videoId: 'M7lc1UVf-VE'
+        });
+    }
+    </script>
+    </div>
 
 .. raw:: html
 
@@ -192,6 +266,12 @@ https://developers.google.com/youtube/player_parameters
 Example of embedded GIF hosted elsewhere (need to scale or make fullscreen)
 ---------------------------------------------------------------------------
 
+.. code-block:: 
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <iframe width="100%" height="350" src="https://i1.wp.com/techcrunch.com/wp-content/uploads/2021/05/starline-gif.gif?ssl=1" frameborder="0" allowfullscreen></iframe>
+    </div>
+
 .. raw:: html
 
     <div style="text-align: center; margin-bottom: 2em;">
@@ -201,6 +281,12 @@ Example of embedded GIF hosted elsewhere (need to scale or make fullscreen)
 
 An embedded HTML page using embed and drudgereport:
 
+.. code-block:: 
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <embed type="text/html" src="https://drudgereport.com" width="500" height="200">
+    </div>
+
 .. raw:: html
 
     <div style="text-align: center; margin-bottom: 2em;">
@@ -209,6 +295,12 @@ An embedded HTML page using embed and drudgereport:
 
 
 An embedded HTML page using object and drudgereport:
+
+.. code-block:: 
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <object data="https://drudgereport.com" width="500" height="200"></object>
+    </div>
 
 .. raw:: html
 
@@ -220,6 +312,13 @@ An embedded HTML page using object and drudgereport:
 Example of embedded other website drudgereport using iframe
 ---------------------------------------------------------------------------
 
+.. code-block:: 
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <iframe width="100%" height="350" src="https://drudgereport.com" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+
 .. raw:: html
 
     <div style="text-align: center; margin-bottom: 2em;">
@@ -229,6 +328,13 @@ Example of embedded other website drudgereport using iframe
 
 Example of embedded other website
 ---------------------------------------------------------------------------
+
+.. code-block:: 
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <iframe width="100%" height="350" src="https://drudgereport.com" frameborder="0" allowfullscreen></iframe>
+    </div>
+
 
 .. raw:: html
 
@@ -240,6 +346,18 @@ Example of embedded other website
 How to insert a javascript in a single Sphinx page?
 ------------------------------------------------------
 
+.. code-block:: 
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <script>
+    function myFunction() {
+     alert("I am an alert box!");
+    }
+    </script>
+
+    <button onclick="myFunction()">Try it</button>
+    </div>
+
 .. raw:: html
 
     <div style="text-align: center; margin-bottom: 2em;">
@@ -248,10 +366,9 @@ How to insert a javascript in a single Sphinx page?
      alert("I am an alert box!");
     }
     </script>
+
+    <button onclick="myFunction()">Try it</button>
     </div>
-
-
-<button onclick="myFunction()">Try it</button>
 
 How can i insert html and css and javascript both in a sphinx's reStructuredText file ?
 ----------------------------------------------------------------------------------------------
