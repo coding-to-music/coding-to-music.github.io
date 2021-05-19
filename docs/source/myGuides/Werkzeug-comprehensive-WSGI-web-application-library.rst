@@ -89,11 +89,21 @@ This screencast will help you get started or you can
 Example of embedded GitHub Project Issue Kanban board - for this project (does not work)
 ----------------------------------------------------------------------------------------------
 
+Need to do this
+
+
+How to insert a javascript in a single Sphinx page and create an alert box? 
+----------------------------------------------------------------------------------------------
+
+https://stackoverflow.com/questions/59098032/how-to-insert-a-javascript-in-a-single-sphinx-page
+
 .. raw:: html
 
-    <div style="text-align: center; margin-bottom: 2em;">
-    <iframe width="100%" height="350" src="https://github.com/coding-to-music/coding-to-music.github.io/projects/1?fullscreen=true" frameborder="0" allowfullscreen></iframe>
-    </div>
+    <script>
+    function myFunction() {
+     alert("I am an alert box!");
+    }
+    </script>
 
 
 Example of embedded Twitter page (does not work)
