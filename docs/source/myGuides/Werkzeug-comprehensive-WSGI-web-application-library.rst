@@ -92,6 +92,25 @@ Example of embedded GitHub Project Issue Kanban board - for this project (does n
 Need to do this
 
 
+
+Use a large figure as a cover on a link but people may not know to click it to download the PDF
+---------------------------------------------------------------------------------------------------
+
+.. figure:: /assets/2017-Spars-Pandemic-Tabletop-communications-exercise/171018-spars-pandemic-scenario-cover-page.jpg
+  :align: right
+  :width: 80 %
+  :target: /assets/2017-Spars-Pandemic-Tabletop-communications-exercise/spars-pandemic-scenario.pdf
+  :alt: SPARS Pandemic scenario book (PDF)
+
+  Self-guided tabletop training experience challenges public health communicators and risk communication researchers to consider the complex messaging dilemmas of a future outbreak that requires development of a new vaccine
+
+  Source `SPARS Pandemic scenario book (PDF) March 30 2021`_.
+
+  .. _SPARS Pandemic scenario book (PDF) March 30 2021: https://www.centerforhealthsecurity.org/our-work/pubs_archive/pubs-pdfs/2017/spars-pandemic-scenario.pdf
+
+SPARS pandemic scenario book
+
+
 How to use an <object> object that embeds a PDF into a sphinx rst page 
 ----------------------------------------------------------------------------------------------
 
