@@ -105,14 +105,34 @@ Example of embedded Twitter page (does not work)
     <iframe width="100%" height="350" src="https://twitter.com" frameborder="0" allowfullscreen></iframe>
     </div>
 
-Example of embedded Facebook photo (does not work)
+Embed a player using the IFrame Player API
 ---------------------------------------------------------------------------
+
+https://developers.google.com/youtube/player_parameters
+
 
 .. raw:: html
 
-    <div style="text-align: center; margin-bottom: 2em;">
-    <iframe width="100%" height="350" src="https://www.facebook.com/photo/?fbid=259355012646906&set=gm.543252166842990" frameborder="0" allowfullscreen></iframe>
-    </div>
+    <div id="ytplayer"></div>
+
+    <script>
+    // Load the IFrame Player API code asynchronously.
+    var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/player_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    // Replace the 'ytplayer' element with an <iframe> and
+    // YouTube player after the API code downloads.
+    var player;
+    function onYouTubePlayerAPIReady() {
+        player = new YT.Player('ytplayer', {
+        height: '360',
+        width: '640',
+        videoId: 'M7lc1UVf-VE'
+        });
+    }
+    </script>
 
 Example of embedded GIF hosted elsewhere
 ---------------------------------------------------------------------------
