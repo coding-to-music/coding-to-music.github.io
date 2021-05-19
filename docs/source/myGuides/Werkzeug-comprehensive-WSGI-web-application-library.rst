@@ -92,7 +92,27 @@ Example of embedded GitHub Project Issue Kanban board - for this project (does n
 Need to do this
 
 
-How to insert a javascript in a single Sphinx page and create an alert box? 
+How to use an <object> object that embeds a PDF into a sphinx rst page 
+----------------------------------------------------------------------------------------------
+
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies
+
+https://pandemic-overview.readthedocs.io/en/latest/_images/171018-spars-pandemic-scenario-cover-page.jpg
+
+https://pandemic-overview.readthedocs.io/en/latest/_images/spars-pandemic-scenario.pdf
+
+
+.. raw:: html
+
+    <object data="SPARS Pandemic scenario book (PDF) October 23 2017" type="application/pdf"
+            width="800" height="1200">
+    <p>You don't have a PDF plugin, but you can
+        <a href="https://pandemic-overview.readthedocs.io/en/latest/_images/spars-pandemic-scenario.pdf">download the PDF file.
+        </a>
+    </p>
+    </object>
+
+How to insert a javascript in a single Sphinx page and create an alert box? (does not work) 
 ----------------------------------------------------------------------------------------------
 
 https://stackoverflow.com/questions/59098032/how-to-insert-a-javascript-in-a-single-sphinx-page
