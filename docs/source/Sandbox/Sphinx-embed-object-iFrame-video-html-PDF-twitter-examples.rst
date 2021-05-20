@@ -24,6 +24,9 @@
     :og:image: https://pandemic-overview.readthedocs.io/en/latest/_images/WSGI-web-application-library.png
 
 
+Sphinx embed object iFrame video html PDF Twitter examples
+======================================================================
+
 
 .. toctree::
    :maxdepth: 2
@@ -95,7 +98,7 @@ Use a large figure as a cover on a link (but people may not know to click it to 
 SPARS pandemic scenario book
 
 
-How to use an <object> object that embeds a PDF into a sphinx rst page (does not work)
+How to use an <object> object that embeds a PDF into a sphinx rst page
 ----------------------------------------------------------------------------------------------
 
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies
