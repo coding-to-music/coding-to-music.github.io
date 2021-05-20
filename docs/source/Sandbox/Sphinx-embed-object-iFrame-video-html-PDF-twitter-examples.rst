@@ -98,8 +98,8 @@ Use a large figure as a cover on a link (but people may not know to click it to 
 SPARS pandemic scenario book
 
 
-How to use an <object> object that embeds a PDF into a sphinx rst page
-----------------------------------------------------------------------------------------------
+How to use an <object> that embeds a PDF into a sphinx rst page as a link (works only as a link)
+-------------------------------------------------------------------------------------------------
 
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies
 
@@ -230,7 +230,7 @@ https://developers.google.com/youtube/player_parameters
     </div>
 
 Example of embedded GIF hosted elsewhere (need to scale or make fullscreen)
----------------------------------------------------------------------------
+------------------------------------------------------------------------------
 
 .. code-block:: 
 
@@ -245,7 +245,9 @@ Example of embedded GIF hosted elsewhere (need to scale or make fullscreen)
     </div>
 
 
-An embedded HTML page using embed and drudgereport:
+Example of sphinx page with embedded other website using "embed" (needs to scale properly)
+-----------------------------------------------------------------------------------------------
+
 
 .. code-block:: 
 
@@ -260,7 +262,9 @@ An embedded HTML page using embed and drudgereport:
     </div>
 
 
-An embedded HTML page using object and drudgereport:
+Example of sphinx page with embedded other website using "object" (needs to scale properly)
+-----------------------------------------------------------------------------------------------
+
 
 .. code-block:: 
 
@@ -275,8 +279,8 @@ An embedded HTML page using object and drudgereport:
     </div>
 
 
-Example of embedded other website drudgereport using iframe
----------------------------------------------------------------------------
+Example of sphinx page with embedded other website using "iframe" (needs to scale properly)
+-----------------------------------------------------------------------------------------------
 
 .. code-block:: 
 
@@ -292,8 +296,8 @@ Example of embedded other website drudgereport using iframe
     </div>
 
 
-Example of embedded other website
----------------------------------------------------------------------------
+Example 2 of sphinx page with embedded other website using "iframe" (needs to scale properly)
+-----------------------------------------------------------------------------------------------
 
 .. code-block:: 
 
@@ -309,8 +313,10 @@ Example of embedded other website
     </div>
 
 
-How to insert a javascript in a single Sphinx page?
-------------------------------------------------------
+
+Example of sphinx page with a javascript button onClick calling a function calling an alert box (works)
+-------------------------------------------------------------------------------------------------------------
+
 
 .. code-block:: 
 
@@ -336,8 +342,8 @@ How to insert a javascript in a single Sphinx page?
     <button onclick="myFunction()">Try it</button>
     </div>
 
-How can i insert html and css and javascript both in a sphinx's reStructuredText file ?
-----------------------------------------------------------------------------------------------
+How can i insert html and css and javascript both in a sphinx's reStructuredText file ? (does not work)
+-----------------------------------------------------------------------------------------------------------
 
 The html content:
 
