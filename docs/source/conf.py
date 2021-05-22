@@ -155,17 +155,18 @@ issues_github_path = "source/bareos/bareos"
 extensions = [
     'todo',
     "limitation",
-    'notfound.extension',
+    "sphinx_copybutton",
+    'sphinx_gallery.gen_gallery',
+    "sphinx_issues",
+    'sphinx-prompt',
+    'sphinx_tabs.tabs',
+    'sphinxcontrib.images',
     "sphinxcontrib.actdiag",
     "sphinxcontrib.blockdiag",
     "sphinxcontrib.contentui",
     "sphinxcontrib.nwdiag",
     "sphinxcontrib.plantuml",
     "sphinxcontrib.seqdiag",
-    "sphinx_issues",
-    'sphinx-prompt',
-    'sphinxcontrib.images',
-    'sphinx_tabs.tabs',
     "sphinx.ext.autodoc",  # Core Sphinx library for auto html doc generation from docstrings
     "sphinx.ext.autosectionlabel",
     "sphinx.ext.autosummary",  # Create neat summary tables for modules/classes/methods etc
@@ -173,8 +174,8 @@ extensions = [
     "sphinx.ext.intersphinx",  # Link to other project's documentation (see mapping below)
     "sphinx.ext.napoleon",
     "sphinx.ext.todo",
-    'sphinx_gallery.gen_gallery',
     "sphinx.ext.viewcode",  # Add a link to the Python source code for classes, functions etc.
+    'notfound.extension',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
