@@ -37,6 +37,22 @@ Sphinx embed object iFrame video html PDF Twitter examples
     :local:
 
 
+Docutils documentation - Raw Data Pass-Through - Raw Directive 
+-------------------------------------------------------------------
+
+https://docutils.sourceforge.io/docs/ref/rst/directives.html#raw-data-pass-through
+
+
+Fix key mapping issues - cannot paste larger clips when doing copy-paste in vscode - intermittently the past few months
+-------------------------------------------------------------------------------------------------------------------------------
+
+https://github.com/microsoft/vscode/wiki/Keybinding-Issues#troubleshoot-linux-keybindings
+
+
+Recommendation for key mapping issues in vscode - settings to adjust 
+----------------------------------------------------------------------
+
+"keyboard.dispatch": "keyCode"
 
 
 Example of embedded YouTube video (works)

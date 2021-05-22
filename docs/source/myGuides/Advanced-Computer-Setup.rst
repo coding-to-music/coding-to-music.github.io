@@ -16,10 +16,11 @@ Advanced Computer Setup and Topics
     /myGuides/How-to-install-python-on-debian
     /myGuides/Invenio-Software
     /myGuides/pip-package-installer-for-python
+    /myGuides/Sphinx-embed-object-iFrame-video-html-PDF-twitter-examples
     /myGuides/Sphinx-Gallery
     /myGuides/Sphinx-Jinja
     /myGuides/Sphinx-Templating
-    /myGuides/Werkzeug-comprehensive-WSGI-web-application-library.rst
+    /myGuides/Werkzeug-comprehensive-WSGI-web-application-library
     /myGuides/WSGI-is-the-Web-Server-Gateway-Interface.rst
     /myGuides/Zenodo
     /myGuides/Zotero

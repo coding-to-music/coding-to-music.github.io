@@ -2,9 +2,10 @@ Making Sense of the Pandmic
 =========================================
 
 
-.. tabs::
+.. content-tabs::
 
-   .. tab:: Home
+   .. tab-container:: Home
+    :title: Home
 
     .. toctree::
         :maxdepth: 2
@@ -27,21 +28,24 @@ Making Sense of the Pandmic
         License/license
         Help-about/help
 
-   .. tab:: Covid Medical Treatments
+   .. tab-container:: Covid Medical Treatments
+    :title: Covid Medical Treatments
 
     .. toctree::
         :maxdepth: 2
 
         /topics/Covid-Medical-Treatments/Covid-Medical-Treatments
 
-   .. tab:: Bill Gates Memes
+   .. tab-container:: Bill Gates Memes
+    :title: Bill Gates Memes
 
     .. toctree::
         :maxdepth: 2
 
         /topics/Bill-Gates-Memes/Bill-Gates-Memes
 
-   .. tab:: Topics
+   .. tab-container:: Topics
+    :title: Topics (Index)
 
     .. toctree::
         :maxdepth: 2
@@ -49,7 +53,8 @@ Making Sense of the Pandmic
 
         /topics/topics
 
-   .. tab:: Data Science of the Pandemic
+   .. tab-container:: Data Science of the Pandemic
+    :title: Data Science of the Pandemic
 
     .. toctree::
         :maxdepth: 2
@@ -57,7 +62,8 @@ Making Sense of the Pandmic
 
         /topics/Data-science-of-the-pandemic/Data-science-of-the-pandemic
 
-   .. tab:: Vaccines
+   .. tab-container:: Vaccines
+    :title: Vaccines
 
     .. toctree::
         :maxdepth: 2
@@ -65,7 +71,8 @@ Making Sense of the Pandmic
 
         /topics/Vaccines/Vaccines    
 
-   .. tab:: Masks
+   .. tab-container:: Masks
+    :title: Masks
 
     .. toctree::
         :maxdepth: 2
@@ -73,7 +80,8 @@ Making Sense of the Pandmic
 
         /topics/Masks/Masks
 
-   .. tab:: Lockdowns
+   .. tab-container:: Lockdowns
+    :title: Lockdowns
 
     .. toctree::
         :maxdepth: 2
@@ -81,7 +89,8 @@ Making Sense of the Pandmic
 
         /topics/Lockdowns/Lockdowns
 
-   .. tab:: Origins of the Virus
+   .. tab-container:: Origins of the Virus
+    :title: Origins of the Virus
 
     .. toctree::
         :maxdepth: 2
@@ -89,7 +98,8 @@ Making Sense of the Pandmic
 
         /topics/Origins-of-the-Virus/Origins-of-the-Virus
 
-   .. tab:: Pandemic Preparedness
+   .. tab-container:: Pandemic Preparedness
+    :title: Pandemic Preparedness
 
     .. toctree::
         :maxdepth: 2
@@ -97,7 +107,8 @@ Making Sense of the Pandmic
 
         /topics/Pandemic-Preparedness/Pandemic-Preparedness
 
-   .. tab:: Pandemic Participants
+   .. tab-container:: Pandemic Participants
+    :title: Pandemic Participants
 
     .. toctree::
         :maxdepth: 2
@@ -105,7 +116,8 @@ Making Sense of the Pandmic
 
         /topics/Pandemic-Participants/Pandemic-Participants
 
-   .. tab:: Food Safety
+   .. tab-container:: Food Safety
+    :title: Food Safety
 
     .. toctree::
         :maxdepth: 2
@@ -113,7 +125,8 @@ Making Sense of the Pandmic
 
         /topics/Food-Safety/Food-Safety
 
-   .. tab:: Municipal Issues and Topics
+   .. tab-container:: Municipal Issues and Topics
+    :title: Municipal Issues and Topics
 
     .. toctree::
         :maxdepth: 2
@@ -121,7 +134,8 @@ Making Sense of the Pandmic
 
         /topics/Municipal-Matters/Municipal-Matters
 
-   .. tab:: How you can help
+   .. tab-container:: How you can help
+    :title: How you can help
 
     .. toctree::
         :maxdepth: 2

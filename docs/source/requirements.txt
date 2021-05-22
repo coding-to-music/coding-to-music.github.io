@@ -7,6 +7,7 @@ sphinx-prompt
 sphinxcontrib-images
 readthedocs-sphinx-ext
 sphinxcontrib-actdiag
+sphinxcontrib-contentui
 sphinxcontrib-blockdiag
 sphinxcontrib-nwdiag
 sphinxcontrib-plantuml

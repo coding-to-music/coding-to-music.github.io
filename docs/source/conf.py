@@ -158,6 +158,7 @@ extensions = [
     'notfound.extension',
     "sphinxcontrib.actdiag",
     "sphinxcontrib.blockdiag",
+    "sphinxcontrib.contentui",
     "sphinxcontrib.nwdiag",
     "sphinxcontrib.plantuml",
     "sphinxcontrib.seqdiag",
