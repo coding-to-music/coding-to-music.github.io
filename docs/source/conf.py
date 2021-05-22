@@ -167,6 +167,7 @@ extensions = [
     "sphinxcontrib.nwdiag",
     "sphinxcontrib.plantuml",
     "sphinxcontrib.seqdiag",
+    "sphinxcontrib.twitter",
     "sphinx.ext.autodoc",  # Core Sphinx library for auto html doc generation from docstrings
     "sphinx.ext.autosectionlabel",
     "sphinx.ext.autosummary",  # Create neat summary tables for modules/classes/methods etc

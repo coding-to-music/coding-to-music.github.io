@@ -1,3 +1,4 @@
+setup.cfg
 setup.py
 sphinxcontrib/__init__.py
 sphinxcontrib.twitter.egg-info/PKG-INFO
