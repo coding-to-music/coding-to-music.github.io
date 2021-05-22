@@ -12,5 +12,6 @@ sphinxcontrib-blockdiag
 sphinxcontrib-contentui
 sphinxcontrib-nwdiag
 sphinxcontrib-plantuml
+sphinxext.rediraffe
 sphinxcontrib-seqdiag
 sphinx-notfound-page

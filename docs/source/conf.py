@@ -173,6 +173,7 @@ extensions = [
     "sphinx.ext.coverage",
     "sphinx.ext.intersphinx",  # Link to other project's documentation (see mapping below)
     "sphinx.ext.napoleon",
+    "sphinxext.rediraffe",
     "sphinx.ext.todo",
     "sphinx.ext.viewcode",  # Add a link to the Python source code for classes, functions etc.
     'notfound.extension',
