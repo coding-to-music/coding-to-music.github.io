@@ -14,5 +14,4 @@ sphinxcontrib-nwdiag
 sphinxcontrib-plantuml
 sphinxext.rediraffe
 sphinxcontrib-seqdiag
-sphinxcontrib.twitter
 sphinx-notfound-page
