@@ -1,4 +1,4 @@
-Making Sense of the Pandmic
+Making Sense of the Pandemic
 =========================================
 
 
