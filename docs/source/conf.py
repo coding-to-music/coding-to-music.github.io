@@ -153,32 +153,41 @@ issues_github_path = "source/bareos/bareos"
 
 
 extensions = [
-    'todo',
-    "limitation",
-    "sphinx_copybutton",
-    'sphinx_gallery.gen_gallery',
-    "sphinx_issues",
-    'sphinx-prompt',
-    'sphinx_tabs.tabs',
-    'sphinxcontrib.images',
-    "sphinxcontrib.actdiag",
-    "sphinxcontrib.blockdiag",
-    "sphinxcontrib.contentui",
-    "sphinxcontrib.nwdiag",
-    "sphinxcontrib.plantuml",
-    "sphinxcontrib.seqdiag",
-    "sphinxcontrib.twitter",
     "sphinx.ext.autodoc",  # Core Sphinx library for auto html doc generation from docstrings
     "sphinx.ext.autosectionlabel",
     "sphinx.ext.autosummary",  # Create neat summary tables for modules/classes/methods etc
+    "sphinxcontrib.actdiag",
+    "sphinxcontrib.blockdiag",
+    "sphinxcontrib.contentui",
+    "sphinx_copybutton",
     "sphinx.ext.coverage",
+    'sphinxcontrib.images',
+    "sphinx_issues",
+    'sphinx_gallery.gen_gallery',
+    "sphinx_gitstamp",
+    "sphinxcontrib.nwdiag",
+    "sphinxcontrib.plantuml",
+    'sphinx-prompt',
     "sphinx.ext.intersphinx",  # Link to other project's documentation (see mapping below)
     "sphinx.ext.napoleon",
-    "sphinxext.rediraffe",
-    "sphinx.ext.todo",
-    "sphinx.ext.viewcode",  # Add a link to the Python source code for classes, functions etc.
     'notfound.extension',
+    "sphinxext.rediraffe",
+    "sphinxcontrib.seqdiag",
+    'sphinx_tabs.tabs',
+    'todo',
+    "sphinxcontrib.twitter",
+    "sphinx.ext.viewcode",  # Add a link to the Python source code for classes, functions etc.
+    "hoverxref.extension",
+    "sphinx_sitemap",
 ]
+
+
+#   "sphinx_rediraffe",
+#    "sphinx_jinja",
+# "sphinxnotes.lilypond", 
+# 'python-twitter',
+#    "limitation",
+# "sphinx.ext.todo",
 
 # Add any paths that contain templates here, relative to this directory.
 # templates_path = ['_templates']
