@@ -174,13 +174,13 @@ extensions = [
     "sphinxcontrib.seqdiag",
     'sphinx_tabs.tabs',
     'todo',
-    "sphinxcontrib.twitter",
     "sphinx.ext.viewcode",  # Add a link to the Python source code for classes, functions etc.
     "hoverxref.extension",
     "sphinx_sitemap",
 ]
 
 
+#    "sphinxcontrib.twitter",
 #   "sphinx_rediraffe",
 #    "sphinx_jinja",
 # "sphinxnotes.lilypond", 
