@@ -25,6 +25,7 @@ Advanced Computer Setup and Topics
     /myGuides/Sphinx-Gitstamp
     /myGuides/Sphinx-Jinja
     /myGuides/Sphinx-Hoverxref
+    /myGuides/Sphinx-pdfembed
     /myGuides/Sphinx-Redirects
     /myGuides/Sphinx-rediraffe
     /myGuides/Sphinx-Sitemap

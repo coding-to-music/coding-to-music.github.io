@@ -12,7 +12,8 @@ sphinx-last-updated-by-git
 
 
 Project Homepage
----------------
+-----------------
+
 https://pypi.org/project/sphinx-last-updated-by-git/
 
 Project links
