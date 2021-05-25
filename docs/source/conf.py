@@ -171,7 +171,6 @@ extensions = [
     "sphinx.ext.intersphinx",  # Link to other project's documentation (see mapping below)
     "sphinx.ext.napoleon",
     'notfound.extension',
-    "sphinxext.rediraffe",
     "sphinxcontrib.seqdiag",
     'sphinx_tabs.tabs',
     'todo',
