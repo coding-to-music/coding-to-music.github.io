@@ -78,7 +78,7 @@ To install the required files referenced by requirements.txt
     pip install -r requirements.txt
 
 
-.. include:: ../../../requirements.txt
+.. include:: /requirements.txt
 
 
 

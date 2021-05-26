@@ -19,7 +19,7 @@ Advanced Computer Setup and Topics
     /myGuides/Sphinx-copybutton
     /myGuides/Sphinx-embed-object-iFrame-video-html-PDF-twitter-examples
     /myGuides/Sphinx-Lillypond
-    /myGuides/sphinx-last-updated-by-git
+    /myGuides/Sphinx-last-updated-by-git
     /myGuides/Sphinx-Twitter
     /myGuides/Sphinx-Gallery
     /myGuides/Sphinx-Gitstamp

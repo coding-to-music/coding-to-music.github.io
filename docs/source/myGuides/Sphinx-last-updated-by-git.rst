@@ -38,7 +38,7 @@ Maintainers
 Avatar for Matthias.Geier from gravatar.com Matthias.Geier
 
 
-.. include:: sphinx-last-updated-by-git-README.rst.inc
+.. include:: Sphinx-last-updated-by-git-README.rst.inc
 
 
 Last change: |today|

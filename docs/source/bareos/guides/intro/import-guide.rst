@@ -24,7 +24,7 @@ these properties, and then click **Next** to
 .. figure:: /_static/images/bareos/first-steps/import-a-repository.png
     :align: right
     :figwidth: 300px
-    :target: /_static/bareos/first-steps/import-a-repository.png
+    :target: /_static/images/bareos/first-steps/import-a-repository.png
 
     Importing a repository
 
@@ -56,9 +56,9 @@ for more information on this process.
     The ``Admin`` page can be found at ``https://readthedocs.org/dashboard/<project-slug>/edit/``.
     You can access all of the project settings from the admin page sidebar.
 
-    .. figure:: /_static/images/first-steps/admin-panel.png
+    .. figure:: /_static/images/bareos/first-steps/admin-panel.png
         :figwidth: 400px
-        :target: /_static/images/first-steps/admin-panel.png
+        :target: /_static/images/bareos/first-steps/admin-panel.png
 
 
 Building your documentation
