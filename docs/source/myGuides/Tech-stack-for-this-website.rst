@@ -33,10 +33,10 @@ Here is the directory structure.::
     │   └── environment.yml
     ├── dark.css
     ├── docs
-    │   ├── Makefile                # make html
-    │   ├── build                   # generated output 
+    │   ├── Makefile                # make html   or   make PDF   or   make clean
+    │   ├── build                   # generated output that can be served
     │   │   ├── doctrees            # generated doctrees stored here
-    │   │   └── html                # generated HTML stored here
+    │   │   └── html                # generated HTML stored here and images, downloads
     │   ├── examples                # used when testing image gallery
     │   │   ├── README.txt
     │   │   ├── test1
