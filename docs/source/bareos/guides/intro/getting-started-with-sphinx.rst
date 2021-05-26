@@ -70,9 +70,9 @@ Your ``index.rst`` has been built into ``index.html``
 in your documentation output directory (typically ``_build/html/index.html``).
 Open this file in your web browser to see your docs.
 
-.. figure:: /_static/images/first-steps/sphinx-hello-world.png
+.. figure:: /_static/images/bareos/first-steps/sphinx-hello-world.png
    :figwidth: 500px
-   :target: /_static/images/first-steps/sphinx-hello-world.png
+   :target: /_static/images/bareos/first-steps/sphinx-hello-world.png
    :align: center
 
    Your Sphinx project is built
