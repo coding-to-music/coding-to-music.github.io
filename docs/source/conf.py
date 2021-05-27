@@ -181,6 +181,7 @@ extensions = [
 ]
 
 
+
 #    "sphinxcontrib.twitter",
 #   "sphinx_rediraffe",
 #    "sphinx_jinja",
@@ -188,6 +189,9 @@ extensions = [
 # 'python-twitter',
 #    "limitation",
 # "sphinx.ext.todo",
+
+
+hoverxref_auto_ref=True
 
 # Add any paths that contain templates here, relative to this directory.
 # templates_path = ['_templates']
