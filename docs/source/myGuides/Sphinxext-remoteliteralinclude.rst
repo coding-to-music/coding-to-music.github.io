@@ -22,28 +22,52 @@ Homepage
 https://github.com/wpilibsuite/sphinxext-remoteliteralinclude
 
 
-Here is how to call the extension for remote literal include
---------------------------------------------------------------
+Here is how to call the extension for remote literal include for example.java
+--------------------------------------------------------------------------------
 
 .. code:: java
 
     .. rli:: https://example.com/example.java
     :language: java
-    :lines: 10-29
+    :lines: 1-29
     :linenos:
-    :lineno-start: 10
+    :lineno-start: 1
 
+
+
+For some reason this does not literal include correctly: https://example.com/example.java
 
 .. rli:: https://example.com/example.java
    :language: java
-   :lines: 10-29
+   :lines: 1-29
    :linenos:
-   :lineno-start: 10
+   :lineno-start: 1
+
+
+Here is how to call the extension for remote literal include for README.md
+--------------------------------------------------------------------------------
+
+.. code:: java
+
+    .. rli:: https://raw.githubusercontent.com/wpilibsuite/sphinxext-remoteliteralinclude/main/README.md
+    :language: java
+    :lines: 1-29
+    :linenos:
+    :lineno-start: 1
+
+
+Here is a README.md
+
+
+.. rli:: https://raw.githubusercontent.com/wpilibsuite/sphinxext-remoteliteralinclude/main/README.md
+   :language: java
+   :lines: 1-29
+   :linenos:
+   :lineno-start: 1
 
 
 
 
-https://raw.githubusercontent.com/wpilibsuite/sphinxext-remoteliteralinclude/main/README.md
 
 
 
