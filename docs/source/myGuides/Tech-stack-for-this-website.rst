@@ -77,9 +77,10 @@ To manually install the required python extensions referenced by requirements.tx
     pip install -r requirements.txt
 
 
-.. include:: /requirements.txt.inc
-    :number-lines: 1-100
-
+.. literalinclude:: /requirements.txt.inc
+    :language: ruby
+    :emphasize-lines: 12,15-18
+    :linenos:
 
 
 To add content
