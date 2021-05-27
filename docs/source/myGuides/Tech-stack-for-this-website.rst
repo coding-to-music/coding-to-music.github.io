@@ -80,6 +80,8 @@ To manually install the required python extensions referenced by requirements.tx
 here is the current requirements.txt via a literalinclude directive with some random lines emphasized
 ----------------------------------------------------------------------------------------------------------
 
+https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#directive-literalinclude
+
 .. code:: java    
 
     .. literalinclude:: /requirements.txt.inc
@@ -102,7 +104,9 @@ To add content:
 
 - add or modify a .rst file in the docs/source/ directory
 - in the docs directory 'make html'
-- in the main top-level directory push the change to github 'git push' 
+- in the docs directory push the change to github 'git push' 
+- the built objects are not transferred to ReadTheDocs, they only use the changed source files, 
+- ReadTheDocs build their own build directory and your one new file in source is built and those build files are added to whatever you aready published. 
 - Then a webhook will send to ReadTheDocs which will do a build on their system https://readthedocs.org/projects/pandemic-overview/builds/
 - And it will be promoted to https://pandemic-overview.readthedocs.io/
 - http://all-knowledge.info points to https://pandemic-overview.readthedocs.io/

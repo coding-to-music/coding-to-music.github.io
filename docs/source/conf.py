@@ -175,6 +175,7 @@ extensions = [
     'sphinx_tabs.tabs',
     'todo',
     "sphinx.ext.viewcode",  # Add a link to the Python source code for classes, functions etc.
+    "sphinxext.remoteliteralinclude",
     "hoverxref.extension",
     "sphinx_sitemap",
 ]

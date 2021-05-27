@@ -16,6 +16,7 @@ sphinx-notfound-page
 sphinxcontrib-nwdiag   
 sphinxcontrib-plantuml   
 sphinx-prompt   
+sphinxext-remoteliteralinclude
 #sphinx-Redirects   
 #sphinxext.rediraffe   
 sphinxcontrib-seqdiag   
