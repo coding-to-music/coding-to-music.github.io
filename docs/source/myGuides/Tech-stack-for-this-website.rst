@@ -28,11 +28,10 @@ Here is the directory structure.::
 
     vscode ➜ /workspaces/coding-to-music.github.io (master) $ tree -L 3
     .
-    ├── README.md
-    ├── binder
-    │   └── environment.yml
-    ├── dark.css
-    ├── docs
+    ├── README.md                   # this is the readme when visiting the repo
+    ├── binder                      # binder is like vscode in the cloud, view pull requests etc
+    │   └── environment.yml         # configuration file for binder
+    ├── docs                        # docs is the main home for running the make file
     │   ├── Makefile                # make html   or   make PDF   or   make clean
     │   ├── build                   # generated output that can be served
     │   │   ├── doctrees            # generated doctrees stored here
@@ -41,21 +40,21 @@ Here is the directory structure.::
     │   │   ├── README.txt
     │   │   ├── test1
     │   │   └── test2
-    │   ├── source
+    │   ├── source                  # source is all the rst files (index.rst and site content)
     │   │   ├── Help-about          # About this site
     │   │   ├── How-you-can-help    # How you can get involved
     │   │   ├── License             # Open source license
     │   │   ├── Sandbox             # stuff I am working on 
-    │   │   ├── __pycache__
+    │   │   ├── __pycache__         # generated temporary cache
     │   │   ├── _ext                # extensions
     │   │   ├── _extensions         # extensions
     │   │   ├── _html
-    │   │   ├── _images
+    │   │   ├── _images             # relatively unchanging assets (in build this is all generated images)
     │   │   ├── _static             # relatively unchanging assets
     │   │   ├── assets              # all the images
     │   │   ├── auto_examples       # used when testing image gallery
     │   │   ├── bareos              # excellent well-made docs examples
-    │   │   ├── conf.py             # all the important settings
+    │   │   ├── conf.py             # all the important settings this is a executed program actually
     │   │   ├── css                 # overrides go here
     │   │   ├── dcma                # DCMA takedown policy
     │   │   ├── examples            # used when testing image gallery
@@ -68,10 +67,10 @@ Here is the directory structure.::
     │   │   └── topics              # main location of content
 
 
-requirements.txt is all the software that must be installed via pip 
-----------------------------------------------------------------------
+requirements.txt is all the software that must be installed via pip (automatically)
+--------------------------------------------------------------------------------------
 
-To install the required files referenced by requirements.txt 
+To manually install the required python extensions referenced by requirements.txt 
 
 .. code:: bash 
 
@@ -79,6 +78,7 @@ To install the required files referenced by requirements.txt
 
 
 .. include:: /requirements.txt.inc
+    :language: ruby 
     :number-lines: 1
 
 
