@@ -78,8 +78,7 @@ To manually install the required python extensions referenced by requirements.tx
 
 
 .. include:: /requirements.txt.inc
-    :language: ruby 
-    :number-lines: 1
+    :number-lines: 1-100
 
 
 
