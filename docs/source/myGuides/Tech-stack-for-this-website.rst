@@ -77,6 +77,18 @@ To manually install the required python extensions referenced by requirements.tx
     pip install -r requirements.txt
 
 
+here is the current requirements.txt via a literalinclude directive with some random lines emphasized
+----------------------------------------------------------------------------------------------------------
+
+.. code:: java    
+
+    .. literalinclude:: /requirements.txt.inc
+        :language: ruby
+        :emphasize-lines: 12,15-18
+        :linenos:
+
+
+
 .. literalinclude:: /requirements.txt.inc
     :language: ruby
     :emphasize-lines: 12,15-18
