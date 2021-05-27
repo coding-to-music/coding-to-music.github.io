@@ -44,8 +44,8 @@ For some reason this does not literal include correctly: https://example.com/exa
    :lineno-start: 1
 
 
-Here is how to call the extension for remote literal include for README.md
---------------------------------------------------------------------------------
+Here is how to call the extension for remote literal include for README.md using line numbers
+-----------------------------------------------------------------------------------------------
 
 .. code:: java
 
@@ -56,7 +56,7 @@ Here is how to call the extension for remote literal include for README.md
     :lineno-start: 1
 
 
-Here is a README.md
+Here is a literal include README.md with shading and line numbers
 
 
 .. rli:: https://raw.githubusercontent.com/wpilibsuite/sphinxext-remoteliteralinclude/main/README.md
@@ -64,6 +64,20 @@ Here is a README.md
    :lines: 1-29
    :linenos:
    :lineno-start: 1
+
+
+Here is how to call the extension for remote literal include for README.md embedded 
+--------------------------------------------------------------------------------------
+
+.. code:: java
+
+    .. rli:: https://raw.githubusercontent.com/wpilibsuite/sphinxext-remoteliteralinclude/main/README.md
+
+
+Here is a README.md as if it was typed right into this document
+
+
+.. rli:: https://raw.githubusercontent.com/wpilibsuite/sphinxext-remoteliteralinclude/main/README.md
 
 
 
