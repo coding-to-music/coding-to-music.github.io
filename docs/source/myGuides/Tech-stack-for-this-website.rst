@@ -50,7 +50,7 @@ Here is the directory structure.::
     │   │   ├── _extensions         # extensions
     │   │   ├── _html
     │   │   ├── _images             # relatively unchanging assets (in build this is all generated images)
-    │   │   ├── _static             # relatively unchanging assets
+    │   │   ├── _static             # relatively unchanging assets that get copied to build such as custom.css
     │   │   ├── assets              # all the images
     │   │   ├── auto_examples       # used when testing image gallery
     │   │   ├── bareos              # excellent well-made docs examples
