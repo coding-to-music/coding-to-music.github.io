@@ -50,6 +50,8 @@ today = ''
 ##today_fmt = '%B %d, %Y'
 today_fmt = "%a, %d %b %Y %I:%M %p %Z"
 
+gitstamp_fmt = "%a, %d %b %Y %I:%M %p %Z"
+
 # extensions = ['todo','sphinx.ext.todo']
 
 todo_include_todos = True
@@ -190,6 +192,7 @@ extensions = [
 #    "limitation",
 # "sphinx.ext.todo",
 
+git_last_updated_timezone = 'EST'
 
 hoverxref_auto_ref=True
 
