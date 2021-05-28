@@ -83,4 +83,11 @@ You can use display-thread flag to display replyes.
 
 .. timeline:: 319830355039371264
 
+
+.. header:: this is a header 
+
+.. footer:: this is a footer 
+
+
+
 Last change: |today|
