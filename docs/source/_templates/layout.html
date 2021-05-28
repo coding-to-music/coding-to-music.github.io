@@ -1,5 +1,17 @@
 {% extends "!layout.html" %}
 {% block rootrellink %}
-    <li><a href="https://pandemic-overview.readthedocs.io/en/latest/index.html">Project Homepage - Pandemic Overview</a> &raquo;</li>
+    <li><a href="https://pandemic-overview.readthedocs.io/en/latest/index.html">block rootrellink - Pandemic Overview</a> &raquo;</li>
+    {{ super() }}
+{% endblock %}
+{% block linktags %}
+    <li><a href="https://pandemic-overview.readthedocs.io/en/latest/index.html">block linktags - Pandemic Overview</a> &raquo;</li>
+    {{ super() }}
+{% endblock %}
+{% block extrahead %}
+    <li><a href="https://pandemic-overview.readthedocs.io/en/latest/index.html">block extrahead - Pandemic Overview</a> &raquo;</li>
+    {{ super() }}
+{% endblock %}
+{% block footer %}
+    <li><a href="https://pandemic-overview.readthedocs.io/en/latest/index.html">block footer - Pandemic Overview</a> &raquo;</li>
     {{ super() }}
 {% endblock %}
