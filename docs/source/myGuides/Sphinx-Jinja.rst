@@ -26,11 +26,40 @@ https://jinja.palletsprojects.com/en/3.0.x/
 Customizing Sphinx Simple, Normal, and Hard
 ------------------------------------------------
 
+
+.. raw:: html
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <div id="ytplayer"></div>
+
+    <script>
+    // Load the IFrame Player API code asynchronously.
+    var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/player_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    // Replace the 'ytplayer' element with an <iframe> and
+    // YouTube player after the API code downloads.
+    var player;
+    function onYouTubePlayerAPIReady() {
+        player = new YT.Player('ytplayer', {
+        height: '360',
+        width: '640',
+        videoId: '7adnbsj9A4w'
+        });
+    }
+    </script>
+    </div>
+
+
+
 https://www.youtube.com/watch?v=7adnbsj9A4w
 
 PyGotham 2018
 650 subscribers
 Speaker: Paul Everitt
+1,900 views•Oct 26, 2018
 
 Many Python projects use Sphinx for documentation, so much so that Sphinx is like Python’s secret weapon. It’s a powerful, mature system for generating static content -- not just docs, but blogs and regular websites.
 
