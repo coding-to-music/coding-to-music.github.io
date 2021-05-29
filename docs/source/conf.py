@@ -182,8 +182,6 @@ extensions = [
     "sphinx_sitemap",
 ]
 
-
-
 #    "sphinxcontrib.twitter",
 #   "sphinx_rediraffe",
 #    "sphinx_jinja",
@@ -195,6 +193,8 @@ extensions = [
 git_last_updated_timezone = 'EST'
 
 hoverxref_auto_ref=True
+
+sitemap_locales = [None]
 
 # Add any paths that contain templates here, relative to this directory.
 # templates_path = ['_templates']
