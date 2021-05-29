@@ -51,7 +51,7 @@ This website is working towards this vision:
 
 .. figure:: /assets/2020_october_this_is_what_I_am_working_on.png
   :align: center
-  :width: 100 %
+  :width: 80 %
 
 
 I need to do this 
@@ -99,6 +99,7 @@ April 2021 - Contributions to Github Lately
 
   April 2021 - Contributions to Github Lately
 
+
 May 29 2021 Submitted Sitemaps started at 3 and one month later 221 URL's
 -----------------------------------------------------------------------------------
 
@@ -125,7 +126,7 @@ May 2021 - Large image of software used in this website using Chrome's new Tab-G
 
 .. figure:: /assets/Help-about/chrome-tab-groups-Screenshot-2021-05-29.png
   :align: center
-  :width: 100 %
+  :width: 80 %
 
   May 2021 - Large image of software used in this website using Chrome's new Tab-Groups
 
