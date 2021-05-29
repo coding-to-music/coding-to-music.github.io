@@ -100,14 +100,14 @@ Mid-February 2021 Discovered ReadTheDocs Sphinx reStructuredText Screenshot of G
   Mid-February 2021 Discovered ReadTheDocs Sphinx reStructuredText Screenshot of GitHub contributions 2021-04-03
 
 
-Screenshot May 29 2021 Making Progress Tweet
+May 29 2021 Submitted Sitemaps started at 3 and one month later 221 URL's
 -----------------------------------------------------------------------------------
 
 .. figure:: /assets/Help-about/Screenshot-2021-05-29-making-progress.png
   :align: center
-  :width: 100 %
+  :width: 50 %
 
-  Screenshot May 29 2021 Making Progress Tweet
+  May 29 2021 Submitted Sitemaps started at 3 and one month later 221 URL's
 
 
 Contributions to Github Lately
@@ -115,19 +115,19 @@ Contributions to Github Lately
 
 .. figure:: /assets/Help-about/contributions-to-github-lately.jpeg
   :align: center
-  :width: 100 %
+  :width: 50 %
 
   Contributions to Github Lately
 
 
-May 29 2021 - Making Progress - 221 links submitted
+Tweet - May 29 2021 - Making Progress - 221 links submitted
 -----------------------------------------------------------------------------------
 
 .. figure:: /assets/Help-about/may-29-2021-making-progress.png
   :align: center
-  :width: 100 %
+  :width: 50 %
 
-  May 29 2021 - Making Progress - 221 links submitted
+  Tweet - May 29 2021 - Making Progress - 221 links submitted
 
 
 Joke meme - Deaths Include when Code Stops Running
