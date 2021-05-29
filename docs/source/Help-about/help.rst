@@ -59,14 +59,14 @@ I need to do this
 
 .. figure:: /assets/Help-about/2021-May-2-This-is-what-I-need-to-do.jpeg
   :align: center
-  :width: 100 %
+  :width: 50 %
 
   May 2, 2021 - I need to do this
 
 
 
 
-Something to consider doing 
+Something to consider doing for support
 ---------------------------------------------------
 
 
@@ -85,7 +85,7 @@ Mid-February 2021 Discovered ReadTheDocs Sphinx reStructuredText Screenshot of G
 
 .. figure:: /assets/Help-about/mid-Feb-discovered-ReadTheDocs-Sphinx-reStructuredText-Screenshot-2021-04-03.png
   :align: center
-  :width: 100 %
+  :width: 80 %
 
   Mid-February 2021 Discovered ReadTheDocs Sphinx reStructuredText Screenshot of GitHub contributions 2021-04-03
 
@@ -110,14 +110,14 @@ May 29 2021 Submitted Sitemaps started at 3 and one month later 221 URL's
 
 
 
-Tweet - May 29 2021 - Making Progress - 221 links submitted
------------------------------------------------------------------------------------
+May 29 2021 - Tweet - Making Progress - 221 links submitted - become a search engine
+---------------------------------------------------------------------------------------
 
 .. figure:: /assets/Help-about/may-29-2021-making-progress.png
   :align: center
   :width: 50 %
 
-  Tweet - May 29 2021 - Making Progress - 221 links submitted
+  May 29 2021 - Tweet - Making Progress - 221 links submitted - become a search engine
 
 
 May 2021 - Large image of software used in this website using Chrome's new Tab-Groups  
