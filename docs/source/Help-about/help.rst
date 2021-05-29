@@ -78,4 +78,67 @@ Something to consider doing
 
   https://caitlinjohnstone.com/2019/12/12/why-i-dont-talk-more-about-911/
 
+
+
+Large image of software used in this website using Chrome's new Tab-Groups  
+-----------------------------------------------------------------------------------
+
+.. figure:: /assets/Help-about/chrome-tab-groups-Screenshot-2021-05-29.png
+  :align: center
+  :width: 100 %
+
+  Large image of software used in this website using Chrome's new Tab-Groups
+
+
+Mid-February 2021 Discovered ReadTheDocs Sphinx reStructuredText Screenshot of GitHub contributions 2021-04-03
+-------------------------------------------------------------------------------------------------------------------
+
+.. figure:: /assets/Help-about/mid-Feb-discovered-ReadTheDocs-Sphinx-reStructuredText-Screenshot-2021-04-03.png
+  :align: center
+  :width: 100 %
+
+  Mid-February 2021 Discovered ReadTheDocs Sphinx reStructuredText Screenshot of GitHub contributions 2021-04-03
+
+
+Screenshot May 29 2021 Making Progress Tweet
+-----------------------------------------------------------------------------------
+
+.. figure:: /assets/Help-about/Screenshot-2021-05-29-making-progress.png
+  :align: center
+  :width: 100 %
+
+  Screenshot May 29 2021 Making Progress Tweet
+
+
+Contributions to Github Lately
+-----------------------------------------------------------------------------------
+
+.. figure:: /assets/Help-about/contributions-to-github-lately.jpeg
+  :align: center
+  :width: 100 %
+
+  Contributions to Github Lately
+
+
+May 29 2021 - Making Progress - 221 links submitted
+-----------------------------------------------------------------------------------
+
+.. figure:: /assets/Help-about/may-29-2021-making-progress.png
+  :align: center
+  :width: 100 %
+
+  May 29 2021 - Making Progress - 221 links submitted
+
+
+Joke meme - Deaths Include when Code Stops Running
+-----------------------------------------------------------------------------------
+
+.. figure:: /assets/Help-about/deaths-include-when-code-stops-running.png
+  :align: center
+  :width: 100 %
+
+  Joke meme - Deaths Include when Code Stops Running
+
+
+
 Last change: |today|
