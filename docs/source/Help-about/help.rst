@@ -80,16 +80,6 @@ Something to consider doing
 
 
 
-Large image of software used in this website using Chrome's new Tab-Groups  
------------------------------------------------------------------------------------
-
-.. figure:: /assets/Help-about/chrome-tab-groups-Screenshot-2021-05-29.png
-  :align: center
-  :width: 100 %
-
-  Large image of software used in this website using Chrome's new Tab-Groups
-
-
 Mid-February 2021 Discovered ReadTheDocs Sphinx reStructuredText Screenshot of GitHub contributions 2021-04-03
 -------------------------------------------------------------------------------------------------------------------
 
@@ -100,6 +90,15 @@ Mid-February 2021 Discovered ReadTheDocs Sphinx reStructuredText Screenshot of G
   Mid-February 2021 Discovered ReadTheDocs Sphinx reStructuredText Screenshot of GitHub contributions 2021-04-03
 
 
+April 2021 - Contributions to Github Lately
+-----------------------------------------------------------------------------------
+
+.. figure:: /assets/Help-about/contributions-to-github-lately.jpeg
+  :align: center
+  :width: 50 %
+
+  April 2021 - Contributions to Github Lately
+
 May 29 2021 Submitted Sitemaps started at 3 and one month later 221 URL's
 -----------------------------------------------------------------------------------
 
@@ -109,15 +108,6 @@ May 29 2021 Submitted Sitemaps started at 3 and one month later 221 URL's
 
   May 29 2021 Submitted Sitemaps started at 3 and one month later 221 URL's
 
-
-Contributions to Github Lately
------------------------------------------------------------------------------------
-
-.. figure:: /assets/Help-about/contributions-to-github-lately.jpeg
-  :align: center
-  :width: 50 %
-
-  Contributions to Github Lately
 
 
 Tweet - May 29 2021 - Making Progress - 221 links submitted
@@ -130,12 +120,22 @@ Tweet - May 29 2021 - Making Progress - 221 links submitted
   Tweet - May 29 2021 - Making Progress - 221 links submitted
 
 
+May 2021 - Large image of software used in this website using Chrome's new Tab-Groups  
+----------------------------------------------------------------------------------------
+
+.. figure:: /assets/Help-about/chrome-tab-groups-Screenshot-2021-05-29.png
+  :align: center
+  :width: 100 %
+
+  May 2021 - Large image of software used in this website using Chrome's new Tab-Groups
+
+
 Joke meme - Deaths Include when Code Stops Running
 -----------------------------------------------------------------------------------
 
 .. figure:: /assets/Help-about/deaths-include-when-code-stops-running.png
   :align: center
-  :width: 100 %
+  :width: 50 %
 
   Joke meme - Deaths Include when Code Stops Running
 
