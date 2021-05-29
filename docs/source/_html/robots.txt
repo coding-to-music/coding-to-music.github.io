@@ -8,4 +8,4 @@ Allow: /en/latest
 
 Allow: /en/develop
 
-Sitemap: https://pandemic-overview.readthedocs.io/en/latest/sitemap.xml
+Sitemap: https://pandemic-overview.readthedocs.io/en/latest/sitemap/sitemap.xml
