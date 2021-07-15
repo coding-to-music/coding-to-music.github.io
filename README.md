@@ -2,7 +2,13 @@ Hello and welcome!!
 
 ## Introduction
 
-The content shared here is disputed, opinion, or may be misleading about COVID-19. To learn more about official COVID-19 public health recommendations visit https://www.cdc.gov/coronavirus/2019-nCoV/index.html
+- This site is full of opinion. We have collected a huge wide variety of items and we attempt to label these items as either True or False.
+- We document why it is our opinion, our group consensus, that these items are correctly tagged as either True or False.
+- Every item will be able to be tagged so you can either agree or disagree by you tagging the item yourself.
+- That feature is not yet ready but you can see we are attempting to make this a community-driven collective-knowledge resource.
+- This website will attempt to be kept up-to-date so you can learn what has changed since you last visited.
+
+The content shared here is disputed, **`opinion`**, or may be misleading about COVID-19. To learn more about official COVID-19 public health recommendations visit https://www.cdc.gov/coronavirus/2019-nCoV/index.html
 
 
 Goals:
