@@ -1,5 +1,9 @@
 Hello and welcome!!
 
+## Introduction
+
+The content shared here is disputed, opinion, or may be misleading about COVID-19. To learn more about official COVID-19 public health recommendations visit https://www.cdc.gov/coronavirus/2019-nCoV/index.html
+
 
 Goals:
 - Today's date in Eastern Standard Time
