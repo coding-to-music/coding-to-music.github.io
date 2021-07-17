@@ -5,10 +5,8 @@ Amazon AWS Learning
     :maxdepth: 2
     :caption: Contents:
 
-    /myGuides/aws/AWS-Prerequisite-Setting-up-your-environment
-    /myGuides/aws/AWS-Chalice-Summary
-    /myGuides/aws/AWS-Media-Query-Application
-    /myGuides/aws/AWS-Todo-Application
+    /myGuides/aws/source/index
+
 
  
 
@@ -18,6 +16,11 @@ Amazon AWS Learning
 
 Here is some content
 ----------------------
+
+AWS-Prerequisite-Setting-up-your-environment
+AWS-Chalice-Summary
+AWS-Media-Query-Application
+AWS-Todo-Application
 
 
 Last change: |today| 
