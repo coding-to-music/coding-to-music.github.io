@@ -5,7 +5,7 @@ AWS Chalice Summary
     :maxdepth: 2
     :caption: Contents:
 
-
+    /myGuides/aws/source/index
  
 
 .. contents::
