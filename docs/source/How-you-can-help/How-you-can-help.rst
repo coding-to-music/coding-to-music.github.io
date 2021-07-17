@@ -13,7 +13,7 @@ How you can help
     /myGuides/myGuides
     /myGuides/General-computer-setup
     /myGuides/Advanced-Computer-Setup
-    /myGuides/Amazon-AWS-Learning
+    /myGuides/aws/Amazon-AWS-Learning
     /myGuides/ToDo-project-tasks
     /myGuides/Contribute
     /myGuides/Upcoming-software-to-try

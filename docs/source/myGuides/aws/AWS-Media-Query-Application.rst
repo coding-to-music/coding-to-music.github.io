@@ -1,15 +1,17 @@
-Amazon AWS Learning
-=====================
+AWS Media Query Application
+==============================
 
 .. toctree::
     :maxdepth: 2
     :caption: Contents:
 
-    /myGuides/Advanced-Computer-Setup
+
  
 
 .. contents::
     :local:
+
+
 
 
 Here is some content
