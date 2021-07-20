@@ -440,18 +440,18 @@ html_theme_options = {
     'prev_next_buttons_location': 'both'
 }
 
-# html_context = {
-#     "favicon": "img/favicon.ico",
-#     "logo": "img/logo.jpg",
-#     "theme_logo_only": True,
-#     "display_gitlab": True,  # Integrate Gitlab
-#     "gitlab_user": "ska-telescope",  # Username
-#     "gitlab_repo": "developer.skao.int",  # Repo name
-#     "gitlab_version": "master",  # Version
-#     "conf_py_path": "/src/",  # Path in the checkout to the docs root
-#     # workaround for https://github.com/readthedocs/sphinx_rtd_theme/issues/701
-#     "theme_vcs_pageview_mode": "edit",
-# }
+html_context = {
+    # "favicon": "img/favicon.ico",
+    # "logo": "img/logo.jpg",
+    # "theme_logo_only": True,
+    # "display_gitlab": True,  # Integrate Gitlab
+    "gitlab_user": "coding-to-music",  # Username
+    "gitlab_repo": "coding-to-music.github.io",  # Repo name
+    # "gitlab_version": "master",  # Version
+    # "conf_py_path": "/src/",  # Path in the checkout to the docs root
+    # workaround for https://github.com/readthedocs/sphinx_rtd_theme/issues/701
+    # "theme_vcs_pageview_mode": "edit",
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
