@@ -52,6 +52,11 @@ today_fmt = "%a, %d %b %Y %I:%M %p %Z"
 
 gitstamp_fmt = "%a, %d %b %Y %I:%M %p %Z"
 
+# Date format for git timestamps
+# gitstamp_fmt = "%b %d, %Y"
+
+git_last_updated_timezone = 'EST'
+
 # extensions = ['todo','sphinx.ext.todo']
 
 todo_include_todos = True
@@ -190,7 +195,15 @@ extensions = [
 #    "limitation",
 # "sphinx.ext.todo",
 
-git_last_updated_timezone = 'EST'
+# Set each document name as prefix to avoid duplication
+autosectionlabel_prefix_document = True
+
+# 404 page configuration
+notfound_context = {
+    "body": "<h3>Unfortunately, we couldn't locate the object you are searching for, yet!</h3> <p> In the meantime, please feel free to explore the rest of the Portal!</p>",
+}
+
+notfound_no_urls_prefix = True
 
 hoverxref_auto_ref=True
 
@@ -427,6 +440,19 @@ html_theme_options = {
     'prev_next_buttons_location': 'both'
 }
 
+# html_context = {
+#     "favicon": "img/favicon.ico",
+#     "logo": "img/logo.jpg",
+#     "theme_logo_only": True,
+#     "display_gitlab": True,  # Integrate Gitlab
+#     "gitlab_user": "ska-telescope",  # Username
+#     "gitlab_repo": "developer.skao.int",  # Repo name
+#     "gitlab_version": "master",  # Version
+#     "conf_py_path": "/src/",  # Path in the checkout to the docs root
+#     # workaround for https://github.com/readthedocs/sphinx_rtd_theme/issues/701
+#     "theme_vcs_pageview_mode": "edit",
+# }
+
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
@@ -446,6 +472,17 @@ html_extra_path = ["_html"]
 #
 # html_sidebars = {}
 
+# This is required for the alabaster theme
+# refs: http://alabaster.readthedocs.io/en/latest/installation.html#sidebars
+# html_sidebars = {
+#    '**': [
+#        'about.html',
+#        'navigation.html',
+#        'relations.html',  # needs 'show_related': True theme option to display
+#        'searchbox.html',
+#        'donate.html',
+#    ]
+# }
 
 # -- Options for HTMLHelp output ---------------------------------------------
 
