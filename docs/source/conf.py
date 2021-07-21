@@ -276,6 +276,9 @@ html_theme = 'sphinx_material'
 # Material theme options (see theme.conf for more information)
 html_material_theme_options_example = {
 
+    # this is needed, is available from RTD them
+    'prev_next_buttons_location': 'both'
+
     # Set the name of the project to appear in the navigation.
     'nav_title': 'Project Name',
 
@@ -388,9 +391,11 @@ pygments_style = 'sphinx'
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-html_theme_options = {
-    'prev_next_buttons_location': 'both'
-}
+
+# Read the Docs theme options
+# html_theme_options = {
+#     'prev_next_buttons_location': 'both'
+# }
 
 html_context = {
     # "favicon": "img/favicon.ico",
