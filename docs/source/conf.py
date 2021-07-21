@@ -228,7 +228,7 @@ html_theme_options = {
 
     # Set the name of the project to appear in the navigation.
 
-    'nav_title': 'pandemic-overview',
+    'nav_title': 'all-knowledge.info',
     # 'nav_title': 'pandemic-overview {0}'.format(version),
     # 'nav_title': 'statsmodels {0}'.format(version),
 
