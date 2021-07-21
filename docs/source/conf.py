@@ -214,9 +214,9 @@ extensions = [
 #     "sphinx-Jinja",   
 # ]
 
-extensions.append('sphinx_material')
-html_theme_path = sphinx_material.html_theme_path()
-html_context = sphinx_material.get_html_context()
+# extensions.append('sphinx_material')
+# html_theme_path = sphinx_material.html_theme_path()
+# html_context = sphinx_material.get_html_context()
 html_theme = 'sphinx_material'
 html_title = project
 html_short_title = project
