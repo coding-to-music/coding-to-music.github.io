@@ -78,7 +78,7 @@ copyright = '2020-2021, Thomas Connors and Contributors'
 # built documents.
 #
 # The short X.Y version
-version = ''
+version = '1.0'
 # The full version, including alpha/beta/rc tags
 release = ''
 # The short X.Y version.
@@ -223,7 +223,7 @@ extensions = [
 # material theme options (see theme.conf for more information)
 
 base_url = 'https://pandemic-overview.readthedocs.io'
-# base_url += 'stable/' if full_version == version else 'devel/'
+base_url += 'latest/' if full_version == version else 'devel/'
 html_theme_options = {
     'base_url': base_url,
     'repo_url': 'https://github.com/coding-to-music/coding-to-music.github.io',
@@ -233,7 +233,7 @@ html_theme_options = {
     'globaltoc_includehidden': True,
     'color_primary': 'indigo',
     'color_accent': 'blue',
-    # 'nav_title': 'pandemic-overview {0}'.format(version),
+    'nav_title': 'pandemic-overview {0}'.format(version),
     # 'nav_title': 'statsmodels {0}'.format(version),
     'master_doc': False,
     'nav_links': [],
