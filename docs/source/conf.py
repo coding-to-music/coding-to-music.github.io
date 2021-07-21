@@ -214,12 +214,12 @@ extensions = [
 #     "sphinx-Jinja",   
 # ]
 
-# extensions.append('sphinx_material')
-# html_theme_path = sphinx_material.html_theme_path()
-# html_context = sphinx_material.get_html_context()
-# html_theme = 'sphinx_material'
-# html_title = project
-# html_short_title = project
+extensions.append('sphinx_material')
+html_theme_path = sphinx_material.html_theme_path()
+html_context = sphinx_material.get_html_context()
+html_theme = 'sphinx_material'
+html_title = project
+html_short_title = project
 # material theme options (see theme.conf for more information)
 
 base_url = 'https://pandemic-overview.readthedocs.io'
@@ -326,7 +326,7 @@ pygments_style = 'sphinx'
 
 # html_theme = 'sphinx_rtd_theme'
 
-import sphinx_material
+# import sphinx_material
 
 #     'titles_only': False
 #     'style_nav_header_background': 'white',
