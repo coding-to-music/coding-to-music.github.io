@@ -4,7 +4,7 @@ docutils>=0.16.0
 # Themes and visual 
 # sphinx_rtd_theme   
 readthedocs-sphinx-ext   
-sphinx-material
+sphinx_material
 
 # Tab UI elements
 sphinx-tabs   
