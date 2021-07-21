@@ -260,13 +260,15 @@ html_theme_options = {
     # I don't know about these items
     'nav_links': [],
 
-    'heroes': {'index': 'statistical models, hypothesis tests, and data '
-                        'exploration',
+    'heroes': {'index': 'Making Sense of the Pandemic '
+                        '',
                'examples/index': 'examples and tutorials to get started with '
                                  'statsmodels'},
     "version_dropdown": True,
     "version_json": "_static/versions.json",
 }
+
+#     'prev_next_buttons_location': 'both'
 
 language = 'en'
 html_last_updated_fmt = ''
