@@ -407,7 +407,7 @@ master_doc = 'index'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = 'en'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -492,7 +492,7 @@ html_extra_path = ["_html"]
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
 # directly to the root of the documentation.
-html_extra_path = ['robots.txt']
+# html_extra_path = ['robots.txt']
 
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
@@ -712,8 +712,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     (master_doc, 'all-knowledge', 'all-knowledge Documentation',
-     [author], 1)
-]
+     [u'Thomas Connors'], 1)]
 
 
 # -- Options for Texinfo output ----------------------------------------------
