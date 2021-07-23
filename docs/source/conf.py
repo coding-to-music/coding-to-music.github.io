@@ -119,15 +119,6 @@ lexers["bconsole"] = BareosConsoleLexer()
 lexers["bareoslog"] = BareosLogLexer()
 lexers["bareosmessage"] = BareosMessageLexer()
 
-# # Github repo
-# issues_github_path = "sloria/marshmallow"
-
-# issues_github_path = "source/bareos/bareos"
-
-# # equivalent to
-# issues_uri = "https://github.com/sloria/marshmallow/issues/{issue}"
-# issues_pr_uri = "https://github.com/sloria/marshmallow/pull/{pr}"
-# issues_commit_uri = "https://github.com/sloria/marshmallow/commit/{commit}"
 
 # Add sphinxext.delta to your extensions list in your conf.py
 
@@ -229,6 +220,18 @@ repo_user = 'coding-to-music'
 
 base_url = 'https://pandemic-overview.readthedocs.io'
 # base_url += 'latest/' if full_version == version else 'devel/'
+
+# Github repo
+# issues_github_path = "sloria/marshmallow"
+# issues_github_path = "source/bareos/bareos"
+
+issues_github_path = "coding-to-music/coding-to-music.github.io"
+
+# equivalent to
+issues_uri = "https://github.com/coding-to-music/coding-to-music.github.io/issues/{issue}"
+issues_pr_uri = "https://github.com/coding-to-music/coding-to-music.github.io/pull/{pr}"
+issues_commit_uri = "https://github.com/coding-to-music/coding-to-music.github.io/commit/{commit}"
+
 material_html_theme_options = {
 
     # Set the name of the project to appear in the navigation.
@@ -840,21 +843,21 @@ github_project_url = repo_url
 # html_context.update({'examples': example_context})
 
 # --------------- DOCTEST -------------------
-doctest_global_setup = """
-import statsmodels.api as sm
-import statsmodels.tsa.api as tsa
-import statsmodels.formula.api as smf
-import numpy as np
-import scipy.stats as stats
-import matplotlib.pyplot as plt
-import pandas as pd
-"""
+# doctest_global_setup = """
+# import statsmodels.api as sm
+# import statsmodels.tsa.api as tsa
+# import statsmodels.formula.api as smf
+# import numpy as np
+# import scipy.stats as stats
+# import matplotlib.pyplot as plt
+# import pandas as pd
+# """
 
-extlinks = {'pr': ('https://github.com/statsmodels/statsmodels/pull/%s',
-                   'PR #'),
-            'issue': ('https://github.com/statsmodels/statsmodels/issues/%s',
-                      'Issue #')
-            }
+# extlinks = {'pr': ('https://github.com/statsmodels/statsmodels/pull/%s',
+#                    'PR #'),
+#             'issue': ('https://github.com/statsmodels/statsmodels/issues/%s',
+#                       'Issue #')
+#             }
 
 autosectionlabel_prefix_document = True
 
