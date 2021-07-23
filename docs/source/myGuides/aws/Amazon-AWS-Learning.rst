@@ -6,7 +6,10 @@ Amazon AWS Learning
     :caption: Contents:
 
     /myGuides/aws/source/index
-
+    /myGuides/code/media-query/final/README.rst
+    /myGuides/code/todo-app/final/README.rst
+    /myGuides/code/todo-app/part1/README.rst
+    /myGuides/code/todo-app/part2/README.rst
 
  
 

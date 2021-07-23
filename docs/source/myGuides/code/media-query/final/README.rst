@@ -132,6 +132,7 @@ Then, list out all if the media files using the application's API with HTTPie::
             "type": "video"
         }
     ]
+    
 You can include query string parameters as well to query all objects based
 on what the file name starts with, the type of the media file, and the detected
 objects in the media file::

@@ -206,6 +206,18 @@ extensions = [
 #     "sphinx-Jinja",   
 # ]
 
+
+# {% if check_meta and 'github_url' in meta %}
+#     <!-- User defined GitHub URL -->
+#     <a href="{{ meta['github_url'] }}" class="fa fa-github"> {{ _('Edit on GitHub') }}</a>
+# {% else %}
+#     <a href="https://{{ github_host|default("github.com") }}/{{ github_user }}/{{ github_repo }}/{{ theme_vcs_pageview_mode|default("blob") }}/{{ github_version }}{{ conf_py_path }}{{ pagename }}{{ suffix }}" class="btn btn-neutral" title="{{ _('Edit Page on GitHub') }}" rel="{{ _('Edit Page on GitHub') }}"><span style="padding-left: 0.5em" >Edit on<i style="margin-left: 0.5em" class="fa fa-github"></i></span></a>
+#     <a href="https://{{ github_host|default("github.com") }}/{{ github_user }}/{{ github_repo }}/commits/{{ github_version }}{{ conf_py_path }}{{ pagename }}{{ suffix }}" class="btn btn-neutral" title="{{ _('Page History') }}" rel="{{ _('Page History') }}"><span class="fa fa-clock-o"></span></a>
+#     <a href="https://{{ github_host|default("github.com") }}/{{ github_user }}/{{ github_repo }}/blame/{{ github_version }}{{ conf_py_path }}{{ pagename }}{{ suffix }}" class="btn btn-neutral" title="{{ _('Page Contributors') }}" rel="{{ _('Page Contributors') }}"><span class="fa fa-users"></span></a>
+
+# my_first_path = "https://{{ github_host|default("github.com") }}/{{ github_user }}/{{ github_repo }}/"
+
+
 # extensions.append('sphinx_material')
 # html_theme_path = sphinx_material.html_theme_path()
 # html_context = sphinx_material.get_html_context()
