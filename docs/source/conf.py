@@ -122,7 +122,7 @@ lexers["bareosmessage"] = BareosMessageLexer()
 # # Github repo
 # issues_github_path = "sloria/marshmallow"
 
-issues_github_path = "source/bareos/bareos"
+# issues_github_path = "source/bareos/bareos"
 
 # # equivalent to
 # issues_uri = "https://github.com/sloria/marshmallow/issues/{issue}"
@@ -160,7 +160,8 @@ issues_github_path = "source/bareos/bareos"
 
 
 extensions = [
-    "sphinx_material",
+    "sphinx_rtd_theme",
+    # "sphinx_material",
     "sphinx.ext.autodoc",  # Core Sphinx library for auto html doc generation from docstrings
     "sphinx.ext.autosectionlabel",
     "sphinx.ext.autosummary",  # Create neat summary tables for modules/classes/methods etc
@@ -217,7 +218,6 @@ extensions = [
 # extensions.append('sphinx_material')
 # html_theme_path = sphinx_material.html_theme_path()
 # html_context = sphinx_material.get_html_context()
-html_theme = 'sphinx_material'
 html_title = project
 html_short_title = project
 # material theme options (see theme.conf for more information)
@@ -225,9 +225,11 @@ html_short_title = project
 repo_url = 'https://github.com/coding-to-music/coding-to-music.github.io'
 repo_name = 'coding-to-music.github.io'
 
+repo_user = 'coding-to-music'
+
 base_url = 'https://pandemic-overview.readthedocs.io'
 # base_url += 'latest/' if full_version == version else 'devel/'
-html_theme_options = {
+material_html_theme_options = {
 
     # Set the name of the project to appear in the navigation.
 
@@ -337,7 +339,7 @@ htmlhelp_basename = 'pandemic-overview-doc'
 language = 'en'
 html_last_updated_fmt = ''
 
-html_theme = 'sphinx_material'
+# html_theme = 'sphinx_material'
 
 # Material theme options (see theme.conf for more information)
 # html_material_theme_options_example = {
@@ -423,7 +425,7 @@ pygments_style = 'sphinx'
 
 # -- Options for HTML output -------------------------------------------------
 
-# html_theme_options = {
+# material_html_theme_options = {
 #     'analytics_id': 'UA-XXXXXXX-1',  #  Provided by Google in your dashboard
 #     'analytics_anonymize_ip': False,
 #     'logo_only': False,
@@ -445,7 +447,9 @@ pygments_style = 'sphinx'
 # a list of builtin themes.
 # html_theme = 'rtd_dark.css'
 
-# html_theme = 'sphinx_rtd_theme'
+html_theme = 'sphinx_rtd_theme'
+
+# html_theme = 'sphinx_material'
 
 # import sphinx_material
 
@@ -468,8 +472,8 @@ html_context = {
     # "logo": "img/logo.jpg",
     # "theme_logo_only": True,
     # "display_gitlab": True,  # Integrate Gitlab
-    "gitlab_user": "coding-to-music",  # Username
-    "gitlab_repo": "coding-to-music.github.io",  # Repo name
+    "github_user": "coding-to-music",  # Username
+    "github_repo": "coding-to-music.github.io",  # Repo name
     # "gitlab_version": "master",  # Version
     # "conf_py_path": "/src/",  # Path in the checkout to the docs root
     # workaround for https://github.com/readthedocs/sphinx_rtd_theme/issues/701
@@ -821,13 +825,19 @@ intersphinx_mapping = {
     'pandas': ('https://pandas.pydata.org/pandas-docs/stable/', None),
 }
 
-plot_basedir = join(dirname(dirname(os.path.abspath(__file__))), 'source')
+# plot_basedir = join(dirname(dirname(os.path.abspath(__file__))), 'source')
 
-# ghissue config
-github_project_url = 'https://github.com/statsmodels/statsmodels'
 
-example_context = yaml.safe_load(open('examples/landing.yml'))
-html_context.update({'examples': example_context})
+# repo_url = 'https://github.com/coding-to-music/coding-to-music.github.io'
+# repo_name = 'coding-to-music.github.io'
+# repo_user = 'coding-to-music'
+
+
+# github-issue config
+github_project_url = repo_url
+
+# example_context = yaml.safe_load(open('examples/landing.yml'))
+# html_context.update({'examples': example_context})
 
 # --------------- DOCTEST -------------------
 doctest_global_setup = """
