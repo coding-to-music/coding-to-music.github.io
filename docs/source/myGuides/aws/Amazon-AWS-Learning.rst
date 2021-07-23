@@ -17,13 +17,17 @@ Amazon AWS Learning
     :local:
 
 
-Here is some content
-----------------------
 
-AWS-Prerequisite-Setting-up-your-environment
-AWS-Chalice-Summary
-AWS-Media-Query-Application
-AWS-Todo-Application
+The content in these AWS pages is from these excellent AWS Chalice workshops
+
+https://chalice-workshop.readthedocs.io/en/latest/media-query/index.html
+
+https://github.com/aws/chalice/tree/master/docs/source/samples/media-query
+
+
+https://chalice-workshop.readthedocs.io/en/latest/todo-app/index.html
+
+https://github.com/aws/chalice/tree/master/docs/source/samples/todo-app
 
 
 Last change: |today| 
