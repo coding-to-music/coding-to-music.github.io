@@ -221,6 +221,8 @@ extensions = [
 # extensions.append('sphinx_material')
 # html_theme_path = sphinx_material.html_theme_path()
 # html_context = sphinx_material.get_html_context()
+
+html_js_files = ['js/expand_tabs.js']
 html_title = project
 html_short_title = project
 # material theme options (see theme.conf for more information)
@@ -406,7 +408,19 @@ notfound_context = {
 
 notfound_no_urls_prefix = True
 
-hoverxref_auto_ref=True
+hoverxref_auto_ref = True
+hoverxref_domains = ['py']
+hoverxref_roles = [
+    'option',
+    'doc',
+]
+hoverxref_role_types = {
+    'mod': 'modal',  # for Python Sphinx Domain
+    'doc': 'modal',  # for whole docs
+    'class': 'tooltip',  # for Python Sphinx Domain
+    'ref': 'tooltip',  # for hoverxref_auto_ref config
+    'confval': 'tooltip',  # for custom object
+}
 
 sitemap_locales = [None]
 
@@ -462,7 +476,9 @@ pygments_style = 'sphinx'
 # a list of builtin themes.
 # html_theme = 'rtd_dark.css'
 
+import sphinx_rtd_theme
 html_theme = 'sphinx_rtd_theme'
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # html_theme = 'sphinx_material'
 
@@ -481,6 +497,12 @@ html_theme = 'sphinx_rtd_theme'
 # html_theme_options = {
 #     'prev_next_buttons_location': 'both'
 # }
+
+html_theme_options = {
+    'logo_only': True,
+    'display_version': True,
+    'prev_next_buttons_location': 'both'    
+}
 
 html_context = {
     # "favicon": "img/favicon.ico",
