@@ -1,0 +1,853 @@
+
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  
+  <title>What is Bareos? &mdash; all-knowledge</title>
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="../_static/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../_static/icons/favicon-16x16.png">
+  <link rel="manifest" href="../_static/icons/site.webmanifest">
+  <link rel="mask-icon" href="../_static/icons/safari-pinned-tab.svg" color="#919191">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="msapplication-config" content="../_static/icons/browserconfig.xml">
+  <link rel="stylesheet" href="../_static/stylesheets/examples.css">
+  <link rel="stylesheet" href="../_static/stylesheets/deprecation.css">
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/tooltipster.custom.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/tooltipster.bundle.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/tooltipster-sideTip-shadow.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/tooltipster-sideTip-punk.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/tooltipster-sideTip-noir.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/tooltipster-sideTip-light.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/tooltipster-sideTip-borderless.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/micromodal.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/tabs.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/sphinx_rtd_theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/contentui.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/gallery.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/gallery-binder.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/gallery-dataframe.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/gallery-rendered-html.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/sphinxcontrib-images/LightBox2/lightbox2/css/lightbox.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+
+  
+  
+
+  
+    <link rel="canonical" href="https://pandemic-overview.readthedocs.io/en/latest/bareos/WhatIsBareos.html" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/clipboard.min.js"></script>
+        <script src="../_static/copybutton.js"></script>
+        <script src="../_static/js/hoverxref.js"></script>
+        <script src="../_static/js/tooltipster.bundle.min.js"></script>
+        <script src="../_static/js/micromodal.min.js"></script>
+        <script src="../_static/tabs.js"></script>
+        <script src="../_static/js/expand_tabs.js"></script>
+        <script src="../_static/contentui.js"></script>
+        <script src="../_static/sphinxcontrib-images/LightBox2/lightbox2/js/jquery-1.11.0.min.js"></script>
+        <script src="../_static/sphinxcontrib-images/LightBox2/lightbox2/js/lightbox.min.js"></script>
+        <script src="../_static/sphinxcontrib-images/LightBox2/lightbox2-customize/jquery-noconflict.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="reST Overview" href="RestOverview.html" />
+    <link rel="prev" title="Bareos Project - Reference Implementation" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html">
+          
+
+          
+            
+            <img src="../_static/statsmodels-logo-v2-bw.svg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../topics/Covid-Medical-Treatments/Covid-Medical-Treatments.html">Covid Medical Treatments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Bill-Gates-Memes/Bill-Gates-Memes.html">Bill Gates Memes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/topics.html">Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Data-science-of-the-pandemic/Data-science-of-the-pandemic.html">Data Science of the Pandemic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Vaccines/Vaccines.html">Vaccines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Masks/Masks.html">Masks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Lockdowns/Lockdowns.html">Lockdowns</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Origins-of-the-Virus/Origins-of-the-Virus.html">Origins of the Virus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Pandemic-Preparedness/Pandemic-Preparedness.html">Pandemic Preparedness</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Pandemic-Participants/Pandemic-Participants.html">Pandemic Participants</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Food-Safety/Food-Safety.html">Food Safety</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Municipal-Matters/Municipal-Matters.html">Municipal Issues and Topics</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../How-you-can-help/How-you-can-help.html">How you can help</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../myGuides/Tech-stack-for-this-website.html">Tech stack for this website</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../myGuides/myGuides.html">My Guides for Various Technical Topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../myGuides/General-computer-setup.html">General Computer Setup</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../myGuides/Advanced-Computer-Setup.html">Advanced Computer Setup and Topics</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/ReadTheDocs-Documentation-System.html">ReadTheDocs Documentation System</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/vscode-SSH-Remote-Containers.html">Visual Studio Code SSH Remote Development with Containers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Documentation-System.html">Sphinx Documentation System</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="index.html">Bareos Project - Reference Implementation</a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">What is Bareos?</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RestOverview.html">reST Overview</a></li>
+<li class="toctree-l4"><a class="reference internal" href="CommonNames.html">Common Names</a></li>
+<li class="toctree-l4"><a class="reference internal" href="SpecificFormatting.html">Specific Formatting</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BareosSpecificFormatting.html">Bareos Specific Formatting</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Gotchas.html">Gotchas</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Bareos-conf-py.html">The bareos conf.py looks as follows</a></li>
+<li class="toctree-l4"><a class="reference internal" href="config-file/index.html">Configuration File</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Container-Workflow.html">Introduction to Developing in the Docker Container Workflow</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Docker-and-Sphinx.html">Docker and Sphinx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Google-Bing-Webmaster-Tools-Search-and-Rich-Results.html">Google Bing Webmaster Tools Search and Rich Results</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Binder.html">Binder usage with Sphinx-Gallery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/How-to-install-python-on-debian.html">How To Install Python on Debian</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Invenio-Software.html">Invenio Software</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/pip-package-installer-for-python.html">pip is the package installer for Python</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-copybutton.html">Sphinx Copybutton</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-embed-object-iFrame-video-html-PDF-twitter-examples.html">Sphinx embed object iFrame video html PDF Twitter examples</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Lillypond.html">Sphinx Lillypond</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-last-updated-by-git.html">sphinx-last-updated-by-git</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-last-updated-by-git.html#get-the-last-updated-time-for-each-sphinx-page-from-git">Get the “last updated” time for each Sphinx page from Git</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Twitter.html">Sphinx Twitter (Python Twitter)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Gallery.html">Sphinx Gallery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Gitstamp.html">Sphinx Gitstamp Generator Extension</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Jinja.html">Sphinx Jinja is a templating engine</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Hoverxref.html">Sphinx Hoverxref</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-pdfembed.html">Sphinx PDF Embed - sphinxcontrib-pdfembed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinxext-remoteliteralinclude.html">Sphinx Remote Literal Include</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Redirects.html">Sphinx Redirects</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-rediraffe.html">Sphinx Rediraffe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Sitemap.html">Sphinx Sitemap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Templating.html">Sphinx Templating</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Timeline.html">Sphinx Timeline</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Werkzeug-comprehensive-WSGI-web-application-library.html">Werkzeug WSGI web application library</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/WSGI-is-the-Web-Server-Gateway-Interface.html">WSGI is the Web Server Gateway Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Zenodo.html">Zenodo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Zotero.html">Zotero</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Kubernetes.html">Kubernetes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Github-Workflow.html">GitHub Workflow</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../myGuides/aws/Amazon-AWS-Learning.html">Amazon AWS Learning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../myGuides/ToDo-project-tasks.html">ToDo project and documentation tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../myGuides/Contribute.html">Contribute</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../myGuides/Upcoming-software-to-try.html">Links of Upcoming Software to Try</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../How-you-can-help/Links-to-add-to-site.html">Links to add to the documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../How-you-can-help/Future-topics-to-be-developed.html">Future Topics to be developed</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Sandbox/Sandbox.html">Sandbox</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../License/license.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Help-about/help.html">Help - About</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Covid-Medical-Treatments/Covid-Medical-Treatments.html">Covid Medical Treatments</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Bill-Gates-Memes/Bill-Gates-Memes.html">Bill Gates Memes</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/topics.html">Topics</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Data-science-of-the-pandemic/Data-science-of-the-pandemic.html">Data Science of the Pandemic</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Vaccines/Vaccines.html">Vaccines</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Masks/Masks.html">Masks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Lockdowns/Lockdowns.html">Lockdowns</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Origins-of-the-Virus/Origins-of-the-Virus.html">Origins of the Virus</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Pandemic-Preparedness/Pandemic-Preparedness.html">Pandemic Preparedness</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Pandemic-Participants/Pandemic-Participants.html">Pandemic Participants</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Food-Safety/Food-Safety.html">Food Safety</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Municipal-Matters/Municipal-Matters.html">Municipal Issues and Topics</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../How-you-can-help/How-you-can-help.html">How you can help</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../myGuides/Tech-stack-for-this-website.html">Tech stack for this website</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../myGuides/myGuides.html">My Guides for Various Technical Topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../myGuides/General-computer-setup.html">General Computer Setup</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../myGuides/Advanced-Computer-Setup.html">Advanced Computer Setup and Topics</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/ReadTheDocs-Documentation-System.html">ReadTheDocs Documentation System</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/vscode-SSH-Remote-Containers.html">Visual Studio Code SSH Remote Development with Containers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Documentation-System.html">Sphinx Documentation System</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="index.html">Bareos Project - Reference Implementation</a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">What is Bareos?</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RestOverview.html">reST Overview</a></li>
+<li class="toctree-l4"><a class="reference internal" href="CommonNames.html">Common Names</a></li>
+<li class="toctree-l4"><a class="reference internal" href="SpecificFormatting.html">Specific Formatting</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BareosSpecificFormatting.html">Bareos Specific Formatting</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Gotchas.html">Gotchas</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Bareos-conf-py.html">The bareos conf.py looks as follows</a></li>
+<li class="toctree-l4"><a class="reference internal" href="config-file/index.html">Configuration File</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Container-Workflow.html">Introduction to Developing in the Docker Container Workflow</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Docker-and-Sphinx.html">Docker and Sphinx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Google-Bing-Webmaster-Tools-Search-and-Rich-Results.html">Google Bing Webmaster Tools Search and Rich Results</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Binder.html">Binder usage with Sphinx-Gallery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/How-to-install-python-on-debian.html">How To Install Python on Debian</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Invenio-Software.html">Invenio Software</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/pip-package-installer-for-python.html">pip is the package installer for Python</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-copybutton.html">Sphinx Copybutton</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-embed-object-iFrame-video-html-PDF-twitter-examples.html">Sphinx embed object iFrame video html PDF Twitter examples</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Lillypond.html">Sphinx Lillypond</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-last-updated-by-git.html">sphinx-last-updated-by-git</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-last-updated-by-git.html#get-the-last-updated-time-for-each-sphinx-page-from-git">Get the “last updated” time for each Sphinx page from Git</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Twitter.html">Sphinx Twitter (Python Twitter)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Gallery.html">Sphinx Gallery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Gitstamp.html">Sphinx Gitstamp Generator Extension</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Jinja.html">Sphinx Jinja is a templating engine</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Hoverxref.html">Sphinx Hoverxref</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-pdfembed.html">Sphinx PDF Embed - sphinxcontrib-pdfembed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinxext-remoteliteralinclude.html">Sphinx Remote Literal Include</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Redirects.html">Sphinx Redirects</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-rediraffe.html">Sphinx Rediraffe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Sitemap.html">Sphinx Sitemap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Templating.html">Sphinx Templating</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Timeline.html">Sphinx Timeline</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Werkzeug-comprehensive-WSGI-web-application-library.html">Werkzeug WSGI web application library</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/WSGI-is-the-Web-Server-Gateway-Interface.html">WSGI is the Web Server Gateway Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Zenodo.html">Zenodo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Zotero.html">Zotero</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Kubernetes.html">Kubernetes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Github-Workflow.html">GitHub Workflow</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../myGuides/aws/Amazon-AWS-Learning.html">Amazon AWS Learning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../myGuides/ToDo-project-tasks.html">ToDo project and documentation tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../myGuides/Contribute.html">Contribute</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../myGuides/Upcoming-software-to-try.html">Links of Upcoming Software to Try</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../How-you-can-help/Links-to-add-to-site.html">Links to add to the documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../How-you-can-help/Future-topics-to-be-developed.html">Future Topics to be developed</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">all-knowledge</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../How-you-can-help/How-you-can-help.html">How you can help</a> &raquo;</li>
+        
+          <li><a href="../myGuides/Advanced-Computer-Setup.html">Advanced Computer Setup and Topics</a> &raquo;</li>
+        
+          <li><a href="index.html">Bareos Project - Reference Implementation</a> &raquo;</li>
+        
+      <li>What is Bareos?</li>
+    
+    
+    <li class="wy-breadcrumbs-aside">
+    
+        
+        <a href="../_sources/bareos/WhatIsBareos.rst.txt" rel="nofollow"> View page source</a>
+        
+    
+    </li>
+
+  </ul>
+
+  
+  <div class="rst-breadcrumbs-buttons" role="navigation" aria-label="breadcrumb navigation">
+      
+        <a href="RestOverview.html" class="btn btn-neutral float-right" title="reST Overview" accesskey="n">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Bareos Project - Reference Implementation" accesskey="p"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+      
+  </div>
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <section id="what-is-bareos">
+<span id="generalchapter"></span><h1>What is Bareos?<a class="headerlink" href="#what-is-bareos" title="Permalink to this headline">¶</a></h1>
+<p>Bareos is a set of computer programs that permits the system administrator to manage backup, recovery, and verification of computer data across a network of computers of different kinds. Bareos can also run entirely upon a single computer and can backup to various types of media, including tape and disk.</p>
+<p>In technical terms, it is a network Client/Server based backup program. Bareos is relatively easy to use and efficient, while offering many advanced storage management features that make it easy to find and recover lost or damaged files. Due to its modular design, Bareos is scalable from small single computer systems to systems consisting of hundreds of computers located over a large network.</p>
+<section id="history">
+<span id="id1"></span><h2>History<a class="headerlink" href="#history" title="Permalink to this headline">¶</a></h2>
+<p>Bareos is a <a class="reference external" href="http://www.bareos.org/en/faq/why_fork.html">fork</a> of the open source project <a class="reference external" href="http://www.bacula.org">Bacula</a> version 5.2. In 2010 the Bacula community developer Marco van Wieringen started to collect rejected or neglected community contributions in his own branch. This branch was later on the base of Bareos and since then was enriched by a lot of new features.</p>
+<p>This documentation also bases on the <a class="reference external" href="http://www.bacula.org/5.2.x-manuals/en/main/main/">original Bacula documentation</a>, it is technically also a fork of the documenation created following the rules of the GNU Free Documentation License.</p>
+<p>Original author of Bacula and its documentation is Kern Sibbald. We thank Kern and all contributors to Bacula and it’s documentation. We maintain a list of contributors to Bacula (until the time we’ve started the fork) and Bareos in our <a class="reference external" href="https://github.com/bareos/bareos/blob/master/AUTHORS">AUTHORS</a> file.</p>
+</section>
+<section id="who-needs-bareos">
+<h2>Who Needs Bareos?<a class="headerlink" href="#who-needs-bareos" title="Permalink to this headline">¶</a></h2>
+<p>If you are currently using a program such as tar, dump, or bru to backup your computer data, and you would like a network solution, more flexibility, or catalog services, Bareos will most likely provide the additional features you want. However, if you are new to Unix systems or do not have offsetting experience with a sophisticated backup package, the Bareos project does not recommend using Bareos as it is much more difficult to setup and use than tar or dump.</p>
+<p>If you want Bareos to behave like the above mentioned simple programs and write over any tape that you put in the drive, then you will find working with Bareos difficult. Bareos is designed to protect your data following the rules you specify, and this means reusing a tape only as the last resort. It is possible to “force” Bareos to write over any tape in the drive, but it is easier and more efficient to use a simpler program for that kind of operation.</p>
+<p>If you would like a backup program that can write to multiple volumes (i.e. is not limited by your tape drive capacity), Bareos can most likely fill your needs.</p>
+<p>If you are currently using a sophisticated commercial package such as Legato Networker, ARCserveIT, Arkeia, IBM Tivoli Storage Manager or PerfectBackup+, you may be interested in Bareos, which provides many of the same features and is free software available under the GNU AGPLv3 software license.</p>
+</section>
+<section id="bareos-components-or-services">
+<h2>Bareos Components or Services<a class="headerlink" href="#bareos-components-or-services" title="Permalink to this headline">¶</a></h2>
+<p>Bareos is made up of the following major components or services: Director, Console, File, Storage, and Monitor services.</p>
+<section id="bareos-director">
+<span id="dirdef"></span><h3>Bareos Director<a class="headerlink" href="#bareos-director" title="Permalink to this headline">¶</a></h3>
+<p>The Director is the central control program for all the other daemons. It schedules and supervises all the backup, restore, verify and archive operations. The system administrator uses the Bareos Director to schedule backups and to recover files. The Director runs as a daemon (or service) in the background.</p>
+</section>
+<section id="bareos-console">
+<span id="uadef"></span><h3>Bareos Console<a class="headerlink" href="#bareos-console" title="Permalink to this headline">¶</a></h3>
+<p>The Bareos Console (<strong class="command">bconsole</strong>) is the program that allows the administrator or user to communicate with the Bareos Director. It runs in a shell window (i.e. TTY interface). Most system administrators will find this completely adequate. For more details see the <span class="xref std std-ref">section-bconsole</span>.</p>
+</section>
+<section id="bareos-file-daemon">
+<span id="fddef"></span><h3>Bareos File Daemon<a class="headerlink" href="#bareos-file-daemon" title="Permalink to this headline">¶</a></h3>
+<p>The Bareos File Daemon is a program that must be installed on each (Client) machine that should be backed up. At the request of the Bareos Director, it finds the files to be backed up and sends them (their data) to the Bareos Storage Daemon.</p>
+<p>It is specific to the operating system on which it runs and is responsible for providing the file attributes and data when requested by the Bareos Director.</p>
+<p>The Bareos File Daemon is also responsible for the file system dependent part of restoring the file attributes and data during a recovery operation. This program runs as a daemon on the machine to be backed up.</p>
+</section>
+<section id="bareos-storage-daemon">
+<span id="sddef"></span><h3>Bareos Storage Daemon<a class="headerlink" href="#bareos-storage-daemon" title="Permalink to this headline">¶</a></h3>
+<p>The Bareos Storage Daemon is responsible, at the Bareos Director request, for accepting data from a Bareos File Daemon and storing the file attributes and data to the physical backup media or volumes. In the case of a restore request, it is responsible to find the data and send it to the Bareos File Daemon.</p>
+<p>There can be multiple Bareos Storage Daemon in your environment, all controlled by the same Bareos Director.</p>
+<p>The Storage services runs as a daemon on the machine that has the backup device (such as a tape drive).</p>
+</section>
+<section id="catalog">
+<span id="dbdefinition"></span><h3>Catalog<a class="headerlink" href="#catalog" title="Permalink to this headline">¶</a></h3>
+<p>The Catalog services are comprised of the software programs responsible for maintaining the file indexes and volume databases for all files backed up. The Catalog services permit the system administrator or user to quickly locate and restore any desired file. The Catalog services sets Bareos apart from simple backup programs like tar and bru, because the catalog maintains a record of all Volumes used, all Jobs run, and all Files saved, permitting efficient restoration and Volume management.
+Bareos currently supports three different databases, MySQL, PostgreSQL, and SQLite, one of which must be chosen when building Bareos.</p>
+<p>The three SQL databases currently supported (MySQL, PostgreSQL or SQLite) provide quite a number of features, including rapid indexing, arbitrary queries, and security. Although the Bareos project plans to support other major SQL databases, the current Bareos implementation interfaces only to MySQL, PostgreSQL and SQLite.</p>
+<p>To perform a successful save or restore, the following four daemons must be configured and running: the Director daemon, the File daemon, the Storage daemon, and the Catalog service (MySQL, PostgreSQL or SQLite).</p>
+</section>
+</section>
+<section id="bareos-version-numbers-and-releases">
+<span id="section-version-numbers"></span><h2>Bareos Version Numbers and Releases<a class="headerlink" href="#bareos-version-numbers-and-releases" title="Permalink to this headline">¶</a></h2>
+<p><span class="target" id="index-0"></span> <span class="target" id="index-1"></span></p>
+<p>Bareos <a href="#id2"><span class="problematic" id="id3">:sinceVersion:`20.0.0: Semantic Versioning`</span></a> follows <a class="reference external" href="https://semver.org/spec/v2.0.0.html">Semantic Versioning</a> with a few special considerations:</p>
+<ul class="simple">
+<li><p>If a new major release does not contain backwards-incompatible changes, a subsequent release of that major version may still break backwards-compatibility with a previous major release.</p></li>
+<li><p>Bareos Director and Bareos Storage Daemon are guaranteed to be backwards-compatible to the Bareos File Daemon of the previous two major releases.</p></li>
+</ul>
+</section>
+<section id="bareos-packages">
+<span id="section-bareospackages"></span><h2>Bareos Packages<a class="headerlink" href="#bareos-packages" title="Permalink to this headline">¶</a></h2>
+<p>Following Bareos Linux packages are available (release 17.2.4):</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 67%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Package Name</strong></p></th>
+<th class="head"><p><strong>Description</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>bareos</p></td>
+<td><p>Backup Archiving REcovery Open Sourced - metapackage</p></td>
+</tr>
+<tr class="row-odd"><td><p>bareos-bconsole</p></td>
+<td><p>Bareos administration console (CLI)</p></td>
+</tr>
+<tr class="row-even"><td><p>bareos-client</p></td>
+<td><p>Bareos client Meta-All-In-One package</p></td>
+</tr>
+<tr class="row-odd"><td><p>bareos-common</p></td>
+<td><p>Common files, required by multiple Bareos packages</p></td>
+</tr>
+<tr class="row-even"><td><p>bareos-database-common</p></td>
+<td><p>Generic abstraction libs and files to connect to a database</p></td>
+</tr>
+<tr class="row-odd"><td><p>bareos-database-mysql</p></td>
+<td><p>Libs and tools for mysql catalog</p></td>
+</tr>
+<tr class="row-even"><td><p>bareos-database-postgresql</p></td>
+<td><p>Libs and tools for postgresql catalog</p></td>
+</tr>
+<tr class="row-odd"><td><p>bareos-database-sqlite3</p></td>
+<td><p>Libs and tools for sqlite3 catalog</p></td>
+</tr>
+<tr class="row-even"><td><p>bareos-database-tools</p></td>
+<td><p>Bareos CLI tools with database dependencies (bareos-dbcheck, bscan)</p></td>
+</tr>
+<tr class="row-odd"><td><p>bareos-devel</p></td>
+<td><p>Devel headers</p></td>
+</tr>
+<tr class="row-even"><td><p>bareos-director</p></td>
+<td><p>Bareos Director daemon</p></td>
+</tr>
+<tr class="row-odd"><td><p>bareos-director-python-plugin</p></td>
+<td><p>Python plugin for Bareos Director daemon</p></td>
+</tr>
+<tr class="row-even"><td><p>bareos-filedaemon</p></td>
+<td><p>Bareos File daemon (backup and restore client)</p></td>
+</tr>
+<tr class="row-odd"><td><p>bareos-filedaemon-ceph-plugin</p></td>
+<td><p>CEPH plugin for Bareos File daemon</p></td>
+</tr>
+<tr class="row-even"><td><p>bareos-filedaemon-glusterfs-plugin</p></td>
+<td><p>GlusterFS plugin for Bareos File daemon</p></td>
+</tr>
+<tr class="row-odd"><td><p>bareos-filedaemon-ldap-python-plugin</p></td>
+<td><p>LDAP Python plugin for Bareos File daemon</p></td>
+</tr>
+<tr class="row-even"><td><p>bareos-filedaemon-python-plugin</p></td>
+<td><p>Python plugin for Bareos File daemon</p></td>
+</tr>
+<tr class="row-odd"><td><p>bareos-regress-config</p></td>
+<td><p>Required files for bareos-regress</p></td>
+</tr>
+<tr class="row-even"><td><p>bareos-storage</p></td>
+<td><p>Bareos Storage daemon</p></td>
+</tr>
+<tr class="row-odd"><td><p>bareos-storage-ceph</p></td>
+<td><p>CEPH support for the Bareos Storage daemon</p></td>
+</tr>
+<tr class="row-even"><td><p>bareos-storage-droplet</p></td>
+<td><p>Object Storage support (through libdroplet) for the Bareos Storage daemon</p></td>
+</tr>
+<tr class="row-odd"><td><p>bareos-storage-fifo</p></td>
+<td><p>FIFO support for the Bareos Storage backend</p></td>
+</tr>
+<tr class="row-even"><td><p>bareos-storage-glusterfs</p></td>
+<td><p>GlusterFS support for the Bareos Storage daemon</p></td>
+</tr>
+<tr class="row-odd"><td><p>bareos-storage-python-plugin</p></td>
+<td><p>Python plugin for Bareos Storage daemon</p></td>
+</tr>
+<tr class="row-even"><td><p>bareos-storage-tape</p></td>
+<td><p>Tape support for the Bareos Storage daemon</p></td>
+</tr>
+<tr class="row-odd"><td><p>bareos-tools</p></td>
+<td><p>Bareos CLI tools (bcopy, bextract, bls, bregex, bwild)</p></td>
+</tr>
+<tr class="row-even"><td><p>bareos-traymonitor</p></td>
+<td><p>Bareos Tray Monitor (QT)</p></td>
+</tr>
+<tr class="row-odd"><td><p>bareos-vadp-dumper</p></td>
+<td><p>VADP Dumper - vStorage APIs for Data Protection Dumper program</p></td>
+</tr>
+<tr class="row-even"><td><p>bareos-vmware-plugin</p></td>
+<td><p>Bareos VMware plugin</p></td>
+</tr>
+<tr class="row-odd"><td><p>bareos-vmware-plugin-compat</p></td>
+<td><p>Bareos VMware plugin compatibility</p></td>
+</tr>
+<tr class="row-even"><td><p>bareos-vmware-vix-disklib</p></td>
+<td><p>VMware vix disklib distributable libraries</p></td>
+</tr>
+<tr class="row-odd"><td><p>bareos-webui</p></td>
+<td><p>Bareos Web User Interface</p></td>
+</tr>
+<tr class="row-even"><td><p>python-bareos</p></td>
+<td><p>Backup Archiving REcovery Open Sourced - Python module</p></td>
+</tr>
+</tbody>
+</table>
+<p>Not all packages (especially optional backends and plugins) are available on all platforms. For details, see <span class="xref std std-ref">section-packages</span>.</p>
+<p>Additionally, packages containing debug information are available. These are named differently depending on the distribution (<strong>bareos-debuginfo</strong> or <strong>bareos-dbg</strong> or …).</p>
+<p>Not all packages are required to run Bareos.</p>
+<ul class="simple">
+<li><p>For the Bareos Director, the package <strong>bareos-director</strong> and one of <strong>bareos-database-postgresql</strong>, <strong>bareos-database-mysql</strong> or <strong>bareos-database-sqlite3</strong> are required. It is recommended to use <strong>bareos-database-postgresql</strong>.</p></li>
+<li><p>For the Bareos Storage Daemon, the package <strong>bareos-storage</strong> is required. If you plan to connect tape drives to the storage director, also install the package <strong>bareos-storage-tape</strong>. This is kept separately, because it has additional dependencies for tape tools.</p></li>
+<li><p>On a client, only the package <strong>bareos-filedaemon</strong> is required. If you run it on a workstation, the packages <strong>bareos-traymonitor</strong> gives the user information about running backups.</p></li>
+<li><p>On a Backup Administration system you need to install at least <strong>bareos-bconsole</strong> to have an interactive console to the Bareos Director.</p></li>
+</ul>
+</section>
+<section id="quick-start">
+<h2>Quick Start<a class="headerlink" href="#quick-start" title="Permalink to this headline">¶</a></h2>
+<p>To get Bareos up and running quickly, the author recommends that you first scan the Terminology section below, then quickly review the next chapter entitled <a class="reference internal" href="#statechapter"><span class="std std-ref">The Current State of Bareos</span></a>, then the <span class="xref std std-ref">Installing Bareos</span>, the <span class="xref std std-ref">Getting Started with Bareos</span>, which will give you a quick overview of getting Bareos running. After which, you should proceed to the chapter
+<span class="xref std std-ref">How to Configure Bareos</span>, and finally the chapter on <span class="xref std std-ref">Running Bareos</span>.</p>
+</section>
+<section id="terminology">
+<h2>Terminology<a class="headerlink" href="#terminology" title="Permalink to this headline">¶</a></h2>
+<p><span class="target" id="index-2"></span></p>
+<dl>
+<dt>Administrator</dt><dd><p><span class="target" id="index-3"></span> The person or persons responsible for administrating the Bareos system.</p>
+</dd>
+<dt>Backup</dt><dd><p><span class="target" id="index-4"></span> The term Backup refers to a Bareos Job that saves files.</p>
+</dd>
+<dt>Bootstrap File</dt><dd><p><span class="target" id="index-5"></span> The bootstrap file is an ASCII file containing a compact form of commands that allow Bareos or the stand-alone file extraction utility (bextract) to restore the contents of one or more Volumes, for example, the current state of a system just backed up. With a bootstrap file, Bareos can restore your system without a Catalog. You can create a bootstrap file from a Catalog to extract any file or files you wish.</p>
+</dd>
+<dt>Catalog</dt><dd><p><span class="target" id="index-6"></span> The Catalog is used to store summary information about the Jobs, Clients, and Files that were backed up and on what Volume or Volumes. The information saved in the Catalog permits the administrator or user to determine what jobs were run, their status as well as the important characteristics of each file that was backed up, and most importantly, it permits you to choose what files to restore. The Catalog is an online resource, but does not contain the
+data for the files backed up. Most of the information stored in the catalog is also stored on the backup volumes (i.e. tapes). Of course, the tapes will also have a copy of the file data in addition to the File Attributes (see below).</p>
+<p>The catalog feature is one part of Bareos that distinguishes it from simple backup and archive programs such as dump and tar.</p>
+</dd>
+<dt>Client</dt><dd><p><span class="target" id="index-7"></span> <span class="target" id="index-8"></span> In Bareos’s terminology, the word Client refers to the machine being backed up, and it is synonymous with the File services or File daemon, and quite often, it is referred to it as the FD. A Client is defined in a configuration file resource.</p>
+</dd>
+<dt>Console</dt><dd><p><span class="target" id="index-9"></span> The program that interfaces to the Director allowing the user or system administrator to control Bareos.</p>
+</dd>
+<dt>Daemon</dt><dd><p><span class="target" id="index-10"></span> Unix terminology for a program that is always present in the background to carry out a designated task. On Windows systems, as well as some Unix systems, daemons are called Services.</p>
+</dd>
+<dt>Directive</dt><dd><p><span class="target" id="index-11"></span> The term directive is used to refer to a statement or a record within a Resource in a configuration file that defines one specific setting. For example, the Name directive defines the name of the Resource.</p>
+</dd>
+<dt>Director</dt><dd><p><span class="target" id="index-12"></span> The main Bareos server daemon that schedules and directs all Bareos operations. Occasionally, the project refers to the Director as DIR.</p>
+</dd>
+<dt>Differential</dt><dd><p><span class="target" id="index-13"></span> A backup that includes all files changed since the last Full save started. Note, other backup programs may define this differently.</p>
+</dd>
+<dt>File Attributes</dt><dd><p><span class="target" id="index-14"></span> The File Attributes are all the information necessary about a file to identify it and all its properties such as size, creation date, modification date, permissions, etc. Normally, the attributes are handled entirely by Bareos so that the user never needs to be concerned about them. The attributes do not include the file’s data.</p>
+</dd>
+<dt>File daemon</dt><dd><p><span class="target" id="index-15"></span> The daemon running on the client computer to be backed up. This is also referred to as the File services, and sometimes as the Client services or the FD.</p>
+</dd>
+</dl>
+<dl class="simple" id="filesetdef">
+<dt>FileSet</dt><dd><p>A FileSet is a Resource contained in a configuration file that defines the files to be backed up. It consists of a list of included files or directories, a list of excluded files, and how the file is to be stored (compression, encryption, signatures). For more details, see the <span class="xref std std-ref">DirectorResourceFileSet</span> in the Director chapter of this document.</p>
+</dd>
+<dt>Incremental</dt><dd><p><span class="target" id="index-16"></span> A backup that includes all files changed since the last Full, Differential, or Incremental backup started. It is normally specified on the Level directive within the Job resource definition, or in a Schedule resource.</p>
+</dd>
+</dl>
+<dl id="jobdef">
+<dt>Job</dt><dd><p><span class="target" id="index-17"></span> A Bareos Job is a configuration resource that defines the work that Bareos must perform to backup or restore a particular Client. It consists of the Type (backup, restore, verify, etc), the Level (full, differential, incremental, etc.), the FileSet, and Storage the files are to be backed up (Storage device, Media Pool). For more details, see the <span class="xref std std-ref">DirectorResourceJob</span> in the Director chapter of this document.</p>
+</dd>
+<dt>Monitor</dt><dd><p><span class="target" id="index-18"></span> The program that interfaces to all the daemons allowing the user or system administrator to monitor Bareos status.</p>
+</dd>
+<dt>Resource</dt><dd><p><span class="target" id="index-19"></span> A resource is a part of a configuration file that defines a specific unit of information that is available to Bareos. It consists of several directives (individual configuration statements). For example, the Job resource defines all the properties of a specific Job: name, schedule, Volume pool, backup type, backup level, …</p>
+</dd>
+<dt>Restore</dt><dd><p><span class="target" id="index-20"></span> A restore is a configuration resource that describes the operation of recovering a file from backup media. It is the inverse of a save, except that in most cases, a restore will normally have a small set of files to restore, while normally a Save backs up all the files on the system. Of course, after a disk crash, Bareos can be called upon to do a full Restore of all files that were on the system.</p>
+</dd>
+<dt>Schedule</dt><dd><p><span class="target" id="index-21"></span> A Schedule is a configuration resource that defines when the Bareos Job will be scheduled for execution. To use the Schedule, the Job resource will refer to the name of the Schedule. For more details, see the <span class="xref std std-ref">DirectorResourceSchedule</span> in the Director chapter of this document.</p>
+</dd>
+<dt>Service</dt><dd><p><span class="target" id="index-22"></span> This is a program that remains permanently in memory awaiting instructions. In Unix environments, services are also known as daemons.</p>
+</dd>
+<dt>Storage Coordinates</dt><dd><p><span class="target" id="index-23"></span> The information returned from the Storage Services that uniquely locates a file on a backup medium. It consists of two parts: one part pertains to each file saved, and the other part pertains to the whole Job. Normally, this information is saved in the Catalog so that the user doesn’t need specific knowledge of the Storage Coordinates. The Storage Coordinates include the File Attributes (see above) plus the unique location of the information
+on the backup Volume.</p>
+</dd>
+<dt>Storage Daemon</dt><dd><p><span class="target" id="index-24"></span> The Storage daemon, sometimes referred to as the SD, is the code that writes the attributes and data to a storage Volume (usually a tape or disk).</p>
+</dd>
+<dt>Session</dt><dd><p><span class="target" id="index-25"></span> Normally refers to the internal conversation between the File daemon and the Storage daemon. The File daemon opens a session with the Storage daemon to save a FileSet or to restore it. A session has a one-to-one correspondence to a Bareos Job (see above).</p>
+</dd>
+<dt>Verify</dt><dd><p><span class="target" id="index-26"></span> A verify is a job that compares the current file attributes to the attributes that have previously been stored in the Bareos Catalog. This feature can be used for detecting changes to critical system files similar to what a file integrity checker like Tripwire does. One of the major advantages of using Bareos to do this is that on the machine you want protected such as a server, you can run just the File daemon, and the Director, Storage daemon, and
+Catalog reside on a different machine. As a consequence, if your server is ever compromised, it is unlikely that your verification database will be tampered with.</p>
+<p>Verify can also be used to check that the most recent Job data written to a Volume agrees with what is stored in the Catalog (i.e. it compares the file attributes), *or it can check the Volume contents against the original files on disk.</p>
+</dd>
+<dt>Retention Period</dt><dd><p><span class="target" id="index-27"></span> There are various kinds of retention periods that Bareos recognizes. The most important are the File Retention Period, Job Retention Period, and the Volume Retention Period. Each of these retention periods applies to the time that specific records will be kept in the Catalog database. This should not be confused with the time that the data saved to a Volume is valid.</p>
+<p>The File Retention Period determines the time that File records are kept in the catalog database. This period is important for two reasons: the first is that as long as File records remain in the database, you can “browse” the database with a console program and restore any individual file. Once the File records are removed or pruned from the database, the individual files of a backup job can no longer be “browsed”. The second reason for carefully choosing the File Retention Period is because
+the volume of the database File records use the most storage space in the database. As a consequence, you must ensure that regular “pruning” of the database file records is done to keep your database from growing too large. (See the Console prune command for more details on this subject).</p>
+<p>The Job Retention Period is the length of time that Job records will be kept in the database. Note, all the File records are tied to the Job that saved those files. The File records can be purged leaving the Job records. In this case, information will be available about the jobs that ran, but not the details of the files that were backed up. Normally, when a Job record is purged, all its File records will also be purged.</p>
+<p>The Volume Retention Period is the minimum of time that a Volume will be kept before it is reused. Bareos will normally never overwrite a Volume that contains the only backup copy of a file. Under ideal conditions, the Catalog would retain entries for all files backed up for all current Volumes. Once a Volume is overwritten, the files that were backed up on that Volume are automatically removed from the Catalog. However, if there is a very large pool of Volumes or a Volume is never
+overwritten, the Catalog database may become enormous. To keep the Catalog to a manageable size, the backup information should be removed from the Catalog after the defined File Retention Period. Bareos provides the mechanisms for the catalog to be automatically pruned according to the retention periods defined.</p>
+</dd>
+<dt>Scan</dt><dd><p><span class="target" id="index-28"></span> A Scan operation causes the contents of a Volume or a series of Volumes to be scanned. These Volumes with the information on which files they contain are restored to the Bareos Catalog. Once the information is restored to the Catalog, the files contained on those Volumes may be easily restored. This function is particularly useful if certain Volumes or Jobs have exceeded their retention period and have been pruned or purged from the Catalog. Scanning data
+from Volumes into the Catalog is done by using the bscan program. See the <span class="xref std std-ref">bscan section</span> of the Bareos Utilities chapter of this manual for more details.</p>
+</dd>
+<dt>Volume</dt><dd><p><span class="target" id="index-29"></span> A Volume is an archive unit, normally a tape or a named disk file where Bareos stores the data from one or more backup jobs. All Bareos Volumes have a software label written to the Volume by Bareos so that it identifies what Volume it is really reading. (Normally there should be no confusion with disk files, but with tapes, it is easy to mount the wrong one.)</p>
+</dd>
+</dl>
+</section>
+<section id="what-bareos-is-not">
+<h2>What Bareos is Not<a class="headerlink" href="#what-bareos-is-not" title="Permalink to this headline">¶</a></h2>
+<p>Bareos is a backup, restore and verification program and is not a complete disaster recovery system in itself, but it can be a key part of one if you plan carefully and follow the instructions included in the <span class="xref std std-ref">Disaster Recovery</span> chapter of this manual.</p>
+</section>
+<section id="interactions-between-the-bareos-services">
+<h2>Interactions Between the Bareos Services<a class="headerlink" href="#interactions-between-the-bareos-services" title="Permalink to this headline">¶</a></h2>
+<p>The following block diagram shows the typical interactions between the Bareos Services for a backup job. Each block represents in general a separate process (normally a daemon). In general, the Director oversees the flow of information. It also maintains the Catalog.</p>
+<a class="reference internal image-reference" href="../_images/flow.png"><img alt="../_images/flow.png" src="../_images/flow.png" style="width: 80.0%;" /></a>
+</section>
+<section id="the-current-state-of-bareos">
+<span id="statechapter"></span><h2>The Current State of Bareos<a class="headerlink" href="#the-current-state-of-bareos" title="Permalink to this headline">¶</a></h2>
+<section id="what-is-implemented">
+<h3>What is Implemented<a class="headerlink" href="#what-is-implemented" title="Permalink to this headline">¶</a></h3>
+<p><span class="target" id="index-30"></span></p>
+<ul class="simple">
+<li><p>Job Control</p>
+<ul>
+<li><p>Network backup/restore with centralized Director.</p></li>
+<li><p>Internal scheduler for automatic <a class="reference internal" href="#jobdef"><span class="std std-ref">Job</span></a> execution.</p></li>
+<li><p>Scheduling of multiple Jobs at the same time.</p></li>
+<li><p>You may run one Job at a time or multiple simultaneous Jobs (sometimes called multiplexing).</p></li>
+<li><p>Job sequencing using priorities.</p></li>
+<li><p><a class="reference internal" href="#uadef"><span class="std std-ref">Console</span></a> interface to the Director allowing complete control. Some GUIs are also available.</p></li>
+</ul>
+</li>
+<li><p>Security</p>
+<ul>
+<li><p>Verification of files previously cataloged, permitting a Tripwire like capability (system break-in detection).</p></li>
+<li><p>CRAM-MD5 password authentication between each component (daemon).</p></li>
+<li><p>Configurable <span class="xref std std-ref">TLS (SSL) communications encryption</span> between each component.</p></li>
+<li><p>Configurable <span class="xref std std-ref">Data (on Volume) encryption</span> on a Client by Client basis.</p></li>
+<li><p>Computation of MD5 or SHA1 signatures of the file data if requested.</p></li>
+</ul>
+</li>
+<li><p>Restore Features</p>
+<ul>
+<li><p>Restore of one or more files selected interactively either for the current backup or a backup prior to a specified time and date.</p></li>
+<li><p>Listing and Restoration of files using stand-alone <strong class="command">bls</strong> and <strong class="command">bextract</strong> tool programs. Among other things, this permits extraction of files when Bareos and/or the catalog are not available. Note, the recommended way to restore files is using the restore command in the Console. These programs are designed for use as a last resort.</p></li>
+<li><p>Ability to restore the catalog database rapidly by using bootstrap files (previously saved).</p></li>
+<li><p>Ability to recreate the catalog database by scanning backup Volumes using the <strong class="command">bscan</strong> program.</p></li>
+</ul>
+</li>
+<li><p>SQL Catalog</p>
+<ul>
+<li><p>Catalog database facility for remembering Volumes, Pools, Jobs, and Files backed up.</p></li>
+<li><p>Support for PostgreSQL, MySQL and SQLite Catalog databases.</p></li>
+<li><p>User extensible queries to the PostgreSQL, MySQL and SQLite databases.</p></li>
+</ul>
+</li>
+<li><p>Advanced Volume and Pool Management</p>
+<ul>
+<li><p>Labeled Volumes, preventing accidental overwriting (at least by Bareos).</p></li>
+<li><p>Any number of Jobs and Clients can be backed up to a single Volume. That is, you can backup and restore Linux, Unix and Windows machines to the same Volume.</p></li>
+<li><p>Multi-volume saves. When a Volume is full, Bareos automatically requests the next Volume and continues the backup.</p></li>
+<li><p><span class="xref std std-ref">Pool and Volume</span> library management providing Volume flexibility (e.g. monthly, weekly, daily Volume sets, Volume sets segregated by Client, …).</p></li>
+<li><p>Machine independent Volume data format. Linux, Solaris, and Windows clients can all be backed up to the same Volume if desired.</p></li>
+<li><p>The Volume data format is upwards compatible so that old Volumes can always be read.</p></li>
+<li><p>A flexible <span class="xref std std-ref">message</span> handler including routing of messages from any daemon back to the Director and automatic email reporting.</p></li>
+<li><p>Data spooling to disk during backup with subsequent write to tape from the spooled disk files. This prevents tape “shoe shine” during Incremental/Differential backups.</p></li>
+</ul>
+</li>
+<li><p>Advanced Support for most Storage Devices</p>
+<ul>
+<li><p>Autochanger support using a simple shell interface that can interface to virtually any autoloader program. A script for <strong class="command">mtx</strong> is provided.</p></li>
+<li><p>Support for autochanger barcodes – automatic tape labeling from barcodes.</p></li>
+<li><p>Automatic support for multiple autochanger magazines either using barcodes or by reading the tapes.</p></li>
+<li><p>Support for multiple drive autochangers.</p></li>
+<li><p>Raw device backup/restore. Restore must be to the same device.</p></li>
+<li><p>All Volume blocks contain a data checksum.</p></li>
+<li><p>Migration support – move data from one Pool to another or one Volume to another.</p></li>
+</ul>
+</li>
+<li><p>Multi-Operating System Support</p>
+<ul>
+<li><p>Programmed to handle arbitrarily long filenames and messages.</p></li>
+<li><p>Compression on a file by file basis done by the Client program if requested before network transit.</p></li>
+<li><p>Saves and restores POSIX ACLs and Extended Attributes on most OSes if enabled.</p></li>
+<li><p>Access control lists for Consoles that permit restricting user access to only their data.</p></li>
+<li><p>Support for save/restore of files larger than 2GB.</p></li>
+<li><p>Support ANSI and IBM tape labels.</p></li>
+<li><p>Support for Unicode filenames (e.g. Chinese) on Win32 machines</p></li>
+<li><p>Consistent backup of open files on Win32 systems using Volume Shadow Copy (VSS).</p></li>
+<li><p>Support for path/filename lengths of up to 64K on Win32 machines (unlimited on Unix/Linux machines).</p></li>
+</ul>
+</li>
+<li><p>Miscellaneous</p>
+<ul>
+<li><p>Multi-threaded implementation.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="advantages-over-other-backup-programs">
+<h3>Advantages Over Other Backup Programs<a class="headerlink" href="#advantages-over-other-backup-programs" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Bareos handles multi-volume backups.</p></li>
+<li><p>A full comprehensive SQL standard database of all files backed up. This permits online viewing of files saved on any particular Volume.</p></li>
+<li><p>Automatic pruning of the database (removal of old records) thus simplifying database administration.</p></li>
+<li><p>The modular but integrated design makes Bareos very scalable.</p></li>
+<li><p>Bareos has a built-in Job scheduler.</p></li>
+<li><p>The Volume format is documented and there are simple C programs to read/write it.</p></li>
+<li><p>Bareos uses well defined (IANA registered) TCP/IP ports – no rpcs, no shared memory.</p></li>
+<li><p>Bareos installation and configuration is relatively simple compared to other comparable products.</p></li>
+<li><p>Aside from several GUI administrative interfaces, Bareos has a comprehensive shell administrative interface, which allows the administrator to use tools such as ssh to administrate any part of Bareos from anywhere.</p></li>
+</ul>
+</section>
+<section id="current-implementation-restrictions">
+<h3>Current Implementation Restrictions<a class="headerlink" href="#current-implementation-restrictions" title="Permalink to this headline">¶</a></h3>
+<p><span class="target" id="index-31"></span></p>
+<section id="multiple-catalogs">
+<span id="multiplecatalogs"></span><h4>Multiple Catalogs<a class="headerlink" href="#multiple-catalogs" title="Permalink to this headline">¶</a></h4>
+<p>It is possible to configure the Bareos Director to use multiple Catalogs. However, this is neither advised, nor supported. Multiple catalogs require more management because in general you must know what catalog contains what data, e.g. currently, all Pools are defined in each catalog.</p>
+<ul class="simple">
+<li><p>Bareos can generally restore any backup made from one client to any other client. However, if the architecture is significantly different (i.e. 32 bit architecture to 64 bit or Win32 to Unix), some restrictions may apply (e.g. Solaris door files do not exist on other Unix/Linux machines; there are reports that Zlib compression written with 64 bit machines does not always read correctly on a 32 bit machine).</p></li>
+</ul>
+</section>
+</section>
+<section id="design-limitations-or-restrictions">
+<span id="section-designlimitations"></span><h3>Design Limitations or Restrictions<a class="headerlink" href="#design-limitations-or-restrictions" title="Permalink to this headline">¶</a></h3>
+<p><span class="target" id="index-32"></span> <span class="target" id="index-33"></span></p>
+<ul class="simple">
+<li><p>Names (resource names, volume names, and such) defined in Bareos configuration files are limited to a fixed number of characters. Currently the limit is defined as 127 characters. Note, this does not apply to filenames, which may be arbitrarily long.</p></li>
+<li><p>Command line input to some of the stand alone tools – e.g. <strong class="command">btape</strong>, <strong class="command">bconsole</strong> is restricted to several hundred characters maximum. Normally, this is not a restriction, except in the case of listing multiple Volume names for programs such as <strong class="command">bscan</strong>. To avoid this command line length restriction, please use a .bsr file to specify the Volume names.</p></li>
+<li><p>Bareos configuration files for each of the components can be any length. However, the length of an individual line is limited to 500 characters after which it is truncated. If you need lines longer than 500 characters for directives such as ACLs where they permit a list of names are character strings simply specify multiple short lines repeating the directive on each line but with different list values.</p></li>
+</ul>
+</section>
+<section id="items-to-note">
+<h3>Items to Note<a class="headerlink" href="#items-to-note" title="Permalink to this headline">¶</a></h3>
+<p><span class="target" id="index-34"></span></p>
+<ul class="simple">
+<li><p>Bareos’s Differential and Incremental <em>normal</em> backups are based on time stamps. Consequently, if you move files into an existing directory or move a whole directory into the backup fileset after a Full backup, those files will probably not be backed up by an Incremental save because they will have old dates. This problem is corrected by using <span class="xref std std-ref">Accurate mode</span> backups or by explicitly updating the date/time stamp on all moved files.</p></li>
+<li><p>In non Accurate mode, files deleted after a Full save will be included in a restoration. This is typical for most similar backup programs. To avoid this, use <span class="xref std std-ref">Accurate mode</span> backup.</p></li>
+</ul>
+<p>Last change: Sat, 24 Jul 2021 07:40 AM Coordinated Universal Time</p>
+</section>
+</section>
+</section>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="RestOverview.html" class="btn btn-neutral float-right" title="reST Overview" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Bareos Project - Reference Implementation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020-2021, Thomas Connors and Contributors.
+      <span class="lastupdated">
+        Last updated on Sat, 01 May 2021 12:00 AM .
+      </span>
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+  
+ <script type="text/javascript">
+    $(document).ready(function() {
+        $(".toggle > *").hide();
+        $(".toggle .header").show();
+        $(".toggle .header").click(function() {
+            $(this).parent().children().not(".header").toggle(400);
+            $(this).parent().children(".header").toggleClass("open");
+        })
+    });
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,493 @@
+
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  
+  <title>GOF - Gain of Function - An Analysis By Mohamed Gardoud &mdash; all-knowledge</title>
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="../../_static/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../_static/icons/favicon-16x16.png">
+  <link rel="manifest" href="../../_static/icons/site.webmanifest">
+  <link rel="mask-icon" href="../../_static/icons/safari-pinned-tab.svg" color="#919191">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="msapplication-config" content="../../_static/icons/browserconfig.xml">
+  <link rel="stylesheet" href="../../_static/stylesheets/examples.css">
+  <link rel="stylesheet" href="../../_static/stylesheets/deprecation.css">
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/copybutton.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/tooltipster.custom.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/tooltipster.bundle.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/tooltipster-sideTip-shadow.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/tooltipster-sideTip-punk.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/tooltipster-sideTip-noir.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/tooltipster-sideTip-light.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/tooltipster-sideTip-borderless.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/micromodal.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/tabs.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/sphinx_rtd_theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/contentui.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/gallery.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/gallery-binder.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/gallery-dataframe.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/gallery-rendered-html.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/sphinxcontrib-images/LightBox2/lightbox2/css/lightbox.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+  
+
+  
+  
+
+  
+    <link rel="canonical" href="https://pandemic-overview.readthedocs.io/en/latest/topics/Origins-of-the-Virus/GOF-Gain-of-Function-An-Analysis-By-Mohamed-Gardoud.html" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+        <script src="../../_static/clipboard.min.js"></script>
+        <script src="../../_static/copybutton.js"></script>
+        <script src="../../_static/js/hoverxref.js"></script>
+        <script src="../../_static/js/tooltipster.bundle.min.js"></script>
+        <script src="../../_static/js/micromodal.min.js"></script>
+        <script src="../../_static/tabs.js"></script>
+        <script src="../../_static/js/expand_tabs.js"></script>
+        <script src="../../_static/contentui.js"></script>
+        <script src="../../_static/sphinxcontrib-images/LightBox2/lightbox2/js/jquery-1.11.0.min.js"></script>
+        <script src="../../_static/sphinxcontrib-images/LightBox2/lightbox2/js/lightbox.min.js"></script>
+        <script src="../../_static/sphinxcontrib-images/LightBox2/lightbox2-customize/jquery-noconflict.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Knowledge vs Noise - our opinions about news and media sources" href="../Narrative-Control/Knowledge-vs-Noise-our-opinions-about-news-and-media-sources/Knowledge-vs-Noise-our-opinions-about-news-and-media-sources.html" />
+    <link rel="prev" title="GOF - Gain of Function" href="../GOF-Gain-of-Function/GOF-Gain-of-Function.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html">
+          
+
+          
+            
+            <img src="../../_static/statsmodels-logo-v2-bw.svg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../Covid-Medical-Treatments/Covid-Medical-Treatments.html">Covid Medical Treatments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Bill-Gates-Memes/Bill-Gates-Memes.html">Bill Gates Memes</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../topics.html">Topics</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../1976-Swine-Flu/1976-Swine-Flu.html">1976 Swine Flu Fiasco</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../5G-Beam-Forming/5G-Beam-Forming.html">5G Beam-Forming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ACE2/ACE2.html">ACE2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Advice-for-Living/Advice-for-Living.html">Advice for living</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Azithromycin/Azithromycin.html">Azithromycin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Bill-Gates-Memes/Bill-Gates-Memes.html">Bill Gates Memes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Bill-and-Melinda-Gates-Foundation/Bill-and-Melinda-Gates-Foundation.html">Bill and Melinda Gates Foundation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Budesonide-inhaler/Budesonide-inhaler.html">Budenside Inhaler</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Covid-Medical-Treatments/Covid-Medical-Treatments.html">Covid Medical Treatments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Narrative-Control/Current-Events-and-their-relationship-to-todays-events.html">Current Events and their relationship to today’s events</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Data-science-of-the-pandemic/Data-science-of-the-pandemic.html">Data Science of the Pandemic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Doxycycline/Doxycycline.html">Doxycycline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Economics-Fossil-Fuels-Pharma-Money-Power/Economics-Fossil-Fuels-Pharma-Money-Power.html">Economics, Fossil Fuels, Pharma, Money, Power</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../FAQ-Frequently-Asked-Questions/FAQ-Frequently-Asked-Questions.html">FAQ Frequently Asked Questions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../FAQ-Frequently-Asked-Questions/FAQ-Frequently-Asked-Questions.html#faq-future-topics-to-be-developed">FAQ: Future topics to be developed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../FAQ-Frequently-Asked-Questions/FAQ-Frequently-Asked-Questions.html#what-is-the-historical-background-and-timeline-of-key-participants-of-this-pandemic">What is the historical background and timeline of key participants of this pandemic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Food-Safety/Food-Safety.html">Food Safety</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../GOF-Gain-of-Function/GOF-Gain-of-Function.html">GOF - Gain of Function</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">GOF - Gain of Function - An Analysis By Mohamed Gardoud</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../GOF-Gain-of-Function/GOF-Gain-of-Function.html#remdesivir">Remdesivir</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../Narrative-Control/Knowledge-vs-Noise-our-opinions-about-news-and-media-sources/Knowledge-vs-Noise-our-opinions-about-news-and-media-sources.html">Knowledge vs Noise - our opinions about news and media sources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Narrative-Control/Government-Monitoring-and-Control/Government-Monitoring-and-Control.html">Government Monitoring and Control</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Health-A-to-Z/Health-A-to-Z.html">Health A to Z</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Health-A-to-Z/Health-Links-to-Add.html">Health Care Links to add to the documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Hydroxychloroquine/Hydroxychloroquine.html">Hydroxychloroquine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Ivermectin/Ivermectin.html">Ivermectin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Lockdowns/Lockdowns.html">Lockdowns</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Masks/Masks.html">Masks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Media-and-Influencers/Media-and-Influencers.html">Media and Influencers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Municipal-Matters/Municipal-Matters.html">Municipal Issues and Topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Narrative-Control/Narrative-Control.html">Narrative Control</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Origins-of-the-Virus.html">Origins of the Virus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Pandemic-Participants/Pandemic-Participants.html">Pandemic Participants</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Pandemic-Preparedness/Pandemic-Preparedness.html">Pandemic Preparedness</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Remdesivir/Remdesivir.html">Remdesivir</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Narrative-Control/Resources-and-additional-background-material/Resources-and-additional-background-material.html">Resources and additional background material</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../PRISM/PRISM.html">PRISM</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Rockefeller-Foundation/Rockefeller-Foundation.html">Rockefeller-Foundation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Shedding/Shedding.html">Shedding</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Toxoplasmosis/Toxoplasmosis.html">Seroprevalence of Toxoplasma gondii among pregnant women</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Treatment-of-COVID/Treatment-of-COVID.html">Treatment of COVID</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Tuskgee-Medical-Experiments/Tuskgee-Medical-Experiments.html">Tuskgee Medical Experiments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Vaccines/Vaccines.html">Vaccines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Vaccine-History/Vaccine-History.html">Vaccines - History</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Vaccines-How-Vaccines-Work/Vaccines-How-Vaccines-Work.html">Vaccines - How Vaccines Work</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Vaccine-Injury-Reporting-Systems/Vaccine-Injury-Reporting-Systems.html">Vaccine Injury Reporting Systems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../VAERS/VAERS.html">VAERS - Vaccine Adverse Event Reporting System</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Vaccine-Legal-Issues/Vaccine-Legal-Issues.html">Vaccines - Legal Issues</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Vaccine-Rollout-News/Vaccine-Rollout-News.html">Vaccines - Covid Rollout News</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Vaccine-Safety-Videos/Vaccine-Safety-Videos.html">Vaccines - Documentaries and Doctors who Explain Risks and Dangers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Vaccine-Schedule/Vaccine-Schedule.html">Vaccine Schedule</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Vaccine-Side-Effects/Vaccine-Side-Effects.html">Vaccines - Side Effects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Vaccine-Testing-and-Approvals/Vaccine-Testing-and-Approvals.html">Vaccines - Testing and Approvals</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Vitamin-D/Vitamin-D.html">Vitamin-D</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../WEF-World-Economic-Forum/WEF-World-Economic-Forum.html">WEF World Economic Forum</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../WHO-World-Health-Organization/WHO-World-Health-Organization.html">WHO World Health Organization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Words-of-Wisdom-from-Famous-People/Words-of-Wisdom-from-Famous-People.html">Words of Wisdom from Famous People</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Data-science-of-the-pandemic/Data-science-of-the-pandemic.html">Data Science of the Pandemic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Vaccines/Vaccines.html">Vaccines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Masks/Masks.html">Masks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Lockdowns/Lockdowns.html">Lockdowns</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Origins-of-the-Virus.html">Origins of the Virus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Pandemic-Preparedness/Pandemic-Preparedness.html">Pandemic Preparedness</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Pandemic-Participants/Pandemic-Participants.html">Pandemic Participants</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Food-Safety/Food-Safety.html">Food Safety</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Municipal-Matters/Municipal-Matters.html">Municipal Issues and Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../How-you-can-help/How-you-can-help.html">How you can help</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Sandbox/Sandbox.html">Sandbox</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../License/license.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Help-about/help.html">Help - About</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Covid-Medical-Treatments/Covid-Medical-Treatments.html">Covid Medical Treatments</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Bill-Gates-Memes/Bill-Gates-Memes.html">Bill Gates Memes</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../topics.html">Topics</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../1976-Swine-Flu/1976-Swine-Flu.html">1976 Swine Flu Fiasco</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../5G-Beam-Forming/5G-Beam-Forming.html">5G Beam-Forming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ACE2/ACE2.html">ACE2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Advice-for-Living/Advice-for-Living.html">Advice for living</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Azithromycin/Azithromycin.html">Azithromycin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Bill-Gates-Memes/Bill-Gates-Memes.html">Bill Gates Memes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Bill-and-Melinda-Gates-Foundation/Bill-and-Melinda-Gates-Foundation.html">Bill and Melinda Gates Foundation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Budesonide-inhaler/Budesonide-inhaler.html">Budenside Inhaler</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Covid-Medical-Treatments/Covid-Medical-Treatments.html">Covid Medical Treatments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Narrative-Control/Current-Events-and-their-relationship-to-todays-events.html">Current Events and their relationship to today’s events</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Data-science-of-the-pandemic/Data-science-of-the-pandemic.html">Data Science of the Pandemic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Doxycycline/Doxycycline.html">Doxycycline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Economics-Fossil-Fuels-Pharma-Money-Power/Economics-Fossil-Fuels-Pharma-Money-Power.html">Economics, Fossil Fuels, Pharma, Money, Power</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../FAQ-Frequently-Asked-Questions/FAQ-Frequently-Asked-Questions.html">FAQ Frequently Asked Questions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../FAQ-Frequently-Asked-Questions/FAQ-Frequently-Asked-Questions.html#faq-future-topics-to-be-developed">FAQ: Future topics to be developed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../FAQ-Frequently-Asked-Questions/FAQ-Frequently-Asked-Questions.html#what-is-the-historical-background-and-timeline-of-key-participants-of-this-pandemic">What is the historical background and timeline of key participants of this pandemic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Food-Safety/Food-Safety.html">Food Safety</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../GOF-Gain-of-Function/GOF-Gain-of-Function.html">GOF - Gain of Function</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">GOF - Gain of Function - An Analysis By Mohamed Gardoud</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../GOF-Gain-of-Function/GOF-Gain-of-Function.html#remdesivir">Remdesivir</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../Narrative-Control/Knowledge-vs-Noise-our-opinions-about-news-and-media-sources/Knowledge-vs-Noise-our-opinions-about-news-and-media-sources.html">Knowledge vs Noise - our opinions about news and media sources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Narrative-Control/Government-Monitoring-and-Control/Government-Monitoring-and-Control.html">Government Monitoring and Control</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Health-A-to-Z/Health-A-to-Z.html">Health A to Z</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Health-A-to-Z/Health-Links-to-Add.html">Health Care Links to add to the documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Hydroxychloroquine/Hydroxychloroquine.html">Hydroxychloroquine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Ivermectin/Ivermectin.html">Ivermectin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Lockdowns/Lockdowns.html">Lockdowns</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Masks/Masks.html">Masks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Media-and-Influencers/Media-and-Influencers.html">Media and Influencers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Municipal-Matters/Municipal-Matters.html">Municipal Issues and Topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Narrative-Control/Narrative-Control.html">Narrative Control</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Origins-of-the-Virus.html">Origins of the Virus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Pandemic-Participants/Pandemic-Participants.html">Pandemic Participants</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Pandemic-Preparedness/Pandemic-Preparedness.html">Pandemic Preparedness</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Remdesivir/Remdesivir.html">Remdesivir</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Narrative-Control/Resources-and-additional-background-material/Resources-and-additional-background-material.html">Resources and additional background material</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../PRISM/PRISM.html">PRISM</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Rockefeller-Foundation/Rockefeller-Foundation.html">Rockefeller-Foundation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Shedding/Shedding.html">Shedding</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Toxoplasmosis/Toxoplasmosis.html">Seroprevalence of Toxoplasma gondii among pregnant women</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Treatment-of-COVID/Treatment-of-COVID.html">Treatment of COVID</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Tuskgee-Medical-Experiments/Tuskgee-Medical-Experiments.html">Tuskgee Medical Experiments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Vaccines/Vaccines.html">Vaccines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Vaccine-History/Vaccine-History.html">Vaccines - History</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Vaccines-How-Vaccines-Work/Vaccines-How-Vaccines-Work.html">Vaccines - How Vaccines Work</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Vaccine-Injury-Reporting-Systems/Vaccine-Injury-Reporting-Systems.html">Vaccine Injury Reporting Systems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../VAERS/VAERS.html">VAERS - Vaccine Adverse Event Reporting System</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Vaccine-Legal-Issues/Vaccine-Legal-Issues.html">Vaccines - Legal Issues</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Vaccine-Rollout-News/Vaccine-Rollout-News.html">Vaccines - Covid Rollout News</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Vaccine-Safety-Videos/Vaccine-Safety-Videos.html">Vaccines - Documentaries and Doctors who Explain Risks and Dangers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Vaccine-Schedule/Vaccine-Schedule.html">Vaccine Schedule</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Vaccine-Side-Effects/Vaccine-Side-Effects.html">Vaccines - Side Effects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Vaccine-Testing-and-Approvals/Vaccine-Testing-and-Approvals.html">Vaccines - Testing and Approvals</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Vitamin-D/Vitamin-D.html">Vitamin-D</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../WEF-World-Economic-Forum/WEF-World-Economic-Forum.html">WEF World Economic Forum</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../WHO-World-Health-Organization/WHO-World-Health-Organization.html">WHO World Health Organization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Words-of-Wisdom-from-Famous-People/Words-of-Wisdom-from-Famous-People.html">Words of Wisdom from Famous People</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Data-science-of-the-pandemic/Data-science-of-the-pandemic.html">Data Science of the Pandemic</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Vaccines/Vaccines.html">Vaccines</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Masks/Masks.html">Masks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Lockdowns/Lockdowns.html">Lockdowns</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Origins-of-the-Virus.html">Origins of the Virus</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Pandemic-Preparedness/Pandemic-Preparedness.html">Pandemic Preparedness</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Pandemic-Participants/Pandemic-Participants.html">Pandemic Participants</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Food-Safety/Food-Safety.html">Food Safety</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Municipal-Matters/Municipal-Matters.html">Municipal Issues and Topics</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../How-you-can-help/How-you-can-help.html">How you can help</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">all-knowledge</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../topics.html">Topics</a> &raquo;</li>
+        
+          <li><a href="../GOF-Gain-of-Function/GOF-Gain-of-Function.html">GOF - Gain of Function</a> &raquo;</li>
+        
+      <li>GOF - Gain of Function - An Analysis By Mohamed Gardoud</li>
+    
+    
+    <li class="wy-breadcrumbs-aside">
+    
+        
+        <a href="../../_sources/topics/Origins-of-the-Virus/GOF-Gain-of-Function-An-Analysis-By-Mohamed-Gardoud.rst.txt" rel="nofollow"> View page source</a>
+        
+    
+    </li>
+
+  </ul>
+
+  
+  <div class="rst-breadcrumbs-buttons" role="navigation" aria-label="breadcrumb navigation">
+      
+        <a href="../Narrative-Control/Knowledge-vs-Noise-our-opinions-about-news-and-media-sources/Knowledge-vs-Noise-our-opinions-about-news-and-media-sources.html" class="btn btn-neutral float-right" title="Knowledge vs Noise - our opinions about news and media sources" accesskey="n">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+      
+      
+        <a href="../GOF-Gain-of-Function/GOF-Gain-of-Function.html" class="btn btn-neutral float-left" title="GOF - Gain of Function" accesskey="p"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+      
+  </div>
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <section id="gof-gain-of-function-an-analysis-by-mohamed-gardoud">
+<h1>GOF - Gain of Function - An Analysis By Mohamed Gardoud<a class="headerlink" href="#gof-gain-of-function-an-analysis-by-mohamed-gardoud" title="Permalink to this headline">¶</a></h1>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This page was Retrieved and copied March 2021</p>
+<p><a class="reference external" href="https://www.facebook.com/groups/1113717195767034/?multi_permalinks=1145243942614359&amp;notif_id=1613175766789283&amp;notif_t=group_highlights&amp;ref=notif">https://www.facebook.com/groups/1113717195767034/?multi_permalinks=1145243942614359&amp;notif_id=1613175766789283&amp;notif_t=group_highlights&amp;ref=notif</a></p>
+</div>
+<p>By Mohamed Gardoud</p>
+<p><a class="reference external" href="https://www.facebook.com/groups/1113717195767034/?multi_permalinks=1145243942614359&amp;notif_id=1613175766789283&amp;notif_t=group_highlights&amp;ref=notif">https://www.facebook.com/groups/1113717195767034/?multi_permalinks=1145243942614359&amp;notif_id=1613175766789283&amp;notif_t=group_highlights&amp;ref=notif</a></p>
+<p>In 1999, there were a million patents digitized by IBM and those millions patents were the first time human innovation had been put into an electronic digital searchable format.</p>
+<p>The application of Linguistic Genomics Technology (LGS) revealed a horrific assessment that 1/3 of all patents filed in the United States were functional forgeries.</p>
+<p>Meaning that while they had linguistic variations, they actually covered the same subject matter. This was carried out within the frame of maintaining a series of inquiries into every individual, every organization, and every company that is involved in anything that either blurs the line of biological and chemical weapons, or crosses that line in any of 168 countries.</p>
+<p>In 1999, patents of coronavirus started showing up, and thus began the rabbit trail.</p>
+<p>In 2003, the CDC saw the possibility of a gold strike. And that was the coronavirus outbreaks that happened in Asia.</p>
+<p>They saw that a virus they knew could be easily manipulated with something that was very valuable and in 2003, they sought to patent it and they made sure that they controlled the proprietary rights to the disease, to the virus and to its detection and all of the measurement of it.</p>
+<p>Dr. Anthony Fauci, Dr. Ralph Baric, the CDC and the laundry list of people who wanted to take credit for inventing coronavirus, were at the hub of this story.</p>
+<p>From 2003 to 2018, they controlled 100% of the cashflow that built the empire around the industrial complex of coronavirus. The coronavirus manipulation started with Dr. Ralph Baric in 1999.</p>
+<p>Ralph Baric is the researcher at the University of North Carolina Chapel Hill, who’s famous for his chimeric coronavirus research.</p>
+<p>In 2002, there was a recognition that the coronavirus was seen as an exploitable mechanism for both good and ill. On April 2003, the US CDC filed a patent on the coronavirus transmitted to humans (US7776521B1). Under 35 US code section 101, nature is prohibited from being patented. Either SARS Coronavirus was manufactured, therefore making a patent on it legal or it was natural, therefore making a patent on it illegal. If it was manufactured, it was a violation of biological and chemical weapons, treaties and laws. If it was natural, filing a patent on it was illegal. Then either outcome, both, are illegal.</p>
+<p>In the spring of 2007, the CDC filed a petition with the patent office to keep their application confidential and private.</p>
+<p>They actually filed patents on not only the virus, but they also filed patents on its detection, and a kit to measure it.</p>
+<p>Because of that CDC patent, they had the ability to control who was authorized and who was not authorized, to make independent inquiries into coronavirus.</p>
+<p>You cannot look at the virus, you cannot measure it. You cannot develop a test kit for it.</p>
+<p>And by ultimately receiving the patents that constrained anyone from using it, they had the means, they had the motive, and most of all the monetary gain from turning coronavirus from a pathogen to profit (–VAX).</p>
+<p>And so somewhere between 2012 and 2013, something happened.</p>
+<p>The federal funding for research that was feeding into places like Harvard, Emory, University of North Carolina Chapel Hill, that funding suddenly became impaired by something that happened at the NIH, where the NIH got this little tiny moment of clarity and said, I think something we’re doing is wrong.</p>
+<p>And in 2013 the NIH said, gain-of-function research on coronavirus should be suspended. The NIH had a moral and social and potentially legal reason to object to research.</p>
+<p>But the letters that were sent to the researchers essentially said; You are receiving notice that we’re telling you to stop.</p>
+<p>And now on the bottom of the page: “As your grant is currently funded, this pause is voluntary” this to clarify that ‘Stop’ means keep going.</p>
+<p>But when the heat gets hot in 2014 and ‘15, What do you do? You offshore the research.</p>
+<p>You fund the Wuhan Institute of Virology to do this stuff that sounds like it’s getting a little edgy, with respect to its morality and legality, but do you do it straightaway?</p>
+<p>No, you run the money through a series of cover organizations to make it look like you’re funding a US operation, which then subcontracts with the Wuhan Institute of Virology.</p>
+<p>The US could say, China did it. China could say, the US did it. And the cool thing is both of them are almost telling the truth.</p>
+<p>Last change: Sat, 24 Jul 2021 07:41 AM Coordinated Universal Time</p>
+</section>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../Narrative-Control/Knowledge-vs-Noise-our-opinions-about-news-and-media-sources/Knowledge-vs-Noise-our-opinions-about-news-and-media-sources.html" class="btn btn-neutral float-right" title="Knowledge vs Noise - our opinions about news and media sources" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../GOF-Gain-of-Function/GOF-Gain-of-Function.html" class="btn btn-neutral float-left" title="GOF - Gain of Function" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020-2021, Thomas Connors and Contributors.
+      <span class="lastupdated">
+        Last updated on Thu, 06 May 2021 12:00 AM .
+      </span>
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+  
+ <script type="text/javascript">
+    $(document).ready(function() {
+        $(".toggle > *").hide();
+        $(".toggle .header").show();
+        $(".toggle .header").click(function() {
+            $(this).parent().children().not(".header").toggle(400);
+            $(this).parent().children(".header").toggleClass("open");
+        })
+    });
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,710 @@
+
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  
+  <title>Introduction to Developing in the Docker Container Workflow &mdash; all-knowledge</title>
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="../_static/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../_static/icons/favicon-16x16.png">
+  <link rel="manifest" href="../_static/icons/site.webmanifest">
+  <link rel="mask-icon" href="../_static/icons/safari-pinned-tab.svg" color="#919191">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="msapplication-config" content="../_static/icons/browserconfig.xml">
+  <link rel="stylesheet" href="../_static/stylesheets/examples.css">
+  <link rel="stylesheet" href="../_static/stylesheets/deprecation.css">
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/tooltipster.custom.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/tooltipster.bundle.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/tooltipster-sideTip-shadow.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/tooltipster-sideTip-punk.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/tooltipster-sideTip-noir.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/tooltipster-sideTip-light.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/tooltipster-sideTip-borderless.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/micromodal.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/tabs.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/sphinx_rtd_theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/contentui.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/gallery.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/gallery-binder.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/gallery-dataframe.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/gallery-rendered-html.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/sphinxcontrib-images/LightBox2/lightbox2/css/lightbox.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+
+  
+  
+
+  
+    <link rel="canonical" href="https://pandemic-overview.readthedocs.io/en/latest/myGuides/Container-Workflow.html" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/clipboard.min.js"></script>
+        <script src="../_static/copybutton.js"></script>
+        <script src="../_static/js/hoverxref.js"></script>
+        <script src="../_static/js/tooltipster.bundle.min.js"></script>
+        <script src="../_static/js/micromodal.min.js"></script>
+        <script src="../_static/tabs.js"></script>
+        <script src="../_static/js/expand_tabs.js"></script>
+        <script src="../_static/contentui.js"></script>
+        <script src="../_static/sphinxcontrib-images/LightBox2/lightbox2/js/jquery-1.11.0.min.js"></script>
+        <script src="../_static/sphinxcontrib-images/LightBox2/lightbox2/js/lightbox.min.js"></script>
+        <script src="../_static/sphinxcontrib-images/LightBox2/lightbox2-customize/jquery-noconflict.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Docker and Sphinx" href="Docker-and-Sphinx.html" />
+    <link rel="prev" title="Configuration File V1 (Deprecated)" href="../bareos/config-file/v1.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html">
+          
+
+          
+            
+            <img src="../_static/statsmodels-logo-v2-bw.svg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../topics/Covid-Medical-Treatments/Covid-Medical-Treatments.html">Covid Medical Treatments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Bill-Gates-Memes/Bill-Gates-Memes.html">Bill Gates Memes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/topics.html">Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Data-science-of-the-pandemic/Data-science-of-the-pandemic.html">Data Science of the Pandemic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Vaccines/Vaccines.html">Vaccines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Masks/Masks.html">Masks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Lockdowns/Lockdowns.html">Lockdowns</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Origins-of-the-Virus/Origins-of-the-Virus.html">Origins of the Virus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Pandemic-Preparedness/Pandemic-Preparedness.html">Pandemic Preparedness</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Pandemic-Participants/Pandemic-Participants.html">Pandemic Participants</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Food-Safety/Food-Safety.html">Food Safety</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Municipal-Matters/Municipal-Matters.html">Municipal Issues and Topics</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../How-you-can-help/How-you-can-help.html">How you can help</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="Tech-stack-for-this-website.html">Tech stack for this website</a></li>
+<li class="toctree-l2"><a class="reference internal" href="myGuides.html">My Guides for Various Technical Topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="General-computer-setup.html">General Computer Setup</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="Advanced-Computer-Setup.html">Advanced Computer Setup and Topics</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="ReadTheDocs-Documentation-System.html">ReadTheDocs Documentation System</a></li>
+<li class="toctree-l3"><a class="reference internal" href="vscode-SSH-Remote-Containers.html">Visual Studio Code SSH Remote Development with Containers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Documentation-System.html">Sphinx Documentation System</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../bareos/index.html">Bareos Project - Reference Implementation</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Introduction to Developing in the Docker Container Workflow</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#docker-containers">Docker Containers</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#pull-and-run-a-python-miniconda-container">&gt;  Pull and run a Python Miniconda container</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#best-practices">&gt;  Best practices</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Docker-and-Sphinx.html">Docker and Sphinx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Google-Bing-Webmaster-Tools-Search-and-Rich-Results.html">Google Bing Webmaster Tools Search and Rich Results</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Binder.html">Binder usage with Sphinx-Gallery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="How-to-install-python-on-debian.html">How To Install Python on Debian</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Invenio-Software.html">Invenio Software</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pip-package-installer-for-python.html">pip is the package installer for Python</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-copybutton.html">Sphinx Copybutton</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-embed-object-iFrame-video-html-PDF-twitter-examples.html">Sphinx embed object iFrame video html PDF Twitter examples</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Lillypond.html">Sphinx Lillypond</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-last-updated-by-git.html">sphinx-last-updated-by-git</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-last-updated-by-git.html#get-the-last-updated-time-for-each-sphinx-page-from-git">Get the “last updated” time for each Sphinx page from Git</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Twitter.html">Sphinx Twitter (Python Twitter)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Gallery.html">Sphinx Gallery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Gitstamp.html">Sphinx Gitstamp Generator Extension</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Jinja.html">Sphinx Jinja is a templating engine</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Hoverxref.html">Sphinx Hoverxref</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-pdfembed.html">Sphinx PDF Embed - sphinxcontrib-pdfembed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinxext-remoteliteralinclude.html">Sphinx Remote Literal Include</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Redirects.html">Sphinx Redirects</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-rediraffe.html">Sphinx Rediraffe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Sitemap.html">Sphinx Sitemap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Templating.html">Sphinx Templating</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Timeline.html">Sphinx Timeline</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Werkzeug-comprehensive-WSGI-web-application-library.html">Werkzeug WSGI web application library</a></li>
+<li class="toctree-l3"><a class="reference internal" href="WSGI-is-the-Web-Server-Gateway-Interface.html">WSGI is the Web Server Gateway Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Zenodo.html">Zenodo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Zotero.html">Zotero</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kubernetes.html">Kubernetes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Github-Workflow.html">GitHub Workflow</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="aws/Amazon-AWS-Learning.html">Amazon AWS Learning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ToDo-project-tasks.html">ToDo project and documentation tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Contribute.html">Contribute</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Upcoming-software-to-try.html">Links of Upcoming Software to Try</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../How-you-can-help/Links-to-add-to-site.html">Links to add to the documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../How-you-can-help/Future-topics-to-be-developed.html">Future Topics to be developed</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Sandbox/Sandbox.html">Sandbox</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../License/license.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Help-about/help.html">Help - About</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Covid-Medical-Treatments/Covid-Medical-Treatments.html">Covid Medical Treatments</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Bill-Gates-Memes/Bill-Gates-Memes.html">Bill Gates Memes</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/topics.html">Topics</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Data-science-of-the-pandemic/Data-science-of-the-pandemic.html">Data Science of the Pandemic</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Vaccines/Vaccines.html">Vaccines</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Masks/Masks.html">Masks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Lockdowns/Lockdowns.html">Lockdowns</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Origins-of-the-Virus/Origins-of-the-Virus.html">Origins of the Virus</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Pandemic-Preparedness/Pandemic-Preparedness.html">Pandemic Preparedness</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Pandemic-Participants/Pandemic-Participants.html">Pandemic Participants</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Food-Safety/Food-Safety.html">Food Safety</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Municipal-Matters/Municipal-Matters.html">Municipal Issues and Topics</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../How-you-can-help/How-you-can-help.html">How you can help</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="Tech-stack-for-this-website.html">Tech stack for this website</a></li>
+<li class="toctree-l2"><a class="reference internal" href="myGuides.html">My Guides for Various Technical Topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="General-computer-setup.html">General Computer Setup</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="Advanced-Computer-Setup.html">Advanced Computer Setup and Topics</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="ReadTheDocs-Documentation-System.html">ReadTheDocs Documentation System</a></li>
+<li class="toctree-l3"><a class="reference internal" href="vscode-SSH-Remote-Containers.html">Visual Studio Code SSH Remote Development with Containers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Documentation-System.html">Sphinx Documentation System</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../bareos/index.html">Bareos Project - Reference Implementation</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Introduction to Developing in the Docker Container Workflow</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#docker-containers">Docker Containers</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#pull-and-run-a-python-miniconda-container">&gt;  Pull and run a Python Miniconda container</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#best-practices">&gt;  Best practices</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Docker-and-Sphinx.html">Docker and Sphinx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Google-Bing-Webmaster-Tools-Search-and-Rich-Results.html">Google Bing Webmaster Tools Search and Rich Results</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Binder.html">Binder usage with Sphinx-Gallery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="How-to-install-python-on-debian.html">How To Install Python on Debian</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Invenio-Software.html">Invenio Software</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pip-package-installer-for-python.html">pip is the package installer for Python</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-copybutton.html">Sphinx Copybutton</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-embed-object-iFrame-video-html-PDF-twitter-examples.html">Sphinx embed object iFrame video html PDF Twitter examples</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Lillypond.html">Sphinx Lillypond</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-last-updated-by-git.html">sphinx-last-updated-by-git</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-last-updated-by-git.html#get-the-last-updated-time-for-each-sphinx-page-from-git">Get the “last updated” time for each Sphinx page from Git</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Twitter.html">Sphinx Twitter (Python Twitter)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Gallery.html">Sphinx Gallery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Gitstamp.html">Sphinx Gitstamp Generator Extension</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Jinja.html">Sphinx Jinja is a templating engine</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Hoverxref.html">Sphinx Hoverxref</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-pdfembed.html">Sphinx PDF Embed - sphinxcontrib-pdfembed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinxext-remoteliteralinclude.html">Sphinx Remote Literal Include</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Redirects.html">Sphinx Redirects</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-rediraffe.html">Sphinx Rediraffe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Sitemap.html">Sphinx Sitemap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Templating.html">Sphinx Templating</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Timeline.html">Sphinx Timeline</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Werkzeug-comprehensive-WSGI-web-application-library.html">Werkzeug WSGI web application library</a></li>
+<li class="toctree-l3"><a class="reference internal" href="WSGI-is-the-Web-Server-Gateway-Interface.html">WSGI is the Web Server Gateway Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Zenodo.html">Zenodo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Zotero.html">Zotero</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kubernetes.html">Kubernetes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Github-Workflow.html">GitHub Workflow</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="aws/Amazon-AWS-Learning.html">Amazon AWS Learning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ToDo-project-tasks.html">ToDo project and documentation tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Contribute.html">Contribute</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Upcoming-software-to-try.html">Links of Upcoming Software to Try</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../How-you-can-help/Links-to-add-to-site.html">Links to add to the documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../How-you-can-help/Future-topics-to-be-developed.html">Future Topics to be developed</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">all-knowledge</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../How-you-can-help/How-you-can-help.html">How you can help</a> &raquo;</li>
+        
+          <li><a href="Advanced-Computer-Setup.html">Advanced Computer Setup and Topics</a> &raquo;</li>
+        
+      <li>Introduction to Developing in the Docker Container Workflow</li>
+    
+    
+    <li class="wy-breadcrumbs-aside">
+    
+        
+        <a href="../_sources/myGuides/Container-Workflow.rst.txt" rel="nofollow"> View page source</a>
+        
+    
+    </li>
+
+  </ul>
+
+  
+  <div class="rst-breadcrumbs-buttons" role="navigation" aria-label="breadcrumb navigation">
+      
+        <a href="Docker-and-Sphinx.html" class="btn btn-neutral float-right" title="Docker and Sphinx" accesskey="n">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+      
+      
+        <a href="../bareos/config-file/v1.html" class="btn btn-neutral float-left" title="Configuration File V1 (Deprecated)" accesskey="p"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+      
+  </div>
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <section id="introduction-to-developing-in-the-docker-container-workflow">
+<h1>Introduction to Developing in the Docker Container Workflow<a class="headerlink" href="#introduction-to-developing-in-the-docker-container-workflow" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://pawseysc.github.io/container-workflows/01-docker-/bareos/guides/intro/index.html">https://pawseysc.github.io/container-workflows/01-docker-/bareos/guides/intro/index.html</a></p>
+<p>Retrieved March 21 2021</p>
+<p><a class="reference external" href="https://github.com/PawseySC/container-workflows/blob/gh-pages/_episodes/01-docker-intro.md">https://github.com/PawseySC/container-workflows/blob/gh-pages/_episodes/01-docker-intro.md</a></p>
+<p>objectives:
+- Learn how to download and run images</p>
+<p>keypoints:</p>
+<ul class="simple">
+<li><p>You’ve learned some basic Docker commands for running, downloading, and searching for docker images</p></li>
+<li><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">docker</span> <span class="pre">run</span></code> for running images (add <code class="xref py py-obj docutils literal notranslate"><span class="pre">-it</span></code> for interactive mode)</p></li>
+<li><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">docker</span> <span class="pre">pull</span></code> for downloading images</p></li>
+<li><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">docker</span> <span class="pre">search</span></code> for searching images</p></li>
+<li><p>Other useful commands to list current images and containers are <code class="xref py py-obj docutils literal notranslate"><span class="pre">docker</span> <span class="pre">images</span></code> and <code class="xref py py-obj docutils literal notranslate"><span class="pre">docker</span> <span class="pre">ps</span> <span class="pre">-a</span></code></p></li>
+</ul>
+<section id="docker-containers">
+<h2>Docker Containers<a class="headerlink" href="#docker-containers" title="Permalink to this headline">¶</a></h2>
+<p>Docker is a tool that allows you to easily create, deploy, and run applications on any architecture.  It does this via something called <strong>containers</strong>, which is a way for you to package up an application and all of its dependecies, into a single object that’s easy to track, manage, share, and deploy.</p>
+<section id="containers-vs-virtual-machines">
+<h3>Containers vs Virtual Machines<a class="headerlink" href="#containers-vs-virtual-machines" title="Permalink to this headline">¶</a></h3>
+<p>Many of you have probably used a VM, so you’re actually already familiar with some of the concepts of a container.</p>
+<figure class="align-center" id="id1">
+<a class="reference internal image-reference" href="../_images/container_vs_vm.png"><img alt="../_images/container_vs_vm.png" src="../_images/container_vs_vm.png" style="width: 100%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 137 </span><span class="caption-text">Containers vs. VMs</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>The key difference here is that VMs virtualise <strong>hardware</strong> while containers virtualise <strong>operating systems</strong>.  There are other differences (and benefits)</p>
+<ul class="simple">
+<li><p>Containers are lighter weight (less CPU and memory usage, faster start-up times)</p></li>
+<li><p>More portable</p></li>
+<li><p>Modular (can easily combine multiple containers that work together)</p></li>
+</ul>
+</section>
+<section id="terminology">
+<h3>Terminology<a class="headerlink" href="#terminology" title="Permalink to this headline">¶</a></h3>
+<p>An <strong>image</strong> is a file (or set of files) that contains the application and all its dependencies, libraries, run-time systems, etc. required to run.  You can copy images around, upload them, download them etc.</p>
+<p>A <strong>container</strong> is an instantiation of an image.  That is, it’s a process that Docker creates and starts up, and an image is run inside a container.  You can run multiple containers from the same image, much like you might run the same application with different options or arguments.</p>
+<p>In general, an image corresponds to a file, a container corresponds to a process.</p>
+<p>A <strong>Dockerfile</strong> is a recipe to build an image.</p>
+<p>A <strong>registry</strong> is a server application where images are stored and can be accessed by users. It can be public (e.g. Docker Hub) or private.</p>
+</section>
+<section id="containers-and-your-workflow">
+<h3>Containers and your workflow<a class="headerlink" href="#containers-and-your-workflow" title="Permalink to this headline">¶</a></h3>
+<p>There are a number of reasons for using containers in your daily work:</p>
+<ul class="simple">
+<li><p>Data reproducibility/provenance</p></li>
+<li><p>Cross-platform portability</p></li>
+<li><p>Simplified collaboration</p></li>
+<li><p>Simplified software dependencies and management</p></li>
+<li><p>Scalability</p></li>
+<li><p>Provide a consistent testing environment</p></li>
+</ul>
+<p>A few examples of how containers are being used at Pawsey</p>
+<ul class="simple">
+<li><p>Bioinformatics workflows</p></li>
+<li><p>RStudio &amp; JupyterHub</p></li>
+<li><p>Machine Learning</p></li>
+<li><p>Python apps in radio astronomy</p></li>
+<li><p>Webservers</p></li>
+<li><p>Cloud workflows (via Docker)</p></li>
+<li><p>HPC workflows (via Shifter)</p></li>
+</ul>
+<p>Here’s an overview of what a workflow might look like:</p>
+<figure class="align-center" id="id2">
+<a class="reference internal image-reference" href="../_images/docker_workflow.png"><img alt="Docker Workflow" src="../_images/docker_workflow.png" style="width: 100%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 138 </span><span class="caption-text">Docker Workflow</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>&gt;  A word of warning: sudo
+&gt;
+&gt; Docker requires <code class="xref py py-obj docutils literal notranslate"><span class="pre">sudo</span></code>, i.e. <code class="xref py py-obj docutils literal notranslate"><span class="pre">root</span></code>, privileges to be used. The major implication is that commands and applications have the potential to damage the host operating system and filesystem, with no root password required. By default, no host directory is visible inside containers, which greatly reduces chances of harm. In a subsequent episode we’ll see how to selectively map host directories to the container for input/output.
+&gt;
+&gt; A second consequence is that if you’re running on a computer where you have limited user permissions (i.e. university/corporate computers), you might have troubles in running Docker, or even installing it. If this happens, you will need to get in touch with your IT services to figure out a workable solution.
+&gt;
+&gt; Third, to run Docker commands with <code class="xref py py-obj docutils literal notranslate"><span class="pre">root</span></code> privileges on a Linux box, you will need to prepend them with <code class="xref py py-obj docutils literal notranslate"><span class="pre">sudo</span></code>. There’s a three-step procedure to follow if you want to avoid having to type <code class="xref py py-obj docutils literal notranslate"><span class="pre">sudo</span></code> all the time (again, you might need IT support). See instructions at [Manage Docker as a non-root user](<a class="reference external" href="https://docs.docker.com/install/linux/linux-postinstall/">https://docs.docker.com/install/linux/linux-postinstall/</a>).
+&gt;
+&gt; <strong>Always</strong> keep in mind that any Docker action is run as <strong>root</strong>!
+{: .callout}</p>
+</section>
+<section id="running-a-simple-command-in-a-container">
+<h3>Running a simple command in a container<a class="headerlink" href="#running-a-simple-command-in-a-container" title="Permalink to this headline">¶</a></h3>
+<p>Let’s run a simple command:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ docker run ubuntu cat /etc/os-release
+</pre></div>
+</div>
+<p>Here is the results:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Unable</span> <span class="n">to</span> <span class="n">find</span> <span class="n">image</span> <span class="s1">&#39;ubuntu:latest&#39;</span> <span class="n">locally</span>
+<span class="n">latest</span><span class="p">:</span> <span class="n">Pulling</span> <span class="kn">from</span> <span class="nn">library</span><span class="o">/</span><span class="n">ubuntu</span>
+<span class="mi">898</span><span class="n">c46f3b1a1</span><span class="p">:</span> <span class="n">Pull</span> <span class="n">complete</span>
+<span class="mi">63366</span><span class="n">dfa0a50</span><span class="p">:</span> <span class="n">Pull</span> <span class="n">complete</span>
+<span class="mi">041</span><span class="n">d4cd74a92</span><span class="p">:</span> <span class="n">Pull</span> <span class="n">complete</span>
+<span class="mf">6e1</span><span class="n">bee0f8701</span><span class="p">:</span> <span class="n">Pull</span> <span class="n">complete</span>
+<span class="n">Digest</span><span class="p">:</span> <span class="n">sha256</span><span class="p">:</span><span class="mi">017</span><span class="n">eef0b616011647b269b5c65826e2e2ebddbe5d1f8c1e56b3599fb14fabec8</span>
+<span class="n">Status</span><span class="p">:</span> <span class="n">Downloaded</span> <span class="n">newer</span> <span class="n">image</span> <span class="k">for</span> <span class="n">ubuntu</span><span class="p">:</span><span class="n">latest</span>
+
+<span class="n">NAME</span><span class="o">=</span><span class="s2">&quot;Ubuntu&quot;</span>
+<span class="n">VERSION</span><span class="o">=</span><span class="s2">&quot;18.04.2 LTS (Bionic Beaver)&quot;</span>
+<span class="n">ID</span><span class="o">=</span><span class="n">ubuntu</span>
+<span class="n">ID_LIKE</span><span class="o">=</span><span class="n">debian</span>
+<span class="n">PRETTY_NAME</span><span class="o">=</span><span class="s2">&quot;Ubuntu 18.04.2 LTS&quot;</span>
+<span class="n">VERSION_ID</span><span class="o">=</span><span class="s2">&quot;18.04&quot;</span>
+<span class="n">HOME_URL</span><span class="o">=</span><span class="s2">&quot;https://www.ubuntu.com/&quot;</span>
+<span class="n">SUPPORT_URL</span><span class="o">=</span><span class="s2">&quot;https://help.ubuntu.com/&quot;</span>
+<span class="n">BUG_REPORT_URL</span><span class="o">=</span><span class="s2">&quot;https://bugs.launchpad.net/ubuntu/&quot;</span>
+<span class="n">PRIVACY_POLICY_URL</span><span class="o">=</span><span class="s2">&quot;https://www.ubuntu.com/legal/terms-and-policies/privacy-policy&quot;</span>
+<span class="n">VERSION_CODENAME</span><span class="o">=</span><span class="n">bionic</span>
+<span class="n">UBUNTU_CODENAME</span><span class="o">=</span><span class="n">bionic</span>
+</pre></div>
+</div>
+<p>{: .output}</p>
+<p>Here’s what we’ve done:</p>
+<ul class="simple">
+<li><p>Downloaded an Ubuntu Docker image (this wouldn’t happen if the image had been downloaded previously)</p></li>
+<li><p>Created a container from our Ubuntu image</p></li>
+<li><p>The command we’ve run inside the Ubuntu container is <code class="xref py py-obj docutils literal notranslate"><span class="pre">cat</span> <span class="pre">/etc/os-release</span></code>, which simply prints some info about the operating system</p></li>
+</ul>
+<p>Docker images have a <strong>name</strong> and a <strong>tag</strong>. The default for the tag is ‘latest’, and can be omitted (but be careful…more on this later). If you ask docker to run an image that is not present on your system, it will download it from [Docker Hub](<a class="reference external" href="https://hub.docker.com">https://hub.docker.com</a>) first, then run it.</p>
+<p>Most Linux distributions have pre-built images available on Docker Hub, so you can readily find something to get you started. Let’s start with the official Ubuntu linux image, and run a simple ‘hello world’. The <code class="xref py py-obj docutils literal notranslate"><span class="pre">docker</span> <span class="pre">run</span></code> command takes options first, then the image name, then the command and arguments to run follow it on the command line:</p>
+<p>Note in our example Docker uses the ‘ubuntu:latest’ tag, since we didn’t specify what version we want.  We can specify a specific version of ubuntu like this:</p>
+<p><code class="docutils literal notranslate"><span class="pre">`</span>
+<span class="pre">$</span> <span class="pre">docker</span> <span class="pre">run</span> <span class="pre">ubuntu:17.04</span> <span class="pre">cat</span> <span class="pre">/etc/os-release</span>
+<span class="pre">`</span></code>
+{: .bash}</p>
+<p><code class="docutils literal notranslate"><span class="pre">`</span>
+<span class="pre">NAME=&quot;Ubuntu&quot;</span>
+<span class="pre">VERSION=&quot;17.04</span> <span class="pre">(Zesty</span> <span class="pre">Zapus)&quot;</span>
+<span class="pre">ID=ubuntu</span>
+<span class="pre">ID_LIKE=debian</span>
+<span class="pre">PRETTY_NAME=&quot;Ubuntu</span> <span class="pre">17.04&quot;</span>
+<span class="pre">VERSION_ID=&quot;17.04&quot;</span>
+<span class="pre">HOME_URL=&quot;https://www.ubuntu.com/&quot;</span>
+<span class="pre">SUPPORT_URL=&quot;https://help.ubuntu.com/&quot;</span>
+<span class="pre">BUG_REPORT_URL=&quot;https://bugs.launchpad.net/ubuntu/&quot;</span>
+<span class="pre">PRIVACY_POLICY_URL=&quot;https://www.ubuntu.com/legal/terms-and-policies/privacy-policy&quot;</span>
+<span class="pre">VERSION_CODENAME=zesty</span>
+<span class="pre">UBUNTU_CODENAME=zesty</span>
+<span class="pre">`</span></code>
+{: .output}</p>
+<p>Docker caches images on your local disk, so the next time you need to run your container it will be faster:</p>
+<p><code class="docutils literal notranslate"><span class="pre">`</span>
+<span class="pre">$</span> <span class="pre">docker</span> <span class="pre">run</span> <span class="pre">ubuntu</span> <span class="pre">/bin/echo</span> <span class="pre">'hello</span> <span class="pre">world'</span>
+<span class="pre">`</span></code>
+{: .bash}</p>
+<p><code class="docutils literal notranslate"><span class="pre">`</span>
+<span class="pre">hello</span> <span class="pre">world</span>
+<span class="pre">`</span></code>
+{: .output}</p>
+<p>You can list all Docker containers on your system with</p>
+<p><code class="docutils literal notranslate"><span class="pre">`</span>
+<span class="pre">$</span> <span class="pre">docker</span> <span class="pre">ps</span> <span class="pre">-a</span>
+<span class="pre">`</span></code>
+{: .bash}</p>
+<p>The <code class="xref py py-obj docutils literal notranslate"><span class="pre">-a</span></code> (or <code class="xref py py-obj docutils literal notranslate"><span class="pre">--all</span></code>) flag prints all containers, i.e. those currently running and any stopped containers.</p>
+<p>Similarly, you can list all docker images you have with</p>
+<p><code class="docutils literal notranslate"><span class="pre">`</span>
+<span class="pre">$</span> <span class="pre">docker</span> <span class="pre">images</span>
+<span class="pre">`</span></code>
+{: .bash}</p>
+<p>In the example above, Docker automatically downloaded the Ubuntu image.  If you want to explicity download an image, you can use the <code class="xref py py-obj docutils literal notranslate"><span class="pre">docker</span> <span class="pre">pull</span></code> command:</p>
+<p><code class="docutils literal notranslate"><span class="pre">`</span>
+<span class="pre">$</span> <span class="pre">docker</span> <span class="pre">pull</span> <span class="pre">ubuntu</span>
+<span class="pre">`</span></code>
+{: .bash}</p>
+<p>Another handy Docker command line option is <code class="xref py py-obj docutils literal notranslate"><span class="pre">docker</span> <span class="pre">search</span></code>.  You can use it to quickly search for available images on Docker Hub.  Note that you may still want to visit the [Docker Hub](<a class="reference external" href="https://hub.docker.com">https://hub.docker.com</a>) webpage to find out more information about a particular image (e.g. run commands, configuration instructions, etc.).</p>
+<p><code class="docutils literal notranslate"><span class="pre">`</span>
+<span class="pre">$</span> <span class="pre">docker</span> <span class="pre">search</span> <span class="pre">tensorflow</span>
+<span class="pre">`</span></code>
+{: .bash}</p>
+<p><code class="docutils literal notranslate"><span class="pre">`</span>
+<span class="pre">NAME</span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <span class="pre">DESCRIPTION</span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <span class="pre">STARS</span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <span class="pre">OFFICIAL</span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <span class="pre">AUTOMATED</span>
+<span class="pre">tensorflow/tensorflow</span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <span class="pre">Official</span> <span class="pre">Docker</span> <span class="pre">images</span> <span class="pre">for</span> <span class="pre">the</span> <span class="pre">machine</span> <span class="pre">learn…</span>&#160;&#160; <span class="pre">1236</span>
+<span class="pre">jupyter/tensorflow-notebook</span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <span class="pre">Jupyter</span> <span class="pre">Notebook</span> <span class="pre">Scientific</span> <span class="pre">Python</span> <span class="pre">Stack</span> <span class="pre">w/</span> <span class="pre">…</span>&#160;&#160; <span class="pre">100</span>
+<span class="pre">xblaster/tensorflow-jupyter</span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <span class="pre">Dockerized</span> <span class="pre">Jupyter</span> <span class="pre">with</span> <span class="pre">tensorflow</span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <span class="pre">52</span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <span class="pre">[OK]</span>
+<span class="pre">tensorflow/serving</span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <span class="pre">Official</span> <span class="pre">images</span> <span class="pre">for</span> <span class="pre">TensorFlow</span> <span class="pre">Serving</span> <span class="pre">(http…</span>&#160;&#160; <span class="pre">31</span>
+<span class="pre">floydhub/tensorflow</span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <span class="pre">tensorflow</span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <span class="pre">15</span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <span class="pre">[OK]</span>
+<span class="pre">bitnami/tensorflow-serving</span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <span class="pre">Bitnami</span> <span class="pre">Docker</span> <span class="pre">Image</span> <span class="pre">for</span> <span class="pre">TensorFlow</span> <span class="pre">Serving</span>&#160;&#160;&#160;&#160; <span class="pre">13</span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <span class="pre">[OK]</span>
+<span class="pre">opensciencegrid/tensorflow-gpu</span>&#160;&#160;&#160;&#160;&#160; <span class="pre">TensorFlow</span> <span class="pre">GPU</span> <span class="pre">set</span> <span class="pre">up</span> <span class="pre">for</span> <span class="pre">OSG</span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <span class="pre">7</span>
+<span class="pre">tensorflow/tf_grpc_server</span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <span class="pre">Server</span> <span class="pre">for</span> <span class="pre">TensorFlow</span> <span class="pre">GRPC</span> <span class="pre">Distributed</span> <span class="pre">Runti…</span>&#160;&#160; <span class="pre">7</span>
+<span class="pre">hytssk/tensorflow</span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <span class="pre">tensorflow</span> <span class="pre">image</span> <span class="pre">with</span> <span class="pre">matplotlib.pyplot.imsh…</span>&#160;&#160; <span class="pre">3</span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <span class="pre">[OK]</span>
+<span class="pre">tensorflow/tf_grpc_test_server</span>&#160;&#160;&#160;&#160;&#160; <span class="pre">Testing</span> <span class="pre">server</span> <span class="pre">for</span> <span class="pre">GRPC-based</span> <span class="pre">distributed</span> <span class="pre">ru…</span>&#160;&#160; <span class="pre">3</span>
+<span class="pre">mikebirdgeneau/r-tensorflow</span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <span class="pre">RStudio</span> <span class="pre">and</span> <span class="pre">Tensorflow</span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <span class="pre">2</span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <span class="pre">[OK]</span>
+<span class="pre">lablup/kernel-python-tensorflow</span>&#160;&#160;&#160;&#160; <span class="pre">TensorFlow</span> <span class="pre">container</span> <span class="pre">imager</span> <span class="pre">for</span> <span class="pre">Backend.Ai</span>&#160;&#160;&#160;&#160;&#160; <span class="pre">2</span>
+<span class="pre">bitnami/tensorflow-inception</span>&#160;&#160;&#160;&#160;&#160;&#160;&#160; <span class="pre">Bitnami</span> <span class="pre">Docker</span> <span class="pre">Image</span> <span class="pre">for</span> <span class="pre">TensorFlow</span> <span class="pre">Inception</span>&#160;&#160; <span class="pre">2</span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <span class="pre">[OK]</span>
+<span class="pre">`</span></code>
+{: .output}</p>
+</section>
+<section id="running-an-interactive-command-in-an-image">
+<h3>Running an interactive command in an image<a class="headerlink" href="#running-an-interactive-command-in-an-image" title="Permalink to this headline">¶</a></h3>
+<p>Docker has the option to run containers interactively.  While this is convenient (and useful for debugging), in general you shouldn’t use this model as your standard way of working with containers.  To run interactively, we just need to use the <code class="xref py py-obj docutils literal notranslate"><span class="pre">-i</span></code> and <code class="xref py py-obj docutils literal notranslate"><span class="pre">-t</span></code> flags, or <code class="xref py py-obj docutils literal notranslate"><span class="pre">-it</span></code> for brevity:</p>
+<p><code class="docutils literal notranslate"><span class="pre">`</span>
+<span class="pre">$</span> <span class="pre">docker</span> <span class="pre">run</span> <span class="pre">-i</span> <span class="pre">-t</span> <span class="pre">ubuntu</span> <span class="pre">/bin/bash</span>
+<span class="pre">`</span></code>
+{: .bash}</p>
+<p><code class="docutils literal notranslate"><span class="pre">`</span>
+<span class="pre">root&#64;c69d6f8d89bd:/#</span> <span class="pre">id</span>
+<span class="pre">`</span></code>
+{: .bash}</p>
+<p><code class="docutils literal notranslate"><span class="pre">`</span>
+<span class="pre">uid=0(root)</span> <span class="pre">gid=0(root)</span> <span class="pre">groups=0(root)</span>
+<span class="pre">`</span></code>
+{: .output}</p>
+<p><code class="docutils literal notranslate"><span class="pre">`</span>
+<span class="pre">root&#64;c69d6f8d89bd:/#</span> <span class="pre">ls</span>
+<span class="pre">`</span></code>
+{: .bash}</p>
+<p><code class="docutils literal notranslate"><span class="pre">`</span>
+<span class="pre">bin</span>&#160;&#160; <span class="pre">dev</span>&#160; <span class="pre">home</span>&#160; <span class="pre">lib64</span>&#160; <span class="pre">mnt</span>&#160; <span class="pre">proc</span>&#160; <span class="pre">run</span>&#160;&#160; <span class="pre">srv</span>&#160; <span class="pre">tmp</span>&#160; <span class="pre">var</span>
+<span class="pre">boot</span>&#160; <span class="pre">etc</span>&#160; <span class="pre">lib</span>&#160;&#160; <span class="pre">media</span>&#160; <span class="pre">opt</span>&#160; <span class="pre">root</span>&#160; <span class="pre">sbin</span>&#160; <span class="pre">sys</span>&#160; <span class="pre">usr</span>
+<span class="pre">`</span></code>
+{: .output}</p>
+<p><code class="docutils literal notranslate"><span class="pre">`</span>
+<span class="pre">root&#64;c69d6f8d89bd:/#</span> <span class="pre">exit</span>&#160;&#160; <span class="pre">#</span> <span class="pre">or</span> <span class="pre">hit</span> <span class="pre">CTRL-D</span>
+<span class="pre">`</span></code>
+{: .bash}</p>
+<p>The <code class="xref py py-obj docutils literal notranslate"><span class="pre">-t</span></code> and <code class="xref py py-obj docutils literal notranslate"><span class="pre">-i</span></code> options make sure we allocate a terminal to the container, and keep its STDIN (standard input) open.</p>
+<p>As you can see, you have root access in your container, and you are in what looks like a normal linux system. Now you can do whatever you like, e.g. install software and develop applications, all within the container of your choice.</p>
+</section>
+</section>
+<section id="pull-and-run-a-python-miniconda-container">
+<h2>&gt;  Pull and run a Python Miniconda container<a class="headerlink" href="#pull-and-run-a-python-miniconda-container" title="Permalink to this headline">¶</a></h2>
+<p>&gt;
+&gt; How would you pull the following container image, <code class="xref py py-obj docutils literal notranslate"><span class="pre">continuumio/miniconda3:4.5.12</span></code>?
+&gt;
+&gt; Once you’ve pulled it, enquire the Python version inside the container by running <code class="xref py py-obj docutils literal notranslate"><span class="pre">python</span> <span class="pre">--version</span></code>.
+&gt;
+&gt; Finally, open and then close an interactive Python console through the container.
+&gt;
+&gt; &gt;  Solution
+&gt; &gt;
+&gt; &gt; Pull:
+&gt; &gt;
+&gt; &gt; <code class="docutils literal notranslate"><span class="pre">`</span>
+<span class="pre">&gt;</span> <span class="pre">&gt;</span> <span class="pre">$</span> <span class="pre">docker</span> <span class="pre">pull</span> <span class="pre">continuumio/miniconda3:4.5.12</span>
+<span class="pre">&gt;</span> <span class="pre">&gt;</span> <span class="pre">`</span></code>
+&gt; &gt; {: .bash}
+&gt; &gt;
+&gt; &gt; Get Python version:
+&gt; &gt;
+&gt; &gt; <code class="docutils literal notranslate"><span class="pre">`</span>
+<span class="pre">&gt;</span> <span class="pre">&gt;</span> <span class="pre">$</span> <span class="pre">docker</span> <span class="pre">run</span> <span class="pre">continuumio/miniconda3:4.5.12</span> <span class="pre">python</span> <span class="pre">--version</span>
+<span class="pre">&gt;</span> <span class="pre">&gt;</span> <span class="pre">`</span></code>
+&gt; &gt; {: .bash}
+&gt; &gt;
+&gt; &gt; Open and close an interactive console:
+&gt; &gt;
+&gt; &gt; <code class="docutils literal notranslate"><span class="pre">`</span>
+<span class="pre">&gt;</span> <span class="pre">&gt;</span> <span class="pre">$</span> <span class="pre">docker</span> <span class="pre">run</span> <span class="pre">-it</span> <span class="pre">continuumio/miniconda3:4.5.12</span> <span class="pre">python</span>
+<span class="pre">&gt;</span> <span class="pre">&gt;</span> <span class="pre">{:</span> <span class="pre">.bash}</span>
+<span class="pre">&gt;</span> <span class="pre">&gt;</span> <span class="pre">`</span></code>
+&gt; &gt; {: .bash}
+&gt; &gt;
+&gt; &gt; <code class="docutils literal notranslate"><span class="pre">`</span>
+<span class="pre">&gt;</span> <span class="pre">&gt;</span> <span class="pre">&gt;&gt;&gt;</span> <span class="pre">exit</span>&#160;&#160; <span class="pre">#</span> <span class="pre">or</span> <span class="pre">hit</span> <span class="pre">CTRL-D</span>
+<span class="pre">&gt;</span> <span class="pre">&gt;</span> <span class="pre">`</span></code>
+&gt; &gt; {: .python}
+&gt; {: .solution}
+{: .challenge}</p>
+</section>
+<section id="best-practices">
+<h2>&gt;  Best practices<a class="headerlink" href="#best-practices" title="Permalink to this headline">¶</a></h2>
+<p>&gt;
+&gt; * Prefer official images over those built by third-parties. Docker runs with privileges, so you have to be a bit careful what you run
+&gt; * Good online documentation on Docker commands can be found at [Docker run reference](<a class="reference external" href="https://docs.docker.com/engine/reference/run/">https://docs.docker.com/engine/reference/run/</a>) and related pages
+{: .callout}</p>
+</section>
+</section>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="Docker-and-Sphinx.html" class="btn btn-neutral float-right" title="Docker and Sphinx" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../bareos/config-file/v1.html" class="btn btn-neutral float-left" title="Configuration File V1 (Deprecated)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020-2021, Thomas Connors and Contributors.
+      <span class="lastupdated">
+        Last updated on Tue, 20 Apr 2021 12:00 AM .
+      </span>
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+  
+ <script type="text/javascript">
+    $(document).ready(function() {
+        $(".toggle > *").hide();
+        $(".toggle .header").show();
+        $(".toggle .header").click(function() {
+            $(this).parent().children().not(".header").toggle(400);
+            $(this).parent().children(".header").toggleClass("open");
+        })
+    });
+</script>
+
+
+</body>
+</html>

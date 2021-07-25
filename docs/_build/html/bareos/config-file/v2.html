@@ -1,0 +1,1174 @@
+
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  
+  <title>Configuration File V2 &mdash; all-knowledge</title>
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="../../_static/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../_static/icons/favicon-16x16.png">
+  <link rel="manifest" href="../../_static/icons/site.webmanifest">
+  <link rel="mask-icon" href="../../_static/icons/safari-pinned-tab.svg" color="#919191">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="msapplication-config" content="../../_static/icons/browserconfig.xml">
+  <link rel="stylesheet" href="../../_static/stylesheets/examples.css">
+  <link rel="stylesheet" href="../../_static/stylesheets/deprecation.css">
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/copybutton.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/tooltipster.custom.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/tooltipster.bundle.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/tooltipster-sideTip-shadow.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/tooltipster-sideTip-punk.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/tooltipster-sideTip-noir.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/tooltipster-sideTip-light.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/tooltipster-sideTip-borderless.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/micromodal.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/tabs.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/sphinx_rtd_theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/contentui.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/gallery.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/gallery-binder.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/gallery-dataframe.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/gallery-rendered-html.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/sphinxcontrib-images/LightBox2/lightbox2/css/lightbox.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+  
+
+  
+  
+
+  
+    <link rel="canonical" href="https://pandemic-overview.readthedocs.io/en/latest/bareos/config-file/v2.html" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+        <script src="../../_static/clipboard.min.js"></script>
+        <script src="../../_static/copybutton.js"></script>
+        <script src="../../_static/js/hoverxref.js"></script>
+        <script src="../../_static/js/tooltipster.bundle.min.js"></script>
+        <script src="../../_static/js/micromodal.min.js"></script>
+        <script src="../../_static/tabs.js"></script>
+        <script src="../../_static/js/expand_tabs.js"></script>
+        <script src="../../_static/contentui.js"></script>
+        <script src="../../_static/sphinxcontrib-images/LightBox2/lightbox2/js/jquery-1.11.0.min.js"></script>
+        <script src="../../_static/sphinxcontrib-images/LightBox2/lightbox2/js/lightbox.min.js"></script>
+        <script src="../../_static/sphinxcontrib-images/LightBox2/lightbox2-customize/jquery-noconflict.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Configuration File V1 (Deprecated)" href="v1.html" />
+    <link rel="prev" title="Configuration File" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html">
+          
+
+          
+            
+            <img src="../../_static/statsmodels-logo-v2-bw.svg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../topics/Covid-Medical-Treatments/Covid-Medical-Treatments.html">Covid Medical Treatments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../topics/Bill-Gates-Memes/Bill-Gates-Memes.html">Bill Gates Memes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../topics/topics.html">Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../topics/Data-science-of-the-pandemic/Data-science-of-the-pandemic.html">Data Science of the Pandemic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../topics/Vaccines/Vaccines.html">Vaccines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../topics/Masks/Masks.html">Masks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../topics/Lockdowns/Lockdowns.html">Lockdowns</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../topics/Origins-of-the-Virus/Origins-of-the-Virus.html">Origins of the Virus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../topics/Pandemic-Preparedness/Pandemic-Preparedness.html">Pandemic Preparedness</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../topics/Pandemic-Participants/Pandemic-Participants.html">Pandemic Participants</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../topics/Food-Safety/Food-Safety.html">Food Safety</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../topics/Municipal-Matters/Municipal-Matters.html">Municipal Issues and Topics</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../How-you-can-help/How-you-can-help.html">How you can help</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../myGuides/Tech-stack-for-this-website.html">Tech stack for this website</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../myGuides/myGuides.html">My Guides for Various Technical Topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../myGuides/General-computer-setup.html">General Computer Setup</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../myGuides/Advanced-Computer-Setup.html">Advanced Computer Setup and Topics</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/ReadTheDocs-Documentation-System.html">ReadTheDocs Documentation System</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/vscode-SSH-Remote-Containers.html">Visual Studio Code SSH Remote Development with Containers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Sphinx-Documentation-System.html">Sphinx Documentation System</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html">Bareos Project - Reference Implementation</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../WhatIsBareos.html">What is Bareos?</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../RestOverview.html">reST Overview</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../CommonNames.html">Common Names</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../SpecificFormatting.html">Specific Formatting</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../BareosSpecificFormatting.html">Bareos Specific Formatting</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../Gotchas.html">Gotchas</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../Bareos-conf-py.html">The bareos conf.py looks as follows</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="index.html">Configuration File</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Container-Workflow.html">Introduction to Developing in the Docker Container Workflow</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Docker-and-Sphinx.html">Docker and Sphinx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Google-Bing-Webmaster-Tools-Search-and-Rich-Results.html">Google Bing Webmaster Tools Search and Rich Results</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Binder.html">Binder usage with Sphinx-Gallery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/How-to-install-python-on-debian.html">How To Install Python on Debian</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Invenio-Software.html">Invenio Software</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/pip-package-installer-for-python.html">pip is the package installer for Python</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Sphinx-copybutton.html">Sphinx Copybutton</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Sphinx-embed-object-iFrame-video-html-PDF-twitter-examples.html">Sphinx embed object iFrame video html PDF Twitter examples</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Sphinx-Lillypond.html">Sphinx Lillypond</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Sphinx-last-updated-by-git.html">sphinx-last-updated-by-git</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Sphinx-last-updated-by-git.html#get-the-last-updated-time-for-each-sphinx-page-from-git">Get the “last updated” time for each Sphinx page from Git</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Sphinx-Twitter.html">Sphinx Twitter (Python Twitter)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Sphinx-Gallery.html">Sphinx Gallery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Sphinx-Gitstamp.html">Sphinx Gitstamp Generator Extension</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Sphinx-Jinja.html">Sphinx Jinja is a templating engine</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Sphinx-Hoverxref.html">Sphinx Hoverxref</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Sphinx-pdfembed.html">Sphinx PDF Embed - sphinxcontrib-pdfembed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Sphinxext-remoteliteralinclude.html">Sphinx Remote Literal Include</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Sphinx-Redirects.html">Sphinx Redirects</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Sphinx-rediraffe.html">Sphinx Rediraffe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Sphinx-Sitemap.html">Sphinx Sitemap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Sphinx-Templating.html">Sphinx Templating</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Sphinx-Timeline.html">Sphinx Timeline</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Werkzeug-comprehensive-WSGI-web-application-library.html">Werkzeug WSGI web application library</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/WSGI-is-the-Web-Server-Gateway-Interface.html">WSGI is the Web Server Gateway Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Zenodo.html">Zenodo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Zotero.html">Zotero</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Kubernetes.html">Kubernetes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Github-Workflow.html">GitHub Workflow</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../myGuides/aws/Amazon-AWS-Learning.html">Amazon AWS Learning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../myGuides/ToDo-project-tasks.html">ToDo project and documentation tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../myGuides/Contribute.html">Contribute</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../myGuides/Upcoming-software-to-try.html">Links of Upcoming Software to Try</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../How-you-can-help/Links-to-add-to-site.html">Links to add to the documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../How-you-can-help/Future-topics-to-be-developed.html">Future Topics to be developed</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../Sandbox/Sandbox.html">Sandbox</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../License/license.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Help-about/help.html">Help - About</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../topics/Covid-Medical-Treatments/Covid-Medical-Treatments.html">Covid Medical Treatments</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../topics/Bill-Gates-Memes/Bill-Gates-Memes.html">Bill Gates Memes</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../topics/topics.html">Topics</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../topics/Data-science-of-the-pandemic/Data-science-of-the-pandemic.html">Data Science of the Pandemic</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../topics/Vaccines/Vaccines.html">Vaccines</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../topics/Masks/Masks.html">Masks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../topics/Lockdowns/Lockdowns.html">Lockdowns</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../topics/Origins-of-the-Virus/Origins-of-the-Virus.html">Origins of the Virus</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../topics/Pandemic-Preparedness/Pandemic-Preparedness.html">Pandemic Preparedness</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../topics/Pandemic-Participants/Pandemic-Participants.html">Pandemic Participants</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../topics/Food-Safety/Food-Safety.html">Food Safety</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../topics/Municipal-Matters/Municipal-Matters.html">Municipal Issues and Topics</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../How-you-can-help/How-you-can-help.html">How you can help</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../myGuides/Tech-stack-for-this-website.html">Tech stack for this website</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../myGuides/myGuides.html">My Guides for Various Technical Topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../myGuides/General-computer-setup.html">General Computer Setup</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../myGuides/Advanced-Computer-Setup.html">Advanced Computer Setup and Topics</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/ReadTheDocs-Documentation-System.html">ReadTheDocs Documentation System</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/vscode-SSH-Remote-Containers.html">Visual Studio Code SSH Remote Development with Containers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Sphinx-Documentation-System.html">Sphinx Documentation System</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html">Bareos Project - Reference Implementation</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../WhatIsBareos.html">What is Bareos?</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../RestOverview.html">reST Overview</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../CommonNames.html">Common Names</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../SpecificFormatting.html">Specific Formatting</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../BareosSpecificFormatting.html">Bareos Specific Formatting</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../Gotchas.html">Gotchas</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../Bareos-conf-py.html">The bareos conf.py looks as follows</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="index.html">Configuration File</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Container-Workflow.html">Introduction to Developing in the Docker Container Workflow</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Docker-and-Sphinx.html">Docker and Sphinx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Google-Bing-Webmaster-Tools-Search-and-Rich-Results.html">Google Bing Webmaster Tools Search and Rich Results</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Binder.html">Binder usage with Sphinx-Gallery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/How-to-install-python-on-debian.html">How To Install Python on Debian</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Invenio-Software.html">Invenio Software</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/pip-package-installer-for-python.html">pip is the package installer for Python</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Sphinx-copybutton.html">Sphinx Copybutton</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Sphinx-embed-object-iFrame-video-html-PDF-twitter-examples.html">Sphinx embed object iFrame video html PDF Twitter examples</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Sphinx-Lillypond.html">Sphinx Lillypond</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Sphinx-last-updated-by-git.html">sphinx-last-updated-by-git</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Sphinx-last-updated-by-git.html#get-the-last-updated-time-for-each-sphinx-page-from-git">Get the “last updated” time for each Sphinx page from Git</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Sphinx-Twitter.html">Sphinx Twitter (Python Twitter)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Sphinx-Gallery.html">Sphinx Gallery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Sphinx-Gitstamp.html">Sphinx Gitstamp Generator Extension</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Sphinx-Jinja.html">Sphinx Jinja is a templating engine</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Sphinx-Hoverxref.html">Sphinx Hoverxref</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Sphinx-pdfembed.html">Sphinx PDF Embed - sphinxcontrib-pdfembed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Sphinxext-remoteliteralinclude.html">Sphinx Remote Literal Include</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Sphinx-Redirects.html">Sphinx Redirects</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Sphinx-rediraffe.html">Sphinx Rediraffe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Sphinx-Sitemap.html">Sphinx Sitemap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Sphinx-Templating.html">Sphinx Templating</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Sphinx-Timeline.html">Sphinx Timeline</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Werkzeug-comprehensive-WSGI-web-application-library.html">Werkzeug WSGI web application library</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/WSGI-is-the-Web-Server-Gateway-Interface.html">WSGI is the Web Server Gateway Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Zenodo.html">Zenodo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Zotero.html">Zotero</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Kubernetes.html">Kubernetes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../myGuides/Github-Workflow.html">GitHub Workflow</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../myGuides/aws/Amazon-AWS-Learning.html">Amazon AWS Learning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../myGuides/ToDo-project-tasks.html">ToDo project and documentation tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../myGuides/Contribute.html">Contribute</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../myGuides/Upcoming-software-to-try.html">Links of Upcoming Software to Try</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../How-you-can-help/Links-to-add-to-site.html">Links to add to the documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../How-you-can-help/Future-topics-to-be-developed.html">Future Topics to be developed</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">all-knowledge</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../How-you-can-help/How-you-can-help.html">How you can help</a> &raquo;</li>
+        
+          <li><a href="../../myGuides/Advanced-Computer-Setup.html">Advanced Computer Setup and Topics</a> &raquo;</li>
+        
+          <li><a href="../index.html">Bareos Project - Reference Implementation</a> &raquo;</li>
+        
+          <li><a href="index.html">Configuration File</a> &raquo;</li>
+        
+      <li>Configuration File V2</li>
+    
+    
+    <li class="wy-breadcrumbs-aside">
+    
+        
+        <a href="../../_sources/bareos/config-file/v2.rst.txt" rel="nofollow"> View page source</a>
+        
+    
+    </li>
+
+  </ul>
+
+  
+  <div class="rst-breadcrumbs-buttons" role="navigation" aria-label="breadcrumb navigation">
+      
+        <a href="v1.html" class="btn btn-neutral float-right" title="Configuration File V1 (Deprecated)" accesskey="n">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Configuration File" accesskey="p"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+      
+  </div>
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <section id="configuration-file-v2">
+<h1>Configuration File V2<a class="headerlink" href="#configuration-file-v2" title="Permalink to this headline">¶</a></h1>
+<p>Read the Docs supports configuring your documentation builds with a YAML file.
+The <a class="reference internal" href="index.html"><span class="doc">configuration file</span></a> must be in the root directory of your project
+an be named <code class="docutils literal notranslate"><span class="pre">.readthedocs.yaml</span></code>.</p>
+<p>All options are applied to the version containing this file.
+Below is an example YAML file which shows the most common configuration options:</p>
+<div class="sphinx-tabs docutils container">
+<div aria-label="Tabbed content" class="closeable" role="tablist"><button aria-controls="panel-0-0-0" aria-selected="true" class="sphinx-tabs-tab" id="tab-0-0-0" name="0-0" role="tab" tabindex="0">Sphinx</button><button aria-controls="panel-0-0-1" aria-selected="false" class="sphinx-tabs-tab" id="tab-0-0-1" name="0-1" role="tab" tabindex="-1">MkDocs</button></div><div aria-labelledby="tab-0-0-0" class="sphinx-tabs-panel" id="panel-0-0-0" name="0-0" role="tabpanel" tabindex="0"><div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="c1"># .readthedocs.yaml</span>
+<span class="c1"># Read the Docs configuration file</span>
+<span class="c1"># See https://docs.readthedocs.io/en/stable/config-file/v2.html for details</span>
+
+<span class="c1"># Required</span>
+<span class="nt">version</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">2</span>
+
+<span class="c1"># Build documentation in the docs/ directory with Sphinx</span>
+<span class="nt">sphinx</span><span class="p">:</span>
+   <span class="nt">configuration</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">docs/conf.py</span>
+
+<span class="c1"># Optionally build your docs in additional formats such as PDF</span>
+<span class="nt">formats</span><span class="p">:</span>
+   <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">pdf</span>
+
+<span class="c1"># Optionally set the version of Python and requirements required to build your docs</span>
+<span class="nt">python</span><span class="p">:</span>
+   <span class="nt">version</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">3.7</span>
+   <span class="nt">install</span><span class="p">:</span>
+   <span class="p p-Indicator">-</span> <span class="nt">requirements</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">docs/requirements.txt</span>
+</pre></div>
+</div>
+</div><div aria-labelledby="tab-0-0-1" class="sphinx-tabs-panel" hidden="true" id="panel-0-0-1" name="0-1" role="tabpanel" tabindex="0"><div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="c1"># .readthedocs.yaml</span>
+<span class="c1"># Read the Docs configuration file</span>
+<span class="c1"># See https://docs.readthedocs.io/en/stable/config-file/v2.html for details</span>
+
+<span class="c1"># Required</span>
+<span class="nt">version</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">2</span>
+
+<span class="nt">mkdocs</span><span class="p">:</span>
+  <span class="nt">configuration</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">mkdocs.yml</span>
+
+<span class="c1"># Optionally set the version of Python and requirements required to build your docs</span>
+<span class="nt">python</span><span class="p">:</span>
+   <span class="nt">version</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">3.7</span>
+   <span class="nt">install</span><span class="p">:</span>
+   <span class="p p-Indicator">-</span> <span class="nt">requirements</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">docs/requirements.txt</span>
+</pre></div>
+</div>
+</div></div>
+<section id="supported-settings">
+<h2>Supported settings<a class="headerlink" href="#supported-settings" title="Permalink to this headline">¶</a></h2>
+<p>Read the Docs validates every configuration file.
+Any configuration option that isn’t supported will make the build fail.
+This is to avoid typos and provide feedback on invalid configurations.</p>
+<div class="contents local topic" id="contents">
+<ul class="simple">
+<li><p><a class="reference internal" href="#version" id="id5">version</a></p></li>
+<li><p><a class="reference internal" href="#formats" id="id6">formats</a></p></li>
+<li><p><a class="reference internal" href="#python" id="id7">python</a></p></li>
+<li><p><a class="reference internal" href="#conda" id="id8">conda</a></p></li>
+<li><p><a class="reference internal" href="#build" id="id9">build</a></p></li>
+<li><p><a class="reference internal" href="#sphinx" id="id10">sphinx</a></p></li>
+<li><p><a class="reference internal" href="#mkdocs" id="id11">mkdocs</a></p></li>
+<li><p><a class="reference internal" href="#submodules" id="id12">submodules</a></p></li>
+<li><p><a class="reference internal" href="#search" id="id13">search</a></p></li>
+</ul>
+</div>
+<section id="version">
+<h3><a class="toc-backref" href="#id5">version</a><a class="headerlink" href="#version" title="Permalink to this headline">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">Required</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">true</span></code></p>
+</dd>
+</dl>
+<p>Example:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">version</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">2</span>
+</pre></div>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If you don’t provide the version, <a class="reference internal" href="v1.html"><span class="doc">v1</span></a> will be used.</p>
+</div>
+</section>
+<section id="formats">
+<h3><a class="toc-backref" href="#id6">formats</a><a class="headerlink" href="#formats" title="Permalink to this headline">¶</a></h3>
+<p>Formats of the documentation to be built.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">list</span></code></p>
+</dd>
+<dt class="field-even">Options</dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">htmlzip</span></code>, <code class="docutils literal notranslate"><span class="pre">pdf</span></code>, <code class="docutils literal notranslate"><span class="pre">epub</span></code></p>
+</dd>
+<dt class="field-odd">Default</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">[]</span></code></p>
+</dd>
+</dl>
+<p>Example:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">version</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">2</span>
+
+<span class="c1"># Default</span>
+<span class="nt">formats</span><span class="p">:</span> <span class="p p-Indicator">[]</span>
+</pre></div>
+</div>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">version</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">2</span>
+
+<span class="c1"># Build PDF &amp; ePub</span>
+<span class="nt">formats</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">epub</span>
+  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">pdf</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You can use the <code class="docutils literal notranslate"><span class="pre">all</span></code> keyword to indicate all formats.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">version</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">2</span>
+
+<span class="c1"># Build all formats</span>
+<span class="nt">formats</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">all</span>
+</pre></div>
+</div>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p><code class="docutils literal notranslate"><span class="pre">pdf</span></code>, <code class="docutils literal notranslate"><span class="pre">epub</span></code>, and <code class="docutils literal notranslate"><span class="pre">htmlzip</span></code> output is not supported when using MkDocs.</p>
+</div>
+</section>
+<section id="python">
+<h3><a class="toc-backref" href="#id7">python</a><a class="headerlink" href="#python" title="Permalink to this headline">¶</a></h3>
+<p>Configuration of the Python environment to be used.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">version</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">2</span>
+
+<span class="nt">python</span><span class="p">:</span>
+  <span class="nt">version</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">3.7</span>
+  <span class="nt">install</span><span class="p">:</span>
+    <span class="p p-Indicator">-</span> <span class="nt">requirements</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">docs/requirements.txt</span>
+    <span class="p p-Indicator">-</span> <span class="nt">method</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">pip</span>
+      <span class="nt">path</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">.</span>
+      <span class="nt">extra_requirements</span><span class="p">:</span>
+        <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">docs</span>
+    <span class="p p-Indicator">-</span> <span class="nt">method</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">setuptools</span>
+      <span class="nt">path</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">another/package</span>
+  <span class="nt">system_packages</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+</pre></div>
+</div>
+<section id="python-version">
+<h4>python.version<a class="headerlink" href="#python-version" title="Permalink to this headline">¶</a></h4>
+<p>The Python version (this depends on <span class="xref std std-ref">/bareos/config-file/v2:build.image</span>).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">number</span></code></p>
+</dd>
+<dt class="field-even">Default</dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">3</span></code></p>
+</dd>
+</dl>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If you are using a <span class="xref std std-ref">Conda</span> environment to manage
+the build, this setting will not have any effect, as the Python version is managed by Conda.</p>
+</div>
+</section>
+<section id="python-install">
+<h4>python.install<a class="headerlink" href="#python-install" title="Permalink to this headline">¶</a></h4>
+<p>List of installation methods of packages and requirements.
+You can have several of the following methods.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">list</span></code></p>
+</dd>
+<dt class="field-even">Default</dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">[]</span></code></p>
+</dd>
+</dl>
+<section id="requirements-file">
+<h5>Requirements file<a class="headerlink" href="#requirements-file" title="Permalink to this headline">¶</a></h5>
+<p>Install packages from a requirements file.</p>
+<p>The path to the requirements file, relative to the root of the project.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Key</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">requirements</span></code></p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">path</span></code></p>
+</dd>
+<dt class="field-odd">Required</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">true</span></code></p>
+</dd>
+</dl>
+<p>Example:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">version</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">2</span>
+
+<span class="nt">python</span><span class="p">:</span>
+  <span class="nt">version</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">3.7</span>
+  <span class="nt">install</span><span class="p">:</span>
+    <span class="p p-Indicator">-</span> <span class="nt">requirements</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">docs/requirements.txt</span>
+    <span class="p p-Indicator">-</span> <span class="nt">requirements</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">requirements.txt</span>
+</pre></div>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If you are using a <span class="xref std std-ref">Conda</span> environment to
+manage the build, this setting will not have any effect. Instead
+add the extra requirements to the <code class="docutils literal notranslate"><span class="pre">environment</span></code> file of Conda.</p>
+</div>
+</section>
+<section id="packages">
+<h5>Packages<a class="headerlink" href="#packages" title="Permalink to this headline">¶</a></h5>
+<p>Install the project using <code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">setup.py</span> <span class="pre">install</span></code> or <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span></code>.</p>
+<p>The path to the package, relative to the root of the project.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Key</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">path</span></code></p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">path</span></code></p>
+</dd>
+<dt class="field-odd">Required</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">true</span></code></p>
+</dd>
+</dl>
+<p>The installation method.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Key</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">method</span></code></p>
+</dd>
+<dt class="field-even">Options</dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">pip</span></code>, <code class="docutils literal notranslate"><span class="pre">setuptools</span></code></p>
+</dd>
+<dt class="field-odd">Default</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">pip</span></code></p>
+</dd>
+</dl>
+<p><a class="reference external" href="https://setuptools.readthedocs.io/en/latest/setuptools.html#declaring-extras-optional-features-with-their-own-dependencies">Extra requirements</a> section to install in addition to the <a class="reference external" href="https://setuptools.readthedocs.io/en/latest/setuptools.html#declaring-dependencies">package dependencies</a>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>You need to install your project with <code class="docutils literal notranslate"><span class="pre">pip</span></code> to use <code class="docutils literal notranslate"><span class="pre">extra_requirements</span></code>.</p>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Key</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">extra_requirements</span></code></p>
+</dd>
+<dt class="field-even">Type</dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">list</span></code></p>
+</dd>
+<dt class="field-odd">Default</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">[]</span></code></p>
+</dd>
+</dl>
+<p>Example:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">version</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">2</span>
+
+<span class="nt">python</span><span class="p">:</span>
+  <span class="nt">version</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">3.7</span>
+  <span class="nt">install</span><span class="p">:</span>
+    <span class="p p-Indicator">-</span> <span class="nt">method</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">pip</span>
+      <span class="nt">path</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">.</span>
+      <span class="nt">extra_requirements</span><span class="p">:</span>
+        <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">docs</span>
+    <span class="p p-Indicator">-</span> <span class="nt">method</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">setuptools</span>
+      <span class="nt">path</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">package</span>
+</pre></div>
+</div>
+<p>With the previous settings, Read the Docs will execute the next commands:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><style type="text/css">
+span.prompt1:before {
+  content: "$ ";
+}
+</style><span class="prompt1">pip install .<span class="o">[</span>docs<span class="o">]</span></span>
+<span class="prompt1">python package/setup.py install</span>
+</pre></div></div></section>
+</section>
+<section id="python-system-packages">
+<h4>python.system_packages<a class="headerlink" href="#python-system-packages" title="Permalink to this headline">¶</a></h4>
+<p>Give the virtual environment access to the global site-packages directory.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">bool</span></code></p>
+</dd>
+<dt class="field-even">Default</dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">false</span></code></p>
+</dd>
+</dl>
+<p>Depending on the <span class="xref std std-ref">/bareos/config-file/v2:build.image</span>,
+Read the Docs includes some libraries like scipy, numpy, etc.
+That you can access to them by enabling this option.
+See <span class="xref std std-doc">/bareos/builds</span> for more details.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If you are using a <span class="xref std std-ref">Conda</span> environment
+to manage the build, this setting will not have any effect, since
+the virtual environment creation is managed by Conda.</p>
+</div>
+</section>
+</section>
+<section id="conda">
+<h3><a class="toc-backref" href="#id8">conda</a><a class="headerlink" href="#conda" title="Permalink to this headline">¶</a></h3>
+<p>Configuration for Conda support.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">version</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">2</span>
+
+<span class="nt">conda</span><span class="p">:</span>
+  <span class="nt">environment</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">environment.yml</span>
+</pre></div>
+</div>
+<section id="conda-environment">
+<h4>conda.environment<a class="headerlink" href="#conda-environment" title="Permalink to this headline">¶</a></h4>
+<p>The path to the Conda environment file, relative to the root of the project.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">path</span></code></p>
+</dd>
+<dt class="field-even">Required</dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">true</span></code></p>
+</dd>
+</dl>
+</section>
+</section>
+<section id="build">
+<h3><a class="toc-backref" href="#id9">build</a><a class="headerlink" href="#build" title="Permalink to this headline">¶</a></h3>
+<p>Configuration for the documentation build process.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">version</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">2</span>
+
+<span class="nt">build</span><span class="p">:</span>
+  <span class="nt">image</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">latest</span>
+
+<span class="nt">python</span><span class="p">:</span>
+  <span class="nt">version</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">3.7</span>
+</pre></div>
+</div>
+<section id="build-image">
+<h4>build.image<a class="headerlink" href="#build-image" title="Permalink to this headline">¶</a></h4>
+<p>The Docker image used for building the docs.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">string</span></code></p>
+</dd>
+<dt class="field-even">Options</dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">stable</span></code>, <code class="docutils literal notranslate"><span class="pre">latest</span></code></p>
+</dd>
+<dt class="field-odd">Default</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">latest</span></code></p>
+</dd>
+</dl>
+<p>Each image support different Python versions and has different packages installed,
+as defined here:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/readthedocs/readthedocs-docker-images/tree/releases/5.x">stable</a>: <a href="#id1"><span class="problematic" id="id2">:buildpyversions:`stable`</span></a></p></li>
+<li><p><a class="reference external" href="https://github.com/readthedocs/readthedocs-docker-images/tree/releases/6.x">latest</a>: <a href="#id3"><span class="problematic" id="id4">:buildpyversions:`latest`</span></a></p></li>
+</ul>
+</section>
+</section>
+<section id="sphinx">
+<h3><a class="toc-backref" href="#id10">sphinx</a><a class="headerlink" href="#sphinx" title="Permalink to this headline">¶</a></h3>
+<p>Configuration for Sphinx documentation
+(this is the default documentation type).</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">version</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">2</span>
+
+<span class="nt">sphinx</span><span class="p">:</span>
+  <span class="nt">builder</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">html</span>
+  <span class="nt">configuration</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">conf.py</span>
+  <span class="nt">fail_on_warning</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+</pre></div>
+</div>
+<section id="sphinx-builder">
+<h4>sphinx.builder<a class="headerlink" href="#sphinx-builder" title="Permalink to this headline">¶</a></h4>
+<p>The builder type for the Sphinx documentation.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">string</span></code></p>
+</dd>
+<dt class="field-even">Options</dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">html</span></code>, <code class="docutils literal notranslate"><span class="pre">dirhtml</span></code>, <code class="docutils literal notranslate"><span class="pre">singlehtml</span></code></p>
+</dd>
+<dt class="field-odd">Default</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">html</span></code></p>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">htmldir</span></code> builder option was renamed to <code class="docutils literal notranslate"><span class="pre">dirhtml</span></code> to use the same name as sphinx.
+Configurations using the old name will continue working.</p>
+</div>
+</section>
+<section id="sphinx-configuration">
+<h4>sphinx.configuration<a class="headerlink" href="#sphinx-configuration" title="Permalink to this headline">¶</a></h4>
+<p>The path to the <code class="docutils literal notranslate"><span class="pre">conf.py</span></code> file, relative to the root of the project.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">path</span></code></p>
+</dd>
+<dt class="field-even">Default</dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">null</span></code></p>
+</dd>
+</dl>
+<p>If the value is <code class="docutils literal notranslate"><span class="pre">null</span></code>,
+Read the Docs will try to find a <code class="docutils literal notranslate"><span class="pre">conf.py</span></code> file in your project.</p>
+</section>
+<section id="sphinx-fail-on-warning">
+<h4>sphinx.fail_on_warning<a class="headerlink" href="#sphinx-fail-on-warning" title="Permalink to this headline">¶</a></h4>
+<p>Turn warnings into errors
+(<code class="xref std std-option docutils literal notranslate"><span class="pre">-W</span></code> and <code class="xref std std-option docutils literal notranslate"><span class="pre">--keep-going</span></code> options).
+This means the build fails if there is a warning and exits with exit status 1.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">bool</span></code></p>
+</dd>
+<dt class="field-even">Default</dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">false</span></code></p>
+</dd>
+</dl>
+</section>
+</section>
+<section id="mkdocs">
+<h3><a class="toc-backref" href="#id11">mkdocs</a><a class="headerlink" href="#mkdocs" title="Permalink to this headline">¶</a></h3>
+<p>Configuration for Mkdocs documentation.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">version</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">2</span>
+
+<span class="nt">mkdocs</span><span class="p">:</span>
+  <span class="nt">configuration</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">mkdocs.yml</span>
+  <span class="nt">fail_on_warning</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">false</span>
+</pre></div>
+</div>
+<section id="mkdocs-configuration">
+<h4>mkdocs.configuration<a class="headerlink" href="#mkdocs-configuration" title="Permalink to this headline">¶</a></h4>
+<p>The path to the <code class="docutils literal notranslate"><span class="pre">mkdocs.yml</span></code> file, relative to the root of the project.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">path</span></code></p>
+</dd>
+<dt class="field-even">Default</dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">null</span></code></p>
+</dd>
+</dl>
+<p>If the value is <code class="docutils literal notranslate"><span class="pre">null</span></code>,
+Read the Docs will try to find a <code class="docutils literal notranslate"><span class="pre">mkdocs.yml</span></code> file in your project.</p>
+</section>
+<section id="mkdocs-fail-on-warning">
+<h4>mkdocs.fail_on_warning<a class="headerlink" href="#mkdocs-fail-on-warning" title="Permalink to this headline">¶</a></h4>
+<p><a class="reference external" href="https://www.mkdocs.org/user-guide/configuration/#strict">Turn warnings into errors</a>.
+This means that the build stops at the first warning and exits with exit status 1.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">bool</span></code></p>
+</dd>
+<dt class="field-even">Default</dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">false</span></code></p>
+</dd>
+</dl>
+</section>
+</section>
+<section id="submodules">
+<h3><a class="toc-backref" href="#id12">submodules</a><a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h3>
+<p>VCS submodules configuration.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Only Git is supported at the moment.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>You can’t use <code class="docutils literal notranslate"><span class="pre">include</span></code> and <code class="docutils literal notranslate"><span class="pre">exclude</span></code> settings for submodules at the same time.</p>
+</div>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">version</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">2</span>
+
+<span class="nt">submodules</span><span class="p">:</span>
+  <span class="nt">include</span><span class="p">:</span>
+    <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">one</span>
+    <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">two</span>
+  <span class="nt">recursive</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+</pre></div>
+</div>
+<section id="submodules-include">
+<h4>submodules.include<a class="headerlink" href="#submodules-include" title="Permalink to this headline">¶</a></h4>
+<p>List of submodules to be included.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">list</span></code></p>
+</dd>
+<dt class="field-even">Default</dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">[]</span></code></p>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You can use the <code class="docutils literal notranslate"><span class="pre">all</span></code> keyword to include all submodules.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">version</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">2</span>
+
+<span class="nt">submodules</span><span class="p">:</span>
+  <span class="nt">include</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">all</span>
+</pre></div>
+</div>
+</div>
+</section>
+<section id="submodules-exclude">
+<h4>submodules.exclude<a class="headerlink" href="#submodules-exclude" title="Permalink to this headline">¶</a></h4>
+<p>List of submodules to be excluded.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">list</span></code></p>
+</dd>
+<dt class="field-even">Default</dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">[]</span></code></p>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You can use the <code class="docutils literal notranslate"><span class="pre">all</span></code> keyword to exclude all submodules.
+This is the same as <code class="docutils literal notranslate"><span class="pre">include:</span> <span class="pre">[]</span></code>.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">version</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">2</span>
+
+<span class="nt">submodules</span><span class="p">:</span>
+  <span class="nt">exclude</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">all</span>
+</pre></div>
+</div>
+</div>
+</section>
+<section id="submodules-recursive">
+<h4>submodules.recursive<a class="headerlink" href="#submodules-recursive" title="Permalink to this headline">¶</a></h4>
+<p>Do a recursive clone of the submodules.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">bool</span></code></p>
+</dd>
+<dt class="field-even">Default</dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">false</span></code></p>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This is ignored if there aren’t submodules to clone.</p>
+</div>
+</section>
+</section>
+<section id="search">
+<h3><a class="toc-backref" href="#id13">search</a><a class="headerlink" href="#search" title="Permalink to this headline">¶</a></h3>
+<p>Settings for more control over <span class="xref std std-doc">/server-side-search</span>.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">version</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">2</span>
+
+<span class="nt">search</span><span class="p">:</span>
+  <span class="nt">ranking</span><span class="p">:</span>
+    <span class="nt">api/v1/*</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">-1</span>
+    <span class="nt">api/v2/*</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">4</span>
+  <span class="nt">ignore</span><span class="p">:</span>
+    <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">404.html</span>
+</pre></div>
+</div>
+<section id="search-ranking">
+<h4>search.ranking<a class="headerlink" href="#search-ranking" title="Permalink to this headline">¶</a></h4>
+<p>Set a custom search rank over pages matching a pattern.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">map</span></code> of patterns to ranks</p>
+</dd>
+<dt class="field-even">Default</dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">{}</span></code></p>
+</dd>
+</dl>
+<p>Patterns are matched against the final html pages produced by the build
+(you should try to match <code class="xref py py-obj docutils literal notranslate"><span class="pre">index.html</span></code>, not <code class="xref py py-obj docutils literal notranslate"><span class="pre">docs/index.rst</span></code>).
+Patterns can include some special characters:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">*</span></code> matches everything</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">?</span></code> matches any single character</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[seq]</span></code> matches any character in <code class="docutils literal notranslate"><span class="pre">seq</span></code></p></li>
+</ul>
+<p>The rank can be an integer number between -10 and 10 (inclusive).
+Pages with a rank closer to -10 will appear further down the list of results,
+and pages with a rank closer to 10 will appear higher in the list of results.
+Note that 0 means <em>normal rank</em>, not <em>no rank</em>.</p>
+<p>If you are looking to completely ignore a page,
+check <span class="xref std std-ref">/bareos/config-file/v2:search.ignore</span>.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">version</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">2</span>
+
+<span class="nt">search</span><span class="p">:</span>
+  <span class="nt">ranking</span><span class="p">:</span>
+    <span class="c1"># Match a single file</span>
+    <span class="nt">tutorial.html</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">2</span>
+
+    <span class="c1"># Match all files under the api/v1 directory</span>
+    <span class="nt">api/v1/*</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">-5</span>
+
+    <span class="c1"># Match all files that end with tutorial.html</span>
+    <span class="s">&#39;*/tutorial.html&#39;</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">3</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The final rank will be the last pattern to match the page.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Is better to decrease the rank of pages you want to deprecate,
+rather than increasing the rank of the other pages.</p>
+</div>
+</section>
+<section id="search-ignore">
+<h4>search.ignore<a class="headerlink" href="#search-ignore" title="Permalink to this headline">¶</a></h4>
+<p>Don’t index files matching a pattern.
+This is, you won’t see search results from these files.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">list</span></code> of patterns</p>
+</dd>
+<dt class="field-even">Default</dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">['search.html',</span> <span class="pre">'search/index.html',</span> <span class="pre">'404.html',</span> <span class="pre">'404/index.html']</span></code></p>
+</dd>
+</dl>
+<p>Patterns are matched against the final html pages produced by the build
+(you should try to match <code class="xref py py-obj docutils literal notranslate"><span class="pre">index.html</span></code>, not <code class="xref py py-obj docutils literal notranslate"><span class="pre">docs/index.rst</span></code>).
+Patterns can include some special characters:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">*</span></code> matches everything</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">?</span></code> matches any single character</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[seq]</span></code> matches any character in <code class="docutils literal notranslate"><span class="pre">seq</span></code></p></li>
+</ul>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">version</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">2</span>
+
+<span class="nt">search</span><span class="p">:</span>
+   <span class="nt">ignore</span><span class="p">:</span>
+     <span class="c1"># Ignore a single file</span>
+     <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">404.html</span>
+
+     <span class="c1"># Ignore all files under the search/ directory</span>
+     <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">search/*</span>
+
+     <span class="c1"># Ignore all files that end with ref.html</span>
+     <span class="p p-Indicator">-</span> <span class="s">&#39;*/ref.html&#39;</span>
+</pre></div>
+</div>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">version</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">2</span>
+
+<span class="nt">search</span><span class="p">:</span>
+   <span class="nt">ignore</span><span class="p">:</span>
+     <span class="c1"># Custom files to ignore</span>
+     <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">file.html</span>
+     <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">api/v1/*</span>
+
+     <span class="c1"># Defaults</span>
+     <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">search.html</span>
+     <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">search/index.html</span>
+     <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">404.html</span>
+     <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">404/index.html&#39;</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Since Read the Docs fallbacks to the original search engine when no results are found,
+you may still see search results from ignored pages.</p>
+</div>
+</section>
+</section>
+</section>
+<section id="schema">
+<h2>Schema<a class="headerlink" href="#schema" title="Permalink to this headline">¶</a></h2>
+<p>You can see the complete schema
+<a class="reference external" href="https://github.com/readthedocs/readthedocs.org/blob/master/readthedocs/rtd_tests/fixtures/spec/v2/schema.yml">here</a>.</p>
+</section>
+<section id="migrating-from-v1">
+<h2>Migrating from v1<a class="headerlink" href="#migrating-from-v1" title="Permalink to this headline">¶</a></h2>
+<section id="changes">
+<h3>Changes<a class="headerlink" href="#changes" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>The version setting is required. See <span class="xref std std-ref">/bareos/config-file/v2:version</span>.</p></li>
+<li><p>The default value of the <span class="xref std std-ref">/bareos/config-file/v2:formats</span> setting has changed to <code class="docutils literal notranslate"><span class="pre">[]</span></code>
+and it doesn’t include the values from the web interface.</p></li>
+<li><p>The top setting <code class="docutils literal notranslate"><span class="pre">requirements_file</span></code> was moved to <code class="docutils literal notranslate"><span class="pre">python.install</span></code>
+and we don’t try to find a requirements file if the option isn’t present.
+See <span class="xref std std-ref">/bareos/config-file/v2:Requirements file</span>.</p></li>
+<li><p>The setting <code class="docutils literal notranslate"><span class="pre">conda.file</span></code> was renamed to <code class="docutils literal notranslate"><span class="pre">conda.environment</span></code>.
+See <span class="xref std std-ref">/bareos/config-file/v2:conda.environment</span>.</p></li>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">build.image</span></code> setting now only has two options: <code class="docutils literal notranslate"><span class="pre">latest</span></code> (default) and <code class="docutils literal notranslate"><span class="pre">stable</span></code>.
+See <span class="xref std std-ref">/bareos/config-file/v2:build.image</span>.</p></li>
+<li><p>The settings <code class="docutils literal notranslate"><span class="pre">python.setup_py_install</span></code> and <code class="docutils literal notranslate"><span class="pre">python.pip_install</span></code> were replaced by <code class="docutils literal notranslate"><span class="pre">python.install</span></code>.
+And now it accepts a path to the package.
+See <span class="xref std std-ref">/bareos/config-file/v2:Packages</span>.</p></li>
+<li><p>The setting <code class="docutils literal notranslate"><span class="pre">python.use_system_site_packages</span></code> was renamed to <code class="docutils literal notranslate"><span class="pre">python.system_packages</span></code>.
+See <span class="xref std std-ref">/bareos/config-file/v2:python.system_packages</span>.</p></li>
+<li><p>The build will fail if there are invalid keys (strict mode).</p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Some values from the web interface are no longer respected,
+please see <span class="xref std std-ref">/bareos/config-file/v2:Migrating from the web interface</span> if you have settings there.</p>
+</div>
+</section>
+<section id="new-settings">
+<h3>New settings<a class="headerlink" href="#new-settings" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><span class="xref std std-ref">/bareos/config-file/v2:sphinx</span></p></li>
+<li><p><span class="xref std std-ref">/bareos/config-file/v2:mkdocs</span></p></li>
+<li><p><span class="xref std std-ref">/bareos/config-file/v2:submodules</span></p></li>
+<li><p><span class="xref std std-ref">/bareos/config-file/v2:python.install</span></p></li>
+<li><p><span class="xref std std-ref">/bareos/config-file/v2:search</span></p></li>
+</ul>
+</section>
+</section>
+<section id="migrating-from-the-web-interface">
+<h2>Migrating from the web interface<a class="headerlink" href="#migrating-from-the-web-interface" title="Permalink to this headline">¶</a></h2>
+<p>This should be pretty straightforward,
+just go to the <span class="guilabel">Admin</span> &gt; <span class="guilabel">Advanced settings</span>,
+and find their respective setting in <span class="xref std std-ref">here</span>.</p>
+<p>Not all settings in the web interface are per version, but are per project.
+These settings aren’t supported via the configuration file.</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">Name</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Repository</span> <span class="pre">URL</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Repository</span> <span class="pre">type</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Language</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Programming</span> <span class="pre">language</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Project</span> <span class="pre">homepage</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Tags</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Single</span> <span class="pre">version</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Default</span> <span class="pre">branch</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Default</span> <span class="pre">version</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Show</span> <span class="pre">versions</span> <span class="pre">warning</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Privacy</span> <span class="pre">level</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Analytics</span> <span class="pre">code</span></code></p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="v1.html" class="btn btn-neutral float-right" title="Configuration File V1 (Deprecated)" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Configuration File" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020-2021, Thomas Connors and Contributors.
+      <span class="lastupdated">
+        Last updated on Tue, 20 Apr 2021 12:00 AM .
+      </span>
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+  
+ <script type="text/javascript">
+    $(document).ready(function() {
+        $(".toggle > *").hide();
+        $(".toggle .header").show();
+        $(".toggle .header").click(function() {
+            $(this).parent().children().not(".header").toggle(400);
+            $(this).parent().children(".header").toggleClass("open");
+        })
+    });
+</script>
+
+
+</body>
+</html>

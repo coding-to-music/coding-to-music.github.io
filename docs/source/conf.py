@@ -504,13 +504,20 @@ html_theme_options = {
     'prev_next_buttons_location': 'both'    
 }
 
+# repo_url = 'https://github.com/coding-to-music/coding-to-music.github.io'
+# repo_name = 'coding-to-music.github.io'
+# repo_user = 'coding-to-music'
+# base_url = 'https://pandemic-overview.readthedocs.io'
+
 html_context = {
+    'display_github': True,
+    'github_user': repo_user,
+    'github_repo': repo_user,
+    'github_version': 'master/source/'
     # "favicon": "img/favicon.ico",
     # "logo": "img/logo.jpg",
     # "theme_logo_only": True,
     # "display_gitlab": True,  # Integrate Gitlab
-    "github_user": "coding-to-music",  # Username
-    "github_repo": "coding-to-music.github.io",  # Repo name
     # "gitlab_version": "master",  # Version
     # "conf_py_path": "/src/",  # Path in the checkout to the docs root
     # workaround for https://github.com/readthedocs/sphinx_rtd_theme/issues/701

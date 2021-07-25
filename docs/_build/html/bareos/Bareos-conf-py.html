@@ -1,0 +1,837 @@
+
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  
+  <title>The bareos conf.py looks as follows &mdash; all-knowledge</title>
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="../_static/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../_static/icons/favicon-16x16.png">
+  <link rel="manifest" href="../_static/icons/site.webmanifest">
+  <link rel="mask-icon" href="../_static/icons/safari-pinned-tab.svg" color="#919191">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="msapplication-config" content="../_static/icons/browserconfig.xml">
+  <link rel="stylesheet" href="../_static/stylesheets/examples.css">
+  <link rel="stylesheet" href="../_static/stylesheets/deprecation.css">
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/tooltipster.custom.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/tooltipster.bundle.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/tooltipster-sideTip-shadow.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/tooltipster-sideTip-punk.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/tooltipster-sideTip-noir.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/tooltipster-sideTip-light.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/tooltipster-sideTip-borderless.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/micromodal.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/tabs.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/sphinx_rtd_theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/contentui.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/gallery.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/gallery-binder.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/gallery-dataframe.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/gallery-rendered-html.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/sphinxcontrib-images/LightBox2/lightbox2/css/lightbox.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+
+  
+  
+
+  
+    <link rel="canonical" href="https://pandemic-overview.readthedocs.io/en/latest/bareos/Bareos-conf-py.html" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/clipboard.min.js"></script>
+        <script src="../_static/copybutton.js"></script>
+        <script src="../_static/js/hoverxref.js"></script>
+        <script src="../_static/js/tooltipster.bundle.min.js"></script>
+        <script src="../_static/js/micromodal.min.js"></script>
+        <script src="../_static/tabs.js"></script>
+        <script src="../_static/js/expand_tabs.js"></script>
+        <script src="../_static/contentui.js"></script>
+        <script src="../_static/sphinxcontrib-images/LightBox2/lightbox2/js/jquery-1.11.0.min.js"></script>
+        <script src="../_static/sphinxcontrib-images/LightBox2/lightbox2/js/lightbox.min.js"></script>
+        <script src="../_static/sphinxcontrib-images/LightBox2/lightbox2-customize/jquery-noconflict.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Configuration File" href="config-file/index.html" />
+    <link rel="prev" title="Gotchas" href="Gotchas.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html">
+          
+
+          
+            
+            <img src="../_static/statsmodels-logo-v2-bw.svg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../topics/Covid-Medical-Treatments/Covid-Medical-Treatments.html">Covid Medical Treatments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Bill-Gates-Memes/Bill-Gates-Memes.html">Bill Gates Memes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/topics.html">Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Data-science-of-the-pandemic/Data-science-of-the-pandemic.html">Data Science of the Pandemic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Vaccines/Vaccines.html">Vaccines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Masks/Masks.html">Masks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Lockdowns/Lockdowns.html">Lockdowns</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Origins-of-the-Virus/Origins-of-the-Virus.html">Origins of the Virus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Pandemic-Preparedness/Pandemic-Preparedness.html">Pandemic Preparedness</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Pandemic-Participants/Pandemic-Participants.html">Pandemic Participants</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Food-Safety/Food-Safety.html">Food Safety</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Municipal-Matters/Municipal-Matters.html">Municipal Issues and Topics</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../How-you-can-help/How-you-can-help.html">How you can help</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../myGuides/Tech-stack-for-this-website.html">Tech stack for this website</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../myGuides/myGuides.html">My Guides for Various Technical Topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../myGuides/General-computer-setup.html">General Computer Setup</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../myGuides/Advanced-Computer-Setup.html">Advanced Computer Setup and Topics</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/ReadTheDocs-Documentation-System.html">ReadTheDocs Documentation System</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/vscode-SSH-Remote-Containers.html">Visual Studio Code SSH Remote Development with Containers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Documentation-System.html">Sphinx Documentation System</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="index.html">Bareos Project - Reference Implementation</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="WhatIsBareos.html">What is Bareos?</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RestOverview.html">reST Overview</a></li>
+<li class="toctree-l4"><a class="reference internal" href="CommonNames.html">Common Names</a></li>
+<li class="toctree-l4"><a class="reference internal" href="SpecificFormatting.html">Specific Formatting</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BareosSpecificFormatting.html">Bareos Specific Formatting</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Gotchas.html">Gotchas</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">The bareos conf.py looks as follows</a></li>
+<li class="toctree-l4"><a class="reference internal" href="config-file/index.html">Configuration File</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Container-Workflow.html">Introduction to Developing in the Docker Container Workflow</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Docker-and-Sphinx.html">Docker and Sphinx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Google-Bing-Webmaster-Tools-Search-and-Rich-Results.html">Google Bing Webmaster Tools Search and Rich Results</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Binder.html">Binder usage with Sphinx-Gallery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/How-to-install-python-on-debian.html">How To Install Python on Debian</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Invenio-Software.html">Invenio Software</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/pip-package-installer-for-python.html">pip is the package installer for Python</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-copybutton.html">Sphinx Copybutton</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-embed-object-iFrame-video-html-PDF-twitter-examples.html">Sphinx embed object iFrame video html PDF Twitter examples</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Lillypond.html">Sphinx Lillypond</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-last-updated-by-git.html">sphinx-last-updated-by-git</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-last-updated-by-git.html#get-the-last-updated-time-for-each-sphinx-page-from-git">Get the “last updated” time for each Sphinx page from Git</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Twitter.html">Sphinx Twitter (Python Twitter)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Gallery.html">Sphinx Gallery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Gitstamp.html">Sphinx Gitstamp Generator Extension</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Jinja.html">Sphinx Jinja is a templating engine</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Hoverxref.html">Sphinx Hoverxref</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-pdfembed.html">Sphinx PDF Embed - sphinxcontrib-pdfembed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinxext-remoteliteralinclude.html">Sphinx Remote Literal Include</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Redirects.html">Sphinx Redirects</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-rediraffe.html">Sphinx Rediraffe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Sitemap.html">Sphinx Sitemap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Templating.html">Sphinx Templating</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Timeline.html">Sphinx Timeline</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Werkzeug-comprehensive-WSGI-web-application-library.html">Werkzeug WSGI web application library</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/WSGI-is-the-Web-Server-Gateway-Interface.html">WSGI is the Web Server Gateway Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Zenodo.html">Zenodo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Zotero.html">Zotero</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Kubernetes.html">Kubernetes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Github-Workflow.html">GitHub Workflow</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../myGuides/aws/Amazon-AWS-Learning.html">Amazon AWS Learning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../myGuides/ToDo-project-tasks.html">ToDo project and documentation tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../myGuides/Contribute.html">Contribute</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../myGuides/Upcoming-software-to-try.html">Links of Upcoming Software to Try</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../How-you-can-help/Links-to-add-to-site.html">Links to add to the documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../How-you-can-help/Future-topics-to-be-developed.html">Future Topics to be developed</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Sandbox/Sandbox.html">Sandbox</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../License/license.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Help-about/help.html">Help - About</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Covid-Medical-Treatments/Covid-Medical-Treatments.html">Covid Medical Treatments</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Bill-Gates-Memes/Bill-Gates-Memes.html">Bill Gates Memes</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/topics.html">Topics</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Data-science-of-the-pandemic/Data-science-of-the-pandemic.html">Data Science of the Pandemic</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Vaccines/Vaccines.html">Vaccines</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Masks/Masks.html">Masks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Lockdowns/Lockdowns.html">Lockdowns</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Origins-of-the-Virus/Origins-of-the-Virus.html">Origins of the Virus</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Pandemic-Preparedness/Pandemic-Preparedness.html">Pandemic Preparedness</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Pandemic-Participants/Pandemic-Participants.html">Pandemic Participants</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Food-Safety/Food-Safety.html">Food Safety</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Municipal-Matters/Municipal-Matters.html">Municipal Issues and Topics</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../How-you-can-help/How-you-can-help.html">How you can help</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../myGuides/Tech-stack-for-this-website.html">Tech stack for this website</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../myGuides/myGuides.html">My Guides for Various Technical Topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../myGuides/General-computer-setup.html">General Computer Setup</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../myGuides/Advanced-Computer-Setup.html">Advanced Computer Setup and Topics</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/ReadTheDocs-Documentation-System.html">ReadTheDocs Documentation System</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/vscode-SSH-Remote-Containers.html">Visual Studio Code SSH Remote Development with Containers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Documentation-System.html">Sphinx Documentation System</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="index.html">Bareos Project - Reference Implementation</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="WhatIsBareos.html">What is Bareos?</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RestOverview.html">reST Overview</a></li>
+<li class="toctree-l4"><a class="reference internal" href="CommonNames.html">Common Names</a></li>
+<li class="toctree-l4"><a class="reference internal" href="SpecificFormatting.html">Specific Formatting</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BareosSpecificFormatting.html">Bareos Specific Formatting</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Gotchas.html">Gotchas</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">The bareos conf.py looks as follows</a></li>
+<li class="toctree-l4"><a class="reference internal" href="config-file/index.html">Configuration File</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Container-Workflow.html">Introduction to Developing in the Docker Container Workflow</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Docker-and-Sphinx.html">Docker and Sphinx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Google-Bing-Webmaster-Tools-Search-and-Rich-Results.html">Google Bing Webmaster Tools Search and Rich Results</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Binder.html">Binder usage with Sphinx-Gallery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/How-to-install-python-on-debian.html">How To Install Python on Debian</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Invenio-Software.html">Invenio Software</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/pip-package-installer-for-python.html">pip is the package installer for Python</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-copybutton.html">Sphinx Copybutton</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-embed-object-iFrame-video-html-PDF-twitter-examples.html">Sphinx embed object iFrame video html PDF Twitter examples</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Lillypond.html">Sphinx Lillypond</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-last-updated-by-git.html">sphinx-last-updated-by-git</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-last-updated-by-git.html#get-the-last-updated-time-for-each-sphinx-page-from-git">Get the “last updated” time for each Sphinx page from Git</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Twitter.html">Sphinx Twitter (Python Twitter)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Gallery.html">Sphinx Gallery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Gitstamp.html">Sphinx Gitstamp Generator Extension</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Jinja.html">Sphinx Jinja is a templating engine</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Hoverxref.html">Sphinx Hoverxref</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-pdfembed.html">Sphinx PDF Embed - sphinxcontrib-pdfembed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinxext-remoteliteralinclude.html">Sphinx Remote Literal Include</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Redirects.html">Sphinx Redirects</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-rediraffe.html">Sphinx Rediraffe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Sitemap.html">Sphinx Sitemap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Templating.html">Sphinx Templating</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Sphinx-Timeline.html">Sphinx Timeline</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Werkzeug-comprehensive-WSGI-web-application-library.html">Werkzeug WSGI web application library</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/WSGI-is-the-Web-Server-Gateway-Interface.html">WSGI is the Web Server Gateway Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Zenodo.html">Zenodo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Zotero.html">Zotero</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Kubernetes.html">Kubernetes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../myGuides/Github-Workflow.html">GitHub Workflow</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../myGuides/aws/Amazon-AWS-Learning.html">Amazon AWS Learning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../myGuides/ToDo-project-tasks.html">ToDo project and documentation tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../myGuides/Contribute.html">Contribute</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../myGuides/Upcoming-software-to-try.html">Links of Upcoming Software to Try</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../How-you-can-help/Links-to-add-to-site.html">Links to add to the documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../How-you-can-help/Future-topics-to-be-developed.html">Future Topics to be developed</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">all-knowledge</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../How-you-can-help/How-you-can-help.html">How you can help</a> &raquo;</li>
+        
+          <li><a href="../myGuides/Advanced-Computer-Setup.html">Advanced Computer Setup and Topics</a> &raquo;</li>
+        
+          <li><a href="index.html">Bareos Project - Reference Implementation</a> &raquo;</li>
+        
+      <li>The bareos conf.py looks as follows</li>
+    
+    
+    <li class="wy-breadcrumbs-aside">
+    
+        
+        <a href="../_sources/bareos/Bareos-conf-py.rst.txt" rel="nofollow"> View page source</a>
+        
+    
+    </li>
+
+  </ul>
+
+  
+  <div class="rst-breadcrumbs-buttons" role="navigation" aria-label="breadcrumb navigation">
+      
+        <a href="config-file/index.html" class="btn btn-neutral float-right" title="Configuration File" accesskey="n">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+      
+      
+        <a href="Gotchas.html" class="btn btn-neutral float-left" title="Gotchas" accesskey="p"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+      
+  </div>
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <section id="the-bareos-conf-py-looks-as-follows">
+<h1>The bareos conf.py looks as follows<a class="headerlink" href="#the-bareos-conf-py-looks-as-follows" title="Permalink to this headline">¶</a></h1>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This page was Retrieved and copied April 11 2021</p>
+<p><a class="reference external" href="https://github.com/bareos/blob/bareos-20/docs/manuals/source/conf.py">https://github.com/bareos/blob/bareos-20/docs/manuals/source/conf.py</a></p>
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<p>The bareos conf.py looks as follows:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="ch">#!/usr/bin/env python3</span>
+<span class="c1">#   BAREOS - Backup Archiving REcovery Open Sourced</span>
+<span class="c1">#</span>
+<span class="c1">#   Copyright (C) 2018-2020 Bareos GmbH &amp; Co. KG</span>
+<span class="c1">#</span>
+<span class="c1">#   This program is Free Software; you can redistribute it and/or</span>
+<span class="c1">#   modify it under the terms of version three of the GNU Affero General Public</span>
+<span class="c1">#   License as published by the Free Software Foundation and included</span>
+<span class="c1">#   in the file LICENSE.</span>
+<span class="c1">#</span>
+<span class="c1">#   This program is distributed in the hope that it will be useful, but</span>
+<span class="c1">#   WITHOUT ANY WARRANTY; without even the implied warranty of</span>
+<span class="c1">#   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU</span>
+<span class="c1">#   Affero General Public License for more details.</span>
+<span class="c1">#</span>
+<span class="c1">#   You should have received a copy of the GNU Affero General Public License</span>
+<span class="c1">#   along with this program; if not, write to the Free Software</span>
+<span class="c1">#   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA</span>
+<span class="c1">#   02110-1301, USA.</span>
+
+<span class="c1"># -*- coding: utf-8 -*-</span>
+<span class="c1">#</span>
+<span class="c1"># Bareos Main Reference documentation build configuration file, created by</span>
+<span class="c1"># sphinx-quickstart on Wed Feb 21 16:41:30 2018.</span>
+<span class="c1">#</span>
+<span class="c1"># This file is execfile()d with the current directory set to its</span>
+<span class="c1"># containing dir.</span>
+<span class="c1">#</span>
+<span class="c1"># Note that not all possible configuration values are present in this</span>
+<span class="c1"># autogenerated file.</span>
+<span class="c1">#</span>
+<span class="c1"># All configuration values have a default; values that are commented out</span>
+<span class="c1"># serve to show the default.</span>
+
+<span class="c1"># If extensions (or modules to document with autodoc) are in another directory,</span>
+<span class="c1"># add these directories to sys.path here. If the directory is relative to the</span>
+<span class="c1"># documentation root, use os.path.abspath to make it absolute, like shown here.</span>
+<span class="c1">#</span>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+
+<span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="s2">&quot;./_extensions&quot;</span><span class="p">))</span>
+
+<span class="kn">import</span> <span class="nn">datetime</span>
+
+<span class="c1"># -- General configuration ------------------------------------------------</span>
+
+<span class="c1"># Substitutions have been CamelCase in the past.</span>
+<span class="c1"># Now they are all lowercase.</span>
+<span class="c1"># CamelCase version can be removed,</span>
+<span class="c1"># when they are no longer required.</span>
+
+<span class="c1"># about &lt;isonum.txt&gt;, see</span>
+<span class="c1"># http://docutils.sourceforge.net/docs/ref/rst/definitions.html#substitution-definitions</span>
+<span class="c1"># http://docutils.sourceforge.net/docutils/parsers/rst/bareos/include/isonum.txt</span>
+<span class="n">rst_epilog</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">.. include:: &lt;isonum.txt&gt;</span>
+<span class="s2">.. |checkmark| unicode:: U+2713</span>
+
+<span class="s2">.. |configCharsToQuote| replace:: ``&amp;&lt;&gt;()@^|``</span>
+
+<span class="s2">.. |bareosFd| replace:: Bareos File Daemon</span>
+<span class="s2">.. |fd| replace:: Bareos File Daemon</span>
+<span class="s2">.. |bareosSd| replace:: Bareos Storage Daemon</span>
+<span class="s2">.. |sd| replace:: Bareos Storage Daemon</span>
+<span class="s2">.. |bareosDir| replace:: Bareos Director</span>
+<span class="s2">.. |dir| replace:: Bareos Director</span>
+<span class="s2">.. |bconsole| replace:: Bareos Console</span>
+<span class="s2">.. |bareosTraymonitor| replace:: Bareos Traymonitor</span>
+<span class="s2">.. |traymonitor| replace:: Bareos Traymonitor</span>
+<span class="s2">.. |bareosWebui| replace:: Bareos Webui</span>
+<span class="s2">.. |webui| replace:: Bareos WebUI</span>
+<span class="s2">.. |mysql| replace:: MySQL/MariaDB</span>
+<span class="s2">.. |postgresql| replace:: PostgreSQL</span>
+<span class="s2">.. |sqlite| replace:: Sqlite</span>
+<span class="s2">.. |vmware| replace:: VMware</span>
+<span class="s2">.. |vsphere| replace:: VMware vSphere</span>
+
+<span class="s2">.. |ndmpbareos| replace:: :ref:`section-NdmpBareos`</span>
+<span class="s2">.. |ndmpnative| replace:: :ref:`section-NdmpNative`</span>
+
+<span class="s2">&quot;&quot;&quot;</span>
+
+
+<span class="c1"># If your documentation needs a minimal Sphinx version, state it here.</span>
+<span class="c1">#</span>
+<span class="c1"># needs_sphinx = &#39;1.0&#39;</span>
+
+<span class="c1"># Add any Sphinx extension module names here, as strings. They can be</span>
+<span class="c1"># extensions coming with Sphinx (named &#39;sphinx.ext.*&#39;) or your custom</span>
+<span class="c1"># ones.</span>
+<span class="n">extensions</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s2">&quot;bareos-ext&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;limitation&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;sphinx_issues&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;sphinx.ext.autosectionlabel&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;sphinx.ext.coverage&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;sphinx.ext.todo&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;sphinxcontrib.actdiag&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;sphinxcontrib.blockdiag&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;sphinxcontrib.nwdiag&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;sphinxcontrib.plantuml&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;sphinxcontrib.seqdiag&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;crate.sphinx.csv&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;m2r2&quot;</span><span class="p">,</span>
+<span class="p">]</span>
+
+<span class="c1">#    &#39;limitation&#39;,</span>
+<span class="c1"># extensions.append(&#39;limitation&#39;)</span>
+
+
+<span class="c1"># True to prefix each section label with the name of the document it is in, followed by a colon.</span>
+<span class="c1"># For example, index:Introduction for a section called Introduction that appears in document index.rst.</span>
+<span class="c1"># Useful for avoiding ambiguity when the same section heading appears in different documents.</span>
+<span class="n">autosectionlabel_prefix_document</span> <span class="o">=</span> <span class="kc">True</span>
+
+<span class="n">issues_github_path</span> <span class="o">=</span> <span class="s2">&quot;bareos/bareos&quot;</span>
+<span class="c1"># issues_uri = &#39;https://bugs.bareos.org/view.php?id={issue}&#39;</span>
+<span class="c1"># issues_pr_uri = &#39;https://github.com/bareos/pull/{pr}&#39;</span>
+
+
+<span class="c1"># Add any paths that contain templates here, relative to this directory.</span>
+<span class="n">templates_path</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;_templates&quot;</span><span class="p">]</span>
+
+<span class="c1"># The suffix(es) of source filenames.</span>
+<span class="c1"># You can specify multiple suffix as a list of string:</span>
+<span class="c1">#</span>
+<span class="c1"># source_suffix = [&#39;.rst&#39;, &#39;.md&#39;]</span>
+<span class="n">source_suffix</span> <span class="o">=</span> <span class="s2">&quot;.rst&quot;</span>
+
+<span class="c1"># The master toctree document.</span>
+<span class="n">master_doc</span> <span class="o">=</span> <span class="s2">&quot;index&quot;</span>
+
+<span class="c1"># General information about the project.</span>
+<span class="n">project</span> <span class="o">=</span> <span class="s2">&quot;Bareos Documentation&quot;</span>
+<span class="n">copyright</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span><span class="o">.</span><span class="n">year</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot; Bareos GmbH &amp; Co. KG and others.&quot;</span>
+<span class="n">author</span> <span class="o">=</span> <span class="s2">&quot;Bareos GmbH &amp; Co. KG&quot;</span>
+
+<span class="c1"># The language for content autogenerated by Sphinx. Refer to documentation</span>
+<span class="c1"># for a list of supported languages.</span>
+<span class="c1">#</span>
+<span class="c1"># This is also used if you do content translation via gettext catalogs.</span>
+<span class="c1"># Usually you set &quot;language&quot; from the command line for these cases.</span>
+<span class="n">language</span> <span class="o">=</span> <span class="kc">None</span>
+
+<span class="c1"># List of patterns, relative to source directory, that match files and</span>
+<span class="c1"># directories to ignore when looking for source files.</span>
+<span class="c1"># This patterns also effect to html_static_path and html_extra_path</span>
+<span class="n">exclude_patterns</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;_build&quot;</span><span class="p">,</span> <span class="s2">&quot;Thumbs.db&quot;</span><span class="p">,</span> <span class="s2">&quot;.DS_Store&quot;</span><span class="p">]</span>
+
+<span class="c1"># The name of the Pygments (syntax highlighting) style to use.</span>
+<span class="n">pygments_style</span> <span class="o">=</span> <span class="s2">&quot;sphinx&quot;</span>
+
+<span class="c1"># If true, `todo` and `todoList` produce output, else they produce nothing.</span>
+<span class="n">todo_include_todos</span> <span class="o">=</span> <span class="kc">True</span>
+
+
+<span class="c1"># -- Options for HTML output ----------------------------------------------</span>
+
+<span class="c1"># The theme to use for HTML and HTML Help pages.  See the documentation for</span>
+<span class="c1"># a list of builtin themes.</span>
+<span class="c1">#</span>
+<span class="n">html_theme</span> <span class="o">=</span> <span class="s2">&quot;sphinx_rtd_theme&quot;</span>
+
+<span class="c1"># Theme options are theme-specific and customize the look and feel of a theme</span>
+<span class="c1"># further.  For a list of options available for each theme, see the</span>
+<span class="c1"># documentation.</span>
+<span class="c1">#</span>
+<span class="c1"># html_theme_options = {}</span>
+
+<span class="c1"># html_theme_options = {</span>
+<span class="c1">#    &#39;canonical_url&#39;: &#39;&#39;,</span>
+<span class="c1">#    &#39;analytics_id&#39;: &#39;&#39;,</span>
+<span class="c1">#    &#39;logo_only&#39;: False,</span>
+<span class="c1">#    &#39;display_version&#39;: True,</span>
+<span class="c1">#    &#39;prev_next_buttons_location&#39;: &#39;bottom&#39;,</span>
+<span class="c1">#    &#39;style_external_links&#39;: False,</span>
+<span class="c1">#    &#39;vcs_pageview_mode&#39;: &#39;&#39;,</span>
+<span class="c1">#    # Toc options</span>
+<span class="c1">#    &#39;collapse_navigation&#39;: False,</span>
+<span class="c1">#    &#39;sticky_navigation&#39;: True,</span>
+<span class="c1">#    &#39;navigation_depth&#39;: 4,</span>
+<span class="c1">#    &#39;includehidden&#39;: True,</span>
+<span class="c1">#    &#39;titles_only&#39;: False</span>
+<span class="c1"># }</span>
+
+<span class="c1"># Enable link of &#39;View page source&#39;</span>
+<span class="c1"># html_show_sourcelink = False</span>
+<span class="c1"># Add &#39;Edit on Github&#39; link instead of &#39;View page source&#39;</span>
+<span class="c1"># reference:https://docs.readthedocs.io/en/latest/vcs.html</span>
+<span class="n">html_context</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="c1"># Enable the &quot;Edit in GitHub link within the header of each page.</span>
+    <span class="s2">&quot;display_github&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+    <span class="c1"># Set the following variables to generate the resulting github URL for each page.</span>
+    <span class="c1"># Format Template: https://{{ github_host|default(&quot;github.com&quot;) }}/{{ github_user }}</span>
+    <span class="c1"># /{{ github_repo }}/blob/{{ github_version }}{{ conf_py_path }}{{ pagename }}{{ suffix }}</span>
+    <span class="c1"># https://github.com/runawayhorse001/SphinxGithub/blob/master/doc/index.rst</span>
+    <span class="s2">&quot;github_user&quot;</span><span class="p">:</span> <span class="s2">&quot;bareos&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;github_repo&quot;</span><span class="p">:</span> <span class="s2">&quot;bareos&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;conf_py_path&quot;</span><span class="p">:</span> <span class="s2">&quot;/docs/manuals/source/&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;READTHEDOCS&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+    <span class="s2">&quot;commit&quot;</span><span class="p">:</span> <span class="n">datetime</span><span class="o">.</span><span class="n">date</span><span class="o">.</span><span class="n">today</span><span class="p">()</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s2">&quot;%B </span><span class="si">%d</span><span class="s2">, %Y&quot;</span><span class="p">),</span>
+<span class="p">}</span>
+
+<span class="c1"># Add any paths that contain custom static files (such as style sheets) here,</span>
+<span class="c1"># relative to this directory. They are copied after the builtin static files,</span>
+<span class="c1"># so a file named &quot;default.css&quot; will overwrite the builtin &quot;default.css&quot;.</span>
+<span class="c1"># html_static_path = [&#39;_static&#39;]</span>
+
+<span class="c1"># Custom sidebar templates, must be a dictionary that maps document names</span>
+<span class="c1"># to template names.</span>
+<span class="c1">#</span>
+<span class="c1"># This is required for the alabaster theme</span>
+<span class="c1"># refs: http://alabaster.readthedocs.io/en/latest/installation.html#sidebars</span>
+<span class="n">html_sidebars</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;**&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="s2">&quot;relations.html&quot;</span><span class="p">,</span>  <span class="c1"># needs &#39;show_related&#39;: True theme option to display</span>
+        <span class="s2">&quot;searchbox.html&quot;</span><span class="p">,</span>
+    <span class="p">]</span>
+<span class="p">}</span>
+
+<span class="c1"># -- Options for HTMLHelp output ------------------------------------------</span>
+
+<span class="c1"># Output file base name for HTML help builder.</span>
+<span class="n">htmlhelp_basename</span> <span class="o">=</span> <span class="s2">&quot;BareosDocumentation&quot;</span>
+
+
+<span class="c1"># -- Options for LaTeX output ---------------------------------------------</span>
+
+<span class="n">latex_elements</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="c1"># The paper size (&#39;letterpaper&#39; or &#39;a4paper&#39;).</span>
+    <span class="c1">#</span>
+    <span class="c1"># &#39;papersize&#39;: &#39;letterpaper&#39;,</span>
+    <span class="c1"># The font size (&#39;10pt&#39;, &#39;11pt&#39; or &#39;12pt&#39;).</span>
+    <span class="c1">#</span>
+    <span class="c1"># &#39;pointsize&#39;: &#39;10pt&#39;,</span>
+    <span class="c1"># Additional stuff for the LaTeX preamble.</span>
+    <span class="c1">#</span>
+    <span class="c1"># &#39;preamble&#39;: &#39;&#39;,</span>
+    <span class="c1"># Latex figure (float) alignment</span>
+    <span class="c1">#</span>
+    <span class="c1"># &#39;figure_align&#39;: &#39;htbp&#39;,</span>
+<span class="p">}</span>
+
+<span class="c1"># Grouping the document tree into LaTeX files. List of tuples</span>
+<span class="c1"># (source start file, target name, title,</span>
+<span class="c1">#  author, documentclass [howto, manual, or own class]).</span>
+<span class="n">latex_documents</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">(</span>
+        <span class="n">master_doc</span><span class="p">,</span>
+        <span class="s2">&quot;BareosMainReference.tex&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;Bareos Main Reference Documentation&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;Bareos GmbH &amp; Co. KG&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;manual&quot;</span><span class="p">,</span>
+    <span class="p">)</span>
+<span class="p">]</span>
+
+
+<span class="c1"># -- Options for manual page output ---------------------------------------</span>
+
+<span class="n">man_bareos_dbcopy</span> <span class="o">=</span> <span class="s2">&quot;man/bareos-dbcopy&quot;</span>
+
+<span class="c1"># One entry per manual page. List of tuples</span>
+<span class="c1"># (source start file, name, description, authors, manual section).</span>
+<span class="n">man_pages</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">(</span>
+        <span class="n">man_bareos_dbcopy</span><span class="p">,</span>
+        <span class="s2">&quot;bareos-dbcopy&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;Copy the Bareos catalog database between catalog backends&quot;</span><span class="p">,</span>
+        <span class="p">[</span><span class="n">author</span><span class="p">],</span>
+        <span class="mi">8</span><span class="p">,</span>
+    <span class="p">)</span>
+<span class="p">]</span>
+
+
+<span class="c1"># -- Options for Texinfo output -------------------------------------------</span>
+
+<span class="c1"># Grouping the document tree into Texinfo files. List of tuples</span>
+<span class="c1"># (source start file, target name, title, author,</span>
+<span class="c1">#  dir menu entry, description, category)</span>
+<span class="n">texinfo_documents</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">(</span>
+        <span class="n">master_doc</span><span class="p">,</span>
+        <span class="s2">&quot;BareosDocumentation&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;Bareos Documentation&quot;</span><span class="p">,</span>
+        <span class="n">author</span><span class="p">,</span>
+        <span class="s2">&quot;BareosDocumenation&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;One line description of project.&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;Miscellaneous&quot;</span><span class="p">,</span>
+    <span class="p">)</span>
+<span class="p">]</span>
+
+
+<span class="kn">import</span> <span class="nn">re</span>
+
+<span class="c1"># settings for sphinxcontrib-versioning</span>
+<span class="n">scv_whitelist_branches</span> <span class="o">=</span> <span class="p">(</span>
+    <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;^master$&quot;</span><span class="p">),</span>
+    <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;^bareos-18.2$&quot;</span><span class="p">),</span>
+    <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;^bareos-19.2$&quot;</span><span class="p">),</span>
+    <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;^bareos-2.$&quot;</span><span class="p">),</span>
+<span class="p">)</span>
+<span class="n">scv_whitelist_tags</span> <span class="o">=</span> <span class="p">(</span><span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;^not-exisiting-tag$&quot;</span><span class="p">),)</span>
+<span class="n">scv_show_banner</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="n">scv_priority</span> <span class="o">=</span> <span class="s2">&quot;branches&quot;</span>
+<span class="n">scv_root_ref</span> <span class="o">=</span> <span class="s2">&quot;bareos-20&quot;</span>
+<span class="n">scv_banner_main_ref</span> <span class="o">=</span> <span class="s2">&quot;bareos-20&quot;</span>
+
+
+<span class="n">plantuml_output_format</span> <span class="o">=</span> <span class="s2">&quot;svg_img&quot;</span>
+
+
+<span class="c1">#</span>
+<span class="c1"># code-block highlighting</span>
+<span class="c1">#</span>
+<span class="kn">from</span> <span class="nn">sphinx.highlighting</span> <span class="kn">import</span> <span class="n">lexers</span>
+<span class="kn">from</span> <span class="nn">bareos_lexers</span> <span class="kn">import</span> <span class="o">*</span>
+
+<span class="n">lexers</span><span class="p">[</span><span class="s2">&quot;bareosconfig&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">BareosConfigLexer</span><span class="p">()</span>
+<span class="n">lexers</span><span class="p">[</span><span class="s2">&quot;bconsole&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">BareosConsoleLexer</span><span class="p">()</span>
+<span class="n">lexers</span><span class="p">[</span><span class="s2">&quot;bareoslog&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">BareosLogLexer</span><span class="p">()</span>
+<span class="n">lexers</span><span class="p">[</span><span class="s2">&quot;bareosmessage&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">BareosMessageLexer</span><span class="p">()</span>
+
+
+<span class="c1"># generate rst.inc files from json files</span>
+<span class="kn">import</span> <span class="nn">subprocess</span>
+<span class="kn">import</span> <span class="nn">os</span>
+
+<span class="n">os</span><span class="o">.</span><span class="n">chdir</span><span class="p">(</span><span class="s2">&quot;..&quot;</span><span class="p">)</span>
+<span class="n">subprocess</span><span class="o">.</span><span class="n">call</span><span class="p">([</span><span class="s2">&quot;pwd&quot;</span><span class="p">])</span>
+<span class="n">subprocess</span><span class="o">.</span><span class="n">call</span><span class="p">(</span>
+    <span class="p">[</span>
+        <span class="s2">&quot;scripts/generate-resoure-descriptions.py&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;--sphinx&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;source/bareos/include/autogenerated/bareos-dir-config-schema.json&quot;</span><span class="p">,</span>
+    <span class="p">]</span>
+<span class="p">)</span>
+<span class="n">subprocess</span><span class="o">.</span><span class="n">call</span><span class="p">(</span>
+    <span class="p">[</span>
+        <span class="s2">&quot;scripts/generate-resoure-descriptions.py&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;--sphinx&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;source/bareos/include/autogenerated/bareos-sd-config-schema.json&quot;</span><span class="p">,</span>
+    <span class="p">]</span>
+<span class="p">)</span>
+<span class="n">subprocess</span><span class="o">.</span><span class="n">call</span><span class="p">(</span>
+    <span class="p">[</span>
+        <span class="s2">&quot;scripts/generate-resoure-descriptions.py&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;--sphinx&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;source/bareos/include/autogenerated/bareos-fd-config-schema.json&quot;</span><span class="p">,</span>
+    <span class="p">]</span>
+<span class="p">)</span>
+<span class="n">subprocess</span><span class="o">.</span><span class="n">call</span><span class="p">(</span>
+    <span class="p">[</span>
+        <span class="s2">&quot;scripts/generate-resoure-descriptions.py&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;--sphinx&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;source/bareos/include/autogenerated/bconsole-config-schema.json&quot;</span><span class="p">,</span>
+    <span class="p">]</span>
+<span class="p">)</span>
+<span class="n">subprocess</span><span class="o">.</span><span class="n">call</span><span class="p">(</span>
+    <span class="p">[</span>
+        <span class="s2">&quot;scripts/generate-resoure-descriptions.py&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;--sphinx&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;source/bareos/include/autogenerated/bareos-tray-monitor-config-schema.json&quot;</span><span class="p">,</span>
+    <span class="p">]</span>
+<span class="p">)</span>
+<span class="n">subprocess</span><span class="o">.</span><span class="n">call</span><span class="p">(</span>
+    <span class="s2">&quot;scripts/generate-bareos-package-info.py --out source/bareos/include/autogenerated/ source/data/bareos-*-packages.json&quot;</span><span class="p">,</span>
+    <span class="n">shell</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p>Last change: Sat, 24 Jul 2021 07:40 AM Coordinated Universal Time</p>
+</section>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="config-file/index.html" class="btn btn-neutral float-right" title="Configuration File" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="Gotchas.html" class="btn btn-neutral float-left" title="Gotchas" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020-2021, Thomas Connors and Contributors.
+      <span class="lastupdated">
+        Last updated on Tue, 20 Apr 2021 12:00 AM .
+      </span>
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+  
+ <script type="text/javascript">
+    $(document).ready(function() {
+        $(".toggle > *").hide();
+        $(".toggle .header").show();
+        $(".toggle .header").click(function() {
+            $(this).parent().children().not(".header").toggle(400);
+            $(this).parent().children(".header").toggleClass("open");
+        })
+    });
+</script>
+
+
+</body>
+</html>

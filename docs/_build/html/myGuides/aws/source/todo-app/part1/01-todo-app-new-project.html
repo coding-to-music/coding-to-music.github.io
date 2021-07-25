@@ -1,0 +1,1045 @@
+
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  
+  <title>Section 1: Create initial Todo application &mdash; all-knowledge</title>
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="../../../../../_static/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../../../../_static/icons/favicon-16x16.png">
+  <link rel="manifest" href="../../../../../_static/icons/site.webmanifest">
+  <link rel="mask-icon" href="../../../../../_static/icons/safari-pinned-tab.svg" color="#919191">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="msapplication-config" content="../../../../../_static/icons/browserconfig.xml">
+  <link rel="stylesheet" href="../../../../../_static/stylesheets/examples.css">
+  <link rel="stylesheet" href="../../../../../_static/stylesheets/deprecation.css">
+
+  
+  <link rel="stylesheet" href="../../../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/copybutton.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/tooltipster.custom.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/tooltipster.bundle.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/tooltipster-sideTip-shadow.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/tooltipster-sideTip-punk.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/tooltipster-sideTip-noir.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/tooltipster-sideTip-light.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/tooltipster-sideTip-borderless.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/micromodal.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/tabs.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/sphinx_rtd_theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/contentui.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/gallery.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/gallery-binder.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/gallery-dataframe.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/gallery-rendered-html.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/sphinxcontrib-images/LightBox2/lightbox2/css/lightbox.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../../../../../_static/favicon.ico"/>
+  
+
+  
+  
+
+  
+    <link rel="canonical" href="https://pandemic-overview.readthedocs.io/en/latest/myGuides/aws/source/todo-app/part1/01-todo-app-new-project.html" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../../../" src="../../../../../_static/documentation_options.js"></script>
+        <script src="../../../../../_static/jquery.js"></script>
+        <script src="../../../../../_static/underscore.js"></script>
+        <script src="../../../../../_static/doctools.js"></script>
+        <script src="../../../../../_static/language_data.js"></script>
+        <script src="../../../../../_static/clipboard.min.js"></script>
+        <script src="../../../../../_static/copybutton.js"></script>
+        <script src="../../../../../_static/js/hoverxref.js"></script>
+        <script src="../../../../../_static/js/tooltipster.bundle.min.js"></script>
+        <script src="../../../../../_static/js/micromodal.min.js"></script>
+        <script src="../../../../../_static/tabs.js"></script>
+        <script src="../../../../../_static/js/expand_tabs.js"></script>
+        <script src="../../../../../_static/contentui.js"></script>
+        <script src="../../../../../_static/sphinxcontrib-images/LightBox2/lightbox2/js/jquery-1.11.0.min.js"></script>
+        <script src="../../../../../_static/sphinxcontrib-images/LightBox2/lightbox2/js/lightbox.min.js"></script>
+        <script src="../../../../../_static/sphinxcontrib-images/LightBox2/lightbox2-customize/jquery-noconflict.js"></script>
+    
+    <script type="text/javascript" src="../../../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="Section 2: Add chalicelib to Todo application" href="02-todo-app-chalicelib.html" />
+    <link rel="prev" title="Section 0: Introduction to AWS Chalice" href="00-intro-chalice.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../../../index.html">
+          
+
+          
+            
+            <img src="../../../../../_static/statsmodels-logo-v2-bw.svg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Covid-Medical-Treatments/Covid-Medical-Treatments.html">Covid Medical Treatments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Bill-Gates-Memes/Bill-Gates-Memes.html">Bill Gates Memes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/topics.html">Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Data-science-of-the-pandemic/Data-science-of-the-pandemic.html">Data Science of the Pandemic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Vaccines/Vaccines.html">Vaccines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Masks/Masks.html">Masks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Lockdowns/Lockdowns.html">Lockdowns</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Origins-of-the-Virus/Origins-of-the-Virus.html">Origins of the Virus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Pandemic-Preparedness/Pandemic-Preparedness.html">Pandemic Preparedness</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Pandemic-Participants/Pandemic-Participants.html">Pandemic Participants</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Food-Safety/Food-Safety.html">Food Safety</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Municipal-Matters/Municipal-Matters.html">Municipal Issues and Topics</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../How-you-can-help/How-you-can-help.html">How you can help</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../Tech-stack-for-this-website.html">Tech stack for this website</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../myGuides.html">My Guides for Various Technical Topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../General-computer-setup.html">General Computer Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../Advanced-Computer-Setup.html">Advanced Computer Setup and Topics</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../Amazon-AWS-Learning.html">Amazon AWS Learning</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../../index.html">AWS Chalice Workshop</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../env-setup.html">Prerequisite: Setting up your environment</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../index.html">Todo Application</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../media-query/index.html">Media Query Application</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/media-query/final/README.html">Media Query Application</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/todo-app/final/README.html">My Todo App</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/todo-app/part1/README.html">Chalice Workshop Code Part 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/todo-app/part2/README.html">Chalice Workshop Part 2</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../ToDo-project-tasks.html">ToDo project and documentation tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../Contribute.html">Contribute</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../Upcoming-software-to-try.html">Links of Upcoming Software to Try</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../How-you-can-help/Links-to-add-to-site.html">Links to add to the documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../How-you-can-help/Future-topics-to-be-developed.html">Future Topics to be developed</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../Sandbox/Sandbox.html">Sandbox</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../License/license.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../Help-about/help.html">Help - About</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Covid-Medical-Treatments/Covid-Medical-Treatments.html">Covid Medical Treatments</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Bill-Gates-Memes/Bill-Gates-Memes.html">Bill Gates Memes</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/topics.html">Topics</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Data-science-of-the-pandemic/Data-science-of-the-pandemic.html">Data Science of the Pandemic</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Vaccines/Vaccines.html">Vaccines</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Masks/Masks.html">Masks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Lockdowns/Lockdowns.html">Lockdowns</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Origins-of-the-Virus/Origins-of-the-Virus.html">Origins of the Virus</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Pandemic-Preparedness/Pandemic-Preparedness.html">Pandemic Preparedness</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Pandemic-Participants/Pandemic-Participants.html">Pandemic Participants</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Food-Safety/Food-Safety.html">Food Safety</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Municipal-Matters/Municipal-Matters.html">Municipal Issues and Topics</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../How-you-can-help/How-you-can-help.html">How you can help</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../Tech-stack-for-this-website.html">Tech stack for this website</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../myGuides.html">My Guides for Various Technical Topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../General-computer-setup.html">General Computer Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../Advanced-Computer-Setup.html">Advanced Computer Setup and Topics</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../Amazon-AWS-Learning.html">Amazon AWS Learning</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../../index.html">AWS Chalice Workshop</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../env-setup.html">Prerequisite: Setting up your environment</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../index.html">Todo Application</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../media-query/index.html">Media Query Application</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/media-query/final/README.html">Media Query Application</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/todo-app/final/README.html">My Todo App</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/todo-app/part1/README.html">Chalice Workshop Code Part 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/todo-app/part2/README.html">Chalice Workshop Part 2</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../ToDo-project-tasks.html">ToDo project and documentation tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../Contribute.html">Contribute</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../Upcoming-software-to-try.html">Links of Upcoming Software to Try</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../How-you-can-help/Links-to-add-to-site.html">Links to add to the documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../How-you-can-help/Future-topics-to-be-developed.html">Future Topics to be developed</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../index.html">all-knowledge</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../../../../How-you-can-help/How-you-can-help.html">How you can help</a> &raquo;</li>
+        
+          <li><a href="../../../Amazon-AWS-Learning.html">Amazon AWS Learning</a> &raquo;</li>
+        
+          <li><a href="../../index.html">AWS Chalice Workshop</a> &raquo;</li>
+        
+          <li><a href="../index.html">Todo Application</a> &raquo;</li>
+        
+          <li><a href="index.html">Part 1: Build a serverless web application with AWS Chalice</a> &raquo;</li>
+        
+      <li>Section 1: Create initial Todo application</li>
+    
+    
+    <li class="wy-breadcrumbs-aside">
+    
+        
+        <a href="../../../../../_sources/myGuides/aws/source/todo-app/part1/01-todo-app-new-project.rst.txt" rel="nofollow"> View page source</a>
+        
+    
+    </li>
+
+  </ul>
+
+  
+  <div class="rst-breadcrumbs-buttons" role="navigation" aria-label="breadcrumb navigation">
+      
+        <a href="02-todo-app-chalicelib.html" class="btn btn-neutral float-right" title="Section 2: Add chalicelib to Todo application" accesskey="n">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+      
+      
+        <a href="00-intro-chalice.html" class="btn btn-neutral float-left" title="Section 0: Introduction to AWS Chalice" accesskey="p"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+      
+  </div>
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <section id="section-1-create-initial-todo-application">
+<h1>Section 1: Create initial Todo application<a class="headerlink" href="#section-1-create-initial-todo-application" title="Permalink to this headline">¶</a></h1>
+<p>For the rest of this workshop, we will be building a serverless Todo
+application. The application will allow for creating Todo’s, getting Todo’s,
+updating Todo’s, and deleting Todo’s. In terms of the REST API, it will
+consist of the following:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 27%" />
+<col style="width: 49%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>HTTP Method</p></th>
+<th class="head"><p>URI Path</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">GET</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">/todos/</span></code></p></td>
+<td><p>Gets a list of all Todo’s</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">POST</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">/todos/</span></code></p></td>
+<td><p>Creates a new Todo</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">GET</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">/todos/{id}</span></code></p></td>
+<td><p>Gets a specific Todo</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">DELETE</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">/todos/{id}</span></code></p></td>
+<td><p>Deletes a specific Todo</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">PUT</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">/todos/{id}</span></code></p></td>
+<td><p>Updates the state of a Todo</p></td>
+</tr>
+</tbody>
+</table>
+<p>Furthermore, a Todo will have the following schema:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+  <span class="s2">&quot;description&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;str&quot;</span><span class="p">},</span>
+  <span class="s2">&quot;uid&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;type: &quot;</span><span class="nb">str</span><span class="s2">&quot;},</span>
+  <span class="s2">&quot;state&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;type: &quot;</span><span class="nb">str</span><span class="s2">&quot;, &quot;</span><span class="n">enum</span><span class="s2">&quot;: [&quot;</span><span class="n">unstarted</span><span class="s2">&quot;, &quot;</span><span class="n">started</span><span class="s2">&quot;, &quot;</span><span class="n">completed</span><span class="s2">&quot;]},</span>
+  <span class="s2">&quot;metadata&quot;</span><span class="p">:</span> <span class="p">{</span>
+    <span class="s2">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;object&quot;</span>
+  <span class="p">},</span>
+  <span class="s2">&quot;username&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;str&quot;</span><span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>This step will focus on how to build a simple in-memory version of the
+Todo application. For this section we will be doing the following to create
+this version of the application:</p>
+<div class="contents local topic" id="contents">
+<ul class="simple">
+<li><p><a class="reference internal" href="#install-chalice" id="id13">Install Chalice</a></p></li>
+<li><p><a class="reference internal" href="#create-a-new-chalice-project" id="id14">Create a new Chalice project</a></p></li>
+<li><p><a class="reference internal" href="#add-the-starting-app-py" id="id15">Add the starting <code class="docutils literal notranslate"><span class="pre">app.py</span></code></a></p></li>
+<li><p><a class="reference internal" href="#add-a-route-for-creating-a-todo" id="id16">Add a route for creating a Todo</a></p></li>
+<li><p><a class="reference internal" href="#add-a-route-for-getting-a-specific-todo" id="id17">Add a route for getting a specific Todo</a></p></li>
+<li><p><a class="reference internal" href="#add-a-route-for-deleting-a-specific-todo" id="id18">Add a route for deleting a specific Todo</a></p></li>
+<li><p><a class="reference internal" href="#add-a-route-for-updating-the-state-of-a-specific-todo" id="id19">Add a route for updating the state of a specific Todo</a></p></li>
+<li><p><a class="reference internal" href="#final-code" id="id20">Final Code</a></p></li>
+</ul>
+</div>
+<section id="install-chalice">
+<h2><a class="toc-backref" href="#id13">Install Chalice</a><a class="headerlink" href="#install-chalice" title="Permalink to this headline">¶</a></h2>
+<p>This step will ensure that <code class="docutils literal notranslate"><span class="pre">chalice</span></code> is installed in your virtualenv.</p>
+<section id="instructions">
+<h3>Instructions<a class="headerlink" href="#instructions" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Install <code class="docutils literal notranslate"><span class="pre">chalice</span></code> inside of your virtualenv:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ pip install chalice
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+<section id="verification">
+<h3>Verification<a class="headerlink" href="#verification" title="Permalink to this headline">¶</a></h3>
+<p>To make sure <code class="docutils literal notranslate"><span class="pre">chalice</span></code> was installed correctly, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ chalice --version
+</pre></div>
+</div>
+</section>
+</section>
+<section id="create-a-new-chalice-project">
+<h2><a class="toc-backref" href="#id14">Create a new Chalice project</a><a class="headerlink" href="#create-a-new-chalice-project" title="Permalink to this headline">¶</a></h2>
+<p>Create the new Chalice project for the Todo application.</p>
+<section id="id1">
+<h3>Instructions<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Create a new Chalice project called <code class="docutils literal notranslate"><span class="pre">mytodo</span></code> with the <code class="docutils literal notranslate"><span class="pre">new-project</span></code>
+command:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ chalice new-project mytodo
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+<section id="id2">
+<h3>Verification<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<p>To ensure that the project was created, list the contents of the newly created
+<code class="docutils literal notranslate"><span class="pre">mytodo</span></code> directory:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ ls mytodo
+app.py           requirements.txt
+</pre></div>
+</div>
+<p>It should contain an <code class="docutils literal notranslate"><span class="pre">app.py</span></code> file and a <code class="docutils literal notranslate"><span class="pre">requirements.txt</span></code> file.</p>
+</section>
+</section>
+<section id="add-the-starting-app-py">
+<h2><a class="toc-backref" href="#id15">Add the starting <code class="docutils literal notranslate"><span class="pre">app.py</span></code></a><a class="headerlink" href="#add-the-starting-app-py" title="Permalink to this headline">¶</a></h2>
+<p>Copy a boilerplate <code class="docutils literal notranslate"><span class="pre">app.py</span></code> file to begin working on the Todo application</p>
+<section id="id3">
+<h3>Instructions<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>If you have not already done so, clone the repository for this workshop:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ git clone https://github.com/aws-samples/chalice-workshop.git
+</pre></div>
+</div>
+</li>
+<li><p>Copy the over the <code class="docutils literal notranslate"><span class="pre">app.py</span></code> file to the <code class="docutils literal notranslate"><span class="pre">mytodo</span></code> Chalice application:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ cp ../chalice-workshop/code/todo-app/part1/01-new-project/app.py mytodo/app.py
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+<section id="id4">
+<h3>Verification<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<p>To verify that the boilerplate application is working correctly, move into
+the <code class="docutils literal notranslate"><span class="pre">mytodo</span></code> application directory and run <code class="docutils literal notranslate"><span class="pre">chalice</span> <span class="pre">local</span></code> to spin up
+a version of the application running locally:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ cd mytodo
+$ chalice local
+Serving on localhost:8000
+</pre></div>
+</div>
+<p>In a separate terminal window now install <code class="docutils literal notranslate"><span class="pre">httpie</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ pip install httpie
+</pre></div>
+</div>
+<p>And make an HTTP request to application running the <code class="docutils literal notranslate"><span class="pre">localhost</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ http localhost:8000/todos
+HTTP/1.1 200 OK
+Content-Length: 2
+Content-Type: application/json
+Date: Thu, 19 Oct 2017 23:31:12 GMT
+Server: BaseHTTP/0.3 Python/2.7.10
+
+[]
+</pre></div>
+</div>
+<p>This should return an empty list back as there are no Todo’s currently in
+the application.</p>
+</section>
+</section>
+<section id="add-a-route-for-creating-a-todo">
+<h2><a class="toc-backref" href="#id16">Add a route for creating a Todo</a><a class="headerlink" href="#add-a-route-for-creating-a-todo" title="Permalink to this headline">¶</a></h2>
+<p>Add a route for creating a Todo.</p>
+<section id="id5">
+<h3>Instructions<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Open the <code class="docutils literal notranslate"><span class="pre">app.py</span></code> in an editor of your choice</p></li>
+<li><p>At the bottom of the <code class="docutils literal notranslate"><span class="pre">app.py</span></code> file add a function called
+<code class="docutils literal notranslate"><span class="pre">add_new_todo()</span></code></p></li>
+<li><p>Decorate the <code class="docutils literal notranslate"><span class="pre">add_new_todo()</span></code> function with a <code class="docutils literal notranslate"><span class="pre">route</span></code> that only
+accepts <code class="docutils literal notranslate"><span class="pre">POST</span></code> to the URI <code class="docutils literal notranslate"><span class="pre">/todos</span></code>.</p></li>
+<li><p>In the <code class="docutils literal notranslate"><span class="pre">add_new_todo()</span></code> function use the <code class="docutils literal notranslate"><span class="pre">app.current_request.json_body</span></code>
+to add the Todo (which includes its description and metadata) to the
+database.</p></li>
+<li><p>In the <code class="docutils literal notranslate"><span class="pre">add_new_todo()</span></code> function <code class="docutils literal notranslate"><span class="pre">return</span></code> the ID of the Todo that was
+added in the database.</p></li>
+</ol>
+<div class="highlight-default notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/todos&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;POST&#39;</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">add_new_todo</span><span class="p">():</span>
+    <span class="n">body</span> <span class="o">=</span> <span class="n">app</span><span class="o">.</span><span class="n">current_request</span><span class="o">.</span><span class="n">json_body</span>
+    <span class="k">return</span> <span class="n">get_app_db</span><span class="p">()</span><span class="o">.</span><span class="n">add_item</span><span class="p">(</span>
+        <span class="n">description</span><span class="o">=</span><span class="n">body</span><span class="p">[</span><span class="s1">&#39;description&#39;</span><span class="p">],</span>
+        <span class="n">metadata</span><span class="o">=</span><span class="n">body</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;metadata&#39;</span><span class="p">),</span>
+    <span class="p">)</span>
+</pre></div>
+</td></tr></table></div>
+</section>
+<section id="id6">
+<h3>Verification<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<p>To verify that the new route works, run <code class="docutils literal notranslate"><span class="pre">chalice</span> <span class="pre">local</span></code> and in a separate
+terminal window run the following using <code class="docutils literal notranslate"><span class="pre">httpie</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ echo &#39;{&quot;description&quot;: &quot;My first Todo&quot;, &quot;metadata&quot;: {}}&#39; | http POST localhost:8000/todos
+HTTP/1.1 200 OK
+Content-Length: 36
+Content-Type: application/json
+Date: Thu, 19 Oct 2017 23:44:24 GMT
+Server: BaseHTTP/0.3 Python/2.7.10
+
+8cc673f0-7dd3-4e9d-a20b-245fcd34859d
+</pre></div>
+</div>
+<p>This will return the ID of the Todo. For this example, it is <code class="docutils literal notranslate"><span class="pre">8cc673f0-7dd3-4e9d-a20b-245fcd34859d</span></code>.
+Now check that it is now listed when you retrieve all Todos:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ http localhost:8000/todos
+HTTP/1.1 200 OK
+Content-Length: 142
+Content-Type: application/json
+Date: Thu, 19 Oct 2017 23:46:53 GMT
+Server: BaseHTTP/0.3 Python/2.7.10
+
+[
+    {
+        &quot;description&quot;: &quot;My first Todo&quot;,
+        &quot;metadata&quot;: {},
+        &quot;state&quot;: &quot;unstarted&quot;,
+        &quot;uid&quot;: &quot;8cc673f0-7dd3-4e9d-a20b-245fcd34859d&quot;,
+        &quot;username&quot;: &quot;default&quot;
+    }
+]
+</pre></div>
+</div>
+</section>
+</section>
+<section id="add-a-route-for-getting-a-specific-todo">
+<h2><a class="toc-backref" href="#id17">Add a route for getting a specific Todo</a><a class="headerlink" href="#add-a-route-for-getting-a-specific-todo" title="Permalink to this headline">¶</a></h2>
+<p>Add a route for getting a specific Todo.</p>
+<section id="id7">
+<h3>Instructions<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>In the <code class="docutils literal notranslate"><span class="pre">app.py</span></code>, add a function called <code class="docutils literal notranslate"><span class="pre">get_todo()</span></code> that accepts a
+<code class="docutils literal notranslate"><span class="pre">uid</span></code> as a parameter.</p></li>
+<li><p>Decorate the <code class="docutils literal notranslate"><span class="pre">get_todo()</span></code> function with a <code class="docutils literal notranslate"><span class="pre">route</span></code> that only
+accepts <code class="docutils literal notranslate"><span class="pre">GET</span></code> to the URI <code class="docutils literal notranslate"><span class="pre">/todos/{uid}</span></code>.</p></li>
+<li><p>In the <code class="docutils literal notranslate"><span class="pre">get_todo()</span></code> function <code class="docutils literal notranslate"><span class="pre">return</span></code> the specific Todo item from the
+database using the <code class="docutils literal notranslate"><span class="pre">uid</span></code> function parameter.</p></li>
+</ol>
+<blockquote>
+<div><div class="highlight-default notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/todos/</span><span class="si">{uid}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;GET&#39;</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">get_todo</span><span class="p">(</span><span class="n">uid</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">get_app_db</span><span class="p">()</span><span class="o">.</span><span class="n">get_item</span><span class="p">(</span><span class="n">uid</span><span class="p">)</span>
+</pre></div>
+</td></tr></table></div>
+</div></blockquote>
+</section>
+<section id="id8">
+<h3>Verification<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<p>To verify that the new route works, run <code class="docutils literal notranslate"><span class="pre">chalice</span> <span class="pre">local</span></code> and in a separate
+terminal window run the following using <code class="docutils literal notranslate"><span class="pre">httpie</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ echo &#39;{&quot;description&quot;: &quot;My first Todo&quot;, &quot;metadata&quot;: {}}&#39; | http POST localhost:8000/todos
+HTTP/1.1 200 OK
+Content-Length: 36
+Content-Type: application/json
+Date: Thu, 19 Oct 2017 23:44:24 GMT
+Server: BaseHTTP/0.3 Python/2.7.10
+
+8cc673f0-7dd3-4e9d-a20b-245fcd34859d
+</pre></div>
+</div>
+<p>Now use the returned ID <code class="docutils literal notranslate"><span class="pre">8cc673f0-7dd3-4e9d-a20b-245fcd34859d</span></code> to request
+the specific Todo:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ http localhost:8000/todos/8cc673f0-7dd3-4e9d-a20b-245fcd34859d
+HTTP/1.1 200 OK
+Content-Length: 140
+Content-Type: application/json
+Date: Thu, 19 Oct 2017 23:52:35 GMT
+Server: BaseHTTP/0.3 Python/2.7.10
+
+{
+    &quot;description&quot;: &quot;My first Todo&quot;,
+    &quot;metadata&quot;: {},
+    &quot;state&quot;: &quot;unstarted&quot;,
+    &quot;uid&quot;: &quot;8cc673f0-7dd3-4e9d-a20b-245fcd34859d&quot;,
+    &quot;username&quot;: &quot;default&quot;
+}
+</pre></div>
+</div>
+</section>
+</section>
+<section id="add-a-route-for-deleting-a-specific-todo">
+<h2><a class="toc-backref" href="#id18">Add a route for deleting a specific Todo</a><a class="headerlink" href="#add-a-route-for-deleting-a-specific-todo" title="Permalink to this headline">¶</a></h2>
+<p>Add a route for deleting a specific Todo.</p>
+<section id="id9">
+<h3>Instructions<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>In the <code class="docutils literal notranslate"><span class="pre">app.py</span></code>, add a function called <code class="docutils literal notranslate"><span class="pre">delete_todo()</span></code> that accepts a
+<code class="docutils literal notranslate"><span class="pre">uid</span></code> as a parameter.</p></li>
+<li><p>Decorate the <code class="docutils literal notranslate"><span class="pre">delete_todo()</span></code> function with a <code class="docutils literal notranslate"><span class="pre">route</span></code> that only
+accepts <code class="docutils literal notranslate"><span class="pre">DELETE</span></code> to the URI <code class="docutils literal notranslate"><span class="pre">/todos/{uid}</span></code>.</p></li>
+<li><p>In the <code class="docutils literal notranslate"><span class="pre">delete_todo()</span></code> function delete the Todo from the database using
+the <code class="docutils literal notranslate"><span class="pre">uid</span></code> function parameter.</p></li>
+</ol>
+<div class="highlight-default notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/todos/</span><span class="si">{uid}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;DELETE&#39;</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">delete_todo</span><span class="p">(</span><span class="n">uid</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">get_app_db</span><span class="p">()</span><span class="o">.</span><span class="n">delete_item</span><span class="p">(</span><span class="n">uid</span><span class="p">)</span>
+</pre></div>
+</td></tr></table></div>
+</section>
+<section id="id10">
+<h3>Verification<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<p>To verify that the new route works, run <code class="docutils literal notranslate"><span class="pre">chalice</span> <span class="pre">local</span></code> and in a separate
+terminal window run the following using <code class="docutils literal notranslate"><span class="pre">httpie</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ echo &#39;{&quot;description&quot;: &quot;My first Todo&quot;, &quot;metadata&quot;: {}}&#39; | http POST localhost:8000/todos
+HTTP/1.1 200 OK
+Content-Length: 36
+Content-Type: application/json
+Date: Thu, 19 Oct 2017 23:44:24 GMT
+Server: BaseHTTP/0.3 Python/2.7.10
+
+8cc673f0-7dd3-4e9d-a20b-245fcd34859d
+</pre></div>
+</div>
+<p>Now check that it is now listed when you retrieve all Todos:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ http localhost:8000/todos
+HTTP/1.1 200 OK
+Content-Length: 142
+Content-Type: application/json
+Date: Thu, 19 Oct 2017 23:46:53 GMT
+Server: BaseHTTP/0.3 Python/2.7.10
+
+[
+    {
+        &quot;description&quot;: &quot;My first Todo&quot;,
+        &quot;metadata&quot;: {},
+        &quot;state&quot;: &quot;unstarted&quot;,
+        &quot;uid&quot;: &quot;8cc673f0-7dd3-4e9d-a20b-245fcd34859d&quot;,
+        &quot;username&quot;: &quot;default&quot;
+    }
+]
+</pre></div>
+</div>
+<p>Now use the returned ID <code class="docutils literal notranslate"><span class="pre">8cc673f0-7dd3-4e9d-a20b-245fcd34859d</span></code> to delete
+the specific Todo:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ http DELETE localhost:8000/todos/8cc673f0-7dd3-4e9d-a20b-245fcd34859d
+HTTP/1.1 200 OK
+Content-Length: 4
+Content-Type: application/json
+Date: Thu, 19 Oct 2017 23:57:32 GMT
+Server: BaseHTTP/0.3 Python/2.7.10
+
+null
+</pre></div>
+</div>
+<p>Now if all of the Todo’s are listed, it will no longer be present:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ http localhost:8000/todos
+HTTP/1.1 200 OK
+Content-Length: 2
+Content-Type: application/json
+Date: Thu, 19 Oct 2017 23:31:12 GMT
+Server: BaseHTTP/0.3 Python/2.7.10
+
+[]
+</pre></div>
+</div>
+</section>
+</section>
+<section id="add-a-route-for-updating-the-state-of-a-specific-todo">
+<h2><a class="toc-backref" href="#id19">Add a route for updating the state of a specific Todo</a><a class="headerlink" href="#add-a-route-for-updating-the-state-of-a-specific-todo" title="Permalink to this headline">¶</a></h2>
+<p>Add a route for updating the state of a specific Todo.</p>
+<section id="id11">
+<h3>Instructions<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>In the <code class="docutils literal notranslate"><span class="pre">app.py</span></code>, add a function called <code class="docutils literal notranslate"><span class="pre">update_todo()</span></code> that accepts a
+<code class="docutils literal notranslate"><span class="pre">uid</span></code> as a parameter.</p></li>
+<li><p>Decorate the <code class="docutils literal notranslate"><span class="pre">update_todo()</span></code> function with a <code class="docutils literal notranslate"><span class="pre">route</span></code> that only
+accepts <code class="docutils literal notranslate"><span class="pre">PUT</span></code> to the URI <code class="docutils literal notranslate"><span class="pre">/todos/{uid}</span></code>.</p></li>
+<li><p>In the <code class="docutils literal notranslate"><span class="pre">update_todo()</span></code> function use the <code class="docutils literal notranslate"><span class="pre">app.current_request</span></code> to update
+the Todo (which includes its description, metadata, and state) in the
+database for the <code class="docutils literal notranslate"><span class="pre">uid</span></code> provided.</p></li>
+</ol>
+<div class="highlight-default notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span>
+<span class="normal">8</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/todos/</span><span class="si">{uid}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;PUT&#39;</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">update_todo</span><span class="p">(</span><span class="n">uid</span><span class="p">):</span>
+    <span class="n">body</span> <span class="o">=</span> <span class="n">app</span><span class="o">.</span><span class="n">current_request</span><span class="o">.</span><span class="n">json_body</span>
+    <span class="n">get_app_db</span><span class="p">()</span><span class="o">.</span><span class="n">update_item</span><span class="p">(</span>
+        <span class="n">uid</span><span class="p">,</span>
+        <span class="n">description</span><span class="o">=</span><span class="n">body</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;description&#39;</span><span class="p">),</span>
+        <span class="n">state</span><span class="o">=</span><span class="n">body</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;state&#39;</span><span class="p">),</span>
+        <span class="n">metadata</span><span class="o">=</span><span class="n">body</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;metadata&#39;</span><span class="p">))</span>
+</pre></div>
+</td></tr></table></div>
+</section>
+<section id="id12">
+<h3>Verification<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h3>
+<p>To verify that the new route works, run <code class="docutils literal notranslate"><span class="pre">chalice</span> <span class="pre">local</span></code> and in a separate
+terminal window run the following using <code class="docutils literal notranslate"><span class="pre">httpie</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ echo &#39;{&quot;description&quot;: &quot;My first Todo&quot;, &quot;metadata&quot;: {}}&#39; | http POST localhost:8000/todos
+HTTP/1.1 200 OK
+Content-Length: 36
+Content-Type: application/json
+Date: Thu, 19 Oct 2017 23:44:24 GMT
+Server: BaseHTTP/0.3 Python/2.7.10
+
+de9a4981-f7fd-4639-97fb-2af247f20d79
+</pre></div>
+</div>
+<p>Now determine the state of this newly added Todo:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ http localhost:8000/todos/de9a4981-f7fd-4639-97fb-2af247f20d79
+HTTP/1.1 200 OK
+Content-Length: 140
+Content-Type: application/json
+Date: Fri, 20 Oct 2017 00:03:26 GMT
+Server: BaseHTTP/0.3 Python/2.7.10
+
+{
+    &quot;description&quot;: &quot;My first Todo&quot;,
+    &quot;metadata&quot;: {},
+    &quot;state&quot;: &quot;unstarted&quot;,
+    &quot;uid&quot;: &quot;de9a4981-f7fd-4639-97fb-2af247f20d79&quot;,
+    &quot;username&quot;: &quot;default&quot;
+}
+</pre></div>
+</div>
+<p>Update the <code class="docutils literal notranslate"><span class="pre">state</span></code> of this Todo to <code class="docutils literal notranslate"><span class="pre">started</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ echo &#39;{&quot;state&quot;: &quot;started&quot;}&#39; | http PUT localhost:8000/todos/de9a4981-f7fd-4639-97fb-2af247f20d79
+HTTP/1.1 200 OK
+Content-Length: 4
+Content-Type: application/json
+Date: Fri, 20 Oct 2017 00:05:07 GMT
+Server: BaseHTTP/0.3 Python/2.7.10
+
+null
+</pre></div>
+</div>
+<p>Ensure that the Todo has the <code class="docutils literal notranslate"><span class="pre">started</span></code> state when described:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ http localhost:8000/todos/de9a4981-f7fd-4639-97fb-2af247f20d79
+HTTP/1.1 200 OK
+Content-Length: 138
+Content-Type: application/json
+Date: Fri, 20 Oct 2017 00:05:54 GMT
+Server: BaseHTTP/0.3 Python/2.7.10
+
+{
+    &quot;description&quot;: &quot;My first Todo&quot;,
+    &quot;metadata&quot;: {},
+    &quot;state&quot;: &quot;started&quot;,
+    &quot;uid&quot;: &quot;de9a4981-f7fd-4639-97fb-2af247f20d79&quot;,
+    &quot;username&quot;: &quot;default&quot;
+}
+</pre></div>
+</div>
+</section>
+</section>
+<section id="final-code">
+<h2><a class="toc-backref" href="#id20">Final Code</a><a class="headerlink" href="#final-code" title="Permalink to this headline">¶</a></h2>
+<p>When you are done your final code should look like this:</p>
+<div class="highlight-default notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span>
+<span class="normal">31</span>
+<span class="normal">32</span>
+<span class="normal">33</span>
+<span class="normal">34</span>
+<span class="normal">35</span>
+<span class="normal">36</span>
+<span class="normal">37</span>
+<span class="normal">38</span>
+<span class="normal">39</span>
+<span class="normal">40</span>
+<span class="normal">41</span>
+<span class="normal">42</span>
+<span class="normal">43</span>
+<span class="normal">44</span>
+<span class="normal">45</span>
+<span class="normal">46</span>
+<span class="normal">47</span>
+<span class="normal">48</span>
+<span class="normal">49</span>
+<span class="normal">50</span>
+<span class="normal">51</span>
+<span class="normal">52</span>
+<span class="normal">53</span>
+<span class="normal">54</span>
+<span class="normal">55</span>
+<span class="normal">56</span>
+<span class="normal">57</span>
+<span class="normal">58</span>
+<span class="normal">59</span>
+<span class="normal">60</span>
+<span class="normal">61</span>
+<span class="normal">62</span>
+<span class="normal">63</span>
+<span class="normal">64</span>
+<span class="normal">65</span>
+<span class="normal">66</span>
+<span class="normal">67</span>
+<span class="normal">68</span>
+<span class="normal">69</span>
+<span class="normal">70</span>
+<span class="normal">71</span>
+<span class="normal">72</span>
+<span class="normal">73</span>
+<span class="normal">74</span>
+<span class="normal">75</span>
+<span class="normal">76</span>
+<span class="normal">77</span>
+<span class="normal">78</span>
+<span class="normal">79</span>
+<span class="normal">80</span>
+<span class="normal">81</span>
+<span class="normal">82</span>
+<span class="normal">83</span>
+<span class="normal">84</span>
+<span class="normal">85</span>
+<span class="normal">86</span>
+<span class="normal">87</span>
+<span class="normal">88</span>
+<span class="normal">89</span>
+<span class="normal">90</span>
+<span class="normal">91</span>
+<span class="normal">92</span>
+<span class="normal">93</span>
+<span class="normal">94</span>
+<span class="normal">95</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">uuid</span> <span class="kn">import</span> <span class="n">uuid4</span>
+
+<span class="kn">from</span> <span class="nn">chalice</span> <span class="kn">import</span> <span class="n">Chalice</span>
+
+
+<span class="n">app</span> <span class="o">=</span> <span class="n">Chalice</span><span class="p">(</span><span class="n">app_name</span><span class="o">=</span><span class="s1">&#39;mytodo&#39;</span><span class="p">)</span>
+<span class="n">app</span><span class="o">.</span><span class="n">debug</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="n">_DB</span> <span class="o">=</span> <span class="kc">None</span>
+<span class="n">DEFAULT_USERNAME</span> <span class="o">=</span> <span class="s1">&#39;default&#39;</span>
+
+
+<span class="k">class</span> <span class="nc">InMemoryTodoDB</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">state</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">state</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">state</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_state</span> <span class="o">=</span> <span class="n">state</span>
+
+    <span class="k">def</span> <span class="nf">list_all_items</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">all_items</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">username</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">_state</span><span class="p">:</span>
+            <span class="n">all_items</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">list_items</span><span class="p">(</span><span class="n">username</span><span class="p">))</span>
+        <span class="k">return</span> <span class="n">all_items</span>
+
+    <span class="k">def</span> <span class="nf">list_items</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">username</span><span class="o">=</span><span class="n">DEFAULT_USERNAME</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_state</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">username</span><span class="p">,</span> <span class="p">{})</span><span class="o">.</span><span class="n">values</span><span class="p">()</span>
+
+    <span class="k">def</span> <span class="nf">add_item</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">description</span><span class="p">,</span> <span class="n">metadata</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">username</span><span class="o">=</span><span class="n">DEFAULT_USERNAME</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">username</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">_state</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_state</span><span class="p">[</span><span class="n">username</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="n">uid</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">uuid4</span><span class="p">())</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_state</span><span class="p">[</span><span class="n">username</span><span class="p">][</span><span class="n">uid</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s1">&#39;uid&#39;</span><span class="p">:</span> <span class="n">uid</span><span class="p">,</span>
+            <span class="s1">&#39;description&#39;</span><span class="p">:</span> <span class="n">description</span><span class="p">,</span>
+            <span class="s1">&#39;state&#39;</span><span class="p">:</span> <span class="s1">&#39;unstarted&#39;</span><span class="p">,</span>
+            <span class="s1">&#39;metadata&#39;</span><span class="p">:</span> <span class="n">metadata</span> <span class="k">if</span> <span class="n">metadata</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="k">else</span> <span class="p">{},</span>
+            <span class="s1">&#39;username&#39;</span><span class="p">:</span> <span class="n">username</span>
+        <span class="p">}</span>
+        <span class="k">return</span> <span class="n">uid</span>
+
+    <span class="k">def</span> <span class="nf">get_item</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">uid</span><span class="p">,</span> <span class="n">username</span><span class="o">=</span><span class="n">DEFAULT_USERNAME</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_state</span><span class="p">[</span><span class="n">username</span><span class="p">][</span><span class="n">uid</span><span class="p">]</span>
+
+    <span class="k">def</span> <span class="nf">delete_item</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">uid</span><span class="p">,</span> <span class="n">username</span><span class="o">=</span><span class="n">DEFAULT_USERNAME</span><span class="p">):</span>
+        <span class="k">del</span> <span class="bp">self</span><span class="o">.</span><span class="n">_state</span><span class="p">[</span><span class="n">username</span><span class="p">][</span><span class="n">uid</span><span class="p">]</span>
+
+    <span class="k">def</span> <span class="nf">update_item</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">uid</span><span class="p">,</span> <span class="n">description</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">state</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                    <span class="n">metadata</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">username</span><span class="o">=</span><span class="n">DEFAULT_USERNAME</span><span class="p">):</span>
+        <span class="n">item</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_state</span><span class="p">[</span><span class="n">username</span><span class="p">][</span><span class="n">uid</span><span class="p">]</span>
+        <span class="k">if</span> <span class="n">description</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">item</span><span class="p">[</span><span class="s1">&#39;description&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">description</span>
+        <span class="k">if</span> <span class="n">state</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">item</span><span class="p">[</span><span class="s1">&#39;state&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">state</span>
+        <span class="k">if</span> <span class="n">metadata</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">item</span><span class="p">[</span><span class="s1">&#39;metadata&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">metadata</span>
+
+
+<span class="k">def</span> <span class="nf">get_app_db</span><span class="p">():</span>
+    <span class="k">global</span> <span class="n">_DB</span>
+    <span class="k">if</span> <span class="n">_DB</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">_DB</span> <span class="o">=</span> <span class="n">InMemoryTodoDB</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">_DB</span>
+
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/todos&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;GET&#39;</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">get_todos</span><span class="p">():</span>
+    <span class="k">return</span> <span class="n">get_app_db</span><span class="p">()</span><span class="o">.</span><span class="n">list_items</span><span class="p">()</span>
+
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/todos&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;POST&#39;</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">add_new_todo</span><span class="p">():</span>
+    <span class="n">body</span> <span class="o">=</span> <span class="n">app</span><span class="o">.</span><span class="n">current_request</span><span class="o">.</span><span class="n">json_body</span>
+    <span class="k">return</span> <span class="n">get_app_db</span><span class="p">()</span><span class="o">.</span><span class="n">add_item</span><span class="p">(</span>
+        <span class="n">description</span><span class="o">=</span><span class="n">body</span><span class="p">[</span><span class="s1">&#39;description&#39;</span><span class="p">],</span>
+        <span class="n">metadata</span><span class="o">=</span><span class="n">body</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;metadata&#39;</span><span class="p">),</span>
+    <span class="p">)</span>
+
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/todos/</span><span class="si">{uid}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;GET&#39;</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">get_todo</span><span class="p">(</span><span class="n">uid</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">get_app_db</span><span class="p">()</span><span class="o">.</span><span class="n">get_item</span><span class="p">(</span><span class="n">uid</span><span class="p">)</span>
+
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/todos/</span><span class="si">{uid}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;DELETE&#39;</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">delete_todo</span><span class="p">(</span><span class="n">uid</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">get_app_db</span><span class="p">()</span><span class="o">.</span><span class="n">delete_item</span><span class="p">(</span><span class="n">uid</span><span class="p">)</span>
+
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/todos/</span><span class="si">{uid}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;PUT&#39;</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">update_todo</span><span class="p">(</span><span class="n">uid</span><span class="p">):</span>
+    <span class="n">body</span> <span class="o">=</span> <span class="n">app</span><span class="o">.</span><span class="n">current_request</span><span class="o">.</span><span class="n">json_body</span>
+    <span class="n">get_app_db</span><span class="p">()</span><span class="o">.</span><span class="n">update_item</span><span class="p">(</span>
+        <span class="n">uid</span><span class="p">,</span>
+        <span class="n">description</span><span class="o">=</span><span class="n">body</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;description&#39;</span><span class="p">),</span>
+        <span class="n">state</span><span class="o">=</span><span class="n">body</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;state&#39;</span><span class="p">),</span>
+        <span class="n">metadata</span><span class="o">=</span><span class="n">body</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;metadata&#39;</span><span class="p">))</span>
+</pre></div>
+</td></tr></table></div>
+</section>
+</section>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="02-todo-app-chalicelib.html" class="btn btn-neutral float-right" title="Section 2: Add chalicelib to Todo application" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="00-intro-chalice.html" class="btn btn-neutral float-left" title="Section 0: Introduction to AWS Chalice" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020-2021, Thomas Connors and Contributors.
+      <span class="lastupdated">
+        Last updated on Sat, 17 Jul 2021 12:00 AM .
+      </span>
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+  
+ <script type="text/javascript">
+    $(document).ready(function() {
+        $(".toggle > *").hide();
+        $(".toggle .header").show();
+        $(".toggle .header").click(function() {
+            $(this).parent().children().not(".header").toggle(400);
+            $(this).parent().children(".header").toggleClass("open");
+        })
+    });
+</script>
+
+
+</body>
+</html>

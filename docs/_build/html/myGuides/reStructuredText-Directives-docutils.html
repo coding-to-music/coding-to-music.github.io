@@ -1,0 +1,2684 @@
+
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  
+  <title>docutils reStructuredText Directives - This is the official definition - This is the true resource &mdash; all-knowledge</title>
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="../_static/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../_static/icons/favicon-16x16.png">
+  <link rel="manifest" href="../_static/icons/site.webmanifest">
+  <link rel="mask-icon" href="../_static/icons/safari-pinned-tab.svg" color="#919191">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="msapplication-config" content="../_static/icons/browserconfig.xml">
+  <link rel="stylesheet" href="../_static/stylesheets/examples.css">
+  <link rel="stylesheet" href="../_static/stylesheets/deprecation.css">
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/tooltipster.custom.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/tooltipster.bundle.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/tooltipster-sideTip-shadow.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/tooltipster-sideTip-punk.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/tooltipster-sideTip-noir.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/tooltipster-sideTip-light.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/tooltipster-sideTip-borderless.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/micromodal.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/tabs.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/sphinx_rtd_theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/contentui.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/gallery.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/gallery-binder.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/gallery-dataframe.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/gallery-rendered-html.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/sphinxcontrib-images/LightBox2/lightbox2/css/lightbox.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+
+  
+  
+
+  
+    <link rel="canonical" href="https://pandemic-overview.readthedocs.io/en/latest/myGuides/reStructuredText-Directives-docutils.html" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/clipboard.min.js"></script>
+        <script src="../_static/copybutton.js"></script>
+        <script src="../_static/js/hoverxref.js"></script>
+        <script src="../_static/js/tooltipster.bundle.min.js"></script>
+        <script src="../_static/js/micromodal.min.js"></script>
+        <script src="../_static/tabs.js"></script>
+        <script src="../_static/js/expand_tabs.js"></script>
+        <script src="../_static/contentui.js"></script>
+        <script src="../_static/sphinxcontrib-images/LightBox2/lightbox2/js/jquery-1.11.0.min.js"></script>
+        <script src="../_static/sphinxcontrib-images/LightBox2/lightbox2/js/lightbox.min.js"></script>
+        <script src="../_static/sphinxcontrib-images/LightBox2/lightbox2-customize/jquery-noconflict.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="reStructured Text Special directives" href="reStructured-Text-Special-directives.html" />
+    <link rel="prev" title="Importing Your Documentation" href="../bareos/guides/intro/import-guide.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html">
+          
+
+          
+            
+            <img src="../_static/statsmodels-logo-v2-bw.svg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../topics/Covid-Medical-Treatments/Covid-Medical-Treatments.html">Covid Medical Treatments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Bill-Gates-Memes/Bill-Gates-Memes.html">Bill Gates Memes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/topics.html">Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Data-science-of-the-pandemic/Data-science-of-the-pandemic.html">Data Science of the Pandemic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Vaccines/Vaccines.html">Vaccines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Masks/Masks.html">Masks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Lockdowns/Lockdowns.html">Lockdowns</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Origins-of-the-Virus/Origins-of-the-Virus.html">Origins of the Virus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Pandemic-Preparedness/Pandemic-Preparedness.html">Pandemic Preparedness</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Pandemic-Participants/Pandemic-Participants.html">Pandemic Participants</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Food-Safety/Food-Safety.html">Food Safety</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Municipal-Matters/Municipal-Matters.html">Municipal Issues and Topics</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../How-you-can-help/How-you-can-help.html">How you can help</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="Tech-stack-for-this-website.html">Tech stack for this website</a></li>
+<li class="toctree-l2"><a class="reference internal" href="myGuides.html">My Guides for Various Technical Topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="General-computer-setup.html">General Computer Setup</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="Advanced-Computer-Setup.html">Advanced Computer Setup and Topics</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="ReadTheDocs-Documentation-System.html">ReadTheDocs Documentation System</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../bareos/guides/intro/getting-started-with-sphinx.html">Getting Started with Sphinx</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../bareos/guides/intro/getting-started-with-mkdocs.html">Getting Started with MkDocs</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../bareos/guides/intro/import-guide.html">Importing Your Documentation</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">docutils reStructuredText Directives - This is the official definition - This is the true resource</a></li>
+<li class="toctree-l4"><a class="reference internal" href="reStructured-Text-Special-directives.html">reStructured Text Special directives</a></li>
+<li class="toctree-l4"><a class="reference internal" href="reStructured-Text-Special-directives.html#colored-boxes-note-seealso-todo-and-warnings">colored boxes: note, seealso, todo and warnings</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../bareos/guides/Paragraph-level-markup-from-ReadTheDocs.html">Paragraph Level Markup</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../bareos/guides/custom_domains.html">Custom Domains and White Labeling</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../bareos/guides/faq.html">ReadTheDocs - Frequently Asked Questions</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../bareos/guides/canonical.html">Canonical URLs</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../bareos/guides/google-analytics.html">Enabling Google Analytics on your Project</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../bareos/guides/user-defined-redirects.html">User-defined Redirects</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../bareos/guides/technical-docs-seo-guide.html">Technical Documentation Search Engine Optimization (SEO) Guide</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../bareos/guides/wipe-environment.html">Wiping a Build Environment</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../bareos/guides/feature-flags.html">Feature Flags</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../bareos/guides/reproducible-builds.html">Reproducible Builds</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../bareos/guides/localization.html">Localization of Documentation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../bareos/guides/manage-translations.html">Manage Translations</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ReadTheDocs-Documentation-System.html#id1">ReadTheDocs Documentation System</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ReadTheDocs-Documentation-System.html#purpose">Purpose</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ReadTheDocs-Documentation-System.html#documentation-for-rtd">Documentation for RTD</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ReadTheDocs-Documentation-System.html#readthedocs-theme-and-demo-documentation">ReadTheDocs Theme and Demo Documentation</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="vscode-SSH-Remote-Containers.html">Visual Studio Code SSH Remote Development with Containers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Documentation-System.html">Sphinx Documentation System</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../bareos/index.html">Bareos Project - Reference Implementation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Container-Workflow.html">Introduction to Developing in the Docker Container Workflow</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Docker-and-Sphinx.html">Docker and Sphinx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Google-Bing-Webmaster-Tools-Search-and-Rich-Results.html">Google Bing Webmaster Tools Search and Rich Results</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Binder.html">Binder usage with Sphinx-Gallery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="How-to-install-python-on-debian.html">How To Install Python on Debian</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Invenio-Software.html">Invenio Software</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pip-package-installer-for-python.html">pip is the package installer for Python</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-copybutton.html">Sphinx Copybutton</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-embed-object-iFrame-video-html-PDF-twitter-examples.html">Sphinx embed object iFrame video html PDF Twitter examples</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Lillypond.html">Sphinx Lillypond</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-last-updated-by-git.html">sphinx-last-updated-by-git</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-last-updated-by-git.html#get-the-last-updated-time-for-each-sphinx-page-from-git">Get the “last updated” time for each Sphinx page from Git</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Twitter.html">Sphinx Twitter (Python Twitter)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Gallery.html">Sphinx Gallery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Gitstamp.html">Sphinx Gitstamp Generator Extension</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Jinja.html">Sphinx Jinja is a templating engine</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Hoverxref.html">Sphinx Hoverxref</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-pdfembed.html">Sphinx PDF Embed - sphinxcontrib-pdfembed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinxext-remoteliteralinclude.html">Sphinx Remote Literal Include</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Redirects.html">Sphinx Redirects</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-rediraffe.html">Sphinx Rediraffe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Sitemap.html">Sphinx Sitemap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Templating.html">Sphinx Templating</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Timeline.html">Sphinx Timeline</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Werkzeug-comprehensive-WSGI-web-application-library.html">Werkzeug WSGI web application library</a></li>
+<li class="toctree-l3"><a class="reference internal" href="WSGI-is-the-Web-Server-Gateway-Interface.html">WSGI is the Web Server Gateway Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Zenodo.html">Zenodo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Zotero.html">Zotero</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kubernetes.html">Kubernetes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Github-Workflow.html">GitHub Workflow</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="aws/Amazon-AWS-Learning.html">Amazon AWS Learning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ToDo-project-tasks.html">ToDo project and documentation tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Contribute.html">Contribute</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Upcoming-software-to-try.html">Links of Upcoming Software to Try</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../How-you-can-help/Links-to-add-to-site.html">Links to add to the documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../How-you-can-help/Future-topics-to-be-developed.html">Future Topics to be developed</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Sandbox/Sandbox.html">Sandbox</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../License/license.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Help-about/help.html">Help - About</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Covid-Medical-Treatments/Covid-Medical-Treatments.html">Covid Medical Treatments</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Bill-Gates-Memes/Bill-Gates-Memes.html">Bill Gates Memes</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/topics.html">Topics</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Data-science-of-the-pandemic/Data-science-of-the-pandemic.html">Data Science of the Pandemic</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Vaccines/Vaccines.html">Vaccines</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Masks/Masks.html">Masks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Lockdowns/Lockdowns.html">Lockdowns</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Origins-of-the-Virus/Origins-of-the-Virus.html">Origins of the Virus</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Pandemic-Preparedness/Pandemic-Preparedness.html">Pandemic Preparedness</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Pandemic-Participants/Pandemic-Participants.html">Pandemic Participants</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Food-Safety/Food-Safety.html">Food Safety</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Municipal-Matters/Municipal-Matters.html">Municipal Issues and Topics</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../How-you-can-help/How-you-can-help.html">How you can help</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="Tech-stack-for-this-website.html">Tech stack for this website</a></li>
+<li class="toctree-l2"><a class="reference internal" href="myGuides.html">My Guides for Various Technical Topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="General-computer-setup.html">General Computer Setup</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="Advanced-Computer-Setup.html">Advanced Computer Setup and Topics</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="ReadTheDocs-Documentation-System.html">ReadTheDocs Documentation System</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../bareos/guides/intro/getting-started-with-sphinx.html">Getting Started with Sphinx</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../bareos/guides/intro/getting-started-with-mkdocs.html">Getting Started with MkDocs</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../bareos/guides/intro/import-guide.html">Importing Your Documentation</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">docutils reStructuredText Directives - This is the official definition - This is the true resource</a></li>
+<li class="toctree-l4"><a class="reference internal" href="reStructured-Text-Special-directives.html">reStructured Text Special directives</a></li>
+<li class="toctree-l4"><a class="reference internal" href="reStructured-Text-Special-directives.html#colored-boxes-note-seealso-todo-and-warnings">colored boxes: note, seealso, todo and warnings</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../bareos/guides/Paragraph-level-markup-from-ReadTheDocs.html">Paragraph Level Markup</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../bareos/guides/custom_domains.html">Custom Domains and White Labeling</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../bareos/guides/faq.html">ReadTheDocs - Frequently Asked Questions</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../bareos/guides/canonical.html">Canonical URLs</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../bareos/guides/google-analytics.html">Enabling Google Analytics on your Project</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../bareos/guides/user-defined-redirects.html">User-defined Redirects</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../bareos/guides/technical-docs-seo-guide.html">Technical Documentation Search Engine Optimization (SEO) Guide</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../bareos/guides/wipe-environment.html">Wiping a Build Environment</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../bareos/guides/feature-flags.html">Feature Flags</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../bareos/guides/reproducible-builds.html">Reproducible Builds</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../bareos/guides/localization.html">Localization of Documentation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../bareos/guides/manage-translations.html">Manage Translations</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ReadTheDocs-Documentation-System.html#id1">ReadTheDocs Documentation System</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ReadTheDocs-Documentation-System.html#purpose">Purpose</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ReadTheDocs-Documentation-System.html#documentation-for-rtd">Documentation for RTD</a></li>
+<li class="toctree-l4"><a class="reference internal" href="ReadTheDocs-Documentation-System.html#readthedocs-theme-and-demo-documentation">ReadTheDocs Theme and Demo Documentation</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="vscode-SSH-Remote-Containers.html">Visual Studio Code SSH Remote Development with Containers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Documentation-System.html">Sphinx Documentation System</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../bareos/index.html">Bareos Project - Reference Implementation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Container-Workflow.html">Introduction to Developing in the Docker Container Workflow</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Docker-and-Sphinx.html">Docker and Sphinx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Google-Bing-Webmaster-Tools-Search-and-Rich-Results.html">Google Bing Webmaster Tools Search and Rich Results</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Binder.html">Binder usage with Sphinx-Gallery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="How-to-install-python-on-debian.html">How To Install Python on Debian</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Invenio-Software.html">Invenio Software</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pip-package-installer-for-python.html">pip is the package installer for Python</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-copybutton.html">Sphinx Copybutton</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-embed-object-iFrame-video-html-PDF-twitter-examples.html">Sphinx embed object iFrame video html PDF Twitter examples</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Lillypond.html">Sphinx Lillypond</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-last-updated-by-git.html">sphinx-last-updated-by-git</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-last-updated-by-git.html#get-the-last-updated-time-for-each-sphinx-page-from-git">Get the “last updated” time for each Sphinx page from Git</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Twitter.html">Sphinx Twitter (Python Twitter)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Gallery.html">Sphinx Gallery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Gitstamp.html">Sphinx Gitstamp Generator Extension</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Jinja.html">Sphinx Jinja is a templating engine</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Hoverxref.html">Sphinx Hoverxref</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-pdfembed.html">Sphinx PDF Embed - sphinxcontrib-pdfembed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinxext-remoteliteralinclude.html">Sphinx Remote Literal Include</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Redirects.html">Sphinx Redirects</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-rediraffe.html">Sphinx Rediraffe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Sitemap.html">Sphinx Sitemap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Templating.html">Sphinx Templating</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Timeline.html">Sphinx Timeline</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Werkzeug-comprehensive-WSGI-web-application-library.html">Werkzeug WSGI web application library</a></li>
+<li class="toctree-l3"><a class="reference internal" href="WSGI-is-the-Web-Server-Gateway-Interface.html">WSGI is the Web Server Gateway Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Zenodo.html">Zenodo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Zotero.html">Zotero</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kubernetes.html">Kubernetes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Github-Workflow.html">GitHub Workflow</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="aws/Amazon-AWS-Learning.html">Amazon AWS Learning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ToDo-project-tasks.html">ToDo project and documentation tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Contribute.html">Contribute</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Upcoming-software-to-try.html">Links of Upcoming Software to Try</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../How-you-can-help/Links-to-add-to-site.html">Links to add to the documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../How-you-can-help/Future-topics-to-be-developed.html">Future Topics to be developed</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">all-knowledge</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../How-you-can-help/How-you-can-help.html">How you can help</a> &raquo;</li>
+        
+          <li><a href="Advanced-Computer-Setup.html">Advanced Computer Setup and Topics</a> &raquo;</li>
+        
+          <li><a href="ReadTheDocs-Documentation-System.html">ReadTheDocs Documentation System</a> &raquo;</li>
+        
+      <li>docutils reStructuredText Directives - This is the official definition - This is the true resource</li>
+    
+    
+    <li class="wy-breadcrumbs-aside">
+    
+        
+        <a href="../_sources/myGuides/reStructuredText-Directives-docutils.rst.txt" rel="nofollow"> View page source</a>
+        
+    
+    </li>
+
+  </ul>
+
+  
+  <div class="rst-breadcrumbs-buttons" role="navigation" aria-label="breadcrumb navigation">
+      
+        <a href="reStructured-Text-Special-directives.html" class="btn btn-neutral float-right" title="reStructured Text Special directives" accesskey="n">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+      
+      
+        <a href="../bareos/guides/intro/import-guide.html" class="btn btn-neutral float-left" title="Importing Your Documentation" accesskey="p"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+      
+  </div>
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <section id="docutils-restructuredtext-directives-this-is-the-official-definition-this-is-the-true-resource">
+<h1><a class="toc-backref" href="#id35">docutils reStructuredText Directives - This is the official definition - This is the true resource</a><a class="headerlink" href="#docutils-restructuredtext-directives-this-is-the-official-definition-this-is-the-true-resource" title="Permalink to this headline">¶</a></h1>
+<dl class="field-list simple">
+<dt class="field-odd">Author</dt>
+<dd class="field-odd"><p>David Goodger</p>
+</dd>
+<dt class="field-even">Contact</dt>
+<dd class="field-even"><p><a class="reference external" href="mailto:docutils-develop&#37;&#52;&#48;lists&#46;sourceforge&#46;net">docutils-develop<span>&#64;</span>lists<span>&#46;</span>sourceforge<span>&#46;</span>net</a></p>
+</dd>
+<dt class="field-odd">Revision</dt>
+<dd class="field-odd"><p>$Revision: 8610 $</p>
+</dd>
+<dt class="field-even">Date</dt>
+<dd class="field-even"><p>$Date: 2021-01-27 00:39:13 +0100 (Mi, 27. JÃ¤n 2021) $</p>
+</dd>
+<dt class="field-odd">Copyright</dt>
+<dd class="field-odd"><p>This document has been placed in the public domain.</p>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This page was Retrieved and copied March 25 2021
+<a class="reference external" href="https://docutils.sourceforge.io/docs/ref/rst/directives.html">https://docutils.sourceforge.io/docs/ref/rst/directives.html</a></p>
+</div>
+<div class="contents topic" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#docutils-restructuredtext-directives-this-is-the-official-definition-this-is-the-true-resource" id="id35">docutils reStructuredText Directives - This is the official definition - This is the true resource</a></p>
+<ul>
+<li><p><a class="reference internal" href="#admonitions" id="id36">Admonitions</a></p></li>
+<li><p><a class="reference internal" href="#images" id="id37">Images</a></p></li>
+<li><p><a class="reference internal" href="#body-elements" id="id38">Body Elements</a></p></li>
+<li><p><a class="reference internal" href="#tables" id="id39">Tables</a></p></li>
+<li><p><a class="reference internal" href="#document-parts" id="id40">Document Parts</a></p></li>
+<li><p><a class="reference internal" href="#references" id="id41">References</a></p></li>
+<li><p><a class="reference internal" href="#html-specific" id="id42">HTML-Specific</a></p></li>
+<li><p><a class="reference internal" href="#directives-for-substitution-definitions" id="id43">Directives for Substitution Definitions</a></p></li>
+<li><p><a class="reference internal" href="#miscellaneous" id="id44">Miscellaneous</a></p></li>
+<li><p><a class="reference internal" href="#common-options" id="id45">Common Options</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<p>This document describes the directives implemented in the reference
+reStructuredText parser.</p>
+<p>Directives have the following syntax:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">+-------+-------------------------------+</span>
+<span class="o">|</span> <span class="s2">&quot;.. &quot;</span> <span class="o">|</span> <span class="n">directive</span> <span class="nb">type</span> <span class="s2">&quot;::&quot;</span> <span class="n">directive</span> <span class="o">|</span>
+<span class="o">+-------+</span> <span class="n">block</span>                         <span class="o">|</span>
+        <span class="o">|</span>                               <span class="o">|</span>
+        <span class="o">+-------------------------------+</span>
+</pre></div>
+</div>
+<p>Directives begin with an explicit markup start (two periods and a
+space), followed by the directive type and two colons (collectively,
+the “directive marker”).  The directive block begins immediately after
+the directive marker, and includes all subsequent indented lines.  The
+directive block is divided into arguments, options (a field list), and
+content (in that order), any of which may appear.  See the <a class="reference external" href="restructuredtext.html#directives">Directives</a>
+section in the <a class="reference external" href="restructuredtext.html">reStructuredText Markup Specification</a> for syntax
+details.</p>
+<p>Descriptions below list “doctree elements” (document tree element
+names; XML DTD generic identifiers) corresponding to individual
+directives.  For details on the hierarchy of elements, please see <a class="reference external" href="../doctree.html">The
+Docutils Document Tree</a> and the <a class="reference external" href="../docutils.dtd">Docutils Generic DTD</a> XML document
+type definition.  For directive implementation details, see <a class="reference external" href="../../howto/rst-directives.html">Creating
+reStructuredText Directives</a>.</p>
+<section id="admonitions">
+<h2><a class="toc-backref" href="#id36">Admonitions</a><a class="headerlink" href="#admonitions" title="Permalink to this headline">¶</a></h2>
+<div class="admonition-from-webster-s-revised-unabridged-dictionary-1913-web1913-admonition-gentle-or-friendly-reproof-counseling-against-a-fault-or-error-expression-of-authoritative-advice-friendly-caution-or-warning admonition">
+<p class="admonition-title">From Webster’s Revised Unabridged Dictionary (1913) [web1913]:
+Admonition
+   Gentle or friendly reproof; counseling against a fault or
+   error; expression of authoritative advice; friendly caution
+   or warning.</p>
+<blockquote>
+<div><p>Syn: {Admonition}, {Reprehension}, {Reproof}.</p>
+<dl class="simple">
+<dt>Usage: Admonition is prospective, and relates to moral delinquencies;</dt><dd><p>its object is to prevent further transgression.</p>
+</dd>
+</dl>
+</div></blockquote>
+</div>
+<section id="specific-admonitions">
+<span id="warning"></span><span id="tip"></span><span id="note"></span><span id="important"></span><span id="hint"></span><span id="error"></span><span id="danger"></span><span id="caution"></span><span id="attention"></span><h3>Specific Admonitions<a class="headerlink" href="#specific-admonitions" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-default notranslate"><div class="highlight"><pre><style type="text/css">
+span.prompt1:before {
+  content: " ";
+}
+</style><span class="prompt1">:Directive Types: &quot;attention&quot;, &quot;caution&quot;, &quot;danger&quot;, &quot;error&quot;, &quot;hint&quot;,</span>
+<span class="prompt1">                &quot;important&quot;, &quot;note&quot;, &quot;tip&quot;, &quot;warning&quot;, &quot;admonition&quot;</span>
+<span class="prompt1">:Doctree Elements: attention, caution, danger, error, hint, important,</span>
+<span class="prompt1">                note, tip, warning, admonition_, title</span>
+<span class="prompt1">:Directive Arguments: None.</span>
+<span class="prompt1">:Directive Options: `:class:`_, `:name:`_</span>
+<span class="prompt1">:Directive Content: Interpreted as body elements.</span>
+</pre></div></div><p>Admonitions are specially marked “topics” that can appear anywhere an
+ordinary body element can.  They contain arbitrary body elements.
+Typically, an admonition is rendered as an offset block in a document,
+sometimes outlined or shaded, with a title matching the admonition
+type.  For example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>.. DANGER::
+   Beware killer rabbits!
+</pre></div>
+</div>
+<p>This directive might be rendered something like this:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>+------------------------+
+|        !DANGER!        |
+|                        |
+| Beware killer rabbits! |
++------------------------+
+</pre></div>
+</div>
+<p>The following admonition directives have been implemented:</p>
+<ul class="simple">
+<li><p>attention</p></li>
+<li><p>caution</p></li>
+<li><p>danger</p></li>
+<li><p>error</p></li>
+<li><p>hint</p></li>
+<li><p>important</p></li>
+<li><p>note</p></li>
+<li><p>tip</p></li>
+<li><p>warning</p></li>
+</ul>
+<p>Any text immediately following the directive indicator (on the same
+line and/or indented on following lines) is interpreted as a directive
+block and is parsed for normal body elements.  For example, the
+following “note” admonition directive contains one paragraph and a
+bullet list consisting of two list items:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">note</span><span class="p">::</span> <span class="n">This</span> <span class="ow">is</span> <span class="n">a</span> <span class="n">note</span> <span class="n">admonition</span><span class="o">.</span>
+   <span class="n">This</span> <span class="ow">is</span> <span class="n">the</span> <span class="n">second</span> <span class="n">line</span> <span class="n">of</span> <span class="n">the</span> <span class="n">first</span> <span class="n">paragraph</span><span class="o">.</span>
+
+   <span class="o">-</span> <span class="n">The</span> <span class="n">note</span> <span class="n">contains</span> <span class="nb">all</span> <span class="n">indented</span> <span class="n">body</span> <span class="n">elements</span>
+     <span class="n">following</span><span class="o">.</span>
+   <span class="o">-</span> <span class="n">It</span> <span class="n">includes</span> <span class="n">this</span> <span class="n">bullet</span> <span class="nb">list</span><span class="o">.</span>
+</pre></div>
+</div>
+</section>
+<section id="generic-admonition">
+<h3>Generic Admonition<a class="headerlink" href="#generic-admonition" title="Permalink to this headline">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">Directive Type</dt>
+<dd class="field-odd"><p>“admonition”</p>
+</dd>
+<dt class="field-even">Doctree Elements</dt>
+<dd class="field-even"><p><a class="reference external" href="../doctree.html#admonition">admonition</a>, title</p>
+</dd>
+<dt class="field-odd">Directive Arguments</dt>
+<dd class="field-odd"><p>One, required (admonition title)</p>
+</dd>
+<dt class="field-even">Directive Options</dt>
+<dd class="field-even"><p>Possible, see below.</p>
+</dd>
+<dt class="field-odd">Directive Content</dt>
+<dd class="field-odd"><p>Interpreted as body elements.</p>
+</dd>
+</dl>
+<p>This is a generic, titled admonition.  The title may be anything the
+author desires.</p>
+<p>The author-supplied title is also used as a <a class="reference external" href="../doctree.html#classes">“classes”</a> attribute value
+after being converted into a valid identifier form (down-cased;
+non-alphanumeric characters converted to single hyphens; “admonition-”
+prefixed).  For example, this admonition:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">admonition</span><span class="p">::</span> <span class="n">And</span><span class="p">,</span> <span class="n">by</span> <span class="n">the</span> <span class="n">way</span><span class="o">...</span>
+
+   <span class="n">You</span> <span class="n">can</span> <span class="n">make</span> <span class="n">up</span> <span class="n">your</span> <span class="n">own</span> <span class="n">admonition</span> <span class="n">too</span><span class="o">.</span>
+</pre></div>
+</div>
+<p>becomes the following document tree (pseudo-XML):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">document</span> <span class="n">source</span><span class="o">=</span><span class="s2">&quot;test data&quot;</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="n">admonition</span> <span class="n">classes</span><span class="o">=</span><span class="s2">&quot;admonition-and-by-the-way&quot;</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="n">title</span><span class="o">&gt;</span>
+            <span class="n">And</span><span class="p">,</span> <span class="n">by</span> <span class="n">the</span> <span class="n">way</span><span class="o">...</span>
+        <span class="o">&lt;</span><span class="n">paragraph</span><span class="o">&gt;</span>
+            <span class="n">You</span> <span class="n">can</span> <span class="n">make</span> <span class="n">up</span> <span class="n">your</span> <span class="n">own</span> <span class="n">admonition</span> <span class="n">too</span><span class="o">.</span>
+</pre></div>
+</div>
+<p>The <a class="reference internal" href="#common-options">common options</a> are recognized:</p>
+<dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">class</span></code><span class="classifier">text</span></dt><dd><p>Overrides the computed <a class="reference external" href="../doctree.html#classes">“classes”</a> attribute value.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">name</span></code><span class="classifier">text</span></dt><dd><p>Add <code class="xref py py-obj docutils literal notranslate"><span class="pre">text</span></code> to the <a class="reference external" href="../doctree.html#names">“names”</a> attribute of the admonition element.</p>
+</dd>
+</dl>
+</section>
+</section>
+<section id="images">
+<h2><a class="toc-backref" href="#id37">Images</a><a class="headerlink" href="#images" title="Permalink to this headline">¶</a></h2>
+<p>There are two image directives: “image” and “figure”.</p>
+<section id="image">
+<h3>Image<a class="headerlink" href="#image" title="Permalink to this headline">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">Directive Type</dt>
+<dd class="field-odd"><p>“image”</p>
+</dd>
+<dt class="field-even">Doctree Element</dt>
+<dd class="field-even"><p><a class="reference external" href="../doctree.html#image">image</a></p>
+</dd>
+<dt class="field-odd">Directive Arguments</dt>
+<dd class="field-odd"><p>One, required (image URI).</p>
+</dd>
+<dt class="field-even">Directive Options</dt>
+<dd class="field-even"><p>Possible.</p>
+</dd>
+<dt class="field-odd">Directive Content</dt>
+<dd class="field-odd"><p>None.</p>
+</dd>
+</dl>
+<p>An “image” is a simple picture:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">image</span><span class="p">::</span> <span class="n">picture</span><span class="o">.</span><span class="n">png</span>
+</pre></div>
+</div>
+<p>Inline images can be defined with an “image” directive in a <a class="reference external" href="restructuredtext.html#substitution-definitions">substitution
+definition</a></p>
+<p>The URI for the image source file is specified in the directive
+argument.  As with hyperlink targets, the image URI may begin on the
+same line as the explicit markup start and target name, or it may
+begin in an indented text block immediately following, with no
+intervening blank lines.  If there are multiple lines in the link
+block, they are stripped of leading and trailing whitespace and joined
+together.</p>
+<p>Optionally, the image link block may contain a flat field list, the
+<span class="target" id="image-options">image options</span>.  For example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">image</span><span class="p">::</span> <span class="n">picture</span><span class="o">.</span><span class="n">jpeg</span>
+   <span class="p">:</span><span class="n">height</span><span class="p">:</span> <span class="mi">100</span><span class="n">px</span>
+   <span class="p">:</span><span class="n">width</span><span class="p">:</span> <span class="mi">200</span> <span class="n">px</span>
+   <span class="p">:</span><span class="n">scale</span><span class="p">:</span> <span class="mi">50</span> <span class="o">%</span>
+   <span class="p">:</span><span class="n">alt</span><span class="p">:</span> <span class="n">alternate</span> <span class="n">text</span>
+   <span class="p">:</span><span class="n">align</span><span class="p">:</span> <span class="n">right</span>
+</pre></div>
+</div>
+<p>The following options are recognized:</p>
+<dl>
+<dt><code class="docutils literal notranslate"><span class="pre">alt</span></code><span class="classifier">text</span></dt><dd><p>Alternate text: a short description of the image, displayed by
+applications that cannot display images, or spoken by applications
+for visually impaired users.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">height</span></code><span class="classifier"><a class="reference external" href="restructuredtext.html#length-units">length</a></span></dt><dd><p>The desired height of the image.
+Used to reserve space or scale the image vertically.  When the “scale”
+option is also specified, they are combined.  For example, a height of
+200px and a scale of 50 is equivalent to a height of 100px with no scale.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">width</span></code><span class="classifier"><a class="reference external" href="restructuredtext.html#length-units">length</a> or <a class="reference external" href="restructuredtext.html#percentage-units">percentage</a> of the current line width</span></dt><dd><p>The width of the image.
+Used to reserve space or scale the image horizontally.  As with “height”
+above, when the “scale” option is also specified, they are combined.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">scale</span></code><span class="classifier">integer percentage (the “%” symbol is optional)</span></dt><dd><p>The uniform scaling factor of the image.  The default is “100Â %”, i.e.
+no scaling.</p>
+<p>If no “height” or “width” options are specified, the <a class="reference external" href="https://en.wikipedia.org/wiki/Python_Imaging_Library">Python
+Imaging Library</a> (PIL/<a class="reference external" href="https://pypi.org/project/Pillow/">Pillow</a>) may be used to determine them, if
+it is installed and the image file is available.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">align</span></code><span class="classifier">“top”, “middle”, “bottom”, “left”, “center”, or “right”</span></dt><dd><p>The alignment of the image, equivalent to the HTML <code class="docutils literal notranslate"><span class="pre">&lt;img&gt;</span></code> tag’s
+deprecated “align” attribute or the corresponding “vertical-align” and
+“text-align” CSS properties.
+The values “top”, “middle”, and “bottom”
+control an image’s vertical alignment (relative to the text
+baseline); they are only useful for inline images (substitutions).
+The values “left”, “center”, and “right” control an image’s
+horizontal alignment, allowing the image to float and have the
+text flow around it.  The specific behavior depends upon the
+browser or rendering software used.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">target</span></code><span class="classifier">text (URI or reference name)</span></dt><dd><p>Makes the image into a hyperlink reference (“clickable”).  The
+option argument may be a URI (relative or absolute), or a
+<a class="reference external" href="restructuredtext.html#reference-names">reference name</a> with underscore suffix (e.g. <code class="docutils literal notranslate"><span class="pre">`a</span> <span class="pre">name`_</span></code>).</p>
+</dd>
+</dl>
+<p>and the common options <a class="reference internal" href="#id24">:class:</a> and <a class="reference internal" href="#name">:name:</a>.</p>
+</section>
+<section id="figure">
+<h3>Figure<a class="headerlink" href="#figure" title="Permalink to this headline">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">Directive Type</dt>
+<dd class="field-odd"><p>“figure”</p>
+</dd>
+<dt class="field-even">Doctree Elements</dt>
+<dd class="field-even"><p><a class="reference external" href="../doctree.html#figure">figure</a>, <a class="reference external" href="../doctree.html#image">image</a>, <a class="reference external" href="../doctree.html#caption">caption</a>, <a class="reference external" href="../doctree.html#legend">legend</a></p>
+</dd>
+<dt class="field-odd">Directive Arguments</dt>
+<dd class="field-odd"><p>One, required (image URI).</p>
+</dd>
+<dt class="field-even">Directive Options</dt>
+<dd class="field-even"><p>Possible.</p>
+</dd>
+<dt class="field-odd">Directive Content</dt>
+<dd class="field-odd"><p>Interpreted as the figure caption and an optional
+legend.</p>
+</dd>
+</dl>
+<p>A “figure” consists of <a class="reference external" href="../doctree.html#image">image</a> data (including <a class="reference internal" href="#image-options">image options</a>), an optional
+caption (a single paragraph), and an optional legend (arbitrary body
+elements). For page-based output media, figures might float to a different
+position if this helps the page layout.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">figure</span><span class="p">::</span> <span class="n">picture</span><span class="o">.</span><span class="n">png</span>
+   <span class="p">:</span><span class="n">scale</span><span class="p">:</span> <span class="mi">50</span> <span class="o">%</span>
+   <span class="p">:</span><span class="n">alt</span><span class="p">:</span> <span class="nb">map</span> <span class="n">to</span> <span class="n">buried</span> <span class="n">treasure</span>
+
+   <span class="n">This</span> <span class="ow">is</span> <span class="n">the</span> <span class="n">caption</span> <span class="n">of</span> <span class="n">the</span> <span class="n">figure</span> <span class="p">(</span><span class="n">a</span> <span class="n">simple</span> <span class="n">paragraph</span><span class="p">)</span><span class="o">.</span>
+
+   <span class="n">The</span> <span class="n">legend</span> <span class="n">consists</span> <span class="n">of</span> <span class="nb">all</span> <span class="n">elements</span> <span class="n">after</span> <span class="n">the</span> <span class="n">caption</span><span class="o">.</span>  <span class="n">In</span> <span class="n">this</span>
+   <span class="n">case</span><span class="p">,</span> <span class="n">the</span> <span class="n">legend</span> <span class="n">consists</span> <span class="n">of</span> <span class="n">this</span> <span class="n">paragraph</span> <span class="ow">and</span> <span class="n">the</span> <span class="n">following</span>
+   <span class="n">table</span><span class="p">:</span>
+
+   <span class="o">+-----------------------+-----------------------+</span>
+   <span class="o">|</span> <span class="n">Symbol</span>                <span class="o">|</span> <span class="n">Meaning</span>               <span class="o">|</span>
+   <span class="o">+=======================+=======================+</span>
+   <span class="o">|</span> <span class="o">..</span> <span class="n">image</span><span class="p">::</span> <span class="n">tent</span><span class="o">.</span><span class="n">png</span>   <span class="o">|</span> <span class="n">Campground</span>            <span class="o">|</span>
+   <span class="o">+-----------------------+-----------------------+</span>
+   <span class="o">|</span> <span class="o">..</span> <span class="n">image</span><span class="p">::</span> <span class="n">waves</span><span class="o">.</span><span class="n">png</span>  <span class="o">|</span> <span class="n">Lake</span>                  <span class="o">|</span>
+   <span class="o">+-----------------------+-----------------------+</span>
+   <span class="o">|</span> <span class="o">..</span> <span class="n">image</span><span class="p">::</span> <span class="n">peak</span><span class="o">.</span><span class="n">png</span>   <span class="o">|</span> <span class="n">Mountain</span>              <span class="o">|</span>
+   <span class="o">+-----------------------+-----------------------+</span>
+</pre></div>
+</div>
+<p>There must be blank lines before the caption paragraph and before the
+legend.  To specify a legend without a caption, use an empty comment
+(“..”) in place of the caption.</p>
+<p>The “figure” directive supports all of the options of the “image”
+directive (see <a class="reference internal" href="#image-options">image options</a> above). These options (except
+“align”) are passed on to the contained image.</p>
+<dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">align</span></code><span class="classifier">“left”, “center”, or “right”</span></dt><dd><p>The horizontal alignment of the figure, allowing the image to
+float and have the text flow around it.  The specific behavior
+depends upon the browser or rendering software used.</p>
+</dd>
+</dl>
+<p>In addition, the following options are recognized:</p>
+<dl>
+<dt><code class="docutils literal notranslate"><span class="pre">figwidth</span></code><span class="classifier">“image”, <a class="reference external" href="restructuredtext.html#length-units">length</a>, or <a class="reference external" href="restructuredtext.html#percentage-units">percentage</a> of current line width</span></dt><dd><p>The width of the figure.
+Limits the horizontal space used by the figure.
+A special value of “image” is allowed, in which case the
+included image’s actual width is used (requires the <a class="reference external" href="https://en.wikipedia.org/wiki/Python_Imaging_Library">Python Imaging
+Library</a>). If the image file is not found or the required software is
+unavailable, this option is ignored.</p>
+<p>Sets the “width” attribute of the “figure” doctree element.</p>
+<p>This option does not scale the included image; use the “width”
+<a class="reference external" href="../doctree.html#image">image</a> option for that.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">+---------------------------+</span>
+<span class="o">|</span>        <span class="n">figure</span>             <span class="o">|</span>
+<span class="o">|</span>                           <span class="o">|</span>
+<span class="o">|&lt;------</span> <span class="n">figwidth</span> <span class="o">---------&gt;|</span>
+<span class="o">|</span>                           <span class="o">|</span>
+<span class="o">|</span>  <span class="o">+---------------------+</span>  <span class="o">|</span>
+<span class="o">|</span>  <span class="o">|</span>     <span class="n">image</span>           <span class="o">|</span>  <span class="o">|</span>
+<span class="o">|</span>  <span class="o">|</span>                     <span class="o">|</span>  <span class="o">|</span>
+<span class="o">|</span>  <span class="o">|&lt;---</span> <span class="n">width</span> <span class="o">---------&gt;|</span>  <span class="o">|</span>
+<span class="o">|</span>  <span class="o">+---------------------+</span>  <span class="o">|</span>
+<span class="o">|</span>                           <span class="o">|</span>
+<span class="o">|</span><span class="n">The</span> <span class="n">figure</span><span class="s1">&#39;s caption should|</span>
+<span class="o">|</span><span class="n">wrap</span> <span class="n">at</span> <span class="n">this</span> <span class="n">width</span><span class="o">.</span>        <span class="o">|</span>
+<span class="o">+---------------------------+</span>
+</pre></div>
+</div>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">figclass</span></code><span class="classifier">text</span></dt><dd><p>Set a <a class="reference external" href="../doctree.html#classes">“classes”</a> attribute value on the figure element.  See the
+<a class="reference internal" href="#class">class</a> directive below.</p>
+</dd>
+</dl>
+</section>
+</section>
+<section id="body-elements">
+<h2><a class="toc-backref" href="#id38">Body Elements</a><a class="headerlink" href="#body-elements" title="Permalink to this headline">¶</a></h2>
+<section id="topic">
+<h3>Topic<a class="headerlink" href="#topic" title="Permalink to this headline">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">Directive Type</dt>
+<dd class="field-odd"><p>“topic”</p>
+</dd>
+<dt class="field-even">Doctree Element</dt>
+<dd class="field-even"><p><a class="reference external" href="../doctree.html#topic">topic</a></p>
+</dd>
+<dt class="field-odd">Directive Arguments</dt>
+<dd class="field-odd"><p>One, required (topic title).</p>
+</dd>
+<dt class="field-even">Directive Options</dt>
+<dd class="field-even"><p><a class="reference internal" href="#id24">:class:</a>, <a class="reference internal" href="#name">:name:</a></p>
+</dd>
+<dt class="field-odd">Directive Content</dt>
+<dd class="field-odd"><p>Interpreted as the topic body.</p>
+</dd>
+</dl>
+<p>A topic is like a block quote with a title, or a self-contained
+section with no subsections.  Use the “topic” directive to indicate a
+self-contained idea that is separate from the flow of the document.
+Topics may occur anywhere a section or transition may occur.  Body
+elements and topics may not contain nested topics.</p>
+<p>The directive’s sole argument is interpreted as the topic title; the
+next line must be blank.  All subsequent lines make up the topic body,
+interpreted as body elements.  For example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">topic</span><span class="p">::</span> <span class="n">Topic</span> <span class="n">Title</span>
+
+    <span class="n">Subsequent</span> <span class="n">indented</span> <span class="n">lines</span> <span class="n">comprise</span>
+    <span class="n">the</span> <span class="n">body</span> <span class="n">of</span> <span class="n">the</span> <span class="n">topic</span><span class="p">,</span> <span class="ow">and</span> <span class="n">are</span>
+    <span class="n">interpreted</span> <span class="k">as</span> <span class="n">body</span> <span class="n">elements</span><span class="o">.</span>
+</pre></div>
+</div>
+</section>
+<section id="sidebar">
+<h3>Sidebar<a class="headerlink" href="#sidebar" title="Permalink to this headline">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">Directive Type</dt>
+<dd class="field-odd"><p>“sidebar”</p>
+</dd>
+<dt class="field-even">Doctree Element</dt>
+<dd class="field-even"><p><a class="reference external" href="../doctree.html#sidebar">sidebar</a></p>
+</dd>
+<dt class="field-odd">Directive Arguments</dt>
+<dd class="field-odd"><p>One, optional (sidebar title).</p>
+</dd>
+<dt class="field-even">Directive Options</dt>
+<dd class="field-even"><p>Possible (see below).</p>
+</dd>
+<dt class="field-odd">Directive Content</dt>
+<dd class="field-odd"><p>Interpreted as the sidebar body.</p>
+</dd>
+</dl>
+<p>Sidebars are like miniature, parallel documents that occur inside
+other documents, providing related or reference material.  A sidebar
+is typically offset by a border and “floats” to the side of the page;
+the document’s main text may flow around it.  Sidebars can also be
+likened to super-footnotes; their content is outside of the flow of
+the document’s main text.</p>
+<p>Sidebars may occur anywhere a section or transition may occur.  Body
+elements (including sidebars) may not contain nested sidebars.</p>
+<p>The directive’s sole argument is interpreted as the sidebar title,
+which may be followed by a subtitle option (see below); the next line
+must be blank.  All subsequent lines make up the sidebar body,
+interpreted as body elements.  For example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">sidebar</span><span class="p">::</span> <span class="n">Optional</span> <span class="n">Sidebar</span> <span class="n">Title</span>
+   <span class="p">:</span><span class="n">subtitle</span><span class="p">:</span> <span class="n">Optional</span> <span class="n">Sidebar</span> <span class="n">Subtitle</span>
+
+   <span class="n">Subsequent</span> <span class="n">indented</span> <span class="n">lines</span> <span class="n">comprise</span>
+   <span class="n">the</span> <span class="n">body</span> <span class="n">of</span> <span class="n">the</span> <span class="n">sidebar</span><span class="p">,</span> <span class="ow">and</span> <span class="n">are</span>
+   <span class="n">interpreted</span> <span class="k">as</span> <span class="n">body</span> <span class="n">elements</span><span class="o">.</span>
+</pre></div>
+</div>
+<p>The following options are recognized:</p>
+<dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">subtitle</span></code><span class="classifier">text</span></dt><dd><p>The sidebar’s subtitle.</p>
+</dd>
+</dl>
+<p>and the common options <a class="reference internal" href="#id24">:class:</a> and <a class="reference internal" href="#name">:name:</a>.</p>
+</section>
+<section id="line-block">
+<h3>Line Block<a class="headerlink" href="#line-block" title="Permalink to this headline">¶</a></h3>
+<div class="admonition-deprecated admonition">
+<p class="admonition-title">Deprecated</p>
+<p>The “line-block” directive is deprecated.  Use the <a class="reference external" href="restructuredtext.html#line-blocks">line block
+syntax</a> instead.</p>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Directive Type</dt>
+<dd class="field-odd"><p>“line-block”</p>
+</dd>
+<dt class="field-even">Doctree Element</dt>
+<dd class="field-even"><p><a class="reference external" href="../doctree.html#line-block">line_block</a></p>
+</dd>
+<dt class="field-odd">Directive Arguments</dt>
+<dd class="field-odd"><p>None.</p>
+</dd>
+<dt class="field-even">Directive Options</dt>
+<dd class="field-even"><p><a class="reference internal" href="#id24">:class:</a>, <a class="reference internal" href="#name">:name:</a></p>
+</dd>
+<dt class="field-odd">Directive Content</dt>
+<dd class="field-odd"><p>Becomes the body of the line block.</p>
+</dd>
+</dl>
+<p>The “line-block” directive constructs an element where line breaks and
+initial indentation is significant and inline markup is supported.  It
+is equivalent to a <a class="reference internal" href="#parsed-literal-block">parsed literal block</a> with different rendering:
+typically in an ordinary serif typeface instead of a
+typewriter/monospaced face, and not automatically indented.  (Have the
+line-block directive begin a block quote to get an indented line
+block.)  Line blocks are useful for address blocks and verse (poetry,
+song lyrics), where the structure of lines is significant.  For
+example, here’s a classic:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;To Ma Own Beloved Lassie: A Poem on her 17th Birthday&quot;</span><span class="p">,</span> <span class="n">by</span>
+<span class="n">Ewan</span> <span class="n">McTeagle</span> <span class="p">(</span><span class="k">for</span> <span class="n">Lassie</span> <span class="n">O</span><span class="s1">&#39;Shea):</span>
+
+    <span class="o">..</span> <span class="n">line</span><span class="o">-</span><span class="n">block</span><span class="p">::</span>
+
+        <span class="n">Lend</span> <span class="n">us</span> <span class="n">a</span> <span class="n">couple</span> <span class="n">of</span> <span class="n">bob</span> <span class="n">till</span> <span class="n">Thursday</span><span class="o">.</span>
+        <span class="n">I</span><span class="s1">&#39;m absolutely skint.</span>
+        <span class="n">But</span> <span class="n">I</span><span class="s1">&#39;m expecting a postal order and I can pay you back</span>
+            <span class="k">as</span> <span class="n">soon</span> <span class="k">as</span> <span class="n">it</span> <span class="n">comes</span><span class="o">.</span>
+        <span class="n">Love</span><span class="p">,</span> <span class="n">Ewan</span><span class="o">.</span>
+</pre></div>
+</div>
+</section>
+<section id="parsed-literal-block">
+<span id="parsed-literal"></span><h3>Parsed Literal Block<a class="headerlink" href="#parsed-literal-block" title="Permalink to this headline">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">Directive Type</dt>
+<dd class="field-odd"><p>“parsed-literal”</p>
+</dd>
+<dt class="field-even">Doctree Element</dt>
+<dd class="field-even"><p><a class="reference external" href="../doctree.html#literal-block">literal_block</a></p>
+</dd>
+<dt class="field-odd">Directive Arguments</dt>
+<dd class="field-odd"><p>None.</p>
+</dd>
+<dt class="field-even">Directive Options</dt>
+<dd class="field-even"><p><a class="reference internal" href="#id24">:class:</a>, <a class="reference internal" href="#name">:name:</a></p>
+</dd>
+<dt class="field-odd">Directive Content</dt>
+<dd class="field-odd"><p>Becomes the body of the literal block.</p>
+</dd>
+</dl>
+<p>Unlike an ordinary literal block, the “parsed-literal” directive
+constructs a literal block where the text is parsed for inline markup.
+It is equivalent to a <a class="reference internal" href="#line-block">line block</a> with different rendering:
+typically in a typewriter/monospaced typeface, like an ordinary
+literal block.  Parsed literal blocks are useful for adding hyperlinks
+to code examples.</p>
+<p>However, care must be taken with the text, because inline markup is
+recognized and there is no protection from parsing.  Backslash-escapes
+may be necessary to prevent unintended parsing.  And because the
+markup characters are removed by the parser, care must also be taken
+with vertical alignment.  Parsed “ASCII art” is tricky, and extra
+whitespace may be necessary.</p>
+<p>For example, all the element names in this content model are links:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>.. parsed-literal::
+
+   ( (title_, subtitle_?)?,
+     decoration_?,
+     (docinfo_, transition_?)?,
+     `%structure.model;`_ )
+</pre></div>
+</div>
+</section>
+<section id="code">
+<h3>Code<a class="headerlink" href="#code" title="Permalink to this headline">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">Directive Type</dt>
+<dd class="field-odd"><p>“code”</p>
+</dd>
+<dt class="field-even">Doctree Element</dt>
+<dd class="field-even"><p><a class="reference external" href="../doctree.html#literal-block">literal_block</a>, <a class="reference external" href="../doctree.html#inline-elements">inline elements</a></p>
+</dd>
+<dt class="field-odd">Directive Arguments</dt>
+<dd class="field-odd"><p>One, optional (formal language).</p>
+</dd>
+<dt class="field-even">Directive Options</dt>
+<dd class="field-even"><p>name, class, number-lines.</p>
+</dd>
+<dt class="field-odd">Directive Content</dt>
+<dd class="field-odd"><p>Becomes the body of the literal block.</p>
+</dd>
+<dt class="field-even">Configuration Setting</dt>
+<dd class="field-even"><p><a class="reference external" href="../../user/config.html#syntax-highlight">syntax_highlight</a>.</p>
+</dd>
+</dl>
+<p>(New in Docutils 0.9)</p>
+<p>The “code” directive constructs a literal block. If the code language is
+specified, the content is parsed by the <a class="reference external" href="http://pygments.org/">Pygments</a> syntax highlighter and
+tokens are stored in nested <a class="reference external" href="../doctree.html#inline-elements">inline elements</a> with class arguments
+according to their syntactic category. The actual highlighting requires
+a style-sheet (e.g. one <a class="reference external" href="http://pygments.org/docs/cmdline/#generating-styles">generated by Pygments</a>, see the
+<a class="reference external" href="http://docutils.sourceforge.net/sandbox/stylesheets/">sandbox/stylesheets</a> for examples).</p>
+<p>The parsing can be turned off with the <a class="reference external" href="../../user/config.html#syntax-highlight">syntax_highlight</a> configuration
+setting and command line option or by specifying the language as <a class="reference internal" href="#id24">:class:</a>
+option instead of directive argument. This also avoids warnings
+when <a class="reference external" href="http://pygments.org/">Pygments</a> is not installed or the language is not in the
+<a class="reference external" href="http://pygments.org/languages/">supported languages and markup formats</a>.</p>
+<p>For inline code, use the <a class="reference external" href="roles.html#code">“code” role</a>.</p>
+<p>The following options are recognized:</p>
+<dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">number-lines</span></code><span class="classifier">[start line number]</span></dt><dd><p>Precede every line with a line number.
+The optional argument is the number of the first line (defaut 1).</p>
+</dd>
+</dl>
+<p>and the common options <a class="reference internal" href="#id24">:class:</a> and <a class="reference internal" href="#name">:name:</a>.</p>
+<dl>
+<dt>Example::</dt><dd><p>The content of the following directive</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">code</span><span class="p">::</span> <span class="n">python</span>
+
+  <span class="k">def</span> <span class="nf">my_function</span><span class="p">():</span>
+      <span class="s2">&quot;just a test&quot;</span>
+      <span class="nb">print</span> <span class="mi">8</span><span class="o">/</span><span class="mi">2</span>
+</pre></div>
+</div>
+<p>is parsed and marked up as Python source code.</p>
+</dd>
+</dl>
+</section>
+<section id="math">
+<h3>Math<a class="headerlink" href="#math" title="Permalink to this headline">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">Directive Type</dt>
+<dd class="field-odd"><p>“math”</p>
+</dd>
+<dt class="field-even">Doctree Element</dt>
+<dd class="field-even"><p><a class="reference external" href="../doctree.html#math-block">math_block</a></p>
+</dd>
+<dt class="field-odd">Directive Arguments</dt>
+<dd class="field-odd"><p>None.</p>
+</dd>
+<dt class="field-even">Directive Options</dt>
+<dd class="field-even"><p><a class="reference internal" href="#id24">:class:</a>, <a class="reference internal" href="#name">:name:</a></p>
+</dd>
+<dt class="field-odd">Directive Content</dt>
+<dd class="field-odd"><p>Becomes the body of the math block.
+(Content blocks separated by a blank line are put in
+adjacent math blocks.)</p>
+</dd>
+<dt class="field-even">Configuration Setting</dt>
+<dd class="field-even"><p><a class="reference external" href="../../user/config.html#math-output">math_output</a></p>
+</dd>
+</dl>
+<p>(New in Docutils 0.8)</p>
+<p>The “math” directive inserts blocks with mathematical content
+(display formulas, equations) into the document. The input format is
+<em>LaTeX math syntax</em><a class="footnote-reference brackets" href="#math-syntax" id="id3">1</a> with support for Unicode
+symbols, for example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>.. math::
+
+  Î±_t(i) = P(O_1, O_2, â€¦ O_t, q_t = S_i Î»)
+</pre></div>
+</div>
+<p>Support is limited to a subset of <em>LaTeX math</em> by the conversion
+required for many output formats.  For HTML, the <a class="reference external" href="../../user/config.html#math-output">math_output</a>
+configuration setting (or the corresponding <code class="docutils literal notranslate"><span class="pre">--math-output</span></code>
+command line option) select between alternative output formats with
+different subsets of supported elements. If a writer does not
+support math typesetting at all, the content is inserted verbatim.</p>
+<dl class="footnote brackets">
+<dt class="label" id="math-syntax"><span class="brackets"><a class="fn-backref" href="#id3">1</a></span></dt>
+<dd><p>The supported LaTeX commands include AMS extensions
+(see, e.g., the <a class="reference external" href="http://tug.ctan.org/info/short-math-guide/short-math-guide.pdf">Short Math Guide</a>).</p>
+</dd>
+</dl>
+<p>For inline formulas, use the <a class="reference external" href="roles.html#math">“math” role</a>.</p>
+</section>
+<section id="rubric">
+<h3>Rubric<a class="headerlink" href="#rubric" title="Permalink to this headline">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">Directive Type</dt>
+<dd class="field-odd"><p>“rubric”</p>
+</dd>
+<dt class="field-even">Doctree Element</dt>
+<dd class="field-even"><p><a class="reference external" href="../doctree.html#rubric">rubric</a></p>
+</dd>
+<dt class="field-odd">Directive Arguments</dt>
+<dd class="field-odd"><p>One, required (rubric text).</p>
+</dd>
+<dt class="field-even">Directive Options</dt>
+<dd class="field-even"><p><a class="reference internal" href="#id24">:class:</a>, <a class="reference internal" href="#name">:name:</a></p>
+</dd>
+<dt class="field-odd">Directive Content</dt>
+<dd class="field-odd"><p>None.</p>
+</dd>
+</dl>
+<blockquote>
+<div><p>rubric n. 1. a title, heading, or the like, in a manuscript,
+book, statute, etc., written or printed in red or otherwise
+distinguished from the rest of the text. …</p>
+<p class="attribution">—Random House Webster’s College Dictionary, 1991</p>
+</div></blockquote>
+<p>The “rubric” directive inserts a “rubric” element into the document
+tree.  A rubric is like an informal heading that doesn’t correspond to
+the document’s structure.</p>
+</section>
+<section id="epigraph">
+<h3>Epigraph<a class="headerlink" href="#epigraph" title="Permalink to this headline">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">Directive Type</dt>
+<dd class="field-odd"><p>“epigraph”</p>
+</dd>
+<dt class="field-even">Doctree Element</dt>
+<dd class="field-even"><p><a class="reference external" href="../doctree.html#block-quote">block_quote</a></p>
+</dd>
+<dt class="field-odd">Directive Arguments</dt>
+<dd class="field-odd"><p>None.</p>
+</dd>
+<dt class="field-even">Directive Options</dt>
+<dd class="field-even"><p>None.</p>
+</dd>
+<dt class="field-odd">Directive Content</dt>
+<dd class="field-odd"><p>Interpreted as the body of the block quote.</p>
+</dd>
+</dl>
+<p>An epigraph is an apposite (suitable, apt, or pertinent) short
+inscription, often a quotation or poem, at the beginning of a document
+or section.</p>
+<p>The “epigraph” directive produces an “epigraph”-class block quote.
+For example, this input:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">epigraph</span><span class="p">::</span>
+
+   <span class="n">No</span> <span class="n">matter</span> <span class="n">where</span> <span class="n">you</span> <span class="n">go</span><span class="p">,</span> <span class="n">there</span> <span class="n">you</span> <span class="n">are</span><span class="o">.</span>
+
+   <span class="o">--</span> <span class="n">Buckaroo</span> <span class="n">Banzai</span>
+</pre></div>
+</div>
+<blockquote class="epigraph">
+<div><p>No matter where you go, there you are.</p>
+<p class="attribution">—Buckaroo Banzai</p>
+</div></blockquote>
+<p>becomes this document tree fragment:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">block_quote</span> <span class="n">classes</span><span class="o">=</span><span class="s2">&quot;epigraph&quot;</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="n">paragraph</span><span class="o">&gt;</span>
+        <span class="n">No</span> <span class="n">matter</span> <span class="n">where</span> <span class="n">you</span> <span class="n">go</span><span class="p">,</span> <span class="n">there</span> <span class="n">you</span> <span class="n">are</span><span class="o">.</span>
+    <span class="o">&lt;</span><span class="n">attribution</span><span class="o">&gt;</span>
+        <span class="n">Buckaroo</span> <span class="n">Banzai</span>
+</pre></div>
+</div>
+</section>
+<section id="highlights">
+<h3>Highlights<a class="headerlink" href="#highlights" title="Permalink to this headline">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">Directive Type</dt>
+<dd class="field-odd"><p>“highlights”</p>
+</dd>
+<dt class="field-even">Doctree Element</dt>
+<dd class="field-even"><p><a class="reference external" href="../doctree.html#block-quote">block_quote</a></p>
+</dd>
+<dt class="field-odd">Directive Arguments</dt>
+<dd class="field-odd"><p>None.</p>
+</dd>
+<dt class="field-even">Directive Options</dt>
+<dd class="field-even"><p>None.</p>
+</dd>
+<dt class="field-odd">Directive Content</dt>
+<dd class="field-odd"><p>Interpreted as the body of the block quote.</p>
+</dd>
+</dl>
+<p>Highlights summarize the main points of a document or section, often
+consisting of a list.</p>
+<p>The “highlights” directive produces a “highlights”-class block quote.
+See <a class="reference internal" href="#epigraph">Epigraph</a> above for an analogous example.</p>
+</section>
+<section id="pull-quote">
+<h3>Pull-Quote<a class="headerlink" href="#pull-quote" title="Permalink to this headline">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">Directive Type</dt>
+<dd class="field-odd"><p>“pull-quote”</p>
+</dd>
+<dt class="field-even">Doctree Element</dt>
+<dd class="field-even"><p><a class="reference external" href="../doctree.html#block-quote">block_quote</a></p>
+</dd>
+<dt class="field-odd">Directive Arguments</dt>
+<dd class="field-odd"><p>None.</p>
+</dd>
+<dt class="field-even">Directive Options</dt>
+<dd class="field-even"><p>None.</p>
+</dd>
+<dt class="field-odd">Directive Content</dt>
+<dd class="field-odd"><p>Interpreted as the body of the block quote.</p>
+</dd>
+</dl>
+<p>A pull-quote is a small selection of text “pulled out and quoted”,
+typically in a larger typeface.  Pull-quotes are used to attract
+attention, especially in long articles.</p>
+<p>The “pull-quote” directive produces a “pull-quote”-class block quote.
+See <a class="reference internal" href="#epigraph">Epigraph</a> above for an analogous example.</p>
+</section>
+<section id="compound-paragraph">
+<h3>Compound Paragraph<a class="headerlink" href="#compound-paragraph" title="Permalink to this headline">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">Directive Type</dt>
+<dd class="field-odd"><p>“compound”</p>
+</dd>
+<dt class="field-even">Doctree Element</dt>
+<dd class="field-even"><p><a class="reference external" href="../doctree.html#compound">compound</a></p>
+</dd>
+<dt class="field-odd">Directive Arguments</dt>
+<dd class="field-odd"><p>None.</p>
+</dd>
+<dt class="field-even">Directive Options</dt>
+<dd class="field-even"><p><a class="reference internal" href="#id24">:class:</a>, <a class="reference internal" href="#name">:name:</a></p>
+</dd>
+<dt class="field-odd">Directive Content</dt>
+<dd class="field-odd"><p>Interpreted as body elements.</p>
+</dd>
+</dl>
+<p>(New in Docutils 0.3.6)</p>
+<p>The “compound” directive is used to create a compound paragraph, which
+is a single logical paragraph containing multiple physical body
+elements such as simple paragraphs, literal blocks, tables, lists,
+etc., instead of directly containing text and inline elements.  For
+example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">compound</span><span class="p">::</span>
+
+   <span class="n">The</span> <span class="s1">&#39;rm&#39;</span> <span class="n">command</span> <span class="ow">is</span> <span class="n">very</span> <span class="n">dangerous</span><span class="o">.</span>  <span class="n">If</span> <span class="n">you</span> <span class="n">are</span> <span class="n">logged</span>
+   <span class="ow">in</span> <span class="k">as</span> <span class="n">root</span> <span class="ow">and</span> <span class="n">enter</span> <span class="p">::</span>
+
+       <span class="n">cd</span> <span class="o">/</span>
+       <span class="n">rm</span> <span class="o">-</span><span class="n">rf</span> <span class="o">*</span>
+
+   <span class="n">you</span> <span class="n">will</span> <span class="n">erase</span> <span class="n">the</span> <span class="n">entire</span> <span class="n">contents</span> <span class="n">of</span> <span class="n">your</span> <span class="n">file</span> <span class="n">system</span><span class="o">.</span>
+</pre></div>
+</div>
+<div class="compound">
+<p class="compound-first">The ‘rm’ command is very dangerous.  If you are logged
+in as root and enter</p>
+<div class="compound-middle highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">/</span>
+<span class="n">rm</span> <span class="o">-</span><span class="n">rf</span> <span class="o">*</span>
+</pre></div>
+</div>
+<p class="compound-last">you will erase the entire contents of your file system.</p>
+</div>
+<p>In the example above, a literal block is “embedded” within a sentence
+that begins in one physical paragraph and ends in another.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The “compound” directive is <em>not</em> a generic block-level container
+like HTML’s <code class="docutils literal notranslate"><span class="pre">&lt;div&gt;</span></code> element.  Do not use it only to group a
+sequence of elements, or you may get unexpected results.</p>
+<p>If you need a generic block-level container, please use the
+<a class="reference internal" href="#container">container</a> directive, described below.</p>
+</div>
+<p>Compound paragraphs are typically rendered as multiple distinct text
+blocks, with the possibility of variations to emphasize their logical
+unity:</p>
+<ul class="simple">
+<li><p>If paragraphs are rendered with a first-line indent, only the first
+physical paragraph of a compound paragraph should have that indent
+– second and further physical paragraphs should omit the indents;</p></li>
+<li><p>vertical spacing between physical elements may be reduced;</p></li>
+<li><p>and so on.</p></li>
+</ul>
+</section>
+<section id="container">
+<h3>Container<a class="headerlink" href="#container" title="Permalink to this headline">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">Directive Type</dt>
+<dd class="field-odd"><p>“container”</p>
+</dd>
+<dt class="field-even">Doctree Element</dt>
+<dd class="field-even"><p><a class="reference external" href="../doctree.html#container">container</a></p>
+</dd>
+<dt class="field-odd">Directive Arguments</dt>
+<dd class="field-odd"><p>One or more, optional (class names).</p>
+</dd>
+<dt class="field-even">Directive Options</dt>
+<dd class="field-even"><p><a class="reference internal" href="#name">:name:</a></p>
+</dd>
+<dt class="field-odd">Directive Content</dt>
+<dd class="field-odd"><p>Interpreted as body elements.</p>
+</dd>
+</dl>
+<p>(New in Docutils 0.3.10)</p>
+<p>The “container” directive surrounds its contents (arbitrary body
+elements) with a generic block-level “container” element.  Combined
+with the optional “<a class="reference internal" href="#classes">classes</a>” attribute argument(s), this is an
+extension mechanism for users &amp; applications.  For example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">container</span><span class="p">::</span> <span class="n">custom</span>
+
+   <span class="n">This</span> <span class="n">paragraph</span> <span class="n">might</span> <span class="n">be</span> <span class="n">rendered</span> <span class="ow">in</span> <span class="n">a</span> <span class="n">custom</span> <span class="n">way</span><span class="o">.</span>
+</pre></div>
+</div>
+<div class="custom docutils container">
+<p>This paragraph might be rendered in a custom way.</p>
+</div>
+<p>Parsing the above results in the following pseudo-XML:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">container</span> <span class="n">classes</span><span class="o">=</span><span class="s2">&quot;custom&quot;</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="n">paragraph</span><span class="o">&gt;</span>
+        <span class="n">This</span> <span class="n">paragraph</span> <span class="n">might</span> <span class="n">be</span> <span class="n">rendered</span> <span class="ow">in</span> <span class="n">a</span> <span class="n">custom</span> <span class="n">way</span><span class="o">.</span>
+</pre></div>
+</div>
+<p>The “container” directive is the equivalent of HTML’s <code class="docutils literal notranslate"><span class="pre">&lt;div&gt;</span></code>
+element.  It may be used to group a sequence of elements for user- or
+application-specific purposes.</p>
+</section>
+</section>
+<section id="tables">
+<h2><a class="toc-backref" href="#id39">Tables</a><a class="headerlink" href="#tables" title="Permalink to this headline">¶</a></h2>
+<p>Formal tables need more structure than the reStructuredText syntax
+supplies.  Tables may be given titles with the <a class="reference external" href="../doctree.html#table">table</a> directive.
+Sometimes reStructuredText tables are inconvenient to write, or table
+data in a standard format is readily available.  The <a class="reference internal" href="#csv-table">csv-table</a>
+directive supports CSV data.</p>
+<section id="table">
+<h3>Table<a class="headerlink" href="#table" title="Permalink to this headline">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">Directive Type</dt>
+<dd class="field-odd"><p>“table”</p>
+</dd>
+<dt class="field-even">Doctree Element</dt>
+<dd class="field-even"><p><a class="reference external" href="../doctree.html#table">table</a></p>
+</dd>
+<dt class="field-odd">Directive Arguments</dt>
+<dd class="field-odd"><p>One, optional (table title).</p>
+</dd>
+<dt class="field-even">Directive Options</dt>
+<dd class="field-even"><p>Possible (see below).</p>
+</dd>
+<dt class="field-odd">Directive Content</dt>
+<dd class="field-odd"><p>A normal reStructuredText table.</p>
+</dd>
+</dl>
+<p>(New in Docutils 0.3.1)</p>
+<p>The “table” directive is used to associate a
+title with a table or specify options, e.g.:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">table</span><span class="p">::</span> <span class="n">Truth</span> <span class="n">table</span> <span class="k">for</span> <span class="s2">&quot;not&quot;</span>
+   <span class="p">:</span><span class="n">widths</span><span class="p">:</span> <span class="n">auto</span>
+
+   <span class="o">=====</span>  <span class="o">=====</span>
+     <span class="n">A</span>    <span class="ow">not</span> <span class="n">A</span>
+   <span class="o">=====</span>  <span class="o">=====</span>
+   <span class="kc">False</span>  <span class="kc">True</span>
+   <span class="kc">True</span>   <span class="kc">False</span>
+   <span class="o">=====</span>  <span class="o">=====</span>
+</pre></div>
+</div>
+<table class="colwidths-auto docutils align-default" id="id33">
+<caption><span class="caption-number">Table 5 </span><span class="caption-text">Truth table for “not”</span><a class="headerlink" href="#id33" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>A</p></th>
+<th class="head"><p>not A</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>False</p></td>
+<td><p>True</p></td>
+</tr>
+<tr class="row-odd"><td><p>True</p></td>
+<td><p>False</p></td>
+</tr>
+</tbody>
+</table>
+<p>The following options are recognized:</p>
+<dl>
+<dt><code class="docutils literal notranslate"><span class="pre">align</span></code><span class="classifier">“left”, “center”, or “right”</span></dt><dd><p>The horizontal alignment of the table.
+(New in Docutils 0.13)</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">widths</span></code><span class="classifier">“auto”, “grid” or a list of integers</span></dt><dd><p>A comma- or space-separated list of column widths.
+The default is the width of the input columns (in characters).</p>
+<p>The special values “auto” or “grid” may be used by writers to decide
+whether to delegate the determination of column widths to the backend
+(LaTeX, the HTML browser, …).
+See also the <a class="reference external" href="../../user/config.html#table-style">table_style</a> configuration option.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">width</span></code><span class="classifier"><a class="reference external" href="restructuredtext.html#length-units">length</a> or <a class="reference external" href="restructuredtext.html#percentage-units">percentage</a> of the current line width</span></dt><dd><p>Forces the width of the table to the specified length or percentage
+of the line width.  If omitted, the renderer determines the width
+of the table based on its contents.</p>
+</dd>
+</dl>
+<p>and the common options <a class="reference internal" href="#id24">:class:</a> and <a class="reference internal" href="#name">:name:</a>.</p>
+</section>
+<section id="csv-table">
+<span id="id4"></span><h3>CSV Table<a class="headerlink" href="#csv-table" title="Permalink to this headline">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">Directive Type</dt>
+<dd class="field-odd"><p>“csv-table”</p>
+</dd>
+<dt class="field-even">Doctree Element</dt>
+<dd class="field-even"><p><a class="reference external" href="../doctree.html#table">table</a></p>
+</dd>
+<dt class="field-odd">Directive Arguments</dt>
+<dd class="field-odd"><p>One, optional (table title).</p>
+</dd>
+<dt class="field-even">Directive Options</dt>
+<dd class="field-even"><p>Possible (see below).</p>
+</dd>
+<dt class="field-odd">Directive Content</dt>
+<dd class="field-odd"><p>A CSV (comma-separated values) table.</p>
+</dd>
+</dl>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The “csv-table” directive’s “:file:” and “:url:” options represent
+a potential security holes.  They can be disabled with the
+“<a class="reference external" href="../../user/config.html#file-insertion-enabled">file_insertion_enabled</a>” runtime setting.</p>
+</div>
+<p>(New in Docutils 0.3.4)</p>
+<p>The “csv-table” directive is used to create a table from CSV
+(comma-separated values) data.  CSV is a common data format generated
+by spreadsheet applications and commercial databases.  The data may be
+internal (an integral part of the document) or external (a separate
+file).</p>
+<p>Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>.. csv-table:: Frozen Delights!
+   :header: &quot;Treat&quot;, &quot;Quantity&quot;, &quot;Description&quot;
+   :widths: 15, 10, 30
+
+   &quot;Albatross&quot;, 2.99, &quot;On a stick!&quot;
+   &quot;Crunchy Frog&quot;, 1.49, &quot;If we took the bones out, it wouldn&#39;t be
+   crunchy, now would it?&quot;
+   &quot;Gannet Ripple&quot;, 1.99, &quot;On a stick!&quot;
+</pre></div>
+</div>
+<table class="colwidths-given docutils align-default" id="id34">
+<caption><span class="caption-number">Table 6 </span><span class="caption-text">Frozen Delights!</span><a class="headerlink" href="#id34" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 27%" />
+<col style="width: 18%" />
+<col style="width: 55%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Treat</p></th>
+<th class="head"><p>Quantity</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Albatross</p></td>
+<td><p>2.99</p></td>
+<td><p>On a stick!</p></td>
+</tr>
+<tr class="row-odd"><td><p>Crunchy Frog</p></td>
+<td><p>1.49</p></td>
+<td><p>If we took the bones out, it wouldn’t be
+crunchy, now would it?</p></td>
+</tr>
+<tr class="row-even"><td><p>Gannet Ripple</p></td>
+<td><p>1.99</p></td>
+<td><p>On a stick!</p></td>
+</tr>
+</tbody>
+</table>
+<p>Block markup and inline markup within cells is supported.  Line ends
+are recognized within cells.</p>
+<p>Working limitations:</p>
+<ul class="simple">
+<li><p>There is no support for checking that the number of columns in each
+row is the same.  However, this directive supports CSV generators
+that do not insert “empty” entries at the end of short rows, by
+automatically adding empty entries.</p>
+</li>
+</ul>
+<dl class="footnote brackets">
+<dt class="label" id="whitespace-delim"><span class="brackets"><a class="fn-backref" href="#id5">2</a></span></dt>
+<dd><p>Whitespace delimiters are supported only for external
+CSV files.</p>
+</dd>
+<dt class="label" id="ascii-char"><span class="brackets">3</span><span class="fn-backref">(<a href="#id6">1</a>,<a href="#id7">2</a>,<a href="#id8">3</a>)</span></dt>
+<dd><p>With PythonÂ 2, the valuess for the <code class="docutils literal notranslate"><span class="pre">delimiter</span></code>,
+<code class="docutils literal notranslate"><span class="pre">quote</span></code>, and <code class="docutils literal notranslate"><span class="pre">escape</span></code> options must be ASCII characters. (The csv
+module does not support Unicode and all non-ASCII characters are
+encoded as multi-byte utf-8 string). This limitation does not exist
+under PythonÂ 3.</p>
+</dd>
+</dl>
+<p>The following options are recognized:</p>
+<dl>
+<dt><code class="docutils literal notranslate"><span class="pre">widths</span></code><span class="classifier">integer [, integer…] or “auto”</span></dt><dd><p>A comma- or space-separated list of relative column widths.  The
+default is equal-width columns (100%/#columns).</p>
+<p>The special value “auto” may be used by writers to decide
+whether to delegate the determination of column widths to the backend
+(LaTeX, the HTML browser, …).</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">width</span></code><span class="classifier"><a class="reference external" href="restructuredtext.html#length-units">length</a> or <a class="reference external" href="restructuredtext.html#percentage-units">percentage</a> of the current line width</span></dt><dd><p>Forces the width of the table to the specified length or percentage
+of the line width.  If omitted, the renderer determines the width
+of the table based on its contents.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">header-rows</span></code><span class="classifier">integer</span></dt><dd><p>The number of rows of CSV data to use in the table header.
+Defaults to 0.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">stub-columns</span></code><span class="classifier">integer</span></dt><dd><p>The number of table columns to use as stubs (row titles, on the
+left).  Defaults to 0.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">header</span></code><span class="classifier">CSV data</span></dt><dd><p>Supplemental data for the table header, added independently of and
+before any <code class="docutils literal notranslate"><span class="pre">header-rows</span></code> from the main CSV data.  Must use the
+same CSV format as the main CSV data.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">file</span></code><span class="classifier">string (newlines removed)</span></dt><dd><p>The local filesystem path to a CSV data file.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">url</span></code><span class="classifier">string (whitespace removed)</span></dt><dd><p>An Internet URL reference to a CSV data file.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">encoding</span></code><span class="classifier">name of text encoding</span></dt><dd><p>The text encoding of the external CSV data (file or URL).
+Defaults to the document’s encoding (if specified).</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">delim</span></code><span class="classifier">char | “tab” | “space” <a class="footnote-reference brackets" href="#whitespace-delim" id="id5">2</a></span></dt><dd><p>A one-character string<a class="footnote-reference brackets" href="#ascii-char" id="id6">3</a> used to separate fields.
+Defaults to <code class="docutils literal notranslate"><span class="pre">,</span></code> (comma).  May be specified as a Unicode code
+point; see the <a class="reference internal" href="#unicode">unicode</a> directive for syntax details.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">quote</span></code><span class="classifier">char</span></dt><dd><p>A one-character string<a class="footnote-reference brackets" href="#ascii-char" id="id7">3</a> used to quote elements
+containing the delimiter or which start with the quote
+character.  Defaults to <code class="docutils literal notranslate"><span class="pre">&quot;</span></code> (quote).  May be specified as a
+Unicode code point; see the <a class="reference internal" href="#unicode">unicode</a> directive for syntax
+details.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">keepspace</span></code><span class="classifier">flag</span></dt><dd><p>Treat whitespace immediately following the delimiter as
+significant.  The default is to ignore such whitespace.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">escape</span></code><span class="classifier">char</span></dt><dd><p>A one-character<a class="footnote-reference brackets" href="#ascii-char" id="id8">3</a> string used to escape the
+delimiter or quote characters.  May be specified as a Unicode
+code point; see the <a class="reference internal" href="#unicode">unicode</a> directive for syntax details.  Used
+when the delimiter is used in an unquoted field, or when quote
+characters are used within a field.  The default is to double-up
+the character, e.g. “He said, “”Hi!”””</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">align</span></code><span class="classifier">“left”, “center”, or “right”</span></dt><dd><p>The horizontal alignment of the table.
+(New in Docutils 0.13)</p>
+</dd>
+</dl>
+<p>and the common options <a class="reference internal" href="#id24">:class:</a> and <a class="reference internal" href="#name">:name:</a>.</p>
+</section>
+<section id="list-table">
+<h3>List Table<a class="headerlink" href="#list-table" title="Permalink to this headline">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">Directive Type</dt>
+<dd class="field-odd"><p>“list-table”</p>
+</dd>
+<dt class="field-even">Doctree Element</dt>
+<dd class="field-even"><p><a class="reference external" href="../doctree.html#table">table</a></p>
+</dd>
+<dt class="field-odd">Directive Arguments</dt>
+<dd class="field-odd"><p>One, optional (table title).</p>
+</dd>
+<dt class="field-even">Directive Options</dt>
+<dd class="field-even"><p>Possible (see below).</p>
+</dd>
+<dt class="field-odd">Directive Content</dt>
+<dd class="field-odd"><p>A uniform two-level bullet list.</p>
+</dd>
+</dl>
+<p>(New in Docutils 0.3.8.  This is an initial implementation; <a class="reference external" href="../../dev/rst/alternatives.html#list-driven-tables">further
+ideas</a> may be implemented in the future.)</p>
+<p>The “list-table” directive is used to create a table from data in a
+uniform two-level bullet list.  “Uniform” means that each sublist
+(second-level list) must contain the same number of list items.</p>
+<p>Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>.. list-table:: Frozen Delights!
+   :widths: 15 10 30
+   :header-rows: 1
+
+   * - Treat
+     - Quantity
+     - Description
+   * - Albatross
+     - 2.99
+     - On a stick!
+   * - Crunchy Frog
+     - 1.49
+     - If we took the bones out, it wouldn&#39;t be
+       crunchy, now would it?
+   * - Gannet Ripple
+     - 1.99
+     - On a stick!
+</pre></div>
+</div>
+<p>The following options are recognized:</p>
+<dl>
+<dt><code class="docutils literal notranslate"><span class="pre">widths</span></code><span class="classifier">integer [integer…] or “auto”</span></dt><dd><p>A comma- or space-separated list of relative column widths.  The
+default is equal-width columns (100%/#columns).</p>
+<p>The special value “auto” may be used by writers to decide
+whether to delegate the determination of column widths to the backend
+(LaTeX, the HTML browser, …).</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">width</span></code><span class="classifier"><a class="reference external" href="restructuredtext.html#length-units">length</a> or <a class="reference external" href="restructuredtext.html#percentage-units">percentage</a> of the current line width</span></dt><dd><p>Forces the width of the table to the specified length or percentage
+of the line width.  If omitted, the renderer determines the width
+of the table based on its contents.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">header-rows</span></code><span class="classifier">integer</span></dt><dd><p>The number of rows of list data to use in the table header.
+Defaults to 0.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">stub-columns</span></code><span class="classifier">integer</span></dt><dd><p>The number of table columns to use as stubs (row titles, on the
+left).  Defaults to 0.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">align</span></code><span class="classifier">“left”, “center”, or “right”</span></dt><dd><p>The horizontal alignment of the table.
+(New in Docutils 0.13)</p>
+</dd>
+</dl>
+<p>and the common options <a class="reference internal" href="#id24">:class:</a> and <a class="reference internal" href="#name">:name:</a>.</p>
+</section>
+</section>
+<section id="document-parts">
+<h2><a class="toc-backref" href="#id40">Document Parts</a><a class="headerlink" href="#document-parts" title="Permalink to this headline">¶</a></h2>
+<section id="table-of-contents">
+<span id="id10"></span><h3>Table of Contents<a class="headerlink" href="#table-of-contents" title="Permalink to this headline">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">Directive Type</dt>
+<dd class="field-odd"><p>“contents”</p>
+</dd>
+<dt class="field-even">Doctree Elements</dt>
+<dd class="field-even"><p><a class="reference external" href="../doctree.html#pending">pending</a>, <a class="reference external" href="../doctree.html#topic">topic</a></p>
+</dd>
+<dt class="field-odd">Directive Arguments</dt>
+<dd class="field-odd"><p>One, optional: title.</p>
+</dd>
+<dt class="field-even">Directive Options</dt>
+<dd class="field-even"><p>Possible.</p>
+</dd>
+<dt class="field-odd">Directive Content</dt>
+<dd class="field-odd"><p>None.</p>
+</dd>
+</dl>
+<p>The “contents” directive generates a table of contents (TOC) in a
+<a class="reference external" href="../doctree.html#topic">topic</a>.  Topics, and therefore tables of contents, may occur anywhere
+a section or transition may occur.  Body elements and topics may not
+contain tables of contents.</p>
+<p>Here’s the directive in its simplest form:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">contents</span><span class="p">::</span>
+</pre></div>
+</div>
+<p>Language-dependent boilerplate text will be used for the title.  The
+English default title text is “Contents”.</p>
+<p>An explicit title may be specified:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">contents</span><span class="p">::</span> <span class="n">Table</span> <span class="n">of</span> <span class="n">Contents</span>
+</pre></div>
+</div>
+<p>The title may span lines, although it is not recommended:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">contents</span><span class="p">::</span> <span class="n">Here</span><span class="s1">&#39;s a very long Table of</span>
+   <span class="n">Contents</span> <span class="n">title</span>
+</pre></div>
+</div>
+<p>Options may be specified for the directive, using a field list:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">contents</span><span class="p">::</span> <span class="n">Table</span> <span class="n">of</span> <span class="n">Contents</span>
+   <span class="p">:</span><span class="n">depth</span><span class="p">:</span> <span class="mi">2</span>
+</pre></div>
+</div>
+<p>If the default title is to be used, the options field list may begin
+on the same line as the directive marker:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">contents</span><span class="p">::</span> <span class="p">:</span><span class="n">depth</span><span class="p">:</span> <span class="mi">2</span>
+</pre></div>
+</div>
+<p>The following options are recognized:</p>
+<dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">depth</span></code><span class="classifier">integer</span></dt><dd><p>The number of section levels that are collected in the table of
+contents.  The default is unlimited depth.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">local</span></code><span class="classifier">flag (empty)</span></dt><dd><p>Generate a local table of contents.  Entries will only include
+subsections of the section in which the directive is given.  If no
+explicit title is given, the table of contents will not be titled.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">backlinks</span></code><span class="classifier">“entry” or “top” or “none”</span></dt><dd><p>Generate links from section headers back to the table of contents
+entries, the table of contents itself, or generate no backlinks.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">class</span></code><span class="classifier">text</span></dt><dd><p>Set a <a class="reference external" href="../doctree.html#classes">“classes”</a> attribute value on the topic element.  See the
+<a class="reference internal" href="#class">class</a> directive below.</p>
+</dd>
+</dl>
+</section>
+<section id="automatic-section-numbering">
+<span id="section-numbering"></span><span id="sectnum"></span><h3>Automatic Section Numbering<a class="headerlink" href="#automatic-section-numbering" title="Permalink to this headline">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">Directive Type</dt>
+<dd class="field-odd"><p>“sectnum” or “section-numbering” (synonyms)</p>
+</dd>
+<dt class="field-even">Doctree Elements</dt>
+<dd class="field-even"><p><a class="reference external" href="../doctree.html#pending">pending</a>, <a class="reference external" href="../doctree.html#generated">generated</a></p>
+</dd>
+<dt class="field-odd">Directive Arguments</dt>
+<dd class="field-odd"><p>None.</p>
+</dd>
+<dt class="field-even">Directive Options</dt>
+<dd class="field-even"><p>Possible.</p>
+</dd>
+<dt class="field-odd">Directive Content</dt>
+<dd class="field-odd"><p>None.</p>
+</dd>
+<dt class="field-even">Configuration Setting</dt>
+<dd class="field-even"><p><a class="reference external" href="../../user/config.html#sectnum-xform">sectnum_xform</a></p>
+</dd>
+</dl>
+<p>The “sectnum” (or “section-numbering”) directive automatically numbers
+sections and subsections in a document (if not disabled by the
+<code class="docutils literal notranslate"><span class="pre">--no-section-numbering</span></code> command line option or the <a class="reference external" href="../../user/config.html#sectnum-xform">sectnum_xform</a>
+configuration setting).</p>
+<p>Section numbers are of the “multiple enumeration” form, where each
+level has a number, separated by periods.  For example, the title of section
+1, subsection 2, subsubsection 3 would have “1.2.3” prefixed.</p>
+<p>The “sectnum” directive does its work in two passes: the initial parse
+and a transform.  During the initial parse, a “pending” element is
+generated which acts as a placeholder, storing any options internally.
+At a later stage in the processing, the “pending” element triggers a
+transform, which adds section numbers to titles.  Section numbers are
+enclosed in a “generated” element, and titles have their “auto”
+attribute set to “1”.</p>
+<p>The following options are recognized:</p>
+<dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">depth</span></code><span class="classifier">integer</span></dt><dd><p>The number of section levels that are numbered by this directive.
+The default is unlimited depth.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">prefix</span></code><span class="classifier">string</span></dt><dd><p>An arbitrary string that is prefixed to the automatically
+generated section numbers.  It may be something like “3.2.”, which
+will produce “3.2.1”, “3.2.2”, “3.2.2.1”, and so on.  Note that
+any separating punctuation (in the example, a period, “.”) must be
+explicitly provided.  The default is no prefix.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">suffix</span></code><span class="classifier">string</span></dt><dd><p>An arbitrary string that is appended to the automatically
+generated section numbers.  The default is no suffix.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">start</span></code><span class="classifier">integer</span></dt><dd><p>The value that will be used for the first section number.
+Combined with <code class="docutils literal notranslate"><span class="pre">prefix</span></code>, this may be used to force the right
+numbering for a document split over several source files.  The
+default is 1.</p>
+</dd>
+</dl>
+</section>
+<section id="document-header-footer">
+<span id="footer"></span><span id="header"></span><h3>Document Header &amp; Footer<a class="headerlink" href="#document-header-footer" title="Permalink to this headline">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">Directive Types</dt>
+<dd class="field-odd"><p>“header” and “footer”</p>
+</dd>
+<dt class="field-even">Doctree Elements</dt>
+<dd class="field-even"><p><a class="reference external" href="../doctree.html#decoration">decoration</a>, header, footer</p>
+</dd>
+<dt class="field-odd">Directive Arguments</dt>
+<dd class="field-odd"><p>None.</p>
+</dd>
+<dt class="field-even">Directive Options</dt>
+<dd class="field-even"><p>None.</p>
+</dd>
+<dt class="field-odd">Directive Content</dt>
+<dd class="field-odd"><p>Interpreted as body elements.</p>
+</dd>
+</dl>
+<p>(New in Docutils 0.3.8)</p>
+<p>The “header” and “footer” directives create document decorations,
+useful for page navigation, notes, time/datestamp, etc.  For example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">header</span><span class="p">::</span> <span class="n">This</span> <span class="n">space</span> <span class="k">for</span> <span class="n">rent</span><span class="o">.</span>
+</pre></div>
+</div>
+<p>This will add a paragraph to the document header, which will appear at
+the top of the generated web page or at the top of every printed page.</p>
+<p>These directives may be used multiple times, cumulatively.  There is
+currently support for only one header and footer.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>While it is possible to use the “header” and “footer” directives to
+create navigational elements for web pages, you should be aware
+that Docutils is meant to be used for <em>document</em> processing, and
+that a navigation bar is not typically part of a document.</p>
+<p>Thus, you may soon find Docutils’ abilities to be insufficient for
+these purposes.  At that time, you should consider using a
+documentation generator like <a class="reference external" href="http://sphinx-doc.org/">Sphinx</a> rather than the “header” and
+“footer” directives.</p>
+</div>
+<p>In addition to the use of these directives to populate header and
+footer content, content may also be added automatically by the
+processing system.  For example, if certain runtime settings are
+enabled, the document footer is populated with processing information
+such as a datestamp, a link to <a class="reference external" href="http://docutils.sourceforge.net">the Docutils website</a>, etc.</p>
+</section>
+</section>
+<section id="references">
+<h2><a class="toc-backref" href="#id41">References</a><a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h2>
+<section id="target-footnotes">
+<span id="target-notes"></span><h3>Target Footnotes<a class="headerlink" href="#target-footnotes" title="Permalink to this headline">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">Directive Type</dt>
+<dd class="field-odd"><p>“target-notes”</p>
+</dd>
+<dt class="field-even">Doctree Elements</dt>
+<dd class="field-even"><p><a class="reference external" href="../doctree.html#pending">pending</a>, <a class="reference external" href="../doctree.html#footnote">footnote</a>, <a class="reference external" href="../doctree.html#footnote-reference">footnote_reference</a></p>
+</dd>
+<dt class="field-odd">Directive Arguments</dt>
+<dd class="field-odd"><p>None.</p>
+</dd>
+<dt class="field-even">Directive Options</dt>
+<dd class="field-even"><p><a class="reference internal" href="#id24">:class:</a>, <a class="reference internal" href="#name">:name:</a></p>
+</dd>
+<dt class="field-odd">Directive Options</dt>
+<dd class="field-odd"><p>Possible.</p>
+</dd>
+<dt class="field-even">Directive Content</dt>
+<dd class="field-even"><p>None.</p>
+</dd>
+</dl>
+<p>The “target-notes” directive creates a footnote for each external
+target in the text, and corresponding footnote references after each
+reference.  For every explicit target (of the form, <code class="docutils literal notranslate"><span class="pre">..</span> <span class="pre">_target</span> <span class="pre">name:</span>
+<span class="pre">URL</span></code>) in the text, a footnote will be generated containing the
+visible URL as content.</p>
+</section>
+<section id="footnotes">
+<h3>Footnotes<a class="headerlink" href="#footnotes" title="Permalink to this headline">¶</a></h3>
+<p><strong>NOT IMPLEMENTED YET</strong></p>
+<dl class="field-list simple">
+<dt class="field-odd">Directive Type</dt>
+<dd class="field-odd"><p>“footnotes”</p>
+</dd>
+<dt class="field-even">Doctree Elements</dt>
+<dd class="field-even"><p><a class="reference external" href="../doctree.html#pending">pending</a>, <a class="reference external" href="../doctree.html#topic">topic</a></p>
+</dd>
+<dt class="field-odd">Directive Arguments</dt>
+<dd class="field-odd"><p>None?</p>
+</dd>
+<dt class="field-even">Directive Options</dt>
+<dd class="field-even"><p>Possible?</p>
+</dd>
+<dt class="field-odd">Directive Content</dt>
+<dd class="field-odd"><p>None.</p>
+</dd>
+</dl>
+<p>&#64;&#64;&#64;</p>
+</section>
+<section id="citations">
+<h3>Citations<a class="headerlink" href="#citations" title="Permalink to this headline">¶</a></h3>
+<p><strong>NOT IMPLEMENTED YET</strong></p>
+<dl class="field-list simple">
+<dt class="field-odd">Directive Type</dt>
+<dd class="field-odd"><p>“citations”</p>
+</dd>
+<dt class="field-even">Doctree Elements</dt>
+<dd class="field-even"><p><a class="reference external" href="../doctree.html#pending">pending</a>, <a class="reference external" href="../doctree.html#topic">topic</a></p>
+</dd>
+<dt class="field-odd">Directive Arguments</dt>
+<dd class="field-odd"><p>None?</p>
+</dd>
+<dt class="field-even">Directive Options</dt>
+<dd class="field-even"><p>Possible?</p>
+</dd>
+<dt class="field-odd">Directive Content</dt>
+<dd class="field-odd"><p>None.</p>
+</dd>
+</dl>
+<p>&#64;&#64;&#64;</p>
+</section>
+</section>
+<section id="html-specific">
+<h2><a class="toc-backref" href="#id42">HTML-Specific</a><a class="headerlink" href="#html-specific" title="Permalink to this headline">¶</a></h2>
+<section id="imagemap">
+<h3>Imagemap<a class="headerlink" href="#imagemap" title="Permalink to this headline">¶</a></h3>
+<p><strong>NOT IMPLEMENTED YET</strong></p>
+<p>Non-standard element: imagemap.</p>
+</section>
+</section>
+<section id="directives-for-substitution-definitions">
+<h2><a class="toc-backref" href="#id43">Directives for Substitution Definitions</a><a class="headerlink" href="#directives-for-substitution-definitions" title="Permalink to this headline">¶</a></h2>
+<p>The directives in this section may only be used in <a class="reference external" href="restructuredtext.html#substitution-definitions">substitution
+definitions</a>.  They may not be used directly, in standalone context.
+The <a class="reference external" href="../doctree.html#image">image</a> directive may be used both in substitution definitions
+and in the standalone context.</p>
+<section id="replacement-text">
+<span id="replace"></span><h3>Replacement Text<a class="headerlink" href="#replacement-text" title="Permalink to this headline">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">Directive Type</dt>
+<dd class="field-odd"><p>“replace”</p>
+</dd>
+<dt class="field-even">Doctree Element</dt>
+<dd class="field-even"><p>Text &amp; <a class="reference external" href="../doctree.html#inline-elements">inline elements</a></p>
+</dd>
+<dt class="field-odd">Directive Arguments</dt>
+<dd class="field-odd"><p>None.</p>
+</dd>
+<dt class="field-even">Directive Options</dt>
+<dd class="field-even"><p>None.</p>
+</dd>
+<dt class="field-odd">Directive Content</dt>
+<dd class="field-odd"><p>A single paragraph; may contain inline markup.</p>
+</dd>
+</dl>
+<p>The “replace” directive is used to indicate replacement text for a
+substitution reference.  It may be used within <a class="reference external" href="restructuredtext.html#substitution-definitions">substitution
+definitions</a> only.  For example, this directive can be used to expand
+abbreviations:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="o">|</span><span class="n">reST</span><span class="o">|</span> <span class="n">replace</span><span class="p">::</span> <span class="n">reStructuredText</span>
+
+<span class="n">Yes</span><span class="p">,</span> <span class="o">|</span><span class="n">reST</span><span class="o">|</span> <span class="ow">is</span> <span class="n">a</span> <span class="n">long</span> <span class="n">word</span><span class="p">,</span> <span class="n">so</span> <span class="n">I</span> <span class="n">can</span><span class="s1">&#39;t blame anyone for wanting to</span>
+<span class="n">abbreviate</span> <span class="n">it</span><span class="o">.</span>
+</pre></div>
+</div>
+<p>As reStructuredText doesn’t support nested inline markup, the only way
+to create a reference with styled text is to use substitutions with
+the “replace” directive:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">I</span> <span class="n">recommend</span> <span class="n">you</span> <span class="k">try</span> <span class="o">|</span><span class="n">Python</span><span class="o">|</span><span class="n">_</span><span class="o">.</span>
+
+<span class="o">..</span> <span class="o">|</span><span class="n">Python</span><span class="o">|</span> <span class="n">replace</span><span class="p">::</span> <span class="n">Python</span><span class="p">,</span> <span class="o">*</span><span class="n">the</span><span class="o">*</span> <span class="n">best</span> <span class="n">language</span> <span class="n">around</span>
+<span class="o">..</span> <span class="n">_Python</span><span class="p">:</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">www</span><span class="o">.</span><span class="n">python</span><span class="o">.</span><span class="n">org</span><span class="o">/</span>
+</pre></div>
+</div>
+</section>
+<section id="unicode-character-codes">
+<span id="unicode"></span><h3>Unicode Character Codes<a class="headerlink" href="#unicode-character-codes" title="Permalink to this headline">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">Directive Type</dt>
+<dd class="field-odd"><p>“unicode”</p>
+</dd>
+<dt class="field-even">Doctree Element</dt>
+<dd class="field-even"><p>Text</p>
+</dd>
+<dt class="field-odd">Directive Arguments</dt>
+<dd class="field-odd"><p>One or more, required (Unicode character codes,
+optional text, and comments).</p>
+</dd>
+<dt class="field-even">Directive Options</dt>
+<dd class="field-even"><p>Possible.</p>
+</dd>
+<dt class="field-odd">Directive Content</dt>
+<dd class="field-odd"><p>None.</p>
+</dd>
+</dl>
+<p>The “unicode” directive converts Unicode character codes (numerical
+values) to characters, and may be used in <a class="reference external" href="restructuredtext.html#substitution-definitions">substitution definitions</a>
+only.</p>
+<p>The arguments, separated by spaces, can be:</p>
+<ul class="simple">
+<li><p><strong>character codes</strong> as</p>
+<ul>
+<li><p>decimal numbers or</p></li>
+<li><p>hexadecimal numbers, prefixed by <code class="docutils literal notranslate"><span class="pre">0x</span></code>, <code class="docutils literal notranslate"><span class="pre">x</span></code>, <code class="docutils literal notranslate"><span class="pre">\x</span></code>, <code class="docutils literal notranslate"><span class="pre">U+</span></code>,
+<code class="docutils literal notranslate"><span class="pre">u</span></code>, or <code class="docutils literal notranslate"><span class="pre">\u</span></code> or as XML-style hexadecimal character entities,
+e.g. <code class="docutils literal notranslate"><span class="pre">&amp;#x1a2b;</span></code></p></li>
+</ul>
+</li>
+<li><p><strong>text</strong>, which is used as-is.</p></li>
+</ul>
+<p>Text following ” .. ” is a comment and is ignored.  The spaces between
+the arguments are ignored and thus do not appear in the output.
+Hexadecimal codes are case-insensitive.</p>
+<p>For example, the following text:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Copyright</span> <span class="o">|</span><span class="n">copy</span><span class="o">|</span> <span class="mi">2003</span><span class="p">,</span> <span class="o">|</span><span class="n">BogusMegaCorp</span> <span class="p">(</span><span class="n">TM</span><span class="p">)</span><span class="o">|</span> <span class="o">|---|</span>
+<span class="nb">all</span> <span class="n">rights</span> <span class="n">reserved</span><span class="o">.</span>
+
+<span class="o">..</span> <span class="o">|</span><span class="n">copy</span><span class="o">|</span> <span class="n">unicode</span><span class="p">::</span> <span class="mh">0xA9</span> <span class="o">..</span> <span class="n">copyright</span> <span class="n">sign</span>
+<span class="o">..</span> <span class="o">|</span><span class="n">BogusMegaCorp</span> <span class="p">(</span><span class="n">TM</span><span class="p">)</span><span class="o">|</span> <span class="n">unicode</span><span class="p">::</span> <span class="n">BogusMegaCorp</span> <span class="n">U</span><span class="o">+</span><span class="mi">2122</span>
+   <span class="o">..</span> <span class="k">with</span> <span class="n">trademark</span> <span class="n">sign</span>
+<span class="o">..</span> <span class="o">|---|</span> <span class="n">unicode</span><span class="p">::</span> <span class="n">U</span><span class="o">+</span><span class="mi">02014</span> <span class="o">..</span> <span class="n">em</span> <span class="n">dash</span>
+   <span class="p">:</span><span class="n">trim</span><span class="p">:</span>
+</pre></div>
+</div>
+<p>results in:</p>
+<blockquote>
+<div><p>Copyright © 2003, BogusMegaCorp™—all rights reserved.</p>
+</div></blockquote>
+<p>The following options are recognized:</p>
+<dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">ltrim</span></code><span class="classifier">flag</span></dt><dd><p>Whitespace to the left of the substitution reference is removed.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">rtrim</span></code><span class="classifier">flag</span></dt><dd><p>Whitespace to the right of the substitution reference is removed.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">trim</span></code><span class="classifier">flag</span></dt><dd><p>Equivalent to <code class="docutils literal notranslate"><span class="pre">ltrim</span></code> plus <code class="docutils literal notranslate"><span class="pre">rtrim</span></code>; whitespace on both sides
+of the substitution reference is removed.</p>
+</dd>
+</dl>
+</section>
+<section id="date">
+<h3>Date<a class="headerlink" href="#date" title="Permalink to this headline">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">Directive Type</dt>
+<dd class="field-odd"><p>“date”</p>
+</dd>
+<dt class="field-even">Doctree Element</dt>
+<dd class="field-even"><p>Text</p>
+</dd>
+<dt class="field-odd">Directive Arguments</dt>
+<dd class="field-odd"><p>One, optional (date format).</p>
+</dd>
+<dt class="field-even">Directive Options</dt>
+<dd class="field-even"><p>None.</p>
+</dd>
+<dt class="field-odd">Directive Content</dt>
+<dd class="field-odd"><p>None.</p>
+</dd>
+</dl>
+<p>The “date” directive generates the current local date and inserts it
+into the document as text.  This directive may be used in substitution
+definitions only.</p>
+<p>The optional directive content is interpreted as the desired date
+format, using the same codes as Python’s time.strftime function.  The
+default format is “%Y-%m-%d” (ISO 8601 date), but time fields can also
+be used.  Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="o">|</span><span class="n">date</span><span class="o">|</span> <span class="n">date</span><span class="p">::</span>
+<span class="o">..</span> <span class="o">|</span><span class="n">time</span><span class="o">|</span> <span class="n">date</span><span class="p">::</span> <span class="o">%</span><span class="n">H</span><span class="p">:</span><span class="o">%</span><span class="n">M</span>
+
+<span class="n">Today</span><span class="s1">&#39;s date is |date|.</span>
+
+<span class="n">This</span> <span class="n">document</span> <span class="n">was</span> <span class="n">generated</span> <span class="n">on</span> <span class="o">|</span><span class="n">date</span><span class="o">|</span> <span class="n">at</span> <span class="o">|</span><span class="n">time</span><span class="o">|.</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="miscellaneous">
+<h2><a class="toc-backref" href="#id44">Miscellaneous</a><a class="headerlink" href="#miscellaneous" title="Permalink to this headline">¶</a></h2>
+<section id="including-an-external-document-fragment">
+<span id="include"></span><h3>Including an External Document Fragment<a class="headerlink" href="#including-an-external-document-fragment" title="Permalink to this headline">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">Directive Type</dt>
+<dd class="field-odd"><p>“include”</p>
+</dd>
+<dt class="field-even">Doctree Elements</dt>
+<dd class="field-even"><p>Depend on data being included
+(<a class="reference external" href="../doctree.html#literal-block">literal_block</a> with <code class="docutils literal notranslate"><span class="pre">code</span></code> or <code class="docutils literal notranslate"><span class="pre">literal</span></code> option).</p>
+</dd>
+<dt class="field-odd">Directive Arguments</dt>
+<dd class="field-odd"><p>One, required (path to the file to include).</p>
+</dd>
+<dt class="field-even">Directive Options</dt>
+<dd class="field-even"><p>Possible.</p>
+</dd>
+<dt class="field-odd">Directive Content</dt>
+<dd class="field-odd"><p>None.</p>
+</dd>
+<dt class="field-even">Configuration Setting</dt>
+<dd class="field-even"><p><a class="reference external" href="../../user/config.html#file-insertion-enabled">file_insertion_enabled</a></p>
+</dd>
+</dl>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The “include” directive represents a potential security hole.  It
+can be disabled with the “<a class="reference external" href="../../user/config.html#file-insertion-enabled">file_insertion_enabled</a>” runtime setting.</p>
+</div>
+<p>The “include” directive reads a text file. The directive argument is
+the path to the file to be included, relative to the document containing
+the directive. Unless the options <code class="docutils literal notranslate"><span class="pre">literal</span></code>, <code class="docutils literal notranslate"><span class="pre">code</span></code>, or <code class="docutils literal notranslate"><span class="pre">parser</span></code>
+are given, the file is parsed in the current document’s context at the
+point of the directive. For example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">This</span> <span class="n">first</span> <span class="n">example</span> <span class="n">will</span> <span class="n">be</span> <span class="n">parsed</span> <span class="n">at</span> <span class="n">the</span> <span class="n">document</span> <span class="n">level</span><span class="p">,</span> <span class="ow">and</span> <span class="n">can</span>
+<span class="n">thus</span> <span class="n">contain</span> <span class="nb">any</span> <span class="n">construct</span><span class="p">,</span> <span class="n">including</span> <span class="n">section</span> <span class="n">headers</span><span class="o">.</span>
+
+<span class="o">..</span> <span class="n">include</span><span class="p">::</span> <span class="n">inclusion</span><span class="o">.</span><span class="n">txt</span>
+
+<span class="n">Back</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">main</span> <span class="n">document</span><span class="o">.</span>
+
+    <span class="n">This</span> <span class="n">second</span> <span class="n">example</span> <span class="n">will</span> <span class="n">be</span> <span class="n">parsed</span> <span class="ow">in</span> <span class="n">a</span> <span class="n">block</span> <span class="n">quote</span> <span class="n">context</span><span class="o">.</span>
+    <span class="n">Therefore</span> <span class="n">it</span> <span class="n">may</span> <span class="n">only</span> <span class="n">contain</span> <span class="n">body</span> <span class="n">elements</span><span class="o">.</span>  <span class="n">It</span> <span class="n">may</span> <span class="ow">not</span>
+    <span class="n">contain</span> <span class="n">section</span> <span class="n">headers</span><span class="o">.</span>
+
+    <span class="o">..</span> <span class="n">include</span><span class="p">::</span> <span class="n">inclusion</span><span class="o">.</span><span class="n">txt</span>
+</pre></div>
+</div>
+<p>If an included document fragment contains section structure, the title
+adornments must match those of the master document.</p>
+<p>Standard data files intended for inclusion in reStructuredText
+documents are distributed with the Docutils source code, located in
+the “docutils” package in the <code class="docutils literal notranslate"><span class="pre">docutils/parsers/rst/include</span></code>
+directory.  To access these files, use the special syntax for standard
+“include” data files, angle brackets around the file name:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">include</span><span class="p">::</span> <span class="o">&lt;</span><span class="n">isonum</span><span class="o">.</span><span class="n">txt</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>The current set of standard “include” data files consists of sets of
+substitution definitions.  See <a class="reference external" href="definitions.html">reStructuredText Standard Definition
+Files</a> for details.</p>
+<p>The following options are recognized:</p>
+<dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">start-line</span></code><span class="classifier">integer</span></dt><dd><p>Only the content starting from this line will be included.
+(As usual in Python, the first line has index 0 and negative values
+count from the end.)</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">end-line</span></code><span class="classifier">integer</span></dt><dd><p>Only the content up to (but excluding) this line will be included.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">start-after</span></code><span class="classifier">text to find in the external data file</span></dt><dd><p>Only the content after the first occurrence of the specified text
+will be included.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">end-before</span></code><span class="classifier">text to find in the external data file</span></dt><dd><p>Only the content before the first occurrence of the specified text
+(but after any <code class="docutils literal notranslate"><span class="pre">after</span></code> text) will be included.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">parser</span></code><span class="classifier">parser name</span></dt><dd><p>Parse the included content with the specified parser.
+(New in Docutils 0.17)</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">literal</span></code><span class="classifier">flag (empty)</span></dt><dd><p>The entire included text is inserted into the document as a single
+literal block.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">code</span></code><span class="classifier">formal language (optional)</span></dt><dd><p>The argument and the included content are passed to
+the <a class="reference internal" href="#code">code</a> directive (useful for program listings).
+(New in Docutils 0.9)</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">number-lines</span></code><span class="classifier">[start line number]</span></dt><dd><p>Precede every code line with a line number.
+The optional argument is the number of the first line (defaut 1).
+Works only with <code class="docutils literal notranslate"><span class="pre">code</span></code> or <code class="docutils literal notranslate"><span class="pre">literal</span></code>.
+(New in Docutils 0.9)</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">encoding</span></code><span class="classifier">name of text encoding</span></dt><dd><p>The text encoding of the external data file.  Defaults to the
+document’s <a class="reference external" href="../../user/config.html#input-encoding">input_encoding</a>.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">tab-width</span></code><span class="classifier">integer</span></dt><dd><p>Number of spaces for hard tab expansion.
+A negative value prevents expansion of hard tabs. Defaults to the
+<a class="reference external" href="../../user/config.html#tab-width">tab_width</a> configuration setting.</p>
+</dd>
+</dl>
+<p>With <code class="docutils literal notranslate"><span class="pre">code</span></code> or <code class="docutils literal notranslate"><span class="pre">literal</span></code> the common options <a class="reference internal" href="#id24">:class:</a> and
+<a class="reference internal" href="#name">:name:</a> are recognized as well.</p>
+<p>Combining <code class="docutils literal notranslate"><span class="pre">start/end-line</span></code> and <code class="docutils literal notranslate"><span class="pre">start-after/end-before</span></code> is possible. The
+text markers will be searched in the specified lines (further limiting the
+included content).</p>
+</section>
+<section id="raw-data-pass-through">
+<span id="raw-directive"></span><h3>Raw Data Pass-Through<a class="headerlink" href="#raw-data-pass-through" title="Permalink to this headline">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">Directive Type</dt>
+<dd class="field-odd"><p>“raw”</p>
+</dd>
+<dt class="field-even">Doctree Element</dt>
+<dd class="field-even"><p><a class="reference external" href="../doctree.html#raw">raw</a></p>
+</dd>
+<dt class="field-odd">Directive Arguments</dt>
+<dd class="field-odd"><p>One or more, required (output format types).</p>
+</dd>
+<dt class="field-even">Directive Options</dt>
+<dd class="field-even"><p>Possible.</p>
+</dd>
+<dt class="field-odd">Directive Content</dt>
+<dd class="field-odd"><p>Stored verbatim, uninterpreted.  None (empty) if a
+“file” or “url” option given.</p>
+</dd>
+<dt class="field-even">Configuration Setting</dt>
+<dd class="field-even"><p><a class="reference external" href="../../user/config.html#raw-enabled">raw_enabled</a></p>
+</dd>
+</dl>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The “raw” directive represents a potential security hole.  It can
+be disabled with the “<a class="reference external" href="../../user/config.html#raw-enabled">raw_enabled</a>” or “<a class="reference external" href="../../user/config.html#file-insertion-enabled">file_insertion_enabled</a>”
+runtime settings.</p>
+</div>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>The “raw” directive is a stop-gap measure allowing the author to
+bypass reStructuredText’s markup.  It is a “power-user” feature
+that should not be overused or abused.  The use of “raw” ties
+documents to specific output formats and makes them less portable.</p>
+<p>If you often need to use the “raw” directive or a “raw”-derived
+interpreted text role, that is a sign either of overuse/abuse or
+that functionality may be missing from reStructuredText.  Please
+describe your situation in a message to the <a class="reference external" href="../../user/mailing-lists.html#docutils-users">Docutils-users</a> mailing
+list.</p>
+</div>
+<p>The “raw” directive indicates non-reStructuredText data that is to be
+passed untouched to the Writer.  The names of the output formats are
+given in the directive arguments.  The interpretation of the raw data
+is up to the Writer.  A Writer may ignore any raw output not matching
+its format.</p>
+<p>For example, the following input would be passed untouched by an HTML
+Writer:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">raw</span><span class="p">::</span> <span class="n">html</span>
+
+   <span class="o">&lt;</span><span class="n">hr</span> <span class="n">width</span><span class="o">=</span><span class="mi">50</span> <span class="n">size</span><span class="o">=</span><span class="mi">10</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>A LaTeX Writer could insert the following raw content into its
+output stream:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">raw</span><span class="p">::</span> <span class="n">latex</span>
+
+   \<span class="n">setlength</span><span class="p">{</span>\<span class="n">parindent</span><span class="p">}{</span><span class="mi">0</span><span class="n">pt</span><span class="p">}</span>
+</pre></div>
+</div>
+<p>Raw data can also be read from an external file, specified in a
+directive option.  In this case, the content block must be empty.  For
+example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">raw</span><span class="p">::</span> <span class="n">html</span>
+   <span class="p">:</span><span class="n">file</span><span class="p">:</span> <span class="n">inclusion</span><span class="o">.</span><span class="n">html</span>
+</pre></div>
+</div>
+<p>Inline equivalents of the “raw” directive can be defined via
+<a class="reference internal" href="#custom-interpreted-text-roles">custom interpreted text roles</a> derived from the <a class="reference external" href="roles.html#raw">“raw” role</a>.</p>
+<p>The following options are recognized:</p>
+<dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">file</span></code><span class="classifier">string (newlines removed)</span></dt><dd><p>The local filesystem path of a raw data file to be included.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">url</span></code><span class="classifier">string (whitespace removed)</span></dt><dd><p>An Internet URL reference to a raw data file to be included.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">encoding</span></code><span class="classifier">name of text encoding</span></dt><dd><p>The text encoding of the external raw data (file or URL).
+Defaults to the document’s encoding (if specified).</p>
+</dd>
+</dl>
+</section>
+<section id="class">
+<span id="classes"></span><h3>Class<a class="headerlink" href="#class" title="Permalink to this headline">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">Directive Type</dt>
+<dd class="field-odd"><p>“class”</p>
+</dd>
+<dt class="field-even">Doctree Element</dt>
+<dd class="field-even"><p><a class="reference external" href="../doctree.html#pending">pending</a></p>
+</dd>
+<dt class="field-odd">Directive Arguments</dt>
+<dd class="field-odd"><p>One or more, required (class names / attribute
+values).</p>
+</dd>
+<dt class="field-even">Directive Options</dt>
+<dd class="field-even"><p>None.</p>
+</dd>
+<dt class="field-odd">Directive Content</dt>
+<dd class="field-odd"><p>Optional.  If present, it is interpreted as body
+elements.</p>
+</dd>
+</dl>
+<p>The “class” directive sets the <a class="reference external" href="../doctree.html#classes">“classes”</a> attribute value on its content
+or on the first immediately following <a class="footnote-reference brackets" href="#id14" id="id12">4</a> non-comment element <a class="footnote-reference brackets" href="#id15" id="id13">5</a>.
+The directive argument consists of one or more space-separated class
+names. The names are transformed to conform to the regular expression
+<code class="docutils literal notranslate"><span class="pre">[a-z](-?[a-z0-9]+)*</span></code> (see <a class="reference internal" href="#identifier-normalization">Identifier Normalization</a> below).</p>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">class</span><span class="p">::</span> <span class="n">special</span>
+
+<span class="n">This</span> <span class="ow">is</span> <span class="n">a</span> <span class="s2">&quot;special&quot;</span> <span class="n">paragraph</span><span class="o">.</span>
+
+<span class="o">..</span> <span class="n">class</span><span class="p">::</span> <span class="n">exceptional</span> <span class="n">remarkable</span>
+
+<span class="n">An</span> <span class="n">Exceptional</span> <span class="n">Section</span>
+<span class="o">======================</span>
+
+<span class="n">This</span> <span class="ow">is</span> <span class="n">an</span> <span class="n">ordinary</span> <span class="n">paragraph</span><span class="o">.</span>
+
+<span class="o">..</span> <span class="n">class</span><span class="p">::</span> <span class="n">multiple</span>
+
+   <span class="n">First</span> <span class="n">paragraph</span><span class="o">.</span>
+
+   <span class="n">Second</span> <span class="n">paragraph</span><span class="o">.</span>
+</pre></div>
+</div>
+<p>The text above is parsed and transformed into this doctree fragment:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">paragraph</span> <span class="n">classes</span><span class="o">=</span><span class="s2">&quot;special&quot;</span><span class="o">&gt;</span>
+    <span class="n">This</span> <span class="ow">is</span> <span class="n">a</span> <span class="s2">&quot;special&quot;</span> <span class="n">paragraph</span><span class="o">.</span>
+<span class="o">&lt;</span><span class="n">section</span> <span class="n">classes</span><span class="o">=</span><span class="s2">&quot;exceptional remarkable&quot;</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="n">title</span><span class="o">&gt;</span>
+        <span class="n">An</span> <span class="n">Exceptional</span> <span class="n">Section</span>
+    <span class="o">&lt;</span><span class="n">paragraph</span><span class="o">&gt;</span>
+        <span class="n">This</span> <span class="ow">is</span> <span class="n">an</span> <span class="n">ordinary</span> <span class="n">paragraph</span><span class="o">.</span>
+    <span class="o">&lt;</span><span class="n">paragraph</span> <span class="n">classes</span><span class="o">=</span><span class="s2">&quot;multiple&quot;</span><span class="o">&gt;</span>
+        <span class="n">First</span> <span class="n">paragraph</span><span class="o">.</span>
+    <span class="o">&lt;</span><span class="n">paragraph</span> <span class="n">classes</span><span class="o">=</span><span class="s2">&quot;multiple&quot;</span><span class="o">&gt;</span>
+        <span class="n">Second</span> <span class="n">paragraph</span><span class="o">.</span>
+</pre></div>
+</div>
+<dl class="footnote brackets">
+<dt class="label" id="id14"><span class="brackets"><a class="fn-backref" href="#id12">4</a></span></dt>
+<dd><p>This is also true, if the class directive is “nested” at the end of
+an indented text block, for example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">note</span><span class="p">::</span> <span class="n">the</span> <span class="k">class</span> <span class="nc">values</span> <span class="nb">set</span> <span class="ow">in</span> <span class="n">this</span> <span class="n">directive</span><span class="o">-</span><span class="n">block</span> <span class="n">do</span> <span class="ow">not</span> <span class="n">apply</span> <span class="n">to</span>
+   <span class="n">the</span> <span class="n">note</span> <span class="n">but</span> <span class="n">the</span> <span class="nb">next</span> <span class="n">paragraph</span><span class="o">.</span>
+
+   <span class="o">..</span> <span class="n">class</span><span class="p">::</span> <span class="n">special</span>
+
+<span class="n">This</span> <span class="ow">is</span> <span class="n">a</span> <span class="n">paragraph</span> <span class="k">with</span> <span class="k">class</span> <span class="nc">value</span> <span class="s2">&quot;special&quot;</span><span class="o">.</span>
+</pre></div>
+</div>
+<p>This allows the “classification” of individual list items (except the
+first, as a preceding class directive applies to the list as a whole):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">*</span> <span class="n">bullet</span> <span class="nb">list</span>
+
+  <span class="o">..</span> <span class="n">class</span><span class="p">::</span> <span class="n">classy</span> <span class="n">item</span>
+
+<span class="o">*</span> <span class="n">second</span> <span class="n">item</span><span class="p">,</span> <span class="k">with</span> <span class="k">class</span> <span class="nc">argument</span>
+</pre></div>
+</div>
+</dd>
+<dt class="label" id="id15"><span class="brackets"><a class="fn-backref" href="#id13">5</a></span></dt>
+<dd><p>To set a “classes” attribute value on a block quote, the
+“class” directive must be followed by an empty comment:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">class</span><span class="p">::</span> <span class="n">highlights</span>
+<span class="o">..</span>
+
+    <span class="n">Block</span> <span class="n">quote</span> <span class="n">text</span><span class="o">.</span>
+</pre></div>
+</div>
+<p>Without the empty comment, the indented text would be interpreted as the
+“class” directive’s content, and the classes would be applied to each
+element (paragraph, in this case) individually, instead of to the block
+quote as a whole.</p>
+</dd>
+</dl>
+<section id="identifier-normalization">
+<h4>Identifier Normalization<a class="headerlink" href="#identifier-normalization" title="Permalink to this headline">¶</a></h4>
+<p>Docutils <a class="reference external" href="../doctree.html#classnames-type">class names</a> and <a class="reference external" href="../doctree.html#ids-type">identifier keys</a> are normalized to conform
+to the regular expression “<code class="docutils literal notranslate"><span class="pre">[a-z](-?[a-z0-9]+)*</span></code>” by converting</p>
+<ul class="simple">
+<li><p>alphabetic characters to lowercase,</p></li>
+<li><p>accented characters to the base character,</p></li>
+<li><p>non-alphanumeric characters to hyphens,</p></li>
+<li><p>consecutive hyphens into one hyphen</p></li>
+</ul>
+<p>and stripping</p>
+<ul class="simple">
+<li><p>leading hyphens and number characters, and</p></li>
+<li><p>trailing hyphens.</p></li>
+</ul>
+<p>For example <code class="docutils literal notranslate"><span class="pre">&quot;Rot.Gelb&amp;GrÃ¼n:+2008&quot;</span></code> becomes <code class="docutils literal notranslate"><span class="pre">&quot;rot-gelb-grun-2008&quot;</span></code> and
+<code class="docutils literal notranslate"><span class="pre">&quot;1000_Steps!&quot;</span></code> becomes <code class="docutils literal notranslate"><span class="pre">&quot;steps&quot;</span></code>.</p>
+<div class="topic">
+<p class="topic-title">Rationale:</p>
+<p>Identifier keys must be valid in all supported output formats.</p>
+<p>For HTMLÂ 4.1 + CSS1 compatibility, identifiers should have no
+underscores, colons, or periods.  Hyphens may be used.</p>
+<ul>
+<li><p>The <a class="reference external" href="http://www.w3.org/TR/html401/">HTML 4.01 spec</a> defines identifiers based on SGML tokens:</p>
+<blockquote>
+<div><p>ID and NAME tokens must begin with a letter ([A-Za-z]) and
+may be followed by any number of letters, digits ([0-9]),
+hyphens (“-“), underscores (“_”), colons (“:”), and periods
+(“.”).</p>
+<p class="attribution">—<a class="reference external" href="http://www.w3.org/TR/html401/types.html#type-name">http://www.w3.org/TR/html401/types.html#type-name</a></p>
+</div></blockquote>
+</li>
+<li><p>The <a class="reference external" href="http://www.w3.org/TR/REC-CSS1">CSS1 spec</a> defines identifiers based on the “name” token
+(“flex” tokenizer notation below; “latin1” and “escape” 8-bit
+characters have been replaced with XML entities):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">unicode</span>     \\<span class="p">[</span><span class="mi">0</span><span class="o">-</span><span class="mi">9</span><span class="n">a</span><span class="o">-</span><span class="n">f</span><span class="p">]{</span><span class="mi">1</span><span class="p">,</span><span class="mi">4</span><span class="p">}</span>
+<span class="n">latin1</span>      <span class="p">[</span><span class="o">&amp;</span><span class="n">iexcl</span><span class="p">;</span><span class="o">-&amp;</span><span class="n">yuml</span><span class="p">;]</span>
+<span class="n">escape</span>      <span class="p">{</span><span class="n">unicode</span><span class="p">}</span><span class="o">|</span>\\<span class="p">[</span> <span class="o">-~&amp;</span><span class="n">iexcl</span><span class="p">;</span><span class="o">-&amp;</span><span class="n">yuml</span><span class="p">;]</span>
+<span class="n">nmchar</span>      <span class="p">[</span><span class="o">-</span><span class="n">A</span><span class="o">-</span><span class="n">Za</span><span class="o">-</span><span class="n">z0</span><span class="o">-</span><span class="mi">9</span><span class="p">]</span><span class="o">|</span><span class="p">{</span><span class="n">latin1</span><span class="p">}</span><span class="o">|</span><span class="p">{</span><span class="n">escape</span><span class="p">}</span>
+<span class="n">name</span>        <span class="p">{</span><span class="n">nmchar</span><span class="p">}</span><span class="o">+</span>
+</pre></div>
+</div>
+</li>
+</ul>
+<p>The CSS1 rule requires underscores (“_”), colons (“:”), and
+periods (“.”) to be escaped <a class="footnote-reference brackets" href="#id17" id="id16">6</a>,
+therefore <a class="reference external" href="../doctree.html#classes">“classes”</a> and <a class="reference external" href="../doctree.html#ids">“ids”</a> attributes should not
+contain these characters.  Combined with HTML4.1 requirements (the
+first character must be a letter; no “unicode”, “latin1”, or
+“escape” characters), this results in the regular expression
+<code class="docutils literal notranslate"><span class="pre">[A-Za-z][-A-Za-z0-9]*</span></code>. Docutils adds a normalization by
+downcasing and merge of consecutive hyphens.</p>
+<dl class="footnote brackets">
+<dt class="label" id="id17"><span class="brackets"><a class="fn-backref" href="#id16">6</a></span></dt>
+<dd><p>CSS identifiers may use underscores (“_”) directly in
+<a class="reference external" href="https://www.w3.org/TR/CSS21/syndata.html#value-def-identifier">CSSÂ LevelÂ 1</a>, <a class="reference external" href="https://www.w3.org/TR/CSS/#css-level-1">CSS2.1</a>, <a class="reference external" href="https://www.w3.org/TR/CSS22/syndata.html">CSS2.2</a>, and <a class="reference external" href="https://www.w3.org/TR/css-syntax-3/#typedef-ident-token">CSS3</a>.</p>
+</dd>
+</dl>
+</div>
+</section>
+</section>
+<section id="custom-interpreted-text-roles">
+<span id="role"></span><h3>Custom Interpreted Text Roles<a class="headerlink" href="#custom-interpreted-text-roles" title="Permalink to this headline">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">Directive Type</dt>
+<dd class="field-odd"><p>“role”</p>
+</dd>
+<dt class="field-even">Doctree Element</dt>
+<dd class="field-even"><p>None; affects subsequent parsing.</p>
+</dd>
+<dt class="field-odd">Directive Arguments</dt>
+<dd class="field-odd"><p>Two; one required (new <a class="reference internal" href="#role-name">role name</a>), one optional
+(base role name, in parentheses).</p>
+</dd>
+<dt class="field-even">Directive Options</dt>
+<dd class="field-even"><p>Possible (depends on base role).</p>
+</dd>
+<dt class="field-odd">Directive Content</dt>
+<dd class="field-odd"><p>depends on base role.</p>
+</dd>
+</dl>
+<p>(New in Docutils 0.3.2)</p>
+<p>The “role” directive dynamically creates a custom <a class="reference external" href="roles.html">interpreted text
+role</a> and registers it with the parser.  This means that after
+declaring a role like this:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">role</span><span class="p">::</span> <span class="n">custom</span>
+</pre></div>
+</div>
+<p>the document may use the new “custom” role:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>An example of using :custom:`interpreted text`
+</pre></div>
+</div>
+<p>This will be parsed into the following document tree fragment:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">paragraph</span><span class="o">&gt;</span>
+    <span class="n">An</span> <span class="n">example</span> <span class="n">of</span> <span class="n">using</span>
+    <span class="o">&lt;</span><span class="n">inline</span> <span class="n">classes</span><span class="o">=</span><span class="s2">&quot;custom&quot;</span><span class="o">&gt;</span>
+        <span class="n">interpreted</span> <span class="n">text</span>
+</pre></div>
+</div>
+<p>The role must be declared in a document before it can be used.</p>
+<p id="role-name">Role names are case insensitive and must conform to the rules of
+simple <a class="reference external" href="restructuredtext.html#reference-names">reference names</a> (but do not share a namespace with
+hyperlinks, footnotes, and citations).</p>
+<p>The new role may be based on an existing role, specified as a second
+argument in parentheses (whitespace optional):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>.. role:: custom(emphasis)
+
+:custom:`text`
+</pre></div>
+</div>
+<p>The parsed result is as follows:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">paragraph</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="n">emphasis</span> <span class="n">classes</span><span class="o">=</span><span class="s2">&quot;custom&quot;</span><span class="o">&gt;</span>
+        <span class="n">text</span>
+</pre></div>
+</div>
+<p>A special case is the <a class="reference external" href="roles.html#raw">“raw” role</a>: derived roles enable
+inline <a class="reference internal" href="#raw-data-pass-through">raw data pass-through</a>, e.g.:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>.. role:: raw-role(raw)
+   :format: html latex
+
+:raw-role:`raw text`
+</pre></div>
+</div>
+<p>If no base role is explicitly specified, a generic custom role is
+automatically used.  Subsequent interpreted text will produce an
+“inline” element with a <a class="reference external" href="../doctree.html#classes">“classes”</a> attribute, as in the first example
+above.</p>
+<p>With most roles, the “:class:” option can be used to set a “classes”
+attribute that is different from the role name.  For example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>.. role:: custom
+   :class: special
+
+:custom:`interpreted text`
+</pre></div>
+</div>
+<p>This is the parsed result:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">paragraph</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="n">inline</span> <span class="n">classes</span><span class="o">=</span><span class="s2">&quot;special&quot;</span><span class="o">&gt;</span>
+        <span class="n">interpreted</span> <span class="n">text</span>
+</pre></div>
+</div>
+<p id="role-class">The following option is recognized by the “role” directive for most
+base roles:</p>
+<dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">class</span></code><span class="classifier">text</span></dt><dd><p>Set the <a class="reference external" href="../doctree.html#classes">“classes”</a> attribute value on the element produced
+(<code class="docutils literal notranslate"><span class="pre">inline</span></code>, or element associated with a base class) when the
+custom interpreted text role is used.  If no directive options are
+specified, a “class” option with the directive argument (role
+name) as the value is implied.  See the <a class="reference internal" href="#class">class</a> directive above.</p>
+</dd>
+</dl>
+<p>Specific base roles may support other options and/or directive
+content.  See the <a class="reference external" href="roles.html">reStructuredText Interpreted Text Roles</a> document
+for details.</p>
+</section>
+<section id="setting-the-default-interpreted-text-role">
+<span id="default-role"></span><h3>Setting the Default Interpreted Text Role<a class="headerlink" href="#setting-the-default-interpreted-text-role" title="Permalink to this headline">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">Directive Type</dt>
+<dd class="field-odd"><p>“default-role”</p>
+</dd>
+<dt class="field-even">Doctree Element</dt>
+<dd class="field-even"><p>None; affects subsequent parsing.</p>
+</dd>
+<dt class="field-odd">Directive Arguments</dt>
+<dd class="field-odd"><p>One, optional (new default role name).</p>
+</dd>
+<dt class="field-even">Directive Options</dt>
+<dd class="field-even"><p>None.</p>
+</dd>
+<dt class="field-odd">Directive Content</dt>
+<dd class="field-odd"><p>None.</p>
+</dd>
+</dl>
+<p>(New in Docutils 0.3.10)</p>
+<p>The “default-role” directive sets the default interpreted text role,
+the role that is used for interpreted text without an explicit role.
+For example, after setting the default role like this:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">default</span><span class="o">-</span><span class="n">role</span><span class="p">::</span> <span class="n">subscript</span>
+</pre></div>
+</div>
+<p>any subsequent use of implicit-role interpreted text in the document
+will use the “subscript” role:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>An example of a `default` role.
+</pre></div>
+</div>
+<p>This will be parsed into the following document tree fragment:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">paragraph</span><span class="o">&gt;</span>
+    <span class="n">An</span> <span class="n">example</span> <span class="n">of</span> <span class="n">a</span>
+    <span class="o">&lt;</span><span class="n">subscript</span><span class="o">&gt;</span>
+        <span class="n">default</span>
+     <span class="n">role</span><span class="o">.</span>
+</pre></div>
+</div>
+<p>Custom roles may be used (see the “<a class="reference internal" href="#role">role</a>” directive above), but it
+must have been declared in a document before it can be set as the
+default role.  See the <a class="reference external" href="roles.html">reStructuredText Interpreted Text Roles</a>
+document for details of built-in roles.</p>
+<p>The directive may be used without an argument to restore the initial
+default interpreted text role, which is application-dependent.  The
+initial default interpreted text role of the standard reStructuredText
+parser is “title-reference”.</p>
+</section>
+<section id="metadata">
+<h3>Metadata<a class="headerlink" href="#metadata" title="Permalink to this headline">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">Directive Type</dt>
+<dd class="field-odd"><p>“meta”</p>
+</dd>
+<dt class="field-even">Doctree Element</dt>
+<dd class="field-even"><p><a class="reference external" href="../doctree.html#pending">pending</a>, meta (non-standard)</p>
+</dd>
+<dt class="field-odd">Directive Arguments</dt>
+<dd class="field-odd"><p>None.</p>
+</dd>
+<dt class="field-even">Directive Options</dt>
+<dd class="field-even"><p>None.</p>
+</dd>
+<dt class="field-odd">Directive Content</dt>
+<dd class="field-odd"><p>Must contain a flat field list.</p>
+</dd>
+</dl>
+<p>The “meta” directive is used to specify metadata<a class="footnote-reference brackets" href="#id23" id="id22">7</a> to be stored
+in, e.g., HTML META tags or as ODT file properties.  If the output
+format does not support “invisible” metadata, it is silently
+dropped by the writer.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Data from some <a class="reference external" href="restructuredtext.html#bibliographic-fields">bibliographic fields</a> is automatically
+extracted and stored in META tags, too. However, Bibliographic
+Fields are also visible in the document’s screen rendering or
+printout.</p>
+<p>For an “invisible” <em>document title</em>, see the <a class="reference internal" href="#metadata-document-title">metadata document
+title</a> directive below.</p>
+</div>
+<p>Within the directive block, a flat field list provides the syntax for
+metadata.  The field name becomes the contents of the “name” attribute
+of the META tag, and the field body (interpreted as a single string
+without inline markup) becomes the contents of the “content”
+attribute.  For example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">meta</span><span class="p">::</span>
+   <span class="p">:</span><span class="n">description</span><span class="p">:</span> <span class="n">The</span> <span class="n">reStructuredText</span> <span class="n">plaintext</span> <span class="n">markup</span> <span class="n">language</span>
+   <span class="p">:</span><span class="n">keywords</span><span class="p">:</span> <span class="n">plaintext</span><span class="p">,</span> <span class="n">markup</span> <span class="n">language</span>
+</pre></div>
+</div>
+<p>This would be converted to the following HTML:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">meta</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;description&quot;</span>
+    <span class="n">content</span><span class="o">=</span><span class="s2">&quot;The reStructuredText plaintext markup language&quot;</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="n">meta</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;keywords&quot;</span> <span class="n">content</span><span class="o">=</span><span class="s2">&quot;plaintext, markup language&quot;</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>Support for other META attributes (“http-equiv”, “scheme”, “lang”,
+“dir”) are provided through field arguments, which must be of the form
+“attr=value”:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">meta</span><span class="p">::</span>
+   <span class="p">:</span><span class="n">description</span> <span class="n">lang</span><span class="o">=</span><span class="n">en</span><span class="p">:</span> <span class="n">An</span> <span class="n">amusing</span> <span class="n">story</span>
+   <span class="p">:</span><span class="n">description</span> <span class="n">lang</span><span class="o">=</span><span class="n">fr</span><span class="p">:</span> <span class="n">Une</span> <span class="n">histoire</span> <span class="n">amusante</span>
+</pre></div>
+</div>
+<p>And their HTML equivalents:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">meta</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;description&quot;</span> <span class="n">lang</span><span class="o">=</span><span class="s2">&quot;en&quot;</span> <span class="n">content</span><span class="o">=</span><span class="s2">&quot;An amusing story&quot;</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="n">meta</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;description&quot;</span> <span class="n">lang</span><span class="o">=</span><span class="s2">&quot;fr&quot;</span> <span class="n">content</span><span class="o">=</span><span class="s2">&quot;Une histoire amusante&quot;</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>Some META tags use an “http-equiv” attribute instead of the “name”
+attribute.  To specify “http-equiv” META tags, simply omit the name:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">meta</span><span class="p">::</span>
+   <span class="p">:</span><span class="n">http</span><span class="o">-</span><span class="n">equiv</span><span class="o">=</span><span class="n">Content</span><span class="o">-</span><span class="n">Type</span><span class="p">:</span> <span class="n">text</span><span class="o">/</span><span class="n">html</span><span class="p">;</span> <span class="n">charset</span><span class="o">=</span><span class="n">ISO</span><span class="o">-</span><span class="mi">8859</span><span class="o">-</span><span class="mi">1</span>
+</pre></div>
+</div>
+<p>HTML equivalent:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">meta</span> <span class="n">http</span><span class="o">-</span><span class="n">equiv</span><span class="o">=</span><span class="s2">&quot;Content-Type&quot;</span>
+     <span class="n">content</span><span class="o">=</span><span class="s2">&quot;text/html; charset=ISO-8859-1&quot;</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<dl class="footnote brackets">
+<dt class="label" id="id23"><span class="brackets"><a class="fn-backref" href="#id22">7</a></span></dt>
+<dd><p>“Metadata” is data about data, in this case data about the
+document. Metadata is, e.g., used to describe and classify web
+pages in the World Wide Web, in a form that is easy for search
+engines to extract and collate.</p>
+</dd>
+</dl>
+</section>
+<section id="metadata-document-title">
+<h3>Metadata Document Title<a class="headerlink" href="#metadata-document-title" title="Permalink to this headline">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">Directive Type</dt>
+<dd class="field-odd"><p>“title”</p>
+</dd>
+<dt class="field-even">Doctree Element</dt>
+<dd class="field-even"><p>None.</p>
+</dd>
+<dt class="field-odd">Directive Arguments</dt>
+<dd class="field-odd"><p>One, required (the title text).</p>
+</dd>
+<dt class="field-even">Directive Options</dt>
+<dd class="field-even"><p>None.</p>
+</dd>
+<dt class="field-odd">Directive Content</dt>
+<dd class="field-odd"><p>None.</p>
+</dd>
+</dl>
+<p>The “title” directive specifies the document title as metadata, which
+does not become part of the document body.  It overrides a
+document-supplied title.  For example, in HTML output the metadata
+document title appears in the title bar of the browser window.</p>
+</section>
+<section id="restructuredtext-test-directive">
+<h3>Restructuredtext-Test-Directive<a class="headerlink" href="#restructuredtext-test-directive" title="Permalink to this headline">¶</a></h3>
+<dl class="field-list simple">
+<dt class="field-odd">Directive Type</dt>
+<dd class="field-odd"><p>“restructuredtext-test-directive”</p>
+</dd>
+<dt class="field-even">Doctree Element</dt>
+<dd class="field-even"><p>system_warning</p>
+</dd>
+<dt class="field-odd">Directive Arguments</dt>
+<dd class="field-odd"><p>None.</p>
+</dd>
+<dt class="field-even">Directive Options</dt>
+<dd class="field-even"><p>None.</p>
+</dd>
+<dt class="field-odd">Directive Content</dt>
+<dd class="field-odd"><p>Interpreted as a literal block.</p>
+</dd>
+</dl>
+<p>This directive is provided for test purposes only.  (Nobody is
+expected to type in a name <em>that</em> long!)  It is converted into a
+level-1 (info) system message showing the directive data, possibly
+followed by a literal block containing the rest of the directive
+block.</p>
+</section>
+</section>
+<section id="common-options">
+<h2><a class="toc-backref" href="#id45">Common Options</a><a class="headerlink" href="#common-options" title="Permalink to this headline">¶</a></h2>
+<p>Most of the directives that generate doctree elements support the following
+options:</p>
+<dl id="class-option">
+<dt><span class="target" id="id24">:class:</span><span class="classifier">text</span></dt><dd><p>Set a <a class="reference external" href="../doctree.html#classes">“classes”</a> attribute value on the doctree element generated by
+the directive. See also the <a class="reference internal" href="#class">class</a> directive.</p>
+</dd>
+<dt><span class="target" id="name">:name:</span><span class="classifier">text</span></dt><dd><p>Add <code class="xref py py-obj docutils literal notranslate"><span class="pre">text</span></code> to the <a class="reference external" href="../doctree.html#names">“names”</a> attribute of the doctree element generated
+by the directive. This allows <a class="reference external" href="restructuredtext.html#hyperlink-references">hyperlink references</a> to the element
+using <code class="xref py py-obj docutils literal notranslate"><span class="pre">text</span></code> as <a class="reference external" href="restructuredtext.html#reference-names">reference name</a>.</p>
+<p>Specifying the <code class="xref py py-obj docutils literal notranslate"><span class="pre">name</span></code> option of a directive, e.g.,</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">image</span><span class="p">::</span> <span class="n">bild</span><span class="o">.</span><span class="n">png</span>
+   <span class="p">:</span><span class="n">name</span><span class="p">:</span> <span class="n">my</span> <span class="n">picture</span>
+</pre></div>
+</div>
+<p>is a concise syntax alternative to preceding it with a <a class="reference external" href="restructuredtext.html#hyperlink-targets">hyperlink
+target</a></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">_my</span> <span class="n">picture</span><span class="p">:</span>
+
+<span class="o">..</span> <span class="n">image</span><span class="p">::</span> <span class="n">bild</span><span class="o">.</span><span class="n">png</span>
+</pre></div>
+</div>
+<p>New in Docutils 0.8.</p>
+</dd>
+</dl>
+</section>
+</section>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="reStructured-Text-Special-directives.html" class="btn btn-neutral float-right" title="reStructured Text Special directives" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../bareos/guides/intro/import-guide.html" class="btn btn-neutral float-left" title="Importing Your Documentation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020-2021, Thomas Connors and Contributors.
+      <span class="lastupdated">
+        Last updated on Thu, 08 Apr 2021 12:00 AM .
+      </span>
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+  
+ <script type="text/javascript">
+    $(document).ready(function() {
+        $(".toggle > *").hide();
+        $(".toggle .header").show();
+        $(".toggle .header").click(function() {
+            $(this).parent().children().not(".header").toggle(400);
+            $(this).parent().children(".header").toggleClass("open");
+        })
+    });
+</script>
+
+
+</body>
+</html>

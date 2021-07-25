@@ -1,0 +1,644 @@
+
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  
+  <title>Docker and Sphinx &mdash; all-knowledge</title>
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="../_static/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../_static/icons/favicon-16x16.png">
+  <link rel="manifest" href="../_static/icons/site.webmanifest">
+  <link rel="mask-icon" href="../_static/icons/safari-pinned-tab.svg" color="#919191">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="msapplication-config" content="../_static/icons/browserconfig.xml">
+  <link rel="stylesheet" href="../_static/stylesheets/examples.css">
+  <link rel="stylesheet" href="../_static/stylesheets/deprecation.css">
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/tooltipster.custom.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/tooltipster.bundle.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/tooltipster-sideTip-shadow.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/tooltipster-sideTip-punk.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/tooltipster-sideTip-noir.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/tooltipster-sideTip-light.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/tooltipster-sideTip-borderless.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/micromodal.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/tabs.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/sphinx_rtd_theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/contentui.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/gallery.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/gallery-binder.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/gallery-dataframe.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/gallery-rendered-html.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/sphinxcontrib-images/LightBox2/lightbox2/css/lightbox.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+
+  
+  
+
+  
+    <link rel="canonical" href="https://pandemic-overview.readthedocs.io/en/latest/myGuides/Docker-and-Sphinx.html" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/clipboard.min.js"></script>
+        <script src="../_static/copybutton.js"></script>
+        <script src="../_static/js/hoverxref.js"></script>
+        <script src="../_static/js/tooltipster.bundle.min.js"></script>
+        <script src="../_static/js/micromodal.min.js"></script>
+        <script src="../_static/tabs.js"></script>
+        <script src="../_static/js/expand_tabs.js"></script>
+        <script src="../_static/contentui.js"></script>
+        <script src="../_static/sphinxcontrib-images/LightBox2/lightbox2/js/jquery-1.11.0.min.js"></script>
+        <script src="../_static/sphinxcontrib-images/LightBox2/lightbox2/js/lightbox.min.js"></script>
+        <script src="../_static/sphinxcontrib-images/LightBox2/lightbox2-customize/jquery-noconflict.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Google Bing Webmaster Tools Search and Rich Results" href="Google-Bing-Webmaster-Tools-Search-and-Rich-Results.html" />
+    <link rel="prev" title="Introduction to Developing in the Docker Container Workflow" href="Container-Workflow.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html">
+          
+
+          
+            
+            <img src="../_static/statsmodels-logo-v2-bw.svg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../topics/Covid-Medical-Treatments/Covid-Medical-Treatments.html">Covid Medical Treatments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Bill-Gates-Memes/Bill-Gates-Memes.html">Bill Gates Memes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/topics.html">Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Data-science-of-the-pandemic/Data-science-of-the-pandemic.html">Data Science of the Pandemic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Vaccines/Vaccines.html">Vaccines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Masks/Masks.html">Masks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Lockdowns/Lockdowns.html">Lockdowns</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Origins-of-the-Virus/Origins-of-the-Virus.html">Origins of the Virus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Pandemic-Preparedness/Pandemic-Preparedness.html">Pandemic Preparedness</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Pandemic-Participants/Pandemic-Participants.html">Pandemic Participants</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Food-Safety/Food-Safety.html">Food Safety</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Municipal-Matters/Municipal-Matters.html">Municipal Issues and Topics</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../How-you-can-help/How-you-can-help.html">How you can help</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="Tech-stack-for-this-website.html">Tech stack for this website</a></li>
+<li class="toctree-l2"><a class="reference internal" href="myGuides.html">My Guides for Various Technical Topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="General-computer-setup.html">General Computer Setup</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="Advanced-Computer-Setup.html">Advanced Computer Setup and Topics</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="ReadTheDocs-Documentation-System.html">ReadTheDocs Documentation System</a></li>
+<li class="toctree-l3"><a class="reference internal" href="vscode-SSH-Remote-Containers.html">Visual Studio Code SSH Remote Development with Containers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Documentation-System.html">Sphinx Documentation System</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../bareos/index.html">Bareos Project - Reference Implementation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Container-Workflow.html">Introduction to Developing in the Docker Container Workflow</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Docker and Sphinx</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#docker">Docker</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#install-docker-engine-on-debian">Install Docker Engine on Debian</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#docker-post-installation-steps-for-linux">Docker: Post-installation steps for Linux</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#how-to-install-and-use-docker-on-debian-10">How To Install and Use Docker on Debian 10</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#docker-sphinx-good-end-to-end-overview">Docker Sphinx - Good end-to-end overview</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#digitalocean-sample-dockerfile">digitalocean/sample-dockerfile</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#official-docker-sphinx">Official docker-sphinx</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#sphinxsearch-jul-7-2014-sphinx-in-docker-the-basics">SphinXsearch Jul 7, 2014. Sphinx in Docker. The basics.</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#docker-sphinxsearch">docker-sphinxsearch</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#keimlink-docker-sphinx-doc">keimlink/docker-sphinx-doc</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#sphinxdocker-dockerfile">sphinxdocker/Dockerfile</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#gitlab-ci-with-docker-and-sphinx">Gitlab CI with Docker and Sphinx</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#readthedocs-getting-started-with-sphinx">ReadTheDocs - Getting Started with Sphinx</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Google-Bing-Webmaster-Tools-Search-and-Rich-Results.html">Google Bing Webmaster Tools Search and Rich Results</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Binder.html">Binder usage with Sphinx-Gallery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="How-to-install-python-on-debian.html">How To Install Python on Debian</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Invenio-Software.html">Invenio Software</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pip-package-installer-for-python.html">pip is the package installer for Python</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-copybutton.html">Sphinx Copybutton</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-embed-object-iFrame-video-html-PDF-twitter-examples.html">Sphinx embed object iFrame video html PDF Twitter examples</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Lillypond.html">Sphinx Lillypond</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-last-updated-by-git.html">sphinx-last-updated-by-git</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-last-updated-by-git.html#get-the-last-updated-time-for-each-sphinx-page-from-git">Get the “last updated” time for each Sphinx page from Git</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Twitter.html">Sphinx Twitter (Python Twitter)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Gallery.html">Sphinx Gallery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Gitstamp.html">Sphinx Gitstamp Generator Extension</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Jinja.html">Sphinx Jinja is a templating engine</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Hoverxref.html">Sphinx Hoverxref</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-pdfembed.html">Sphinx PDF Embed - sphinxcontrib-pdfembed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinxext-remoteliteralinclude.html">Sphinx Remote Literal Include</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Redirects.html">Sphinx Redirects</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-rediraffe.html">Sphinx Rediraffe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Sitemap.html">Sphinx Sitemap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Templating.html">Sphinx Templating</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Timeline.html">Sphinx Timeline</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Werkzeug-comprehensive-WSGI-web-application-library.html">Werkzeug WSGI web application library</a></li>
+<li class="toctree-l3"><a class="reference internal" href="WSGI-is-the-Web-Server-Gateway-Interface.html">WSGI is the Web Server Gateway Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Zenodo.html">Zenodo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Zotero.html">Zotero</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kubernetes.html">Kubernetes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Github-Workflow.html">GitHub Workflow</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="aws/Amazon-AWS-Learning.html">Amazon AWS Learning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ToDo-project-tasks.html">ToDo project and documentation tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Contribute.html">Contribute</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Upcoming-software-to-try.html">Links of Upcoming Software to Try</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../How-you-can-help/Links-to-add-to-site.html">Links to add to the documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../How-you-can-help/Future-topics-to-be-developed.html">Future Topics to be developed</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Sandbox/Sandbox.html">Sandbox</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../License/license.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Help-about/help.html">Help - About</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Covid-Medical-Treatments/Covid-Medical-Treatments.html">Covid Medical Treatments</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Bill-Gates-Memes/Bill-Gates-Memes.html">Bill Gates Memes</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/topics.html">Topics</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Data-science-of-the-pandemic/Data-science-of-the-pandemic.html">Data Science of the Pandemic</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Vaccines/Vaccines.html">Vaccines</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Masks/Masks.html">Masks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Lockdowns/Lockdowns.html">Lockdowns</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Origins-of-the-Virus/Origins-of-the-Virus.html">Origins of the Virus</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Pandemic-Preparedness/Pandemic-Preparedness.html">Pandemic Preparedness</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Pandemic-Participants/Pandemic-Participants.html">Pandemic Participants</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Food-Safety/Food-Safety.html">Food Safety</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../topics/Municipal-Matters/Municipal-Matters.html">Municipal Issues and Topics</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../How-you-can-help/How-you-can-help.html">How you can help</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="Tech-stack-for-this-website.html">Tech stack for this website</a></li>
+<li class="toctree-l2"><a class="reference internal" href="myGuides.html">My Guides for Various Technical Topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="General-computer-setup.html">General Computer Setup</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="Advanced-Computer-Setup.html">Advanced Computer Setup and Topics</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="ReadTheDocs-Documentation-System.html">ReadTheDocs Documentation System</a></li>
+<li class="toctree-l3"><a class="reference internal" href="vscode-SSH-Remote-Containers.html">Visual Studio Code SSH Remote Development with Containers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Documentation-System.html">Sphinx Documentation System</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../bareos/index.html">Bareos Project - Reference Implementation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Container-Workflow.html">Introduction to Developing in the Docker Container Workflow</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Docker and Sphinx</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#docker">Docker</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#install-docker-engine-on-debian">Install Docker Engine on Debian</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#docker-post-installation-steps-for-linux">Docker: Post-installation steps for Linux</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#how-to-install-and-use-docker-on-debian-10">How To Install and Use Docker on Debian 10</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#docker-sphinx-good-end-to-end-overview">Docker Sphinx - Good end-to-end overview</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#digitalocean-sample-dockerfile">digitalocean/sample-dockerfile</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#official-docker-sphinx">Official docker-sphinx</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#sphinxsearch-jul-7-2014-sphinx-in-docker-the-basics">SphinXsearch Jul 7, 2014. Sphinx in Docker. The basics.</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#docker-sphinxsearch">docker-sphinxsearch</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#keimlink-docker-sphinx-doc">keimlink/docker-sphinx-doc</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#sphinxdocker-dockerfile">sphinxdocker/Dockerfile</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#gitlab-ci-with-docker-and-sphinx">Gitlab CI with Docker and Sphinx</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#readthedocs-getting-started-with-sphinx">ReadTheDocs - Getting Started with Sphinx</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Google-Bing-Webmaster-Tools-Search-and-Rich-Results.html">Google Bing Webmaster Tools Search and Rich Results</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Binder.html">Binder usage with Sphinx-Gallery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="How-to-install-python-on-debian.html">How To Install Python on Debian</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Invenio-Software.html">Invenio Software</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pip-package-installer-for-python.html">pip is the package installer for Python</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-copybutton.html">Sphinx Copybutton</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-embed-object-iFrame-video-html-PDF-twitter-examples.html">Sphinx embed object iFrame video html PDF Twitter examples</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Lillypond.html">Sphinx Lillypond</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-last-updated-by-git.html">sphinx-last-updated-by-git</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-last-updated-by-git.html#get-the-last-updated-time-for-each-sphinx-page-from-git">Get the “last updated” time for each Sphinx page from Git</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Twitter.html">Sphinx Twitter (Python Twitter)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Gallery.html">Sphinx Gallery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Gitstamp.html">Sphinx Gitstamp Generator Extension</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Jinja.html">Sphinx Jinja is a templating engine</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Hoverxref.html">Sphinx Hoverxref</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-pdfembed.html">Sphinx PDF Embed - sphinxcontrib-pdfembed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinxext-remoteliteralinclude.html">Sphinx Remote Literal Include</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Redirects.html">Sphinx Redirects</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-rediraffe.html">Sphinx Rediraffe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Sitemap.html">Sphinx Sitemap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Templating.html">Sphinx Templating</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sphinx-Timeline.html">Sphinx Timeline</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Werkzeug-comprehensive-WSGI-web-application-library.html">Werkzeug WSGI web application library</a></li>
+<li class="toctree-l3"><a class="reference internal" href="WSGI-is-the-Web-Server-Gateway-Interface.html">WSGI is the Web Server Gateway Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Zenodo.html">Zenodo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Zotero.html">Zotero</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kubernetes.html">Kubernetes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Github-Workflow.html">GitHub Workflow</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="aws/Amazon-AWS-Learning.html">Amazon AWS Learning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ToDo-project-tasks.html">ToDo project and documentation tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Contribute.html">Contribute</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Upcoming-software-to-try.html">Links of Upcoming Software to Try</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../How-you-can-help/Links-to-add-to-site.html">Links to add to the documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../How-you-can-help/Future-topics-to-be-developed.html">Future Topics to be developed</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">all-knowledge</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../How-you-can-help/How-you-can-help.html">How you can help</a> &raquo;</li>
+        
+          <li><a href="Advanced-Computer-Setup.html">Advanced Computer Setup and Topics</a> &raquo;</li>
+        
+      <li>Docker and Sphinx</li>
+    
+    
+    <li class="wy-breadcrumbs-aside">
+    
+        
+        <a href="../_sources/myGuides/Docker-and-Sphinx.rst.txt" rel="nofollow"> View page source</a>
+        
+    
+    </li>
+
+  </ul>
+
+  
+  <div class="rst-breadcrumbs-buttons" role="navigation" aria-label="breadcrumb navigation">
+      
+        <a href="Google-Bing-Webmaster-Tools-Search-and-Rich-Results.html" class="btn btn-neutral float-right" title="Google Bing Webmaster Tools Search and Rich Results" accesskey="n">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+      
+      
+        <a href="Container-Workflow.html" class="btn btn-neutral float-left" title="Introduction to Developing in the Docker Container Workflow" accesskey="p"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+      
+  </div>
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <section id="docker-and-sphinx">
+<h1>Docker and Sphinx<a class="headerlink" href="#docker-and-sphinx" title="Permalink to this headline">¶</a></h1>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<div class="line-block">
+<div class="line">This page was:</div>
+<div class="line">Created April 12 2021</div>
+<div class="line">Updated May 13 2021</div>
+<div class="line">Last Built Sat, 24 Jul 2021 07:40 AM Coordinated Universal Time</div>
+</div>
+</div>
+<div class="contents local topic" id="contents">
+<ul class="simple">
+<li><p><a class="reference internal" href="#docker" id="id1">Docker</a></p></li>
+<li><p><a class="reference internal" href="#install-docker-engine-on-debian" id="id2">Install Docker Engine on Debian</a></p></li>
+<li><p><a class="reference internal" href="#docker-post-installation-steps-for-linux" id="id3">Docker: Post-installation steps for Linux</a></p></li>
+<li><p><a class="reference internal" href="#how-to-install-and-use-docker-on-debian-10" id="id4">How To Install and Use Docker on Debian 10</a></p></li>
+<li><p><a class="reference internal" href="#docker-sphinx-good-end-to-end-overview" id="id5">Docker Sphinx - Good end-to-end overview</a></p></li>
+<li><p><a class="reference internal" href="#digitalocean-sample-dockerfile" id="id6">digitalocean/sample-dockerfile</a></p></li>
+<li><p><a class="reference internal" href="#official-docker-sphinx" id="id7">Official docker-sphinx</a></p></li>
+<li><p><a class="reference internal" href="#sphinxsearch-jul-7-2014-sphinx-in-docker-the-basics" id="id8">SphinXsearch Jul 7, 2014. Sphinx in Docker. The basics.</a></p></li>
+<li><p><a class="reference internal" href="#docker-sphinxsearch" id="id9">docker-sphinxsearch</a></p>
+<ul>
+<li><p><a class="reference internal" href="#usage-example" id="id10">Usage example</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#keimlink-docker-sphinx-doc" id="id11">keimlink/docker-sphinx-doc</a></p></li>
+<li><p><a class="reference internal" href="#sphinxdocker-dockerfile" id="id12">sphinxdocker/Dockerfile</a></p></li>
+<li><p><a class="reference internal" href="#gitlab-ci-with-docker-and-sphinx" id="id13">Gitlab CI with Docker and Sphinx</a></p></li>
+<li><p><a class="reference internal" href="#readthedocs-getting-started-with-sphinx" id="id14">ReadTheDocs - Getting Started with Sphinx</a></p></li>
+</ul>
+</div>
+<section id="docker">
+<h2><a class="toc-backref" href="#id1">Docker</a><a class="headerlink" href="#docker" title="Permalink to this headline">¶</a></h2>
+<p>Docker is a container software system</p>
+</section>
+<section id="install-docker-engine-on-debian">
+<h2><a class="toc-backref" href="#id2">Install Docker Engine on Debian</a><a class="headerlink" href="#install-docker-engine-on-debian" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://docs.docker.com/engine/install/debian/">https://docs.docker.com/engine/install/debian/</a></p>
+</section>
+<section id="docker-post-installation-steps-for-linux">
+<h2><a class="toc-backref" href="#id3">Docker: Post-installation steps for Linux</a><a class="headerlink" href="#docker-post-installation-steps-for-linux" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://docs.docker.com/engine/install/linux-postinstall/">https://docs.docker.com/engine/install/linux-postinstall/</a></p>
+</section>
+<section id="how-to-install-and-use-docker-on-debian-10">
+<h2><a class="toc-backref" href="#id4">How To Install and Use Docker on Debian 10</a><a class="headerlink" href="#how-to-install-and-use-docker-on-debian-10" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-debian-10">https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-debian-10</a></p>
+</section>
+<section id="docker-sphinx-good-end-to-end-overview">
+<h2><a class="toc-backref" href="#id5">Docker Sphinx - Good end-to-end overview</a><a class="headerlink" href="#docker-sphinx-good-end-to-end-overview" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://github.com/coding-to-music/docker-sphinx-doc">https://github.com/coding-to-music/docker-sphinx-doc</a></p>
+<p>Docker Sphinx - Good end-to-end overview</p>
+<ul class="simple">
+<li><p>Docker sphinx-quickstart</p></li>
+<li><p>Docker Run build html</p></li>
+<li><p>create a dockerfile</p></li>
+<li><p>Docker Build the image</p></li>
+<li><p>Docker Run the container</p></li>
+</ul>
+</section>
+<section id="digitalocean-sample-dockerfile">
+<h2><a class="toc-backref" href="#id6">digitalocean/sample-dockerfile</a><a class="headerlink" href="#digitalocean-sample-dockerfile" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://github.com/digitalocean/sample-dockerfile">https://github.com/digitalocean/sample-dockerfile</a></p>
+</section>
+<section id="official-docker-sphinx">
+<h2><a class="toc-backref" href="#id7">Official docker-sphinx</a><a class="headerlink" href="#official-docker-sphinx" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://github.com/sphinx-doc/docker">https://github.com/sphinx-doc/docker</a></p>
+<p><a class="reference external" href="https://hub.docker.com/r/sphinxdoc/sphinx">https://hub.docker.com/r/sphinxdoc/sphinx</a></p>
+<p>Usage
+Create a Sphinx project</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ docker run -it --rm -v /path/to/document:/docs sphinxdoc/sphinx sphinx-quickstart
+</pre></div>
+</div>
+<p>Build HTML document</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ docker run --rm -v /path/to/document:/docs sphinxdoc/sphinx make html
+</pre></div>
+</div>
+<p>Build EPUB document</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ docker run --rm -v /path/to/document:/docs sphinxdoc/sphinx make epub
+</pre></div>
+</div>
+<p>Build PDF document</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ docker run --rm -v /path/to/document:/docs sphinxdoc/sphinx-latexpdf make latexpdf
+</pre></div>
+</div>
+<p>Tips</p>
+<p>If you would like to install dependencies, use sphinxdoc/sphinx as a base image:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># in your Dockerfile</span>
+<span class="n">FROM</span> <span class="n">sphinxdoc</span><span class="o">/</span><span class="n">sphinx</span>
+
+<span class="n">WORKDIR</span> <span class="o">/</span><span class="n">docs</span>
+<span class="n">ADD</span> <span class="n">requirements</span><span class="o">.</span><span class="n">txt</span> <span class="o">/</span><span class="n">docs</span>
+<span class="n">RUN</span> <span class="n">pip3</span> <span class="n">install</span> <span class="o">-</span><span class="n">r</span> <span class="n">requirements</span><span class="o">.</span><span class="n">txt</span>
+</pre></div>
+</div>
+</section>
+<section id="sphinxsearch-jul-7-2014-sphinx-in-docker-the-basics">
+<h2><a class="toc-backref" href="#id8">SphinXsearch Jul 7, 2014. Sphinx in Docker. The basics.</a><a class="headerlink" href="#sphinxsearch-jul-7-2014-sphinx-in-docker-the-basics" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="http://sphinxsearch.com/blog/2014/07/07/sphinx-in-docker-the-basics/">http://sphinxsearch.com/blog/2014/07/07/sphinx-in-docker-the-basics/</a></p>
+<p>Sphinx in Docker. The basics</p>
+<ul class="simple">
+<li><p>What is Docker?</p></li>
+<li><p>Docker and sphinx</p></li>
+<li><p>Clone and build</p></li>
+<li><p>Run</p></li>
+<li><p>sudo docker.io ps</p></li>
+<li><p>docker.io inspect (container id)</p></li>
+<li><p>indexandsearch.sh and searchd.sh</p></li>
+<li><p>Command line search</p></li>
+</ul>
+</section>
+<section id="docker-sphinxsearch">
+<h2><a class="toc-backref" href="#id9">docker-sphinxsearch</a><a class="headerlink" href="#docker-sphinxsearch" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://github.com/coding-to-music/docker-sphinxsearch">https://github.com/coding-to-music/docker-sphinxsearch</a></p>
+<p>Docker image for Sphinx search engine</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">macbre</span><span class="o">/</span><span class="n">sphinxsearch</span>
+</pre></div>
+</div>
+<section id="usage-example">
+<h3><a class="toc-backref" href="#id10">Usage example</a><a class="headerlink" href="#usage-example" title="Permalink to this headline">¶</a></h3>
+<p>You can use this image in docker-compose-powered app:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">services</span><span class="p">:</span>
+<span class="n">sphinx</span><span class="p">:</span>
+    <span class="n">image</span><span class="p">:</span> <span class="n">macbre</span><span class="o">/</span><span class="n">sphinxsearch</span><span class="p">:</span><span class="mf">3.3.1</span>
+    <span class="n">ports</span><span class="p">:</span>
+    <span class="o">-</span> <span class="s2">&quot;127.0.0.1:36307:36307&quot;</span> <span class="c1"># bind to local interface only!</span>
+    <span class="n">volumes</span><span class="p">:</span>
+    <span class="o">-</span> <span class="o">./</span><span class="n">data</span><span class="p">:</span><span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">sphinx</span><span class="o">/</span><span class="n">index</span>  <span class="c1"># directory where sphinx will store index data</span>
+    <span class="o">-</span> <span class="o">./</span><span class="n">sphinx</span><span class="o">.</span><span class="n">conf</span><span class="p">:</span><span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">sphinx</span><span class="o">/</span><span class="n">conf</span><span class="o">/</span><span class="n">sphinx</span><span class="o">.</span><span class="n">conf</span>  <span class="c1"># SphinxSE configuration file</span>
+    <span class="n">mem_limit</span><span class="p">:</span> <span class="mi">512</span><span class="n">m</span> <span class="c1"># match indexer.value from sphinx.conf</span>
+</pre></div>
+</div>
+<p>Notes</p>
+<ul class="simple">
+<li><p>First, execute <code class="xref py py-obj docutils literal notranslate"><span class="pre">docker-compose</span> <span class="pre">run</span> <span class="pre">sphinx</span> <span class="pre">indexer</span> <span class="pre">--all</span></code> to prepare indices. Otherwise, you’d end up <code class="xref py py-obj docutils literal notranslate"><span class="pre">with</span> <span class="pre">WARNING:</span> <span class="pre">index</span> <span class="pre">'test1':</span> <span class="pre">prealloc:</span> <span class="pre">failed</span> <span class="pre">to</span> <span class="pre">open</span> <span class="pre">/opt/sphinx/index/test1.sph:</span> <span class="pre">No</span> <span class="pre">such</span> <span class="pre">file</span> <span class="pre">or</span> <span class="pre">directory;</span> <span class="pre">NOT</span> <span class="pre">SERVING</span></code> error.</p></li>
+<li><p>Then, execute <code class="xref py py-obj docutils literal notranslate"><span class="pre">docker-compose</span> <span class="pre">up</span> <span class="pre">-d</span></code> to run sphinsearch daemon in the background.</p></li>
+</ul>
+<p>Read more at <a class="reference external" href="https://lukaszherok.com/post/view/9/Running%20SphinxSearch%20in%20Podman%20container">https://lukaszherok.com/post/view/9/Running%20SphinxSearch%20in%20Podman%20container</a></p>
+</section>
+</section>
+<section id="keimlink-docker-sphinx-doc">
+<h2><a class="toc-backref" href="#id11">keimlink/docker-sphinx-doc</a><a class="headerlink" href="#keimlink-docker-sphinx-doc" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://github.com/keimlink/docker-sphinx-doc">https://github.com/keimlink/docker-sphinx-doc</a></p>
+</section>
+<section id="sphinxdocker-dockerfile">
+<h2><a class="toc-backref" href="#id12">sphinxdocker/Dockerfile</a><a class="headerlink" href="#sphinxdocker-dockerfile" title="Permalink to this headline">¶</a></h2>
+<p>sphinxdocker/Dockerfile</p>
+<p><a class="reference external" href="https://github.com/coding-to-music/sphinxdocker/blob/master/Dockerfile">https://github.com/coding-to-music/sphinxdocker/blob/master/Dockerfile</a></p>
+<p>sphinxdocker/Dockerfile</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">FROM</span> <span class="n">phusion</span><span class="o">/</span><span class="n">baseimage</span>
+
+<span class="n">RUN</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">update</span>
+<span class="n">RUN</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="o">-</span><span class="n">y</span> <span class="n">install</span> <span class="n">software</span><span class="o">-</span><span class="n">properties</span><span class="o">-</span><span class="n">common</span>
+<span class="n">RUN</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">update</span>
+<span class="n">RUN</span> <span class="n">add</span><span class="o">-</span><span class="n">apt</span><span class="o">-</span><span class="n">repository</span> <span class="o">-</span><span class="n">y</span> <span class="n">ppa</span><span class="p">:</span><span class="n">builds</span><span class="o">/</span><span class="n">sphinxsearch</span><span class="o">-</span><span class="n">beta</span>
+<span class="n">RUN</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">update</span>
+<span class="n">RUN</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="o">-</span><span class="n">y</span> <span class="n">install</span> <span class="n">sphinxsearch</span>
+<span class="n">RUN</span> <span class="n">mkdir</span> <span class="o">/</span><span class="n">var</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">sphinx</span>
+<span class="n">RUN</span> <span class="n">mkdir</span> <span class="o">/</span><span class="n">var</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">sphinx</span><span class="o">/</span><span class="n">data</span>
+<span class="n">RUN</span> <span class="n">mkdir</span> <span class="o">/</span><span class="n">var</span><span class="o">/</span><span class="n">log</span><span class="o">/</span><span class="n">sphinx</span>
+<span class="n">RUN</span> <span class="n">mkdir</span> <span class="o">/</span><span class="n">var</span><span class="o">/</span><span class="n">run</span><span class="o">/</span><span class="n">sphinx</span>
+<span class="n">ADD</span> <span class="n">indexandsearch</span><span class="o">.</span><span class="n">sh</span> <span class="o">/</span>
+<span class="n">RUN</span> <span class="n">chmod</span> <span class="n">a</span><span class="o">+</span><span class="n">x</span> <span class="n">indexandsearch</span><span class="o">.</span><span class="n">sh</span>
+<span class="n">ADD</span> <span class="n">searchd</span><span class="o">.</span><span class="n">sh</span> <span class="o">/</span>
+<span class="n">RUN</span> <span class="n">chmod</span> <span class="n">a</span><span class="o">+</span><span class="n">x</span> <span class="n">searchd</span><span class="o">.</span><span class="n">sh</span>
+<span class="n">ADD</span> <span class="n">lordsearchd</span><span class="o">.</span><span class="n">sh</span> <span class="o">/</span>
+<span class="n">RUN</span> <span class="n">chmod</span> <span class="n">a</span><span class="o">+</span><span class="n">x</span> <span class="n">lordsearchd</span><span class="o">.</span><span class="n">sh</span>
+</pre></div>
+</div>
+</section>
+<section id="gitlab-ci-with-docker-and-sphinx">
+<h2><a class="toc-backref" href="#id13">Gitlab CI with Docker and Sphinx</a><a class="headerlink" href="#gitlab-ci-with-docker-and-sphinx" title="Permalink to this headline">¶</a></h2>
+<p>Gitlab CI with Docker and Sphinx</p>
+<p><a class="reference external" href="https://ci-setup-docs.readthedocs.io/en/latest/Sphinxgettingstarted.html">https://ci-setup-docs.readthedocs.io/en/latest/Sphinxgettingstarted.html</a></p>
+</section>
+<section id="readthedocs-getting-started-with-sphinx">
+<h2><a class="toc-backref" href="#id14">ReadTheDocs - Getting Started with Sphinx</a><a class="headerlink" href="#readthedocs-getting-started-with-sphinx" title="Permalink to this headline">¶</a></h2>
+<p>ReadTheDocs - Getting Started with Sphinx</p>
+<p><a class="reference external" href="https://docs.readthedocs.io/en/stable/bareos/guides/intro/getting-started-with-sphinx.html">https://docs.readthedocs.io/en/stable/bareos/guides/intro/getting-started-with-sphinx.html</a></p>
+<p>Last change: Sat, 24 Jul 2021 07:40 AM Coordinated Universal Time</p>
+</section>
+</section>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="Google-Bing-Webmaster-Tools-Search-and-Rich-Results.html" class="btn btn-neutral float-right" title="Google Bing Webmaster Tools Search and Rich Results" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="Container-Workflow.html" class="btn btn-neutral float-left" title="Introduction to Developing in the Docker Container Workflow" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020-2021, Thomas Connors and Contributors.
+      <span class="lastupdated">
+        Last updated on Thu, 13 May 2021 12:00 AM .
+      </span>
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+  
+ <script type="text/javascript">
+    $(document).ready(function() {
+        $(".toggle > *").hide();
+        $(".toggle .header").show();
+        $(".toggle .header").click(function() {
+            $(this).parent().children().not(".header").toggle(400);
+            $(this).parent().children(".header").toggleClass("open");
+        })
+    });
+</script>
+
+
+</body>
+</html>

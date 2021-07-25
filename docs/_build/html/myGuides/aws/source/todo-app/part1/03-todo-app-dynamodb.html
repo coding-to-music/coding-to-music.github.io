@@ -1,0 +1,610 @@
+
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  
+  <title>Section 3: Add a DynamoDB table for Todo application &mdash; all-knowledge</title>
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="../../../../../_static/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../../../../_static/icons/favicon-16x16.png">
+  <link rel="manifest" href="../../../../../_static/icons/site.webmanifest">
+  <link rel="mask-icon" href="../../../../../_static/icons/safari-pinned-tab.svg" color="#919191">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="msapplication-config" content="../../../../../_static/icons/browserconfig.xml">
+  <link rel="stylesheet" href="../../../../../_static/stylesheets/examples.css">
+  <link rel="stylesheet" href="../../../../../_static/stylesheets/deprecation.css">
+
+  
+  <link rel="stylesheet" href="../../../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/copybutton.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/tooltipster.custom.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/tooltipster.bundle.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/tooltipster-sideTip-shadow.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/tooltipster-sideTip-punk.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/tooltipster-sideTip-noir.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/tooltipster-sideTip-light.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/tooltipster-sideTip-borderless.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/micromodal.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/tabs.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/sphinx_rtd_theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/contentui.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/gallery.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/gallery-binder.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/gallery-dataframe.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/gallery-rendered-html.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/sphinxcontrib-images/LightBox2/lightbox2/css/lightbox.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../../../../../_static/favicon.ico"/>
+  
+
+  
+  
+
+  
+    <link rel="canonical" href="https://pandemic-overview.readthedocs.io/en/latest/myGuides/aws/source/todo-app/part1/03-todo-app-dynamodb.html" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../../../" src="../../../../../_static/documentation_options.js"></script>
+        <script src="../../../../../_static/jquery.js"></script>
+        <script src="../../../../../_static/underscore.js"></script>
+        <script src="../../../../../_static/doctools.js"></script>
+        <script src="../../../../../_static/language_data.js"></script>
+        <script src="../../../../../_static/clipboard.min.js"></script>
+        <script src="../../../../../_static/copybutton.js"></script>
+        <script src="../../../../../_static/js/hoverxref.js"></script>
+        <script src="../../../../../_static/js/tooltipster.bundle.min.js"></script>
+        <script src="../../../../../_static/js/micromodal.min.js"></script>
+        <script src="../../../../../_static/tabs.js"></script>
+        <script src="../../../../../_static/js/expand_tabs.js"></script>
+        <script src="../../../../../_static/contentui.js"></script>
+        <script src="../../../../../_static/sphinxcontrib-images/LightBox2/lightbox2/js/jquery-1.11.0.min.js"></script>
+        <script src="../../../../../_static/sphinxcontrib-images/LightBox2/lightbox2/js/lightbox.min.js"></script>
+        <script src="../../../../../_static/sphinxcontrib-images/LightBox2/lightbox2-customize/jquery-noconflict.js"></script>
+    
+    <script type="text/javascript" src="../../../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="Section 4: Add authorization to Todo application" href="04-todo-app-auth.html" />
+    <link rel="prev" title="Section 2: Add chalicelib to Todo application" href="02-todo-app-chalicelib.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../../../index.html">
+          
+
+          
+            
+            <img src="../../../../../_static/statsmodels-logo-v2-bw.svg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Covid-Medical-Treatments/Covid-Medical-Treatments.html">Covid Medical Treatments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Bill-Gates-Memes/Bill-Gates-Memes.html">Bill Gates Memes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/topics.html">Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Data-science-of-the-pandemic/Data-science-of-the-pandemic.html">Data Science of the Pandemic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Vaccines/Vaccines.html">Vaccines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Masks/Masks.html">Masks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Lockdowns/Lockdowns.html">Lockdowns</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Origins-of-the-Virus/Origins-of-the-Virus.html">Origins of the Virus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Pandemic-Preparedness/Pandemic-Preparedness.html">Pandemic Preparedness</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Pandemic-Participants/Pandemic-Participants.html">Pandemic Participants</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Food-Safety/Food-Safety.html">Food Safety</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Municipal-Matters/Municipal-Matters.html">Municipal Issues and Topics</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../How-you-can-help/How-you-can-help.html">How you can help</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../Tech-stack-for-this-website.html">Tech stack for this website</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../myGuides.html">My Guides for Various Technical Topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../General-computer-setup.html">General Computer Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../Advanced-Computer-Setup.html">Advanced Computer Setup and Topics</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../Amazon-AWS-Learning.html">Amazon AWS Learning</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../../index.html">AWS Chalice Workshop</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../env-setup.html">Prerequisite: Setting up your environment</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../index.html">Todo Application</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../media-query/index.html">Media Query Application</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/media-query/final/README.html">Media Query Application</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/todo-app/final/README.html">My Todo App</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/todo-app/part1/README.html">Chalice Workshop Code Part 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/todo-app/part2/README.html">Chalice Workshop Part 2</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../ToDo-project-tasks.html">ToDo project and documentation tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../Contribute.html">Contribute</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../Upcoming-software-to-try.html">Links of Upcoming Software to Try</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../How-you-can-help/Links-to-add-to-site.html">Links to add to the documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../How-you-can-help/Future-topics-to-be-developed.html">Future Topics to be developed</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../Sandbox/Sandbox.html">Sandbox</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../License/license.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../Help-about/help.html">Help - About</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Covid-Medical-Treatments/Covid-Medical-Treatments.html">Covid Medical Treatments</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Bill-Gates-Memes/Bill-Gates-Memes.html">Bill Gates Memes</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/topics.html">Topics</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Data-science-of-the-pandemic/Data-science-of-the-pandemic.html">Data Science of the Pandemic</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Vaccines/Vaccines.html">Vaccines</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Masks/Masks.html">Masks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Lockdowns/Lockdowns.html">Lockdowns</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Origins-of-the-Virus/Origins-of-the-Virus.html">Origins of the Virus</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Pandemic-Preparedness/Pandemic-Preparedness.html">Pandemic Preparedness</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Pandemic-Participants/Pandemic-Participants.html">Pandemic Participants</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Food-Safety/Food-Safety.html">Food Safety</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Municipal-Matters/Municipal-Matters.html">Municipal Issues and Topics</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../How-you-can-help/How-you-can-help.html">How you can help</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../Tech-stack-for-this-website.html">Tech stack for this website</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../myGuides.html">My Guides for Various Technical Topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../General-computer-setup.html">General Computer Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../Advanced-Computer-Setup.html">Advanced Computer Setup and Topics</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../Amazon-AWS-Learning.html">Amazon AWS Learning</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../../index.html">AWS Chalice Workshop</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../env-setup.html">Prerequisite: Setting up your environment</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../index.html">Todo Application</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../media-query/index.html">Media Query Application</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/media-query/final/README.html">Media Query Application</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/todo-app/final/README.html">My Todo App</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/todo-app/part1/README.html">Chalice Workshop Code Part 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/todo-app/part2/README.html">Chalice Workshop Part 2</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../ToDo-project-tasks.html">ToDo project and documentation tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../Contribute.html">Contribute</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../Upcoming-software-to-try.html">Links of Upcoming Software to Try</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../How-you-can-help/Links-to-add-to-site.html">Links to add to the documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../How-you-can-help/Future-topics-to-be-developed.html">Future Topics to be developed</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../index.html">all-knowledge</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../../../../How-you-can-help/How-you-can-help.html">How you can help</a> &raquo;</li>
+        
+          <li><a href="../../../Amazon-AWS-Learning.html">Amazon AWS Learning</a> &raquo;</li>
+        
+          <li><a href="../../index.html">AWS Chalice Workshop</a> &raquo;</li>
+        
+          <li><a href="../index.html">Todo Application</a> &raquo;</li>
+        
+          <li><a href="index.html">Part 1: Build a serverless web application with AWS Chalice</a> &raquo;</li>
+        
+      <li>Section 3: Add a DynamoDB table for Todo application</li>
+    
+    
+    <li class="wy-breadcrumbs-aside">
+    
+        
+        <a href="../../../../../_sources/myGuides/aws/source/todo-app/part1/03-todo-app-dynamodb.rst.txt" rel="nofollow"> View page source</a>
+        
+    
+    </li>
+
+  </ul>
+
+  
+  <div class="rst-breadcrumbs-buttons" role="navigation" aria-label="breadcrumb navigation">
+      
+        <a href="04-todo-app-auth.html" class="btn btn-neutral float-right" title="Section 4: Add authorization to Todo application" accesskey="n">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+      
+      
+        <a href="02-todo-app-chalicelib.html" class="btn btn-neutral float-left" title="Section 2: Add chalicelib to Todo application" accesskey="p"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+      
+  </div>
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <section id="section-3-add-a-dynamodb-table-for-todo-application">
+<h1>Section 3: Add a DynamoDB table for Todo application<a class="headerlink" href="#section-3-add-a-dynamodb-table-for-todo-application" title="Permalink to this headline">¶</a></h1>
+<p>In this step, we’ll replace the in-memory database with an
+Amazon DynamoDB table.</p>
+<section id="initial-setup">
+<h2>Initial Setup<a class="headerlink" href="#initial-setup" title="Permalink to this headline">¶</a></h2>
+<p>The starting code for this step is in the <code class="docutils literal notranslate"><span class="pre">chalice-workshop/code/todo-app/part1/03-add-dynamodb</span></code>
+file.  If necessary, you can copy over those files as a starting point
+for this step:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ cp ../chalice-workshop/code/todo-app/part1/03-add-dynamodb/app.py app.py
+$ cp ../chalice-workshop/code/todo-app/part1/03-add-dynamodb/createtable.py createtable.py
+$ cp ../chalice-workshop/code/todo-app/part1/03-add-dynamodb/chalicelib/db.py chalicelib/db.py
+$ cp ../chalice-workshop/code/todo-app/part1/03-add-dynamodb/.chalice/policy-dev.json .chalice/policy-dev.json
+$ cp ../chalice-workshop/code/todo-app/part1/03-add-dynamodb/.chalice/config.json .chalice/config.json
+</pre></div>
+</div>
+</section>
+<section id="create-a-dynamodb-table">
+<h2>Create a DynamoDB table<a class="headerlink" href="#create-a-dynamodb-table" title="Permalink to this headline">¶</a></h2>
+<p>In this section, we’re going to create a DynamoDB table and
+configure chalice to pass in the table name to our application.</p>
+<ol class="arabic">
+<li><p>First, we’ll need to install boto3, the AWS SDK for Python.
+Run this command:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ pip install boto3
+</pre></div>
+</div>
+</li>
+<li><p>Add boto3 to our requirements.txt file.
+Chalice uses this file when building the deployment package
+for your app:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ pip freeze | grep boto3 &gt;&gt; requirements.txt
+</pre></div>
+</div>
+</li>
+<li><p>Now that boto3 is installed, we can create the DynamoDB table
+Run the <code class="docutils literal notranslate"><span class="pre">createtable.py</span></code> script with the <code class="docutils literal notranslate"><span class="pre">--table-type</span> <span class="pre">app</span></code> option.
+This will take a few seconds to run.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ python createtable.py --table-type app
+</pre></div>
+</div>
+</li>
+</ol>
+<ol class="arabic" start="5">
+<li><p>Verify that this script added the table name to the <code class="docutils literal notranslate"><span class="pre">.chalice/config.json</span></code>
+file.  You should see a key named <code class="docutils literal notranslate"><span class="pre">APP_TABLE_NAME</span></code> in this file:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ cat .chalice/config.json
+{
+  &quot;stages&quot;: {
+    &quot;dev&quot;: {
+      &quot;environment_variables&quot;: {
+        &quot;APP_TABLE_NAME&quot;: &quot;todo-app-....&quot;
+      },
+      &quot;api_gateway_stage&quot;: &quot;api&quot;
+    }
+  },
+  &quot;version&quot;: &quot;2.0&quot;,
+  &quot;app_name&quot;: &quot;testapp&quot;
+}
+</pre></div>
+</div>
+</li>
+<li><p>Next, we’ll add a test route to double check we’ve configured
+everything correctly.  Open the <code class="docutils literal notranslate"><span class="pre">app.py</span></code> file and these import
+lines to the top of the file:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">boto3</span>
+</pre></div>
+</div>
+</li>
+<li><p>Add a new test route:</p></li>
+</ol>
+<blockquote>
+<div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/test-ddb&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">test_ddb</span><span class="p">():</span>
+    <span class="n">resource</span> <span class="o">=</span> <span class="n">boto3</span><span class="o">.</span><span class="n">resource</span><span class="p">(</span><span class="s1">&#39;dynamodb&#39;</span><span class="p">)</span>
+    <span class="n">table</span> <span class="o">=</span> <span class="n">resource</span><span class="o">.</span><span class="n">Table</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;APP_TABLE_NAME&#39;</span><span class="p">])</span>
+    <span class="k">return</span> <span class="n">table</span><span class="o">.</span><span class="n">name</span>
+</pre></div>
+</div>
+</div></blockquote>
+<section id="verification">
+<h3>Verification<a class="headerlink" href="#verification" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Start up the local dev server: <code class="docutils literal notranslate"><span class="pre">chalice</span> <span class="pre">local</span></code></p></li>
+<li><p>Make a request to this test route and verify you get a 200 response:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ http localhost:8000/test-ddb
+HTTP/1.1 200 OK
+Content-Length: 45
+Content-Type: application/json
+Server: BaseHTTP/0.3 Python/2.7.14
+
+todo-app-0b116e7b-f0f8-4548-91d8-95c75898b8b6
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+</section>
+<section id="switching-the-inmemorytododb-to-a-dynamodbtodo">
+<h2>Switching the <code class="docutils literal notranslate"><span class="pre">InMemoryTodoDB</span></code> to a <code class="docutils literal notranslate"><span class="pre">DynamoDBTodo</span></code><a class="headerlink" href="#switching-the-inmemorytododb-to-a-dynamodbtodo" title="Permalink to this headline">¶</a></h2>
+<p>Now that we’ve verified our DynamoDB table is plumbed into our
+chalice app correctly, we can update to use a new <code class="docutils literal notranslate"><span class="pre">DynamoDBTodo</span></code>
+backend instead of the <code class="docutils literal notranslate"><span class="pre">InMemoryTodoDB</span></code>.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">chalicelib/db.py</span></code> file you copied from
+<code class="docutils literal notranslate"><span class="pre">code/todo-app/part1/03-add-dynamodb/chalicelib/db.py</span></code> has a new <code class="docutils literal notranslate"><span class="pre">DynamoDBTodo</span></code>
+class.  This has the same interface as <code class="docutils literal notranslate"><span class="pre">InMemoryTodoDB</span></code> except that is uses
+DynamoDB as the backend.  We’re going to update our <code class="docutils literal notranslate"><span class="pre">app.py</span></code> to use this new
+class.</p>
+<ol class="arabic">
+<li><p>Remove the <code class="docutils literal notranslate"><span class="pre">&#64;app.route('/test-ddb')</span></code> view function.  We
+no longer need it now that we’ve verified that DynamoDB is correctly
+configured for our app.</p></li>
+<li><p>Go to the <code class="docutils literal notranslate"><span class="pre">get_app_db()</span></code> function in your <code class="docutils literal notranslate"><span class="pre">app.py</span></code> file.  Modify
+this function to use the <code class="docutils literal notranslate"><span class="pre">DynamoDBTodo</span></code> backend:</p>
+<blockquote>
+<div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">get_app_db</span><span class="p">():</span>
+    <span class="k">global</span> <span class="n">_DB</span>
+    <span class="k">if</span> <span class="n">_DB</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">_DB</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">DynamoDBTodo</span><span class="p">(</span>
+            <span class="n">boto3</span><span class="o">.</span><span class="n">resource</span><span class="p">(</span><span class="s1">&#39;dynamodb&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">Table</span><span class="p">(</span>
+                <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;APP_TABLE_NAME&#39;</span><span class="p">])</span>
+        <span class="p">)</span>
+    <span class="k">return</span> <span class="n">_DB</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+<li><p>Go to the top of the <code class="docutils literal notranslate"><span class="pre">app.py</span></code> file. Modify the line <code class="docutils literal notranslate"><span class="pre">from</span> <span class="pre">chalicelib.db</span> <span class="pre">import</span> <span class="pre">InMemoryTodoDB</span></code> to reference <code class="docutils literal notranslate"><span class="pre">db</span></code> instead:</p>
+<blockquote>
+<div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">chalicelib</span> <span class="kn">import</span> <span class="n">db</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+</ol>
+<section id="id1">
+<h3>Verification<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Start up the local dev server <code class="docutils literal notranslate"><span class="pre">chalice</span> <span class="pre">local</span></code></p></li>
+<li><p>Create a Todo item:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ echo &#39;{&quot;description&quot;: &quot;My first Todo&quot;, &quot;metadata&quot;: {}}&#39; | \
+    http POST localhost:8000/todos
+HTTP/1.1 200 OK
+Content-Length: 36
+Content-Type: application/json
+Date: Thu, 19 Oct 2017 23:44:24 GMT
+Server: BaseHTTP/0.3 Python/2.7.10
+
+de9a4981-f7fd-4639-97fb-2af247f20d79
+</pre></div>
+</div>
+</li>
+<li><p>Retrieve the Todo item you just created.  Keep in mind that your UID will be
+different from what’s shown below:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ http localhost:8000/todos/de9a4981-f7fd-4639-97fb-2af247f20d79
+HTTP/1.1 200 OK
+Content-Length: 140
+Content-Type: application/json
+Date: Fri, 20 Oct 2017 00:03:26 GMT
+Server: BaseHTTP/0.3 Python/2.7.10
+
+{
+    &quot;description&quot;: &quot;My first Todo&quot;,
+    &quot;metadata&quot;: {},
+    &quot;state&quot;: &quot;unstarted&quot;,
+    &quot;uid&quot;: &quot;de9a4981-f7fd-4639-97fb-2af247f20d79&quot;,
+    &quot;username&quot;: &quot;default&quot;
+}
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+</section>
+<section id="deploy-your-app">
+<h2>Deploy your app<a class="headerlink" href="#deploy-your-app" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p>Now that we’ve tested locally, we’re ready to deploy:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ chalice deploy
+</pre></div>
+</div>
+</li>
+</ol>
+<section id="id2">
+<h3>Verification<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>First create a Todo item using the API Gateway endpoint:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ chalice url
+https://your-chalice-url/
+$ echo &#39;{&quot;description&quot;: &quot;My second Todo&quot;, &quot;metadata&quot;: {}}&#39; | \
+    http POST https://your-chalice-url/todos
+HTTP/1.1 200 OK
+Content-Length: 36
+Content-Type: application/json
+
+abcdefg-abcdefg
+</pre></div>
+</div>
+</li>
+<li><p>Verify you can retrieve this item:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ http https://your-chalice-url/todos/abcdefg-abcdefg
+HTTP/1.1 200 OK
+Content-Length: 140
+Content-Type: application/json
+
+{
+    &quot;description&quot;: &quot;My second Todo&quot;,
+    &quot;metadata&quot;: {},
+    &quot;state&quot;: &quot;unstarted&quot;,
+    &quot;uid&quot;: &quot;abcdefg-abcdefg&quot;,
+    &quot;username&quot;: &quot;default&quot;
+}
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+</section>
+</section>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="04-todo-app-auth.html" class="btn btn-neutral float-right" title="Section 4: Add authorization to Todo application" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="02-todo-app-chalicelib.html" class="btn btn-neutral float-left" title="Section 2: Add chalicelib to Todo application" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020-2021, Thomas Connors and Contributors.
+      <span class="lastupdated">
+        Last updated on Sat, 17 Jul 2021 12:00 AM .
+      </span>
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+  
+ <script type="text/javascript">
+    $(document).ready(function() {
+        $(".toggle > *").hide();
+        $(".toggle .header").show();
+        $(".toggle .header").click(function() {
+            $(this).parent().children().not(".header").toggle(400);
+            $(this).parent().children(".header").toggleClass("open");
+        })
+    });
+</script>
+
+
+</body>
+</html>

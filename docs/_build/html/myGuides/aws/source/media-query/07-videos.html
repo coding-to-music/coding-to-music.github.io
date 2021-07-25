@@ -1,0 +1,978 @@
+
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  
+  <title>Part 7: Add workflow to process videos &mdash; all-knowledge</title>
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="../../../../_static/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../../../_static/icons/favicon-16x16.png">
+  <link rel="manifest" href="../../../../_static/icons/site.webmanifest">
+  <link rel="mask-icon" href="../../../../_static/icons/safari-pinned-tab.svg" color="#919191">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="msapplication-config" content="../../../../_static/icons/browserconfig.xml">
+  <link rel="stylesheet" href="../../../../_static/stylesheets/examples.css">
+  <link rel="stylesheet" href="../../../../_static/stylesheets/deprecation.css">
+
+  
+  <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/copybutton.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/tooltipster.custom.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/tooltipster.bundle.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/tooltipster-sideTip-shadow.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/tooltipster-sideTip-punk.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/tooltipster-sideTip-noir.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/tooltipster-sideTip-light.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/tooltipster-sideTip-borderless.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/micromodal.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/tabs.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/sphinx_rtd_theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/contentui.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/gallery.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/gallery-binder.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/gallery-dataframe.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/gallery-rendered-html.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/sphinxcontrib-images/LightBox2/lightbox2/css/lightbox.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../../../../_static/favicon.ico"/>
+  
+
+  
+  
+
+  
+    <link rel="canonical" href="https://pandemic-overview.readthedocs.io/en/latest/myGuides/aws/source/media-query/07-videos.html" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../../" src="../../../../_static/documentation_options.js"></script>
+        <script src="../../../../_static/jquery.js"></script>
+        <script src="../../../../_static/underscore.js"></script>
+        <script src="../../../../_static/doctools.js"></script>
+        <script src="../../../../_static/language_data.js"></script>
+        <script src="../../../../_static/clipboard.min.js"></script>
+        <script src="../../../../_static/copybutton.js"></script>
+        <script src="../../../../_static/js/hoverxref.js"></script>
+        <script src="../../../../_static/js/tooltipster.bundle.min.js"></script>
+        <script src="../../../../_static/js/micromodal.min.js"></script>
+        <script src="../../../../_static/tabs.js"></script>
+        <script src="../../../../_static/js/expand_tabs.js"></script>
+        <script src="../../../../_static/contentui.js"></script>
+        <script src="../../../../_static/sphinxcontrib-images/LightBox2/lightbox2/js/jquery-1.11.0.min.js"></script>
+        <script src="../../../../_static/sphinxcontrib-images/LightBox2/lightbox2/js/lightbox.min.js"></script>
+        <script src="../../../../_static/sphinxcontrib-images/LightBox2/lightbox2-customize/jquery-noconflict.js"></script>
+    
+    <script type="text/javascript" src="../../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+    <link rel="next" title="Cleaning up the Chalice application" href="cleanup.html" />
+    <link rel="prev" title="Part 6: Add REST API to query media files" href="06-web-api.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../../index.html">
+          
+
+          
+            
+            <img src="../../../../_static/statsmodels-logo-v2-bw.svg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Covid-Medical-Treatments/Covid-Medical-Treatments.html">Covid Medical Treatments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Bill-Gates-Memes/Bill-Gates-Memes.html">Bill Gates Memes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/topics.html">Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Data-science-of-the-pandemic/Data-science-of-the-pandemic.html">Data Science of the Pandemic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Vaccines/Vaccines.html">Vaccines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Masks/Masks.html">Masks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Lockdowns/Lockdowns.html">Lockdowns</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Origins-of-the-Virus/Origins-of-the-Virus.html">Origins of the Virus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Pandemic-Preparedness/Pandemic-Preparedness.html">Pandemic Preparedness</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Pandemic-Participants/Pandemic-Participants.html">Pandemic Participants</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Food-Safety/Food-Safety.html">Food Safety</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Municipal-Matters/Municipal-Matters.html">Municipal Issues and Topics</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../How-you-can-help/How-you-can-help.html">How you can help</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../Tech-stack-for-this-website.html">Tech stack for this website</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../myGuides.html">My Guides for Various Technical Topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../General-computer-setup.html">General Computer Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../Advanced-Computer-Setup.html">Advanced Computer Setup and Topics</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../Amazon-AWS-Learning.html">Amazon AWS Learning</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html">AWS Chalice Workshop</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../env-setup.html">Prerequisite: Setting up your environment</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../todo-app/index.html">Todo Application</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="index.html">Media Query Application</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../code/media-query/final/README.html">Media Query Application</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../code/todo-app/final/README.html">My Todo App</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../code/todo-app/part1/README.html">Chalice Workshop Code Part 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../code/todo-app/part2/README.html">Chalice Workshop Part 2</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../ToDo-project-tasks.html">ToDo project and documentation tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../Contribute.html">Contribute</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../Upcoming-software-to-try.html">Links of Upcoming Software to Try</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../How-you-can-help/Links-to-add-to-site.html">Links to add to the documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../How-you-can-help/Future-topics-to-be-developed.html">Future Topics to be developed</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../Sandbox/Sandbox.html">Sandbox</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../License/license.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../Help-about/help.html">Help - About</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Covid-Medical-Treatments/Covid-Medical-Treatments.html">Covid Medical Treatments</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Bill-Gates-Memes/Bill-Gates-Memes.html">Bill Gates Memes</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/topics.html">Topics</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Data-science-of-the-pandemic/Data-science-of-the-pandemic.html">Data Science of the Pandemic</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Vaccines/Vaccines.html">Vaccines</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Masks/Masks.html">Masks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Lockdowns/Lockdowns.html">Lockdowns</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Origins-of-the-Virus/Origins-of-the-Virus.html">Origins of the Virus</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Pandemic-Preparedness/Pandemic-Preparedness.html">Pandemic Preparedness</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Pandemic-Participants/Pandemic-Participants.html">Pandemic Participants</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Food-Safety/Food-Safety.html">Food Safety</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Municipal-Matters/Municipal-Matters.html">Municipal Issues and Topics</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../How-you-can-help/How-you-can-help.html">How you can help</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../Tech-stack-for-this-website.html">Tech stack for this website</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../myGuides.html">My Guides for Various Technical Topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../General-computer-setup.html">General Computer Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../Advanced-Computer-Setup.html">Advanced Computer Setup and Topics</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../Amazon-AWS-Learning.html">Amazon AWS Learning</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html">AWS Chalice Workshop</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../env-setup.html">Prerequisite: Setting up your environment</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../todo-app/index.html">Todo Application</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="index.html">Media Query Application</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../code/media-query/final/README.html">Media Query Application</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../code/todo-app/final/README.html">My Todo App</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../code/todo-app/part1/README.html">Chalice Workshop Code Part 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../code/todo-app/part2/README.html">Chalice Workshop Part 2</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../ToDo-project-tasks.html">ToDo project and documentation tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../Contribute.html">Contribute</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../Upcoming-software-to-try.html">Links of Upcoming Software to Try</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../How-you-can-help/Links-to-add-to-site.html">Links to add to the documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../How-you-can-help/Future-topics-to-be-developed.html">Future Topics to be developed</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../index.html">all-knowledge</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../../../How-you-can-help/How-you-can-help.html">How you can help</a> &raquo;</li>
+        
+          <li><a href="../../Amazon-AWS-Learning.html">Amazon AWS Learning</a> &raquo;</li>
+        
+          <li><a href="../index.html">AWS Chalice Workshop</a> &raquo;</li>
+        
+          <li><a href="index.html">Media Query Application</a> &raquo;</li>
+        
+      <li>Part 7: Add workflow to process videos</li>
+    
+    
+    <li class="wy-breadcrumbs-aside">
+    
+        
+        <a href="../../../../_sources/myGuides/aws/source/media-query/07-videos.rst.txt" rel="nofollow"> View page source</a>
+        
+    
+    </li>
+
+  </ul>
+
+  
+  <div class="rst-breadcrumbs-buttons" role="navigation" aria-label="breadcrumb navigation">
+      
+        <a href="cleanup.html" class="btn btn-neutral float-right" title="Cleaning up the Chalice application" accesskey="n">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+      
+      
+        <a href="06-web-api.html" class="btn btn-neutral float-left" title="Part 6: Add REST API to query media files" accesskey="p"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+      
+  </div>
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <section id="part-7-add-workflow-to-process-videos">
+<h1>Part 7: Add workflow to process videos<a class="headerlink" href="#part-7-add-workflow-to-process-videos" title="Permalink to this headline">¶</a></h1>
+<p>In the final part of this tutorial, we will add the ability to automatically
+process videos uploaded to our S3 bucket and add them to our DynamoDB table.</p>
+<p>To accomplish this we will be performing the following steps:</p>
+<div class="contents local topic" id="contents">
+<ul class="simple">
+<li><p><a class="reference internal" href="#introduction-to-rekognition-object-detection-in-videos" id="id7">Introduction to Rekognition object detection in videos</a></p></li>
+<li><p><a class="reference internal" href="#create-sns-topic-and-iam-role" id="id8">Create SNS topic and IAM role</a></p></li>
+<li><p><a class="reference internal" href="#deploy-a-lambda-function-for-retrieving-processed-video-labels" id="id9">Deploy a lambda function for retrieving processed video labels</a></p></li>
+<li><p><a class="reference internal" href="#automate-video-workflow-on-s3-uploads-and-deletions" id="id10">Automate video workflow on S3 uploads and deletions</a></p></li>
+<li><p><a class="reference internal" href="#final-code" id="id11">Final Code</a></p></li>
+</ul>
+</div>
+<section id="introduction-to-rekognition-object-detection-in-videos">
+<h2><a class="toc-backref" href="#id7">Introduction to Rekognition object detection in videos</a><a class="headerlink" href="#introduction-to-rekognition-object-detection-in-videos" title="Permalink to this headline">¶</a></h2>
+<p>Detecting labels in a video is a different workflow than detecting image labels
+when using Rekognition. Specifically, the workflow is asynchronous where you
+must initiate a label detection job using the
+<a class="reference external" href="https://docs.aws.amazon.com/rekognition/latest/dg/API_StartLabelDetection.html">StartLabelDetection</a>
+API and then call <a class="reference external" href="https://docs.aws.amazon.com/rekognition/latest/dg/API_GetLabelDetection.html">GetLabelDetection</a>
+once the job is complete to retrieve all of the detected labels. This step will
+introduce you to this workflow.</p>
+<section id="instructions">
+<h3>Instructions<a class="headerlink" href="#instructions" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Upload a sample video to the S3 bucket:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ aws s3 cp ../chalice-workshop/code/media-query/final/assets/sample.mp4 s3://$MEDIA_BUCKET_NAME
+</pre></div>
+</div>
+</li>
+<li><p>Run the <code class="docutils literal notranslate"><span class="pre">start-label-detection</span></code> command with the AWS CLI to start a
+label detection job on the uploaded video and save the <code class="docutils literal notranslate"><span class="pre">JobId</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ JOB_ID=$(aws rekognition start-label-detection --video S3Object=&quot;{Bucket=$MEDIA_BUCKET_NAME,Name=sample.mp4}&quot; --query JobId --output text)
+</pre></div>
+</div>
+</li>
+<li><p>Run the <code class="docutils literal notranslate"><span class="pre">get-label-detection</span></code> command until the <code class="docutils literal notranslate"><span class="pre">JobStatus</span></code> field is
+equal to <code class="docutils literal notranslate"><span class="pre">SUCCEEDED</span></code> and retrieve the video labels:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ aws rekognition get-label-detection --job-id $JOB_ID
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+<section id="verification">
+<h3>Verification<a class="headerlink" href="#verification" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Once the <code class="docutils literal notranslate"><span class="pre">JobStatus</span></code> field is equal to <code class="docutils literal notranslate"><span class="pre">SUCCEEDED</span></code>, the output of the
+<code class="docutils literal notranslate"><span class="pre">get-label-detection</span></code> command should contain:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="s2">&quot;JobStatus&quot;</span><span class="p">:</span> <span class="s2">&quot;SUCCEEDED&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;VideoMetadata&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;Codec&quot;</span><span class="p">:</span> <span class="s2">&quot;h264&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;DurationMillis&quot;</span><span class="p">:</span> <span class="mi">10099</span><span class="p">,</span>
+        <span class="s2">&quot;Format&quot;</span><span class="p">:</span> <span class="s2">&quot;QuickTime / MOV&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;FrameRate&quot;</span><span class="p">:</span> <span class="mf">29.707088470458984</span><span class="p">,</span>
+        <span class="s2">&quot;FrameHeight&quot;</span><span class="p">:</span> <span class="mi">960</span><span class="p">,</span>
+        <span class="s2">&quot;FrameWidth&quot;</span><span class="p">:</span> <span class="mi">540</span>
+    <span class="p">},</span>
+    <span class="s2">&quot;Labels&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="p">{</span>
+            <span class="s2">&quot;Timestamp&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+            <span class="s2">&quot;Label&quot;</span><span class="p">:</span> <span class="p">{</span>
+                <span class="s2">&quot;Name&quot;</span><span class="p">:</span> <span class="s2">&quot;Animal&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;Confidence&quot;</span><span class="p">:</span> <span class="mf">66.68909454345703</span>
+            <span class="p">}</span>
+        <span class="p">},</span>
+        <span class="p">{</span>
+            <span class="s2">&quot;Timestamp&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+            <span class="s2">&quot;Label&quot;</span><span class="p">:</span> <span class="p">{</span>
+                <span class="s2">&quot;Name&quot;</span><span class="p">:</span> <span class="s2">&quot;Dog&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;Confidence&quot;</span><span class="p">:</span> <span class="mf">60.80849838256836</span>
+            <span class="p">}</span>
+        <span class="p">},</span>
+        <span class="p">{</span>
+            <span class="s2">&quot;Timestamp&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+            <span class="s2">&quot;Label&quot;</span><span class="p">:</span> <span class="p">{</span>
+                <span class="s2">&quot;Name&quot;</span><span class="p">:</span> <span class="s2">&quot;Husky&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;Confidence&quot;</span><span class="p">:</span> <span class="mf">51.586997985839844</span>
+            <span class="p">}</span>
+        <span class="p">},</span>
+        <span class="p">{</span>
+            <span class="s2">&quot;Timestamp&quot;</span><span class="p">:</span> <span class="mi">168</span><span class="p">,</span>
+            <span class="s2">&quot;Label&quot;</span><span class="p">:</span> <span class="p">{</span>
+                <span class="s2">&quot;Name&quot;</span><span class="p">:</span> <span class="s2">&quot;Animal&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;Confidence&quot;</span><span class="p">:</span> <span class="mf">58.79970169067383</span>
+            <span class="p">}</span>
+        <span class="p">},</span>
+     <span class="o">...</span><span class="p">[</span><span class="n">SHORTENED</span><span class="p">]</span><span class="o">...</span>
+ <span class="p">}</span>
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+</section>
+<section id="create-sns-topic-and-iam-role">
+<h2><a class="toc-backref" href="#id8">Create SNS topic and IAM role</a><a class="headerlink" href="#create-sns-topic-and-iam-role" title="Permalink to this headline">¶</a></h2>
+<p>Rekognition <code class="docutils literal notranslate"><span class="pre">StartDetectLabels</span></code> also has the option to publish a message to
+an SNS topic once the job has completed. This is a much more efficient solution
+than constantly polling the <code class="docutils literal notranslate"><span class="pre">GetLabelDetection</span></code> API to wait for the labels to
+be detected. In this step, we will create an IAM role and SNS topic that
+Rekognition can use to publish this message.</p>
+<section id="id1">
+<h3>Instructions<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Copy the updated version of the <code class="docutils literal notranslate"><span class="pre">resources.json</span></code> CloudFormation template
+containing an IAM role and SNS topic for Rekognition to publish to:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ cp ../chalice-workshop/code/media-query/07-videos/resources.json .
+</pre></div>
+</div>
+</li>
+<li><p>Deploy the new resources to your CloudFormation stack using the AWS CLI:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ aws cloudformation deploy --template-file resources.json \
+    --stack-name media-query --capabilities CAPABILITY_IAM
+</pre></div>
+</div>
+</li>
+<li><p>Save the SNS topic and IAM role information as environment variables in the
+Chalice application by running the <code class="docutils literal notranslate"><span class="pre">recordresources.py</span></code> script:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ python recordresources.py --stack-name media-query
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+<section id="id2">
+<h3>Verification<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Ensure the contents of the <code class="docutils literal notranslate"><span class="pre">config.json</span></code> contains the
+environment variables <code class="docutils literal notranslate"><span class="pre">VIDEO_TOPIC_NAME</span></code>, <code class="docutils literal notranslate"><span class="pre">VIDEO_ROLE_ARN</span></code>, and
+<code class="docutils literal notranslate"><span class="pre">VIDEO_TOPIC_ARN</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ cat .chalice/config.json
+{
+  &quot;version&quot;: &quot;2.0&quot;,
+  &quot;app_name&quot;: &quot;media-query&quot;,
+  &quot;stages&quot;: {
+    &quot;dev&quot;: {
+      &quot;api_gateway_stage&quot;: &quot;api&quot;,
+      &quot;autogen_policy&quot;: false,
+      &quot;environment_variables&quot;: {
+        &quot;MEDIA_TABLE_NAME&quot;: &quot;media-query-MediaTable-10QEPR0O8DOT4&quot;,
+        &quot;MEDIA_BUCKET_NAME&quot;: &quot;media-query-mediabucket-fb8oddjbslv1&quot;,
+        &quot;VIDEO_TOPIC_NAME&quot;: &quot;media-query-VideoTopic-KU38EEHIIUV1&quot;,
+        &quot;VIDEO_ROLE_ARN&quot;: &quot;arn:aws:iam::123456789123:role/media-query-VideoRole-1GKK0CA30VCAD&quot;,
+        &quot;VIDEO_TOPIC_ARN&quot;: &quot;arn:aws:sns:us-west-2:123456789123:media-query-VideoTopic-KU38EEHIIUV1&quot;
+      }
+    }
+  }
+}
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+</section>
+<section id="deploy-a-lambda-function-for-retrieving-processed-video-labels">
+<h2><a class="toc-backref" href="#id9">Deploy a lambda function for retrieving processed video labels</a><a class="headerlink" href="#deploy-a-lambda-function-for-retrieving-processed-video-labels" title="Permalink to this headline">¶</a></h2>
+<p>With the new SNS topic, add a new Lambda function that is triggered on
+SNS messages to that topic, calls the <code class="docutils literal notranslate"><span class="pre">GetDetectionLabel</span></code> API, and adds the
+video with the labels into the database.</p>
+<section id="id3">
+<h3>Instructions<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Import <code class="docutils literal notranslate"><span class="pre">json</span></code> at the top of the <code class="docutils literal notranslate"><span class="pre">app.py</span></code> file:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">json</span>
+</pre></div>
+</div>
+</li>
+<li><p>Then, define the function <code class="docutils literal notranslate"><span class="pre">add_video_file()</span></code> that uses the
+<a class="reference external" href="https://chalice.readthedocs.io/en/latest/api.html#Chalice.on_sns_message">app.on_sns_message</a>
+decorator:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@app</span><span class="o">.</span><span class="n">on_sns_message</span><span class="p">(</span><span class="n">topic</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;VIDEO_TOPIC_NAME&#39;</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">add_video_file</span><span class="p">(</span><span class="n">event</span><span class="p">):</span>
+</pre></div>
+</div>
+</li>
+<li><p>Update the <code class="docutils literal notranslate"><span class="pre">add_video_file()</span></code> function, to process the <code class="docutils literal notranslate"><span class="pre">event</span></code> argument
+of type <a class="reference external" href="https://chalice.readthedocs.io/en/latest/api.html#SNSEvent">SNSEvent</a>
+by retrieving the job ID from the message, retrieve the processed labels
+from Rekognition, and add the video to the database:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@app</span><span class="o">.</span><span class="n">on_sns_message</span><span class="p">(</span><span class="n">topic</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;VIDEO_TOPIC_NAME&#39;</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">add_video_file</span><span class="p">(</span><span class="n">event</span><span class="p">):</span>
+<span class="hll">    <span class="n">message</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">event</span><span class="o">.</span><span class="n">message</span><span class="p">)</span>
+</span><span class="hll">    <span class="n">labels</span> <span class="o">=</span> <span class="n">get_rekognition_client</span><span class="p">()</span><span class="o">.</span><span class="n">get_video_job_labels</span><span class="p">(</span><span class="n">message</span><span class="p">[</span><span class="s1">&#39;JobId&#39;</span><span class="p">])</span>
+</span><span class="hll">    <span class="n">get_media_db</span><span class="p">()</span><span class="o">.</span><span class="n">add_media_file</span><span class="p">(</span>
+</span><span class="hll">        <span class="n">name</span><span class="o">=</span><span class="n">message</span><span class="p">[</span><span class="s1">&#39;Video&#39;</span><span class="p">][</span><span class="s1">&#39;S3ObjectName&#39;</span><span class="p">],</span>
+</span><span class="hll">        <span class="n">media_type</span><span class="o">=</span><span class="n">db</span><span class="o">.</span><span class="n">VIDEO_TYPE</span><span class="p">,</span>
+</span><span class="hll">        <span class="n">labels</span><span class="o">=</span><span class="n">labels</span><span class="p">)</span>
+</span></pre></div>
+</div>
+</li>
+</ol>
+<ol class="arabic" start="3">
+<li><p>Run <code class="docutils literal notranslate"><span class="pre">chalice</span> <span class="pre">deploy</span></code> to deploy the new Lambda function:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ chalice deploy
+Creating deployment package.
+Updating policy for IAM role: media-query-dev-handle_object_created
+Updating lambda function: media-query-dev-handle_object_created
+Configuring S3 events in bucket media-query-mediabucket-fb8oddjbslv1 to function media-query-dev-handle_object_created
+Updating policy for IAM role: media-query-dev-handle_object_removed
+Updating lambda function: media-query-dev-handle_object_removed
+Configuring S3 events in bucket media-query-mediabucket-fb8oddjbslv1 to function media-query-dev-handle_object_removed
+Creating IAM role: media-query-dev-add_video_file
+Creating lambda function: media-query-dev-add_video_file
+Subscribing media-query-dev-add_video_file to SNS topic media-query-VideoTopic-KU38EEHIIUV1
+Updating policy for IAM role: media-query-dev-api_handler
+Updating lambda function: media-query-dev
+Updating rest API
+Resources deployed:
+  - Lambda ARN: arn:aws:lambda:us-west-2:123456789123:function:media-query-dev-handle_object_created
+  - Lambda ARN: arn:aws:lambda:us-west-2:123456789123:function:media-query-dev-handle_object_removed
+  - Lambda ARN: arn:aws:lambda:us-west-2:123456789123:function:media-query-dev-add_video_file
+  - Lambda ARN: arn:aws:lambda:us-west-2:123456789123:function:media-query-dev
+  - Rest API URL: https://1lmxgj9bfl.execute-api.us-west-2.amazonaws.com/api/
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+<section id="id4">
+<h3>Verification<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Retrieve the arn of the deployed SNS topic:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ VIDEO_TOPIC_ARN=$(aws cloudformation describe-stacks --stack-name media-query --query &quot;Stacks[0].Outputs[?OutputKey==&#39;VideoTopicArn&#39;].OutputValue&quot; --output text)
+</pre></div>
+</div>
+</li>
+<li><p>Retrieve the arn of the deployed IAM role:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ VIDEO_ROLE_ARN=$(aws cloudformation describe-stacks --stack-name media-query --query &quot;Stacks[0].Outputs[?OutputKey==&#39;VideoRoleArn&#39;].OutputValue&quot; --output text)
+</pre></div>
+</div>
+</li>
+<li><p>Run the <code class="docutils literal notranslate"><span class="pre">start-label-detection</span></code> command with the AWS CLI to start a
+label detection job on the uploaded video:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ aws rekognition start-label-detection \
+    --video S3Object=&quot;{Bucket=$MEDIA_BUCKET_NAME,Name=sample.mp4}&quot; \
+    --notification-channel SNSTopicArn=$VIDEO_TOPIC_ARN,RoleArn=$VIDEO_ROLE_ARN
+</pre></div>
+</div>
+</li>
+<li><p>Wait roughly twenty seconds and then use HTTPie to query for the video against the
+application’s API:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ http $(chalice url)sample.mp4
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 151
+Content-Type: application/json
+Date: Tue, 17 Jul 2018 21:42:12 GMT
+Via: 1.1 aa42484f82c16d99015c599631def20c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: GpqmQOwnKcaxb2sP2fi-KSs8LCu24Q6ekKV8Oyo6a0HZ7kcnSGMpnQ==
+X-Amzn-Trace-Id: Root=1-5b4e62b4-da9db3b1e4c95470cbc2b160;Sampled=0
+X-Cache: Miss from cloudfront
+x-amz-apigw-id: KMRcNHUQvHcFaDQ=
+x-amzn-RequestId: 43c1cb91-8a0a-11e8-af84-8901f225e7d3
+
+{
+    &quot;labels&quot;: [
+        &quot;Clothing&quot;,
+        &quot;Bird Nest&quot;,
+        &quot;Dog&quot;,
+        &quot;Human&quot;,
+        &quot;People&quot;,
+        &quot;Person&quot;,
+        &quot;Husky&quot;,
+        &quot;Animal&quot;,
+        &quot;Nest&quot;,
+        &quot;Footwear&quot;
+    ],
+    &quot;name&quot;: &quot;sample.mp4&quot;,
+    &quot;type&quot;: &quot;video&quot;
+}
+</pre></div>
+</div>
+</li>
+<li><p>Make sure the <code class="docutils literal notranslate"><span class="pre">sample.mp4</span></code> is included when querying for items that have a
+<code class="docutils literal notranslate"><span class="pre">video</span></code> media type:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ http $(chalice url) media-type==video
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 153
+Content-Type: application/json
+Date: Sun, 22 Jul 2018 07:58:28 GMT
+Via: 1.1 5d53b9570a535c2d94ce93c20abbd471.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: JwvyQ_rEePlEyRAGjtQ1jDnvjXPKt8ea3FiNLdgBbjWnf2G4UTpUaw==
+X-Amzn-Trace-Id: Root=1-5b543923-02ddf1e74491eb77d692c8fd;Sampled=0
+X-Cache: Miss from cloudfront
+x-amz-apigw-id: Ka3dkFlHvHcFYIQ=
+x-amzn-RequestId: 0441fc0a-8d85-11e8-b51a-bd624fe1291d
+
+[
+    {
+        &quot;labels&quot;: [
+            &quot;Footwear&quot;,
+            &quot;Human&quot;,
+            &quot;People&quot;,
+            &quot;Nest&quot;,
+            &quot;Bird Nest&quot;,
+            &quot;Person&quot;,
+            &quot;Dog&quot;,
+            &quot;Husky&quot;,
+            &quot;Clothing&quot;,
+            &quot;Animal&quot;
+        ],
+        &quot;name&quot;: &quot;sample.mp4&quot;,
+        &quot;type&quot;: &quot;video&quot;
+    }
+]
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+</section>
+<section id="automate-video-workflow-on-s3-uploads-and-deletions">
+<h2><a class="toc-backref" href="#id10">Automate video workflow on S3 uploads and deletions</a><a class="headerlink" href="#automate-video-workflow-on-s3-uploads-and-deletions" title="Permalink to this headline">¶</a></h2>
+<p>Now let’s update the application so we do not have to manually invoke the
+<code class="docutils literal notranslate"><span class="pre">StartLabelDetection</span></code> API and instead have the API be invoked in
+Lambda whenever a video is uploaded to S3. We will also need to automatically
+delete the video whenever the video is deleted from S3.</p>
+<section id="id5">
+<h3>Instructions<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Add the tuple <code class="docutils literal notranslate"><span class="pre">_SUPPORTED_VIDEO_EXTENSTIONS</span></code> representing a list of
+supported video extensions:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">_SUPPORTED_VIDEO_EXTENSIONS</span> <span class="o">=</span> <span class="p">(</span>
+    <span class="s1">&#39;.mp4&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;.flv&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;.mov&#39;</span><span class="p">,</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</li>
+<li><p>Update the <code class="docutils literal notranslate"><span class="pre">handle_object_created</span></code> function to start a video label
+detection job for videos uploaded to the S3 bucket and have the completion
+notification be published to the SNS topic:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@app</span><span class="o">.</span><span class="n">on_s3_event</span><span class="p">(</span><span class="n">bucket</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;MEDIA_BUCKET_NAME&#39;</span><span class="p">],</span>
+                 <span class="n">events</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;s3:ObjectCreated:*&#39;</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">handle_object_created</span><span class="p">(</span><span class="n">event</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">_is_image</span><span class="p">(</span><span class="n">event</span><span class="o">.</span><span class="n">key</span><span class="p">):</span>
+        <span class="n">_handle_created_image</span><span class="p">(</span><span class="n">bucket</span><span class="o">=</span><span class="n">event</span><span class="o">.</span><span class="n">bucket</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="n">event</span><span class="o">.</span><span class="n">key</span><span class="p">)</span>
+<span class="hll">    <span class="k">elif</span> <span class="n">_is_video</span><span class="p">(</span><span class="n">event</span><span class="o">.</span><span class="n">key</span><span class="p">):</span>
+</span><span class="hll">        <span class="n">_handle_created_video</span><span class="p">(</span><span class="n">bucket</span><span class="o">=</span><span class="n">event</span><span class="o">.</span><span class="n">bucket</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="n">event</span><span class="o">.</span><span class="n">key</span><span class="p">)</span>
+</span>
+
+<span class="hll"><span class="k">def</span> <span class="nf">_is_video</span><span class="p">(</span><span class="n">key</span><span class="p">):</span>
+</span><span class="hll">    <span class="k">return</span> <span class="n">key</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="n">_SUPPORTED_VIDEO_EXTENSIONS</span><span class="p">)</span>
+</span>
+
+<span class="hll"><span class="k">def</span> <span class="nf">_handle_created_video</span><span class="p">(</span><span class="n">bucket</span><span class="p">,</span> <span class="n">key</span><span class="p">):</span>
+</span><span class="hll">    <span class="n">get_rekognition_client</span><span class="p">()</span><span class="o">.</span><span class="n">start_video_label_job</span><span class="p">(</span>
+</span><span class="hll">        <span class="n">bucket</span><span class="o">=</span><span class="n">bucket</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="n">key</span><span class="p">,</span> <span class="n">topic_arn</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;VIDEO_TOPIC_ARN&#39;</span><span class="p">],</span>
+</span><span class="hll">        <span class="n">role_arn</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;VIDEO_ROLE_ARN&#39;</span><span class="p">]</span>
+</span><span class="hll">    <span class="p">)</span>
+</span></pre></div>
+</div>
+</li>
+<li><p>Update the <code class="docutils literal notranslate"><span class="pre">handle_object_removed</span></code> function to delete items from the
+table that are videos as well:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@app</span><span class="o">.</span><span class="n">on_s3_event</span><span class="p">(</span><span class="n">bucket</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;MEDIA_BUCKET_NAME&#39;</span><span class="p">],</span>
+                 <span class="n">events</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;s3:ObjectRemoved:*&#39;</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">handle_object_removed</span><span class="p">(</span><span class="n">event</span><span class="p">):</span>
+<span class="hll">    <span class="k">if</span> <span class="n">_is_image</span><span class="p">(</span><span class="n">event</span><span class="o">.</span><span class="n">key</span><span class="p">)</span> <span class="ow">or</span> <span class="n">_is_video</span><span class="p">(</span><span class="n">event</span><span class="o">.</span><span class="n">key</span><span class="p">):</span>
+</span>        <span class="n">get_media_db</span><span class="p">()</span><span class="o">.</span><span class="n">delete_media_file</span><span class="p">(</span><span class="n">event</span><span class="o">.</span><span class="n">key</span><span class="p">)</span>
+</pre></div>
+</div>
+</li>
+<li><p>Run <code class="docutils literal notranslate"><span class="pre">chalice</span> <span class="pre">deploy</span></code> to deploy the updated Chalice application:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ chalice deploy
+Creating deployment package.
+Updating policy for IAM role: media-query-dev-handle_object_created
+Updating lambda function: media-query-dev-handle_object_created
+Configuring S3 events in bucket media-query-mediabucket-fb8oddjbslv1 to function media-query-dev-handle_object_created
+Updating policy for IAM role: media-query-dev-handle_object_removed
+Updating lambda function: media-query-dev-handle_object_removed
+Configuring S3 events in bucket media-query-mediabucket-fb8oddjbslv1 to function media-query-dev-handle_object_removed
+Creating IAM role: media-query-dev-add_video_file
+Creating lambda function: media-query-dev-add_video_file
+Subscribing media-query-dev-add_video_file to SNS topic media-query-VideoTopic-KU38EEHIIUV1
+Updating policy for IAM role: media-query-dev-api_handler
+Updating lambda function: media-query-dev
+Updating rest API
+Resources deployed:
+  - Lambda ARN: arn:aws:lambda:us-west-2:123456789123:function:media-query-dev-handle_object_created
+  - Lambda ARN: arn:aws:lambda:us-west-2:123456789123:function:media-query-dev-handle_object_removed
+  - Lambda ARN: arn:aws:lambda:us-west-2:123456789123:function:media-query-dev-add_video_file
+  - Lambda ARN: arn:aws:lambda:us-west-2:123456789123:function:media-query-dev
+  - Rest API URL: https://1lmxgj9bfl.execute-api.us-west-2.amazonaws.com/api/
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+<section id="id6">
+<h3>Verification<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Delete the previously uploaded <code class="docutils literal notranslate"><span class="pre">sample.mp4</span></code> from the S3 bucket:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ aws s3 rm s3://$MEDIA_BUCKET_NAME/sample.mp4
+</pre></div>
+</div>
+</li>
+<li><p>Ensure the <code class="docutils literal notranslate"><span class="pre">sample.mp4</span></code> video no longer is queryable from the
+application’s API:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ http $(chalice url)sample.mp4
+HTTP/1.1 404 Not Found
+Connection: keep-alive
+Content-Length: 88
+Content-Type: application/json
+Date: Tue, 17 Jul 2018 22:06:57 GMT
+Via: 1.1 e93b65cf89966087a2d9723b4713fb37.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: XD7Wr8-zY8cUAEvnSU_ojyvAadTiNatcJXuztSmBta3Kiluvuvf6ug==
+X-Amzn-Trace-Id: Root=1-5b4e6880-c6c366d38f1e906798146b4b;Sampled=0
+X-Cache: Error from cloudfront
+x-amz-apigw-id: KMVEAFEPPHcFieQ=
+x-amzn-RequestId: b7fba401-8a0d-11e8-a7e4-a9e75b4bb382
+
+{
+    &quot;Code&quot;: &quot;NotFoundError&quot;,
+    &quot;Message&quot;: &quot;NotFoundError: Media file (sample.mp4) not found&quot;
+}
+</pre></div>
+</div>
+</li>
+<li><p>Reupload the <code class="docutils literal notranslate"><span class="pre">sample.mp4</span></code> to the S3 bucket:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ aws s3 cp ../chalice-workshop/code/media-query/final/assets/sample.mp4 s3://$MEDIA_BUCKET_NAME
+</pre></div>
+</div>
+</li>
+<li><p>After waiting roughly 20 seconds, ensure the <code class="docutils literal notranslate"><span class="pre">sample.mp4</span></code> video is
+queryable again from the application’s API:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ http $(chalice url)sample.mp4
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 151
+Content-Type: application/json
+Date: Tue, 17 Jul 2018 21:42:12 GMT
+Via: 1.1 aa42484f82c16d99015c599631def20c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: GpqmQOwnKcaxb2sP2fi-KSs8LCu24Q6ekKV8Oyo6a0HZ7kcnSGMpnQ==
+X-Amzn-Trace-Id: Root=1-5b4e62b4-da9db3b1e4c95470cbc2b160;Sampled=0
+X-Cache: Miss from cloudfront
+x-amz-apigw-id: KMRcNHUQvHcFaDQ=
+x-amzn-RequestId: 43c1cb91-8a0a-11e8-af84-8901f225e7d3
+
+{
+    &quot;labels&quot;: [
+        &quot;Clothing&quot;,
+        &quot;Bird Nest&quot;,
+        &quot;Dog&quot;,
+        &quot;Human&quot;,
+        &quot;People&quot;,
+        &quot;Person&quot;,
+        &quot;Husky&quot;,
+        &quot;Animal&quot;,
+        &quot;Nest&quot;,
+        &quot;Footwear&quot;
+    ],
+    &quot;name&quot;: &quot;sample.mp4&quot;,
+    &quot;type&quot;: &quot;video&quot;
+}
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+</section>
+<section id="final-code">
+<h2><a class="toc-backref" href="#id11">Final Code</a><a class="headerlink" href="#final-code" title="Permalink to this headline">¶</a></h2>
+<p>Congratulations! You have now completed this tutorial. Below is the final code
+that you should have wrote in the <code class="docutils literal notranslate"><span class="pre">app.py</span></code> of your Chalice application:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">json</span>
+<span class="kn">import</span> <span class="nn">os</span>
+
+<span class="kn">import</span> <span class="nn">boto3</span>
+<span class="kn">from</span> <span class="nn">chalice</span> <span class="kn">import</span> <span class="n">Chalice</span>
+<span class="kn">from</span> <span class="nn">chalice</span> <span class="kn">import</span> <span class="n">NotFoundError</span>
+<span class="kn">from</span> <span class="nn">chalicelib</span> <span class="kn">import</span> <span class="n">db</span>
+<span class="kn">from</span> <span class="nn">chalicelib</span> <span class="kn">import</span> <span class="n">rekognition</span>
+
+<span class="n">app</span> <span class="o">=</span> <span class="n">Chalice</span><span class="p">(</span><span class="n">app_name</span><span class="o">=</span><span class="s1">&#39;media-query&#39;</span><span class="p">)</span>
+
+<span class="n">_MEDIA_DB</span> <span class="o">=</span> <span class="kc">None</span>
+<span class="n">_REKOGNITION_CLIENT</span> <span class="o">=</span> <span class="kc">None</span>
+<span class="n">_SUPPORTED_IMAGE_EXTENSIONS</span> <span class="o">=</span> <span class="p">(</span>
+    <span class="s1">&#39;.jpg&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;.png&#39;</span><span class="p">,</span>
+<span class="p">)</span>
+<span class="n">_SUPPORTED_VIDEO_EXTENSIONS</span> <span class="o">=</span> <span class="p">(</span>
+    <span class="s1">&#39;.mp4&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;.flv&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;.mov&#39;</span><span class="p">,</span>
+<span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">get_media_db</span><span class="p">():</span>
+    <span class="k">global</span> <span class="n">_MEDIA_DB</span>
+    <span class="k">if</span> <span class="n">_MEDIA_DB</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">_MEDIA_DB</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">DynamoMediaDB</span><span class="p">(</span>
+            <span class="n">boto3</span><span class="o">.</span><span class="n">resource</span><span class="p">(</span><span class="s1">&#39;dynamodb&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">Table</span><span class="p">(</span>
+                <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;MEDIA_TABLE_NAME&#39;</span><span class="p">]))</span>
+    <span class="k">return</span> <span class="n">_MEDIA_DB</span>
+
+
+<span class="k">def</span> <span class="nf">get_rekognition_client</span><span class="p">():</span>
+    <span class="k">global</span> <span class="n">_REKOGNITION_CLIENT</span>
+    <span class="k">if</span> <span class="n">_REKOGNITION_CLIENT</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">_REKOGNITION_CLIENT</span> <span class="o">=</span> <span class="n">rekognition</span><span class="o">.</span><span class="n">RekognitonClient</span><span class="p">(</span>
+            <span class="n">boto3</span><span class="o">.</span><span class="n">client</span><span class="p">(</span><span class="s1">&#39;rekognition&#39;</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">_REKOGNITION_CLIENT</span>
+
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">on_s3_event</span><span class="p">(</span><span class="n">bucket</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;MEDIA_BUCKET_NAME&#39;</span><span class="p">],</span>
+                 <span class="n">events</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;s3:ObjectCreated:*&#39;</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">handle_object_created</span><span class="p">(</span><span class="n">event</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">_is_image</span><span class="p">(</span><span class="n">event</span><span class="o">.</span><span class="n">key</span><span class="p">):</span>
+        <span class="n">_handle_created_image</span><span class="p">(</span><span class="n">bucket</span><span class="o">=</span><span class="n">event</span><span class="o">.</span><span class="n">bucket</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="n">event</span><span class="o">.</span><span class="n">key</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">_is_video</span><span class="p">(</span><span class="n">event</span><span class="o">.</span><span class="n">key</span><span class="p">):</span>
+        <span class="n">_handle_created_video</span><span class="p">(</span><span class="n">bucket</span><span class="o">=</span><span class="n">event</span><span class="o">.</span><span class="n">bucket</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="n">event</span><span class="o">.</span><span class="n">key</span><span class="p">)</span>
+
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">on_s3_event</span><span class="p">(</span><span class="n">bucket</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;MEDIA_BUCKET_NAME&#39;</span><span class="p">],</span>
+                 <span class="n">events</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;s3:ObjectRemoved:*&#39;</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">handle_object_removed</span><span class="p">(</span><span class="n">event</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">_is_image</span><span class="p">(</span><span class="n">event</span><span class="o">.</span><span class="n">key</span><span class="p">)</span> <span class="ow">or</span> <span class="n">_is_video</span><span class="p">(</span><span class="n">event</span><span class="o">.</span><span class="n">key</span><span class="p">):</span>
+        <span class="n">get_media_db</span><span class="p">()</span><span class="o">.</span><span class="n">delete_media_file</span><span class="p">(</span><span class="n">event</span><span class="o">.</span><span class="n">key</span><span class="p">)</span>
+
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">on_sns_message</span><span class="p">(</span><span class="n">topic</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;VIDEO_TOPIC_NAME&#39;</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">add_video_file</span><span class="p">(</span><span class="n">event</span><span class="p">):</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">event</span><span class="o">.</span><span class="n">message</span><span class="p">)</span>
+    <span class="n">labels</span> <span class="o">=</span> <span class="n">get_rekognition_client</span><span class="p">()</span><span class="o">.</span><span class="n">get_video_job_labels</span><span class="p">(</span><span class="n">message</span><span class="p">[</span><span class="s1">&#39;JobId&#39;</span><span class="p">])</span>
+    <span class="n">get_media_db</span><span class="p">()</span><span class="o">.</span><span class="n">add_media_file</span><span class="p">(</span>
+        <span class="n">name</span><span class="o">=</span><span class="n">message</span><span class="p">[</span><span class="s1">&#39;Video&#39;</span><span class="p">][</span><span class="s1">&#39;S3ObjectName&#39;</span><span class="p">],</span>
+        <span class="n">media_type</span><span class="o">=</span><span class="n">db</span><span class="o">.</span><span class="n">VIDEO_TYPE</span><span class="p">,</span>
+        <span class="n">labels</span><span class="o">=</span><span class="n">labels</span><span class="p">)</span>
+
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">list_media_files</span><span class="p">():</span>
+    <span class="n">params</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="k">if</span> <span class="n">app</span><span class="o">.</span><span class="n">current_request</span><span class="o">.</span><span class="n">query_params</span><span class="p">:</span>
+        <span class="n">params</span> <span class="o">=</span> <span class="n">_extract_db_list_params</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">current_request</span><span class="o">.</span><span class="n">query_params</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">get_media_db</span><span class="p">()</span><span class="o">.</span><span class="n">list_media_files</span><span class="p">(</span><span class="o">**</span><span class="n">params</span><span class="p">)</span>
+
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/</span><span class="si">{name}</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">get_media_file</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
+    <span class="n">item</span> <span class="o">=</span> <span class="n">get_media_db</span><span class="p">()</span><span class="o">.</span><span class="n">get_media_file</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">item</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="n">NotFoundError</span><span class="p">(</span><span class="s1">&#39;Media file (</span><span class="si">%s</span><span class="s1">) not found&#39;</span> <span class="o">%</span> <span class="n">name</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">item</span>
+
+
+<span class="k">def</span> <span class="nf">_extract_db_list_params</span><span class="p">(</span><span class="n">query_params</span><span class="p">):</span>
+    <span class="n">valid_query_params</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="s1">&#39;startswith&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;media-type&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;label&#39;</span>
+    <span class="p">]</span>
+    <span class="k">return</span> <span class="p">{</span>
+        <span class="n">k</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;-&#39;</span><span class="p">,</span> <span class="s1">&#39;_&#39;</span><span class="p">):</span> <span class="n">v</span>
+        <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">query_params</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="k">if</span> <span class="n">k</span> <span class="ow">in</span> <span class="n">valid_query_params</span>
+    <span class="p">}</span>
+
+
+<span class="k">def</span> <span class="nf">_is_image</span><span class="p">(</span><span class="n">key</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">key</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="n">_SUPPORTED_IMAGE_EXTENSIONS</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">_handle_created_image</span><span class="p">(</span><span class="n">bucket</span><span class="p">,</span> <span class="n">key</span><span class="p">):</span>
+    <span class="n">labels</span> <span class="o">=</span> <span class="n">get_rekognition_client</span><span class="p">()</span><span class="o">.</span><span class="n">get_image_labels</span><span class="p">(</span><span class="n">bucket</span><span class="o">=</span><span class="n">bucket</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="n">key</span><span class="p">)</span>
+    <span class="n">get_media_db</span><span class="p">()</span><span class="o">.</span><span class="n">add_media_file</span><span class="p">(</span><span class="n">key</span><span class="p">,</span> <span class="n">media_type</span><span class="o">=</span><span class="n">db</span><span class="o">.</span><span class="n">IMAGE_TYPE</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="n">labels</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">_is_video</span><span class="p">(</span><span class="n">key</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">key</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="n">_SUPPORTED_VIDEO_EXTENSIONS</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">_handle_created_video</span><span class="p">(</span><span class="n">bucket</span><span class="p">,</span> <span class="n">key</span><span class="p">):</span>
+    <span class="n">get_rekognition_client</span><span class="p">()</span><span class="o">.</span><span class="n">start_video_label_job</span><span class="p">(</span>
+        <span class="n">bucket</span><span class="o">=</span><span class="n">bucket</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="n">key</span><span class="p">,</span> <span class="n">topic_arn</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;VIDEO_TOPIC_ARN&#39;</span><span class="p">],</span>
+        <span class="n">role_arn</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;VIDEO_ROLE_ARN&#39;</span><span class="p">]</span>
+    <span class="p">)</span>
+</pre></div>
+</div>
+<p>Feel free to add your own media files and/or build additional logic on
+top of this application. For the complete final application, see the
+<a class="reference external" href="https://github.com/aws-samples/chalice-workshop/tree/master/code/media-query/final">GitHub repository</a></p>
+</section>
+</section>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="cleanup.html" class="btn btn-neutral float-right" title="Cleaning up the Chalice application" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="06-web-api.html" class="btn btn-neutral float-left" title="Part 6: Add REST API to query media files" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020-2021, Thomas Connors and Contributors.
+      <span class="lastupdated">
+        Last updated on Sat, 17 Jul 2021 12:00 AM .
+      </span>
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+  
+ <script type="text/javascript">
+    $(document).ready(function() {
+        $(".toggle > *").hide();
+        $(".toggle .header").show();
+        $(".toggle .header").click(function() {
+            $(this).parent().children().not(".header").toggle(400);
+            $(this).parent().children(".header").toggleClass("open");
+        })
+    });
+</script>
+
+
+</body>
+</html>

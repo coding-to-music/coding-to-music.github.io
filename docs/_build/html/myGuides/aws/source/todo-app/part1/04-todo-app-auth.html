@@ -1,0 +1,1315 @@
+
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  
+  <title>Section 4: Add authorization to Todo application &mdash; all-knowledge</title>
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="../../../../../_static/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../../../../_static/icons/favicon-16x16.png">
+  <link rel="manifest" href="../../../../../_static/icons/site.webmanifest">
+  <link rel="mask-icon" href="../../../../../_static/icons/safari-pinned-tab.svg" color="#919191">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="msapplication-config" content="../../../../../_static/icons/browserconfig.xml">
+  <link rel="stylesheet" href="../../../../../_static/stylesheets/examples.css">
+  <link rel="stylesheet" href="../../../../../_static/stylesheets/deprecation.css">
+
+  
+  <link rel="stylesheet" href="../../../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/copybutton.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/tooltipster.custom.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/tooltipster.bundle.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/tooltipster-sideTip-shadow.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/tooltipster-sideTip-punk.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/tooltipster-sideTip-noir.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/tooltipster-sideTip-light.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/tooltipster-sideTip-borderless.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/micromodal.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/tabs.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/sphinx_rtd_theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/contentui.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/gallery.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/gallery-binder.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/gallery-dataframe.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/gallery-rendered-html.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/sphinxcontrib-images/LightBox2/lightbox2/css/lightbox.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../../../../../_static/favicon.ico"/>
+  
+
+  
+  
+
+  
+    <link rel="canonical" href="https://pandemic-overview.readthedocs.io/en/latest/myGuides/aws/source/todo-app/part1/04-todo-app-auth.html" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../../../" src="../../../../../_static/documentation_options.js"></script>
+        <script src="../../../../../_static/jquery.js"></script>
+        <script src="../../../../../_static/underscore.js"></script>
+        <script src="../../../../../_static/doctools.js"></script>
+        <script src="../../../../../_static/language_data.js"></script>
+        <script src="../../../../../_static/clipboard.min.js"></script>
+        <script src="../../../../../_static/copybutton.js"></script>
+        <script src="../../../../../_static/js/hoverxref.js"></script>
+        <script src="../../../../../_static/js/tooltipster.bundle.min.js"></script>
+        <script src="../../../../../_static/js/micromodal.min.js"></script>
+        <script src="../../../../../_static/tabs.js"></script>
+        <script src="../../../../../_static/js/expand_tabs.js"></script>
+        <script src="../../../../../_static/contentui.js"></script>
+        <script src="../../../../../_static/sphinxcontrib-images/LightBox2/lightbox2/js/jquery-1.11.0.min.js"></script>
+        <script src="../../../../../_static/sphinxcontrib-images/LightBox2/lightbox2/js/lightbox.min.js"></script>
+        <script src="../../../../../_static/sphinxcontrib-images/LightBox2/lightbox2-customize/jquery-noconflict.js"></script>
+    
+    <script type="text/javascript" src="../../../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="Part 2: Deployment and setting up a CICD pipeline with AWS Chalice" href="../part2/index.html" />
+    <link rel="prev" title="Section 3: Add a DynamoDB table for Todo application" href="03-todo-app-dynamodb.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../../../index.html">
+          
+
+          
+            
+            <img src="../../../../../_static/statsmodels-logo-v2-bw.svg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Covid-Medical-Treatments/Covid-Medical-Treatments.html">Covid Medical Treatments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Bill-Gates-Memes/Bill-Gates-Memes.html">Bill Gates Memes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/topics.html">Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Data-science-of-the-pandemic/Data-science-of-the-pandemic.html">Data Science of the Pandemic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Vaccines/Vaccines.html">Vaccines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Masks/Masks.html">Masks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Lockdowns/Lockdowns.html">Lockdowns</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Origins-of-the-Virus/Origins-of-the-Virus.html">Origins of the Virus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Pandemic-Preparedness/Pandemic-Preparedness.html">Pandemic Preparedness</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Pandemic-Participants/Pandemic-Participants.html">Pandemic Participants</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Food-Safety/Food-Safety.html">Food Safety</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Municipal-Matters/Municipal-Matters.html">Municipal Issues and Topics</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../How-you-can-help/How-you-can-help.html">How you can help</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../Tech-stack-for-this-website.html">Tech stack for this website</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../myGuides.html">My Guides for Various Technical Topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../General-computer-setup.html">General Computer Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../Advanced-Computer-Setup.html">Advanced Computer Setup and Topics</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../Amazon-AWS-Learning.html">Amazon AWS Learning</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../../index.html">AWS Chalice Workshop</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../env-setup.html">Prerequisite: Setting up your environment</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../index.html">Todo Application</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../media-query/index.html">Media Query Application</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/media-query/final/README.html">Media Query Application</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/todo-app/final/README.html">My Todo App</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/todo-app/part1/README.html">Chalice Workshop Code Part 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/todo-app/part2/README.html">Chalice Workshop Part 2</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../ToDo-project-tasks.html">ToDo project and documentation tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../Contribute.html">Contribute</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../Upcoming-software-to-try.html">Links of Upcoming Software to Try</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../How-you-can-help/Links-to-add-to-site.html">Links to add to the documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../How-you-can-help/Future-topics-to-be-developed.html">Future Topics to be developed</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../Sandbox/Sandbox.html">Sandbox</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../License/license.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../Help-about/help.html">Help - About</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Covid-Medical-Treatments/Covid-Medical-Treatments.html">Covid Medical Treatments</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Bill-Gates-Memes/Bill-Gates-Memes.html">Bill Gates Memes</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/topics.html">Topics</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Data-science-of-the-pandemic/Data-science-of-the-pandemic.html">Data Science of the Pandemic</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Vaccines/Vaccines.html">Vaccines</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Masks/Masks.html">Masks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Lockdowns/Lockdowns.html">Lockdowns</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Origins-of-the-Virus/Origins-of-the-Virus.html">Origins of the Virus</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Pandemic-Preparedness/Pandemic-Preparedness.html">Pandemic Preparedness</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Pandemic-Participants/Pandemic-Participants.html">Pandemic Participants</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Food-Safety/Food-Safety.html">Food Safety</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Municipal-Matters/Municipal-Matters.html">Municipal Issues and Topics</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../How-you-can-help/How-you-can-help.html">How you can help</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../Tech-stack-for-this-website.html">Tech stack for this website</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../myGuides.html">My Guides for Various Technical Topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../General-computer-setup.html">General Computer Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../Advanced-Computer-Setup.html">Advanced Computer Setup and Topics</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../Amazon-AWS-Learning.html">Amazon AWS Learning</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../../index.html">AWS Chalice Workshop</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../env-setup.html">Prerequisite: Setting up your environment</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../index.html">Todo Application</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../media-query/index.html">Media Query Application</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/media-query/final/README.html">Media Query Application</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/todo-app/final/README.html">My Todo App</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/todo-app/part1/README.html">Chalice Workshop Code Part 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/todo-app/part2/README.html">Chalice Workshop Part 2</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../ToDo-project-tasks.html">ToDo project and documentation tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../Contribute.html">Contribute</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../Upcoming-software-to-try.html">Links of Upcoming Software to Try</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../How-you-can-help/Links-to-add-to-site.html">Links to add to the documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../How-you-can-help/Future-topics-to-be-developed.html">Future Topics to be developed</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../index.html">all-knowledge</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../../../../How-you-can-help/How-you-can-help.html">How you can help</a> &raquo;</li>
+        
+          <li><a href="../../../Amazon-AWS-Learning.html">Amazon AWS Learning</a> &raquo;</li>
+        
+          <li><a href="../../index.html">AWS Chalice Workshop</a> &raquo;</li>
+        
+          <li><a href="../index.html">Todo Application</a> &raquo;</li>
+        
+          <li><a href="index.html">Part 1: Build a serverless web application with AWS Chalice</a> &raquo;</li>
+        
+      <li>Section 4: Add authorization to Todo application</li>
+    
+    
+    <li class="wy-breadcrumbs-aside">
+    
+        
+        <a href="../../../../../_sources/myGuides/aws/source/todo-app/part1/04-todo-app-auth.rst.txt" rel="nofollow"> View page source</a>
+        
+    
+    </li>
+
+  </ul>
+
+  
+  <div class="rst-breadcrumbs-buttons" role="navigation" aria-label="breadcrumb navigation">
+      
+        <a href="../part2/index.html" class="btn btn-neutral float-right" title="Part 2: Deployment and setting up a CICD pipeline with AWS Chalice" accesskey="n">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+      
+      
+        <a href="03-todo-app-dynamodb.html" class="btn btn-neutral float-left" title="Section 3: Add a DynamoDB table for Todo application" accesskey="p"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+      
+  </div>
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <section id="section-4-add-authorization-to-todo-application">
+<h1>Section 4: Add authorization to Todo application<a class="headerlink" href="#section-4-add-authorization-to-todo-application" title="Permalink to this headline">¶</a></h1>
+<p>If you had noticed from the previous steps, there was a <code class="docutils literal notranslate"><span class="pre">username</span></code> field
+for all of the Todos, but the <code class="docutils literal notranslate"><span class="pre">username</span></code> was always set to <code class="docutils literal notranslate"><span class="pre">default</span></code>.
+This step will be utilizing the <code class="docutils literal notranslate"><span class="pre">username</span></code> field by exposing the notion
+of users and authorization in the Todo application.  For this section, we will
+be doing the following to add authorization and users to the application:</p>
+<div class="contents local topic" id="contents">
+<ul class="simple">
+<li><p><a class="reference internal" href="#install-pyjwt" id="id18">Install PyJWT</a></p></li>
+<li><p><a class="reference internal" href="#copy-over-auth-specific-files" id="id19">Copy over auth specific files</a></p></li>
+<li><p><a class="reference internal" href="#create-a-dynamodb-user-table" id="id20">Create a DynamoDB user table</a></p></li>
+<li><p><a class="reference internal" href="#add-a-user-to-the-user-table" id="id21">Add a user to the user table</a></p></li>
+<li><p><a class="reference internal" href="#create-get-users-db-function" id="id22">Create <code class="docutils literal notranslate"><span class="pre">get_users_db</span></code> function</a></p></li>
+<li><p><a class="reference internal" href="#create-a-login-route" id="id23">Create a login route</a></p></li>
+<li><p><a class="reference internal" href="#create-a-custom-authorizer-and-attach-to-a-route" id="id24">Create a custom authorizer and attach to a route</a></p></li>
+<li><p><a class="reference internal" href="#attach-authorizer-to-the-rest-of-the-routes" id="id25">Attach authorizer to the rest of the routes</a></p></li>
+<li><p><a class="reference internal" href="#use-authorizer-provided-username" id="id26">Use authorizer provided username</a></p></li>
+<li><p><a class="reference internal" href="#deploying-your-authorizer-code" id="id27">Deploying your authorizer code</a></p></li>
+<li><p><a class="reference internal" href="#final-code" id="id28">Final Code</a></p></li>
+</ul>
+</div>
+<section id="install-pyjwt">
+<h2><a class="toc-backref" href="#id18">Install PyJWT</a><a class="headerlink" href="#install-pyjwt" title="Permalink to this headline">¶</a></h2>
+<p>For authorization, the application is going to be relying on JWT. To depend
+on JWT, in the Chalice application <code class="docutils literal notranslate"><span class="pre">PyJWT</span></code> needs to be installed and added
+to our <code class="docutils literal notranslate"><span class="pre">requirements.txt</span></code> file.</p>
+<section id="instructions">
+<h3>Instructions<a class="headerlink" href="#instructions" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Add <code class="docutils literal notranslate"><span class="pre">PyJWT</span></code> to your <code class="docutils literal notranslate"><span class="pre">requirements.txt</span></code> file:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ echo PyJWT==1.6.1 &gt;&gt; requirements.txt
+</pre></div>
+</div>
+</li>
+<li><p>Make sure it is now installed in your virtualenv:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ pip install -r requirements.txt
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+<section id="verification">
+<h3>Verification<a class="headerlink" href="#verification" title="Permalink to this headline">¶</a></h3>
+<p>To ensure that it was installed, open the Python REPL and try to import
+the <code class="docutils literal notranslate"><span class="pre">PyJWT</span></code> library:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ python
+  Python 2.7.10 (default, Mar 10 2016, 09:55:31)
+  [GCC 4.2.1 Compatible Apple LLVM 7.0.2 (clang-700.1.81)] on darwin
+  Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.
+  &gt;&gt;&gt; import jwt
+</pre></div>
+</div>
+</section>
+</section>
+<section id="copy-over-auth-specific-files">
+<h2><a class="toc-backref" href="#id19">Copy over auth specific files</a><a class="headerlink" href="#copy-over-auth-specific-files" title="Permalink to this headline">¶</a></h2>
+<p>In order to add authentication to your Chalice application we have provided a few
+files that help with some of the low-level details. We have added an <code class="docutils literal notranslate"><span class="pre">auth.py</span></code> file
+to <code class="docutils literal notranslate"><span class="pre">chalicelib</span></code> which abstracts away some of the details of handling JWT tokens. We
+have also added a <code class="docutils literal notranslate"><span class="pre">users.py</span></code> script which is a command line utility for creating and
+managing a user table.</p>
+<section id="id1">
+<h3>Instructions<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<p>1) Copy in the <code class="docutils literal notranslate"><span class="pre">chalice-workshop/code/todo-app/part1/04-add-auth/chalicelib/auth.py</span></code>
+file:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ cp ../chalice-workshop/code/todo-app/part1/04-add-auth/chalicelib/auth.py chalicelib/auth.py
+</pre></div>
+</div>
+<p>2) Copy over the <code class="docutils literal notranslate"><span class="pre">chalice-workshop/code/todo-app/part1/04-add-auth/users.py</span></code> script for
+creating users:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ cp ../chalice-workshop/code/todo-app/part1/04-add-auth/users.py users.py
+</pre></div>
+</div>
+</section>
+<section id="id2">
+<h3>Verification<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<p>From within the <code class="docutils literal notranslate"><span class="pre">mytodo</span></code> directory of your Todo Chalice application, the
+structure should be the following:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ tree
+.
+├── app.py
+├── chalicelib
+│   ├── __init__.py
+│   ├── auth.py
+│   └── db.py
+├── createtable.py
+├── requirements.txt
+└── users.py
+</pre></div>
+</div>
+</section>
+</section>
+<section id="create-a-dynamodb-user-table">
+<h2><a class="toc-backref" href="#id20">Create a DynamoDB user table</a><a class="headerlink" href="#create-a-dynamodb-user-table" title="Permalink to this headline">¶</a></h2>
+<p>Using the <code class="docutils literal notranslate"><span class="pre">createtable.py</span></code> script, this will create another DynamoDB table
+for storing users to use in the Chalice application.</p>
+<section id="id3">
+<h3>Instructions<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Run the <code class="docutils literal notranslate"><span class="pre">createtable.py</span></code> script to create the DynamoDB table:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ python createtable.py -t users
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+<section id="id4">
+<h3>Verification<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<p>Check that the return code of the command is <code class="docutils literal notranslate"><span class="pre">0</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ echo $?
+0
+</pre></div>
+</div>
+<p>Also <code class="docutils literal notranslate"><span class="pre">cat</span></code> the <code class="docutils literal notranslate"><span class="pre">.chalice/config.json</span></code> to make sure the <code class="docutils literal notranslate"><span class="pre">USERS_TABLE_NAME</span></code>
+shows up as an environment variable:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ cat .chalice/config.json
+{
+  &quot;stages&quot;: {
+    &quot;dev&quot;: {
+      &quot;environment_variables&quot;: {
+        &quot;USERS_TABLE_NAME&quot;: &quot;users-app-21658b12-517e-4441-baef-99b8fc2f0b61&quot;,
+        &quot;APP_TABLE_NAME&quot;: &quot;todo-app-323ca4c3-54fb-4e49-a584-c52625e5d85d&quot;
+      },
+      &quot;autogen_policy&quot;: false,
+      &quot;api_gateway_stage&quot;: &quot;api&quot;
+    }
+  },
+  &quot;version&quot;: &quot;2.0&quot;,
+  &quot;app_name&quot;: &quot;mytodo&quot;
+}
+</pre></div>
+</div>
+</section>
+</section>
+<section id="add-a-user-to-the-user-table">
+<h2><a class="toc-backref" href="#id21">Add a user to the user table</a><a class="headerlink" href="#add-a-user-to-the-user-table" title="Permalink to this headline">¶</a></h2>
+<p>Using the <code class="docutils literal notranslate"><span class="pre">users.py</span></code> script, create a new user in your users database to
+use with your chalice application.</p>
+<section id="id5">
+<h3>Instructions<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Run the <code class="docutils literal notranslate"><span class="pre">users.py</span></code> script with the <code class="docutils literal notranslate"><span class="pre">-c</span></code> argument to create a user. You
+will be prompted for a username and a password:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ python users.py -c
+Username: user
+Password:
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+<section id="id6">
+<h3>Verification<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<p>Using the <code class="docutils literal notranslate"><span class="pre">users.py</span></code> script, make sure that the user is listed in your
+database:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ python users.py -l
+user
+</pre></div>
+</div>
+<p>Also make sure that the password is correct by testing the username and
+password with the <code class="docutils literal notranslate"><span class="pre">users.py</span></code> script:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ python users.py -t
+Username: user
+Password:
+Password verified.
+</pre></div>
+</div>
+<p>You can also test an incorrect password.  You should see this output:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ python users.py -t
+Username: user
+Password:
+Password verification failed.
+</pre></div>
+</div>
+</section>
+</section>
+<section id="create-get-users-db-function">
+<h2><a class="toc-backref" href="#id22">Create <code class="docutils literal notranslate"><span class="pre">get_users_db</span></code> function</a><a class="headerlink" href="#create-get-users-db-function" title="Permalink to this headline">¶</a></h2>
+<p>Now that we have created a DynamoDB user table, we will create a convenience function
+for loading it.</p>
+<section id="id7">
+<h3>Instructions<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Add a new variable <code class="docutils literal notranslate"><span class="pre">_USER_DB</span></code> in your <code class="docutils literal notranslate"><span class="pre">app.py</span></code> file with a value of None:</p></li>
+</ol>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">app</span> <span class="o">=</span> <span class="n">Chalice</span><span class="p">(</span><span class="n">app_name</span><span class="o">=</span><span class="s1">&#39;mytodo&#39;</span><span class="p">)</span>
+<span class="n">app</span><span class="o">.</span><span class="n">debug</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="n">_DB</span> <span class="o">=</span> <span class="kc">None</span>
+<span class="c1"># This is the new value you&#39;re adding.</span>
+<span class="n">_USER_DB</span> <span class="o">=</span> <span class="kc">None</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>Create a function for fetching our current database table for users. Similar to the
+function that gets the app table.  Add this function to your <code class="docutils literal notranslate"><span class="pre">app.py</span></code> file:</p></li>
+</ol>
+<div class="highlight-default notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">get_users_db</span><span class="p">():</span>
+    <span class="k">global</span> <span class="n">_USER_DB</span>
+    <span class="k">if</span> <span class="n">_USER_DB</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">_USER_DB</span> <span class="o">=</span> <span class="n">boto3</span><span class="o">.</span><span class="n">resource</span><span class="p">(</span><span class="s1">&#39;dynamodb&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">Table</span><span class="p">(</span>
+            <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;USERS_TABLE_NAME&#39;</span><span class="p">])</span>
+    <span class="k">return</span> <span class="n">_USER_DB</span>
+</pre></div>
+</td></tr></table></div>
+</section>
+</section>
+<section id="create-a-login-route">
+<h2><a class="toc-backref" href="#id23">Create a login route</a><a class="headerlink" href="#create-a-login-route" title="Permalink to this headline">¶</a></h2>
+<p>We will now create a login route where users can trade their username/password for a
+JWT token.</p>
+<section id="id8">
+<h3>Instructions<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Define a new Chalice route <code class="docutils literal notranslate"><span class="pre">/login</span></code> that accepts the POST method and grabs the
+<code class="docutils literal notranslate"><span class="pre">username</span></code> and <code class="docutils literal notranslate"><span class="pre">password</span></code> from the request, and forwards it along to a helper
+function in the <code class="docutils literal notranslate"><span class="pre">auth</span></code> code you copied in earlier which will trade those for a
+JWT token.</p></li>
+</ol>
+<div class="highlight-default notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span>
+<span class="normal">8</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/login&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;POST&#39;</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">login</span><span class="p">():</span>
+    <span class="n">body</span> <span class="o">=</span> <span class="n">app</span><span class="o">.</span><span class="n">current_request</span><span class="o">.</span><span class="n">json_body</span>
+    <span class="n">record</span> <span class="o">=</span> <span class="n">get_users_db</span><span class="p">()</span><span class="o">.</span><span class="n">get_item</span><span class="p">(</span>
+        <span class="n">Key</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;username&#39;</span><span class="p">:</span> <span class="n">body</span><span class="p">[</span><span class="s1">&#39;username&#39;</span><span class="p">]})[</span><span class="s1">&#39;Item&#39;</span><span class="p">]</span>
+    <span class="n">jwt_token</span> <span class="o">=</span> <span class="n">auth</span><span class="o">.</span><span class="n">get_jwt_token</span><span class="p">(</span>
+        <span class="n">body</span><span class="p">[</span><span class="s1">&#39;username&#39;</span><span class="p">],</span> <span class="n">body</span><span class="p">[</span><span class="s1">&#39;password&#39;</span><span class="p">],</span> <span class="n">record</span><span class="p">)</span>
+    <span class="k">return</span> <span class="p">{</span><span class="s1">&#39;token&#39;</span><span class="p">:</span> <span class="n">jwt_token</span><span class="p">}</span>
+</pre></div>
+</td></tr></table></div>
+<ol class="arabic" start="2">
+<li><p>Notice the above code snippit uses the <code class="docutils literal notranslate"><span class="pre">auth</span></code> file that we copied into our
+chalicelib directory at the beginning of this step. Add the following
+import statement to the top of <code class="docutils literal notranslate"><span class="pre">app.py</span></code> so we can use it:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">chalicelib</span> <span class="kn">import</span> <span class="n">auth</span>
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+<section id="id9">
+<h3>Verification<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Start up a local server using <code class="docutils literal notranslate"><span class="pre">chalice</span> <span class="pre">local</span></code>.</p></li>
+<li><p>Using the username and password generated previously, run <code class="docutils literal notranslate"><span class="pre">chalice</span> <span class="pre">local</span></code>
+and make an HTTP <code class="docutils literal notranslate"><span class="pre">POST</span></code> request to the <code class="docutils literal notranslate"><span class="pre">/login</span></code> URI:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ echo &#39;{&quot;username&quot;: &quot;user&quot;, &quot;password&quot;: &quot;password&quot;}&#39; | \
+    http POST localhost:8000/login
+HTTP/1.1 200 OK
+Content-Length: 218
+Content-Type: application/json
+Date: Fri, 20 Oct 2017 22:48:42 GMT
+Server: BaseHTTP/0.3 Python/2.7.10
+
+{
+    &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1MDg1Mzk3MjIsImp0aSI6IjI5ZDJhNmFkLTdlY2YtNDYzZC1iOTY1LTk0M2VhNzU0YWMzYyIsInN1YiI6InVzZXIiLCJuYmYiOjE1MDg1Mzk3MjJ9.95hlpRWARK95aYCh0YE7ls_cvraoenNux8gmIy8vQU8&quot;
+}
+</pre></div>
+</div>
+</li>
+</ol>
+<p>This should return a JWT to use as an <code class="docutils literal notranslate"><span class="pre">Authorization</span></code> header for that user.</p>
+</section>
+</section>
+<section id="create-a-custom-authorizer-and-attach-to-a-route">
+<h2><a class="toc-backref" href="#id24">Create a custom authorizer and attach to a route</a><a class="headerlink" href="#create-a-custom-authorizer-and-attach-to-a-route" title="Permalink to this headline">¶</a></h2>
+<p>To add authorization to our app we will start by defining an authorizer and
+attaching it to one of our routes.</p>
+<section id="id10">
+<h3>Instructions<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Create an authorizer function that checks the validity of a JWT token using the
+existing code in the <code class="docutils literal notranslate"><span class="pre">auth.py</span></code> file we copied earlier. If the token is valid
+(didn’t throw an error) we will return a policy that allows access to all of our
+routes, and sets the <code class="docutils literal notranslate"><span class="pre">principal_id</span></code> to the username in the JWT token.</p></li>
+<li><p>Once we have defined the authorizer, we will attach it to the <code class="docutils literal notranslate"><span class="pre">get_todos</span></code> route.</p></li>
+</ol>
+<div class="highlight-default notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="nd">@app</span><span class="o">.</span><span class="n">authorizer</span><span class="p">()</span>
+<span class="k">def</span> <span class="nf">jwt_auth</span><span class="p">(</span><span class="n">auth_request</span><span class="p">):</span>
+    <span class="n">token</span> <span class="o">=</span> <span class="n">auth_request</span><span class="o">.</span><span class="n">token</span>
+    <span class="n">decoded</span> <span class="o">=</span> <span class="n">auth</span><span class="o">.</span><span class="n">decode_jwt_token</span><span class="p">(</span><span class="n">token</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">AuthResponse</span><span class="p">(</span><span class="n">routes</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;*&#39;</span><span class="p">],</span> <span class="n">principal_id</span><span class="o">=</span><span class="n">decoded</span><span class="p">[</span><span class="s1">&#39;sub&#39;</span><span class="p">])</span>
+</pre></div>
+</td></tr></table></div>
+<div class="highlight-default notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span>
+<span class="normal">2</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/todos&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;GET&#39;</span><span class="p">],</span> <span class="n">authorizer</span><span class="o">=</span><span class="n">jwt_auth</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">get_todos</span><span class="p">():</span>
+</pre></div>
+</td></tr></table></div>
+<p>Also make sure to import the <code class="docutils literal notranslate"><span class="pre">AuthResponse</span></code> class at the top of the <code class="docutils literal notranslate"><span class="pre">app.py</span></code> file:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">chalice</span> <span class="kn">import</span> <span class="n">AuthResponse</span>
+</pre></div>
+</div>
+</section>
+<section id="id11">
+<h3>Verification<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Start the local dev server <code class="docutils literal notranslate"><span class="pre">chalice</span> <span class="pre">local</span></code></p></li>
+<li><p>Try to get the todo, the request should be rejected without authorization:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ http localhost:8000/todos
+HTTP/1.1 401 Unauthorized
+Content-Length: 26
+Content-Type: application/json
+Date: Tue, 24 Oct 2017 02:50:50 GMT
+Server: BaseHTTP/0.3 Python/2.7.13
+x-amzn-ErrorType: UnauthorizedException
+x-amzn-RequestId: 297d1da8-b9a8-4824-a1f3-293607aac715
+
+{
+    &quot;message&quot;: &quot;Unauthorized&quot;
+}
+</pre></div>
+</div>
+</li>
+<li><p>Try the same call again but with your authorization token passed in the
+<code class="docutils literal notranslate"><span class="pre">Authorization</span></code> header:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ http localhost:8000/todos \
+    Authorization:eyJhbGciOi.... really long token here...
+Content-Length: 137
+Content-Type: application/json
+Date: Tue, 24 Oct 2017 02:50:43 GMT
+Server: BaseHTTP/0.3 Python/2.7.13
+
+[
+    {
+        &quot;description&quot;: &quot;My first Todo&quot;,
+        &quot;metadata&quot;: {},
+        &quot;state&quot;: &quot;unstarted&quot;,
+        &quot;uid&quot;: &quot;f9a992d6-41c0-45a6-84b8-e7239f7d7100&quot;,
+        &quot;username&quot;: &quot;john&quot;
+    }
+]
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+</section>
+<section id="attach-authorizer-to-the-rest-of-the-routes">
+<h2><a class="toc-backref" href="#id25">Attach authorizer to the rest of the routes</a><a class="headerlink" href="#attach-authorizer-to-the-rest-of-the-routes" title="Permalink to this headline">¶</a></h2>
+<p>Now attach the authorizer to all the other routes except the <code class="docutils literal notranslate"><span class="pre">login</span></code> route.</p>
+<section id="id12">
+<h3>Instructions<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Attach the <code class="docutils literal notranslate"><span class="pre">jwt_auth</span></code> authorizer to the <code class="docutils literal notranslate"><span class="pre">add_new_todo</span></code> route.</p></li>
+<li><p>Attach the <code class="docutils literal notranslate"><span class="pre">jwt_auth</span></code> authorizer to the <code class="docutils literal notranslate"><span class="pre">get_todo</span></code> route.</p></li>
+<li><p>Attach the <code class="docutils literal notranslate"><span class="pre">jwt_auth</span></code> authorizer to the <code class="docutils literal notranslate"><span class="pre">delete_todo</span></code> route.</p></li>
+<li><p>Attach the <code class="docutils literal notranslate"><span class="pre">jwt_auth</span></code> authorizer to the <code class="docutils literal notranslate"><span class="pre">update_todo</span></code> route.</p></li>
+</ol>
+<div class="highlight-default notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span>
+<span class="normal">2</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/todos&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;POST&#39;</span><span class="p">],</span> <span class="n">authorizer</span><span class="o">=</span><span class="n">jwt_auth</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">add_new_todo</span><span class="p">():</span>
+</pre></div>
+</td></tr></table></div>
+<div class="highlight-default notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span>
+<span class="normal">2</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/todos/</span><span class="si">{uid}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;GET&#39;</span><span class="p">],</span> <span class="n">authorizer</span><span class="o">=</span><span class="n">jwt_auth</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">get_todo</span><span class="p">(</span><span class="n">uid</span><span class="p">):</span>
+</pre></div>
+</td></tr></table></div>
+<div class="highlight-default notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span>
+<span class="normal">2</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/todos/</span><span class="si">{uid}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;DELETE&#39;</span><span class="p">],</span> <span class="n">authorizer</span><span class="o">=</span><span class="n">jwt_auth</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">delete_todo</span><span class="p">(</span><span class="n">uid</span><span class="p">):</span>
+</pre></div>
+</td></tr></table></div>
+<div class="highlight-default notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span>
+<span class="normal">2</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/todos/</span><span class="si">{uid}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;PUT&#39;</span><span class="p">],</span> <span class="n">authorizer</span><span class="o">=</span><span class="n">jwt_auth</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">update_todo</span><span class="p">(</span><span class="n">uid</span><span class="p">):</span>
+</pre></div>
+</td></tr></table></div>
+</section>
+<section id="id13">
+<h3>Verification<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Start up the local dev server <code class="docutils literal notranslate"><span class="pre">chalice</span> <span class="pre">local</span></code></p></li>
+<li><p>Try each route without an authorization token. You should get a <code class="docutils literal notranslate"><span class="pre">401</span></code>
+Unauthorized response:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ echo &#39;{&quot;description&quot;: &quot;My first Todo&quot;, &quot;metadata&quot;: {}}&#39; | \
+    http POST localhost:8000/todos
+HTTP/1.1 401 Unauthorized
+Content-Length: 26
+Content-Type: application/json
+Date: Tue, 24 Oct 2017 03:14:14 GMT
+Server: BaseHTTP/0.3 Python/2.7.13
+x-amzn-ErrorType: UnauthorizedException
+x-amzn-RequestId: 58c2d520-07e6-4535-b034-aaba41bab8ab
+
+{
+    &quot;message&quot;: &quot;Unauthorized&quot;
+}
+</pre></div>
+</div>
+</li>
+</ol>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ http GET localhost:8000/todos/fake-id
+HTTP/1.1 401 Unauthorized
+Content-Length: 26
+Content-Type: application/json
+Date: Tue, 24 Oct 2017 03:15:10 GMT
+Server: BaseHTTP/0.3 Python/2.7.13
+x-amzn-ErrorType: UnauthorizedException
+x-amzn-RequestId: b2304a70-ff8d-453f-b119-10e75326463a
+
+{
+    &quot;message&quot;: &quot;Unauthorized&quot;
+}
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ http DELETE localhost:8000/todos/fake-id
+HTTP/1.1 401 Unauthorized
+Content-Length: 26
+Content-Type: application/json
+Date: Tue, 24 Oct 2017 03:17:10 GMT
+Server: BaseHTTP/0.3 Python/2.7.13
+x-amzn-ErrorType: UnauthorizedException
+x-amzn-RequestId: 69419241-b244-462b-b108-72091f7d7b5b
+
+{
+    &quot;message&quot;: &quot;Unauthorized&quot;
+}
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ echo &#39;{&quot;state&quot;: &quot;started&quot;}&#39; | http PUT localhost:8000/todos/fake-id
+HTTP/1.1 401 Unauthorized
+Content-Length: 26
+Content-Type: application/json
+Date: Tue, 24 Oct 2017 03:18:59 GMT
+Server: BaseHTTP/0.3 Python/2.7.13
+x-amzn-ErrorType: UnauthorizedException
+x-amzn-RequestId: edc77f3d-3d3d-4a29-850a-502f21aeed96
+
+{
+    &quot;message&quot;: &quot;Unauthorized&quot;
+}
+</pre></div>
+</div>
+</div></blockquote>
+<ol class="arabic" start="3">
+<li><p>Now try to create, get, update, and delete a todo from your application by
+using the <code class="docutils literal notranslate"><span class="pre">Authorization</span></code> header in all your requests:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ echo &#39;{&quot;description&quot;: &quot;My first Todo&quot;, &quot;metadata&quot;: {}}&#39; | \
+     http POST localhost:8000/todos Authorization:eyJhbG... auth token ...
+HTTP/1.1 200 OK
+Content-Length: 36
+Content-Type: application/json
+Date: Tue, 24 Oct 2017 03:24:28 GMT
+Server: BaseHTTP/0.3 Python/2.7.13
+
+93dbabdb-3b2f-4029-845b-7754406c494f
+</pre></div>
+</div>
+</li>
+</ol>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ echo &#39;{&quot;state&quot;: &quot;started&quot;}&#39; | \
+    http PUT localhost:8000/todos/93dbabdb-3b2f-4029-845b-7754406c494f \
+    Authorization:eyJhbG... auth token ...
+HTTP/1.1 200 OK
+Content-Length: 4
+Content-Type: application/json
+Date: Tue, 24 Oct 2017 03:25:28 GMT
+Server: BaseHTTP/0.3 Python/2.7.13
+
+null
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ http localhost:8000/todos/93dbabdb-3b2f-4029-845b-7754406c494f \
+    Authorization:eyJhbG... auth token ...
+HTTP/1.1 200 OK
+Content-Length: 135
+Content-Type: application/json
+Date: Tue, 24 Oct 2017 03:26:29 GMT
+Server: BaseHTTP/0.3 Python/2.7.13
+
+{
+    &quot;description&quot;: &quot;My first Todo&quot;,
+    &quot;metadata&quot;: {},
+    &quot;state&quot;: &quot;started&quot;,
+    &quot;uid&quot;: &quot;93dbabdb-3b2f-4029-845b-7754406c494f&quot;,
+    &quot;username&quot;: &quot;default&quot;
+}
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ http DELETE localhost:8000/todos/93dbabdb-3b2f-4029-845b-7754406c494f \
+    Authorization:eyJhbG... auth token ...
+HTTP/1.1 200 OK
+Content-Length: 4
+Content-Type: application/json
+Date: Tue, 24 Oct 2017 03:27:10 GMT
+Server: BaseHTTP/0.3 Python/2.7.13
+
+null
+</pre></div>
+</div>
+</div></blockquote>
+</section>
+</section>
+<section id="use-authorizer-provided-username">
+<h2><a class="toc-backref" href="#id26">Use authorizer provided username</a><a class="headerlink" href="#use-authorizer-provided-username" title="Permalink to this headline">¶</a></h2>
+<p>Now that we have authorizers hooked up to all our routes we can use that
+instead of relying on the default user of <code class="docutils literal notranslate"><span class="pre">default</span></code>.</p>
+<section id="id14">
+<h3>Instructions<a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>First create a function named <code class="docutils literal notranslate"><span class="pre">get_authorized_username</span></code> that will be used
+to convert the information we have in our <code class="docutils literal notranslate"><span class="pre">current_request</span></code> into a
+username.</p></li>
+</ol>
+<div class="highlight-default notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span>
+<span class="normal">2</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">get_authorized_username</span><span class="p">(</span><span class="n">current_request</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">current_request</span><span class="o">.</span><span class="n">context</span><span class="p">[</span><span class="s1">&#39;authorizer&#39;</span><span class="p">][</span><span class="s1">&#39;principalId&#39;</span><span class="p">]</span>
+</pre></div>
+</td></tr></table></div>
+<ol class="arabic simple" start="2">
+<li><p>Now we need to update each function that interacts with our database to
+calculate the <code class="docutils literal notranslate"><span class="pre">username</span></code> and pass it to the <code class="docutils literal notranslate"><span class="pre">xxx_item</span></code> method.</p></li>
+</ol>
+<div class="highlight-default notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span>
+<span class="normal">31</span>
+<span class="normal">32</span>
+<span class="normal">33</span>
+<span class="normal">34</span>
+<span class="normal">35</span>
+<span class="normal">36</span>
+<span class="normal">37</span>
+<span class="normal">38</span>
+<span class="normal">39</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/todos&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;GET&#39;</span><span class="p">],</span> <span class="n">authorizer</span><span class="o">=</span><span class="n">jwt_auth</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">get_todos</span><span class="p">():</span>
+<span class="hll">    <span class="n">username</span> <span class="o">=</span> <span class="n">get_authorized_username</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">current_request</span><span class="p">)</span>
+</span><span class="hll">    <span class="k">return</span> <span class="n">get_app_db</span><span class="p">()</span><span class="o">.</span><span class="n">list_items</span><span class="p">(</span><span class="n">username</span><span class="o">=</span><span class="n">username</span><span class="p">)</span>
+</span>
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/todos&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;POST&#39;</span><span class="p">],</span> <span class="n">authorizer</span><span class="o">=</span><span class="n">jwt_auth</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">add_new_todo</span><span class="p">():</span>
+    <span class="n">body</span> <span class="o">=</span> <span class="n">app</span><span class="o">.</span><span class="n">current_request</span><span class="o">.</span><span class="n">json_body</span>
+<span class="hll">    <span class="n">username</span> <span class="o">=</span> <span class="n">get_authorized_username</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">current_request</span><span class="p">)</span>
+</span>    <span class="k">return</span> <span class="n">get_app_db</span><span class="p">()</span><span class="o">.</span><span class="n">add_item</span><span class="p">(</span>
+<span class="hll">        <span class="n">username</span><span class="o">=</span><span class="n">username</span><span class="p">,</span>
+</span>        <span class="n">description</span><span class="o">=</span><span class="n">body</span><span class="p">[</span><span class="s1">&#39;description&#39;</span><span class="p">],</span>
+        <span class="n">metadata</span><span class="o">=</span><span class="n">body</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;metadata&#39;</span><span class="p">),</span>
+    <span class="p">)</span>
+
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/todos/</span><span class="si">{uid}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;GET&#39;</span><span class="p">],</span> <span class="n">authorizer</span><span class="o">=</span><span class="n">jwt_auth</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">get_todo</span><span class="p">(</span><span class="n">uid</span><span class="p">):</span>
+<span class="hll">    <span class="n">username</span> <span class="o">=</span> <span class="n">get_authorized_username</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">current_request</span><span class="p">)</span>
+</span><span class="hll">    <span class="k">return</span> <span class="n">get_app_db</span><span class="p">()</span><span class="o">.</span><span class="n">get_item</span><span class="p">(</span><span class="n">uid</span><span class="p">,</span> <span class="n">username</span><span class="o">=</span><span class="n">username</span><span class="p">)</span>
+</span>
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/todos/</span><span class="si">{uid}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;DELETE&#39;</span><span class="p">],</span> <span class="n">authorizer</span><span class="o">=</span><span class="n">jwt_auth</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">delete_todo</span><span class="p">(</span><span class="n">uid</span><span class="p">):</span>
+<span class="hll">    <span class="n">username</span> <span class="o">=</span> <span class="n">get_authorized_username</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">current_request</span><span class="p">)</span>
+</span><span class="hll">    <span class="k">return</span> <span class="n">get_app_db</span><span class="p">()</span><span class="o">.</span><span class="n">delete_item</span><span class="p">(</span><span class="n">uid</span><span class="p">,</span> <span class="n">username</span><span class="o">=</span><span class="n">username</span><span class="p">)</span>
+</span>
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/todos/</span><span class="si">{uid}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;PUT&#39;</span><span class="p">],</span> <span class="n">authorizer</span><span class="o">=</span><span class="n">jwt_auth</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">update_todo</span><span class="p">(</span><span class="n">uid</span><span class="p">):</span>
+    <span class="n">body</span> <span class="o">=</span> <span class="n">app</span><span class="o">.</span><span class="n">current_request</span><span class="o">.</span><span class="n">json_body</span>
+<span class="hll">    <span class="n">username</span> <span class="o">=</span> <span class="n">get_authorized_username</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">current_request</span><span class="p">)</span>
+</span>    <span class="n">get_app_db</span><span class="p">()</span><span class="o">.</span><span class="n">update_item</span><span class="p">(</span>
+        <span class="n">uid</span><span class="p">,</span>
+        <span class="n">description</span><span class="o">=</span><span class="n">body</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;description&#39;</span><span class="p">),</span>
+        <span class="n">state</span><span class="o">=</span><span class="n">body</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;state&#39;</span><span class="p">),</span>
+        <span class="n">metadata</span><span class="o">=</span><span class="n">body</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;metadata&#39;</span><span class="p">),</span>
+<span class="hll">        <span class="n">username</span><span class="o">=</span><span class="n">username</span><span class="p">)</span>
+</span></pre></div>
+</td></tr></table></div>
+</section>
+<section id="id15">
+<h3>Verification<a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Spin up the local Chalice server with <code class="docutils literal notranslate"><span class="pre">chalice</span> <span class="pre">local</span></code>.</p></li>
+<li><p>Create a new todo and pass in your auth token:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ echo &#39;{&quot;description&quot;: &quot;a todo&quot;, &quot;metadata&quot;: {}}&#39; | \
+     http POST localhost:8000/todos Authorization:eyJhbG... auth token ...
+HTTP/1.1 200 OK
+Content-Length: 36
+Content-Type: application/json
+Date: Tue, 24 Oct 2017 04:16:57 GMT
+Server: BaseHTTP/0.3 Python/2.7.13
+
+71048cc2-8583-41e5-9dfe-b9669d15af7d
+</pre></div>
+</div>
+</li>
+<li><p>List your todos using the get_todos route:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ http localhost:8000/todos Authorization:eyJhbG... auth token ...
+HTTP/1.1 200 OK
+Content-Length: 132
+Content-Type: application/json
+Date: Tue, 24 Oct 2017 04:21:58 GMT
+Server: BaseHTTP/0.3 Python/2.7.13
+
+[
+    {
+        &quot;description&quot;: &quot;a todo&quot;,
+        &quot;metadata&quot;: {},
+        &quot;state&quot;: &quot;unstarted&quot;,
+        &quot;uid&quot;: &quot;7212a932-769b-4a19-9531-a950db7006a5&quot;,
+        &quot;username&quot;: &quot;john&quot;
+    }
+]
+</pre></div>
+</div>
+</li>
+<li><p>Notice that now the username is no longer <code class="docutils literal notranslate"><span class="pre">default</span></code> it should be whatever username
+went with the auth token you supplied.</p></li>
+<li><p>Try making a new user with <code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">users.py</span> <span class="pre">-c</span></code> and then get their JWT token
+by calling the login route with their credentials.</p></li>
+<li><p>Call the same route as above as the new user by passing in their JWT token in the
+<code class="docutils literal notranslate"><span class="pre">Authorization</span></code> header. They should get no todos since they have not created any
+yet:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">http</span> <span class="n">localhost</span><span class="p">:</span><span class="mi">8000</span><span class="o">/</span><span class="n">todos</span> <span class="s1">&#39;Authorization:...the other auth token...&#39;</span>
+<span class="n">HTTP</span><span class="o">/</span><span class="mf">1.1</span> <span class="mi">200</span> <span class="n">OK</span>
+<span class="n">Content</span><span class="o">-</span><span class="n">Length</span><span class="p">:</span> <span class="mi">2</span>
+<span class="n">Content</span><span class="o">-</span><span class="n">Type</span><span class="p">:</span> <span class="n">application</span><span class="o">/</span><span class="n">json</span>
+<span class="n">Date</span><span class="p">:</span> <span class="n">Tue</span><span class="p">,</span> <span class="mi">24</span> <span class="n">Oct</span> <span class="mi">2017</span> <span class="mi">04</span><span class="p">:</span><span class="mi">25</span><span class="p">:</span><span class="mi">56</span> <span class="n">GMT</span>
+<span class="n">Server</span><span class="p">:</span> <span class="n">BaseHTTP</span><span class="o">/</span><span class="mf">0.3</span> <span class="n">Python</span><span class="o">/</span><span class="mf">2.7.13</span>
+
+<span class="p">[]</span>
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+</section>
+<section id="deploying-your-authorizer-code">
+<h2><a class="toc-backref" href="#id27">Deploying your authorizer code</a><a class="headerlink" href="#deploying-your-authorizer-code" title="Permalink to this headline">¶</a></h2>
+<p>Now that we have it working locally lets deploy it and verify that it still works.</p>
+<section id="id16">
+<h3>Instructions<a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">chalice</span> <span class="pre">deploy</span></code> your app.</p></li>
+</ol>
+</section>
+<section id="id17">
+<h3>Verification<a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Try the same two calls above against the real API Gateway endpoint you get from your
+deploy instead of the localhost endpoint. If you lose your endpoint you can run
+<code class="docutils literal notranslate"><span class="pre">chalice</span> <span class="pre">url</span></code> which will print out your API Gateway endpoint:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ http &lt;your endpoint here&gt;/todos \
+    Authorization:...auth token that has no todos...
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 2
+Content-Type: application/json
+Date: Tue, 24 Oct 2017 04:43:20 GMT
+Via: 1.1 cff9911a0035fa608bcaa4e9709161b3.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: bunfoZShHff_f3AqBPS2d5Ae3ymqgBusANDP9G6NvAZB3gOfr1IsVA==
+X-Amzn-Trace-Id: sampled=0;root=1-59f01668-388cc9fa3db607662c2d623c
+X-Cache: Miss from cloudfront
+x-amzn-RequestId: 06de2818-b93f-11e7-bbb0-b760b41808da
+
+[]
+</pre></div>
+</div>
+</li>
+</ol>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ http &lt;your endpoint here&gt;/todos \
+    Authorization:...auth token that has a todo...
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 132
+Content-Type: application/json
+Date: Tue, 24 Oct 2017 04:43:45 GMT
+Via: 1.1 a05e153e17e2a6485edf7bf733e131a4.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: wR_7Bp4KglDjF41_9TNxXmc3Oiu2kll5XS1sTCCP_LD1kMC3C-nqOA==
+X-Amzn-Trace-Id: sampled=0;root=1-59f01681-bb8ce2d74dc0c6f8fe095f9d
+X-Cache: Miss from cloudfront
+x-amzn-RequestId: 155f88f7-b93f-11e7-b351-775deacbeb7a
+
+[
+    {
+        &quot;description&quot;: &quot;a todo&quot;,
+        &quot;metadata&quot;: {},
+        &quot;state&quot;: &quot;unstarted&quot;,
+        &quot;uid&quot;: &quot;7212a932-769b-4a19-9531-a950db7006a5&quot;,
+        &quot;username&quot;: &quot;john&quot;
+    }
+]
+</pre></div>
+</div>
+</div></blockquote>
+</section>
+</section>
+<section id="final-code">
+<h2><a class="toc-backref" href="#id28">Final Code</a><a class="headerlink" href="#final-code" title="Permalink to this headline">¶</a></h2>
+<p>When you are finished your <code class="docutils literal notranslate"><span class="pre">app.py</span></code> file should look like:</p>
+<div class="highlight-default notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span>
+<span class="normal">31</span>
+<span class="normal">32</span>
+<span class="normal">33</span>
+<span class="normal">34</span>
+<span class="normal">35</span>
+<span class="normal">36</span>
+<span class="normal">37</span>
+<span class="normal">38</span>
+<span class="normal">39</span>
+<span class="normal">40</span>
+<span class="normal">41</span>
+<span class="normal">42</span>
+<span class="normal">43</span>
+<span class="normal">44</span>
+<span class="normal">45</span>
+<span class="normal">46</span>
+<span class="normal">47</span>
+<span class="normal">48</span>
+<span class="normal">49</span>
+<span class="normal">50</span>
+<span class="normal">51</span>
+<span class="normal">52</span>
+<span class="normal">53</span>
+<span class="normal">54</span>
+<span class="normal">55</span>
+<span class="normal">56</span>
+<span class="normal">57</span>
+<span class="normal">58</span>
+<span class="normal">59</span>
+<span class="normal">60</span>
+<span class="normal">61</span>
+<span class="normal">62</span>
+<span class="normal">63</span>
+<span class="normal">64</span>
+<span class="normal">65</span>
+<span class="normal">66</span>
+<span class="normal">67</span>
+<span class="normal">68</span>
+<span class="normal">69</span>
+<span class="normal">70</span>
+<span class="normal">71</span>
+<span class="normal">72</span>
+<span class="normal">73</span>
+<span class="normal">74</span>
+<span class="normal">75</span>
+<span class="normal">76</span>
+<span class="normal">77</span>
+<span class="normal">78</span>
+<span class="normal">79</span>
+<span class="normal">80</span>
+<span class="normal">81</span>
+<span class="normal">82</span>
+<span class="normal">83</span>
+<span class="normal">84</span>
+<span class="normal">85</span>
+<span class="normal">86</span>
+<span class="normal">87</span>
+<span class="normal">88</span>
+<span class="normal">89</span>
+<span class="normal">90</span>
+<span class="normal">91</span>
+<span class="normal">92</span>
+<span class="normal">93</span>
+<span class="normal">94</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
+
+<span class="kn">import</span> <span class="nn">boto3</span>
+<span class="kn">from</span> <span class="nn">chalice</span> <span class="kn">import</span> <span class="n">Chalice</span><span class="p">,</span> <span class="n">AuthResponse</span>
+<span class="kn">from</span> <span class="nn">chalicelib</span> <span class="kn">import</span> <span class="n">auth</span><span class="p">,</span> <span class="n">db</span>
+
+
+<span class="n">app</span> <span class="o">=</span> <span class="n">Chalice</span><span class="p">(</span><span class="n">app_name</span><span class="o">=</span><span class="s1">&#39;mytodo&#39;</span><span class="p">)</span>
+<span class="n">app</span><span class="o">.</span><span class="n">debug</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="n">_DB</span> <span class="o">=</span> <span class="kc">None</span>
+<span class="n">_USER_DB</span> <span class="o">=</span> <span class="kc">None</span>
+
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/login&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;POST&#39;</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">login</span><span class="p">():</span>
+    <span class="n">body</span> <span class="o">=</span> <span class="n">app</span><span class="o">.</span><span class="n">current_request</span><span class="o">.</span><span class="n">json_body</span>
+    <span class="n">record</span> <span class="o">=</span> <span class="n">get_users_db</span><span class="p">()</span><span class="o">.</span><span class="n">get_item</span><span class="p">(</span>
+        <span class="n">Key</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;username&#39;</span><span class="p">:</span> <span class="n">body</span><span class="p">[</span><span class="s1">&#39;username&#39;</span><span class="p">]})[</span><span class="s1">&#39;Item&#39;</span><span class="p">]</span>
+    <span class="n">jwt_token</span> <span class="o">=</span> <span class="n">auth</span><span class="o">.</span><span class="n">get_jwt_token</span><span class="p">(</span>
+        <span class="n">body</span><span class="p">[</span><span class="s1">&#39;username&#39;</span><span class="p">],</span> <span class="n">body</span><span class="p">[</span><span class="s1">&#39;password&#39;</span><span class="p">],</span> <span class="n">record</span><span class="p">)</span>
+    <span class="k">return</span> <span class="p">{</span><span class="s1">&#39;token&#39;</span><span class="p">:</span> <span class="n">jwt_token</span><span class="p">}</span>
+
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">authorizer</span><span class="p">()</span>
+<span class="k">def</span> <span class="nf">jwt_auth</span><span class="p">(</span><span class="n">auth_request</span><span class="p">):</span>
+    <span class="n">token</span> <span class="o">=</span> <span class="n">auth_request</span><span class="o">.</span><span class="n">token</span>
+    <span class="n">decoded</span> <span class="o">=</span> <span class="n">auth</span><span class="o">.</span><span class="n">decode_jwt_token</span><span class="p">(</span><span class="n">token</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">AuthResponse</span><span class="p">(</span><span class="n">routes</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;*&#39;</span><span class="p">],</span> <span class="n">principal_id</span><span class="o">=</span><span class="n">decoded</span><span class="p">[</span><span class="s1">&#39;sub&#39;</span><span class="p">])</span>
+
+
+<span class="k">def</span> <span class="nf">get_users_db</span><span class="p">():</span>
+    <span class="k">global</span> <span class="n">_USER_DB</span>
+    <span class="k">if</span> <span class="n">_USER_DB</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">_USER_DB</span> <span class="o">=</span> <span class="n">boto3</span><span class="o">.</span><span class="n">resource</span><span class="p">(</span><span class="s1">&#39;dynamodb&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">Table</span><span class="p">(</span>
+            <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;USERS_TABLE_NAME&#39;</span><span class="p">])</span>
+    <span class="k">return</span> <span class="n">_USER_DB</span>
+
+
+<span class="c1"># Rest API code</span>
+
+
+<span class="k">def</span> <span class="nf">get_app_db</span><span class="p">():</span>
+    <span class="k">global</span> <span class="n">_DB</span>
+    <span class="k">if</span> <span class="n">_DB</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">_DB</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">DynamoDBTodo</span><span class="p">(</span>
+            <span class="n">boto3</span><span class="o">.</span><span class="n">resource</span><span class="p">(</span><span class="s1">&#39;dynamodb&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">Table</span><span class="p">(</span>
+                <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;APP_TABLE_NAME&#39;</span><span class="p">])</span>
+        <span class="p">)</span>
+    <span class="k">return</span> <span class="n">_DB</span>
+
+
+<span class="k">def</span> <span class="nf">get_authorized_username</span><span class="p">(</span><span class="n">current_request</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">current_request</span><span class="o">.</span><span class="n">context</span><span class="p">[</span><span class="s1">&#39;authorizer&#39;</span><span class="p">][</span><span class="s1">&#39;principalId&#39;</span><span class="p">]</span>
+
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/todos&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;GET&#39;</span><span class="p">],</span> <span class="n">authorizer</span><span class="o">=</span><span class="n">jwt_auth</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">get_todos</span><span class="p">():</span>
+    <span class="n">username</span> <span class="o">=</span> <span class="n">get_authorized_username</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">current_request</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">get_app_db</span><span class="p">()</span><span class="o">.</span><span class="n">list_items</span><span class="p">(</span><span class="n">username</span><span class="o">=</span><span class="n">username</span><span class="p">)</span>
+
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/todos&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;POST&#39;</span><span class="p">],</span> <span class="n">authorizer</span><span class="o">=</span><span class="n">jwt_auth</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">add_new_todo</span><span class="p">():</span>
+    <span class="n">body</span> <span class="o">=</span> <span class="n">app</span><span class="o">.</span><span class="n">current_request</span><span class="o">.</span><span class="n">json_body</span>
+    <span class="n">username</span> <span class="o">=</span> <span class="n">get_authorized_username</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">current_request</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">get_app_db</span><span class="p">()</span><span class="o">.</span><span class="n">add_item</span><span class="p">(</span>
+        <span class="n">username</span><span class="o">=</span><span class="n">username</span><span class="p">,</span>
+        <span class="n">description</span><span class="o">=</span><span class="n">body</span><span class="p">[</span><span class="s1">&#39;description&#39;</span><span class="p">],</span>
+        <span class="n">metadata</span><span class="o">=</span><span class="n">body</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;metadata&#39;</span><span class="p">),</span>
+    <span class="p">)</span>
+
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/todos/</span><span class="si">{uid}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;GET&#39;</span><span class="p">],</span> <span class="n">authorizer</span><span class="o">=</span><span class="n">jwt_auth</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">get_todo</span><span class="p">(</span><span class="n">uid</span><span class="p">):</span>
+    <span class="n">username</span> <span class="o">=</span> <span class="n">get_authorized_username</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">current_request</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">get_app_db</span><span class="p">()</span><span class="o">.</span><span class="n">get_item</span><span class="p">(</span><span class="n">uid</span><span class="p">,</span> <span class="n">username</span><span class="o">=</span><span class="n">username</span><span class="p">)</span>
+
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/todos/</span><span class="si">{uid}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;DELETE&#39;</span><span class="p">],</span> <span class="n">authorizer</span><span class="o">=</span><span class="n">jwt_auth</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">delete_todo</span><span class="p">(</span><span class="n">uid</span><span class="p">):</span>
+    <span class="n">username</span> <span class="o">=</span> <span class="n">get_authorized_username</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">current_request</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">get_app_db</span><span class="p">()</span><span class="o">.</span><span class="n">delete_item</span><span class="p">(</span><span class="n">uid</span><span class="p">,</span> <span class="n">username</span><span class="o">=</span><span class="n">username</span><span class="p">)</span>
+
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/todos/</span><span class="si">{uid}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;PUT&#39;</span><span class="p">],</span> <span class="n">authorizer</span><span class="o">=</span><span class="n">jwt_auth</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">update_todo</span><span class="p">(</span><span class="n">uid</span><span class="p">):</span>
+    <span class="n">body</span> <span class="o">=</span> <span class="n">app</span><span class="o">.</span><span class="n">current_request</span><span class="o">.</span><span class="n">json_body</span>
+    <span class="n">username</span> <span class="o">=</span> <span class="n">get_authorized_username</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">current_request</span><span class="p">)</span>
+    <span class="n">get_app_db</span><span class="p">()</span><span class="o">.</span><span class="n">update_item</span><span class="p">(</span>
+        <span class="n">uid</span><span class="p">,</span>
+        <span class="n">description</span><span class="o">=</span><span class="n">body</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;description&#39;</span><span class="p">),</span>
+        <span class="n">state</span><span class="o">=</span><span class="n">body</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;state&#39;</span><span class="p">),</span>
+        <span class="n">metadata</span><span class="o">=</span><span class="n">body</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;metadata&#39;</span><span class="p">),</span>
+        <span class="n">username</span><span class="o">=</span><span class="n">username</span><span class="p">)</span>
+</pre></div>
+</td></tr></table></div>
+</section>
+</section>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../part2/index.html" class="btn btn-neutral float-right" title="Part 2: Deployment and setting up a CICD pipeline with AWS Chalice" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="03-todo-app-dynamodb.html" class="btn btn-neutral float-left" title="Section 3: Add a DynamoDB table for Todo application" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020-2021, Thomas Connors and Contributors.
+      <span class="lastupdated">
+        Last updated on Sat, 17 Jul 2021 12:00 AM .
+      </span>
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+  
+ <script type="text/javascript">
+    $(document).ready(function() {
+        $(".toggle > *").hide();
+        $(".toggle .header").show();
+        $(".toggle .header").click(function() {
+            $(this).parent().children().not(".header").toggle(400);
+            $(this).parent().children(".header").toggleClass("open");
+        })
+    });
+</script>
+
+
+</body>
+</html>

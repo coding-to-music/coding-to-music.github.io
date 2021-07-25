@@ -1,0 +1,837 @@
+
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  
+  <title>Section 2: Working with AWS CodePipeline &mdash; all-knowledge</title>
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="../../../../../_static/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../../../../_static/icons/favicon-16x16.png">
+  <link rel="manifest" href="../../../../../_static/icons/site.webmanifest">
+  <link rel="mask-icon" href="../../../../../_static/icons/safari-pinned-tab.svg" color="#919191">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="msapplication-config" content="../../../../../_static/icons/browserconfig.xml">
+  <link rel="stylesheet" href="../../../../../_static/stylesheets/examples.css">
+  <link rel="stylesheet" href="../../../../../_static/stylesheets/deprecation.css">
+
+  
+  <link rel="stylesheet" href="../../../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/copybutton.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/tooltipster.custom.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/tooltipster.bundle.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/tooltipster-sideTip-shadow.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/tooltipster-sideTip-punk.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/tooltipster-sideTip-noir.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/tooltipster-sideTip-light.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/tooltipster-sideTip-borderless.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/micromodal.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/tabs.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/sphinx_rtd_theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/contentui.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/gallery.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/gallery-binder.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/gallery-dataframe.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/gallery-rendered-html.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/sphinxcontrib-images/LightBox2/lightbox2/css/lightbox.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../../../../../_static/favicon.ico"/>
+  
+
+  
+  
+
+  
+    <link rel="canonical" href="https://pandemic-overview.readthedocs.io/en/latest/myGuides/aws/source/todo-app/part2/02-pipeline.html" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../../../" src="../../../../../_static/documentation_options.js"></script>
+        <script src="../../../../../_static/jquery.js"></script>
+        <script src="../../../../../_static/underscore.js"></script>
+        <script src="../../../../../_static/doctools.js"></script>
+        <script src="../../../../../_static/language_data.js"></script>
+        <script src="../../../../../_static/clipboard.min.js"></script>
+        <script src="../../../../../_static/copybutton.js"></script>
+        <script src="../../../../../_static/js/hoverxref.js"></script>
+        <script src="../../../../../_static/js/tooltipster.bundle.min.js"></script>
+        <script src="../../../../../_static/js/micromodal.min.js"></script>
+        <script src="../../../../../_static/tabs.js"></script>
+        <script src="../../../../../_static/js/expand_tabs.js"></script>
+        <script src="../../../../../_static/contentui.js"></script>
+        <script src="../../../../../_static/sphinxcontrib-images/LightBox2/lightbox2/js/jquery-1.11.0.min.js"></script>
+        <script src="../../../../../_static/sphinxcontrib-images/LightBox2/lightbox2/js/lightbox.min.js"></script>
+        <script src="../../../../../_static/sphinxcontrib-images/LightBox2/lightbox2-customize/jquery-noconflict.js"></script>
+    
+    <script type="text/javascript" src="../../../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="Media Query Application" href="../../media-query/index.html" />
+    <link rel="prev" title="Section 1: chalice package command" href="01-package-cmd.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../../../index.html">
+          
+
+          
+            
+            <img src="../../../../../_static/statsmodels-logo-v2-bw.svg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Covid-Medical-Treatments/Covid-Medical-Treatments.html">Covid Medical Treatments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Bill-Gates-Memes/Bill-Gates-Memes.html">Bill Gates Memes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/topics.html">Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Data-science-of-the-pandemic/Data-science-of-the-pandemic.html">Data Science of the Pandemic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Vaccines/Vaccines.html">Vaccines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Masks/Masks.html">Masks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Lockdowns/Lockdowns.html">Lockdowns</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Origins-of-the-Virus/Origins-of-the-Virus.html">Origins of the Virus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Pandemic-Preparedness/Pandemic-Preparedness.html">Pandemic Preparedness</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Pandemic-Participants/Pandemic-Participants.html">Pandemic Participants</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Food-Safety/Food-Safety.html">Food Safety</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Municipal-Matters/Municipal-Matters.html">Municipal Issues and Topics</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../How-you-can-help/How-you-can-help.html">How you can help</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../Tech-stack-for-this-website.html">Tech stack for this website</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../myGuides.html">My Guides for Various Technical Topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../General-computer-setup.html">General Computer Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../Advanced-Computer-Setup.html">Advanced Computer Setup and Topics</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../Amazon-AWS-Learning.html">Amazon AWS Learning</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../../index.html">AWS Chalice Workshop</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../env-setup.html">Prerequisite: Setting up your environment</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../index.html">Todo Application</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../media-query/index.html">Media Query Application</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/media-query/final/README.html">Media Query Application</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/todo-app/final/README.html">My Todo App</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/todo-app/part1/README.html">Chalice Workshop Code Part 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/todo-app/part2/README.html">Chalice Workshop Part 2</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../ToDo-project-tasks.html">ToDo project and documentation tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../Contribute.html">Contribute</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../Upcoming-software-to-try.html">Links of Upcoming Software to Try</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../How-you-can-help/Links-to-add-to-site.html">Links to add to the documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../How-you-can-help/Future-topics-to-be-developed.html">Future Topics to be developed</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../Sandbox/Sandbox.html">Sandbox</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../License/license.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../Help-about/help.html">Help - About</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Covid-Medical-Treatments/Covid-Medical-Treatments.html">Covid Medical Treatments</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Bill-Gates-Memes/Bill-Gates-Memes.html">Bill Gates Memes</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/topics.html">Topics</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Data-science-of-the-pandemic/Data-science-of-the-pandemic.html">Data Science of the Pandemic</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Vaccines/Vaccines.html">Vaccines</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Masks/Masks.html">Masks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Lockdowns/Lockdowns.html">Lockdowns</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Origins-of-the-Virus/Origins-of-the-Virus.html">Origins of the Virus</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Pandemic-Preparedness/Pandemic-Preparedness.html">Pandemic Preparedness</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Pandemic-Participants/Pandemic-Participants.html">Pandemic Participants</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Food-Safety/Food-Safety.html">Food Safety</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Municipal-Matters/Municipal-Matters.html">Municipal Issues and Topics</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../How-you-can-help/How-you-can-help.html">How you can help</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../Tech-stack-for-this-website.html">Tech stack for this website</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../myGuides.html">My Guides for Various Technical Topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../General-computer-setup.html">General Computer Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../Advanced-Computer-Setup.html">Advanced Computer Setup and Topics</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../Amazon-AWS-Learning.html">Amazon AWS Learning</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../../index.html">AWS Chalice Workshop</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../env-setup.html">Prerequisite: Setting up your environment</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../index.html">Todo Application</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../media-query/index.html">Media Query Application</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/media-query/final/README.html">Media Query Application</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/todo-app/final/README.html">My Todo App</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/todo-app/part1/README.html">Chalice Workshop Code Part 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/todo-app/part2/README.html">Chalice Workshop Part 2</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../ToDo-project-tasks.html">ToDo project and documentation tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../Contribute.html">Contribute</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../Upcoming-software-to-try.html">Links of Upcoming Software to Try</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../How-you-can-help/Links-to-add-to-site.html">Links to add to the documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../How-you-can-help/Future-topics-to-be-developed.html">Future Topics to be developed</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../index.html">all-knowledge</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../../../../How-you-can-help/How-you-can-help.html">How you can help</a> &raquo;</li>
+        
+          <li><a href="../../../Amazon-AWS-Learning.html">Amazon AWS Learning</a> &raquo;</li>
+        
+          <li><a href="../../index.html">AWS Chalice Workshop</a> &raquo;</li>
+        
+          <li><a href="../index.html">Todo Application</a> &raquo;</li>
+        
+          <li><a href="index.html">Part 2:  Deployment and setting up a CICD pipeline with AWS Chalice</a> &raquo;</li>
+        
+      <li>Section 2: Working with AWS CodePipeline</li>
+    
+    
+    <li class="wy-breadcrumbs-aside">
+    
+        
+        <a href="../../../../../_sources/myGuides/aws/source/todo-app/part2/02-pipeline.rst.txt" rel="nofollow"> View page source</a>
+        
+    
+    </li>
+
+  </ul>
+
+  
+  <div class="rst-breadcrumbs-buttons" role="navigation" aria-label="breadcrumb navigation">
+      
+        <a href="../../media-query/index.html" class="btn btn-neutral float-right" title="Media Query Application" accesskey="n">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+      
+      
+        <a href="01-package-cmd.html" class="btn btn-neutral float-left" title="Section 1: chalice package command" accesskey="p"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+      
+  </div>
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <section id="section-2-working-with-aws-codepipeline">
+<h1>Section 2: Working with AWS CodePipeline<a class="headerlink" href="#section-2-working-with-aws-codepipeline" title="Permalink to this headline">¶</a></h1>
+<p>In this section, we’ll create a CodePipeline for our sample chalice app.</p>
+<section id="creating-a-pipeline">
+<h2>Creating a pipeline<a class="headerlink" href="#creating-a-pipeline" title="Permalink to this headline">¶</a></h2>
+<p>AWS Chalice provides a command for generating a starter template.
+This template is managed through an AWS CloudFormation stack.</p>
+<section id="instructions">
+<h3>Instructions<a class="headerlink" href="#instructions" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Create a <code class="docutils literal notranslate"><span class="pre">release/</span></code> directory.  We’ll place CD related files
+in this directory:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ mkdir release/
+</pre></div>
+</div>
+</li>
+<li><p>Generate a CloudFormation template for our starter CD pipeline:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ chalice generate-pipeline release/pipeline.json
+</pre></div>
+</div>
+</li>
+<li><p>Deploy this template using the AWS CLI:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ aws cloudformation deploy --stack-name chalice-pipeline-stack \
+    --template-file release/pipeline.json \
+    --capabilities CAPABILITY_IAM
+</pre></div>
+</div>
+</li>
+</ol>
+<p>This last command may take up a few minutes to deploy.</p>
+</section>
+</section>
+<section id="configuring-git">
+<h2>Configuring git<a class="headerlink" href="#configuring-git" title="Permalink to this headline">¶</a></h2>
+<p>Up to this point, we have not been using any source control to track
+our changes to our sample app.  We’re now going to create and configure
+a git repo along with an AWS CodeCommit remote.  If you haven’t set up
+git, you can follow the instructions in the <a class="reference internal" href="../../env-setup.html#git-setup"><span class="std std-ref">Setting up git</span></a> section.</p>
+<section id="id1">
+<h3>Instructions<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Initialize your sample app as a git repository:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ git init .
+$ cp ../chalice-workshop/code/todo-app/part2/02-pipeline/.gitignore .
+</pre></div>
+</div>
+</li>
+<li><p>Commit your existing files:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ git add -A .
+$ git commit -m &quot;Initial commit&quot;
+</pre></div>
+</div>
+</li>
+<li><p>Query the CloudFormation stack you created in the previous step for
+the value of the remote repository:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ aws cloudformation describe-stacks \
+    --stack-name chalice-pipeline-stack \
+    --query &#39;Stacks[0].Outputs&#39;
+[
+    ...
+    {
+        &quot;OutputKey&quot;: &quot;SourceRepoURL&quot;,
+        &quot;OutputValue&quot;: &quot;https://git-codecommit.us-west-2.amazonaws.com/v1/repos/mytodo&quot;
+    },
+    ...
+]
+</pre></div>
+</div>
+</li>
+<li><p>Copy the value for the <code class="docutils literal notranslate"><span class="pre">SourceRepoURL</span></code> and configure a new git remote named
+<code class="docutils literal notranslate"><span class="pre">codecommit</span></code>.  Be sure to use your value of the <code class="docutils literal notranslate"><span class="pre">SourceRepoURL</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ git remote add codecommit https://git-codecommit.us-west-2.amazonaws.com/v1/repos/mytodo
+</pre></div>
+</div>
+</li>
+<li><p>Configure the CodeCommit credential helper.  Append these lines to the end
+of your <code class="docutils literal notranslate"><span class="pre">.git/config</span></code> file:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[credential]
+    helper =
+    helper = !aws codecommit credential-helper $@
+    UseHttpPath = true
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+<section id="verification">
+<h3>Verification<a class="headerlink" href="#verification" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Verify you have a <code class="docutils literal notranslate"><span class="pre">codecommit</span></code> remote:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ git remote -v
+codecommit  https://git-codecommit.us-west-2.amazonaws.com/v1/repos/mytodo (fetch)
+codecommit  https://git-codecommit.us-west-2.amazonaws.com/v1/repos/mytodo (push)
+</pre></div>
+</div>
+</li>
+<li><p>Verify the credential helper is installed correctly.  Mac users may see an
+<code class="docutils literal notranslate"><span class="pre">osxkeychain</span></code> entry as the first line of output.  This is expected, you
+just need to verify the last two lines match the output below:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ git config -l | grep helper
+credential.helper=osxkeychain
+credential.helper=
+credential.helper=!aws codecommit credential-helper $@
+</pre></div>
+</div>
+</li>
+<li><p>Verify you can fetch from the <code class="docutils literal notranslate"><span class="pre">codecommit</span></code> remote:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ git fetch codecommit
+$ echo $?
+0
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+</section>
+<section id="pushing-your-changes-to-aws-codecommit">
+<h2>Pushing your changes to AWS CodeCommit<a class="headerlink" href="#pushing-your-changes-to-aws-codecommit" title="Permalink to this headline">¶</a></h2>
+<p>Now we have our pipeline and git remote configured, anytime we push
+changes to our <code class="docutils literal notranslate"><span class="pre">codecommit</span></code> remote, our pipeline will automatically
+deploy our app.</p>
+<section id="id2">
+<h3>Instructions<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Push your changes to the <code class="docutils literal notranslate"><span class="pre">codecommit</span></code> remote:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ git push codecommit master
+Counting objects: 23, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (18/18), done.
+Writing objects: 100% (23/23), 9.82 KiB | 3.27 MiB/s, done.
+Total 23 (delta 2), reused 0 (delta 0)
+To https://git-codecommit.us-west-2.amazonaws.com/v1/repos/mytodo
+ * [new branch]      master -&gt; master
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+<section id="id3">
+<h3>Verification<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<p>The best way to verify the pipeline is working as expected is to view
+the pipeline in the console:</p>
+<ol class="arabic simple">
+<li><p>Log in to the AWS Console at <a class="reference external" href="https://console.aws.amazon.com/console/home">https://console.aws.amazon.com/console/home</a></p></li>
+<li><p>Go to the CodePipeline page.</p></li>
+<li><p>Click on the “mytodoPipeline” pipeline.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../../../../_images/pipeline-landing.png"><img alt="../../../../../_images/pipeline-landing.png" src="../../../../../_images/pipeline-landing.png" style="width: 438.0px; height: 301.0px;" /></a>
+<ol class="arabic simple" start="4">
+<li><p>You should see a “Source”, “Build”, and “Beta” stage.</p></li>
+<li><p>It can take a few minutes after pushing a change before the pipeline
+starts.  If your pipeline has not started yet, wait a few minutes and
+refresh the page.  Once the pipeline starts, it will take about 10 minutes
+for the intial deploy.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../../../../_images/pipeline-started.png"><img alt="../../../../../_images/pipeline-started.png" src="../../../../../_images/pipeline-started.png" style="width: 346.0px; height: 567.0px;" /></a>
+<p>Wait until the stages have completed and all the stages are green.</p>
+<a class="reference internal image-reference" href="../../../../../_images/pipeline-finished.png"><img alt="../../../../../_images/pipeline-finished.png" src="../../../../../_images/pipeline-finished.png" style="width: 242.0px; height: 582.0px;" /></a>
+<ol class="arabic simple" start="6">
+<li><p>Place your mouse over the “i” icon.  Note the value of the <strong>Stack name</strong>.
+It should be something like <code class="docutils literal notranslate"><span class="pre">mytodoBetaStack</span></code>.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../../../../_images/pipeline-stack-name.png"><img alt="../../../../../_images/pipeline-stack-name.png" src="../../../../../_images/pipeline-stack-name.png" style="width: 528.0px; height: 235.0px;" /></a>
+<ol class="arabic" start="7">
+<li><p>Query for the stack output of <code class="docutils literal notranslate"><span class="pre">EndpointURL</span></code> using the AWS CLI.  This is
+the same step we performed in the previous section:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ aws cloudformation describe-stacks --stack-name mytodoBetaStack \
+    --query &#39;Stacks[0].Outputs&#39;
+[
+    {
+        &quot;OutputKey&quot;: &quot;APIHandlerArn&quot;,
+        &quot;OutputValue&quot;: &quot;arn:aws:lambda:us-west-2:123:function:...&quot;
+    },
+    {
+        &quot;OutputKey&quot;: &quot;APIHandlerName&quot;,
+        &quot;OutputValue&quot;: &quot;...&quot;
+    },
+    {
+        &quot;OutputKey&quot;: &quot;RestAPIId&quot;,
+        &quot;OutputValue&quot;: &quot;abcd&quot;
+    },
+    {
+        &quot;OutputKey&quot;: &quot;EndpointURL&quot;,
+        &quot;OutputValue&quot;: &quot;https://your-chalice-url/api/&quot;
+    }
+]
+</pre></div>
+</div>
+</li>
+<li><p>Use the value for <code class="docutils literal notranslate"><span class="pre">EndpointURL</span></code> to test your API by creating
+a new Todo item:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ echo &#39;{&quot;description&quot;: &quot;My third Todo&quot;, &quot;metadata&quot;: {}}&#39; | \
+    http POST https://your-chalice-url/api/todos
+HTTP/1.1 200 OK
+Content-Length: 36
+Content-Type: application/json
+
+abcdefg-abcdefg
+</pre></div>
+</div>
+</li>
+<li><p>Verify you can retrieve this item:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ http https://your-chalice-url/todos/abcdefg-abcdefg
+HTTP/1.1 200 OK
+Content-Length: 140
+Content-Type: application/json
+
+{
+    &quot;description&quot;: &quot;My third Todo&quot;,
+    &quot;metadata&quot;: {},
+    &quot;state&quot;: &quot;unstarted&quot;,
+    &quot;uid&quot;: &quot;abcdefg-abcdefg&quot;,
+    &quot;username&quot;: &quot;default&quot;
+}
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+</section>
+<section id="deploying-an-update">
+<h2>Deploying an update<a class="headerlink" href="#deploying-an-update" title="Permalink to this headline">¶</a></h2>
+<p>Now we’ll make a change to our app and commit/push our change
+to CodeCommit.  Our change will automatically be deployed.</p>
+<section id="id4">
+<h3>Instructions<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>At the bottom of your <code class="docutils literal notranslate"><span class="pre">app.py</span></code> file, add a new test route:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/test-pipeline&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">test_pipeline</span><span class="p">():</span>
+    <span class="k">return</span> <span class="p">{</span><span class="s1">&#39;pipeline&#39;</span><span class="p">:</span> <span class="s1">&#39;route&#39;</span><span class="p">}</span>
+</pre></div>
+</div>
+</li>
+<li><p>Commit and push your changes:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ git add app.py
+$ git commit -m &quot;Add test view&quot;
+$ git push codecommit master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 357 bytes | 357.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+To https://git-codecommit.us-west-2.amazonaws.com/v1/repos/mytodo
+   4ded202..31f2dc3  master -&gt; master
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+<section id="id5">
+<h3>Verification<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Go back to the AWS Console page for your CodePipeline named “mytodoPipeline”.</p></li>
+<li><p>Refresh the page.  You should see the pipeline starting again.  If you’re not
+seeing any changes, you may need to wait a few minutes and refresh.</p></li>
+<li><p>Wait for the pipeline to finish deploying.</p></li>
+<li><p>Once it’s finished verify the new test route is available.  Use the
+same <code class="docutils literal notranslate"><span class="pre">EndpointURL</span></code> from the previous step:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ http https://your-chalice-url/api/test-pipeline
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 21
+Content-Type: application/json
+...
+
+{
+    &quot;pipeline&quot;: &quot;route&quot;
+}
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+</section>
+<section id="extract-the-buildspec-to-a-file">
+<h2>Extract the buildspec to a file<a class="headerlink" href="#extract-the-buildspec-to-a-file" title="Permalink to this headline">¶</a></h2>
+<p>The instructions for how CodeBuild should package our app
+lives in the <code class="docutils literal notranslate"><span class="pre">release/pipeline.json</span></code> CloudFormation template.
+CodeBuild also supports loading the build instructions from
+a <code class="docutils literal notranslate"><span class="pre">buildspec.yml</span></code> file at the top level directory of your app.
+In this step we’re going to extract out the build spec from
+the inline definition of the <code class="docutils literal notranslate"><span class="pre">release/pipeline.json</span></code> into a
+<code class="docutils literal notranslate"><span class="pre">buildspec.yml</span></code> file.  This will allow us to modify how CodeBuild
+should build our app without having to redeploy our pipeline stack.</p>
+<section id="id6">
+<h3>Instructions<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Remove the <code class="docutils literal notranslate"><span class="pre">BuildSpec</span></code> key from your <code class="docutils literal notranslate"><span class="pre">release/pipeline.json</span></code>
+file.  Your existing template has this section:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;Resources&quot;</span><span class="p">:</span> <span class="p">{</span>
+  <span class="s2">&quot;AppPackageBuild&quot;</span><span class="p">:</span> <span class="p">{</span>
+    <span class="s2">&quot;Type&quot;</span><span class="p">:</span> <span class="s2">&quot;AWS::CodeBuild::Project&quot;</span><span class="p">,</span>
+      <span class="s2">&quot;Source&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;BuildSpec&quot;</span><span class="p">:</span> <span class="s2">&quot; ... long string here ...&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;Type&quot;</span><span class="p">:</span> <span class="s2">&quot;CODEPIPELINE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">}</span>
+<span class="o">...</span>
+</pre></div>
+</div>
+<p>And after removing the <code class="docutils literal notranslate"><span class="pre">BuildSpec</span></code> key it should look like this:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;Resources&quot;</span><span class="p">:</span> <span class="p">{</span>
+  <span class="s2">&quot;AppPackageBuild&quot;</span><span class="p">:</span> <span class="p">{</span>
+    <span class="s2">&quot;Type&quot;</span><span class="p">:</span> <span class="s2">&quot;AWS::CodeBuild::Project&quot;</span><span class="p">,</span>
+      <span class="s2">&quot;Source&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;Type&quot;</span><span class="p">:</span> <span class="s2">&quot;CODEPIPELINE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">}</span>
+<span class="o">...</span>
+</pre></div>
+</div>
+</li>
+<li><p>Redeploying your pipeline stack using the AWS CLI:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ aws cloudformation deploy --stack-name chalice-pipeline-stack \
+    --template-file release/pipeline.json \
+    --capabilities CAPABILITY_IAM
+</pre></div>
+</div>
+</li>
+<li><p>At the top level directory of your sample app, create a new file
+named <code class="docutils literal notranslate"><span class="pre">buildspec.yml</span></code> with these contents:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>version: 0.1
+phases:
+  install:
+    commands:
+      - sudo pip install --upgrade awscli
+      - aws --version
+      - sudo pip install chalice
+      - sudo pip install -r requirements.txt
+      - chalice package /tmp/packaged
+      - aws cloudformation package --template-file /tmp/packaged/sam.json --s3-bucket ${APP_S3_BUCKET} --output-template-file transformed.yaml
+artifacts:
+  type: zip
+  files:
+    - transformed.yaml
+</pre></div>
+</div>
+</li>
+<li><p>Commit the <code class="docutils literal notranslate"><span class="pre">buildspec.yml</span></code> file and push your changes to CodeCommit:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ git add buildspec.yml
+$ git commit -m &quot;Adding buildspec.yml&quot;
+$ git push codecommit master
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+<section id="id7">
+<h3>Verification<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Go to the CodePipeline page in the console.</p></li>
+<li><p>Wait for the pipeline to deploy your latest changes. Keep in
+mind that there should be no functional changes, we just want
+to verify that CodeBuild was able to load the <code class="docutils literal notranslate"><span class="pre">buildspec.yml</span></code> file.</p></li>
+</ol>
+</section>
+</section>
+<section id="run-unit-tests">
+<h2>Run unit tests<a class="headerlink" href="#run-unit-tests" title="Permalink to this headline">¶</a></h2>
+<p>Now we’re going to modify our <code class="docutils literal notranslate"><span class="pre">buildspec.yml</span></code> file to run our unit
+tests.  If the tests fail our application won’t deploy to our Beta stage.</p>
+<section id="id8">
+<h3>Instructions<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Create a new <code class="docutils literal notranslate"><span class="pre">build.sh</span></code> script with these contents:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="ch">#!/bin/bash</span>
+<span class="n">pip</span> <span class="n">install</span> <span class="o">--</span><span class="n">upgrade</span> <span class="n">awscli</span>
+<span class="n">aws</span> <span class="o">--</span><span class="n">version</span>
+<span class="n">pip</span> <span class="n">install</span> <span class="n">virtualenv</span>
+<span class="n">virtualenv</span> <span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">venv</span>
+<span class="o">.</span> <span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">venv</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">activate</span>
+<span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">r</span> <span class="n">requirements</span><span class="o">.</span><span class="n">txt</span>
+<span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">r</span> <span class="n">requirements</span><span class="o">-</span><span class="n">test</span><span class="o">.</span><span class="n">txt</span>
+<span class="n">pip</span> <span class="n">install</span> <span class="n">chalice</span>
+<span class="n">export</span> <span class="n">PYTHONPATH</span><span class="o">=.</span>
+<span class="n">py</span><span class="o">.</span><span class="n">test</span> <span class="n">tests</span><span class="o">/</span> <span class="o">||</span> <span class="n">exit</span> <span class="mi">1</span>
+<span class="n">chalice</span> <span class="n">package</span> <span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">packaged</span>
+<span class="n">aws</span> <span class="n">cloudformation</span> <span class="n">package</span> <span class="o">--</span><span class="n">template</span><span class="o">-</span><span class="n">file</span> <span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">packaged</span><span class="o">/</span><span class="n">sam</span><span class="o">.</span><span class="n">json</span> <span class="o">--</span><span class="n">s3</span><span class="o">-</span><span class="n">bucket</span> <span class="s2">&quot;$</span><span class="si">{APP_S3_BUCKET}</span><span class="s2">&quot;</span> <span class="o">--</span><span class="n">output</span><span class="o">-</span><span class="n">template</span><span class="o">-</span><span class="n">file</span> <span class="n">transformed</span><span class="o">.</span><span class="n">yaml</span>
+</pre></div>
+</div>
+</li>
+<li><p>Make the script executable:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ chmod +x ./build.sh
+</pre></div>
+</div>
+</li>
+<li><p>Update your <code class="docutils literal notranslate"><span class="pre">buildspec.yml</span></code> to call this build script:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">version</span><span class="p">:</span> <span class="mf">0.1</span>
+<span class="n">phases</span><span class="p">:</span>
+  <span class="n">install</span><span class="p">:</span>
+    <span class="n">commands</span><span class="p">:</span>
+      <span class="o">-</span> <span class="n">sudo</span> <span class="o">-</span><span class="n">E</span> <span class="o">./</span><span class="n">build</span><span class="o">.</span><span class="n">sh</span>
+<span class="n">artifacts</span><span class="p">:</span>
+  <span class="nb">type</span><span class="p">:</span> <span class="nb">zip</span>
+  <span class="n">files</span><span class="p">:</span>
+    <span class="o">-</span> <span class="n">transformed</span><span class="o">.</span><span class="n">yaml</span>
+</pre></div>
+</div>
+</li>
+<li><p>Commit your changes and push them to codecommit:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ git add build.sh buildspec.yml
+$ git commit -m &quot;Run unit tests&quot;
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+<section id="id9">
+<h3>Verification<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Refresh your pipeline in the AWS console.</p></li>
+<li><p>Verify the pipeline successfully completes.</p></li>
+</ol>
+</section>
+</section>
+<section id="add-a-failing-test">
+<h2>Add a failing test<a class="headerlink" href="#add-a-failing-test" title="Permalink to this headline">¶</a></h2>
+<p>Now we’ll add a failing unit test and verify that our
+application does not deploy.</p>
+<section id="id10">
+<h3>Instructions<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Add a failing test to the end of the <code class="docutils literal notranslate"><span class="pre">tests/test_db.py</span></code> file:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">test_fail</span><span class="p">():</span>
+    <span class="k">assert</span> <span class="mi">0</span> <span class="o">==</span> <span class="mi">1</span>
+</pre></div>
+</div>
+</li>
+<li><p>Commit and push your changes:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ git add tests/test_db.py
+$ git commit -m &quot;Add failing test&quot;
+$ git push codecommit master
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+<section id="id11">
+<h3>Verification<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Refresh your pipeline in the AWS console.</p></li>
+<li><p>Verify that the CodeBuild stage fails.</p></li>
+</ol>
+</section>
+</section>
+</section>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../../media-query/index.html" class="btn btn-neutral float-right" title="Media Query Application" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="01-package-cmd.html" class="btn btn-neutral float-left" title="Section 1: chalice package command" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020-2021, Thomas Connors and Contributors.
+      <span class="lastupdated">
+        Last updated on Sat, 17 Jul 2021 12:00 AM .
+      </span>
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+  
+ <script type="text/javascript">
+    $(document).ready(function() {
+        $(".toggle > *").hide();
+        $(".toggle .header").show();
+        $(".toggle .header").click(function() {
+            $(this).parent().children().not(".header").toggle(400);
+            $(this).parent().children(".header").toggleClass("open");
+        })
+    });
+</script>
+
+
+</body>
+</html>

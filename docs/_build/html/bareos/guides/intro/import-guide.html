@@ -1,0 +1,548 @@
+
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+<meta content="Import your existing technical documentation from version control into Read the Docs." lang="en" name="description" xml:lang="en" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  
+  <title>Importing Your Documentation &mdash; all-knowledge</title>
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="../../../_static/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../../_static/icons/favicon-16x16.png">
+  <link rel="manifest" href="../../../_static/icons/site.webmanifest">
+  <link rel="mask-icon" href="../../../_static/icons/safari-pinned-tab.svg" color="#919191">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="msapplication-config" content="../../../_static/icons/browserconfig.xml">
+  <link rel="stylesheet" href="../../../_static/stylesheets/examples.css">
+  <link rel="stylesheet" href="../../../_static/stylesheets/deprecation.css">
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/copybutton.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/tooltipster.custom.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/tooltipster.bundle.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/tooltipster-sideTip-shadow.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/tooltipster-sideTip-punk.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/tooltipster-sideTip-noir.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/tooltipster-sideTip-light.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/tooltipster-sideTip-borderless.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/micromodal.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/tabs.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/sphinx_rtd_theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/contentui.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/gallery.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/gallery-binder.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/gallery-dataframe.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/gallery-rendered-html.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/sphinxcontrib-images/LightBox2/lightbox2/css/lightbox.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../../../_static/favicon.ico"/>
+  
+
+  
+  
+
+  
+    <link rel="canonical" href="https://pandemic-overview.readthedocs.io/en/latest/bareos/guides/intro/import-guide.html" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+        <script src="../../../_static/clipboard.min.js"></script>
+        <script src="../../../_static/copybutton.js"></script>
+        <script src="../../../_static/js/hoverxref.js"></script>
+        <script src="../../../_static/js/tooltipster.bundle.min.js"></script>
+        <script src="../../../_static/js/micromodal.min.js"></script>
+        <script src="../../../_static/tabs.js"></script>
+        <script src="../../../_static/js/expand_tabs.js"></script>
+        <script src="../../../_static/contentui.js"></script>
+        <script src="../../../_static/sphinxcontrib-images/LightBox2/lightbox2/js/jquery-1.11.0.min.js"></script>
+        <script src="../../../_static/sphinxcontrib-images/LightBox2/lightbox2/js/lightbox.min.js"></script>
+        <script src="../../../_static/sphinxcontrib-images/LightBox2/lightbox2-customize/jquery-noconflict.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="docutils reStructuredText Directives - This is the official definition - This is the true resource" href="../../../myGuides/reStructuredText-Directives-docutils.html" />
+    <link rel="prev" title="Getting Started with MkDocs" href="getting-started-with-mkdocs.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html">
+          
+
+          
+            
+            <img src="../../../_static/statsmodels-logo-v2-bw.svg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../topics/Covid-Medical-Treatments/Covid-Medical-Treatments.html">Covid Medical Treatments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../topics/Bill-Gates-Memes/Bill-Gates-Memes.html">Bill Gates Memes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../topics/topics.html">Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../topics/Data-science-of-the-pandemic/Data-science-of-the-pandemic.html">Data Science of the Pandemic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../topics/Vaccines/Vaccines.html">Vaccines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../topics/Masks/Masks.html">Masks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../topics/Lockdowns/Lockdowns.html">Lockdowns</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../topics/Origins-of-the-Virus/Origins-of-the-Virus.html">Origins of the Virus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../topics/Pandemic-Preparedness/Pandemic-Preparedness.html">Pandemic Preparedness</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../topics/Pandemic-Participants/Pandemic-Participants.html">Pandemic Participants</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../topics/Food-Safety/Food-Safety.html">Food Safety</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../topics/Municipal-Matters/Municipal-Matters.html">Municipal Issues and Topics</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../How-you-can-help/How-you-can-help.html">How you can help</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../myGuides/Tech-stack-for-this-website.html">Tech stack for this website</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../myGuides/myGuides.html">My Guides for Various Technical Topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../myGuides/General-computer-setup.html">General Computer Setup</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../myGuides/Advanced-Computer-Setup.html">Advanced Computer Setup and Topics</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../../../myGuides/ReadTheDocs-Documentation-System.html">ReadTheDocs Documentation System</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="getting-started-with-sphinx.html">Getting Started with Sphinx</a></li>
+<li class="toctree-l4"><a class="reference internal" href="getting-started-with-mkdocs.html">Getting Started with MkDocs</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Importing Your Documentation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../myGuides/reStructuredText-Directives-docutils.html">docutils reStructuredText Directives - This is the official definition - This is the true resource</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../myGuides/reStructured-Text-Special-directives.html">reStructured Text Special directives</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../myGuides/reStructured-Text-Special-directives.html#colored-boxes-note-seealso-todo-and-warnings">colored boxes: note, seealso, todo and warnings</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../Paragraph-level-markup-from-ReadTheDocs.html">Paragraph Level Markup</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../custom_domains.html">Custom Domains and White Labeling</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../faq.html">ReadTheDocs - Frequently Asked Questions</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../canonical.html">Canonical URLs</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../google-analytics.html">Enabling Google Analytics on your Project</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../user-defined-redirects.html">User-defined Redirects</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../technical-docs-seo-guide.html">Technical Documentation Search Engine Optimization (SEO) Guide</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../wipe-environment.html">Wiping a Build Environment</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../feature-flags.html">Feature Flags</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../reproducible-builds.html">Reproducible Builds</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../localization.html">Localization of Documentation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../manage-translations.html">Manage Translations</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../myGuides/ReadTheDocs-Documentation-System.html#id1">ReadTheDocs Documentation System</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../myGuides/ReadTheDocs-Documentation-System.html#purpose">Purpose</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../myGuides/ReadTheDocs-Documentation-System.html#documentation-for-rtd">Documentation for RTD</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../myGuides/ReadTheDocs-Documentation-System.html#readthedocs-theme-and-demo-documentation">ReadTheDocs Theme and Demo Documentation</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/vscode-SSH-Remote-Containers.html">Visual Studio Code SSH Remote Development with Containers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Sphinx-Documentation-System.html">Sphinx Documentation System</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../index.html">Bareos Project - Reference Implementation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Container-Workflow.html">Introduction to Developing in the Docker Container Workflow</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Docker-and-Sphinx.html">Docker and Sphinx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Google-Bing-Webmaster-Tools-Search-and-Rich-Results.html">Google Bing Webmaster Tools Search and Rich Results</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Binder.html">Binder usage with Sphinx-Gallery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/How-to-install-python-on-debian.html">How To Install Python on Debian</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Invenio-Software.html">Invenio Software</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/pip-package-installer-for-python.html">pip is the package installer for Python</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Sphinx-copybutton.html">Sphinx Copybutton</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Sphinx-embed-object-iFrame-video-html-PDF-twitter-examples.html">Sphinx embed object iFrame video html PDF Twitter examples</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Sphinx-Lillypond.html">Sphinx Lillypond</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Sphinx-last-updated-by-git.html">sphinx-last-updated-by-git</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Sphinx-last-updated-by-git.html#get-the-last-updated-time-for-each-sphinx-page-from-git">Get the “last updated” time for each Sphinx page from Git</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Sphinx-Twitter.html">Sphinx Twitter (Python Twitter)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Sphinx-Gallery.html">Sphinx Gallery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Sphinx-Gitstamp.html">Sphinx Gitstamp Generator Extension</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Sphinx-Jinja.html">Sphinx Jinja is a templating engine</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Sphinx-Hoverxref.html">Sphinx Hoverxref</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Sphinx-pdfembed.html">Sphinx PDF Embed - sphinxcontrib-pdfembed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Sphinxext-remoteliteralinclude.html">Sphinx Remote Literal Include</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Sphinx-Redirects.html">Sphinx Redirects</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Sphinx-rediraffe.html">Sphinx Rediraffe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Sphinx-Sitemap.html">Sphinx Sitemap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Sphinx-Templating.html">Sphinx Templating</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Sphinx-Timeline.html">Sphinx Timeline</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Werkzeug-comprehensive-WSGI-web-application-library.html">Werkzeug WSGI web application library</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/WSGI-is-the-Web-Server-Gateway-Interface.html">WSGI is the Web Server Gateway Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Zenodo.html">Zenodo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Zotero.html">Zotero</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Kubernetes.html">Kubernetes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Github-Workflow.html">GitHub Workflow</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../myGuides/aws/Amazon-AWS-Learning.html">Amazon AWS Learning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../myGuides/ToDo-project-tasks.html">ToDo project and documentation tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../myGuides/Contribute.html">Contribute</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../myGuides/Upcoming-software-to-try.html">Links of Upcoming Software to Try</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../How-you-can-help/Links-to-add-to-site.html">Links to add to the documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../How-you-can-help/Future-topics-to-be-developed.html">Future Topics to be developed</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../Sandbox/Sandbox.html">Sandbox</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../License/license.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../Help-about/help.html">Help - About</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../topics/Covid-Medical-Treatments/Covid-Medical-Treatments.html">Covid Medical Treatments</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../topics/Bill-Gates-Memes/Bill-Gates-Memes.html">Bill Gates Memes</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../topics/topics.html">Topics</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../topics/Data-science-of-the-pandemic/Data-science-of-the-pandemic.html">Data Science of the Pandemic</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../topics/Vaccines/Vaccines.html">Vaccines</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../topics/Masks/Masks.html">Masks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../topics/Lockdowns/Lockdowns.html">Lockdowns</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../topics/Origins-of-the-Virus/Origins-of-the-Virus.html">Origins of the Virus</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../topics/Pandemic-Preparedness/Pandemic-Preparedness.html">Pandemic Preparedness</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../topics/Pandemic-Participants/Pandemic-Participants.html">Pandemic Participants</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../topics/Food-Safety/Food-Safety.html">Food Safety</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../topics/Municipal-Matters/Municipal-Matters.html">Municipal Issues and Topics</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../../How-you-can-help/How-you-can-help.html">How you can help</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../myGuides/Tech-stack-for-this-website.html">Tech stack for this website</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../myGuides/myGuides.html">My Guides for Various Technical Topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../myGuides/General-computer-setup.html">General Computer Setup</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../myGuides/Advanced-Computer-Setup.html">Advanced Computer Setup and Topics</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../../../myGuides/ReadTheDocs-Documentation-System.html">ReadTheDocs Documentation System</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="getting-started-with-sphinx.html">Getting Started with Sphinx</a></li>
+<li class="toctree-l4"><a class="reference internal" href="getting-started-with-mkdocs.html">Getting Started with MkDocs</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Importing Your Documentation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../myGuides/reStructuredText-Directives-docutils.html">docutils reStructuredText Directives - This is the official definition - This is the true resource</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../myGuides/reStructured-Text-Special-directives.html">reStructured Text Special directives</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../myGuides/reStructured-Text-Special-directives.html#colored-boxes-note-seealso-todo-and-warnings">colored boxes: note, seealso, todo and warnings</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../Paragraph-level-markup-from-ReadTheDocs.html">Paragraph Level Markup</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../custom_domains.html">Custom Domains and White Labeling</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../faq.html">ReadTheDocs - Frequently Asked Questions</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../canonical.html">Canonical URLs</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../google-analytics.html">Enabling Google Analytics on your Project</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../user-defined-redirects.html">User-defined Redirects</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../technical-docs-seo-guide.html">Technical Documentation Search Engine Optimization (SEO) Guide</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../wipe-environment.html">Wiping a Build Environment</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../feature-flags.html">Feature Flags</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../reproducible-builds.html">Reproducible Builds</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../localization.html">Localization of Documentation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../manage-translations.html">Manage Translations</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../myGuides/ReadTheDocs-Documentation-System.html#id1">ReadTheDocs Documentation System</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../myGuides/ReadTheDocs-Documentation-System.html#purpose">Purpose</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../myGuides/ReadTheDocs-Documentation-System.html#documentation-for-rtd">Documentation for RTD</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../myGuides/ReadTheDocs-Documentation-System.html#readthedocs-theme-and-demo-documentation">ReadTheDocs Theme and Demo Documentation</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/vscode-SSH-Remote-Containers.html">Visual Studio Code SSH Remote Development with Containers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Sphinx-Documentation-System.html">Sphinx Documentation System</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../index.html">Bareos Project - Reference Implementation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Container-Workflow.html">Introduction to Developing in the Docker Container Workflow</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Docker-and-Sphinx.html">Docker and Sphinx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Google-Bing-Webmaster-Tools-Search-and-Rich-Results.html">Google Bing Webmaster Tools Search and Rich Results</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Binder.html">Binder usage with Sphinx-Gallery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/How-to-install-python-on-debian.html">How To Install Python on Debian</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Invenio-Software.html">Invenio Software</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/pip-package-installer-for-python.html">pip is the package installer for Python</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Sphinx-copybutton.html">Sphinx Copybutton</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Sphinx-embed-object-iFrame-video-html-PDF-twitter-examples.html">Sphinx embed object iFrame video html PDF Twitter examples</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Sphinx-Lillypond.html">Sphinx Lillypond</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Sphinx-last-updated-by-git.html">sphinx-last-updated-by-git</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Sphinx-last-updated-by-git.html#get-the-last-updated-time-for-each-sphinx-page-from-git">Get the “last updated” time for each Sphinx page from Git</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Sphinx-Twitter.html">Sphinx Twitter (Python Twitter)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Sphinx-Gallery.html">Sphinx Gallery</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Sphinx-Gitstamp.html">Sphinx Gitstamp Generator Extension</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Sphinx-Jinja.html">Sphinx Jinja is a templating engine</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Sphinx-Hoverxref.html">Sphinx Hoverxref</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Sphinx-pdfembed.html">Sphinx PDF Embed - sphinxcontrib-pdfembed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Sphinxext-remoteliteralinclude.html">Sphinx Remote Literal Include</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Sphinx-Redirects.html">Sphinx Redirects</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Sphinx-rediraffe.html">Sphinx Rediraffe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Sphinx-Sitemap.html">Sphinx Sitemap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Sphinx-Templating.html">Sphinx Templating</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Sphinx-Timeline.html">Sphinx Timeline</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Werkzeug-comprehensive-WSGI-web-application-library.html">Werkzeug WSGI web application library</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/WSGI-is-the-Web-Server-Gateway-Interface.html">WSGI is the Web Server Gateway Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Zenodo.html">Zenodo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Zotero.html">Zotero</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Kubernetes.html">Kubernetes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../myGuides/Github-Workflow.html">GitHub Workflow</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../myGuides/aws/Amazon-AWS-Learning.html">Amazon AWS Learning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../myGuides/ToDo-project-tasks.html">ToDo project and documentation tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../myGuides/Contribute.html">Contribute</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../myGuides/Upcoming-software-to-try.html">Links of Upcoming Software to Try</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../How-you-can-help/Links-to-add-to-site.html">Links to add to the documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../How-you-can-help/Future-topics-to-be-developed.html">Future Topics to be developed</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">all-knowledge</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../../How-you-can-help/How-you-can-help.html">How you can help</a> &raquo;</li>
+        
+          <li><a href="../../../myGuides/Advanced-Computer-Setup.html">Advanced Computer Setup and Topics</a> &raquo;</li>
+        
+          <li><a href="../../../myGuides/ReadTheDocs-Documentation-System.html">ReadTheDocs Documentation System</a> &raquo;</li>
+        
+      <li>Importing Your Documentation</li>
+    
+    
+    <li class="wy-breadcrumbs-aside">
+    
+        
+        <a href="../../../_sources/bareos/guides/intro/import-guide.rst.txt" rel="nofollow"> View page source</a>
+        
+    
+    </li>
+
+  </ul>
+
+  
+  <div class="rst-breadcrumbs-buttons" role="navigation" aria-label="breadcrumb navigation">
+      
+        <a href="../../../myGuides/reStructuredText-Directives-docutils.html" class="btn btn-neutral float-right" title="docutils reStructuredText Directives - This is the official definition - This is the true resource" accesskey="n">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+      
+      
+        <a href="getting-started-with-mkdocs.html" class="btn btn-neutral float-left" title="Getting Started with MkDocs" accesskey="p"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+      
+  </div>
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <section id="importing-your-documentation">
+<h1>Importing Your Documentation<a class="headerlink" href="#importing-your-documentation" title="Permalink to this headline">¶</a></h1>
+<p>To import a public documentation repository, visit your <a class="reference external" href="https://readthedocs.org/dashboard">Read the Docs dashboard</a> and click <a class="reference external" href="https://readthedocs.org/dashboard/import">Import</a>.
+For private repositories, please use <span class="xref std std-doc">Read the Docs for Business</span>.</p>
+<p>If you have <span class="xref std std-doc">connected your Read the Docs account</span> to GitHub, Bitbucket, or GitLab,
+you will see a list of your repositories that we are able to import.
+To import one of these projects, just click the import
+icon next to the repository you’d like to import. This will bring up a form that
+is already filled with your project’s information. Feel free to edit any of
+these properties, and then click <strong>Next</strong> to
+<span class="xref std std-ref">build your documentation</span>.</p>
+<figure class="align-right" id="id1" style="width: 300px">
+<a class="reference external image-reference" href="/_static/images/bareos/first-steps/import-a-repository.png"><img alt="../../../_images/import-a-repository.png" src="../../../_images/import-a-repository.png" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 133 </span><span class="caption-text">Importing a repository</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<section id="manually-import-your-docs">
+<h2>Manually import your docs<a class="headerlink" href="#manually-import-your-docs" title="Permalink to this headline">¶</a></h2>
+<p>If you do not have a connected account, you will need to select <strong>Import Manually</strong>
+and enter the information for your repository yourself. You will also need to
+manually configure the webhook for your repository as well. When importing your
+project, you will be asked for the repository URL, along with some other
+information for your new project. The URL is normally the URL or path name you’d
+use to checkout, clone, or branch your repository. Some examples:</p>
+<ul class="simple">
+<li><p>Git: <code class="docutils literal notranslate"><span class="pre">https://github.com/ericholscher/django-kong.git</span></code></p></li>
+<li><p>Mercurial: <code class="docutils literal notranslate"><span class="pre">https://bitbucket.org/ianb/pip</span></code></p></li>
+<li><p>Subversion: <code class="docutils literal notranslate"><span class="pre">http://varnish-cache.org/svn/trunk</span></code></p></li>
+<li><p>Bazaar: <code class="docutils literal notranslate"><span class="pre">lp:pasta</span></code></p></li>
+</ul>
+<p>Add an optional homepage URL and some tags, and then click <strong>Next</strong>.</p>
+<p>Once your project is created, you’ll need to manually configure the repository
+webhook if you would like to have new changes trigger builds for your
+project on Read the Docs. Go to your project’s <span class="guilabel">Admin</span> &gt; <span class="guilabel">Integrations</span> page to
+configure a new webhook, or see <span class="xref std std-ref">our steps for webhook creation</span>
+for more information on this process.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">Admin</span></code> page can be found at <code class="docutils literal notranslate"><span class="pre">https://readthedocs.org/dashboard/&lt;project-slug&gt;/edit/</span></code>.
+You can access all of the project settings from the admin page sidebar.</p>
+<figure class="align-default" style="width: 400px">
+<a class="reference external image-reference" href="/_static/images/bareos/first-steps/admin-panel.png"><img alt="_static/images/bareos/first-steps/admin-panel.png" src="_static/images/bareos/first-steps/admin-panel.png" /></a>
+</figure>
+</div>
+</section>
+<section id="building-your-documentation">
+<h2>Building your documentation<a class="headerlink" href="#building-your-documentation" title="Permalink to this headline">¶</a></h2>
+<p>Within a few seconds of completing the import process,
+your code will automatically be fetched from your repository,
+and the documentation will be built.
+Check out our <span class="xref std std-doc">/builds</span> page to learn more about how Read the Docs builds your docs,
+and to troubleshoot any issues that arise.</p>
+<p>Some documentation projects require additional configuration to build
+such as specifying a certain version of Python or installing additional dependencies.
+You can configure these settings in a <code class="docutils literal notranslate"><span class="pre">.readthedocs.yaml</span></code> file.
+See our <a class="reference internal" href="../../config-file/index.html"><span class="doc">Configuration File</span></a> docs for more details.</p>
+<p>It is also important to note that the default version of Sphinx is <code class="docutils literal notranslate"><span class="pre">v1.8.5</span></code>.
+We recommend to set the version your project uses <span class="xref std std-ref">explicitily</span>.</p>
+<p>Read the Docs will host multiple versions of your code. You can read more about
+how to use this well on our <span class="xref std std-doc">/versions</span> page.</p>
+<p>If you have any more trouble, don’t hesitate to reach out to us.
+The <span class="xref std std-doc">/support</span> page has more information on getting in touch.</p>
+</section>
+</section>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../../../myGuides/reStructuredText-Directives-docutils.html" class="btn btn-neutral float-right" title="docutils reStructuredText Directives - This is the official definition - This is the true resource" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="getting-started-with-mkdocs.html" class="btn btn-neutral float-left" title="Getting Started with MkDocs" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020-2021, Thomas Connors and Contributors.
+      <span class="lastupdated">
+        Last updated on Wed, 26 May 2021 12:00 AM .
+      </span>
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+  
+ <script type="text/javascript">
+    $(document).ready(function() {
+        $(".toggle > *").hide();
+        $(".toggle .header").show();
+        $(".toggle .header").click(function() {
+            $(this).parent().children().not(".header").toggle(400);
+            $(this).parent().children(".header").toggleClass("open");
+        })
+    });
+</script>
+
+
+</body>
+</html>

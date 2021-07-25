@@ -1,0 +1,775 @@
+
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  
+  <title>Part 2: Build a Chalice application using Rekognition &mdash; all-knowledge</title>
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="../../../../_static/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../../../_static/icons/favicon-16x16.png">
+  <link rel="manifest" href="../../../../_static/icons/site.webmanifest">
+  <link rel="mask-icon" href="../../../../_static/icons/safari-pinned-tab.svg" color="#919191">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="msapplication-config" content="../../../../_static/icons/browserconfig.xml">
+  <link rel="stylesheet" href="../../../../_static/stylesheets/examples.css">
+  <link rel="stylesheet" href="../../../../_static/stylesheets/deprecation.css">
+
+  
+  <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/copybutton.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/tooltipster.custom.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/tooltipster.bundle.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/tooltipster-sideTip-shadow.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/tooltipster-sideTip-punk.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/tooltipster-sideTip-noir.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/tooltipster-sideTip-light.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/tooltipster-sideTip-borderless.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/micromodal.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/tabs.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/sphinx_rtd_theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/contentui.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/gallery.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/gallery-binder.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/gallery-dataframe.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/gallery-rendered-html.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/sphinxcontrib-images/LightBox2/lightbox2/css/lightbox.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../../../../_static/favicon.ico"/>
+  
+
+  
+  
+
+  
+    <link rel="canonical" href="https://pandemic-overview.readthedocs.io/en/latest/myGuides/aws/source/media-query/02-chalice-with-rekognition.html" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../../" src="../../../../_static/documentation_options.js"></script>
+        <script src="../../../../_static/jquery.js"></script>
+        <script src="../../../../_static/underscore.js"></script>
+        <script src="../../../../_static/doctools.js"></script>
+        <script src="../../../../_static/language_data.js"></script>
+        <script src="../../../../_static/clipboard.min.js"></script>
+        <script src="../../../../_static/copybutton.js"></script>
+        <script src="../../../../_static/js/hoverxref.js"></script>
+        <script src="../../../../_static/js/tooltipster.bundle.min.js"></script>
+        <script src="../../../../_static/js/micromodal.min.js"></script>
+        <script src="../../../../_static/tabs.js"></script>
+        <script src="../../../../_static/js/expand_tabs.js"></script>
+        <script src="../../../../_static/contentui.js"></script>
+        <script src="../../../../_static/sphinxcontrib-images/LightBox2/lightbox2/js/jquery-1.11.0.min.js"></script>
+        <script src="../../../../_static/sphinxcontrib-images/LightBox2/lightbox2/js/lightbox.min.js"></script>
+        <script src="../../../../_static/sphinxcontrib-images/LightBox2/lightbox2-customize/jquery-noconflict.js"></script>
+    
+    <script type="text/javascript" src="../../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+    <link rel="next" title="Part 3: Integrate with a DynamoDB table" href="03-add-db.html" />
+    <link rel="prev" title="Part 1: Introduction to Amazon Rekognition" href="01-intro-rekognition.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../../index.html">
+          
+
+          
+            
+            <img src="../../../../_static/statsmodels-logo-v2-bw.svg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Covid-Medical-Treatments/Covid-Medical-Treatments.html">Covid Medical Treatments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Bill-Gates-Memes/Bill-Gates-Memes.html">Bill Gates Memes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/topics.html">Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Data-science-of-the-pandemic/Data-science-of-the-pandemic.html">Data Science of the Pandemic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Vaccines/Vaccines.html">Vaccines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Masks/Masks.html">Masks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Lockdowns/Lockdowns.html">Lockdowns</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Origins-of-the-Virus/Origins-of-the-Virus.html">Origins of the Virus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Pandemic-Preparedness/Pandemic-Preparedness.html">Pandemic Preparedness</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Pandemic-Participants/Pandemic-Participants.html">Pandemic Participants</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Food-Safety/Food-Safety.html">Food Safety</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Municipal-Matters/Municipal-Matters.html">Municipal Issues and Topics</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../How-you-can-help/How-you-can-help.html">How you can help</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../Tech-stack-for-this-website.html">Tech stack for this website</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../myGuides.html">My Guides for Various Technical Topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../General-computer-setup.html">General Computer Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../Advanced-Computer-Setup.html">Advanced Computer Setup and Topics</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../Amazon-AWS-Learning.html">Amazon AWS Learning</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html">AWS Chalice Workshop</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../env-setup.html">Prerequisite: Setting up your environment</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../todo-app/index.html">Todo Application</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="index.html">Media Query Application</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../code/media-query/final/README.html">Media Query Application</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../code/todo-app/final/README.html">My Todo App</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../code/todo-app/part1/README.html">Chalice Workshop Code Part 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../code/todo-app/part2/README.html">Chalice Workshop Part 2</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../ToDo-project-tasks.html">ToDo project and documentation tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../Contribute.html">Contribute</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../Upcoming-software-to-try.html">Links of Upcoming Software to Try</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../How-you-can-help/Links-to-add-to-site.html">Links to add to the documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../How-you-can-help/Future-topics-to-be-developed.html">Future Topics to be developed</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../Sandbox/Sandbox.html">Sandbox</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../License/license.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../Help-about/help.html">Help - About</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Covid-Medical-Treatments/Covid-Medical-Treatments.html">Covid Medical Treatments</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Bill-Gates-Memes/Bill-Gates-Memes.html">Bill Gates Memes</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/topics.html">Topics</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Data-science-of-the-pandemic/Data-science-of-the-pandemic.html">Data Science of the Pandemic</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Vaccines/Vaccines.html">Vaccines</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Masks/Masks.html">Masks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Lockdowns/Lockdowns.html">Lockdowns</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Origins-of-the-Virus/Origins-of-the-Virus.html">Origins of the Virus</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Pandemic-Preparedness/Pandemic-Preparedness.html">Pandemic Preparedness</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Pandemic-Participants/Pandemic-Participants.html">Pandemic Participants</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Food-Safety/Food-Safety.html">Food Safety</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../topics/Municipal-Matters/Municipal-Matters.html">Municipal Issues and Topics</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../How-you-can-help/How-you-can-help.html">How you can help</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../Tech-stack-for-this-website.html">Tech stack for this website</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../myGuides.html">My Guides for Various Technical Topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../General-computer-setup.html">General Computer Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../Advanced-Computer-Setup.html">Advanced Computer Setup and Topics</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../Amazon-AWS-Learning.html">Amazon AWS Learning</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html">AWS Chalice Workshop</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../env-setup.html">Prerequisite: Setting up your environment</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../todo-app/index.html">Todo Application</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="index.html">Media Query Application</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../code/media-query/final/README.html">Media Query Application</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../code/todo-app/final/README.html">My Todo App</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../code/todo-app/part1/README.html">Chalice Workshop Code Part 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../code/todo-app/part2/README.html">Chalice Workshop Part 2</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../ToDo-project-tasks.html">ToDo project and documentation tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../Contribute.html">Contribute</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../Upcoming-software-to-try.html">Links of Upcoming Software to Try</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../How-you-can-help/Links-to-add-to-site.html">Links to add to the documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../How-you-can-help/Future-topics-to-be-developed.html">Future Topics to be developed</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../index.html">all-knowledge</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../../../How-you-can-help/How-you-can-help.html">How you can help</a> &raquo;</li>
+        
+          <li><a href="../../Amazon-AWS-Learning.html">Amazon AWS Learning</a> &raquo;</li>
+        
+          <li><a href="../index.html">AWS Chalice Workshop</a> &raquo;</li>
+        
+          <li><a href="index.html">Media Query Application</a> &raquo;</li>
+        
+      <li>Part 2: Build a Chalice application using Rekognition</li>
+    
+    
+    <li class="wy-breadcrumbs-aside">
+    
+        
+        <a href="../../../../_sources/myGuides/aws/source/media-query/02-chalice-with-rekognition.rst.txt" rel="nofollow"> View page source</a>
+        
+    
+    </li>
+
+  </ul>
+
+  
+  <div class="rst-breadcrumbs-buttons" role="navigation" aria-label="breadcrumb navigation">
+      
+        <a href="03-add-db.html" class="btn btn-neutral float-right" title="Part 3: Integrate with a DynamoDB table" accesskey="n">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+      
+      
+        <a href="01-intro-rekognition.html" class="btn btn-neutral float-left" title="Part 1: Introduction to Amazon Rekognition" accesskey="p"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+      
+  </div>
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <section id="part-2-build-a-chalice-application-using-rekognition">
+<h1>Part 2: Build a Chalice application using Rekognition<a class="headerlink" href="#part-2-build-a-chalice-application-using-rekognition" title="Permalink to this headline">¶</a></h1>
+<p>For this part of the tutorial, we will begin writing the media query Chalice
+application and integrate Rekognition into the application. This initial
+version of the application will accept the S3 bucket and key name of an image,
+call the <code class="docutils literal notranslate"><span class="pre">DetectLabels</span></code> API on that stored image, and return the labels
+detected for that image. So assuming the <code class="docutils literal notranslate"><span class="pre">sample.jpg</span></code> image is stored in a
+bucket <code class="docutils literal notranslate"><span class="pre">some-bucket</span></code> under the key <code class="docutils literal notranslate"><span class="pre">sample.jpg</span></code>, we will be able to invoke
+a Lambda function that return the labels Rekognition detected:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ echo &#39;{&quot;Bucket&quot;: &quot;some-bucket&quot;, &quot;Key&quot;: &quot;sample.jpg&quot;}&#39; | chalice invoke --name detect_labels_on_image
+[&quot;Animal&quot;, &quot;Canine&quot;, &quot;Dog&quot;, &quot;German Shepherd&quot;, &quot;Mammal&quot;, &quot;Pet&quot;, &quot;Collie&quot;]
+</pre></div>
+</div>
+<p>For this section, we will be doing the following to create this version of the
+application:</p>
+<div class="contents local topic" id="contents">
+<ul class="simple">
+<li><p><a class="reference internal" href="#create-a-new-chalice-project" id="id9">Create a new Chalice project</a></p></li>
+<li><p><a class="reference internal" href="#copy-over-boilerplate-files" id="id10">Copy over boilerplate files</a></p></li>
+<li><p><a class="reference internal" href="#write-a-lambda-function-for-detecting-labels" id="id11">Write a Lambda function for detecting labels</a></p></li>
+<li><p><a class="reference internal" href="#create-a-s3-bucket" id="id12">Create a S3 bucket</a></p></li>
+<li><p><a class="reference internal" href="#deploy-the-chalice-application" id="id13">Deploy the Chalice application</a></p></li>
+</ul>
+</div>
+<section id="create-a-new-chalice-project">
+<h2><a class="toc-backref" href="#id9">Create a new Chalice project</a><a class="headerlink" href="#create-a-new-chalice-project" title="Permalink to this headline">¶</a></h2>
+<p>Create the new Chalice project for the Media Query application.</p>
+<section id="instructions">
+<h3>Instructions<a class="headerlink" href="#instructions" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Create a new Chalice project called <code class="docutils literal notranslate"><span class="pre">media-query</span></code> with the <code class="docutils literal notranslate"><span class="pre">new-project</span></code>
+command:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ chalice new-project media-query
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+<section id="verification">
+<h3>Verification<a class="headerlink" href="#verification" title="Permalink to this headline">¶</a></h3>
+<p>To ensure that the project was created, list the contents of the newly created
+<code class="docutils literal notranslate"><span class="pre">media-query</span></code> directory:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ ls media-query
+app.py           requirements.txt
+</pre></div>
+</div>
+<p>It should contain an <code class="docutils literal notranslate"><span class="pre">app.py</span></code> file and a <code class="docutils literal notranslate"><span class="pre">requirements.txt</span></code> file.</p>
+</section>
+</section>
+<section id="copy-over-boilerplate-files">
+<h2><a class="toc-backref" href="#id10">Copy over boilerplate files</a><a class="headerlink" href="#copy-over-boilerplate-files" title="Permalink to this headline">¶</a></h2>
+<p>Copy over starting files to facilitate development of the application</p>
+<section id="id1">
+<h3>Instructions<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Copy over the starting point code for section <code class="docutils literal notranslate"><span class="pre">02-chalice-with-rekognition</span></code>
+into your <code class="docutils literal notranslate"><span class="pre">media-query</span></code> directory:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ cp -r chalice-workshop/code/media-query/02-chalice-with-rekognition/. media-query/
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you are ever stuck and want to skip to the beginning of a different
+part of this tutorial, you can do this by running the same command
+as above, but instead use the <code class="docutils literal notranslate"><span class="pre">code</span></code> directory name of the part you
+want to skip to. For example, if you wanted to skip to the beginning of
+Part 5 of this tutorial, you can run the following command with
+<code class="docutils literal notranslate"><span class="pre">media-query</span></code> as the current working directory and be ready to start
+Part 5:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>media-query$  cp -r ../chalice-workshop/code/media-query/05-s3-delete-event/. ./
+</pre></div>
+</div>
+</div>
+</li>
+</ol>
+</section>
+<section id="id2">
+<h3>Verification<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Ensure the structure of the <code class="docutils literal notranslate"><span class="pre">media-query</span></code> directory is the
+following:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ tree -a media-query
+├── .chalice
+│   ├── config.json
+│   └── policy-dev.json
+├── .gitignore
+├── app.py
+├── chalicelib
+│   ├── __init__.py
+│   └── rekognition.py
+├── recordresources.py
+├── requirements.txt
+└── resources.json
+</pre></div>
+</div>
+<p>For the files that got added, they will be used later in the tutorial but
+for a brief overview of the new files:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">chalicelib</span></code>: A directory for managing Python modules outside of the
+<code class="docutils literal notranslate"><span class="pre">app.py</span></code>. It is common to put the lower-level logic in the
+<code class="docutils literal notranslate"><span class="pre">chalicelib</span></code> directory and keep the higher level logic in the
+<code class="docutils literal notranslate"><span class="pre">app.py</span></code> file so it stays readable and small. You can read more
+about <code class="docutils literal notranslate"><span class="pre">chalicelib</span></code> in the Chalice
+<a class="reference external" href="http://chalice.readthedocs.io/en/latest/topics/multifile.html">documentation</a>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">chalicelib/rekognition.py</span></code>: A utility module to further simplify
+<code class="docutils literal notranslate"><span class="pre">boto3</span></code> client calls to Amazon Rekognition.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">.chalice/config.json</span></code>: Manages configuration of the Chalice
+application. You can read more about the configuration file in
+the Chalice <a class="reference external" href="https://chalice.readthedocs.io/en/latest/topics/configfile.html">documentation</a>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">.chalice/policy-dev.json</span></code>: The IAM policy to apply to your Lambda
+function. This essentially manages the AWS permissions of your
+application</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">resources.json</span></code>: A CloudFormation template with additional resources
+to deploy outside of the Chalice application.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">recordresources.py</span></code>: Records resource values from the additional
+resources deployed to your CloudFormation stack and saves them
+as environment variables in your Chalice application .</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ol>
+</section>
+</section>
+<section id="write-a-lambda-function-for-detecting-labels">
+<h2><a class="toc-backref" href="#id11">Write a Lambda function for detecting labels</a><a class="headerlink" href="#write-a-lambda-function-for-detecting-labels" title="Permalink to this headline">¶</a></h2>
+<p>Fill out the <code class="docutils literal notranslate"><span class="pre">app.py</span></code> file to write a Lambda function that detects labels
+on an image stored in a S3 bucket.</p>
+<section id="id3">
+<h3>Instructions<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Move into the <code class="docutils literal notranslate"><span class="pre">media-query</span></code> directory:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ cd media-query
+</pre></div>
+</div>
+</li>
+<li><p>Add <code class="docutils literal notranslate"><span class="pre">boto3</span></code>, the AWS SDK for Python, as a dependency in the
+<code class="docutils literal notranslate"><span class="pre">requirements.txt</span></code> file:</p></li>
+</ol>
+<div class="highlight-default notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="n">boto3</span><span class="o">&lt;</span><span class="mf">1.8.0</span>
+</pre></div>
+</td></tr></table></div>
+<ol class="arabic" start="3">
+<li><p>Open the <code class="docutils literal notranslate"><span class="pre">app.py</span></code> file and delete all lines of code underneath
+the line: <code class="docutils literal notranslate"><span class="pre">app</span> <span class="pre">=</span> <span class="pre">Chalice(app_name='media-query')</span></code>. Your <code class="docutils literal notranslate"><span class="pre">app.py</span></code> file
+should only consist of the following lines:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">chalice</span> <span class="kn">import</span> <span class="n">Chalice</span>
+
+<span class="n">app</span> <span class="o">=</span> <span class="n">Chalice</span><span class="p">(</span><span class="n">app_name</span><span class="o">=</span><span class="s1">&#39;media-query&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</li>
+</ol>
+<ol class="arabic simple" start="3">
+<li><p>Import <code class="docutils literal notranslate"><span class="pre">boto3</span></code> and the <code class="docutils literal notranslate"><span class="pre">chalicelib.rekognition</span></code> module in your
+<code class="docutils literal notranslate"><span class="pre">app.py</span></code> file:</p></li>
+</ol>
+<div class="highlight-default notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="hll"><span class="kn">import</span> <span class="nn">boto3</span>
+</span><span class="kn">from</span> <span class="nn">chalice</span> <span class="kn">import</span> <span class="n">Chalice</span>
+<span class="hll"><span class="kn">from</span> <span class="nn">chalicelib</span> <span class="kn">import</span> <span class="n">rekognition</span>
+</span></pre></div>
+</td></tr></table></div>
+<ol class="arabic simple" start="4">
+<li><p>Add a helper function for instantiating a Rekognition client:</p></li>
+</ol>
+<div class="highlight-default notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">boto3</span>
+<span class="kn">from</span> <span class="nn">chalice</span> <span class="kn">import</span> <span class="n">Chalice</span>
+<span class="kn">from</span> <span class="nn">chalicelib</span> <span class="kn">import</span> <span class="n">rekognition</span>
+
+<span class="n">app</span> <span class="o">=</span> <span class="n">Chalice</span><span class="p">(</span><span class="n">app_name</span><span class="o">=</span><span class="s1">&#39;media-query&#39;</span><span class="p">)</span>
+
+<span class="hll"><span class="n">_REKOGNITION_CLIENT</span> <span class="o">=</span> <span class="kc">None</span>
+</span>
+
+<span class="hll"><span class="k">def</span> <span class="nf">get_rekognition_client</span><span class="p">():</span>
+</span><span class="hll">    <span class="k">global</span> <span class="n">_REKOGNITION_CLIENT</span>
+</span><span class="hll">    <span class="k">if</span> <span class="n">_REKOGNITION_CLIENT</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+</span><span class="hll">        <span class="n">_REKOGNITION_CLIENT</span> <span class="o">=</span> <span class="n">rekognition</span><span class="o">.</span><span class="n">RekognitonClient</span><span class="p">(</span>
+</span><span class="hll">            <span class="n">boto3</span><span class="o">.</span><span class="n">client</span><span class="p">(</span><span class="s1">&#39;rekognition&#39;</span><span class="p">))</span>
+</span><span class="hll">    <span class="k">return</span> <span class="n">_REKOGNITION_CLIENT</span>
+</span></pre></div>
+</td></tr></table></div>
+<ol class="arabic simple" start="5">
+<li><p>Add a new function <code class="docutils literal notranslate"><span class="pre">detect_labels_on_image</span></code> decorated by the
+<code class="docutils literal notranslate"><span class="pre">app.lambda_function</span></code> decorator. Have the function use a rekognition
+client to detect and return labels on an image stored in a S3 bucket:</p></li>
+</ol>
+<div class="highlight-default notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">boto3</span>
+<span class="kn">from</span> <span class="nn">chalice</span> <span class="kn">import</span> <span class="n">Chalice</span>
+<span class="kn">from</span> <span class="nn">chalicelib</span> <span class="kn">import</span> <span class="n">rekognition</span>
+
+<span class="n">app</span> <span class="o">=</span> <span class="n">Chalice</span><span class="p">(</span><span class="n">app_name</span><span class="o">=</span><span class="s1">&#39;media-query&#39;</span><span class="p">)</span>
+
+<span class="n">_REKOGNITION_CLIENT</span> <span class="o">=</span> <span class="kc">None</span>
+
+
+<span class="k">def</span> <span class="nf">get_rekognition_client</span><span class="p">():</span>
+    <span class="k">global</span> <span class="n">_REKOGNITION_CLIENT</span>
+    <span class="k">if</span> <span class="n">_REKOGNITION_CLIENT</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">_REKOGNITION_CLIENT</span> <span class="o">=</span> <span class="n">rekognition</span><span class="o">.</span><span class="n">RekognitonClient</span><span class="p">(</span>
+            <span class="n">boto3</span><span class="o">.</span><span class="n">client</span><span class="p">(</span><span class="s1">&#39;rekognition&#39;</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">_REKOGNITION_CLIENT</span>
+
+
+<span class="hll"><span class="nd">@app</span><span class="o">.</span><span class="n">lambda_function</span><span class="p">()</span>
+</span><span class="hll"><span class="k">def</span> <span class="nf">detect_labels_on_image</span><span class="p">(</span><span class="n">event</span><span class="p">,</span> <span class="n">context</span><span class="p">):</span>
+</span><span class="hll">    <span class="n">bucket</span> <span class="o">=</span> <span class="n">event</span><span class="p">[</span><span class="s1">&#39;Bucket&#39;</span><span class="p">]</span>
+</span><span class="hll">    <span class="n">key</span> <span class="o">=</span> <span class="n">event</span><span class="p">[</span><span class="s1">&#39;Key&#39;</span><span class="p">]</span>
+</span><span class="hll">    <span class="k">return</span> <span class="n">get_rekognition_client</span><span class="p">()</span><span class="o">.</span><span class="n">get_image_labels</span><span class="p">(</span><span class="n">bucket</span><span class="o">=</span><span class="n">bucket</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="n">key</span><span class="p">)</span>
+</span></pre></div>
+</td></tr></table></div>
+</section>
+<section id="id4">
+<h3>Verification<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Ensure the contents of the <code class="docutils literal notranslate"><span class="pre">requirements.txt</span></code> file is:</p></li>
+</ol>
+<div class="highlight-default notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="n">boto3</span><span class="o">&lt;</span><span class="mf">1.8.0</span>
+</pre></div>
+</td></tr></table></div>
+<ol class="arabic simple">
+<li><p>Ensure the contents of the <code class="docutils literal notranslate"><span class="pre">app.py</span></code> file is:</p></li>
+</ol>
+<div class="highlight-default notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">boto3</span>
+<span class="kn">from</span> <span class="nn">chalice</span> <span class="kn">import</span> <span class="n">Chalice</span>
+<span class="kn">from</span> <span class="nn">chalicelib</span> <span class="kn">import</span> <span class="n">rekognition</span>
+
+<span class="n">app</span> <span class="o">=</span> <span class="n">Chalice</span><span class="p">(</span><span class="n">app_name</span><span class="o">=</span><span class="s1">&#39;media-query&#39;</span><span class="p">)</span>
+
+<span class="n">_REKOGNITION_CLIENT</span> <span class="o">=</span> <span class="kc">None</span>
+
+
+<span class="k">def</span> <span class="nf">get_rekognition_client</span><span class="p">():</span>
+    <span class="k">global</span> <span class="n">_REKOGNITION_CLIENT</span>
+    <span class="k">if</span> <span class="n">_REKOGNITION_CLIENT</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">_REKOGNITION_CLIENT</span> <span class="o">=</span> <span class="n">rekognition</span><span class="o">.</span><span class="n">RekognitonClient</span><span class="p">(</span>
+            <span class="n">boto3</span><span class="o">.</span><span class="n">client</span><span class="p">(</span><span class="s1">&#39;rekognition&#39;</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">_REKOGNITION_CLIENT</span>
+
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">lambda_function</span><span class="p">()</span>
+<span class="k">def</span> <span class="nf">detect_labels_on_image</span><span class="p">(</span><span class="n">event</span><span class="p">,</span> <span class="n">context</span><span class="p">):</span>
+    <span class="n">bucket</span> <span class="o">=</span> <span class="n">event</span><span class="p">[</span><span class="s1">&#39;Bucket&#39;</span><span class="p">]</span>
+    <span class="n">key</span> <span class="o">=</span> <span class="n">event</span><span class="p">[</span><span class="s1">&#39;Key&#39;</span><span class="p">]</span>
+    <span class="k">return</span> <span class="n">get_rekognition_client</span><span class="p">()</span><span class="o">.</span><span class="n">get_image_labels</span><span class="p">(</span><span class="n">bucket</span><span class="o">=</span><span class="n">bucket</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="n">key</span><span class="p">)</span>
+</pre></div>
+</td></tr></table></div>
+</section>
+</section>
+<section id="create-a-s3-bucket">
+<h2><a class="toc-backref" href="#id12">Create a S3 bucket</a><a class="headerlink" href="#create-a-s3-bucket" title="Permalink to this headline">¶</a></h2>
+<p>Create a S3 bucket for uploading images and use with the Chalice application.</p>
+<section id="id5">
+<h3>Instructions<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Use the AWS CLI and the <code class="docutils literal notranslate"><span class="pre">resources.json</span></code> CloudFormation template to deploy
+a CloudFormation stack <code class="docutils literal notranslate"><span class="pre">media-query</span></code> that contains a S3 bucket:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ aws cloudformation deploy --template-file resources.json --stack-name media-query
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+<section id="id6">
+<h3>Verification<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Retrieve and store the name of the S3 bucket using the AWS CLI:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ MEDIA_BUCKET_NAME=$(aws cloudformation describe-stacks --stack-name media-query --query &quot;Stacks[0].Outputs[?OutputKey==&#39;MediaBucketName&#39;].OutputValue&quot; --output text)
+</pre></div>
+</div>
+</li>
+<li><p>Ensure you can access the S3 bucket by listing its contents:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ aws s3 ls $MEDIA_BUCKET_NAME
+</pre></div>
+</div>
+<p>Note that the bucket should be empty.</p>
+</li>
+</ol>
+</section>
+</section>
+<section id="deploy-the-chalice-application">
+<h2><a class="toc-backref" href="#id13">Deploy the Chalice application</a><a class="headerlink" href="#deploy-the-chalice-application" title="Permalink to this headline">¶</a></h2>
+<p>Deploy the chalice application.</p>
+<section id="id7">
+<h3>Instructions<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Install the dependencies of the Chalice application:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ pip install -r requirements.txt
+</pre></div>
+</div>
+</li>
+<li><p>Run <code class="docutils literal notranslate"><span class="pre">chalice</span> <span class="pre">deploy</span></code> to deploy the application:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ chalice deploy
+Creating deployment package.
+Creating IAM role: media-query-dev-detect_labels_on_image
+Creating lambda function: media-query-dev-detect_labels_on_image
+Resources deployed:
+  - Lambda ARN: arn:aws:lambda:us-west-2:123456789123:function:media-query-dev-detect_labels_on_image
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+<section id="id8">
+<h3>Verification<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Upload the sample workshop image to the S3 bucket:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ aws s3 cp ../chalice-workshop/code/media-query/final/assets/sample.jpg s3://$MEDIA_BUCKET_NAME
+</pre></div>
+</div>
+</li>
+<li><p>Create a <code class="docutils literal notranslate"><span class="pre">sample-event.json</span></code> file to use with <code class="docutils literal notranslate"><span class="pre">chalice</span> <span class="pre">invoke</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ echo &quot;{\&quot;Bucket\&quot;: \&quot;$MEDIA_BUCKET_NAME\&quot;, \&quot;Key\&quot;: \&quot;sample.jpg\&quot;}&quot; &gt; sample-event.json
+</pre></div>
+</div>
+</li>
+<li><p>Run <code class="docutils literal notranslate"><span class="pre">chalice</span> <span class="pre">invoke</span></code> on the <code class="docutils literal notranslate"><span class="pre">detect_labels_on_image</span></code> Lambda function:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ chalice invoke --name detect_labels_on_image &lt; sample-event.json
+</pre></div>
+</div>
+<p>It should return the following labels in the output:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">[</span><span class="s2">&quot;Animal&quot;</span><span class="p">,</span> <span class="s2">&quot;Canine&quot;</span><span class="p">,</span> <span class="s2">&quot;Dog&quot;</span><span class="p">,</span> <span class="s2">&quot;German Shepherd&quot;</span><span class="p">,</span> <span class="s2">&quot;Mammal&quot;</span><span class="p">,</span> <span class="s2">&quot;Pet&quot;</span><span class="p">,</span> <span class="s2">&quot;Collie&quot;</span><span class="p">]</span>
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+</section>
+</section>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="03-add-db.html" class="btn btn-neutral float-right" title="Part 3: Integrate with a DynamoDB table" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="01-intro-rekognition.html" class="btn btn-neutral float-left" title="Part 1: Introduction to Amazon Rekognition" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020-2021, Thomas Connors and Contributors.
+      <span class="lastupdated">
+        Last updated on Sat, 17 Jul 2021 12:00 AM .
+      </span>
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+  
+ <script type="text/javascript">
+    $(document).ready(function() {
+        $(".toggle > *").hide();
+        $(".toggle .header").show();
+        $(".toggle .header").click(function() {
+            $(this).parent().children().not(".header").toggle(400);
+            $(this).parent().children(".header").toggleClass("open");
+        })
+    });
+</script>
+
+
+</body>
+</html>

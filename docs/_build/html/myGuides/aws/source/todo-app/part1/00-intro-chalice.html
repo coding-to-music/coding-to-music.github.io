@@ -1,0 +1,793 @@
+
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  
+  <title>Section 0: Introduction to AWS Chalice &mdash; all-knowledge</title>
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="../../../../../_static/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../../../../_static/icons/favicon-16x16.png">
+  <link rel="manifest" href="../../../../../_static/icons/site.webmanifest">
+  <link rel="mask-icon" href="../../../../../_static/icons/safari-pinned-tab.svg" color="#919191">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="msapplication-config" content="../../../../../_static/icons/browserconfig.xml">
+  <link rel="stylesheet" href="../../../../../_static/stylesheets/examples.css">
+  <link rel="stylesheet" href="../../../../../_static/stylesheets/deprecation.css">
+
+  
+  <link rel="stylesheet" href="../../../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/copybutton.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/tooltipster.custom.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/tooltipster.bundle.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/tooltipster-sideTip-shadow.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/tooltipster-sideTip-punk.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/tooltipster-sideTip-noir.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/tooltipster-sideTip-light.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/tooltipster-sideTip-borderless.min.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/micromodal.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/tabs.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/sphinx_rtd_theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/contentui.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/gallery.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/gallery-binder.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/gallery-dataframe.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/gallery-rendered-html.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/sphinxcontrib-images/LightBox2/lightbox2/css/lightbox.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../../../../../_static/favicon.ico"/>
+  
+
+  
+  
+
+  
+    <link rel="canonical" href="https://pandemic-overview.readthedocs.io/en/latest/myGuides/aws/source/todo-app/part1/00-intro-chalice.html" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../../../" src="../../../../../_static/documentation_options.js"></script>
+        <script src="../../../../../_static/jquery.js"></script>
+        <script src="../../../../../_static/underscore.js"></script>
+        <script src="../../../../../_static/doctools.js"></script>
+        <script src="../../../../../_static/language_data.js"></script>
+        <script src="../../../../../_static/clipboard.min.js"></script>
+        <script src="../../../../../_static/copybutton.js"></script>
+        <script src="../../../../../_static/js/hoverxref.js"></script>
+        <script src="../../../../../_static/js/tooltipster.bundle.min.js"></script>
+        <script src="../../../../../_static/js/micromodal.min.js"></script>
+        <script src="../../../../../_static/tabs.js"></script>
+        <script src="../../../../../_static/js/expand_tabs.js"></script>
+        <script src="../../../../../_static/contentui.js"></script>
+        <script src="../../../../../_static/sphinxcontrib-images/LightBox2/lightbox2/js/jquery-1.11.0.min.js"></script>
+        <script src="../../../../../_static/sphinxcontrib-images/LightBox2/lightbox2/js/lightbox.min.js"></script>
+        <script src="../../../../../_static/sphinxcontrib-images/LightBox2/lightbox2-customize/jquery-noconflict.js"></script>
+    
+    <script type="text/javascript" src="../../../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="Section 1: Create initial Todo application" href="01-todo-app-new-project.html" />
+    <link rel="prev" title="Part 1: Build a serverless web application with AWS Chalice" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../../../index.html">
+          
+
+          
+            
+            <img src="../../../../../_static/statsmodels-logo-v2-bw.svg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Covid-Medical-Treatments/Covid-Medical-Treatments.html">Covid Medical Treatments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Bill-Gates-Memes/Bill-Gates-Memes.html">Bill Gates Memes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/topics.html">Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Data-science-of-the-pandemic/Data-science-of-the-pandemic.html">Data Science of the Pandemic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Vaccines/Vaccines.html">Vaccines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Masks/Masks.html">Masks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Lockdowns/Lockdowns.html">Lockdowns</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Origins-of-the-Virus/Origins-of-the-Virus.html">Origins of the Virus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Pandemic-Preparedness/Pandemic-Preparedness.html">Pandemic Preparedness</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Pandemic-Participants/Pandemic-Participants.html">Pandemic Participants</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Food-Safety/Food-Safety.html">Food Safety</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Municipal-Matters/Municipal-Matters.html">Municipal Issues and Topics</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../How-you-can-help/How-you-can-help.html">How you can help</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../Tech-stack-for-this-website.html">Tech stack for this website</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../myGuides.html">My Guides for Various Technical Topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../General-computer-setup.html">General Computer Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../Advanced-Computer-Setup.html">Advanced Computer Setup and Topics</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../Amazon-AWS-Learning.html">Amazon AWS Learning</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../../index.html">AWS Chalice Workshop</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../env-setup.html">Prerequisite: Setting up your environment</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../index.html">Todo Application</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../media-query/index.html">Media Query Application</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/media-query/final/README.html">Media Query Application</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/todo-app/final/README.html">My Todo App</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/todo-app/part1/README.html">Chalice Workshop Code Part 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/todo-app/part2/README.html">Chalice Workshop Part 2</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../ToDo-project-tasks.html">ToDo project and documentation tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../Contribute.html">Contribute</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../Upcoming-software-to-try.html">Links of Upcoming Software to Try</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../How-you-can-help/Links-to-add-to-site.html">Links to add to the documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../How-you-can-help/Future-topics-to-be-developed.html">Future Topics to be developed</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../Sandbox/Sandbox.html">Sandbox</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../License/license.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../Help-about/help.html">Help - About</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Covid-Medical-Treatments/Covid-Medical-Treatments.html">Covid Medical Treatments</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Bill-Gates-Memes/Bill-Gates-Memes.html">Bill Gates Memes</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/topics.html">Topics</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Data-science-of-the-pandemic/Data-science-of-the-pandemic.html">Data Science of the Pandemic</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Vaccines/Vaccines.html">Vaccines</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Masks/Masks.html">Masks</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Lockdowns/Lockdowns.html">Lockdowns</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Origins-of-the-Virus/Origins-of-the-Virus.html">Origins of the Virus</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Pandemic-Preparedness/Pandemic-Preparedness.html">Pandemic Preparedness</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Pandemic-Participants/Pandemic-Participants.html">Pandemic Participants</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Food-Safety/Food-Safety.html">Food Safety</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../topics/Municipal-Matters/Municipal-Matters.html">Municipal Issues and Topics</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../How-you-can-help/How-you-can-help.html">How you can help</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../Tech-stack-for-this-website.html">Tech stack for this website</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../myGuides.html">My Guides for Various Technical Topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../General-computer-setup.html">General Computer Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../Advanced-Computer-Setup.html">Advanced Computer Setup and Topics</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../Amazon-AWS-Learning.html">Amazon AWS Learning</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../../index.html">AWS Chalice Workshop</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../../env-setup.html">Prerequisite: Setting up your environment</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../index.html">Todo Application</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../media-query/index.html">Media Query Application</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/media-query/final/README.html">Media Query Application</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/todo-app/final/README.html">My Todo App</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/todo-app/part1/README.html">Chalice Workshop Code Part 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../code/todo-app/part2/README.html">Chalice Workshop Part 2</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../ToDo-project-tasks.html">ToDo project and documentation tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../Contribute.html">Contribute</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../Upcoming-software-to-try.html">Links of Upcoming Software to Try</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../How-you-can-help/Links-to-add-to-site.html">Links to add to the documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../How-you-can-help/Future-topics-to-be-developed.html">Future Topics to be developed</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../index.html">all-knowledge</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../../../../How-you-can-help/How-you-can-help.html">How you can help</a> &raquo;</li>
+        
+          <li><a href="../../../Amazon-AWS-Learning.html">Amazon AWS Learning</a> &raquo;</li>
+        
+          <li><a href="../../index.html">AWS Chalice Workshop</a> &raquo;</li>
+        
+          <li><a href="../index.html">Todo Application</a> &raquo;</li>
+        
+          <li><a href="index.html">Part 1: Build a serverless web application with AWS Chalice</a> &raquo;</li>
+        
+      <li>Section 0: Introduction to AWS Chalice</li>
+    
+    
+    <li class="wy-breadcrumbs-aside">
+    
+        
+        <a href="../../../../../_sources/myGuides/aws/source/todo-app/part1/00-intro-chalice.rst.txt" rel="nofollow"> View page source</a>
+        
+    
+    </li>
+
+  </ul>
+
+  
+  <div class="rst-breadcrumbs-buttons" role="navigation" aria-label="breadcrumb navigation">
+      
+        <a href="01-todo-app-new-project.html" class="btn btn-neutral float-right" title="Section 1: Create initial Todo application" accesskey="n">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Part 1: Build a serverless web application with AWS Chalice" accesskey="p"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+      
+  </div>
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <section id="section-0-introduction-to-aws-chalice">
+<h1>Section 0: Introduction to AWS Chalice<a class="headerlink" href="#section-0-introduction-to-aws-chalice" title="Permalink to this headline">¶</a></h1>
+<p>This section will provide an introduction on how to use AWS Chalice and provide
+instructions on how to go about building your very first Chalice application.</p>
+<section id="create-a-virtualenv-and-install-chalice">
+<h2>Create a virtualenv and install Chalice<a class="headerlink" href="#create-a-virtualenv-and-install-chalice" title="Permalink to this headline">¶</a></h2>
+<p>To start using Chalice, you will need a new virtualenv with Chalice installed.</p>
+<section id="instructions">
+<h3>Instructions<a class="headerlink" href="#instructions" title="Permalink to this headline">¶</a></h3>
+<p>Make sure you have Python 3 installed.  See the <span class="xref std std-doc">env-setup</span> page for
+instructions on how to install Python.</p>
+<ol class="arabic">
+<li><p>Create a new virtualenv called <code class="docutils literal notranslate"><span class="pre">chalice-env</span></code> by running the following
+command:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ python3 -m venv chalice-env
+</pre></div>
+</div>
+</li>
+<li><p>Activate your newly created virtualenv:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ source chalice-env/bin/activate
+</pre></div>
+</div>
+<p>If you are using a Windows environment, you will have to run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&gt;</span> <span class="o">.</span>\<span class="n">chalice</span><span class="o">-</span><span class="n">env</span>\<span class="n">Scripts</span>\<span class="n">activate</span>
+</pre></div>
+</div>
+</li>
+<li><p>Install <code class="docutils literal notranslate"><span class="pre">chalice</span></code> using <code class="docutils literal notranslate"><span class="pre">pip</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ pip install chalice
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+<section id="verification">
+<h3>Verification<a class="headerlink" href="#verification" title="Permalink to this headline">¶</a></h3>
+<p>To check that <code class="docutils literal notranslate"><span class="pre">chalice</span></code> was installed, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ chalice --version
+</pre></div>
+</div>
+<p>This should print out the version of <code class="docutils literal notranslate"><span class="pre">chalice</span></code> that is installed in your
+virtualenv.</p>
+<p>Also, ensure that Python 3.7 is being used as the Python interpreter for your
+virtualenv:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ python --version
+Python 3.7.3
+</pre></div>
+</div>
+</section>
+</section>
+<section id="create-a-new-chalice-application">
+<h2>Create a new Chalice application<a class="headerlink" href="#create-a-new-chalice-application" title="Permalink to this headline">¶</a></h2>
+<p>With <code class="docutils literal notranslate"><span class="pre">chalice</span></code> now installed, it is time to create your first Chalice
+application.</p>
+<section id="id1">
+<h3>Instructions<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Run the <code class="docutils literal notranslate"><span class="pre">chalice</span> <span class="pre">new-project</span></code> command to create a project called
+<code class="docutils literal notranslate"><span class="pre">workshop-intro</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ chalice new-project workshop-intro
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+<section id="id2">
+<h3>Verification<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<p>A new <code class="docutils literal notranslate"><span class="pre">workshop-intro</span></code> directory should have been created on your behalf.
+Inside of the <code class="docutils literal notranslate"><span class="pre">workshop-intro</span></code> directory, you should have two files: an
+<code class="docutils literal notranslate"><span class="pre">app.py</span></code> file and a <code class="docutils literal notranslate"><span class="pre">requirements.txt</span></code> file:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ ls workshop-intro
+app.py           requirements.txt
+</pre></div>
+</div>
+</section>
+</section>
+<section id="deploy-the-chalice-application">
+<h2>Deploy the Chalice application<a class="headerlink" href="#deploy-the-chalice-application" title="Permalink to this headline">¶</a></h2>
+<p>The newly created Chalice application can also be immediately deployed. So
+let’s deploy it.</p>
+<section id="id3">
+<h3>Instructions<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Change directories to your newly created <code class="docutils literal notranslate"><span class="pre">workshop-intro</span></code> directory:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ cd workshop-intro
+</pre></div>
+</div>
+</li>
+<li><p>Run <code class="docutils literal notranslate"><span class="pre">chalice</span> <span class="pre">deploy</span></code> to deploy your Chalice application:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ chalice deploy
+Creating deployment package.
+Creating IAM role: workshop-intro-dev
+Creating lambda function: workshop-intro-dev
+Creating Rest API
+Resources deployed:
+  - Lambda ARN: arn:aws:lambda:us-west-2:12345:function:workshop-intro-dev
+  - Rest API URL: https://1y2mueb824.execute-api.us-west-2.amazonaws.com/api/
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+<section id="id4">
+<h3>Verification<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<p>The <code class="docutils literal notranslate"><span class="pre">chalice</span> <span class="pre">deploy</span></code> command should have exited with a return code of <code class="docutils literal notranslate"><span class="pre">0</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ echo $?
+0
+</pre></div>
+</div>
+<p>You should also be able to interact with your newly deployed API. To do so,
+first install <code class="docutils literal notranslate"><span class="pre">httpie</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ pip install httpie
+</pre></div>
+</div>
+<p>Get the endpoint of your deployed Chalice application with <code class="docutils literal notranslate"><span class="pre">chalice</span> <span class="pre">url</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ chalice url
+https://1y2mueb824.execute-api.us-west-2.amazonaws.com/api/
+</pre></div>
+</div>
+<p>Now use <code class="docutils literal notranslate"><span class="pre">httpie</span></code> to make an HTTP request to that endpoint:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ http https://1y2mueb824.execute-api.us-west-2.amazonaws.com/api/
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 18
+Content-Type: application/json
+Date: Sat, 21 Oct 2017 23:21:41 GMT
+Via: 1.1 403d925786ea6bd8903b99a628977c8f.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: FlL4RfE3UqiDFocyTlSzCqtvzxWd9pK0M1lCnIsO1KwjhF37XvVTCg==
+X-Amzn-Trace-Id: sampled=0;root=1-59ebd683-72e3a6105ff3425da0c7e0ae
+X-Cache: Miss from cloudfront
+x-amzn-RequestId: 9776fca3-b6b6-11e7-94e4-b130a115985d
+
+{
+    &quot;hello&quot;: &quot;world&quot;
+}
+</pre></div>
+</div>
+<p>The HTTP response back should consist of the JSON body: <code class="docutils literal notranslate"><span class="pre">{&quot;hello&quot;:</span> <span class="pre">&quot;world&quot;}</span></code></p>
+</section>
+</section>
+<section id="add-a-new-route">
+<h2>Add a new route<a class="headerlink" href="#add-a-new-route" title="Permalink to this headline">¶</a></h2>
+<p>Now that we have deployed our first Chalice application, let’s expand on it
+by adding a new <code class="docutils literal notranslate"><span class="pre">/hello</span></code> route.</p>
+<section id="id5">
+<h3>Instructions<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Open the <code class="docutils literal notranslate"><span class="pre">app.py</span></code> file in your favorite editor:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ vim app.py
+</pre></div>
+</div>
+</li>
+<li><p>Inside of the <code class="docutils literal notranslate"><span class="pre">app.py</span></code> file, add the following function under the
+existing <code class="docutils literal notranslate"><span class="pre">index()</span></code> function:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/hello&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">hello_workshop</span><span class="p">():</span>
+    <span class="k">return</span> <span class="p">{</span><span class="s1">&#39;hello&#39;</span><span class="p">:</span> <span class="s1">&#39;workshop&#39;</span><span class="p">}</span>
+</pre></div>
+</div>
+<p>Your <code class="docutils literal notranslate"><span class="pre">app.py</span></code> should now consist of the following:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">chalice</span> <span class="kn">import</span> <span class="n">Chalice</span>
+
+<span class="n">app</span> <span class="o">=</span> <span class="n">Chalice</span><span class="p">(</span><span class="n">app_name</span><span class="o">=</span><span class="s1">&#39;workshop-intro&#39;</span><span class="p">)</span>
+
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">index</span><span class="p">():</span>
+    <span class="k">return</span> <span class="p">{</span><span class="s1">&#39;hello&#39;</span><span class="p">:</span> <span class="s1">&#39;world&#39;</span><span class="p">}</span>
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/hello&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">hello_workshop</span><span class="p">():</span>
+    <span class="k">return</span> <span class="p">{</span><span class="s1">&#39;hello&#39;</span><span class="p">:</span> <span class="s1">&#39;workshop&#39;</span><span class="p">}</span>
+</pre></div>
+</div>
+</li>
+<li><p>Deploy the updated application using <code class="docutils literal notranslate"><span class="pre">chalice</span> <span class="pre">deploy</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ chalice deploy
+Creating deployment package.
+Updating policy for IAM role: workshop-intro-dev
+Updating lambda function: workshop-intro-dev
+Updating rest API
+Resources deployed:
+  - Lambda ARN: arn:aws:lambda:us-west-2:12345:function:workshop-intro-dev
+  - Rest API URL: https://1y2mueb824.execute-api.us-west-2.amazonaws.com/api/
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+<section id="validation">
+<h3>Validation<a class="headerlink" href="#validation" title="Permalink to this headline">¶</a></h3>
+<p>Using <code class="docutils literal notranslate"><span class="pre">httpie</span></code>, confirm that the new route was deployed by making an
+HTTP request:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ http https://1y2mueb824.execute-api.us-west-2.amazonaws.com/api/hello
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 21
+Content-Type: application/json
+Date: Sat, 21 Oct 2017 23:34:56 GMT
+Via: 1.1 2d8af5cc5befc5d35bb54b4a5b6494c9.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: upMVSIUvjmCRa33IO-4zpYQOU0C94h50F3oJX_iv-vdk-g1IacKq9A==
+X-Amzn-Trace-Id: sampled=0;root=1-59ebd9a0-0a275c8f6794f2e5c59641c7
+X-Cache: Miss from cloudfront
+x-amzn-RequestId: 7233e21a-b6b8-11e7-a3b6-f7221d70ee14
+
+{
+    &quot;hello&quot;: &quot;workshop&quot;
+}
+</pre></div>
+</div>
+<p>The HTTP response back should consist of the JSON body:
+<code class="docutils literal notranslate"><span class="pre">{&quot;hello&quot;:</span> <span class="pre">&quot;workshop&quot;}</span></code></p>
+</section>
+</section>
+<section id="add-a-new-route-with-a-uri-parameter">
+<h2>Add a new route with a URI parameter<a class="headerlink" href="#add-a-new-route-with-a-uri-parameter" title="Permalink to this headline">¶</a></h2>
+<p>Next, let’s add a new route that accepts a parameter in the URI.</p>
+<section id="id6">
+<h3>Instructions<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Inside of the <code class="docutils literal notranslate"><span class="pre">app.py</span></code> file, add the following function under the
+existing <code class="docutils literal notranslate"><span class="pre">hello_workshop()</span></code> function:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/hello/</span><span class="si">{name}</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">hello_name</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
+    <span class="k">return</span> <span class="p">{</span><span class="s1">&#39;hello&#39;</span><span class="p">:</span> <span class="n">name</span><span class="p">}</span>
+</pre></div>
+</div>
+<p>Your <code class="docutils literal notranslate"><span class="pre">app.py</span></code> should now consist of the following:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">chalice</span> <span class="kn">import</span> <span class="n">Chalice</span>
+
+<span class="n">app</span> <span class="o">=</span> <span class="n">Chalice</span><span class="p">(</span><span class="n">app_name</span><span class="o">=</span><span class="s1">&#39;workshop-intro&#39;</span><span class="p">)</span>
+
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">index</span><span class="p">():</span>
+    <span class="k">return</span> <span class="p">{</span><span class="s1">&#39;hello&#39;</span><span class="p">:</span> <span class="s1">&#39;world&#39;</span><span class="p">}</span>
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/hello&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">hello_workshop</span><span class="p">():</span>
+    <span class="k">return</span> <span class="p">{</span><span class="s1">&#39;hello&#39;</span><span class="p">:</span> <span class="s1">&#39;workshop&#39;</span><span class="p">}</span>
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/hello/</span><span class="si">{name}</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">hello_name</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
+    <span class="k">return</span> <span class="p">{</span><span class="s1">&#39;hello&#39;</span><span class="p">:</span> <span class="n">name</span><span class="p">}</span>
+</pre></div>
+</div>
+</li>
+<li><p>Deploy the updated application using <code class="docutils literal notranslate"><span class="pre">chalice</span> <span class="pre">deploy</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ chalice deploy
+Creating deployment package.
+Updating policy for IAM role: workshop-intro-dev
+Updating lambda function: workshop-intro-dev
+Updating rest API
+Resources deployed:
+  - Lambda ARN: arn:aws:lambda:us-west-2:12345:function:workshop-intro-dev
+  - Rest API URL: https://1y2mueb824.execute-api.us-west-2.amazonaws.com/api/
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+<section id="id7">
+<h3>Verification<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<p>Using <code class="docutils literal notranslate"><span class="pre">httpie</span></code>, confirm that the new route was deployed by making an
+HTTP request:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ http https://1y2mueb824.execute-api.us-west-2.amazonaws.com/api/hello/kyle
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 21
+Content-Type: application/json
+Date: Sat, 21 Oct 2017 23:34:56 GMT
+Via: 1.1 2d8af5cc5befc5d35bb54b4a5b6494c9.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: upMVSIUvjmCRa33IO-4zpYQOU0C94h50F3oJX_iv-vdk-g1IacKq9A==
+X-Amzn-Trace-Id: sampled=0;root=1-59ebd9a0-0a275c8f6794f2e5c59641c7
+X-Cache: Miss from cloudfront
+x-amzn-RequestId: 7233e21a-b6b8-11e7-a3b6-f7221d70ee14
+
+{
+    &quot;hello&quot;: &quot;kyle&quot;
+}
+</pre></div>
+</div>
+<p>The HTTP response back should consist of the JSON body:
+<code class="docutils literal notranslate"><span class="pre">{&quot;hello&quot;:</span> <span class="pre">&quot;kyle&quot;}</span></code></p>
+</section>
+</section>
+<section id="add-a-new-route-with-a-non-get-http-method">
+<h2>Add a new route with a non-GET HTTP method<a class="headerlink" href="#add-a-new-route-with-a-non-get-http-method" title="Permalink to this headline">¶</a></h2>
+<p>For our last route, let’s add a new route that accepts a different HTTP method
+other than <code class="docutils literal notranslate"><span class="pre">GET</span></code>.</p>
+<section id="id8">
+<h3>Instructions<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Inside of the <code class="docutils literal notranslate"><span class="pre">app.py</span></code> file, add the following function under the
+existing <code class="docutils literal notranslate"><span class="pre">hello_name()</span></code> function:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/hello-post&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;POST&#39;</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">hello_post</span><span class="p">():</span>
+    <span class="n">request_body</span> <span class="o">=</span> <span class="n">app</span><span class="o">.</span><span class="n">current_request</span><span class="o">.</span><span class="n">json_body</span>
+    <span class="k">return</span> <span class="p">{</span><span class="s1">&#39;hello&#39;</span><span class="p">:</span> <span class="n">request_body</span><span class="p">}</span>
+</pre></div>
+</div>
+<p>Your <code class="docutils literal notranslate"><span class="pre">app.py</span></code> should now consist of the following:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">chalice</span> <span class="kn">import</span> <span class="n">Chalice</span>
+
+<span class="n">app</span> <span class="o">=</span> <span class="n">Chalice</span><span class="p">(</span><span class="n">app_name</span><span class="o">=</span><span class="s1">&#39;workshop-intro&#39;</span><span class="p">)</span>
+
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">index</span><span class="p">():</span>
+    <span class="k">return</span> <span class="p">{</span><span class="s1">&#39;hello&#39;</span><span class="p">:</span> <span class="s1">&#39;world&#39;</span><span class="p">}</span>
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/hello&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">hello_workshop</span><span class="p">():</span>
+    <span class="k">return</span> <span class="p">{</span><span class="s1">&#39;hello&#39;</span><span class="p">:</span> <span class="s1">&#39;workshop&#39;</span><span class="p">}</span>
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/hello/</span><span class="si">{name}</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">hello_name</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
+    <span class="k">return</span> <span class="p">{</span><span class="s1">&#39;hello&#39;</span><span class="p">:</span> <span class="n">name</span><span class="p">}</span>
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/hello-post&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;POST&#39;</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">hello_post</span><span class="p">():</span>
+    <span class="n">request_body</span> <span class="o">=</span> <span class="n">app</span><span class="o">.</span><span class="n">current_request</span><span class="o">.</span><span class="n">json_body</span>
+    <span class="k">return</span> <span class="p">{</span><span class="s1">&#39;hello&#39;</span><span class="p">:</span> <span class="n">request_body</span><span class="p">}</span>
+</pre></div>
+</div>
+</li>
+<li><p>Deploy the updated application using <code class="docutils literal notranslate"><span class="pre">chalice</span> <span class="pre">deploy</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ chalice deploy
+Creating deployment package.
+Updating policy for IAM role: workshop-intro-dev
+Updating lambda function: workshop-intro-dev
+Updating rest API
+Resources deployed:
+  - Lambda ARN: arn:aws:lambda:us-west-2:12345:function:workshop-intro-dev
+  - Rest API URL: https://1y2mueb824.execute-api.us-west-2.amazonaws.com/api/
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+<section id="id9">
+<h3>Verification<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+<p>Using <code class="docutils literal notranslate"><span class="pre">httpie</span></code>, confirm that the new route was deployed by making an
+HTTP request:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ echo &#39;{&quot;request&quot;:&quot;body&quot;}&#39; | http POST https://1y2mueb824.execute-api.us-west-2.amazonaws.com/api/hello-post
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 30
+Content-Type: application/json
+Date: Sat, 21 Oct 2017 23:48:43 GMT
+Via: 1.1 805232684895bb3db77c2db44011c8d0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: ah7w7to9Svn_WzGZ1MldMHERCO_sLxMKQi9AcHFLSjLtAdAPhw5z_A==
+X-Amzn-Trace-Id: sampled=0;root=1-59ebdcdb-32c834bbd0341b40e3dfd787
+X-Cache: Miss from cloudfront
+x-amzn-RequestId: 5f0bf184-b6ba-11e7-a22d-9b7d2bcfb95b
+
+{
+    &quot;hello&quot;: {
+        &quot;request&quot;: &quot;body&quot;
+    }
+}
+</pre></div>
+</div>
+<p>Notice the HTTP response back should contain the JSON blob that was echoed
+into standard input.</p>
+</section>
+</section>
+<section id="delete-the-chalice-application">
+<h2>Delete the Chalice application<a class="headerlink" href="#delete-the-chalice-application" title="Permalink to this headline">¶</a></h2>
+<p>Now with an understanding of the basics of how to use AWS Chalice, let’s
+clean up this introduction application by deleting it remotely.</p>
+<section id="id10">
+<h3>Instructions<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Run <code class="docutils literal notranslate"><span class="pre">chalice</span> <span class="pre">delete</span></code> to delete the deployed AWS resources running this
+application:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ chalice delete
+Deleting Rest API: 1y2mueb824
+Deleting function: arn:aws:lambda:us-west-2:12345:function:workshop-intro-dev
+Deleting IAM role: workshop-intro-dev
+</pre></div>
+</div>
+<p>If you are prompted on whether to delete a resource when deleting the
+application, go ahead and confirm by entering <code class="docutils literal notranslate"><span class="pre">y</span></code>.</p>
+</li>
+</ol>
+</section>
+<section id="id11">
+<h3>Verification<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
+<p>To ensure that the API no longer exists remotely, try to make an HTTP request
+to the endpoint it was originally deployed to:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ http https://1y2mueb824.execute-api.us-west-2.amazonaws.com/api/
+
+http: error: SSLError: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert
+handshake failure (_ssl.c:590) while doing GET request to URL:
+https://1y2mueb824.execute-api.us-west-2.amazonaws.com/api/
+</pre></div>
+</div>
+<p>This should result in an SSL error as the remote application no longer exists
+and therefore it cannot be connected to it.</p>
+</section>
+</section>
+</section>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="01-todo-app-new-project.html" class="btn btn-neutral float-right" title="Section 1: Create initial Todo application" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Part 1: Build a serverless web application with AWS Chalice" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020-2021, Thomas Connors and Contributors.
+      <span class="lastupdated">
+        Last updated on Sat, 17 Jul 2021 12:00 AM .
+      </span>
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+  
+ <script type="text/javascript">
+    $(document).ready(function() {
+        $(".toggle > *").hide();
+        $(".toggle .header").show();
+        $(".toggle .header").click(function() {
+            $(this).parent().children().not(".header").toggle(400);
+            $(this).parent().children(".header").toggleClass("open");
+        })
+    });
+</script>
+
+
+</body>
+</html>
