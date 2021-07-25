@@ -425,7 +425,7 @@ hoverxref_role_types = {
 sitemap_locales = [None]
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['ntemplates', '_templates']
+templates_path = ['_templates']
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -926,6 +926,7 @@ def rstjinja(app, docname, source):
 
 
 def setup(app):
+    app.add_css_file('css/custom.css')
     app.connect("source-read", rstjinja)
     return {'parallel_read_safe': True,
             'parallel_write_safe': True}
