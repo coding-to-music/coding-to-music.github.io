@@ -97,6 +97,47 @@ https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#dire
     :linenos:
 
 
+DNS and Domain configuration and setup
+-----------------------------------------
+
+Three items noted in the documentation https://docs.readthedocs.io/en/stable/custom_domains.html
+
+1. We don’t currently support pointing subdomains or root domains to a project using A records. DNS A records require a static IP address and our IPs may change without notice.
+2. For a subdomain like docs.example.com, add a CNAME record in your DNS that points the domain to readthedocs.io.
+3. For a root domain like example.com use an ANAME or ALIAS record pointing to readthedocs.io
+
+  
+  
+
+
+.. figure:: /assets/dns-domain-setup/custom-domain-support-documentation.png
+  :align: center
+  :width: 80 %
+  
+  ReadTheDocs Custom Domain support documentation
+
+ReadTheDocs Custom Domain support documentation 
+
+
+.. figure:: /assets/dns-domain-setup/domain-details-data-entry.png
+  :align: center
+  :width: 80 %
+  
+  ReadTheDocs Domain Settings
+
+ReadTheDocs Domain Settings
+
+
+.. figure:: /assets/dns-domain-setup/Unable-to-add-readthedocs.io.png
+  :align: center
+  :width: 80 %
+  
+  GoDaddy.com - Unable to add readthedocs.io as an A record
+
+GoDaddy.com - Unable to add readthedocs.io as an A record
+
+
+
 To add content
 ----------------
 
