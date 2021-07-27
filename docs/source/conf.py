@@ -78,7 +78,7 @@ copyright = '2020-2021, Thomas Connors and Contributors'
 # built documents.
 #
 # The short X.Y version
-version = '1.0'
+version = ''
 # The full version, including alpha/beta/rc tags
 release = ''
 # The short X.Y version.
@@ -778,11 +778,13 @@ texinfo_documents = [
 ]
 
 
-# -- Options for Epub output -------------------------------------------------
+# -- Options for Epub output ----------------------------------------------
 
 # Bibliographic Dublin Core info.
 epub_title = project
-
+epub_author = author
+epub_publisher = author
+epub_copyright = copyright
 # The unique identifier of the text. This can be a ISBN number
 # or the project homepage.
 #

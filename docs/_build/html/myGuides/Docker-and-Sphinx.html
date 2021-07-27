@@ -1,6 +1,5 @@
 
 
-
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
@@ -9,17 +8,8 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  
   <title>Docker and Sphinx &mdash; all-knowledge</title>
   
-  <link rel="icon" type="image/png" sizes="32x32" href="../_static/icons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../_static/icons/favicon-16x16.png">
-  <link rel="manifest" href="../_static/icons/site.webmanifest">
-  <link rel="mask-icon" href="../_static/icons/safari-pinned-tab.svg" color="#919191">
-  <meta name="msapplication-TileColor" content="#2b5797">
-  <meta name="msapplication-config" content="../_static/icons/browserconfig.xml">
-  <link rel="stylesheet" href="../_static/stylesheets/examples.css">
-  <link rel="stylesheet" href="../_static/stylesheets/deprecation.css">
 
   
   <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
@@ -33,6 +23,7 @@
   <link rel="stylesheet" href="../_static/css/tooltipster-sideTip-light.min.css" type="text/css" />
   <link rel="stylesheet" href="../_static/css/tooltipster-sideTip-borderless.min.css" type="text/css" />
   <link rel="stylesheet" href="../_static/css/micromodal.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
   <link rel="stylesheet" href="../_static/tabs.css" type="text/css" />
   <link rel="stylesheet" href="../_static/css/sphinx_rtd_theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/contentui.css" type="text/css" />
@@ -107,10 +98,6 @@
 
           
             
-            
-              <div class="version">
-                1.0
-              </div>
             
           
 
@@ -374,7 +361,11 @@
     <li class="wy-breadcrumbs-aside">
     
         
-        <a href="../_sources/myGuides/Docker-and-Sphinx.rst.txt" rel="nofollow"> View page source</a>
+        
+            <a href="https://github.com/coding-to-music/coding-to-music//master/source/myGuides/Docker-and-Sphinx.rst" class="btn btn-neutral" title="Edit Page on GitHub" rel="Edit Page on GitHub"><span style="padding-left: 0.5em" >Edit on<i style="margin-left: 0.5em" class="fa fa-github"></i></span></a>
+            <a href="https://github.com/coding-to-music/coding-to-music/commits/master/source/myGuides/Docker-and-Sphinx.rst" class="btn btn-neutral" title="Page History" rel="Page History"><span class="fa fa-clock-o"></span></a>
+            <a href="https://github.com/coding-to-music/coding-to-music/blame/master/source/myGuides/Docker-and-Sphinx.rst" class="btn btn-neutral" title="Page Contributors" rel="Page Contributors"><span class="fa fa-users"></span></a>
+        
         
     
     </li>
@@ -394,8 +385,35 @@
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
-           <div itemprop="articleBody">
-            
+<div itemprop="articleBody">
+
+<nav id="local-table-of-contents" role="navigation" aria-labelledby="local-table-of-contents-title">
+    <h4 id="local-table-of-contents-title">On This Page</h4>
+    <ul>
+<li><a class="reference internal" href="#">Docker and Sphinx</a><ul>
+<li><a class="reference internal" href="#docker">Docker</a></li>
+<li><a class="reference internal" href="#install-docker-engine-on-debian">Install Docker Engine on Debian</a></li>
+<li><a class="reference internal" href="#docker-post-installation-steps-for-linux">Docker: Post-installation steps for Linux</a></li>
+<li><a class="reference internal" href="#how-to-install-and-use-docker-on-debian-10">How To Install and Use Docker on Debian 10</a></li>
+<li><a class="reference internal" href="#docker-sphinx-good-end-to-end-overview">Docker Sphinx - Good end-to-end overview</a></li>
+<li><a class="reference internal" href="#digitalocean-sample-dockerfile">digitalocean/sample-dockerfile</a></li>
+<li><a class="reference internal" href="#official-docker-sphinx">Official docker-sphinx</a></li>
+<li><a class="reference internal" href="#sphinxsearch-jul-7-2014-sphinx-in-docker-the-basics">SphinXsearch Jul 7, 2014. Sphinx in Docker. The basics.</a></li>
+<li><a class="reference internal" href="#docker-sphinxsearch">docker-sphinxsearch</a><ul>
+<li><a class="reference internal" href="#usage-example">Usage example</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#keimlink-docker-sphinx-doc">keimlink/docker-sphinx-doc</a></li>
+<li><a class="reference internal" href="#sphinxdocker-dockerfile">sphinxdocker/Dockerfile</a></li>
+<li><a class="reference internal" href="#gitlab-ci-with-docker-and-sphinx">Gitlab CI with Docker and Sphinx</a></li>
+<li><a class="reference internal" href="#readthedocs-getting-started-with-sphinx">ReadTheDocs - Getting Started with Sphinx</a></li>
+</ul>
+</li>
+</ul>
+
+</nav>
+
+
   <section id="docker-and-sphinx">
 <h1>Docker and Sphinx<a class="headerlink" href="#docker-and-sphinx" title="Permalink to this headline">¶</a></h1>
 <div class="admonition note">
@@ -404,7 +422,7 @@
 <div class="line">This page was:</div>
 <div class="line">Created April 12 2021</div>
 <div class="line">Updated May 13 2021</div>
-<div class="line">Last Built Sat, 24 Jul 2021 07:40 AM Coordinated Universal Time</div>
+<div class="line">Last Built Mon, 26 Jul 2021 04:03 AM Coordinated Universal Time</div>
 </div>
 </div>
 <div class="contents local topic" id="contents">
@@ -575,14 +593,14 @@ Create a Sphinx project</p>
 <h2><a class="toc-backref" href="#id14">ReadTheDocs - Getting Started with Sphinx</a><a class="headerlink" href="#readthedocs-getting-started-with-sphinx" title="Permalink to this headline">¶</a></h2>
 <p>ReadTheDocs - Getting Started with Sphinx</p>
 <p><a class="reference external" href="https://docs.readthedocs.io/en/stable/bareos/guides/intro/getting-started-with-sphinx.html">https://docs.readthedocs.io/en/stable/bareos/guides/intro/getting-started-with-sphinx.html</a></p>
-<p>Last change: Sat, 24 Jul 2021 07:40 AM Coordinated Universal Time</p>
+<p>Last change: Mon, 26 Jul 2021 04:03 AM Coordinated Universal Time</p>
 </section>
 </section>
 
 
-           </div>
-           
-          </div>
+</div>
+
+</div>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
         <a href="Google-Bing-Webmaster-Tools-Search-and-Rich-Results.html" class="btn btn-neutral float-right" title="Google Bing Webmaster Tools Search and Rich Results" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>

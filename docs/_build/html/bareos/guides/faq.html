@@ -1,6 +1,5 @@
 
 
-
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
@@ -9,17 +8,8 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  
   <title>ReadTheDocs - Frequently Asked Questions &mdash; all-knowledge</title>
   
-  <link rel="icon" type="image/png" sizes="32x32" href="../../_static/icons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../../_static/icons/favicon-16x16.png">
-  <link rel="manifest" href="../../_static/icons/site.webmanifest">
-  <link rel="mask-icon" href="../../_static/icons/safari-pinned-tab.svg" color="#919191">
-  <meta name="msapplication-TileColor" content="#2b5797">
-  <meta name="msapplication-config" content="../../_static/icons/browserconfig.xml">
-  <link rel="stylesheet" href="../../_static/stylesheets/examples.css">
-  <link rel="stylesheet" href="../../_static/stylesheets/deprecation.css">
 
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
@@ -33,6 +23,7 @@
   <link rel="stylesheet" href="../../_static/css/tooltipster-sideTip-light.min.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/css/tooltipster-sideTip-borderless.min.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/css/micromodal.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/custom.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/tabs.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/css/sphinx_rtd_theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/contentui.css" type="text/css" />
@@ -107,10 +98,6 @@
 
           
             
-            
-              <div class="version">
-                1.0
-              </div>
             
           
 
@@ -394,7 +381,11 @@
     <li class="wy-breadcrumbs-aside">
     
         
-        <a href="../../_sources/bareos/guides/faq.rst.txt" rel="nofollow"> View page source</a>
+        
+            <a href="https://github.com/coding-to-music/coding-to-music//master/source/bareos/guides/faq.rst" class="btn btn-neutral" title="Edit Page on GitHub" rel="Edit Page on GitHub"><span style="padding-left: 0.5em" >Edit on<i style="margin-left: 0.5em" class="fa fa-github"></i></span></a>
+            <a href="https://github.com/coding-to-music/coding-to-music/commits/master/source/bareos/guides/faq.rst" class="btn btn-neutral" title="Page History" rel="Page History"><span class="fa fa-clock-o"></span></a>
+            <a href="https://github.com/coding-to-music/coding-to-music/blame/master/source/bareos/guides/faq.rst" class="btn btn-neutral" title="Page Contributors" rel="Page Contributors"><span class="fa fa-users"></span></a>
+        
         
     
     </li>
@@ -414,8 +405,41 @@
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
-           <div itemprop="articleBody">
-            
+<div itemprop="articleBody">
+
+<nav id="local-table-of-contents" role="navigation" aria-labelledby="local-table-of-contents-title">
+    <h4 id="local-table-of-contents-title">On This Page</h4>
+    <ul>
+<li><a class="reference internal" href="#">ReadTheDocs - Frequently Asked Questions</a><ul>
+<li><a class="reference internal" href="#my-project-isn-t-building-correctly">My project isn’t building correctly</a></li>
+<li><a class="reference internal" href="#help-my-build-passed-but-my-documentation-page-is-404-not-found">Help, my build passed but my documentation page is 404 Not Found!</a></li>
+<li><a class="reference internal" href="#my-documentation-requires-additional-dependencies">My documentation requires additional dependencies</a></li>
+<li><a class="reference internal" href="#my-project-requires-some-additional-settings">My project requires some additional settings</a></li>
+<li><a class="reference internal" href="#i-get-import-errors-on-libraries-that-depend-on-c-modules">I get import errors on libraries that depend on C modules</a></li>
+<li><a class="reference internal" href="#how-do-i-change-behavior-when-building-with-read-the-docs">How do I change behavior when building with Read the Docs?</a></li>
+<li><a class="reference internal" href="#deleting-a-stale-or-broken-build-environment">Deleting a stale or broken build environment</a></li>
+<li><a class="reference internal" href="#how-do-i-host-multiple-projects-on-one-custom-domain">How do I host multiple projects on one custom domain?</a></li>
+<li><a class="reference internal" href="#where-do-i-need-to-put-my-docs-for-rtd-to-find-it">Where do I need to put my docs for RTD to find it?</a></li>
+<li><a class="reference internal" href="#i-want-to-use-the-blue-default-sphinx-theme">I want to use the Blue/Default Sphinx theme</a></li>
+<li><a class="reference internal" href="#i-want-to-use-the-read-the-docs-theme-locally">I want to use the Read the Docs theme locally</a></li>
+<li><a class="reference internal" href="#image-scaling-doesn-t-work-in-my-documentation">Image scaling doesn’t work in my documentation</a></li>
+<li><a class="reference internal" href="#i-want-comments-in-my-docs">I want comments in my docs</a></li>
+<li><a class="reference internal" href="#how-do-i-support-multiple-languages-of-documentation">How do I support multiple languages of documentation?</a></li>
+<li><a class="reference internal" href="#does-read-the-docs-work-well-with-legible-docstrings">Does Read The Docs work well with “legible” docstrings?</a></li>
+<li><a class="reference internal" href="#can-i-document-a-python-package-that-is-not-at-the-root-of-my-repository">Can I document a python package that is not at the root of my repository?</a></li>
+<li><a class="reference internal" href="#i-need-to-install-a-package-in-a-environment-with-pinned-versions">I need to install a package in a environment with pinned versions</a></li>
+<li><a class="reference internal" href="#how-can-i-avoid-search-results-having-a-deprecated-version-of-my-docs">How can I avoid search results having a deprecated version of my docs?</a></li>
+<li><a class="reference internal" href="#can-i-remove-advertising-from-my-documentation">Can I remove advertising from my documentation?</a></li>
+<li><a class="reference internal" href="#how-do-i-change-my-project-slug-the-url-your-docs-are-served-at">How do I change my project slug (the URL your docs are served at)?</a></li>
+<li><a class="reference internal" href="#how-do-i-change-the-version-slug-of-my-project">How do I change the version slug of my project?</a></li>
+<li><a class="reference internal" href="#what-commit-of-read-the-docs-is-in-production">What commit of Read the Docs is in production?</a></li>
+</ul>
+</li>
+</ul>
+
+</nav>
+
+
   <section id="readthedocs-frequently-asked-questions">
 <h1>ReadTheDocs - Frequently Asked Questions<a class="headerlink" href="#readthedocs-frequently-asked-questions" title="Permalink to this headline">¶</a></h1>
 <section id="my-project-isn-t-building-correctly">
@@ -664,14 +688,14 @@ you can request the change sending an email to <a class="reference external" hre
 <p>We deploy readthedocs.org from the <code class="docutils literal notranslate"><span class="pre">rel</span></code> branch in our GitHub repository.
 You can see the latest commits that have been deployed by looking on GitHub: <a class="reference external" href="https://github.com/readthedocs/readthedocs.org/commits/rel">https://github.com/readthedocs/readthedocs.org/commits/rel</a></p>
 <p>We also keep an up-to-date <span class="xref std std-doc">changelog</span>.</p>
-<p>Last change: Sat, 24 Jul 2021 07:40 AM Coordinated Universal Time</p>
+<p>Last change: Mon, 26 Jul 2021 04:03 AM Coordinated Universal Time</p>
 </section>
 </section>
 
 
-           </div>
-           
-          </div>
+</div>
+
+</div>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
         <a href="canonical.html" class="btn btn-neutral float-right" title="Canonical URLs" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>

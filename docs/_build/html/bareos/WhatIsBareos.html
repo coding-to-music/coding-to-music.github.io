@@ -1,6 +1,5 @@
 
 
-
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
@@ -9,17 +8,8 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  
   <title>What is Bareos? &mdash; all-knowledge</title>
   
-  <link rel="icon" type="image/png" sizes="32x32" href="../_static/icons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../_static/icons/favicon-16x16.png">
-  <link rel="manifest" href="../_static/icons/site.webmanifest">
-  <link rel="mask-icon" href="../_static/icons/safari-pinned-tab.svg" color="#919191">
-  <meta name="msapplication-TileColor" content="#2b5797">
-  <meta name="msapplication-config" content="../_static/icons/browserconfig.xml">
-  <link rel="stylesheet" href="../_static/stylesheets/examples.css">
-  <link rel="stylesheet" href="../_static/stylesheets/deprecation.css">
 
   
   <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
@@ -33,6 +23,7 @@
   <link rel="stylesheet" href="../_static/css/tooltipster-sideTip-light.min.css" type="text/css" />
   <link rel="stylesheet" href="../_static/css/tooltipster-sideTip-borderless.min.css" type="text/css" />
   <link rel="stylesheet" href="../_static/css/micromodal.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
   <link rel="stylesheet" href="../_static/tabs.css" type="text/css" />
   <link rel="stylesheet" href="../_static/css/sphinx_rtd_theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/contentui.css" type="text/css" />
@@ -107,10 +98,6 @@
 
           
             
-            
-              <div class="version">
-                1.0
-              </div>
             
           
 
@@ -366,7 +353,11 @@
     <li class="wy-breadcrumbs-aside">
     
         
-        <a href="../_sources/bareos/WhatIsBareos.rst.txt" rel="nofollow"> View page source</a>
+        
+            <a href="https://github.com/coding-to-music/coding-to-music//master/source/bareos/WhatIsBareos.rst" class="btn btn-neutral" title="Edit Page on GitHub" rel="Edit Page on GitHub"><span style="padding-left: 0.5em" >Edit on<i style="margin-left: 0.5em" class="fa fa-github"></i></span></a>
+            <a href="https://github.com/coding-to-music/coding-to-music/commits/master/source/bareos/WhatIsBareos.rst" class="btn btn-neutral" title="Page History" rel="Page History"><span class="fa fa-clock-o"></span></a>
+            <a href="https://github.com/coding-to-music/coding-to-music/blame/master/source/bareos/WhatIsBareos.rst" class="btn btn-neutral" title="Page Contributors" rel="Page Contributors"><span class="fa fa-users"></span></a>
+        
         
     
     </li>
@@ -386,8 +377,46 @@
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
-           <div itemprop="articleBody">
-            
+<div itemprop="articleBody">
+
+<nav id="local-table-of-contents" role="navigation" aria-labelledby="local-table-of-contents-title">
+    <h4 id="local-table-of-contents-title">On This Page</h4>
+    <ul>
+<li><a class="reference internal" href="#">What is Bareos?</a><ul>
+<li><a class="reference internal" href="#history">History</a></li>
+<li><a class="reference internal" href="#who-needs-bareos">Who Needs Bareos?</a></li>
+<li><a class="reference internal" href="#bareos-components-or-services">Bareos Components or Services</a><ul>
+<li><a class="reference internal" href="#bareos-director">Bareos Director</a></li>
+<li><a class="reference internal" href="#bareos-console">Bareos Console</a></li>
+<li><a class="reference internal" href="#bareos-file-daemon">Bareos File Daemon</a></li>
+<li><a class="reference internal" href="#bareos-storage-daemon">Bareos Storage Daemon</a></li>
+<li><a class="reference internal" href="#catalog">Catalog</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#bareos-version-numbers-and-releases">Bareos Version Numbers and Releases</a></li>
+<li><a class="reference internal" href="#bareos-packages">Bareos Packages</a></li>
+<li><a class="reference internal" href="#quick-start">Quick Start</a></li>
+<li><a class="reference internal" href="#terminology">Terminology</a></li>
+<li><a class="reference internal" href="#what-bareos-is-not">What Bareos is Not</a></li>
+<li><a class="reference internal" href="#interactions-between-the-bareos-services">Interactions Between the Bareos Services</a></li>
+<li><a class="reference internal" href="#the-current-state-of-bareos">The Current State of Bareos</a><ul>
+<li><a class="reference internal" href="#what-is-implemented">What is Implemented</a></li>
+<li><a class="reference internal" href="#advantages-over-other-backup-programs">Advantages Over Other Backup Programs</a></li>
+<li><a class="reference internal" href="#current-implementation-restrictions">Current Implementation Restrictions</a><ul>
+<li><a class="reference internal" href="#multiple-catalogs">Multiple Catalogs</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#design-limitations-or-restrictions">Design Limitations or Restrictions</a></li>
+<li><a class="reference internal" href="#items-to-note">Items to Note</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+</nav>
+
+
   <section id="what-is-bareos">
 <span id="generalchapter"></span><h1>What is Bareos?<a class="headerlink" href="#what-is-bareos" title="Permalink to this headline">¶</a></h1>
 <p>Bareos is a set of computer programs that permits the system administrator to manage backup, recovery, and verification of computer data across a network of computers of different kinds. Bareos can also run entirely upon a single computer and can backup to various types of media, including tape and disk.</p>
@@ -783,15 +812,15 @@ from Volumes into the Catalog is done by using the bscan program. See the <span 
 <li><p>Bareos’s Differential and Incremental <em>normal</em> backups are based on time stamps. Consequently, if you move files into an existing directory or move a whole directory into the backup fileset after a Full backup, those files will probably not be backed up by an Incremental save because they will have old dates. This problem is corrected by using <span class="xref std std-ref">Accurate mode</span> backups or by explicitly updating the date/time stamp on all moved files.</p></li>
 <li><p>In non Accurate mode, files deleted after a Full save will be included in a restoration. This is typical for most similar backup programs. To avoid this, use <span class="xref std std-ref">Accurate mode</span> backup.</p></li>
 </ul>
-<p>Last change: Sat, 24 Jul 2021 07:40 AM Coordinated Universal Time</p>
+<p>Last change: Mon, 26 Jul 2021 04:03 AM Coordinated Universal Time</p>
 </section>
 </section>
 </section>
 
 
-           </div>
-           
-          </div>
+</div>
+
+</div>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
         <a href="RestOverview.html" class="btn btn-neutral float-right" title="reST Overview" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>

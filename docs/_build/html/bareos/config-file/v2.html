@@ -1,6 +1,5 @@
 
 
-
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
@@ -9,17 +8,8 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  
   <title>Configuration File V2 &mdash; all-knowledge</title>
   
-  <link rel="icon" type="image/png" sizes="32x32" href="../../_static/icons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../../_static/icons/favicon-16x16.png">
-  <link rel="manifest" href="../../_static/icons/site.webmanifest">
-  <link rel="mask-icon" href="../../_static/icons/safari-pinned-tab.svg" color="#919191">
-  <meta name="msapplication-TileColor" content="#2b5797">
-  <meta name="msapplication-config" content="../../_static/icons/browserconfig.xml">
-  <link rel="stylesheet" href="../../_static/stylesheets/examples.css">
-  <link rel="stylesheet" href="../../_static/stylesheets/deprecation.css">
 
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
@@ -33,6 +23,7 @@
   <link rel="stylesheet" href="../../_static/css/tooltipster-sideTip-light.min.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/css/tooltipster-sideTip-borderless.min.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/css/micromodal.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/custom.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/tabs.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/css/sphinx_rtd_theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/contentui.css" type="text/css" />
@@ -107,10 +98,6 @@
 
           
             
-            
-              <div class="version">
-                1.0
-              </div>
             
           
 
@@ -368,7 +355,11 @@
     <li class="wy-breadcrumbs-aside">
     
         
-        <a href="../../_sources/bareos/config-file/v2.rst.txt" rel="nofollow"> View page source</a>
+        
+            <a href="https://github.com/coding-to-music/coding-to-music//master/source/bareos/config-file/v2.rst" class="btn btn-neutral" title="Edit Page on GitHub" rel="Edit Page on GitHub"><span style="padding-left: 0.5em" >Edit on<i style="margin-left: 0.5em" class="fa fa-github"></i></span></a>
+            <a href="https://github.com/coding-to-music/coding-to-music/commits/master/source/bareos/config-file/v2.rst" class="btn btn-neutral" title="Page History" rel="Page History"><span class="fa fa-clock-o"></span></a>
+            <a href="https://github.com/coding-to-music/coding-to-music/blame/master/source/bareos/config-file/v2.rst" class="btn btn-neutral" title="Page Contributors" rel="Page Contributors"><span class="fa fa-users"></span></a>
+        
         
     
     </li>
@@ -388,8 +379,71 @@
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
-           <div itemprop="articleBody">
-            
+<div itemprop="articleBody">
+
+<nav id="local-table-of-contents" role="navigation" aria-labelledby="local-table-of-contents-title">
+    <h4 id="local-table-of-contents-title">On This Page</h4>
+    <ul>
+<li><a class="reference internal" href="#">Configuration File V2</a><ul>
+<li><a class="reference internal" href="#supported-settings">Supported settings</a><ul>
+<li><a class="reference internal" href="#version">version</a></li>
+<li><a class="reference internal" href="#formats">formats</a></li>
+<li><a class="reference internal" href="#python">python</a><ul>
+<li><a class="reference internal" href="#python-version">python.version</a></li>
+<li><a class="reference internal" href="#python-install">python.install</a><ul>
+<li><a class="reference internal" href="#requirements-file">Requirements file</a></li>
+<li><a class="reference internal" href="#packages">Packages</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#python-system-packages">python.system_packages</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#conda">conda</a><ul>
+<li><a class="reference internal" href="#conda-environment">conda.environment</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#build">build</a><ul>
+<li><a class="reference internal" href="#build-image">build.image</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#sphinx">sphinx</a><ul>
+<li><a class="reference internal" href="#sphinx-builder">sphinx.builder</a></li>
+<li><a class="reference internal" href="#sphinx-configuration">sphinx.configuration</a></li>
+<li><a class="reference internal" href="#sphinx-fail-on-warning">sphinx.fail_on_warning</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#mkdocs">mkdocs</a><ul>
+<li><a class="reference internal" href="#mkdocs-configuration">mkdocs.configuration</a></li>
+<li><a class="reference internal" href="#mkdocs-fail-on-warning">mkdocs.fail_on_warning</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#submodules">submodules</a><ul>
+<li><a class="reference internal" href="#submodules-include">submodules.include</a></li>
+<li><a class="reference internal" href="#submodules-exclude">submodules.exclude</a></li>
+<li><a class="reference internal" href="#submodules-recursive">submodules.recursive</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#search">search</a><ul>
+<li><a class="reference internal" href="#search-ranking">search.ranking</a></li>
+<li><a class="reference internal" href="#search-ignore">search.ignore</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#schema">Schema</a></li>
+<li><a class="reference internal" href="#migrating-from-v1">Migrating from v1</a><ul>
+<li><a class="reference internal" href="#changes">Changes</a></li>
+<li><a class="reference internal" href="#new-settings">New settings</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#migrating-from-the-web-interface">Migrating from the web interface</a></li>
+</ul>
+</li>
+</ul>
+
+</nav>
+
+
   <section id="configuration-file-v2">
 <h1>Configuration File V2<a class="headerlink" href="#configuration-file-v2" title="Permalink to this headline">¶</a></h1>
 <p>Read the Docs supports configuring your documentation builds with a YAML file.
@@ -1110,9 +1164,9 @@ These settings aren’t supported via the configuration file.</p>
 </section>
 
 
-           </div>
-           
-          </div>
+</div>
+
+</div>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
         <a href="v1.html" class="btn btn-neutral float-right" title="Configuration File V1 (Deprecated)" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>

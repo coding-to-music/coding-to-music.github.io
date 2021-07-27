@@ -1,6 +1,5 @@
 
 
-
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
@@ -9,17 +8,8 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  
   <title>General Computer Setup &mdash; all-knowledge</title>
   
-  <link rel="icon" type="image/png" sizes="32x32" href="../_static/icons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../_static/icons/favicon-16x16.png">
-  <link rel="manifest" href="../_static/icons/site.webmanifest">
-  <link rel="mask-icon" href="../_static/icons/safari-pinned-tab.svg" color="#919191">
-  <meta name="msapplication-TileColor" content="#2b5797">
-  <meta name="msapplication-config" content="../_static/icons/browserconfig.xml">
-  <link rel="stylesheet" href="../_static/stylesheets/examples.css">
-  <link rel="stylesheet" href="../_static/stylesheets/deprecation.css">
 
   
   <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
@@ -33,6 +23,7 @@
   <link rel="stylesheet" href="../_static/css/tooltipster-sideTip-light.min.css" type="text/css" />
   <link rel="stylesheet" href="../_static/css/tooltipster-sideTip-borderless.min.css" type="text/css" />
   <link rel="stylesheet" href="../_static/css/micromodal.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
   <link rel="stylesheet" href="../_static/tabs.css" type="text/css" />
   <link rel="stylesheet" href="../_static/css/sphinx_rtd_theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/contentui.css" type="text/css" />
@@ -107,10 +98,6 @@
 
           
             
-            
-              <div class="version">
-                1.0
-              </div>
             
           
 
@@ -332,7 +319,11 @@
     <li class="wy-breadcrumbs-aside">
     
         
-        <a href="../_sources/myGuides/General-computer-setup.rst.txt" rel="nofollow"> View page source</a>
+        
+            <a href="https://github.com/coding-to-music/coding-to-music//master/source/myGuides/General-computer-setup.rst" class="btn btn-neutral" title="Edit Page on GitHub" rel="Edit Page on GitHub"><span style="padding-left: 0.5em" >Edit on<i style="margin-left: 0.5em" class="fa fa-github"></i></span></a>
+            <a href="https://github.com/coding-to-music/coding-to-music/commits/master/source/myGuides/General-computer-setup.rst" class="btn btn-neutral" title="Page History" rel="Page History"><span class="fa fa-clock-o"></span></a>
+            <a href="https://github.com/coding-to-music/coding-to-music/blame/master/source/myGuides/General-computer-setup.rst" class="btn btn-neutral" title="Page Contributors" rel="Page Contributors"><span class="fa fa-users"></span></a>
+        
         
     
     </li>
@@ -352,8 +343,48 @@
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
-           <div itemprop="articleBody">
-            
+<div itemprop="articleBody">
+
+<nav id="local-table-of-contents" role="navigation" aria-labelledby="local-table-of-contents-title">
+    <h4 id="local-table-of-contents-title">On This Page</h4>
+    <ul>
+<li><a class="reference internal" href="#">General Computer Setup</a><ul>
+<li><a class="reference internal" href="#setup-your-computer-we-will-cover-each-item">Setup your computer, we will cover each item</a></li>
+<li><a class="reference internal" href="#checklist-for-the-various-things-needed-to-set-up-your-development-environment-and-tools">Checklist for the various things needed to set up your development environment and tools</a></li>
+<li><a class="reference internal" href="#enable-linux-on-your-chromebook">Enable Linux on your Chromebook</a></li>
+<li><a class="reference internal" href="#details-about-your-computer-and-operating-system">Details about your computer and operating system</a><ul>
+<li><a class="reference internal" href="#chromebook-is-debian">Chromebook is Debian</a></li>
+<li><a class="reference internal" href="#digitalocean-is-ubuntu">Digitalocean is Ubuntu</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#handy-aliases-and-abbreviations-into-bashrc-and-bash-aliases">Handy aliases and abbreviations into .bashrc and .bash_aliases</a></li>
+<li><a class="reference internal" href="#vs-code-install-for-debian-and-ubuntu-based-distributions">VS Code install for Debian and Ubuntu based distributions</a></li>
+<li><a class="reference internal" href="#installing-visual-studio-code-on-ubuntu">Installing Visual Studio Code on Ubuntu</a></li>
+<li><a class="reference internal" href="#starting-visual-studio-code">Starting Visual Studio Code</a></li>
+<li><a class="reference internal" href="#connect-with-vscode-in-the-cloud-so-your-settings-persist-over-devices-and-sessions">Connect with vscode in the cloud so your settings persist over devices and sessions</a><ul>
+<li><a class="reference internal" href="#setup-a-password-for-cloud-sync-you-will-be-prompted-each-time-you-start-vscode">Setup a password for cloud sync - you will be prompted each time you start vscode</a></li>
+<li><a class="reference internal" href="#if-you-previously-have-a-cloud-account-you-can-merge-your-data">If you previously have a cloud account you can merge your data</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#how-to-update-vs-code-to-the-latest-version-in-linux">How to update VS code to the latest version in linux</a></li>
+<li><a class="reference internal" href="#updating-visual-studio-code-every-month-need-to-do-this">Updating Visual Studio Code - every month need to do this</a></li>
+<li><a class="reference internal" href="#installing-git-so-you-can-work-with-github">Installing Git so you can work with GitHub</a></li>
+<li><a class="reference internal" href="#configuring-github-git-config-user-name-user-email">Configuring GitHub git config user.name user.email</a></li>
+<li><a class="reference internal" href="#create-ssh-directory-and-generate-ssh-public-and-private-keys">Create .ssh directory and generate SSH public and private keys</a></li>
+<li><a class="reference internal" href="#create-ssh-key-for-github">Create SSH Key for Github</a></li>
+<li><a class="reference internal" href="#github-set-your-ssh-key-and-get-your-github-token-for-vscode">GitHub - set your ssh key and get your GitHub token for vscode</a></li>
+<li><a class="reference internal" href="#let-vscode-know-about-the-github-token">Let vscode know about the GitHub token</a></li>
+<li><a class="reference internal" href="#get-your-vscode-token-from-github-account-settings">Get your vscode token from github account settings</a></li>
+<li><a class="reference internal" href="#install-docker">Install docker</a></li>
+<li><a class="reference internal" href="#when-creating-a-new-container-need-to-have-my-bash-aliases-come-over-same-with-ssh-and-git-credentials">When creating a new container need to have my bash_aliases come over -Same with .ssh and git credentials</a></li>
+<li><a class="reference internal" href="#set-ssh-key-at-digitalocean-what-where-to">set ssh key at Digitalocean - what &amp; where to</a></li>
+</ul>
+</li>
+</ul>
+
+</nav>
+
+
   <section id="general-computer-setup">
 <h1>General Computer Setup<a class="headerlink" href="#general-computer-setup" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
@@ -692,14 +723,14 @@ home/tom/.ssh/id_rsa.pub         // this is the public key,      short paragraph
 </section>
 <section id="set-ssh-key-at-digitalocean-what-where-to">
 <h2><a class="toc-backref" href="#id31">set ssh key at Digitalocean - what &amp; where to</a><a class="headerlink" href="#set-ssh-key-at-digitalocean-what-where-to" title="Permalink to this headline">¶</a></h2>
-<p>Last change: Sat, 24 Jul 2021 07:40 AM Coordinated Universal Time</p>
+<p>Last change: Mon, 26 Jul 2021 04:03 AM Coordinated Universal Time</p>
 </section>
 </section>
 
 
-           </div>
-           
-          </div>
+</div>
+
+</div>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
         <a href="Advanced-Computer-Setup.html" class="btn btn-neutral float-right" title="Advanced Computer Setup and Topics" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
