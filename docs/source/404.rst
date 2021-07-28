@@ -1,0 +1,14 @@
+:orphan:
+
+The Requested Page Was Not Found
+================================
+
+Lots of things are being moved around!
+
+The page you were searching for does not exist. If you feel like this may be an issue, open a request at the `repository <https://github.com/coding-to-music/coding-to-music.github.io/issues>`__.
+
+.. image:: /assets/Quotes/Robert-A-Heinlein/Ep9npDqW4AADCIX.jpeg
+   :align: center
+   :alt: Robert A. Heinlein
+
+Random quote `Robert A. Heinlein <https://www.goodreads.com/quotes/17998-secrecy-is-the-keystone-to-all-tyranny-not-force-but>`__.
