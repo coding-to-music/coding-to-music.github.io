@@ -21,7 +21,9 @@ Please visit my GitHub profile, I try to code every day `GitHub.com/coding-to-mu
 
 My technical learnings and what I am doing I tend to document here: `How you can help </en/latest/How-you-can-help/How-you-can-help.html>`_ 
 
-I am active on `Twitter.com/ThomasConnors <https://twitter.com/ThomasConnors>`_  
+I store the things I find or want to learn as `Searchable GitHub Issues <https://github.com/coding-to-music/coding-to-music.github.io/issues>`_
+
+I am on `Twitter.com/ThomasConnors <https://twitter.com/ThomasConnors>`_  
 
 https://twitter.com/ThomasConnors/status/1385983698290495489
 
@@ -29,13 +31,13 @@ https://twitter.com/ThomasConnors/status/1385983698290495489
 .. tweet:: https://twitter.com/pypi/status/1385983698290495489
 
 
-I just (April 2021) started getting active on Reddit - look at my posts - great community, millions of users `Reddit.com/user/BostonTom2019 <https://www.reddit.com/user/BostonTom2019>`_
+Reddit `Reddit.com/user/BostonTom2019 <https://www.reddit.com/user/BostonTom2019>`_
 
-I am active on Facebook `Facebook.com/thomasconnors44 <https://www.facebook.com/thomasconnors44>`_
+Facebook `Facebook.com/thomasconnors44 <https://www.facebook.com/thomasconnors44>`_
 
 I frequently post on computer and technical topics at `LinkedIn.com/in/thomasconnors44 <https://www.linkedin.com/in/thomasconnors44/>`_
 
-see my `LinkedIn Recent Activity <https://www.linkedin.com/in/thomasconnors44/detail/recent-activity/>`_
+See my `LinkedIn Recent Activity <https://www.linkedin.com/in/thomasconnors44/detail/recent-activity/>`_
 
 
 I am particularly fond of this Medium article I wrote in September 2019: 

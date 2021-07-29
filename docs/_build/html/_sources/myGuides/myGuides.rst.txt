@@ -15,6 +15,7 @@ My Guides for Various Technical Topics
   /myGuides/reStructuredText-Twitter-Examples
   /myGuides/reStructuredText-Video-Examples
   /myGuides/Sphinx-tabs
+  /myGuides/Sphinx-panels
   /myGuides/Sphinx-prompt
   /myGuides/PDF-viewer-Examples
   /myGuides/How-to-move-files-when-developing-in-a-container

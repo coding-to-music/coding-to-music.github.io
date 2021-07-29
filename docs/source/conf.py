@@ -514,9 +514,9 @@ html_context = {
     'github_user': repo_user,
     'github_repo': repo_user,
     'github_version': 'master/source/',
-    'favicon': "_static/ska-telescope/favicon.ico",
-    'logo': "_static/ska-telescope/logo.jpg",
-    # "theme_logo_only": True,
+    'favicon': "ska-telescope/favicon.ico",
+    'logo': "ska-telescope/logo.jpg",
+    "theme_logo_only": True,
     # "display_gitlab": True,  # Integrate Gitlab
     # "gitlab_version": "master",  # Version
     # "conf_py_path": "/src/",  # Path in the checkout to the docs root

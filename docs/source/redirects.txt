@@ -1,0 +1,1 @@
+"docs/old-location/old-filename.rst" "docs/new-location/new-filename.rst"
