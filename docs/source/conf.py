@@ -502,7 +502,8 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 html_theme_options = {
     'logo_only': True,
     'display_version': True,
-    'prev_next_buttons_location': 'both'    
+    'prev_next_buttons_location': 'both',    
+    'collapse_navigation': True,
 }
 
 # repo_url = 'https://github.com/coding-to-music/coding-to-music.github.io'
