@@ -269,7 +269,7 @@ material_html_theme_options = {
     'globaltoc_depth': 1,
     # If False, expand all TOC entries
     # 'globaltoc_collapse': True,
-    'globaltoc_collapse': False,
+    'globaltoc_collapse': True,
     # If True, show hidden TOC entries
     'globaltoc_includehidden': True,
 
