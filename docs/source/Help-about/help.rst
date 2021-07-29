@@ -19,7 +19,7 @@ Connect - view - follow my activites
 
 Please visit my GitHub profile, I try to code every day `GitHub.com/coding-to-music <https://github.com/coding-to-music>`_
 
-My technical learnings and what I am doing I tend to document here: `How you can help </en/latest/How-you-can-help/How-you-can-help.html>`_ 
+My technical learnings and what I am doing I tend to document here: `How you can help <https://pandemic-overview.readthedocs.io/en/latest/How-you-can-help/How-you-can-help.html>`_ 
 
 I store the things I find or want to learn as `Searchable GitHub Issues <https://github.com/coding-to-music/coding-to-music.github.io/issues>`_
 
