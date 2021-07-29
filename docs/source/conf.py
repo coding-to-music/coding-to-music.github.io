@@ -269,9 +269,10 @@ material_html_theme_options = {
     'globaltoc_depth': 1,
     # If False, expand all TOC entries
     # 'globaltoc_collapse': True,
+    'collapse': True,
     'globaltoc_collapse': True,
     # If True, show hidden TOC entries
-    'globaltoc_includehidden': True,
+    'globaltoc_includehidden': False,
 
 
     # Set the color and the accent color
@@ -499,11 +500,15 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 #     'prev_next_buttons_location': 'both'
 # }
 
+    # 'collapse': True,
+
 html_theme_options = {
     'logo_only': True,
     'display_version': True,
     'prev_next_buttons_location': 'both',    
     'collapse_navigation': True,
+    'globaltoc_collapse': True,
+    'globaltoc_includehidden': False,
 }
 
 # repo_url = 'https://github.com/coding-to-music/coding-to-music.github.io'
@@ -514,7 +519,7 @@ html_theme_options = {
 html_context = {
     'display_github': True,
     'github_user': repo_user,
-    'github_repo': repo_user,
+    'github_repo': repo_name,
     'github_version': 'master/source/',
     'favicon': "ska-telescope/favicon.ico",
     'logo': "ska-telescope/logo.jpg",
