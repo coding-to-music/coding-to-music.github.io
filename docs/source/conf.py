@@ -513,9 +513,9 @@ html_context = {
     'display_github': True,
     'github_user': repo_user,
     'github_repo': repo_user,
-    'github_version': 'master/source/'
-    "favicon": "_static/ska-telescope/favicon.ico",
-    "logo": "_static/ska-telescope/logo.jpg",
+    'github_version': 'master/source/',
+    'favicon': "_static/ska-telescope/favicon.ico",
+    'logo': "_static/ska-telescope/logo.jpg",
     # "theme_logo_only": True,
     # "display_gitlab": True,  # Integrate Gitlab
     # "gitlab_version": "master",  # Version
