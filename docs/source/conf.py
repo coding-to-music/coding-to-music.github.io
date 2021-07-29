@@ -167,6 +167,7 @@ extensions = [
     "sphinx_gitstamp",
     "sphinxcontrib.nwdiag",
     "sphinxcontrib.plantuml",
+    'sphinx_panels',
     'sphinx-prompt',
     "sphinx.ext.intersphinx",  # Link to other project's documentation (see mapping below)
     "sphinx.ext.napoleon",

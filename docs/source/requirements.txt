@@ -7,6 +7,7 @@ readthedocs-sphinx-ext
 # sphinx_material
 
 # Tab UI elements
+sphinx-panels   
 sphinx-tabs   
 
 # visual diagrams etc 
