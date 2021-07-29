@@ -5,7 +5,7 @@ Sandbox
     :maxdepth: 1
     :caption: Contents:
 
-    ../404
+    /Help-about/404
     /generated/gallery/index
     /myGuides/Placeholder
     /myGuides/Sphinx-embed-object-iFrame-video-html-PDF-twitter-examples
