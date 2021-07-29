@@ -236,6 +236,8 @@ repo_user = 'coding-to-music'
 base_url = 'https://pandemic-overview.readthedocs.io'
 # base_url += 'latest/' if full_version == version else 'devel/'
 
+# github_url = 
+
 # Github repo
 # issues_github_path = "sloria/marshmallow"
 # issues_github_path = "source/bareos/bareos"
@@ -528,7 +530,7 @@ html_context = {
     # "gitlab_version": "master",  # Version
     # "conf_py_path": "/src/",  # Path in the checkout to the docs root
     # workaround for https://github.com/readthedocs/sphinx_rtd_theme/issues/701
-    # "theme_vcs_pageview_mode": "edit",
+    "theme_vcs_pageview_mode": "edit",
 }
 
 html_css_files = ["https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"]
