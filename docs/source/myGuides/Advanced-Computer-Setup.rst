@@ -8,6 +8,7 @@ Advanced Computer Setup and Topics
     /myGuides/ReadTheDocs-Documentation-System
     /myGuides/vscode-SSH-Remote-Containers
     /myGuides/Sphinx-Documentation-System
+    /TYPO3/TYPO3CMS-Guide-HowToDocument/README
     /bareos/index
     /myGuides/Container-Workflow
     /myGuides/Docker-and-Sphinx
@@ -43,7 +44,6 @@ Advanced Computer Setup and Topics
   :local:
 
   
-
 
 
 

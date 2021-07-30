@@ -363,7 +363,8 @@ html_domain_indices = True
 htmlhelp_basename = 'pandemic-overview-doc'
 
 language = 'en'
-html_last_updated_fmt = ''
+# html_last_updated_fmt = ''
+html_last_updated_fmt = "%a, %d %b %Y %I:%M %p %Z"
 
 # html_theme = 'sphinx_material'
 
