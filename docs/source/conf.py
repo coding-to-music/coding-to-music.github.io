@@ -165,6 +165,7 @@ extensions = [
     "sphinx_issues",
     'sphinx_gallery.gen_gallery',
     "sphinx_gitstamp",
+    "sphinxext.linkcheckdiff",
     "sphinxcontrib.nwdiag",
     "sphinxcontrib.plantuml",
     'sphinx_panels',
@@ -426,6 +427,45 @@ hoverxref_role_types = {
     'confval': 'tooltip',  # for custom object
 }
 
+# Enable hover content on glossary term
+# hoverxref_roles = ["term"]
+
+# Redirect branch
+rediraffe_branch = "origin/master"
+
+# File containing redirects
+rediraffe_redirects = "redirects.txt"
+
+# Required accuracy for redirect writer
+rediraffe_auto_redirect_perc = 80
+
+# Configure linkcheck diff branch
+linkcheckdiff_branch = "origin/master"
+
+# Disable following anchors in URLS for linkcheck
+linkcheck_anchors = False
+
+# Linkcheck Exclusions
+linkcheck_ignore = [
+    r".*kauailabs.com.*",
+    r".*wpilibpi.local.*",
+    r".*andymark.com.*",
+    r".*ti.com/lit/an/spma033a/spma033a.pdf.*",
+    r".*wpilibpi.local.*",
+]
+
+# Sets linkcheck timeout in seconds
+linkcheck_timeout = 30
+linkcheck_retries = 3
+linkcheck_workers = 1
+
+# Specify files to ignore during SizeCheck
+IMAGE_SIZE_EXCLUSIONS = [
+    "docs/networking/networking-introduction/diagrams/mixing-static-dynamic.drawio.svg",
+    "docs/software/vision-processing/wpilibpi/diagrams/vision-code-on-a-coprocessor.drawio.svg",
+    "docs/software/vision-processing/introduction/diagrams/vision-code-on-a-coprocessor.drawio.svg",
+    "docs/controls-overviews/images/frc-control-system-layout.svg",
+]
 sitemap_locales = [None]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -511,6 +551,8 @@ html_theme_options = {
     'collapse_navigation': True,
     'globaltoc_collapse': True,
     'globaltoc_includehidden': False,
+    "sticky_navigation": False,
+    "titles_only": True,
 }
 
 # repo_url = 'https://github.com/coding-to-music/coding-to-music.github.io'

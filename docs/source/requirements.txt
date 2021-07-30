@@ -29,6 +29,8 @@ sphinxext-remoteliteralinclude
 #    :linenos:
 #    :lineno-start: 10
 
+# link checking
+sphinxext-linkcheckdiff==0.1.0; python_version >= "3.6"
 
 # Music notation that makes sound
 #sphinxnotes-lilypond   
