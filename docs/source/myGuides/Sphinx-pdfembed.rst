@@ -19,7 +19,9 @@ Sphinx PDF Embed - sphinxcontrib-pdfembed
 
 
 ..literalinclude:: /myGuides/sphinxcontrib-pdfembed.README.md.inc
+                   
 
+.. rli:: https://raw.githubusercontent.com/SuperKogito/sphinxcontrib-pdfembed/master/README.md
 
 
 

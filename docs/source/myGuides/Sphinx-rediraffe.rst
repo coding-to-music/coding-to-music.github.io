@@ -18,6 +18,11 @@ Sphinx Rediraffe
 
 
 
+..literalinclude:: /myGuides/Sphinx-rediraffe.README.md.inc
+                   
+
+.. rli:: https://raw.githubusercontent.com/wpilibsuite/sphinxext-rediraffe/main/README.md
+
 
 
 

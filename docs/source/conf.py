@@ -436,7 +436,7 @@ hoverxref_role_types = {
 # hoverxref_roles = ["term"]
 
 # Redirect branch
-rediraffe_branch = "origin/master"
+rediraffe_branch = "master~1"
 
 # File containing redirects
 rediraffe_redirects = "redirects.txt"

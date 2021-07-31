@@ -25,6 +25,7 @@ Making Sense of the Pandemic
         /topics/Municipal-Matters/Municipal-Matters
         /How-you-can-help/How-you-can-help
         Sandbox/Sandbox
+        sitemap/Sitemap
         License/license
         Help-about/help
 
