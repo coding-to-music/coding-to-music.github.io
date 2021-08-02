@@ -22,7 +22,7 @@ Sphinx Extension to redirect files
 
 
 .. figure:: https://github.com/wpilibsuite/sphinxext-rediraffe/raw/main/assets/rediraffe_logo.svg
-  :align: left
+  :align: center
   :width: 30 %
   
   Rediraffe
