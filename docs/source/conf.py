@@ -987,8 +987,8 @@ def rstjinja(app, docname, source):
 
 def setup(app):
     app.add_css_file('css/custom.css')
-    app.add_css_file("css/frc-rtd.css")
     app.add_css_file("css/frc-rtl.css")
+    app.add_css_file("css/frc-rtd.css")
     app.connect("source-read", rstjinja)
     return {'parallel_read_safe': True,
             'parallel_write_safe': True}
