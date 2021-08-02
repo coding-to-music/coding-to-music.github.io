@@ -167,7 +167,7 @@ Key Technologies
 Sphinx Extensions Used for this website, using intersphinx
 -------------------------------------------------------------
 
-Example of intersphinx mapping:: 
+Example of intersphinx mapping, as set in conf.py:: 
 
   intersphinx_mapping = {
       'numpy': ('https://docs.scipy.org/doc/numpy/', None),
