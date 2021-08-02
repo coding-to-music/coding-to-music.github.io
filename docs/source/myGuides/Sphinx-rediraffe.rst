@@ -3,6 +3,7 @@ Sphinx Rediraffe
 
 .. Note:: 
     
+    This page copied from: https://github.com/wpilibsuite/sphinxext-rediraffe
     | This page was:
     | Created May 26 2021
     | Updated August 1 2021
@@ -20,6 +21,7 @@ Sphinx Rediraffe
 
 Sphinx Extension to redirect files
 
+https://github.com/wpilibsuite/sphinxext-rediraffe
 
 .. figure:: https://github.com/wpilibsuite/sphinxext-rediraffe/raw/main/assets/rediraffe_logo.svg
   :align: center
