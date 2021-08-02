@@ -164,5 +164,61 @@ Key Technologies
 - sphinxext-opengraph https://pypi.org/project/sphinxext-opengraph/
   
 
+Sphinx Extensions Used for this website, using intersphinx
+-------------------------------------------------------------
+
+Example of intersphinx mapping:: 
+
+  intersphinx_mapping = {
+      'numpy': ('https://docs.scipy.org/doc/numpy/', None),
+      'python': ('https://docs.python.org/3/', None),
+      'pydagogue': ('https://matthew-brett.github.io/pydagogue/', None),
+      'matplotlib': ('https://matplotlib.org/', None),
+      'scipy': ('https://docs.scipy.org/doc/scipy/reference/', None),
+      'pandas': ('https://pandas.pydata.org/pandas-docs/stable/', None),
+      'sphinx': ('https://sphinx.readthedocs.io/', None),
+      'docutils': ('https://docutils.readthedocs.io/', None),
+      'sphinx_rtd_theme': ('https://sphinx_rtd_theme.readthedocs.io/', None),
+      'readthedocs-sphinx-ext': ('https://readthedocs-sphinx-ext.readthedocs.io/', None),
+      'sphinx_material': ('https://sphinx_material.readthedocs.io/', None),
+      'sphinx-panels': ('https://sphinx-panels.readthedocs.io/', None),
+      'sphinx-tabs': ('https://sphinx-tabs.readthedocs.io/', None),
+      'sphinxcontrib-actdiag': ('https://sphinxcontrib-actdiag.readthedocs.io/', None),
+      'sphinxcontrib-blockdiag': ('https://sphinxcontrib-blockdiag.readthedocs.io/', None),
+      'sphinxcontrib-contentui': ('https://sphinxcontrib-contentui.readthedocs.io/', None),
+      'sphinxcontrib-seqdiag': ('https://sphinxcontrib-seqdiag.readthedocs.io/', None),
+      'sphinxcontrib-nwdiag': ('https://sphinxcontrib-nwdiag.readthedocs.io/', None),
+      'sphinxcontrib-plantuml': ('https://sphinxcontrib-plantuml.readthedocs.io/', None),
+      'sphinx-prompt': ('https://sphinx-prompt.readthedocs.io/', None),
+      'sphinxext-remoteliteralinclude': ('https://sphinxext-remoteliteralinclude.readthedocs.io/', None),
+      'sphinxext-linkcheckdiff': ('https://sphinxext-linkcheckdiff.readthedocs.io/', None),
+      'sphinxnotes-lilypond': ('https://pandas.readthedocs.io/', None),
+      'sphinx-Timeline': ('https://sphinx-Timeline.readthedocs.io/', None),
+      'sphinx-copybutton': ('https://sphinx-copybutton.readthedocs.io/', None),
+      'sphinx-Hoverxref': ('https://sphinx-Hoverxref.readthedocs.io/', None),
+      'sphinx_issues': ('https://sphinx_issues.readthedocs.io/', None),
+      'sphinx-gallery': ('https://sphinx-gallery.readthedocs.io/', None),
+      'sphinxcontrib-images': ('https://sphinxcontrib-images.readthedocs.io/', None),
+      'sphinx-gitstamp': ('https://sphinx-gitstamp.readthedocs.io/', None),
+      'sphinx-notfound-page': ('https://sphinx-notfound-page.readthedocs.io/', None),
+      'sphinxext.rediraffe': ('https://sphinxext.rediraffe.readthedocs.io/', None),
+      'sphinx-Sitemap': ('https://github.com/jdillard/sphinx-sitemap', None),
+      'sphinx-Jinja': ('https://jinja.palletsprojects.com/en/3.0.x/', None),
+  }
+
+
+:ref:`numpy <numpy:>`    
+:ref:`python <python:>`    
+:ref:`pydagogue <pydagogue:>`    
+:ref:`matplotlib <matplotlib:>`    
+:ref:`scipy <scipy:>`    
+:ref:`pandas <pandas:>`    
+:ref:`sphinx <sphinx:>`    
+:ref:`docutils <python:>`    
+:ref:`sphinx_rtd_theme <sphinx_rtd_theme:>`    
+:ref:`readthedocs-sphinx-ext <readthedocs-sphinx-ext:>`    
+:ref:`sphinx_material <sphinx_material:>`    
+:ref:`sphinx-panels <sphinx-panels:>`    
+
 
 Last change: |today|
