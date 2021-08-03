@@ -15,15 +15,9 @@ Big Picture Important Charts
 USA COVID 'Cases' per Day vs Deaths per Day - two years data
 -----------------------------------------------------------------------------
 
-.. figure:: /assets/Vaccines/Death-Rates/Flu_Covid_1916_to_December_2020.jpg
-
-
-.. figure:: /assets/Vaccines/Death-Rates/2020-deaths-across-Euromomo-countries.png
-
-
 .. figure:: /assets/Vaccines/Death-Rates/2021-08-03-USA-covid-cases-vs-deaths-per-day.jpg
   :align: center
-  :width: 60 %
+  :width: 100 %
 
   August 3, 2021 - USA COVID 'Cases' per Day vs Deaths per Day - two years data 
 
