@@ -88,6 +88,11 @@ We currently support two different types of floating windows: Tooltip and Modal.
    See :ref:`usage:usage` for more detailed information about this and other examples.
 
 
+
+See :ref:`usage` for more detailed information about this and other examples.
+
+See :ref:`Sphinx-Hoverxref:usage` for more detailed information about this and other examples.
+
 ----
 
 Reference

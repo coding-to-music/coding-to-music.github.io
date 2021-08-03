@@ -178,6 +178,7 @@ Example of intersphinx mapping, as set in conf.py::
       'pandas': ('https://pandas.pydata.org/pandas-docs/stable/', None),
       'sphinx': ('https://sphinx.readthedocs.io/', None),
       'docutils': ('https://docutils.readthedocs.io/', None),
+      'requests': ('https://requests.readthedocs.io/en/master', None),
       'sphinx_rtd_theme': ('https://sphinx_rtd_theme.readthedocs.io/', None),
       'readthedocs-sphinx-ext': ('https://readthedocs-sphinx-ext.readthedocs.io/', None),
       'sphinx_material': ('https://sphinx_material.readthedocs.io/', None),
@@ -207,6 +208,8 @@ Example of intersphinx mapping, as set in conf.py::
   }
 
 
+
+:ref:`requests <requests:>`    
 :ref:`numpy <numpy:>`    
 :ref:`python <python:>`    
 :ref:`pydagogue <pydagogue:>`    
