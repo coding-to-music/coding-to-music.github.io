@@ -2,9 +2,9 @@ Making Sense of the Pandemic
 =========================================
 
 
-.. figure:: assets/Vaccines/Death-Rates/2021-08-03-USA-covid-cases-vs-deaths-per-day.jpg
+.. figure:: /assets/Vaccines/Death-Rates/2021-08-03-USA-covid-cases-vs-deaths-per-day.jpg
   :align: center
-  :width: 80 %
+  :width: 60 %
 
   August 3, 2021 - USA COVID 'Cases' per Day vs Deaths per Day - two years data 
 
