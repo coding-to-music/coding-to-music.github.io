@@ -1,11 +1,11 @@
 ## Hello and welcome!!
 
-[cases-vs-deaths-August-2021](https://github.com/coding-to-music/coding-to-music.github.io/blob/master/docs/source/assets/Vaccines/Death-Rates/2021-08-03-USA-covid-cases-vs-deaths-per-day.jpg?raw=true)
+![cases-vs-deaths-August-2021](https://github.com/coding-to-music/coding-to-music.github.io/blob/master/docs/source/assets/Vaccines/Death-Rates/2021-08-03-USA-covid-cases-vs-deaths-per-day.jpg?raw=true)
 
 
 August 3, 2021 - USA COVID 'Cases' per Day vs Deaths per Day - two years data 
 
-Source: `'Experts' Move The Goalposts, Declare Herd Immunity Threshold Now 90% Due To Delta August 3, 2021 <https://www.zerohedge.com/covid-19/experts-move-goalposts-declare-herd-immunity-threshold-now-90-due-delta>`_
+Source: ['Experts' Move The Goalposts, Declare Herd Immunity Threshold Now 90% Due To Delta August 3, 2021](https://www.zerohedge.com/covid-19/experts-move-goalposts-declare-herd-immunity-threshold-now-90-due-delta)
 
 
 
