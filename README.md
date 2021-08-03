@@ -1,6 +1,6 @@
 ## Hello and welcome!!
 
-![cases-vs-deaths-August-2021](https://github.com/coding-to-music/coding-to-music/blob/master/assets/Vaccines/Death-Rates/2021-08-03-USA-covid-cases-vs-deaths-per-day.jpg)
+![cases-vs-deaths-August-2021](https://github.com/coding-to-music/coding-to-music.github.io/blob/master/docs/source/assets/Vaccines/Death-Rates/2021-08-03-USA-covid-cases-vs-deaths-per-day.jpg?raw=true)
 
 
 August 3, 2021 - USA COVID 'Cases' per Day vs Deaths per Day - two years data 
