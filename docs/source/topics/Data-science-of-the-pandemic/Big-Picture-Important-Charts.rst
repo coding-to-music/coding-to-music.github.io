@@ -12,6 +12,15 @@ Big Picture Important Charts
   :local:
 
 
+.. figure:: assets/Vaccines/Death-Rates/2021-08-03-USA-covid-cases-vs-deaths-per-day.jpg
+  :align: center
+  :width: 50 %
+
+  August 3, 2021 - USA COVID 'Cases' per Day vs Deaths per Day - two years data 
+
+Source: `'Experts' Move The Goalposts, Declare Herd Immunity Threshold Now 90% Due To Delta August 3, 2021 <https://www.zerohedge.com/covid-19/experts-move-goalposts-declare-herd-immunity-threshold-now-90-due-delta>`_
+
+
 
 Over 12,000 people test positive for COVID-19 after receiving Pfizer vaccine
 -----------------------------------------------------------------------------
@@ -129,6 +138,6 @@ UK virus cases hospital ICU deaths
     
   virus cases hospital ICU deaths
   
-Source: [Twitter Christina Pagel @chrischirp Jan 16, 2021](https://twitter.com/chrischirp/status/1350416441498079234)
-  
+Source: `Twitter Christina Pagel @chrischirp Jan 16, 2021 <https://twitter.com/chrischirp/status/1350416441498079234>`_
+
 Last change: |today| 
